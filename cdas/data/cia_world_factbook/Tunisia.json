@@ -1,0 +1,99 @@
+{
+    "name": "Tunisia",
+    "background": "Rivalry between French and Italian interests in Tunisia culminated in a French invasion in 1881 and the creation of a protectorate. Agitation for independence in the decades following World War I was finally successful in convincing the French to recognize Tunisia as an independent state in 1956. The country's first president, Habib BOURGUIBA, established a strict one-party state. He dominated the country for 31 years, repressing Islamic fundamentalism and establishing rights for women unmatched by any other Arab nation. In November 1987, BOURGUIBA was removed from office and replaced by Zine el Abidine BEN ALI in a bloodless coup. Street protests that began in Tunis in December 2010 over high unemployment, corruption, widespread poverty, and high food prices escalated in January 2011, culminating in rioting that led to hundreds of deaths. On 14 January 2011, the same day BEN ALI dismissed the government, he fled the country, and by late January 2011, a \"national unity government\" was formed. Elections for the new Constituent Assembly were held in late October 2011, and in December, it elected human rights activist Moncef MARZOUKI as interim president. The Assembly began drafting a new constitution in February 2012 and, after several iterations and a months-long political crisis that stalled the transition, ratified the document in January 2014. Parliamentary and presidential elections for a permanent government were held at the end of 2014. Beji CAID ESSEBSI was elected as the first president under the country's new constitution. Following ESSEBSI’s death in office in July 2019, Tunisia moved its scheduled presidential election forward two months and after two rounds of voting, Kais SAIED was sworn in as president in October 2019. Tunisia also held legislative elections on schedule in October 2019. SAIED's term, as well as that of Tunisia's 217-member parliament, expires in 2024.",
+    "coordinates": "34 00 N, 9 00 E",
+    "region": "Africa",
+    "total_area": "163,610 sq km",
+    "land_area": "155,360 sq km",
+    "water_area": "8,250 sq km",
+    "land_boundary": "1,495 km",
+    "neighbors": {
+        "Libya": "461 km"
+    },
+    "climate": "temperate in north with mild, rainy winters and hot, dry summers; desert in south",
+    "coastline": "1,148 km",
+    "natural_hazards": [
+        "flooding",
+        "earthquakes",
+        "droughts"
+    ],
+    "terrain": "mountains in north; hot, dry central plain; semiarid south merges into the Sahara",
+    "population_distribution": "the overwhelming majority of the population is located in the northern half of the country; the south remains largely underpopulated",
+    "natural_resources": [
+        "petroleum",
+        "phosphates",
+        "iron ore",
+        "lead",
+        "zinc",
+        "salt"
+    ],
+    "population": "11,721,177",
+    "nationality": "Tunisian(s)",
+    "ethnic_groups": {"Arab": "98%", "European": "1%", "Jewish and other": "1%"},
+    "languages": {
+        "Arabic (official)": "",
+        "French": "",
+        "Berber": ""
+    },
+    "religions": {
+        "Muslim (official; Sunni)": "99.1%", 
+        "other": "1%"},
+    "government_type": "parliamentary republic",
+    "national_symbols": "encircled red crescent moon and five-pointed star",
+    "national_colors": ["red", "white"],
+    "gdp": "$39.96 billion",
+    "agriculture": [
+        "olives",
+        "olive oil",
+        "grain",
+        "tomatoes",
+        "citrus fruit",
+        "sugar beets",
+        "dates",
+        "almonds",
+        "beef",
+        "dairy products"
+    ],
+    "industries": [
+        "petroleum",
+        "mining (particularly phosphate, iron ore)",
+        "tourism",
+        "textiles",
+        "footwear",
+        "agribusiness",
+        "beverages"
+    ],
+    "exports": [
+        "clothing",
+        "semi-finished goods and textiles",
+        "agricultural products",
+        "mechanical goods",
+        "phosphates and chemicals",
+        "hydrocarbons",
+        "electrical equipment"
+    ],
+    "imports": [
+        "textiles",
+        "machinery and equipment",
+        "hydrocarbons",
+        "chemicals",
+        "foodstuffs"
+    ],
+    "broadband_subscriptions": "1,014,395",
+    "internet_users": "5,665,242",
+    "mobile_subscriptions": "14,769,594",
+    "internet_country_code": ".tn",
+    "military_and_security_forces": "Tunisian Armed Forces (Forces Armees Tunisiens, FAT): Tunisian Army (includes Tunisian Air Defense Force), Tunisian Navy, Republic of Tunisia Air Force; Ministry of Interior: Tunisian National Guard",
+    "pipelines": [
+        "68 km condensate",
+        "3111 km gas",
+        "1381 km oil",
+        "453 km refined products"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Bizerte, Gabes, Rades, Sfax, Skhira"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "29",
+    "international_disputes": "none"
+}

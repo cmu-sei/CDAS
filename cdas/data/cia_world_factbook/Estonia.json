@@ -1,0 +1,109 @@
+{
+    "name": "Estonia",
+    "background": "After centuries of Danish, Swedish, German, and Russian rule, Estonia attained independence in 1918. Forcibly incorporated into the USSR in 1940 - an action never recognized by the US and many other countries - it regained its freedom in 1991 with the collapse of the Soviet Union. Since the last Russian troops left in 1994, Estonia has been free to promote economic and political ties with the West. It joined both NATO and the EU in the spring of 2004, formally joined the OECD in late 2010, and adopted the euro as its official currency on 1 January 2011.",
+    "coordinates": "59 00 N, 26 00 E",
+    "region": "Europe",
+    "total_area": "45,228 sq km",
+    "land_area": "42,388 sq km",
+    "water_area": "2,840 sq km",
+    "land_boundary": "657 km",
+    "neighbors": {
+        "Russia": "324 km"
+    },
+    "climate": "maritime; wet, moderate winters, cool summers",
+    "coastline": "3,794 km",
+    "natural_hazards": [
+        "sometimes flooding occurs in the spring"
+    ],
+    "terrain": "marshy, lowlands; flat in the north, hilly in the south",
+    "population_distribution": "a fairly even distribution throughout most of the country, with urban areas attracting larger and denser populations",
+    "natural_resources": [
+        "oil shale",
+        "peat",
+        "rare earth elements",
+        "phosphorite",
+        "clay",
+        "limestone",
+        "sand",
+        "dolomite",
+        "arable land",
+        "sea mud"
+    ],
+    "population": "1,228,624",
+    "nationality": "Estonian(s)",
+    "ethnic_groups": {
+        "Estonian": "68.7%",
+        "Russian": "24.8%",
+        "Ukrainian": "1.7%",
+        "Belarusian": "1%",
+        "Finn": "0.6%",
+        "other": "1.6%",
+        "unspecified": "1.6%"
+    },
+    "languages": {
+        "Estonian (official)": "68.5%",
+        "Russian": "29.6%",
+        "Ukrainian": "0.6%",
+        "other": "1.2%",
+        "unspecified": "0.1%"
+    },
+    "religions": {
+        "Orthodox": "16.2%", 
+        "Lutheran": "9.9%", 
+        "other Christian": "2.2%", 
+        "other": "0.9%", 
+        "none": "54.1%", 
+        "unspecified": "16.7%"},
+    "government_type": "parliamentary republic",
+    "national_symbols": "barn swallow, cornflower",
+    "national_colors": ["blue", "black", "white"],
+    "gdp": "$25.97 billion",
+    "agriculture": [
+        "grain",
+        "potatoes",
+        "vegetables",
+        "livestock and dairy products",
+        "fish"
+    ],
+    "industries": [
+        "food",
+        "engineering",
+        "electronics",
+        "wood and wood products",
+        "textiles",
+        "information technology",
+        "telecommunications"
+    ],
+    "exports": [
+        "machinery and electrical equipment",
+        "food products and beverages",
+        "mineral fuels",
+        "wood and wood products",
+        "articles of base metals",
+        "furniture and bedding",
+        "vehicles and parts",
+        "chemicals"
+    ],
+    "imports": [
+        "machinery and electrical equipment",
+        "mineral fuels",
+        "food and food products",
+        "vehicles",
+        "chemical products",
+        "metals"
+    ],
+    "broadband_subscriptions": "441,167",
+    "internet_users": "1,097,921",
+    "mobile_subscriptions": "1,924,034",
+    "internet_country_code": ".ee",
+    "military_and_security_forces": "Estonian Defense Forces: Land Forces, Navy, Air Force, Estonian Defence League (Reserves); Ministry of Interior: Border Guards",
+    "pipelines": [
+        "2360 km gas"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Kuivastu, Kunda, Muuga, Parnu Reid, Sillamae, Tallinn"
+    },
+    "waterways": "335 km",
+    "number_of_airports": "18",
+    "international_disputes": "Russia and Estonia in May 2005 signed a technical border agreement, but Russia in June 2005 recalled its signature after the Estonian parliament added to its domestic ratification act a historical preamble referencing the Soviet occupation and Estonia's pre-war borders under the 1920 Treaty of Tartu; Russia contends that the preamble allows Estonia to make territorial claims on Russia in the future, while Estonian officials deny that the preamble has any legal impact on the treaty text; Russia demands better treatment of the Russian-speaking population in Estonia; as a member state that forms part of the EU's external border, Estonia implements strict Schengen border rules with Russia"
+}

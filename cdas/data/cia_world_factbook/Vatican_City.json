@@ -1,0 +1,61 @@
+{
+    "name": "Vatican City",
+    "background": "Popes in their secular role ruled portions of the Italian peninsula for more than a thousand years until the mid-19th century, when many of the Papal States were seized by the newly united Kingdom of Italy. In 1870, the pope's holdings were further circumscribed when Rome itself was annexed. Disputes between a series of \"prisoner\" popes and Italy were resolved in 1929 by three Lateran Treaties, which established the independent state of Vatican City and granted Roman Catholicism special status in Italy. In 1984, a concordat between the Holy See and Italy modified certain of the earlier treaty provisions, including the primacy of Roman Catholicism as the Italian state religion. Present concerns of the Holy See include religious freedom, threats against minority Christian communities in Africa and the Middle East, the plight of refugees and migrants, sexual misconduct by clergy, international development, interreligious dialogue and reconciliation, and the application of church doctrine in an era of rapid change and globalization. About 1.3 billion people worldwide profess Catholicism - the world's largest Christian faith.",
+    "coordinates": "41 54 N, 12 27 E",
+    "region": "Europe",
+    "total_area": "0.44 sq km",
+    "land_area": "0.44 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "3.4 km",
+    "neighbors": {},
+    "climate": "temperate; mild, rainy winters (September to May) with hot, dry summers (May to September)",
+    "coastline": "0 km",
+    "natural_hazards": [
+        "occasional earthquakes"
+    ],
+    "terrain": "urban; low hill",
+    "population_distribution": "Unknown",
+    "natural_resources": [
+        "none"
+    ],
+    "population": "1,000",
+    "nationality": "none",
+    "ethnic_groups": {
+        "Italian":"", "Swiss":"", "Argentinian":"", 
+        "other nationalities from around the world":""},
+    "languages": {
+        "Italian": "",
+        "Latin": "",
+        "French": "",
+        "various other languages": ""
+    },
+    "religions": {"Roman Catholic":""},
+    "government_type": "ecclesiastical elective monarchy; self-described as an \"absolute monarchy\"",
+    "national_symbols": "crossed keys beneath a papal tiara",
+    "national_colors": ["yellow", "white"],
+    "gdp": "Unknown",
+    "agriculture": "Unknown",
+    "industries": [
+        "printing",
+        "production of coins",
+        "medals",
+        "postage stamps",
+        "mosaics",
+        "staff uniforms",
+        "worldwide banking and financial activities"
+    ],
+    "exports": "Unknown",
+    "imports": "Unknown",
+    "broadband_subscriptions": "Unknown",
+    "internet_users": "Unknown",
+    "mobile_subscriptions": "Unknown",
+    "internet_country_code": ".va",
+    "military_and_security_forces": "Pontifical Swiss Guard Corps (Corpo della Guardia Svizzera Pontificia); the Gendarmerie Corps of Vatican City is a police force that helps augment the Pontifical Swiss Guard during the Pope’s appearances, as well as providing general security, traffic direction, and investigative duties for the Vatican City State",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": "Unknown",
+    "waterways": "Unknown",
+    "number_of_airports": "Unknown",
+    "international_disputes": "none"
+}

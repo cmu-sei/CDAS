@@ -1,0 +1,74 @@
+{
+    "name": "Monaco",
+    "background": "The Genoese built a fortress on the site of present day Monaco in 1215. The current ruling GRIMALDI family first seized control in 1297 but was not able to permanently secure its holding until 1419. Economic development was spurred in the late 19th century with a railroad linkup to France and the opening of a casino. Since then, the principality's mild climate, splendid scenery, and gambling facilities have made Monaco world famous as a tourist and recreation center.",
+    "coordinates": "43 44 N, 7 24 E",
+    "region": "Europe",
+    "total_area": "2 sq km",
+    "land_area": "2 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "6 km",
+    "neighbors": {},
+    "climate": "Mediterranean with mild, wet winters and hot, dry summers",
+    "coastline": "4.1 km",
+    "natural_hazards": [
+        "none"
+    ],
+    "terrain": "hilly, rugged, rocky",
+    "population_distribution": "the second most densely populated country in the world (after Macau); its entire population living on 2 square km",
+    "natural_resources": [
+        "none"
+    ],
+    "population": "39,000",
+    "nationality": "Monegasque(s) or Monacan(s)",
+    "ethnic_groups": {
+        "Monegasque": "32.1%", 
+        "French": "19.9%", 
+        "Italian": "15.3%", 
+        "British": "5%", 
+        "Belgian": "2.3%", 
+        "Swiss": "2%", 
+        "German": "1.9%", 
+        "Russian": "1.8%", 
+        "American": "1.1%", 
+        "Dutch": "1.1%", 
+        "Moroccan": "1%", 
+        "other": "16.6%"
+    },
+    "languages": {
+        "French (official)": "",
+        "English": "",
+        "Italian": "",
+        "Monegasque": ""
+    },
+    "religions": {"Roman Catholic": "90%", "other": "10%"},
+    "government_type": "constitutional monarchy",
+    "national_symbols": "red and white lozenges (diamond shapes)",
+    "national_colors": ["red", "white"],
+    "gdp": "$6.006 billion",
+    "agriculture": [
+        "none"
+    ],
+    "industries": [
+        "banking",
+        "insurance",
+        "tourism",
+        "construction",
+        "small-scale industrial and consumer products"
+    ],
+    "exports": "Unknown",
+    "imports": "Unknown",
+    "broadband_subscriptions": "19,822",
+    "internet_users": "29,116",
+    "mobile_subscriptions": "32,689",
+    "internet_country_code": ".mc",
+    "military_and_security_forces": "no regular military forces; Ministry of Interior: Compagnie des Carabiniers du Prince (Prince’s Company of Carabiniers (Palace Guard)), Corps des Sapeurs-pompiers de Monaco (Fire and Emergency), Police Department",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Hercules Port"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "Unknown",
+    "international_disputes": "none"
+}

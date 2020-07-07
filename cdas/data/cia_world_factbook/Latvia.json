@@ -1,0 +1,106 @@
+{
+    "name": "Latvia",
+    "background": "Several eastern Baltic tribes merged in medieval times to form the ethnic core of the Latvian people (ca. 8th-12th centuries A.D.). The region subsequently came under the control of Germans, Poles, Swedes, and finally, Russians. A Latvian republic emerged following World War I, but it was annexed by the USSR in 1940 - an action never recognized by the US and many other countries. Latvia reestablished its independence in 1991 following the breakup of the Soviet Union. Although the last Russian troops left in 1994, the status of the Russian minority (some 26% of the population) remains of concern to Moscow. Latvia acceded to both NATO and the EU in the spring of 2004; it joined the euro zone in 2014 and the OECD in 2016. A dual citizenship law was adopted in 2013, easing naturalization for non-citizen children.",
+    "coordinates": "57 00 N, 25 00 E",
+    "region": "Europe",
+    "total_area": "64,589 sq km",
+    "land_area": "62,249 sq km",
+    "water_area": "2,340 sq km",
+    "land_boundary": "1,370 km",
+    "neighbors": {
+        "Estonia": "333 km",
+        "Lithuania": "544 km",
+        "Russia": "332 km"
+    },
+    "climate": "maritime; wet, moderate winters",
+    "coastline": "498 km",
+    "natural_hazards": [
+        "large percentage of agricultural fields can become waterlogged and require drainage"
+    ],
+    "terrain": "low plain",
+    "population_distribution": "largest concentration of people is found in and around the port and capital city of Riga; small agglomerations are scattered throughout the country",
+    "natural_resources": [
+        "peat",
+        "limestone",
+        "dolomite",
+        "amber",
+        "hydropower",
+        "timber",
+        "arable land"
+    ],
+    "population": "1,881,232",
+    "nationality": "Latvian(s)",
+    "ethnic_groups": {
+        "Latvian": "62.2%", 
+        "Russian": "25.2%", 
+        "Belarusian": "3.2%", 
+        "Ukrainian": "2.2%", 
+        "Polish": "2.1%", 
+        "Lithuanian": "1.2%", 
+        "other": "1.5%", 
+        "unspecified": "2.3%"
+    },
+    "languages": {
+        "Latvian (official)": "56.3%",
+        "Russian": "33.8%",
+        "other": "0.6%",
+        "unspecified": "9.4%"
+    },
+    "religions": {
+        "Lutheran": "36.2%", "Roman Catholic": "19.5%", "Orthodox": "19.1%", 
+        "other Christian": "1.6%", "other": "0.1%", "unspecified/none": "23.5%"},
+    "government_type": "parliamentary republic",
+    "national_symbols": "white wagtail (bird)",
+    "national_colors": ["maroon", "white"],
+    "gdp": "$30.33 billion",
+    "agriculture": [
+        "grain",
+        "rapeseed",
+        "potatoes",
+        "vegetables",
+        "pork",
+        "poultry",
+        "milk",
+        "eggs",
+        "fish"
+    ],
+    "industries": [
+        "processed foods",
+        "processed wood products",
+        "textiles",
+        "processed metals",
+        "pharmaceuticals",
+        "railroad cars",
+        "synthetic fibers",
+        "electronics"
+    ],
+    "exports": [
+        "foodstuffs",
+        "wood and wood products",
+        "metals",
+        "machinery and equipment",
+        "textiles"
+    ],
+    "imports": [
+        "machinery and equipment",
+        "consumer goods",
+        "chemicals",
+        "fuels",
+        "vehicles"
+    ],
+    "broadband_subscriptions": "525,995",
+    "internet_users": "1,570,374",
+    "mobile_subscriptions": "2,070,180",
+    "internet_country_code": ".lv",
+    "military_and_security_forces": "National Armed Forces (Nacionalie Brunotie Speki): Land Forces (Latvijas Sauszemes Speki), Naval Force (Latvijas Juras Speki, includes Coast Guard (Latvijas Kara Flote)), Air Force (Latvijas Gaisa Speki), National Guard",
+    "pipelines": [
+        "1,213 km gas",
+        "417 km refined products"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Riga, Ventspils"
+    },
+    "waterways": "300 km",
+    "number_of_airports": "42",
+    "international_disputes": "Russia demands better Latvian treatment of ethnic Russians in Latvia; boundary demarcated with Latvia and Lithuania; the Latvian parliament has not ratified its 1998 maritime boundary treaty with Lithuania, primarily due to concerns over oil exploration rights; as a member state that forms part of the EU's external border, Latvia has implemented the strict Schengen border rules with Russia"
+}

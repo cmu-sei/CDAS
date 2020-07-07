@@ -1,0 +1,101 @@
+{
+    "name": "Timor-Leste",
+    "background": "The Portuguese began to trade with the island of Timor in the early 16th century and colonized it in mid-century. Skirmishing with the Dutch in the region eventually resulted in an 1859 treaty in which Portugal ceded the western portion of the island. Imperial Japan occupied Portuguese Timor from 1942 to 1945, but Portugal resumed colonial authority after the Japanese defeat in World War II. East Timor declared itself independent from Portugal on 28 November 1975 and was invaded and occupied by Indonesian forces nine days later. It was incorporated into Indonesia in July 1976 as the province of Timor Timur (East Timor). An unsuccessful campaign of pacification followed over the next two decades, during which an estimated 100,000 to 250,000 people died. In an August 1999 UN-supervised popular referendum, an overwhelming majority of the people of Timor-Leste voted for independence from Indonesia. However, in the next three weeks, anti-independence Timorese militias - organized and supported by the Indonesian military - commenced a large-scale, scorched-earth campaign of retribution. The militias killed approximately 1,400 Timorese and forced 300,000 people into western Timor as refugees. Most of the country's infrastructure, including homes, irrigation systems, water supply systems, and schools, and nearly all of the country's electrical grid were destroyed. On 20 September 1999, Australian-led peacekeeping troops deployed to the country and brought the violence to an end. On 20 May 2002, Timor-Leste was internationally recognized as an independent state.\nIn 2006, internal tensions threatened the new nation's security when a military strike led to violence and a breakdown of law and order. At Dili's request, an Australian-led International Stabilization Force (ISF) deployed to Timor-Leste, and the UN Security Council established the UN Integrated Mission in Timor-Leste (UNMIT), which included an authorized police presence of over 1,600 personnel. The ISF and UNMIT restored stability, allowing for presidential and parliamentary elections in 2007 in a largely peaceful atmosphere. In February 2008, a rebel group staged an unsuccessful attack against the president and prime minister. The ringleader was killed in the attack, and most of the rebels surrendered in April 2008. Since the attack, the government has enjoyed one of its longest periods of post-independence stability, including successful 2012 elections for both the parliament and president and a successful transition of power in February 2015. In late 2012, the UN Security Council ended its peacekeeping mission in Timor-Leste and both the ISF and UNMIT departed the country. Early parliamentary elections in the spring of 2017 finally produced a majority goovernment after months of impasse. Currently, the government is a coalition of three parties and the president is a member of the opposition party. In 2018 and 2019, this configuration stymied nominations for key ministerial positions and slowed progress on certain policy issues.",
+    "coordinates": "8 50 S, 125 55 E",
+    "region": "Southeast Asia",
+    "total_area": "14,874 sq km",
+    "land_area": "14,874 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "253 km",
+    "neighbors": {},
+    "climate": "tropical; hot, humid; distinct rainy and dry seasons",
+    "coastline": "706 km",
+    "natural_hazards": [
+        "floods and landslides are common",
+        "earthquakes",
+        "tsunamis",
+        "tropical cyclones"
+    ],
+    "terrain": "mountainous",
+    "population_distribution": "most of the population concentrated in the western third of the country, particularly around Dili",
+    "natural_resources": [
+        "gold",
+        "petroleum",
+        "natural gas",
+        "manganese",
+        "marble"
+    ],
+    "population": "1,383,723",
+    "nationality": "Timorese",
+    "ethnic_groups": {
+        "Austronesian (Malayo-Polynesian)":"", 
+        "Melanesian-Papuan (includes Bunak, Fataluku, Bakasai)":"", 
+        "small Chinese minority":""},
+    "languages": {
+        "Tetun Prasa": "30.6%",
+        "Mambai": "16.6%",
+        "Makasai": "10.5%",
+        "Tetun Terik": "6.1%",
+        "Baikenu": "5.9%",
+        "Kemak": "5.8%",
+        "Bunak": "5.5%",
+        "Tokodede": "4%",
+        "Fataluku": "3.5%",
+        "Waima'a": "1.8%",
+        "Galoli": "1.4%",
+        "Naueti": "1.4%",
+        "Idate": "1.2%",
+        "Midiki": "1.2%",
+        "other": "4.5%"
+    },
+    "religions": {
+        "Roman Catholic": "97.6%", "Protestant/Evangelical": "2%", "Muslim": "0.2%", "other": "0.2%"},
+    "government_type": "semi-presidential republic",
+    "national_symbols": "Mount Ramelau",
+    "national_colors": ["red", "yellow", "black", "white"],
+    "gdp": "$2.775 billion",
+    "agriculture": [
+        "coffee",
+        "rice",
+        "corn",
+        "cassava",
+        "sweet potatoes",
+        "soybeans",
+        "cabbage",
+        "mangoes",
+        "bananas",
+        "vanilla"
+    ],
+    "industries": [
+        "printing",
+        "soap manufacturing",
+        "handicrafts",
+        "woven cloth"
+    ],
+    "exports": [
+        "oil",
+        "coffee",
+        "sandalwood",
+        "marble"
+    ],
+    "imports": [
+        "food",
+        "gasoline",
+        "kerosene",
+        "machinery"
+    ],
+    "broadband_subscriptions": "603",
+    "internet_users": "318,373",
+    "mobile_subscriptions": "1,468,495",
+    "internet_country_code": ".tl",
+    "military_and_security_forces": "Timor-Leste Defense Force (Falintil-Forcas de Defesa de Timor-L'este, Falintil (F-FDTL)): Headquarters with Land and Naval components",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Dili"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "6",
+    "international_disputes": "three stretches of land borders with Indonesia have yet to be delimited, two of which are in the Oecussi exclave area, and no maritime or Economic Exclusion Zone boundaries have been established between the countries; maritime boundaries with Indonesia remain unresolved; Timor-Leste and Australia reached agreement on a treaty delimiting a permanent maritime boundary in March 2018; the treaty will enter into force once ratified by the two countries' parliaments"
+}

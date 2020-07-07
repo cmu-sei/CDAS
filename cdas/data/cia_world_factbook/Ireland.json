@@ -1,0 +1,102 @@
+{
+    "name": "Ireland",
+    "background": "Celtic tribes arrived on the island between 600 and 150 B.C. Invasions by Norsemen that began in the late 8th century were finally ended when King Brian BORU defeated the Danes in 1014. Norman invasions began in the 12th century and set off more than seven centuries of Anglo-Irish struggle marked by fierce rebellions and harsh repressions. The Irish famine of the mid-19th century was responsible for a drop in the island's population by more than one quarter through starvation, disease, and emigration. For more than a century afterward, the population of the island continued to fall only to begin growing again in the 1960s. Over the last 50 years, Ireland's high birthrate has made it demographically one of the youngest populations in the EU.The modern Irish state traces its origins to the failed 1916 Easter Monday Uprising that touched off several years of guerrilla warfare resulting in independence from the UK in 1921 for 26 southern counties; six northern (Ulster) counties remained part of the UK. Deep sectarian divides between the Catholic and Protestant populations and systemic discrimination in Northern Ireland erupted into years of violence known as the \"Troubles\" that began in the 1960s. The Government of Ireland was part of a process along with the UK and US Governments that helped broker the Good Friday Agreement in Northern Ireland in 1998. This initiated a new phase of cooperation between the Irish and British Governments. Ireland was neutral in World War II and continues its policy of military neutrality. Ireland joined the European Community in 1973 and the euro-zone currency union in 1999. The economic boom years of the Celtic Tiger (1995-2007) saw rapid economic growth, which came to an abrupt end in 2008 with the meltdown of the Irish banking system. Today the economy is recovering, fueled by large and growing foreign direct investment, especially from US multi-nationals.",
+    "coordinates": "53 00 N, 8 00 W",
+    "region": "Europe",
+    "total_area": "70,273 sq km",
+    "land_area": "68,883 sq km",
+    "water_area": "1,390 sq km",
+    "land_boundary": "490 km",
+    "neighbors": {},
+    "climate": "temperate maritime; modified by North Atlantic Current; mild winters, cool summers; consistently humid; overcast about half the time",
+    "coastline": "1,448 km",
+    "natural_hazards": [
+        "rare extreme weather events"
+    ],
+    "terrain": "mostly flat to rolling interior plain surrounded by rugged hills and low mountains; sea cliffs on west coast",
+    "population_distribution": "population distribution is weighted to the eastern side of the island, with the largest concentration being in and around Dublin; populations in the west are small due to mountainous land, poorer soil, lack of good transport routes, and fewer job opportunities",
+    "natural_resources": [
+        "natural gas",
+        "peat",
+        "copper",
+        "lead",
+        "zinc",
+        "silver",
+        "barite",
+        "gypsum",
+        "limestone",
+        "dolomite"
+    ],
+    "population": "5,176,569",
+    "nationality": "Irishman(men), Irishwoman(women), Irish (collective plural)",
+    "ethnic_groups": {
+        "Irish":"82.2%",
+        "Irish travelers": "0.7%",
+        "other white": "9.5%",
+        "Asian": "2.1%",
+        "black": "1.4%",
+        "other": "1.5%",
+        "unspecified": "2.6%"
+    },
+    "languages": {
+        "English (official)": "",
+        "Irish  (official)": ""
+    },
+    "religions": {
+        "Roman Catholic": "78.3%", "Church of Ireland": "2.7%", 
+        "other Christian": "1.6%", "Orthodox": "1.3%", "Muslim": "1.3%", 
+        "other": "2.4%", "none": "9.8%", "unspecified": "2.6%"},
+    "government_type": "parliamentary republic",
+    "national_symbols": "harp, shamrock (trefoil)",
+    "national_colors": ["blue", "green"],
+    "gdp": "$331.5 billion",
+    "agriculture": [
+        "barley",
+        "potatoes",
+        "wheat",
+        "beef",
+        "dairy products"
+    ],
+    "industries": [
+        "pharmaceuticals",
+        "chemicals",
+        "computer hardware and software",
+        "food products",
+        "beverages and brewing",
+        "medical devices"
+    ],
+    "exports": [
+        "machinery and equipment",
+        "computers",
+        "chemicals",
+        "medical devices",
+        "pharmaceuticals",
+        "foodstuffs",
+        "animal products"
+    ],
+    "imports": [
+        "data processing equipment",
+        "other machinery and equipment",
+        "chemicals",
+        "petroleum and petroleum products",
+        "textiles",
+        "clothing"
+    ],
+    "broadband_subscriptions": "1,430,160",
+    "internet_users": "4,069,432",
+    "mobile_subscriptions": "4,971,493",
+    "internet_country_code": ".ie",
+    "military_and_security_forces": "Irish Defence Forces (Oglaigh na h-Eireannn): Army (includes Army Reserve), Naval Service (includes Naval Service Reserves), Air Corps",
+    "pipelines": [
+        "2427 km gas"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Dublin, Shannon Foynes",
+        "cruise port(s)": "Cork, Dublin",
+        "container port(s) (TEUs)": "Dublin (529,563)",
+        "river port(s)": "Cork (Lee), Waterford (Suir)"
+    },
+    "waterways": "956 km",
+    "number_of_airports": "40",
+    "international_disputes": "Ireland, Iceland, and the UK dispute Denmark's claim that the Faroe Islands' continental shelf extends beyond 200 nm"
+}

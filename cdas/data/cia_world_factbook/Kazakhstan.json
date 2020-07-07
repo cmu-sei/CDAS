@@ -1,0 +1,128 @@
+{
+    "name": "Kazakhstan",
+    "background": "Ethnic Kazakhs, a mix of Turkic and Mongol nomadic tribes with additional Persian cultural influences, migrated to the region in the 15th century. The area was conquered by Russia in the 18th and 19th centuries, and Kazakhstan became a Soviet Republic in 1925. Repression and starvation associated with forced agricultural collectivization led to a massive number of deaths in the 1930s. During the 1950s and 1960s, the agricultural \"Virgin Lands\" program led to an influx of settlers (mostly ethnic Russians, but also other nationalities) and at the time of Kazakhstan’s independence in 1991, ethnic Kazakhs were a minority. Non-Muslim ethnic minorities departed Kazakhstan in large numbers from the mid-1990s through the mid-2000s and a national program has repatriated about a million ethnic Kazakhs (from Uzbekistan, Tajikistan, Mongolia, and the Xinjiang region of China) back to Kazakhstan. As a result of this shift, the ethnic Kazakh share of the population now exceeds two-thirds.Kazakhstan's economy is the largest in the Central Asian states, mainly due to the country's vast natural resources. Current issues include: diversifying the economy, obtaining membership in global and regional international economic institutions, enhancing Kazakhstan's economic competitiveness, and strengthening relations with neighboring states and foreign powers.",
+    "coordinates": "48 00 N, 68 00 E",
+    "region": "Asia",
+    "total_area": "2,724,900 sq km",
+    "land_area": "2,699,700 sq km",
+    "water_area": "25,200 sq km",
+    "land_boundary": "13,364 km",
+    "neighbors": {
+        "Kyrgyzstan": "1212 km",
+        "Russia": "7644 km",
+        "Turkmenistan": "413 km",
+        "Uzbekistan": "2330 km"
+    },
+    "climate": "continental, cold winters and hot summers, arid and semiarid",
+    "coastline": "0 km",
+    "natural_hazards": [
+        "earthquakes in the south",
+        "mudslides around Almaty"
+    ],
+    "terrain": "vast flat steppe extending from the Volga in the west to the Altai Mountains in the east and from the plains of western Siberia in the north to oases and deserts of Central Asia in the south",
+    "population_distribution": "most of the country displays a low population density, particularly the interior; population clusters appear in urban agglomerations in the far northern and southern portions of the country",
+    "natural_resources": [
+        "major deposits of petroleum",
+        "natural gas",
+        "coal",
+        "iron ore",
+        "manganese",
+        "chrome ore",
+        "nickel",
+        "cobalt",
+        "copper",
+        "molybdenum",
+        "lead",
+        "zinc",
+        "bauxite",
+        "gold",
+        "uranium"
+    ],
+    "population": "19,091,949",
+    "nationality": "Kazakhstani(s)",
+    "ethnic_groups": {
+        "Kazakh (Qazaq)": "68%", 
+        "Russian": "19.3%", 
+        "Uzbek": "3.2%", 
+        "Ukrainian": "1.5%", 
+        "Uighur": "1.5%", 
+        "Tatar": "1.1%", 
+        "German": "1%", 
+        "other": "4.4%"
+    },
+    "languages": {
+        "Kazakh (official)": "83.1%", 
+        "trilingual":  "22.3%",
+        "Russian (official)": "94.4%"
+    },
+    "religions": {
+        "Muslim": "70.2%", "Christian": "26.2%", "other": "0.2%", 
+        "atheist": "2.8%", "unspecified": "0.5%"},
+    "government_type": "presidential republic",
+    "national_symbols": "golden eagle",
+    "national_colors": ["blue", "yellow"],
+    "gdp": "$159.4 billion",
+    "agriculture": [
+        "grain (mostly spring wheat and barley)",
+        "potatoes",
+        "vegetables",
+        "melons",
+        "livestock"
+    ],
+    "industries": [
+        "oil",
+        "coal",
+        "iron ore",
+        "manganese",
+        "chromite",
+        "lead",
+        "zinc",
+        "copper",
+        "titanium",
+        "bauxite",
+        "gold",
+        "silver",
+        "phosphates",
+        "sulfur",
+        "uranium",
+        "iron and steel",
+        "tractors and other agricultural machinery",
+        "electric motors",
+        "construction materials"
+    ],
+    "exports": [
+        "oil and oil products",
+        "natural gas",
+        "ferrous metals",
+        "chemicals",
+        "machinery",
+        "grain",
+        "wool",
+        "meat",
+        "coal"
+    ],
+    "imports": [
+        "machinery and equipment",
+        "metal products",
+        "foodstuffs"
+    ],
+    "broadband_subscriptions": "2,462,900",
+    "internet_users": "14,100,751",
+    "mobile_subscriptions": "26,065,600",
+    "internet_country_code": ".kz",
+    "military_and_security_forces": "Armed Forces of Kazakhstan: Land Forces, Navy, Air Defense Force, Republican Guard; Ministry of Internal Affairs: National Guard, Border Service",
+    "pipelines": [
+        "658 km condensate",
+        "15,256 km gas ",
+        "8,013 km oil ",
+        "1,095 km refined products",
+        "1,975 km water"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Caspian Sea - Aqtau (Shevchenko), Atyrau (Gur'yev)",
+        "river port(s)": "Oskemen (Ust-Kamenogorsk), Pavlodar, Semey (Semipalatinsk) (Irtysh River)"
+    },
+    "waterways": "4,000 km",
+    "number_of_airports": "96",
+    "international_disputes": "in January 2019, the Kyrgyz Republic ratified the demarcation agreement of the Kazakh-Kyrgyz border; the demarcation of the Kazakh-Uzbek borders is ongoing; the ongoing demarcation with Russia began in 2007; demarcation with China completed in 2002"
+}

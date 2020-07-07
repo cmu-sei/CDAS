@@ -1,0 +1,89 @@
+{
+    "name": "Bahrain",
+    "background": "In 1783, the Sunni Al-Khalifa family took power in Bahrain. In order to secure these holdings, it entered into a series of treaties with the UK during the 19th century that made Bahrain a British protectorate. The archipelago attained its independence in 1971. A steady decline in oil production and reserves since 1970 prompted Bahrain to take steps to diversify its economy, in the process developing petroleum processing and refining, aluminum production, and hospitality and retail sectors. It has also endeavored to become a leading regional banking center, especially with respect to Islamic finance. Bahrain's small size, central location among Gulf countries, economic dependence on Saudi Arabia, and proximity to Iran require it to play a delicate balancing act in foreign affairs among its larger neighbors. Its foreign policy activities usually fall in line with Saudi Arabia and the UAE.\nThe Sunni royal family has long struggled to manage relations with its large Shia-majority population. In early 2011, amid Arab uprisings elsewhere in the region, the Bahraini Government confronted similar pro-democracy and reform protests at home with police and military action, including deploying Gulf Cooperation Council security forces to Bahrain. Failed political talks prompted opposition political societies to boycott 2014 legislative and municipal council elections. In 2018, a law preventing members of political societies dissolved by the courts from participating in elections effectively sidelined the majority of opposition figures from taking part in national elections. As a result, most members of parliament are independents. Ongoing dissatisfaction with the political status quo continues to factor into sporadic clashes between demonstrators and security forces.",
+    "coordinates": "26 00 N, 50 33 E",
+    "region": "Middle East",
+    "total_area": "760 sq km",
+    "land_area": "760 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "arid; mild, pleasant winters; very hot, humid summers",
+    "coastline": "161 km",
+    "natural_hazards": [
+        "periodic droughts",
+        "dust storms"
+    ],
+    "terrain": "mostly low desert plain rising gently to low central escarpment",
+    "population_distribution": "smallest population of the Gulf States, but urbanization rate exceeds 90%; largest settlement concentration is found on the far northern end of the island in and around Manamah and Al Muharraq",
+    "natural_resources": [
+        "oil",
+        "associated and nonassociated natural gas",
+        "fish",
+        "pearls"
+    ],
+    "population": "1,505,003",
+    "nationality": "Bahraini(s)",
+    "ethnic_groups": {
+        "Bahraini": "46%",
+        "Asian": "45.5%",
+        "other Arab": "4.7%",
+        "African": "1.6%",
+        "European": "1%",
+        "other": "1.2%"
+    },
+    "languages": {
+        "Arabic (official)": "",
+        "English": "",
+        "Farsi": "",
+        "Urdu": ""
+    },
+    "religions": {"Muslim": "73.7%", "Christian": "9.3%", "Jewish": "0.1%", "other": "16.9%"},
+    "government_type": "constitutional monarchy",
+    "national_symbols": "a red field surmounted by a white serrated band with five white points",
+    "national_colors": ["red", "white"],
+    "gdp": "$35.33 billion",
+    "agriculture": [
+        "fruit",
+        "vegetables",
+        "poultry",
+        "dairy products",
+        "shrimp",
+        "fish"
+    ],
+    "industries": [
+        "petroleum processing and refining",
+        "aluminum smelting",
+        "iron pelletization",
+        "fertilizers",
+        "Islamic and offshore banking",
+        "insurance",
+        "ship repairing",
+        "tourism"
+    ],
+    "exports": [
+        "petroleum and petroleum products",
+        "aluminum",
+        "textiles"
+    ],
+    "imports": [
+        "crude oil",
+        "machinery",
+        "chemicals"
+    ],
+    "broadband_subscriptions": "184,603",
+    "internet_users": "1,351,326",
+    "mobile_subscriptions": "2,092,714",
+    "internet_country_code": ".bh",
+    "military_and_security_forces": "Bahrain Defense Force (BDF): Royal Bahraini Army (includes the Royal Guard), Royal Bahraini Navy, Royal Bahraini Air Force, Royal Bahraini Air Defense Force; Ministry of Interior security forces: National Guard, Special Security Forces Command (SSFC), Coast Guard",
+    "pipelines": [
+        "20 km gas",
+        "54 km oil"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Mina' Salman, Sitrah"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "4",
+    "international_disputes": "none"
+}

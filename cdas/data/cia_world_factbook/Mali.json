@@ -1,0 +1,126 @@
+{
+    "name": "Mali",
+    "background": "The Sudanese Republic and Senegal became independent of France in 1960 as the Mali Federation. When Senegal withdrew after only a few months, what formerly made up the Sudanese Republic was renamed Mali. Rule by dictatorship was brought to a close in 1991 by a military coup that ushered in a period of democratic rule. President Alpha Oumar KONARE won Mali's first two democratic presidential elections in 1992 and 1997. In keeping with Mali's two-term constitutional limit, he stepped down in 2002 and was succeeded by Amadou Toumani TOURE, who was elected to a second term in a 2007 election that was widely judged to be free and fair. Malian returnees from Libya in 2011 exacerbated tensions in northern Mali, and Tuareg ethnic militias rebelled in January 2012. Low- and mid-level soldiers, frustrated with the poor handling of the rebellion, overthrew TOURE on 22 March. Intensive mediation efforts led by the Economic Community of West African States (ECOWAS) returned power to a civilian administration in April with the appointment of Interim President Dioncounda TRAORE.\nThe post-coup chaos led to rebels expelling the Malian military from the country's three northern regions and allowed Islamic militants to set up strongholds. Hundreds of thousands of northern Malians fled the violence to southern Mali and neighboring countries, exacerbating regional food shortages in host communities. A French-led international military intervention to retake the three northern regions began in January 2013 and within a month, most of the north had been retaken. In a democratic presidential election conducted in July and August of 2013, Ibrahim Boubacar KEITA was elected president. The Malian Government and northern armed groups signed an internationally mediated peace accord in June 2015, however, the parties to the peace accord have made little progress in the accord's implementation, despite a June 2017 target for its completion. Furthermore, extremist groups outside the peace process made steady inroads into rural areas of central Mali following the consolidation of three major terrorist organizations in March 2017. In central and northern Mali, terrorist groups have exploited age-old ethnic rivalries between pastoralists and sedentary communities and inflicted serious losses on the Malian military. Intercommunal violence incidents such as targeted killings occur with increasing regularity. KEITA was reelected president in 2018 in an election that was deemed credible by international observers, despite some security and logistic shortfalls.",
+    "coordinates": "17 00 N, 4 00 W",
+    "region": "Africa",
+    "total_area": "1,240,192 sq km",
+    "land_area": "1,220,190 sq km",
+    "water_area": "20,002 sq km",
+    "land_boundary": "7,908 km",
+    "neighbors": {
+        "Burkina Faso": "1325 km",
+        "Cote d'Ivoire": "599 km",
+        "Guinea": "1062 km",
+        "Mauritania": "2236 km",
+        "Niger": "838 km",
+        "Senegal": "489 km"
+    },
+    "climate": "subtropical to arid; hot and dry (February to June); rainy, humid, and mild (June to November); cool and dry (November to February)",
+    "coastline": "0 km",
+    "natural_hazards": [
+        "hot, dust-laden harmattan haze common during dry seasons",
+        "recurring droughts",
+        "occasional Niger River flooding"
+    ],
+    "terrain": "mostly flat to rolling northern plains covered by sand; savanna in south, rugged hills in northeast",
+    "population_distribution": "the overwhelming majority of the population lives in the southern half of the country, with greater density along the border with Burkina Faso",
+    "natural_resources": [
+        "gold",
+        "phosphates",
+        "kaolin",
+        "salt",
+        "limestone",
+        "uranium",
+        "gypsum",
+        "granite",
+        "hydropower",
+        "note",
+        "bauxite",
+        "iron ore",
+        "manganese",
+        "tin",
+        "copper deposits are known but not exploited"
+    ],
+    "population": "19,553,397",
+    "nationality": "Malian(s)",
+    "ethnic_groups": {
+        "Bambara": "33.3%", 
+        "Fulani (Peuhl)": "13.3%", 
+        "Sarakole/Soninke/Marka": "9.8%", 
+        "Senufo/Manianka": "9.6%", 
+        "Malinke": "8.8%", 
+        "Dogon": "8.7%", 
+        "Sonrai": "5.9%", 
+        "Bobo": "2.1%", 
+        "Tuareg/Bella": "1.7%", 
+        "other Malian": "6%", 
+        "from member of Economic Community of West Africa": ".4%", 
+        "other": ".3%"
+    },
+    "languages": {
+        "French (official)": "",
+        "Bambara": "46.3%",
+        "Peuhl/Foulfoulbe": "9.4%",
+        "Dogon": "7.2%",
+        "Maraka/Soninke": "6.4%",
+        "Malinke": "5.6%",
+        "Sonrhai/Djerma": "5.6%",
+        "Minianka": "4.3%",
+        "Tamacheq": "3.5%",
+        "Senoufo": "2.6%",
+        "Bobo": "2.1%",
+        "unspecified": "0.7%",
+        "other": "6.3%"
+    },
+    "religions": {
+        "Muslim": "93.9%", 
+        "Christian": "2.8%", 
+        "animist": ".7%", 
+        "none": "2.5%"},
+    "government_type": "semi-presidential republic",
+    "national_symbols": "Great Mosque of Djenne",
+    "national_colors": ["green", "yellow", "red"],
+    "gdp": "$15.37 billion",
+    "agriculture": [
+        "cotton",
+        "millet",
+        "rice",
+        "corn",
+        "vegetables",
+        "peanuts",
+        "cattle",
+        "sheep",
+        "goats"
+    ],
+    "industries": [
+        "food processing",
+        "construction",
+        "phosphate and gold mining"
+    ],
+    "exports": [
+        "cotton",
+        "gold",
+        "livestock"
+    ],
+    "imports": [
+        "petroleum",
+        "machinery and equipment",
+        "construction materials",
+        "foodstuffs",
+        "textiles"
+    ],
+    "broadband_subscriptions": "120,934",
+    "internet_users": "1,940,978",
+    "mobile_subscriptions": "21,955,565",
+    "internet_country_code": ".ml",
+    "military_and_security_forces": "Malian Armed Forces (FAMa): Army (Armee de Terre), Republic of Mali Air Force (Force Aerienne de la Republique du Mali, FARM), National Guard (Garde National du Mali), Gendarmerie",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "river port(s)": "Koulikoro (Niger)"
+    },
+    "waterways": "1,800 km",
+    "number_of_airports": "25",
+    "international_disputes": "demarcation is underway with Burkina Faso"
+}

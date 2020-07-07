@@ -1,0 +1,111 @@
+{
+    "name": "Federated States of Micronesia",
+    "background": "The Caroline Islands are a widely scattered archipelago in the western Pacific Ocean; they became part of a UN Trust Territory under US administration following World War II. The eastern four island groups adopted a constitution in 1979 and chose to become the Federated States of Micronesia (FSM). (The westernmost island group became Palau.) Independence came in 1986 under a Compact of Free Association (COFA) with the US, which was amended in 2004. The COFA has been a force for stability and democracy in the FSM since it came into force in 1986. Present concerns include economic uncertainty after 2023 when direct US economic assistance is scheduled to end, large-scale unemployment, overfishing, overdependence on US foreign aid, and state perceptions of inequitable allocation of US aid.\r\nAs a signatory to the COFA with the US, eligible Micronesians can live, work, and study in any part of the US and its territories without a visa - this privilege reduces stresses on the island economy and the environment. Micronesians serve in the US armed forces and military recruiting from the Federated States of Micronesia, per capita, is higher than many US states.",
+    "coordinates": "6 55 N, 158 15 E",
+    "region": "Oceania",
+    "total_area": "702 sq km",
+    "land_area": "702 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "tropical; heavy year-round rainfall, especially in the eastern islands; located on southern edge of the typhoon belt with occasionally severe damage",
+    "coastline": "6,112 km",
+    "natural_hazards": [
+        "typhoons (June to December)"
+    ],
+    "terrain": "islands vary geologically from high mountainous islands to low, coral atolls; volcanic outcroppings on Pohnpei, Kosrae, and Chuuk",
+    "population_distribution": "the majority of the populaton lives in the coastal areas of the high islands; the mountainous interior is largely uninhabited; less than half of the population lives in urban areas",
+    "natural_resources": [
+        "timber",
+        "marine products",
+        "deep-seabed minerals",
+        "phosphate"
+    ],
+    "population": "102,436",
+    "nationality": "Micronesian(s)",
+    "ethnic_groups": {
+        "Chuukese/Mortlockese": "49.3%", 
+        "Pohnpeian": "29.8%", 
+        "Kosraean": "6.3%", 
+        "Yapese": "5.7%", 
+        "Yap outer islanders": "5.1%", 
+        "Polynesian": "1.6%", 
+        "Asian": "1.4%", 
+        "other": "0.8%"
+    },
+    "languages": {
+        "English (official)": "",
+        "Chuukese": "",
+        "Kosrean": "",
+        "Pohnpeian": "",
+        "Yapese": "",
+        "Ulithian": "",
+        "Woleaian": "",
+        "Nukuoro": "",
+        "Kapingamarangi": ""
+    },
+    "religions": {
+        "Roman Catholic": "54.7%", 
+        "Protestant": "41.1%", 
+        "Mormon": "1.5%", 
+        "other": "1.9%", 
+        "none": "0.7%", 
+        "unspecified": "0.1%"},
+    "government_type": "federal republic in free association with the US",
+    "national_symbols": "four, five-pointed, white stars on a light blue field, hibiscus flower",
+    "national_colors": ["light blue", "white"],
+    "gdp": "$0.328 billion",
+    "agriculture": [
+        "taro",
+        "yams",
+        "coconuts",
+        "bananas",
+        "cassava",
+        "sakau (kava)",
+        "Kosraen citrus",
+        "betel nuts",
+        "black pepper",
+        "fish",
+        "pigs",
+        "chickens"
+    ],
+    "industries": [
+        "tourism",
+        "construction",
+        "specialized aquaculture",
+        "craft items (shell and wood)"
+    ],
+    "exports": [
+        "fish",
+        "sakau (kava)",
+        "betel nuts",
+        "black pepper"
+    ],
+    "imports": [
+        "food",
+        "beverages",
+        "clothing",
+        "computers",
+        "household electronics",
+        "appliances",
+        "manufactured goods",
+        "automobiles",
+        "machinery and equipment",
+        "furniture",
+        "tools"
+    ],
+    "broadband_subscriptions": "3,776",
+    "internet_users": "33,000",
+    "mobile_subscriptions": "23,114",
+    "internet_country_code": ".fm",
+    "military_and_security_forces": "no military forces; Federated States of Micronesia National Police",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Colonia (Tamil Harbor), Molsron Lele Harbor, Pohnepi Harbor"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "6",
+    "international_disputes": "none"
+}

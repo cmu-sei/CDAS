@@ -1,0 +1,112 @@
+{
+    "name": "Belgium",
+    "background": "Belgium became independent from the Netherlands in 1830; it was occupied by Germany during World Wars I and II. The country prospered in the past half century as a modern, technologically advanced European state and member of NATO and the EU. In recent years, political divisions between the Dutch-speaking Flemish of the north and the French-speaking Walloons of the south have led to constitutional amendments granting these regions formal recognition and autonomy. The capital city of Brussels is home to numerous international organizations including the EU and NATO.",
+    "coordinates": "50 50 N, 4 00 E",
+    "region": "Europe",
+    "total_area": "30,528 sq km",
+    "land_area": "30,278 sq km",
+    "water_area": "250 sq km",
+    "land_boundary": "1,297 km",
+    "neighbors": {
+        "Germany": "133 km",
+        "Luxembourg": "130 km",
+        "Netherlands": "478 km"
+    },
+    "climate": "temperate; mild winters, cool summers; rainy, humid, cloudy",
+    "coastline": "66.5 km",
+    "natural_hazards": [
+        "flooding is a threat along rivers and in areas of reclaimed coastal land, protected from the sea by concrete dikes"
+    ],
+    "terrain": "flat coastal plains in northwest, central rolling hills, rugged mountains of Ardennes Forest in southeast",
+    "population_distribution": "most of the population concentrated in the northern two-thirds of the country; the southeast is more thinly populated; considered to have one of the highest population densities in the world; approximately 97% live in urban areas",
+    "natural_resources": [
+        "construction materials",
+        "silica sand",
+        "carbonates",
+        "arable land"
+    ],
+    "population": "11,720,716",
+    "nationality": "Belgian(s)",
+    "ethnic_groups": {
+        "Belgian": "75.2%",
+        "Italian": "4.1%",
+        "Moroccan": "3.7%",
+        "French": "2.4%",
+        "Turkish": "2%",
+        "Dutch": "2%",
+        "other": "10.6%"
+    },
+    "languages": {
+        "Dutch (official)": "60%",
+        "French (official)": "40%",
+        "German (official)": "1%"
+    },
+    "religions": {
+        "Roman Catholic": "50%", "Protestant and other Christian": "2.5%", 
+        "Muslim": "5%", "Jewish": "0.4%", "Buddhist": "0.3%", "atheist": "9.2%", 
+        "none": "32.6%"},
+    "government_type": "federal parliamentary democracy under a constitutional monarchy",
+    "national_symbols": "golden rampant lion",
+    "national_colors": ["red", "black", "yellow"],
+    "gdp": "$493.7 billion",
+    "agriculture": [
+        "sugar beets",
+        "fresh vegetables",
+        "fruits",
+        "grain",
+        "tobacco",
+        "beef",
+        "veal",
+        "pork",
+        "milk"
+    ],
+    "industries": [
+        "engineering and metal products",
+        "motor vehicle assembly",
+        "transportation equipment",
+        "scientific instruments",
+        "processed food and beverages",
+        "chemicals",
+        "pharmaceuticals",
+        "base metals",
+        "textiles",
+        "glass",
+        "petroleum"
+    ],
+    "exports": [
+        "chemicals",
+        "machinery and equipment",
+        "finished diamonds",
+        "metals and metal products",
+        "foodstuffs"
+    ],
+    "imports": [
+        "raw materials",
+        "machinery and equipment",
+        "chemicals",
+        "raw diamonds",
+        "pharmaceuticals",
+        "foodstuffs",
+        "transportation equipment",
+        "oil products"
+    ],
+    "broadband_subscriptions": "4,502,950",
+    "internet_users": "9,870,734",
+    "mobile_subscriptions": "11,447,351",
+    "internet_country_code": ".be",
+    "military_and_security_forces": "Belgian Armed Forces: Land Component, Naval Component, Air Component",
+    "pipelines": [
+        "3139 km gas",
+        "154 km oil",
+        "535 km refined products"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Oostende, Zeebrugge",
+        "container port(s) (TEUs)": "Antwerp (10,450,000)",
+        "LNG terminal(s) (import)": "Zeebrugge",
+        "river port(s)": "Antwerp, Gent (Schelde River)"
+    },
+    "waterways": "2,043 km",
+    "number_of_airports": "41",
+    "international_disputes": "none"
+}

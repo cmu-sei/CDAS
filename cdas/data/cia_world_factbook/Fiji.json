@@ -1,0 +1,109 @@
+{
+    "name": "Fiji",
+    "background": "Fiji became independent in 1970 after nearly a century as a British colony. Democratic rule was interrupted by two military coups in 1987 caused by concern over a government perceived as dominated by the Indian community (descendants of contract laborers brought to the islands by the British in the 19th century). The coups and a 1990 constitution that cemented native Melanesian control of Fiji led to heavy Indian emigration; the population loss resulted in economic difficulties, but ensured that Melanesians became the majority. A new constitution enacted in 1997 was more equitable. Free and peaceful elections in 1999 resulted in a government led by an Indo-Fijian, but a civilian-led coup in 2000 ushered in a prolonged period of political turmoil. Parliamentary elections held in 2001 provided Fiji with a democratically elected government led by Prime Minister Laisenia QARASE. Reelected in May 2006, QARASE was ousted in a December 2006 military coup led by Commodore Voreqe BAINIMARAMA, who initially appointed himself acting president but in January 2007 became interim prime minister. Following years of political turmoil, long-delayed legislative elections were held in September 2014 that were deemed \"credible\" by international observers and that resulted in BAINIMARAMA being reelected. He was reelected in November 2018 in elections deemed free and fair.",
+    "coordinates": "18 00 S, 175 00 E",
+    "region": "Oceania",
+    "total_area": "18,274 sq km",
+    "land_area": "18,274 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "tropical marine; only slight seasonal temperature variation",
+    "coastline": "1,129 km",
+    "natural_hazards": [
+        "cyclonic storms can occur from November to January"
+    ],
+    "terrain": "mostly mountains of volcanic origin",
+    "population_distribution": "approximately 70% of the population lives on the island of Viti Levu; roughly half of the population lives in urban areas",
+    "natural_resources": [
+        "timber",
+        "fish",
+        "gold",
+        "copper",
+        "offshore oil potential",
+        "hydropower"
+    ],
+    "population": "935,974",
+    "nationality": "Fijian(s)",
+    "ethnic_groups": {
+        "iTaukei (predominantly Melanesian with a Polynesian admixture)": "56.8%",
+        "Indo-Fijian": "37.5%",
+        "Rotuman":"1.2%",
+        "other": "4.5%"
+    },
+    "languages": {
+        "English (official)": "",
+        "Fijian (official)": "",
+        "Hindustani": ""
+    },
+    "religions": {
+        "Protestant": "45%", 
+        "Hindu": "27.9%", 
+        "other Christian": "10.4%", 
+        "Roman Catholic": "9.1%", 
+        "Muslim": "6.3%", 
+        "Sikh": "0.3%", 
+        "other": "0.3%", 
+        "none": "0.8%"},
+    "government_type": "parliamentary republic",
+    "national_symbols": "Fijian canoe",
+    "national_colors": ["light blue"],
+    "gdp": "$4.891 billion",
+    "agriculture": [
+        "sugarcane",
+        "copra",
+        "ginger",
+        "tropical fruits",
+        "vegetables",
+        "beef",
+        "pork",
+        "chicken",
+        "fish"
+    ],
+    "industries": [
+        "tourism",
+        "sugar processing",
+        "clothing",
+        "copra",
+        "gold",
+        "silver",
+        "lumber"
+    ],
+    "exports": [
+        "fuel",
+        "including oil",
+        "fish",
+        "beverages",
+        "gems",
+        "sugar",
+        "garments",
+        "gold",
+        "timber",
+        "fish",
+        "molasses",
+        "coconut oil",
+        "mineral water"
+    ],
+    "imports": [
+        "manufactured goods",
+        "machinery and transport equipment",
+        "petroleum products",
+        "food and beverages",
+        "chemicals",
+        "tobacco"
+    ],
+    "broadband_subscriptions": "13,033",
+    "internet_users": "425,680",
+    "mobile_subscriptions": "1,033,915",
+    "internet_country_code": ".fj",
+    "military_and_security_forces": "Republic of Fiji Military Forces (RFMF): Land Force Command, Maritime Command",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Lautoka, Levuka, Suva"
+    },
+    "waterways": "203 km",
+    "number_of_airports": "28",
+    "international_disputes": "maritime boundary dispute with Tonga"
+}

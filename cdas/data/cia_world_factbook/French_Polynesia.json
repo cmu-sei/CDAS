@@ -1,0 +1,87 @@
+{
+    "name": "French Polynesia",
+    "background": "The French annexed various Polynesian island groups during the 19th century. In 1966, the French Government began testing nuclear weapons on the uninhabited Mururoa Atoll; following mounting opposition, the tests were moved underground in 1975. In September 1995, France stirred up widespread protests by resuming nuclear testing after a three-year moratorium. The tests were halted in January 1996. In recent years, French Polynesia's autonomy has been considerably expanded.",
+    "coordinates": "15 00 S, 140 00 W",
+    "region": "Oceania",
+    "total_area": "4,167 sq km",
+    "land_area": "3,827 sq km",
+    "water_area": "340 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "tropical, but moderate",
+    "coastline": "2,525 km",
+    "natural_hazards": [
+        "occasional cyclonic storms in January"
+    ],
+    "terrain": "mixture of rugged high islands and low islands with reefs",
+    "population_distribution": "the majority of the population lives in the Society Islands, one of five archipelagos that includes the most populous island - Tahiti - with approximately 70% of the nation's population",
+    "natural_resources": [
+        "timber",
+        "fish",
+        "cobalt",
+        "hydropower"
+    ],
+    "population": "295,121",
+    "nationality": "French Polynesian(s)",
+    "ethnic_groups": {
+        "Polynesian": "78%",
+        "Chinese": "12%",
+        "local French": "6%",
+        "metropolitan French": "4%"
+    },
+    "languages": {
+        "French (official)": "70%",
+        "Polynesian (official)": "28.2%",
+        "other": "1.8%"
+    },
+    "religions": {
+        "Protestant": "54%", "Roman Catholic": "30%", "other": "10%", "no religion": "6%"},
+    "government_type": "parliamentary democracy (Assembly of French Polynesia); an overseas collectivity of France",
+    "national_symbols": "outrigger canoe, Tahitian gardenia (Gardenia taitensis) flower",
+    "national_colors": ["red", "white"],
+    "gdp": "$4.795 billion",
+    "agriculture": [
+        "coconuts",
+        "vanilla",
+        "vegetables",
+        "fruits",
+        "coffee",
+        "poultry",
+        "beef",
+        "dairy products",
+        "fish"
+    ],
+    "industries": [
+        "tourism",
+        "pearls",
+        "agricultural processing",
+        "handicrafts",
+        "phosphates"
+    ],
+    "exports": [
+        "cultured pearls",
+        "coconut products",
+        "mother-of-pearl",
+        "vanilla",
+        "shark meat"
+    ],
+    "imports": [
+        "fuels",
+        "foodstuffs",
+        "machinery and equipment"
+    ],
+    "broadband_subscriptions": "59,790",
+    "internet_users": "195,275",
+    "mobile_subscriptions": "302,673",
+    "internet_country_code": ".pf",
+    "military_and_security_forces": "no regular military forces",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Papeete"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "54",
+    "international_disputes": "none"
+}

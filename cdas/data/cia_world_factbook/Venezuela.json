@@ -1,0 +1,111 @@
+{
+    "name": "Venezuela",
+    "background": "Venezuela was one of three countries that emerged from the collapse of Gran Colombia in 1830 (the others being Ecuador and New Granada, which became Colombia). For most of the first half of the 20th century, Venezuela was ruled by generally benevolent military strongmen who promoted the oil industry and allowed for some social reforms. Democratically elected governments have held sway since 1959, although the re-election of current disputed President Nicolas MADURO in an election boycotted by most opposition parties was widely viewed as fraudulent. Under Hugo CHAVEZ, president from 1999 to 2013, and his hand-picked successor, MADURO, the executive branch has exercised increasingly authoritarian control over other branches of government. National Assembly President Juan GUAIDO is currently recognized by more than 50 countries - including the United States - as the interim president while MADURO retains control of all other institutions within the country and has the support of security forces. Venezuela is currently authoritarian with only one democratic institution - the National Assembly - and strong restrictions on freedoms of expression and the press. The ruling party's economic policies expanded the state's role in the economy through expropriations of major enterprises, strict currency exchange and price controls that discourage private sector investment and production, and overdependence on the petroleum industry for revenues, among others. However, Caracas in 2019 relaxed some economic controls to mitigate some impacts of the economic crisis driven by a drop in oil production. Current concerns include human rights abuses, rampant violent crime, high inflation, and widespread shortages of basic consumer goods, medicine, and medical supplies.",
+    "coordinates": "8 00 N, 66 00 W",
+    "region": "South America",
+    "total_area": "912,050 sq km",
+    "land_area": "882,050 sq km",
+    "water_area": "30,000 sq km",
+    "land_boundary": "5,267 km",
+    "neighbors": {
+        "Colombia": "2341 km",
+        "Guyana": "789 km"
+    },
+    "climate": "tropical; hot, humid; more moderate in highlands",
+    "coastline": "2,800 km",
+    "natural_hazards": [
+        "subject to floods, rockslides, mudslides",
+        "periodic droughts"
+    ],
+    "terrain": "Andes Mountains and Maracaibo Lowlands in northwest; central plains (llanos); Guiana Highlands in southeast",
+    "population_distribution": "most of the population is concentrated in the northern and western highlands along an eastern spur at the northern end of the Andes, an area that includes the capital of Caracas",
+    "natural_resources": [
+        "petroleum",
+        "natural gas",
+        "iron ore",
+        "gold",
+        "bauxite",
+        "other minerals",
+        "hydropower",
+        "diamonds"
+    ],
+    "population": "28,644,603",
+    "nationality": "Venezuelan(s)",
+    "ethnic_groups": {"unspecified Spanish":"", "Italian":"", "Portuguese":"", 
+        "Arab":"", "German":"", "African":"", "indigenous people":""},
+    "languages": {
+        "Spanish  (official)": "",
+        "numerous indigenous dialects": ""
+    },
+    "religions": {
+        "nominally Roman Catholic": "96%", "Protestant": "2%", "other": "2%"},
+    "government_type": "federal presidential republic",
+    "national_symbols": "troupial (bird)",
+    "national_colors": ["yellow", "blue", "red"],
+    "gdp": "$210.1 billion",
+    "agriculture": [
+        "corn",
+        "sorghum",
+        "sugarcane",
+        "rice",
+        "bananas",
+        "vegetables",
+        "coffee",
+        "beef",
+        "pork",
+        "milk",
+        "eggs",
+        "fish"
+    ],
+    "industries": [
+        "agricultural products",
+        "livestock",
+        "raw materials",
+        "machinery and equipment",
+        "transport equipment",
+        "construction materials",
+        "medical equipment",
+        "pharmaceuticals",
+        "chemicals",
+        "iron and steel products",
+        "crude oil and petroleum products"
+    ],
+    "exports": [
+        "petroleum and petroleum products",
+        "bauxite and aluminum",
+        "minerals",
+        "chemicals",
+        "agricultural products"
+    ],
+    "imports": [
+        "agricultural products",
+        "livestock",
+        "raw materials",
+        "machinery and equipment",
+        "transport equipment",
+        "construction materials",
+        "medical equipment",
+        "petroleum products",
+        "pharmaceuticals",
+        "chemicals",
+        "iron and steel products"
+    ],
+    "broadband_subscriptions": "2,604,578",
+    "internet_users": "18,547,381",
+    "mobile_subscriptions": "20,731,169",
+    "internet_country_code": ".ve",
+    "military_and_security_forces": "Bolivarian National Armed Forces (Fuerza Armada Nacional Bolivariana, FANB): Bolivarian Army (Ejercito Bolivariano, EB), Bolivarian Navy (Armada Bolivariana, AB; includes Marines, Coast Guard), Bolivarian Military Aviation (Aviacion Militar Bolivariana, AMB), Integral Aerospace Defense Command (Comando de Defensa Aeroespacial Integral, CODAI), Bolivarian National Guard (Guardia Nacional Bolivaria, GNB); Bolivarian Militia (Milicia Bolivariana, NMB)",
+    "pipelines": [
+        "981 km extra heavy crude",
+        "5941 km gas",
+        "7588 km oil",
+        "1778 km refined products"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "La Guaira, Maracaibo, Puerto Cabello, Punta Cardon",
+        "oil terminal(s)": "Jose terminal"
+    },
+    "waterways": "7,100 km",
+    "number_of_airports": "444",
+    "international_disputes": "claims all of the area west of the Essequibo River in Guyana, preventing any discussion of a maritime boundary; Guyana has expressed its intention to join Barbados in asserting claims before the UN Convention on the Law of the Sea that Trinidad and Tobago's maritime boundary with Venezuela extends into their waters; dispute with Colombia over maritime boundary and Venezuelan administered Los Monjes Islands near the Gulf of Venezuela; Colombian organized illegal narcotics and paramilitary activities penetrate Venezuela's shared border region; US, France, and the Netherlands recognize Venezuela's granting full effect to Aves Island, thereby claiming a Venezuelan Economic Exclusion Zone/continental shelf extending over a large portion of the eastern Caribbean Sea; Dominica, Saint Kitts and Nevis, Saint Lucia, and Saint Vincent and the Grenadines protest Venezuela's full effect claim"
+}

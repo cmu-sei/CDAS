@@ -1,0 +1,102 @@
+{
+    "name": "Niue",
+    "background": "Niue's remoteness, as well as cultural and linguistic differences between its Polynesian inhabitants and those of the adjacent Cook Islands, has caused it to be separately administered by New Zealand. The population of the island has trended downwards over recent decades (from a peak of 5,200 in 1966 to 1,618 in 2017) with substantial emigration to New Zealand 2,400 km to the southwest.",
+    "coordinates": "19 02 S, 169 52 W",
+    "region": "Oceania",
+    "total_area": "260 sq km",
+    "land_area": "260 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "tropical; modified by southeast trade winds",
+    "coastline": "64 km",
+    "natural_hazards": [
+        "tropical cyclones"
+    ],
+    "terrain": "steep limestone cliffs along coast, central plateau",
+    "population_distribution": "population distributed around the peripheral coastal areas of the island",
+    "natural_resources": [
+        "arable land",
+        "fish"
+    ],
+    "population": "2,000",
+    "nationality": "Niuean(s)",
+    "ethnic_groups": {
+        "Niuean": "66.5%", 
+        "part-Niuean": "13.4%", 
+        "non-Niuean": "20.1%"
+    },
+    "languages": {
+        "Niuean (official)": "46%",
+        "Niuean and English": "32%",
+        "English (official)": "11%",
+        "Niuean and others": "5%",
+        "other": "6%"
+    },
+    "religions": {
+        "Ekalesia Niue": "67%", 
+        "other Protestant": "3%", 
+        "Mormon": "10%", 
+        "Roman Catholic": "10%", 
+        "Jehovah's Witnesses": "2%", 
+        "other": "6%", 
+        "none": "2%"},
+    "government_type": "parliamentary democracy",
+    "national_symbols": "yellow, five-pointed star",
+    "national_colors": ["yellow"],
+    "gdp": "$0.010 billion",
+    "agriculture": [
+        "coconuts",
+        "passion fruit",
+        "honey",
+        "limes",
+        "taro",
+        "yams",
+        "cassava",
+        "sweet potatoes",
+        "pigs",
+        "poultry",
+        "beef cattle"
+    ],
+    "industries": [
+        "handicrafts",
+        "food processing"
+    ],
+    "exports": [
+        "canned coconut cream",
+        "copra",
+        "honey",
+        "vanilla",
+        "passion fruit products",
+        "pawpaws",
+        "root crops",
+        "limes",
+        "footballs",
+        "stamps",
+        "handicrafts"
+    ],
+    "imports": [
+        "food",
+        "live animals",
+        "manufactured goods",
+        "machinery",
+        "fuels",
+        "lubricants",
+        "chemicals",
+        "drugs"
+    ],
+    "broadband_subscriptions": "Unknown",
+    "internet_users": "1,090",
+    "mobile_subscriptions": "Unknown",
+    "internet_country_code": ".nu",
+    "military_and_security_forces": "no regular indigenous military forces; Police Force",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Alofi"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "1",
+    "international_disputes": "none"
+}

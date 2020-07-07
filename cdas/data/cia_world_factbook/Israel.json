@@ -1,0 +1,119 @@
+{
+    "name": "Israel",
+    "background": "The State of Israel was declared in 1948, after Britain withdrew from its mandate of Palestine. The UN proposed partitioning the area into Arab and Jewish states, and Arab armies that rejected the UN plan were defeated. Israel was admitted as a member of the UN in 1949 and saw rapid population growth, primarily due to migration from Europe and the Middle East, over the following years. Israel fought wars against its Arab neighbors in 1967 and 1973, followed by peace treaties with Egypt in 1979 and Jordan in 1994. Israel took control of the West Bank and Gaza Strip in the 1967 war, and subsequently administered those territories through military authorities. Israel and Palestinian officials signed a number of interim agreements in the 1990s that created an interim period of Palestinian self-rule in the West Bank and Gaza. Israel withdrew from Gaza in 2005. While the most recent formal efforts to negotiate final status issues occurred in 2013-2014, the US continues its efforts to advance peace. Immigration to Israel continues, with 28,600 new immigrants, mostly Jewish, in 2016. The Israeli economy has undergone a dramatic transformation in the last 25 years, led by cutting-edge, high-tech sectors. Offshore gas discoveries in the Mediterranean, most notably in the Tamar and Leviathan gas fields, place Israel at the center of a potential regional natural gas market. However, longer-term structural issues such as low labor force participation among minority populations, low workforce productivity, high costs for housing and consumer staples, and a lack of competition, remain a concern for many Israelis and an important consideration for Israeli politicians. Prime Minister Benjamin NETANYAHU has led the Israeli Government since 2009; he formed a center-right coalition following the 2015 elections. In December 2018 the Knesset voted to dissolve itself, leading to an election in April 2019. When that election failed to result in formation of a government, Israel held a second election in September 2019, which also failed to result in the formation of a government. On 11 December 2019, the Knesset voted to hold a third election on 2 March 2020.",
+    "coordinates": "31 30 N, 34 45 E",
+    "region": "Middle East",
+    "total_area": "21,937 sq km",
+    "land_area": "21,497 sq km",
+    "water_area": "440 sq km",
+    "land_boundary": "1,065 km",
+    "neighbors": {
+        "Gaza Strip": "59 km",
+        "Jordan": "336 km (20 km are within the Dead Sea)",
+        "Lebanon": "107 km",
+        "Syria": "79 km",
+        "West Bank": "278 km"
+    },
+    "climate": "temperate; hot and dry in southern and eastern desert areas",
+    "coastline": "273 km",
+    "natural_hazards": [
+        "sandstorms may occur during spring and summer",
+        "droughts",
+        "periodic earthquakes"
+    ],
+    "terrain": "Negev desert in the south; low coastal plain; central mountains; Jordan Rift Valley",
+    "population_distribution": "population concentrated in and around Tel-Aviv, as well as around the Sea of Galilee; the south remains sparsely populated with the exception of the shore of the Gulf of Aqaba",
+    "natural_resources": [
+        "timber",
+        "potash",
+        "copper ore",
+        "natural gas",
+        "phosphate rock",
+        "magnesium bromide",
+        "clays",
+        "sand"
+    ],
+    "population": "8,675,475",
+    "nationality": "Israeli(s)",
+    "ethnic_groups": {
+        "Jewish": "74.4%",
+        "Arab": "20.9%",
+        "other": "4.7%"
+    },
+    "languages": {
+        "Hebrew (official)": "",
+        "Arabic": "",
+        "English": ""
+    },
+    "religions": {
+        "Jewish": "74.3%", "Muslim": "17.8%", "Christian": "1.9%", 
+        "Druze": "1.6%", "other": "4.4%"},
+    "government_type": "parliamentary democracy",
+    "national_symbols": "Star of David (Magen David), menorah (seven-branched lampstand)",
+    "national_colors": ["blue", "white"],
+    "gdp": "$350.7 billion",
+    "agriculture": [
+        "citrus",
+        "vegetables",
+        "cotton",
+        "beef",
+        "poultry",
+        "dairy products"
+    ],
+    "industries": [
+        "aviation",
+        "communications",
+        "computer-aided design and manufacture",
+        "medical electronics",
+        "fiber optics",
+        "wood and paper products",
+        "potash and phosphates",
+        "food",
+        "beverages",
+        "tobacco",
+        "caustic soda",
+        "cement",
+        "pharmaceuticals",
+        "construction",
+        "metal products",
+        "chemical products",
+        "plastics",
+        "cut diamonds",
+        "textiles",
+        "footwear"
+    ],
+    "exports": [
+        "machinery and equipment",
+        "software",
+        "cut diamonds",
+        "agricultural products",
+        "chemicals",
+        "textiles and apparel"
+    ],
+    "imports": [
+        "raw materials",
+        "military equipment",
+        "investment goods",
+        "rough diamonds",
+        "fuels",
+        "grain",
+        "consumer goods"
+    ],
+    "broadband_subscriptions": "2,410,000",
+    "internet_users": "6,740,287",
+    "mobile_subscriptions": "10,700,000",
+    "internet_country_code": ".il",
+    "military_and_security_forces": "Israel Defense Forces (IDF): Ground Forces, Israel Naval Force (IN, includes commandos), Israel Air Force (IAF, includes air defense); Ministry of Public Security: Border Police",
+    "pipelines": [
+        "763 km gas",
+        "442 km oil",
+        "261 km refined products"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Ashdod, Elat (Eilat), Hadera, Haifa",
+        "container port(s) (TEUs)": "Ashdod (1,443,000)"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "42",
+    "international_disputes": "West Bank and Gaza Strip are Israeli-occupied with current status subject to the Israeli-Palestinian Interim Agreement - permanent status to be determined through further negotiation; Israel continues construction of a \"seam line\" separation barrier along parts of the Green Line and within the West Bank; Israel withdrew its settlers and military from the Gaza Strip and from four settlements in the West Bank in August 2005; Golan Heights is Israeli-controlled (Lebanon claims the Shab'a Farms area of Golan Heights); since 1948, about 350 peacekeepers from the UN Truce Supervision Organization headquartered in Jerusalem monitor ceasefires, supervise armistice agreements, prevent isolated incidents from escalating, and assist other UN personnel in the region"
+}

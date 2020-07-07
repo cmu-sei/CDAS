@@ -1,0 +1,114 @@
+{
+    "name": "Norway",
+    "background": "Two centuries of Viking raids into Europe tapered off following the adoption of Christianity by King Olav TRYGGVASON in 994; conversion of the Norwegian kingdom occurred over the next several decades. In 1397, Norway was absorbed into a union with Denmark that lasted more than four centuries. In 1814, Norwegians resisted the cession of their country to Sweden and adopted a new constitution. Sweden then invaded Norway but agreed to let Norway keep its constitution in return for accepting the union under a Swedish king. Rising nationalism throughout the 19th century led to a 1905 referendum granting Norway independence. Although Norway remained neutral in World War I, it suffered heavy losses to its shipping. Norway proclaimed its neutrality at the outset of World War II, but was nonetheless occupied for five years by Nazi Germany (1940-45). In 1949, Norway abandoned neutrality and became a member of NATO. Discovery of oil and gas in adjacent waters in the late 1960s boosted Norway's economic fortunes. In referenda held in 1972 and 1994, Norway rejected joining the EU. Key domestic issues include immigration and integration of ethnic minorities, maintaining the country's extensive social safety net with an aging population, and preserving economic competitiveness.",
+    "coordinates": "62 00 N, 10 00 E",
+    "region": "Europe",
+    "total_area": "323,802 sq km",
+    "land_area": "304,282 sq km",
+    "water_area": "19,520 sq km",
+    "land_boundary": "2,566 km",
+    "neighbors": {
+        "Sweden": "1666 km",
+        "Russia": "191 km"
+    },
+    "climate": "temperate along coast, modified by North Atlantic Current; colder interior with increased precipitation and colder summers; rainy year-round on west coast",
+    "coastline": "25,148 km",
+    "natural_hazards": [
+        "rockslides, avalanches",
+        "volcanism: Beerenberg (2,227 m) on Jan Mayen Island in the Norwegian Sea is the country's only active volcano"
+    ],
+    "terrain": "glaciated; mostly high plateaus and rugged mountains broken by fertile valleys; small, scattered plains; coastline deeply indented by fjords; arctic tundra in north",
+    "population_distribution": "most Norweigans live in the south where the climate is milder and there is better connectivity to mainland Europe; population clusters are found all along the North Sea coast in the southwest, and Skaggerak in the southeast; the interior areas of the north remain sparsely populated",
+    "natural_resources": [
+        "petroleum",
+        "natural gas",
+        "iron ore",
+        "copper",
+        "lead",
+        "zinc",
+        "titanium",
+        "pyrites",
+        "nickel",
+        "fish",
+        "timber",
+        "hydropower"
+    ],
+    "population": "5,467,439",
+    "nationality": "Norwegian(s)",
+    "ethnic_groups": {
+        "Norwegian": "83.2%", 
+        "other European": "8.3%", 
+        "other": "8.5%"
+    },
+    "languages": {
+        "Bokmal Norwegian (official)": "",
+        "Nynorsk Norwegian (official)": "",
+        "small Sami- and Finnish-speaking minorities": ""
+    },
+    "religions": {
+        "Church of Norway (Evangelical Lutheran - official)": "70.6%", 
+        "Muslim": "3.2%", 
+        "Roman Catholic": "3%", 
+        "other Christian": "3.7%", 
+        "other": "2.5%", 
+        "unspecified": "17%"},
+    "government_type": "parliamentary constitutional monarchy",
+    "national_symbols": "lion",
+    "national_colors": ["red", "white", "blue"],
+    "gdp": "$398.8 billion",
+    "agriculture": [
+        "barley",
+        "wheat",
+        "potatoes",
+        "pork",
+        "beef",
+        "veal",
+        "milk",
+        "fish"
+    ],
+    "industries": [
+        "petroleum and gas",
+        "shipping",
+        "fishing",
+        "aquaculture",
+        "food processing",
+        "shipbuilding",
+        "pulp and paper products",
+        "metals",
+        "chemicals",
+        "timber",
+        "mining",
+        "textiles"
+    ],
+    "exports": [
+        "petroleum and petroleum products",
+        "machinery and equipment",
+        "metals",
+        "chemicals",
+        "ships",
+        "fish"
+    ],
+    "imports": [
+        "machinery and equipment",
+        "chemicals",
+        "metals",
+        "foodstuffs"
+    ],
+    "broadband_subscriptions": "2,206,519",
+    "internet_users": "5,122,904",
+    "mobile_subscriptions": "5,720,892",
+    "internet_country_code": ".no",
+    "military_and_security_forces": "Norwegian Armed Forces:  Norwegian Army (Haeren), Royal Norwegian Navy (Kongelige Norske Sjoeforsvaret; includes Coastal Rangers and Coast Guard (Kystvakt)), Royal Norwegian Air Force (Kongelige Norske Luftforsvaret), Home Guard (Heimevernet, HV)",
+    "pipelines": [
+        "8520 km gas",
+        "1304 km oil/condensate"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Bergen, Haugesund, Maaloy, Mongstad, Narvik, Sture",
+        "LNG terminal(s) (export)": "Kamoy, Kollsnes, Melkoya Island",
+        "LNG terminal(s) (import)": "Fredrikstad, Mosjoen"
+    },
+    "waterways": "1,577 km",
+    "number_of_airports": "95",
+    "international_disputes": "Norway asserts a territorial claim in Antarctica (Queen Maud Land and its continental shelf); Denmark (Greenland) and Norway have made submissions to the Commission on the Limits of the Continental Shelf (CLCS) and Russia is collecting additional data to augment its 2001 CLCS submission; Norway and Russia signed a comprehensive maritime boundary agreement in 2010"
+}

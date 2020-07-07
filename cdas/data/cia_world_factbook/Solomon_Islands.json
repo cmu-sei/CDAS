@@ -1,0 +1,96 @@
+{
+    "name": "Solomon Islands",
+    "background": "The UK established a protectorate over the Solomon Islands in the 1890s. Some of the bitterest fighting of World War II occurred on this archipelago and the Guadalcanal Campaign (August 1942-February 1943) proved a turning point in the Pacific War, since after the operation the Japanese lost their strategic initiative and remained on the defensive until thier final defeat in 1945. Self-government for the Solomon Islands came in 1976 and independence two years later. Ethnic violence, government malfeasance, endemic crime, and a narrow economic base have undermined stability and civil society. In June 2003, then Prime Minister Sir Allan KEMAKEZA sought the assistance of Australia in reestablishing law and order; the following month, an Australian-led multinational force arrived to restore peace and disarm ethnic militias. The Regional Assistance Mission to the Solomon Islands (RAMSI), which ended in June 2017, was generally effective in restoring law and order and rebuilding government institutions.",
+    "coordinates": "8 00 S, 159 00 E",
+    "region": "Oceania",
+    "total_area": "28,896 sq km",
+    "land_area": "27,986 sq km",
+    "water_area": "910 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "tropical monsoon; few temperature and weather extremes",
+    "coastline": "5,313 km",
+    "natural_hazards": [
+        "tropical cyclones, but rarely destructive",
+        "geologically active region with frequent earthquakes, tremors, and volcanic activity",
+        "tsunamis",
+        "volcanism: Tinakula (851 m) has frequent eruption activity, while an eruption of Savo (485 m) could affect the capital Honiara on nearby Guadalcanal"
+    ],
+    "terrain": "mostly rugged mountains with some low coral atolls",
+    "population_distribution": "most of the population lives along the coastal regions; about one in five live in urban areas, and of these some two-thirds reside in Honiara, the largest town and chief port",
+    "natural_resources": [
+        "fish",
+        "forests",
+        "gold",
+        "bauxite",
+        "phosphates",
+        "lead",
+        "zinc",
+        "nickel"
+    ],
+    "population": "685,097",
+    "nationality": "Solomon Islander(s)",
+    "ethnic_groups": {
+        "Melanesian": "95.3%", "Polynesian": "3.1%", "Micronesian": "1.2%", 
+        "other": "0.3%"},
+    "languages": {
+        "Melanesian pidgin": "",
+        "English (official)": "",
+        "120 indigenous languages": ""
+    },
+    "religions": {
+        "Protestant": "73.4%", 
+        "Roman Catholic": "19.6%", 
+        "other Christian": "2.9%", 
+        "other": "4%", 
+        "unspecified": "0.1%"},
+    "government_type": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
+    "national_symbols": "",
+    "national_colors": ["blue", "yellow", "green", "white"],
+    "gdp": "$1.298 billion",
+    "agriculture": [
+        "cocoa",
+        "coconuts",
+        "palm kernels",
+        "rice",
+        "fruit",
+        "cattle",
+        "pigs",
+        "fish",
+        "timber"
+    ],
+    "industries": [
+        "fish (tuna)",
+        "mining",
+        "timber"
+    ],
+    "exports": [
+        "timber",
+        "fish",
+        "copra",
+        "palm oil",
+        "cocoa",
+        "coconut oil"
+    ],
+    "imports": [
+        "food",
+        "plant and equipment",
+        "manufactured goods",
+        "fuels",
+        "chemicals"
+    ],
+    "broadband_subscriptions": "1,488",
+    "internet_users": "69,859",
+    "mobile_subscriptions": "482,029",
+    "internet_country_code": ".sb",
+    "military_and_security_forces": "no regular military forces; Royal Solomon Islands Police Force",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Honiara, Malloco Bay, Viru Harbor, Tulaghi"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "36",
+    "international_disputes": "since 2003, the Regional Assistance Mission to Solomon Islands, consisting of police, military, and civilian advisors drawn from 15 countries, has assisted in reestablishing and maintaining civil and political order while reinforcing regional stability and security"
+}

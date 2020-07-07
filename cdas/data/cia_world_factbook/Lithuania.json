@@ -1,0 +1,126 @@
+{
+    "name": "Lithuania",
+    "background": "Lithuanian lands were united under MINDAUGAS in 1236; over the next century, through alliances and conquest, Lithuania extended its territory to include most of present-day Belarus and Ukraine. By the end of the 14th century Lithuania was the largest state in Europe. An alliance with Poland in 1386 led the two countries into a union through the person of a common ruler. In 1569, Lithuania and Poland formally united into a single dual state, the Polish-Lithuanian Commonwealth. This entity survived until 1795 when its remnants were partitioned by surrounding countries. Lithuania regained its independence following World War I but was annexed by the USSR in 1940 - an action never recognized by the US and many other countries. On 11 March 1990, Lithuania became the first of the Soviet republics to declare its independence, but Moscow did not recognize this proclamation until September of 1991 (following the abortive coup in Moscow). The last Russian troops withdrew in 1993. Lithuania subsequently restructured its economy for integration into Western European institutions; it joined both NATO and the EU in the spring of 2004. In 2015, Lithuania joined the euro zone, and it joined the Organization for Economic Cooperation and Development in 2018.",
+    "coordinates": "56 00 N, 24 00 E",
+    "region": "Europe",
+    "total_area": "65,300 sq km",
+    "land_area": "62,680 sq km",
+    "water_area": "2,620 sq km",
+    "land_boundary": "1,549 km",
+    "neighbors": {
+        "Latvia": "544 km",
+        "Poland": "104 km",
+        "Russia (Kaliningrad)": "261 km"
+    },
+    "climate": "transitional, between maritime and continental; wet, moderate winters and summers",
+    "coastline": "90 km",
+    "natural_hazards": [
+        "occasional floods, droughts"
+    ],
+    "terrain": "lowland, many scattered small lakes, fertile soil",
+    "population_distribution": "fairly even population distribution throughout the country, but somewhat greater concentrations in the southern cities of Vilnius and Kaunas, and the western port of Klaipeda",
+    "natural_resources": [
+        "peat",
+        "arable land",
+        "amber"
+    ],
+    "population": "2,731,464",
+    "nationality": "Lithuanian(s)",
+    "ethnic_groups": {
+        "Lithuanian": "84.1%", 
+        "Polish": "6.6%", 
+        "Russian": "5.8%", 
+        "Belarusian": "1.2%", 
+        "other": "1.1%", 
+        "unspecified": "1.2%"
+    },
+    "languages": {
+        "Lithuanian (official)": "82%",
+        "Russian": "8%",
+        "Polish": "5.6%",
+        "other": "0.9%",
+        "unspecified": "3.5%"
+    },
+    "religions": {
+        "Roman Catholic": "77.2%", 
+        "Russian Orthodox": "4.1%", 
+        "Old Believer": "0.8%", 
+        "Evangelical Lutheran": "0.6%", 
+        "Evangelical Reformist": "0.2%", 
+        "other": "0.8%", 
+        "none": "6.1%", 
+        "unspecified": "10.1%"},
+    "government_type": "semi-presidential republic",
+    "national_symbols": "mounted knight known as Vytis (the Chaser), white stork",
+    "national_colors": ["yellow", "green", "red"],
+    "gdp": "$47.26 billion",
+    "agriculture": [
+        "grain",
+        "potatoes",
+        "sugar beets",
+        "flax",
+        "vegetables",
+        "beef",
+        "milk",
+        "eggs",
+        "pork",
+        "cheese",
+        "fish"
+    ],
+    "industries": [
+        "metal-cutting machine tools",
+        "electric motors",
+        "televisions",
+        "refrigerators and freezers",
+        "petroleum refining",
+        "shipbuilding (small ships)",
+        "furniture",
+        "textiles",
+        "food processing",
+        "fertilizer",
+        "agricultural machinery",
+        "optical equipment",
+        "lasers",
+        "electronic components",
+        "computers",
+        "amber jewelry",
+        "information technology",
+        "video game development",
+        "software development",
+        "biotechnology"
+    ],
+    "exports": [
+        "refined fuel",
+        "machinery and equipment",
+        "chemicals",
+        "textiles",
+        "foodstuffs",
+        "plastics"
+    ],
+    "imports": [
+        "oil",
+        "natural gas",
+        "machinery and equipment",
+        "transport equipment",
+        "chemicals",
+        "textiles and clothing",
+        "metals"
+    ],
+    "broadband_subscriptions": "788,743",
+    "internet_users": "2,122,884",
+    "mobile_subscriptions": "4,590,441",
+    "internet_country_code": ".lt",
+    "military_and_security_forces": "Lithuanian Armed Forces (Lietuvos Ginkluotosios Pajegos): Land Forces (Sausumos Pajegos), Naval Forces (Karines Juru Pajegos), Air Forces (Karines Oro Pajegos), Special Operations Forces (Specialiuju Operaciju Pajegos); National Defense Volunteer Forces (Savanoriu Pajegos)",
+    "pipelines": [
+        "1921 km gas",
+        "121 km refined products"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Klaipeda",
+        "oil terminal(s)": "Butinge oil terminal",
+        "LNG terminal(s) (import)": "Klaipeda"
+    },
+    "waterways": "441 km",
+    "number_of_airports": "61",
+    "international_disputes": "Lithuania and Russia committed to demarcating their boundary in 2006 in accordance with the land and maritime treaty ratified by Russia in May 2003 and by Lithuania in 1999; Lithuania operates a simplified transit regime for Russian nationals traveling from the Kaliningrad coastal exclave into Russia, while still conforming, as a EU member state having an external border with a non-EU member, to strict Schengen border rules; boundary demarcated with Latvia and Lithuania; as of January 2007, ground demarcation of the boundary with Belarus was complete and mapped with final ratification documents in preparation"
+}

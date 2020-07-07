@@ -1,0 +1,81 @@
+{
+    "name": "Guernsey",
+    "background": "Guernsey and the other Channel Islands represent the last remnants of the medieval Duchy of Normandy, which held sway in both France and England. The islands were the only British soil occupied by German troops in World War II. The Bailiwick of Guernsey is a self-governing British Crown dependency that is not part of the United Kingdom. However, the UK Government is constitutionally responsible for its defense and international representation. The Bailiwick of Guernsey consists of the main island of Guernsey and a number of smaller islands including Alderney, Sark, Herm, Jethou, Brecqhou, and Lihou.",
+    "coordinates": "49 28 N, 2 35 W",
+    "region": "Europe",
+    "total_area": "78 sq km",
+    "land_area": "78 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "temperate with mild winters and cool summers; about 50% of days are overcast",
+    "coastline": "50 km",
+    "natural_hazards": [
+        "very large tidal variation and fast currents can make local waters dangerous"
+    ],
+    "terrain": "mostly flat with low hills in southwest",
+    "population_distribution": "Unknown",
+    "natural_resources": [
+        "cropland"
+    ],
+    "population": "67,052",
+    "nationality": "Channel Islander(s)",
+    "ethnic_groups": {
+        "Guernsey": "52%",
+        "UK and Ireland": "23.7%",
+        "Portugal": "2.1%",
+        "Latvia": "1.5%",
+        "other": "6.7%",
+        "unspecified": "14.1%"
+    },
+    "languages": {
+        "English": "",
+        "French": "",
+        "Norman-French dialect spoken in country districts": ""
+    },
+    "religions": {
+        "Protestant":"", "Roman Catholic":""},
+    "government_type": "parliamentary democracy (States of Deliberation)",
+    "national_symbols": "Guernsey cow, donkey",
+    "national_colors": ["red", "white", "yellow"],
+    "gdp": "$2.742 billion",
+    "agriculture": [
+        "tomatoes",
+        "greenhouse flowers",
+        "sweet peppers",
+        "eggplant",
+        "fruit",
+        "Guernsey cattle"
+    ],
+    "industries": [
+        "tourism",
+        "banking"
+    ],
+    "exports": [
+        "tomatoes",
+        "flowers and ferns",
+        "sweet peppers",
+        "eggplant",
+        "other vegetables"
+    ],
+    "imports": [
+        "coal",
+        "gasoline",
+        "oil",
+        "machinery and equipment"
+    ],
+    "broadband_subscriptions": "Unknown",
+    "internet_users": "55,050",
+    "mobile_subscriptions": "71,249",
+    "internet_country_code": ".gg",
+    "military_and_security_forces": "Unknown",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Braye Bay, Saint Peter Port"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "2",
+    "international_disputes": "none"
+}

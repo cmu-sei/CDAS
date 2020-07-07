@@ -1,0 +1,118 @@
+{
+    "name": "Nicaragua",
+    "background": "The Pacific coast of Nicaragua was settled as a Spanish colony from Panama in the early 16th century. Independence from Spain was declared in 1821 and the country became an independent republic in 1838. Britain occupied the Caribbean Coast in the first half of the 19th century, but gradually ceded control of the region in subsequent decades. Violent opposition to governmental manipulation and corruption spread to all classes by 1978 and resulted in a short-lived civil war that brought a civic-military coalition, spearheaded by the Marxist Sandinista guerrillas led by Daniel ORTEGA Saavedra to power in 1979. Nicaraguan aid to leftist rebels in El Salvador prompted the US to sponsor anti-Sandinista contra guerrillas through much of the 1980s. After losing free and fair elections in 1990, 1996, and 2001, former Sandinista President Daniel ORTEGA was elected president in 2006, 2011, and most recently in 2016. Municipal, regional, and national-level elections since 2008 have been marred by widespread irregularities. Democratic institutions have weakened under the ORTEGA administration as the president has garnered full control over all branches of government, especially after cracking down on a nationwide antigovernment protest movement in 2018.",
+    "coordinates": "13 00 N, 85 00 W",
+    "region": "Central America and the Caribbean",
+    "total_area": "130,370 sq km",
+    "land_area": "119,990 sq km",
+    "water_area": "10,380 sq km",
+    "land_boundary": "1,253 km",
+    "neighbors": {
+        "Honduras": "940 km"
+    },
+    "climate": "tropical in lowlands, cooler in highlands",
+    "coastline": "910 km",
+    "natural_hazards": [
+        "destructive earthquakes",
+        "volcanoes",
+        "landslides",
+        "extremely susceptible to hurricanes",
+        "volcanism: significant volcanic activity; Cerro Negro (728 m), which last erupted in 1999, is one of Nicaragua's most active volcanoes; its lava flows and ash have been known to cause significant damage to farmland and buildings; other historically active volcanoes include Concepcion, Cosiguina, Las Pilas, Masaya, Momotombo, San Cristobal, and Telica"
+    ],
+    "terrain": "extensive Atlantic coastal plains rising to central interior mountains; narrow Pacific coastal plain interrupted by volcanoes",
+    "population_distribution": "the overwhelming majority of the population resides in the western half of the country, with much of the urban growth centered in the capital city of Managua; coastal areas also show large population clusters",
+    "natural_resources": [
+        "gold",
+        "silver",
+        "copper",
+        "tungsten",
+        "lead",
+        "zinc",
+        "timber",
+        "fish"
+    ],
+    "population": "6,203,441",
+    "nationality": "Nicaraguan(s)",
+    "ethnic_groups": {"mestizo (mixed Amerindian and white)": "69%", "white": "17%", "black": "9%", "Amerindian": "5%"},
+    "languages": {
+        "Spanish (official)": "95.3%",
+        "Miskito": "2.2%",
+        "Mestizo of the Caribbean coast": "2%",
+        "other": "0.5%"
+    },
+    "religions": {
+        "Roman Catholic": "50%", 
+        "Evangelical": "33.2%", 
+        "other": "2.9%", 
+        "unspecified": "13.2%", 
+        "none": "0.7%"},
+    "government_type": "presidential republic",
+    "national_symbols": "turquoise-browed motmot (bird)",
+    "national_colors": ["blue", "white"],
+    "gdp": "$13.81 billion",
+    "agriculture": [
+        "coffee",
+        "bananas",
+        "sugarcane",
+        "rice",
+        "corn",
+        "tobacco",
+        "cotton",
+        "sesame",
+        "soya",
+        "beans",
+        "beef",
+        "veal",
+        "pork",
+        "poultry",
+        "dairy products",
+        "shrimp",
+        "lobsters",
+        "peanuts"
+    ],
+    "industries": [
+        "food processing",
+        "chemicals",
+        "machinery and metal products",
+        "knit and woven apparel",
+        "petroleum refining and distribution",
+        "beverages",
+        "footwear",
+        "wood",
+        "electric wire harness manufacturing",
+        "mining"
+    ],
+    "exports": [
+        "coffee",
+        "beef",
+        "gold",
+        "sugar",
+        "peanuts",
+        "shrimp and lobster",
+        "tobacco",
+        "cigars",
+        "automobile wiring harnesses",
+        "textiles",
+        "apparel"
+    ],
+    "imports": [
+        "consumer goods",
+        "machinery and equipment",
+        "raw materials",
+        "petroleum products"
+    ],
+    "broadband_subscriptions": "192,413",
+    "internet_users": "1,466,152",
+    "mobile_subscriptions": "7,441,527",
+    "internet_country_code": ".ni",
+    "military_and_security_forces": "Army of Nicaragua (Ejercito de Nicaragua, EN; includes Navy, Air Force)",
+    "pipelines": [
+        "54 km oil"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Bluefields, Corinto"
+    },
+    "waterways": "2,220 km",
+    "number_of_airports": "147",
+    "international_disputes": "the 1992 ICJ ruling for El Salvador and Honduras advised a tripartite resolution to establish a maritime boundary in the Gulf of Fonseca, which considers Honduran access to the Pacific; Nicaragua and Costa Rica regularly file border dispute cases over the delimitations of the San Juan River and the northern tip of Calero Island to the ICJ; there is an ongoing case in the ICJ to determine Pacific and Atlantic ocean maritime borders as well as land borders; in 2009, the ICJ ruled that Costa Rican vessels carrying out police activities could not use the river, but official Costa Rican vessels providing essential services to riverside inhabitants and Costa Rican tourists could travel freely on the river; in 2011, the ICJ provisionally ruled that both countries must remove personnel from the disputed area; in 2013, the ICJ rejected Nicaragua's 2012 suit to halt Costa Rica's construction of a highway paralleling the river on the grounds of irreparable environmental damage; in 2013, the ICJ, regarding the disputed territory, ordered that Nicaragua should refrain from dredging or canal construction and refill and repair damage caused by trenches connecting the river to the Caribbean and upheld its 2010 ruling that Nicaragua must remove all personnel; in early 2014, Costa Rica brought Nicaragua to the ICJ over offshore oil concessions in the disputed region; Nicaragua filed a case against Colombia in 2013 over the delimitation of the Continental shelf beyond the 200 nautical miles from the Nicaraguan coast, as well as over the alleged violation by Colombia of Nicaraguan maritime space in the Caribbean Sea"
+}

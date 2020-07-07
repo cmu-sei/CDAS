@@ -1,0 +1,116 @@
+{
+    "name": "North Macedonia",
+    "background": "North Macedonia gained its independence peacefully from Yugoslavia in 1991 under the name of \"Macedonia.\" Greek objection to the new country’s name, insisting it implied territorial pretensions to the northern Greek province of Macedonia, and democratic backsliding for several years stalled the country’s movement toward Euro-Atlantic integration. Immediately after Macedonia declared independence, Greece sought to block Macedonian efforts to gain UN membership if the name \"Macedonia\" was used. The country was eventually admitted to the UN in 1993 as \"The former Yugoslav Republic of Macedonia,\" and at the same time it agreed to UN-sponsored negotiations on the name dispute. In 1995, Greece lifted a 20-month trade embargo and the two countries agreed to normalize relations, but the issue of the name remained unresolved and negotiations for a solution continued. Over time, the US and over 130 other nations recognized Macedonia by its constitutional name, Republic of Macedonia. Ethnic Albanian grievances over perceived political and economic inequities escalated into a conflict in 2001 that eventually led to the internationally brokered Ohrid Framework Agreement, which ended the fighting and established guidelines for constitutional amendments and the creation of new laws that enhanced the rights of minorities. In January 2018, the government adopted a new law on languages, which elevated the Albanian language to an official language at the national level, with the Macedonian language remaining the sole official language in international relations. Relations between ethnic Macedonians and ethnic Albanians remain complicated, however.\nNorth Macedonia's pro-Western government has used its time in office since 2017 to sign a historic deal with Greece in June 2018 to end the name dispute and revive Skopje's NATO and EU membership prospects. This followed a nearly three-year political crisis that engulfed the country but ended in June 2017 following a six-month-long government formation period after a closely contested election in December 2016. The crisis began after the 2014 legislative and presidential election, and escalated in 2015 when the opposition party began releasing wiretapped material that revealed alleged widespread government corruption and abuse. Although an EU candidate since 2005, North Macedonia has yet to open EU accession negotiations. The country still faces challenges, including fully implementing reforms to overcome years of democratic backsliding and stimulating economic growth and development. In June 2018, Macedonia and Greece signed the Prespa Accord whereby the Republic of Macedonia agreed to change its name to the Republic of North Macedonia. Following ratification by both countries, the agreement went in to force on 12 February 2019. North Macedonia signed an accession protocol to become a NATO member state in February 2019.",
+    "coordinates": "41 50 N, 22 00 E",
+    "region": "Europe",
+    "total_area": "25,713 sq km",
+    "land_area": "25,433 sq km",
+    "water_area": "280 sq km",
+    "land_boundary": "838 km",
+    "neighbors": {
+        "Bulgaria": "162 km",
+        "Greece": "234 km",
+        "Kosovo": "160 km",
+        "Serbia": "101 km"
+    },
+    "climate": "warm, dry summers and autumns; relatively cold winters with heavy snowfall",
+    "coastline": "0 km",
+    "natural_hazards": [
+        "high seismic risks"
+    ],
+    "terrain": "mountainous with deep basins and valleys; three large lakes, each divided by a frontier line; country bisected by the Vardar River",
+    "population_distribution": "a fairly even distribution throughout most of the country, with urban areas attracting larger and denser populations",
+    "natural_resources": [
+        "low-grade iron ore",
+        "copper",
+        "lead",
+        "zinc",
+        "chromite",
+        "manganese",
+        "nickel",
+        "tungsten",
+        "gold",
+        "silver",
+        "asbestos",
+        "gypsum",
+        "timber",
+        "arable land"
+    ],
+    "population": "2,125,971",
+    "nationality": "Macedonian(s)",
+    "ethnic_groups": {
+        "Macedonian": "64.2%", 
+        "Albanian": "25.2%", 
+        "Turkish": "3.9%", 
+        "Romani": "2.7%", 
+        "Serb": "1.8%", 
+        "other": "2.2%"
+    },
+    "languages": {
+        "Macedonian (official)": "66.5%",
+        "Albanian": "25.1%",
+        "Turkish": "3.5%",
+        "Romani": "1.9%",
+        "Serbian": "1.2%",
+        "other": "1.8%"
+    },
+    "religions": {
+        "Macedonian Orthodox": "64.8%", 
+        "Muslim": "33.3%",
+        "other Christian": "0.4%", 
+        "other and unspecified": "1.5%"},
+    "government_type": "parliamentary republic",
+    "national_symbols": "eight-rayed sun",
+    "national_colors": ["red", "yellow"],
+    "gdp": "$11.37 billion",
+    "agriculture": [
+        "grapes",
+        "tobacco",
+        "vegetables",
+        "fruits",
+        "milk",
+        "eggs"
+    ],
+    "industries": [
+        "food processing",
+        "beverages",
+        "textiles",
+        "chemicals",
+        "iron",
+        "steel",
+        "cement",
+        "energy",
+        "pharmaceuticals",
+        "automotive parts"
+    ],
+    "exports": [
+        "foodstuffs",
+        "beverages",
+        "tobacco",
+        "textiles",
+        "miscellaneous manufactures",
+        "iron",
+        "steel",
+        "automotive parts"
+    ],
+    "imports": [
+        "machinery and equipment",
+        "automobiles",
+        "chemicals",
+        "fuels",
+        "food products"
+    ],
+    "broadband_subscriptions": "427,964",
+    "internet_users": "1.475 million",
+    "mobile_subscriptions": "1,969,109",
+    "internet_country_code": ".mk",
+    "military_and_security_forces": "Army of the Republic of North Macedonia (ARSM; includes General Staff and subordinate Joint Operational Command, Logistic Support Command, Training and Doctrine Command, Special Operations Regiment, Electronic Surveillance Center, and Air Surveillance Center)",
+    "pipelines": [
+        "262 km gas",
+        "120 km oil"
+    ],
+    "ports_and_terminals": "Unknown",
+    "waterways": "Unknown",
+    "number_of_airports": "10",
+    "international_disputes": "Kosovo and North Macedonia completed demarcation of their boundary in September 2008"
+}

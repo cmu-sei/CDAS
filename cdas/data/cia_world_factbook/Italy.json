@@ -1,0 +1,127 @@
+{
+    "name": "Italy",
+    "background": "Italy became a nation-state in 1861 when the regional states of the peninsula, along with Sardinia and Sicily, were united under King Victor EMMANUEL II. An era of parliamentary government came to a close in the early 1920s when Benito MUSSOLINI established a Fascist dictatorship. His alliance with Nazi Germany led to Italy's defeat in World War II. A democratic republic replaced the monarchy in 1946 and economic revival followed. Italy is a charter member of NATO and the European Economic Community (EEC) and its subsequent successors the EC and the EU. It has been at the forefront of European economic and political unification, joining the Economic and Monetary Union in 1999. Persistent problems include sluggish economic growth, high youth and female unemployment, organized crime, corruption, and economic disparities between southern Italy and the more prosperous north.",
+    "coordinates": "42 50 N, 12 50 E",
+    "region": "Europe",
+    "total_area": "301,340 sq km",
+    "land_area": "294,140 sq km",
+    "water_area": "7,200 sq km",
+    "land_boundary": "1,836.4 km",
+    "neighbors": {
+        "France": "476 km",
+        "Holy See (Vatican City)": "3.4 km",
+        "San Marino": "37 km",
+        "Slovenia": "218 km",
+        "Switzerland": "698 km"
+    },
+    "climate": "predominantly Mediterranean; alpine in far north; hot, dry in south",
+    "coastline": "7,600 km",
+    "natural_hazards": [
+        "regional risks include landslides, mudflows, avalanches, earthquakes, volcanic eruptions, flooding",
+        "land subsidence in Venice",
+        "volcanism: significant volcanic activity; Etna (3,330 m), which is in eruption as of 2010, is Europe's most active volcano; flank eruptions pose a threat to nearby Sicilian villages; Etna, along with the famous Vesuvius, which remains a threat to the millions of nearby residents in the Bay of Naples area, have both been deemed Decade Volcanoes by the International Association of Volcanology and Chemistry of the Earth's Interior, worthy of study due to their explosive history and close proximity to human populations; Stromboli, on its namesake island, has also been continuously active with moderate volcanic activity; other historically active volcanoes include Campi Flegrei, Ischia, Larderello, Pantelleria, Vulcano, and Vulsini"
+    ],
+    "terrain": "mostly rugged and mountainous; some plains, coastal lowlands",
+    "population_distribution": "despite a distinctive pattern with an industrial north and an agrarian south, a fairly even population distribution exists throughout most of the country, with coastal areas, the Po River Valley, and urban centers (particularly Milan, Rome, and Naples), attracting larger and denser populations",
+    "natural_resources": [
+        "coal",
+        "antimony",
+        "mercury",
+        "zinc",
+        "potash",
+        "marble",
+        "barite",
+        "asbestos",
+        "pumice",
+        "fluorspar",
+        "feldspar",
+        "pyrite (sulfur)",
+        "natural gas and crude oil reserves",
+        "fish",
+        "arable land"
+    ],
+    "population": "62,402,659",
+    "nationality": "Italian(s)",
+    "ethnic_groups": {"Italian":""},
+    "languages": {
+        "Italian (official)": "",
+        "German": "",
+        "French": "",
+        "Slovene": ""
+    },
+    "religions": {
+        "Christian": "83.3%", "Muslim": "3.7%", "unaffiliated": "12.4%", 
+        "other": "0.6%"},
+    "government_type": "parliamentary republic",
+    "national_symbols": "white, five-pointed star (Stella d'Italia)",
+    "national_colors": ["red", "white", "green"],
+    "gdp": "$1,939 billion",
+    "agriculture": [
+        "fruits",
+        "vegetables",
+        "grapes",
+        "potatoes",
+        "sugar beets",
+        "soybeans",
+        "grain",
+        "olives",
+        "beef",
+        "dairy products",
+        "fish"
+    ],
+    "industries": [
+        "tourism",
+        "machinery",
+        "iron and steel",
+        "chemicals",
+        "food processing",
+        "textiles",
+        "motor vehicles",
+        "clothing",
+        "footwear",
+        "ceramics"
+    ],
+    "exports": [
+        "engineering products",
+        "textiles and clothing",
+        "production machinery",
+        "motor vehicles",
+        "transport equipment",
+        "chemicals",
+        "foodstuffs",
+        "beverages",
+        "tobacco",
+        "minerals",
+        "nonferrous metals"
+    ],
+    "imports": [
+        "engineering products",
+        "chemicals",
+        "transport equipment",
+        "energy products",
+        "minerals and nonferrous metals",
+        "textiles and clothing",
+        "food",
+        "beverages",
+        "tobacco"
+    ],
+    "broadband_subscriptions": "17,060,505",
+    "internet_users": "38,025,661",
+    "mobile_subscriptions": "83,342,486",
+    "internet_country_code": ".it",
+    "military_and_security_forces": "Italian Armed Forces: Army (Esercito Italiano, EI), Navy (Marina Militare Italiana, MMI; includes aviation, marines), Italian Air Force (Aeronautica Militare Italiana, AMI), Carabinieri Corps (Arma dei Carabinieri, CC)",
+    "pipelines": [
+        "20223 km gas",
+        "1393 km oil",
+        "1574 km refined products"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Augusta, Cagliari, Genoa, Livorno, Taranto, Trieste, Venice",
+        "oil terminal(s)": "Melilli (Santa Panagia) oil terminal, Sarroch oil terminal",
+        "container port(s) (TEUs)": "Genoa (2,622,200), Gioia Tauro (2,448,600)",
+        "LNG terminal(s) (import)": "La Spezia, Panigaglia, Porto Levante"
+    },
+    "waterways": "2,400 km",
+    "number_of_airports": "129",
+    "international_disputes": "Italy's long coastline and developed economy entices tens of thousands of illegal immigrants from southeastern Europe and northern Africa"
+}

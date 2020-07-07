@@ -1,0 +1,113 @@
+{
+    "name": "Kyrgyzstan",
+    "background": "A Central Asian country of incredible natural beauty and proud nomadic traditions, most of the territory of the present-day Kyrgyz Republic was formally annexed to the Russian Empire in 1876. The Kyrgyz staged a major revolt against the Tsarist Empire in 1916 in which almost one-sixth of the Kyrgyz population was killed. The Kyrgyz Republic became a Soviet republic in 1936 and achieved independence in 1991 when the USSR dissolved. Nationwide demonstrations in 2005 and 2010 resulted in the ouster of the country’s first two presidents, Askar AKAEV and Kurmanbek BAKIEV. Interim President Roza OTUNBAEVA led a transitional government and following a nation-wide election, President Almazbek ATAMBAEV was sworn in as president in 2011. In 2017, ATAMBAEV became the first Kyrgyzstani president to step down after serving one full six-year term as required in the country’s constitution. Former prime minister and ruling Social-Democratic Party of Kyrgyzstan member Sooronbay JEENBEKOV replaced him after winning an October 2017 presidential election that was the most competitive in the country’s history, although international and local election observers noted cases of vote buying and abuse of public resources. The president holds substantial powers as head of state even though the prime minister oversees the Kyrgyzstani Government and selects most cabinet members. The president represents the country internationally and can sign or veto laws, call for new elections, and nominate Supreme Court judges, cabinet members for posts related to security or defense, and numerous other high-level positions. Continuing concerns for the Kyrgyz Republic include the trajectory of democratization, endemic corruption, a history of tense, and at times violent, interethnic relations, border security vulnerabilities, and potential terrorist threats.",
+    "coordinates": "41 00 N, 75 00 E",
+    "region": "Asia",
+    "total_area": "199,951 sq km",
+    "land_area": "191,801 sq km",
+    "water_area": "8,150 sq km",
+    "land_boundary": "4,573 km",
+    "neighbors": {
+        "Kazakhstan": "1212 km",
+        "Tajikistan": "984 km",
+        "Uzbekistan": "1314 km"
+    },
+    "climate": "dry continental to polar in high Tien Shan Mountains; subtropical in southwest (Fergana Valley); temperate in northern foothill zone",
+    "coastline": "0 km",
+    "natural_hazards": [
+        "major flooding during snow melt",
+        "prone to earthquakes"
+    ],
+    "terrain": "peaks of the Tien Shan mountain range and associated valleys and basins encompass the entire country",
+    "population_distribution": "the vast majority of Kyrgyzstanis live in rural areas; densest population settlement is to the north in and around the capital, Bishkek, followed by Osh in the west; the least densely populated area is the east, southeast in the Tien Shan mountains",
+    "natural_resources": [
+        "abundant hydropower",
+        "gold",
+        "rare earth metals",
+        "locally exploitable coal",
+        "oil",
+        "natural ga",
+        "mercury",
+        "bismuth",
+        "lead",
+        "zinc"
+    ],
+    "population": "5,964,897",
+    "nationality": "Kyrgyzstani(s)",
+    "ethnic_groups": {
+        "Kyrgyz": "73.5%", 
+        "Uzbek": "14.7%", 
+        "Russian": "5.5%", 
+        "Dungan": "1.1%", 
+        "other": "5.2%"
+    },
+    "languages": {
+        "Kyrgyz (official)": "71.4%",
+        "Uzbek": "14.4%",
+        "Russian (official)": "9%",
+        "other": "5.2%"
+    },
+    "religions": {
+        "Muslim": "90%", "Christian": "7%", "other": "3%"},
+    "government_type": "parliamentary republic",
+    "national_symbols": "white falcon",
+    "national_colors": ["red", "yellow"],
+    "gdp": "$7.565 billion",
+    "agriculture": [
+        "cotton",
+        "potatoes",
+        "vegetables",
+        "grapes",
+        "fruits and berries",
+        "sheep",
+        "goats",
+        "cattle",
+        "wool"
+    ],
+    "industries": [
+        "small machinery",
+        "textiles",
+        "food processing",
+        "cement",
+        "shoes",
+        "lumber",
+        "refrigerators",
+        "furniture",
+        "electric motors",
+        "gold",
+        "rare earth metals"
+    ],
+    "exports": [
+        "gold",
+        "cotton",
+        "wool",
+        "garments",
+        "meat",
+        "mercury",
+        "uranium",
+        "electricity",
+        "machinery",
+        "shoes"
+    ],
+    "imports": [
+        "oil and gas",
+        "machinery and equipment",
+        "chemicals",
+        "foodstuffs"
+    ],
+    "broadband_subscriptions": "355,640",
+    "internet_users": "1,976,006",
+    "mobile_subscriptions": "8,735,246",
+    "internet_country_code": ".kg",
+    "military_and_security_forces": "Kyrgyz Armed Forces: Land Forces, Air Defense Forces, National Guard, and State Border Service",
+    "pipelines": [
+        "3566 km gas ",
+        "16 km oil"
+    ],
+    "ports_and_terminals": {
+        "lake port(s)": "Balykchy (Ysyk-Kol or Rybach'ye)(Lake Ysyk-Kol)"
+    },
+    "waterways": "600 km",
+    "number_of_airports": "28",
+    "international_disputes": "disputes in Isfara Valley delay completion of delimitation with Tajikistan; delimitation of approximately 15% or 200 km of border with Uzbekistan is hampered by serious disputes over enclaves and other areas"
+}

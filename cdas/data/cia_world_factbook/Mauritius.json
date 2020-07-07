@@ -1,0 +1,100 @@
+{
+    "name": "Mauritius",
+    "background": "Although known to Arab and Malay sailors as early as the 10th century, Mauritius was first explored by the Portuguese in the 16th century and subsequently settled by the Dutch - who named it in honor of Prince Maurits van NASSAU - in the 17th century. The French assumed control in 1715, developing the island into an important naval base overseeing Indian Ocean trade, and establishing a plantation economy of sugar cane. The British captured the island in 1810, during the Napoleonic Wars. Mauritius remained a strategically important British naval base, and later an air station, playing an important role during World War II for anti-submarine and convoy operations, as well as the collection of signals intelligence. Independence from the UK was attained in 1968. A stable democracy with regular free elections and a positive human rights record, the country has attracted considerable foreign investment and has one of Africa's highest per capita incomes.",
+    "coordinates": "20 17 S, 57 33 E",
+    "region": "Africa",
+    "total_area": "2,040 sq km",
+    "land_area": "2,030 sq km",
+    "water_area": "10 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "tropical, modified by southeast trade winds; warm, dry winter (May to November); hot, wet, humid summer (November to May)",
+    "coastline": "177 km",
+    "natural_hazards": [
+        "cyclones (November to April)",
+        "almost completely surrounded by reefs that may pose maritime hazards"
+    ],
+    "terrain": "small coastal plain rising to discontinuous mountains encircling central plateau",
+    "population_distribution": "population density is one of the highest in the world; urban cluster are found throught the main island, with a greater density in and around Port Luis; population on Rodrigues Island is spread across the island with a slightly denser cluster on the north coast",
+    "natural_resources": [
+        "arable land",
+        "fish"
+    ],
+    "population": "1,379,365",
+    "nationality": "Mauritian(s)",
+    "ethnic_groups": {"Indo-Mauritian (compose approximately two thirds of the total population)":"", 
+        "Creole":"", 
+        "Sino-Mauritian":"", 
+        "Franco-Mauritian":""},
+    "languages": {
+        "Creole": "86.5%",
+        "Bhojpuri": "5.3%",
+        "French": "4.1%",
+        "two languages": "1.4%",
+        "other": "2.6%",
+        "unspecified": "0.1%"
+    },
+    "religions": {
+        "Hindu": "48.5%", 
+        "Roman Catholic": "26.3%", 
+        "Muslim": "17.3%", 
+        "other Christian": "6.4%", 
+        "other": "0.6%", 
+        "none": "0.7%", 
+        "unspecified": "0.1%"},
+    "government_type": "parliamentary republic",
+    "national_symbols": "dodo bird, Trochetia Boutoniana flower",
+    "national_colors": ["red", "blue", "yellow", "green"],
+    "gdp": "$13.33 billion",
+    "agriculture": [
+        "sugarcane",
+        "tea",
+        "corn",
+        "potatoes",
+        "bananas",
+        "pulses",
+        "cattle",
+        "goats",
+        "fish"
+    ],
+    "industries": [
+        "food processing (largely sugar milling)",
+        "textiles",
+        "clothing",
+        "mining",
+        "chemicals",
+        "metal products",
+        "transport equipment",
+        "nonelectrical machinery",
+        "tourism"
+    ],
+    "exports": [
+        "clothing and textiles",
+        "sugar",
+        "cut flowers",
+        "molasses",
+        "fish",
+        "primates (for research)"
+    ],
+    "imports": [
+        "manufactured goods",
+        "capital equipment",
+        "foodstuffs",
+        "petroleum products",
+        "chemicals"
+    ],
+    "broadband_subscriptions": "274,200",
+    "internet_users": "717,618",
+    "mobile_subscriptions": "1,918,000",
+    "internet_country_code": ".mu",
+    "military_and_security_forces": "no regular military forces; Mauritius Police Force includes a Special Mobile Force (a paramilitary force formed as a mobile infantry battalion) and the National Coast Guard",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Port Louis"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "5",
+    "international_disputes": "Mauritius and Seychelles claim the Chagos Islands; claims French-administered Tromelin Island"
+}

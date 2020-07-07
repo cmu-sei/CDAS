@@ -1,0 +1,104 @@
+{
+    "name": "Guinea-Bissau",
+    "background": "Since independence from Portugal in 1974, Guinea-Bissau has experienced considerable political and military upheaval. In 1980, a military coup established authoritarian General Joao Bernardo 'Nino' VIEIRA as president. Despite eventually setting a path to a market economy and multiparty system, VIEIRA's regime was characterized by the suppression of political opposition and the purging of political rivals. Several coup attempts through the 1980s and early 1990s failed to unseat him. In 1994 VIEIRA was elected president in the country's first free, multiparty election. A military mutiny and resulting civil war in 1998 eventually led to VIEIRA's ouster in May 1999. In February 2000, a transitional government turned over power to opposition leader Kumba YALA after he was elected president in transparent polling. In September 2003, after only three years in office, YALA was overthrown in a bloodless military coup, and businessman Henrique ROSA was sworn in as interim president. In 2005, former President VIEIRA was reelected, pledging to pursue economic development and national reconciliation; he was assassinated in March 2009. Malam Bacai SANHA was elected in an emergency election held in June 2009, but he passed away in January 2012 from a long-term illness. A military coup in April 2012 prevented Guinea-Bissau's second-round presidential election - to determine SANHA's successor - from taking place. Following mediation by the Economic Community of Western African States, a civilian transitional government assumed power in 2012 and remained until Jose Mario VAZ won a free and fair election in 2014. Beginning in 2015, a political dispute between factions in the ruling PAIGC party brought government gridlock. It was not until April 2018 that a consensus prime minister could be appointed, the national legislature reopened (having been closed for two years), and a new government formed under Prime Minister Aristides GOMES. In March 2019, the government held legislative elections, voting in the PAIGC as the ruling party; however, President VAZ continues to perpetuate a political stalemate by refusing to name PAICG President Domingos SIMOES PEREIRA Prime Minister.",
+    "coordinates": "12 00 N, 15 00 W",
+    "region": "Africa",
+    "total_area": "36,125 sq km",
+    "land_area": "28,120 sq km",
+    "water_area": "8,005 sq km",
+    "land_boundary": "762 km",
+    "neighbors": {
+        "Senegal": "341 km"
+    },
+    "climate": "tropical; generally hot and humid; monsoonal-type rainy season (June to November) with southwesterly winds; dry season (December to May) with northeasterly harmattan winds",
+    "coastline": "350 km",
+    "natural_hazards": [
+        "hot, dry, dusty harmattan haze may reduce visibility during dry season",
+        "brush fires"
+    ],
+    "terrain": "mostly low-lying coastal plain with a deeply indented estuarine coastline rising to savanna in east; numerous off-shore islands including the Arquipelago Dos Bijagos consisting of 18 main islands and many small islets",
+    "population_distribution": "approximately one-fifth of the population lives in the capital city of Bissau along the Atlantic coast; the remainder is distributed among the eight other, mainly rural, regions",
+    "natural_resources": [
+        "fish",
+        "timber",
+        "phosphates",
+        "bauxite",
+        "clay",
+        "granite",
+        "limestone",
+        "unexploited deposits of petroleum"
+    ],
+    "population": "1,927,104",
+    "nationality": "Bissau-Guinean(s)",
+    "ethnic_groups": {
+        "Fulani": "28.5%",
+        "Balanta": "22.5%",
+        "Mandinga": "14.7%",
+        "Papel": "9.1%",
+        "Manjaco": "8.3%",
+        "Beafada": "3.5%",
+        "Mancanha": "3.1%",
+        "Bijago": "2.1%",
+        "Felupe": "1.7%",
+        "Mansoanca": "1.4%",
+        "Balanta Mane": "1%",
+        "other": "1.8%",
+        "none": "2.2%"
+    },
+    "languages": {
+        "Crioulo": "",
+        "Portuguese (official)": "",
+        "Pular": "",
+        "Mandingo": ""
+    },
+    "religions": {"Muslim": "45.1%", "Christian": "22.1%", "animist": "14.9%", 
+        "none": "2%", "unspecified": "15.9%"},
+    "government_type": "semi-presidential republic",
+    "national_symbols": "black star",
+    "national_colors": ["red", "yellow", "green", "black"],
+    "gdp": "$1.35 billion",
+    "agriculture": [
+        "rice",
+        "corn",
+        "beans",
+        "cassava",
+        "cashew nuts",
+        "peanuts",
+        "palm kernels",
+        "cotton",
+        "timber",
+        "fish"
+    ],
+    "industries": [
+        "agricultural products processing",
+        "beer",
+        "soft drinks"
+    ],
+    "exports": [
+        "fish",
+        "shrimp",
+        "cashews",
+        "peanuts",
+        "palm kernels",
+        "raw and sawn lumber"
+    ],
+    "imports": [
+        "foodstuffs",
+        "machinery and transport equipment",
+        "petroleum products"
+    ],
+    "broadband_subscriptions": "1,204",
+    "internet_users": "66,169",
+    "mobile_subscriptions": "1,480,491",
+    "internet_country_code": ".gw",
+    "military_and_security_forces": "People's Revolutionary Armed Force (FARP): Army, Navy, National Air Force (Forca Aerea Nacional); Guard Nacional (Ministry of Internal Administration)",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Bissau, Buba, Cacheu, Farim"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "8",
+    "international_disputes": "a longstanding low-grade conflict continues in parts of\nCasamance, in Senegal across the border; some rebels use Guinea-Bissau as a safe haven"
+}

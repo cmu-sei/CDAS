@@ -1,0 +1,105 @@
+{
+    "name": "Suriname",
+    "background": "First explored by the Spaniards in the 16th century and then settled by the English in the mid-17th century, Suriname became a Dutch colony in 1667. With the abolition of African slavery in 1863, workers were brought in from India and Java. The Netherlands granted the colony independence in 1975. Five years later the civilian government was replaced by a military regime that soon declared Suriname a socialist republic. It continued to exert control through a succession of nominally civilian administrations until 1987, when international pressure finally forced a democratic election. In 1990, the military overthrew the civilian leadership, but a democratically elected government - a four-party coalition - returned to power in 1991. The coalition expanded to eight parties in 2005 and ruled until August 2010, when voters returned former military leader Desire BOUTERSE and his opposition coalition to power. President BOUTERSE was reelected unopposed in 2015.",
+    "coordinates": "4 00 N, 56 00 W",
+    "region": "South America",
+    "total_area": "163,820 sq km",
+    "land_area": "156,000 sq km",
+    "water_area": "7,820 sq km",
+    "land_boundary": "1,907 km",
+    "neighbors": {
+        "French Guiana": "556 km",
+        "Guyana": "836 km"
+    },
+    "climate": "tropical; moderated by trade winds",
+    "coastline": "386 km",
+    "natural_hazards": [
+        "flooding"
+    ],
+    "terrain": "mostly rolling hills; narrow coastal plain with swamps",
+    "population_distribution": "population concentrated along the nothern coastal strip; the remainder of the country is sparsely populated",
+    "natural_resources": [
+        "timber",
+        "hydropower",
+        "fish",
+        "kaolin",
+        "shrimp",
+        "bauxite",
+        "gold",
+        "small amounts of nickel",
+        "copper",
+        "platinum",
+        "iron ore"
+    ],
+    "population": "609,569",
+    "nationality": "Surinamer(s)",
+    "ethnic_groups": {
+        "Hindustani (also known locally as \"East Indians\"; their ancestors emigrated from northern India in the latter part of the 19th century)": "27.4%", 
+        "Maroon": "21.7%", "Creole (mixed white and black)": "15.7%", "Javanese": "13.7%", "mixed": "13.4%", "other": "7.6%", "unspecified": "0.6%"},
+    "languages": {
+        "Dutch (official)": "",
+        "English": "",
+        "Sranang Tongo": "",
+        "Caribbean Hindustani": "",
+        "Javanese": ""
+    },
+    "religions": {
+        "Protestant": "23.6%", 
+        "Hindu": "22.3%", 
+        "Roman Catholic": "21.6%", 
+        "Muslim": "13.8%", 
+        "other Christian": "3.2%", 
+        "Winti": "1.8%", 
+        "Jehovah's Witness": "1.2%", 
+        "other": "1.7%", 
+        "none": "7.5%", 
+        "unspecified": "3.2%"},
+    "government_type": "presidential republic",
+    "national_symbols": "royal palm, faya lobi (flower)",
+    "national_colors": ["green", "white", "red", "yellow"],
+    "gdp": "$3.419 billion",
+    "agriculture": [
+        "rice",
+        "bananas",
+        "seabob shrimp",
+        "yellow-fin tuna",
+        "vegetables"
+    ],
+    "industries": [
+        "gold mining",
+        "oil",
+        "lumber",
+        "food processing",
+        "fishing"
+    ],
+    "exports": [
+        "alumina",
+        "gold",
+        "crude oil",
+        "lumber",
+        "shrimp and fish",
+        "rice",
+        "bananas"
+    ],
+    "imports": [
+        "capital equipment",
+        "petroleum",
+        "foodstuffs",
+        "cotton",
+        "consumer goods"
+    ],
+    "broadband_subscriptions": "73,176",
+    "internet_users": "265,964",
+    "mobile_subscriptions": "752,270",
+    "internet_country_code": ".sr",
+    "military_and_security_forces": "Suriname Army (National Leger, NL): Army, Navy, Air Force, Military Police",
+    "pipelines": [
+        "50 km oil"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Paramaribo, Wageningen"
+    },
+    "waterways": "1,200 km",
+    "number_of_airports": "55",
+    "international_disputes": "area claimed by French Guiana between Riviere Litani and Riviere Marouini (both headwaters of the Lawa); Suriname claims a triangle of land between the New and Kutari/Koetari rivers in a historic dispute over the headwaters of the Courantyne; Guyana seeks UN Convention on the Law of the Sea arbitration to resolve the longstanding dispute with Suriname over the axis of the territorial sea boundary in potentially oil-rich waters"
+}

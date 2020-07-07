@@ -1,0 +1,119 @@
+{
+    "name": "Ecuador",
+    "background": "What is now Ecuador formed part of the northern Inca Empire until the Spanish conquest in 1533. Quito became a seat of Spanish colonial government in 1563 and part of the Viceroyalty of New Granada in 1717. The territories of the Viceroyalty - New Granada (Colombia), Venezuela, and Quito - gained their independence between 1819 and 1822 and formed a federation known as Gran Colombia. When Quito withdrew in 1830, the traditional name was changed in favor of the \"Republic of the Equator.\" Between 1904 and 1942, Ecuador lost territories in a series of conflicts with its neighbors. A border war with Peru that flared in 1995 was resolved in 1999. Although Ecuador marked 30 years of civilian governance in 2004, the period was marred by political instability. Protests in Quito contributed to the mid-term ouster of three of Ecuador's last four democratically elected presidents. In late 2008, voters approved a new constitution, Ecuador's 20th since gaining independence. General elections were held in April 2017, and voters elected President Lenin MORENO.",
+    "coordinates": "2 00 S, 77 30 W",
+    "region": "South America",
+    "total_area": "283,561 sq km",
+    "land_area": "276,841 sq km",
+    "water_area": "6,720 sq km",
+    "land_boundary": "2,237 km",
+    "neighbors": {
+        "Peru": "1529 km"
+    },
+    "climate": "tropical along coast, becoming cooler inland at higher elevations; tropical in Amazonian jungle lowlands",
+    "coastline": "2,237 km",
+    "natural_hazards": [
+        "frequent earthquakes",
+        "landslides",
+        "floods",
+        "periodic droughts",
+        "volcanism: volcanic activity concentrated along the Andes Mountains; Sangay (5,230 m), which erupted in 2010, is mainland Ecuador's most active volcano; other historically active volcanoes in the Andes include Antisana, Cayambe, Chacana, Cotopaxi, Guagua Pichincha, Reventador, Sumaco, and Tungurahua; Fernandina (1,476 m), a shield volcano that last erupted in 2009, is the most active of the many Galapagos volcanoes; other historically active Galapagos volcanoes include Wolf, Sierra Negra, Cerro Azul, Pinta, Marchena, and Santiago"
+    ],
+    "terrain": "coastal plain (costa), inter-Andean central highlands (sierra), and flat to rolling eastern jungle (oriente)",
+    "population_distribution": "nearly half of the population is concentrated in the interior in the Andean intermontane basins and valleys, with large concentrations also found along the western coastal strip; the rainforests of the east remain sparsely populated",
+    "natural_resources": [
+        "petroleum",
+        "fish",
+        "timber",
+        "hydropower"
+    ],
+    "population": "16,904,867",
+    "nationality": "Ecuadorian(s)",
+    "ethnic_groups": {
+        "mestizo (mixed Amerindian and white)": "71.9%",
+        "Montubio": "7.4%",
+        "Amerindian": "7%",
+        "white": "6.1%",
+        "Afroecuadorian": "4.3%",
+        "mulatto": "1.9%",
+        "black": "1%",
+        "other": "0.4%"
+    },
+    "languages": {
+        "Spanish (official)": "93%",
+        "Quechua": "4.1%",
+        "other indigenous": "0.7%",
+        "foreign": "2.2%"
+    },
+    "religions": {
+        "Roman Catholic": "74%", 
+        "Evangelical": "10.4%", 
+        "Jehovah's Witness": "1.2%", 
+        "other": "6.4%", 
+        "atheist": "7.9%", 
+        "agnostic": "0.1%"},
+    "government_type": "presidential republic",
+    "national_symbols": "Andean condor",
+    "national_colors": ["yellow", "blue", "red"],
+    "gdp": "$104.3 billion",
+    "agriculture": [
+        "bananas",
+        "coffee",
+        "cocoa",
+        "rice",
+        "potatoes",
+        "cassava",
+        "plantains",
+        "sugarcane",
+        "cattle",
+        "sheep",
+        "pigs",
+        "beef",
+        "pork",
+        "dairy products",
+        "fish",
+        "shrimp",
+        "balsa wood"
+    ],
+    "industries": [
+        "petroleum",
+        "food processing",
+        "textiles",
+        "wood products",
+        "chemicals"
+    ],
+    "exports": [
+        "petroleum",
+        "bananas",
+        "cut flowers",
+        "shrimp",
+        "cacao",
+        "coffee",
+        "wood",
+        "fish"
+    ],
+    "imports": [
+        "industrial materials",
+        "fuels and lubricants",
+        "nondurable consumer goods"
+    ],
+    "broadband_subscriptions": "1,953,607",
+    "internet_users": "8,693,739",
+    "mobile_subscriptions": "15,772,838",
+    "internet_country_code": ".ec",
+    "military_and_security_forces": "Ecuadorian Armed Forces: Ecuadorian Land Force (Fuerza Terrestre Ecuatoriana, FTE), Ecuadorian Navy (Fuerza Naval del Ecuador, FNE, includes naval infantry, naval aviation, coast guard), Ecuadorian Air Force (Fuerza Aerea Ecuatoriana, FAE)",
+    "pipelines": [
+        "485 km extra heavy crude",
+        "123 km gas",
+        "2131 km oil",
+        "1526 km refined products"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Esmeraldas, Manta, Puerto Bolivar",
+        "container port(s) (TEUs)": "Guayaquil (1,871,591)",
+        "river port(s)": "Guayaquil (Guayas)"
+    },
+    "waterways": "1,500 km",
+    "number_of_airports": "432",
+    "international_disputes": "organized illegal narcotics operations in Colombia penetrate across Ecuador's shared border"
+}

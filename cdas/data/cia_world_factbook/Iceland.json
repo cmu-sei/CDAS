@@ -1,0 +1,92 @@
+{
+    "name": "Iceland",
+    "background": "Settled by Norwegian and Celtic (Scottish and Irish) immigrants during the late 9th and 10th centuries A.D., Iceland boasts the world's oldest functioning legislative assembly, the Althingi, established in 930. Independent for over 300 years, Iceland was subsequently ruled by Norway and Denmark. Fallout from the Askja volcano of 1875 devastated the Icelandic economy and caused widespread famine. Over the next quarter century, 20% of the island's population emigrated, mostly to Canada and the US. Denmark granted limited home rule in 1874 and complete independence in 1944. The second half of the 20th century saw substantial economic growth driven primarily by the fishing industry. The economy diversified greatly after the country joined the European Economic Area in 1994, but Iceland was especially hard hit by the global financial crisis in the years following 2008. The economy is now on an upward trajectory, fueled primarily by a tourism and construction boom. Literacy, longevity, and social cohesion are first rate by world standards.",
+    "coordinates": "65 00 N, 18 00 W",
+    "region": "Arctic Region",
+    "total_area": "103,000 sq km",
+    "land_area": "100,250 sq km",
+    "water_area": "2,750 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "temperate; moderated by North Atlantic Current; mild, windy winters; damp, cool summers",
+    "coastline": "4,970 km",
+    "natural_hazards": [
+        "earthquakes and volcanic activity",
+        "volcanism: Iceland, situated on top of a hotspot, experiences severe volcanic activity; Eyjafjallajokull (1,666 m) erupted in 2010, sending ash high into the atmosphere and seriously disrupting European air traffic; scientists continue to monitor nearby Katla (1,512 m), which has a high probability of eruption in the very near future, potentially disrupting air traffic; Grimsvoetn and Hekla are Iceland's most active volcanoes; other historically active volcanoes include Askja, Bardarbunga, Brennisteinsfjoll, Esjufjoll, Hengill, Krafla, Krisuvik, Kverkfjoll, Oraefajokull, Reykjanes, Torfajokull, and Vestmannaeyjar"
+    ],
+    "terrain": "mostly plateau interspersed with mountain peaks, icefields; coast deeply indented by bays and fiords",
+    "population_distribution": "Iceland is almost entirely urban with half of the population located in and around the capital of Reykjavik; smaller clusters are primarily found along the coast in the north and west",
+    "natural_resources": [
+        "fish",
+        "hydropower",
+        "geothermal power",
+        "diatomite"
+    ],
+    "population": "350,734",
+    "nationality": "Icelander(s)",
+    "ethnic_groups": {"homogeneous mixture of descendants of Norse and Celts": "81%", "population with foreign background": "19%"},
+    "languages": {
+        "Icelandic": "",
+        "English": "",
+        "Nordic languages": "",
+        "German": ""
+    },
+    "religions": {
+        "Evangelical Lutheran Church of Iceland (official)": "67.2%", 
+        "Roman Catholic": "3.9%", "Reykjavik Free Church": "2.8%",
+        "Hafnarfjordur Free Church": "2%", "Asatru Association": "1.2%", 
+        "The Independent Congregation": ".9%", "other religions": "4%", 
+        "none": "6.7%", "other or unspecified": "11.3%"},
+    "government_type": "unitary parliamentary republic",
+    "national_symbols": "gyrfalcon",
+    "national_colors": ["blue", "white", "red"],
+    "gdp": "$24.48 billion",
+    "agriculture": [
+        "potatoes",
+        "carrots",
+        "green vegetables",
+        "tomatoes",
+        "cucumbers",
+        "mutton",
+        "chicken",
+        "pork",
+        "beef",
+        "dairy products",
+        "fish"
+    ],
+    "industries": [
+        "tourism",
+        "fish processing",
+        "aluminum smelting;",
+        "geothermal power",
+        "hydropower",
+        "medical/pharmaceutical products"
+    ],
+    "exports": [
+        "fish and fish products",
+        "aluminum",
+        "agricultural products",
+        "medicinal and medical products",
+        "ferro-silicon"
+    ],
+    "imports": [
+        "machinery and equipment",
+        "petroleum products",
+        "foodstuffs",
+        "textiles"
+    ],
+    "broadband_subscriptions": "136,556",
+    "internet_users": "329,967",
+    "mobile_subscriptions": "424,720",
+    "internet_country_code": ".is",
+    "military_and_security_forces": "no regular military forces; Icelandic Coast Guard; Icelandic National Police",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Grundartangi, Hafnarfjordur, Reykjavik"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "96",
+    "international_disputes": "Iceland, the UK, and Ireland dispute Denmark's claim that the Faroe Islands' continental shelf extends beyond 200 nm; the European Free Trade Association Surveillance Authority filed a suit against Iceland, claiming the country violated the Agreement on the European Economic Area in failing to pay minimum compensation to Icesave depositors"
+}

@@ -1,0 +1,110 @@
+{
+    "name": "Finland",
+    "background": "Finland was a province and then a grand duchy under Sweden from the 12th to the 19th centuries, and an autonomous grand duchy of Russia after 1809. It gained complete independence in 1917. During World War II, Finland successfully defended its independence through cooperation with Germany and resisted subsequent invasions by the Soviet Union - albeit with some loss of territory. In the subsequent half century, Finland transformed from a farm/forest economy to a diversified modern industrial economy; per capita income is among the highest in Western Europe. A member of the EU since 1995, Finland was the only Nordic state to join the euro single currency at its initiation in January 1999. In the 21st century, the key features of Finland's modern welfare state are high quality education, promotion of equality, and a national social welfare system - currently challenged by an aging population and the fluctuations of an export-driven economy.",
+    "coordinates": "64 00 N, 26 00 E",
+    "region": "Europe",
+    "total_area": "338,145 sq km",
+    "land_area": "303,815 sq km",
+    "water_area": "34,330 sq km",
+    "land_boundary": "2,563 km",
+    "neighbors": {
+        "Sweden": "545 km",
+        "Russia": "1309 km"
+    },
+    "climate": "cold temperate; potentially subarctic but comparatively mild because of moderating influence of the North Atlantic Current, Baltic Sea, and more than 60,000 lakes",
+    "coastline": "1,250 km",
+    "natural_hazards": [
+        "severe winters in the north"
+    ],
+    "terrain": "mostly low, flat to rolling plains interspersed with lakes and low hills",
+    "population_distribution": "the vast majority of people are found in the south; the northern interior areas remain sparsely poplulated",
+    "natural_resources": [
+        "timber",
+        "iron ore",
+        "copper",
+        "lead",
+        "zinc",
+        "chromite",
+        "nickel",
+        "gold",
+        "silver",
+        "limestone"
+    ],
+    "population": "5,571,665",
+    "nationality": "Finn(s)",
+    "ethnic_groups": {
+        "Finn":"",
+        "Swede":"",
+        "Russian":"",
+        "Estonian":"",
+        "Romani":"",
+        "Sami":""
+    },
+    "languages": {
+        "Finnish (official)": "87.6%",
+        "Swedish (official)": "5.2%",
+        "Russian": "1.4%",
+        "other": "5.8%"
+    },
+    "religions": {
+        "Lutheran": "69.8%", "Greek Orthodox": "1.1%", "other": "1.7%", "unspecified": "27.4%"},
+    "government_type": "parliamentary republic",
+    "national_symbols": "lion",
+    "national_colors": ["blue", "white"],
+    "gdp": "$252.8 billion",
+    "agriculture": [
+        "barley",
+        "wheat",
+        "sugar beets",
+        "potatoes",
+        "dairy cattle",
+        "fish"
+    ],
+    "industries": [
+        "metals and metal products",
+        "electronics",
+        "machinery and scientific instruments",
+        "shipbuilding",
+        "pulp and paper",
+        "foodstuffs",
+        "chemicals",
+        "textiles",
+        "clothing"
+    ],
+    "exports": [
+        "electrical and optical equipment",
+        "machinery",
+        "transport equipment",
+        "paper and pulp",
+        "chemicals",
+        "basic metals",
+        "timber"
+    ],
+    "imports": [
+        "foodstuffs",
+        "petroleum and petroleum products",
+        "chemicals",
+        "transport equipment",
+        "iron and steel",
+        "machinery",
+        "computers",
+        "electronic industry products",
+        "textile yarn and fabrics",
+        "grains"
+    ],
+    "broadband_subscriptions": "1,737,000",
+    "internet_users": "4,822,132",
+    "mobile_subscriptions": "7,150,000",
+    "internet_country_code": ".fi",
+    "military_and_security_forces": "Finnish Defense Forces (FDF): Army (Maavoimat), Navy (Merivoimat), Air Force (Ilmavoimat), Border Guard (Rajavartiolaitos)",
+    "pipelines": [
+        "1288 km gas transmission pipes",
+        "1976 km distribution pipes"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Helsinki, Kotka, Naantali, Porvoo, Raahe, Rauma"
+    },
+    "waterways": "8,000 km",
+    "number_of_airports": "148",
+    "international_disputes": "various groups in Finland advocate restoration of Karelia and other areas ceded to the former Soviet Union, but the Finnish Government asserts no territorial demands"
+}

@@ -1,0 +1,107 @@
+{
+    "name": "Jordan",
+    "background": "Following World War I and the dissolution of the Ottoman Empire, the League of Nations awarded Britain the mandate to govern much of the Middle East. Britain demarcated a semi-autonomous region of Transjordan from Palestine in the early 1920s. The area gained its independence in 1946 and thereafter became The Hashemite Kingdom of Jordan. The country's long-time ruler, King HUSSEIN (1953-99), successfully navigated competing pressures from the major powers (US, USSR, and UK), various Arab states, Israel, and a large internal Palestinian population. Jordan lost the West Bank to Israel in the 1967 Six-Day War. King HUSSEIN in 1988 permanently relinquished Jordanian claims to the West Bank; in 1994 he signed a peace treaty with Israel. King ABDALLAH II, King HUSSEIN's eldest son, assumed the throne following his father's death in 1999. He has implemented modest political reforms, including the passage of a new electoral law in early 2016 and an effort to devolve some authority to governorate- and municipal-level councils following subnational elections in 2017. In 2016, the Islamic Action Front, which is the political arm of the Jordanian Muslim Brotherhood, returned to the National Assembly with 15 seats after boycotting the previous two elections in 2010 and 2013.",
+    "coordinates": "31 00 N, 36 00 E",
+    "region": "Middle East",
+    "total_area": "89,342 sq km",
+    "land_area": "88,802 sq km",
+    "water_area": "540 sq km",
+    "land_boundary": "1,744 km",
+    "neighbors": {
+        "Israel": "307 km",
+        "Saudi Arabia": "731 km",
+        "Syria": "379 km",
+        "West Bank": "148 km"
+    },
+    "climate": "mostly arid desert; rainy season in west (November to April)",
+    "coastline": "26 km",
+    "natural_hazards": [
+        "droughts",
+        "periodic earthquakes",
+        "flash floods"
+    ],
+    "terrain": "mostly arid desert plateau; a great north-south geological rift along the west of the country is the dominant topographical feature and includes the Jordan River Valley, the Dead Sea, and the Jordanian Highlands",
+    "population_distribution": "population heavily concentrated in the west, and particularly the northwest, in and around the capital of Amman; a sizeable, but smaller population is located in the southwest along the shore of the Gulf of Aqaba",
+    "natural_resources": [
+        "phosphates",
+        "potash",
+        "shale oil"
+    ],
+    "population": "10,820,644",
+    "nationality": "Jordanian(s)",
+    "ethnic_groups": {
+        "Jordanian": "69.3%", 
+        "Syrian": "13.3%", 
+        "Palestinian": "6.7%",
+        "Egyptian": "6.7%", 
+        "Iraqi": "1.4%",
+        "other": "2.6%"
+    },
+    "languages": {
+        "Arabic  (official)": "",
+        "English": ""
+    },
+    "religions": {
+        "Muslim": "97.2%", "Christian": "2.2%", "Buddhist": "0.4%", 
+        "Hindu": "0.1%", "Jewish": "0.1", "folk": "0.1", "unaffiliated": "0.1", 
+        "other": "0.1"},
+    "government_type": "parliamentary constitutional monarchy",
+    "national_symbols": "eagle",
+    "national_colors": ["black", "white", "green", "red"],
+    "gdp": "$40.13 billion",
+    "agriculture": [
+        "citrus",
+        "tomatoes",
+        "cucumbers",
+        "olives",
+        "strawberries",
+        "stone fruits",
+        "sheep",
+        "poultry",
+        "dairy"
+    ],
+    "industries": [
+        "tourism",
+        "information technology",
+        "clothing",
+        "fertilizer",
+        "potash",
+        "phosphate mining",
+        "pharmaceuticals",
+        "petroleum refining",
+        "cement",
+        "inorganic chemicals",
+        "light manufacturing"
+    ],
+    "exports": [
+        "textiles",
+        "fertilizers",
+        "potash",
+        "phosphates",
+        "vegetables",
+        "pharmaceuticals"
+    ],
+    "imports": [
+        "crude oil",
+        "refined petroleum products",
+        "machinery",
+        "transport equipment",
+        "iron",
+        "cereals"
+    ],
+    "broadband_subscriptions": "399,596",
+    "internet_users": "5,099,674",
+    "mobile_subscriptions": "8,731,760",
+    "internet_country_code": ".jo",
+    "military_and_security_forces": "Jordanian Armed Forces (JAF): Royal Jordanian Army (includes Special Operations Forces, Border Guards, Royal Guard), Royal Jordanian Navy, Royal Jordanian Air Force; Ministry of Interior: General Directorate of Gendarmerie Forces, Public Security Directorate",
+    "pipelines": [
+        "473 km gas",
+        "49 km oil"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Al 'Aqabah"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "18",
+    "international_disputes": "2004 Agreement settles border dispute with Syria pending demarcation"
+}

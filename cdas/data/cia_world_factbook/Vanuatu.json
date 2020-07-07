@@ -1,0 +1,95 @@
+{
+    "name": "Vanuatu",
+    "background": "Multiple waves of colonizers, each speaking a distinct language, migrated to the New Hebrides in the millennia preceding European exploration in the 18th century. This settlement pattern accounts for the complex linguistic diversity found on the archipelago to this day. The British and French, who settled the New Hebrides in the 19th century, agreed in 1906 to an Anglo-French Condominium, which administered the islands until independence in 1980, when the new name of Vanuatu was adopted. Politics and society continue to be divided along linguistic lines, although those divisions are lessening over time. Coalition governments tend to be weak, and since 2008, prime ministers have been ousted through no-confidence motions or temporary procedural issues 10 times. Prime Minister Charlot SALAWI has survived at least five no-confidence motions since taking office in 2016.",
+    "coordinates": "16 00 S, 167 00 E",
+    "region": "Oceania",
+    "total_area": "12,189 sq km",
+    "land_area": "12,189 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "tropical; moderated by southeast trade winds from May to October; moderate rainfall from November to April; may be affected by cyclones from December to April",
+    "coastline": "2,528 km",
+    "natural_hazards": [
+        "tropical cyclones (January to April)",
+        "tsunamis",
+        "volcanism: significant volcanic activity with multiple eruptions in recent years; Yasur (361 m), one of the world's most active volcanoes, has experienced continuous activity in recent centuries; other historically active volcanoes include Aoba, Ambrym, Epi, Gaua, Kuwae, Lopevi, Suretamatai, and Traitor's Head"
+    ],
+    "terrain": "mostly mountainous islands of volcanic origin; narrow coastal plains",
+    "population_distribution": "three-quarters of the population lives in rural areas; the urban populace lives primarily in two cities, Port-Vila and Lugenville; three largest islands - Espiritu Santo, Malakula, and Efate - accomodate over half of the populace",
+    "natural_resources": [
+        "manganese",
+        "hardwood forests",
+        "fish"
+    ],
+    "population": "298,333",
+    "nationality": "Ni-Vanuatu (singular and plural)",
+    "ethnic_groups": {"Melanesian": "99.2%", "non-Melanesian": "0.8%"},
+    "languages": {
+        "local languages": "63.2%",
+        "Bislama (official)": "33.7%",
+        "English (official)": "2%",
+        "French (official)": "0.6%",
+        "other": "0.5%"
+    },
+    "religions": {
+        "Protestant": "70%", 
+        "Roman Catholic": "12.4%", 
+        "customary beliefs": "3.7%", 
+        "other": "12.6%", 
+        "none": "1.1%", 
+        "unspecified": "0.2%"},
+    "government_type": "parliamentary republic",
+    "national_symbols": "boar's tusk with crossed fern fronds",
+    "national_colors": ["red", "black", "green", "yellow"],
+    "gdp": "$0.870 billion",
+    "agriculture": [
+        "copra",
+        "coconuts",
+        "cocoa",
+        "coffee",
+        "taro",
+        "yams",
+        "fruits",
+        "vegetables",
+        "beef",
+        "fish"
+    ],
+    "industries": [
+        "food and fish freezing",
+        "wood processing",
+        "meat canning"
+    ],
+    "exports": [
+        "copra",
+        "beef (veal)",
+        "cocoa",
+        "timber",
+        "kava",
+        "coffee",
+        "coconut oil",
+        "shell",
+        "cowhides",
+        "coconut meal",
+        "fish"
+    ],
+    "imports": [
+        "machinery and equipment",
+        "foodstuffs",
+        "fuels"
+    ],
+    "broadband_subscriptions": "4,718",
+    "internet_users": "66,613",
+    "mobile_subscriptions": "251,428",
+    "internet_country_code": ".vu",
+    "military_and_security_forces": "no regular military forces; Vanuatu Police Force (VPF; includes Vanuatu Mobile Force (VMF) and Police Maritime Wing (VPMW))",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Forari Bay, Luganville (Santo, Espiritu Santo), Port-Vila"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "31",
+    "international_disputes": "Matthew and Hunter Islands east of New Caledonia claimed by Vanuatu and France"
+}

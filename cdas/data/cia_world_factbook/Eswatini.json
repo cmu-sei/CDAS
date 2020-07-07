@@ -1,0 +1,92 @@
+{
+    "name": "Eswatini",
+    "background": "Autonomy for Eswatini was guaranteed by the British in the late 19th century; independence was granted in 1968. A new constitution came into effect in 2006, which included provisions for a more independent parliament and judiciary, but the legal status of political parties remains unclear. King MSWATI III renamed the country from Swaziland to Eswatini in April 2018. Despite its classification as a lower-middle income country, Eswatini suffers from severe poverty and high unemployment. Eswatini has the world's highest HIV/AIDS prevalence rate, although recent years have shown marked declines in new infections.",
+    "coordinates": "26 30 S, 31 30 E",
+    "region": "Africa",
+    "total_area": "17,364 sq km",
+    "land_area": "17,204 sq km",
+    "water_area": "160 sq km",
+    "land_boundary": "546 km",
+    "neighbors": {
+        "South Africa": "438 km"
+    },
+    "climate": "varies from tropical to near temperate",
+    "coastline": "0 km",
+    "natural_hazards": [
+        "drought"
+    ],
+    "terrain": "mostly mountains and hills; some moderately sloping plains",
+    "population_distribution": "because of its mountainous terrain, the population distribution is uneven throughout the country, concentrating primarily in valleys and plains",
+    "natural_resources": [
+        "asbestos",
+        "coal",
+        "clay",
+        "cassiterite",
+        "hydropower",
+        "forests",
+        "small gold and diamond deposits",
+        "quarry stone",
+        "talc"
+    ],
+    "population": "1,104,479",
+    "nationality": "liSwati (singular), emaSwati (plural); note - former term, Swazi(s), still used among English speakers",
+    "ethnic_groups": "",
+    "languages": {
+        "English (official)": "",
+        "siSwati (official)": ""
+    },
+    "religions": {
+        "Christian": "90%", 
+        "Muslim": "2%", 
+        "other": "8%"},
+    "government_type": "absolute monarchy",
+    "national_symbols": "lion, elephant",
+    "national_colors": ["blue", "yellow", "red"],
+    "gdp": "$4.417 billion",
+    "agriculture": [
+        "sugarcane",
+        "corn",
+        "cotton",
+        "citrus",
+        "pineapples",
+        "cattle",
+        "goats"
+    ],
+    "industries": [
+        "soft drink concentrates",
+        "coal",
+        "forestry",
+        "sugar processing",
+        "textiles",
+        "apparel"
+    ],
+    "exports": [
+        "soft drink concentrates",
+        "sugar",
+        "timber",
+        "cotton yarn",
+        "refrigerators",
+        "citrus",
+        "canned fruit"
+    ],
+    "imports": [
+        "motor vehicles",
+        "machinery",
+        "transport equipment",
+        "foodstuffs",
+        "petroleum products",
+        "chemicals"
+    ],
+    "broadband_subscriptions": "7,000",
+    "internet_users": "414,724",
+    "mobile_subscriptions": "995,000",
+    "internet_country_code": ".sz",
+    "military_and_security_forces": "Umbutfo Eswatini Defense Force (UEDF): Ground Force (includes Air Wing (no operational aircraft))",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": "Unknown",
+    "waterways": "Unknown",
+    "number_of_airports": "14",
+    "international_disputes": "in 2006, Swati king advocated resorting to ICJ to claim parts of Mpumalanga and KwaZulu-Natal from South Africa"
+}

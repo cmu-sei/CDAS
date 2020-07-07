@@ -1,0 +1,106 @@
+{
+    "name": "The Gambia",
+    "background": "The Gambia gained its independence from the UK in 1965. Geographically surrounded by Senegal, it formed a short-lived Confederation of Senegambia between 1982 and 1989. In 1991, the two nations signed a friendship and cooperation treaty, although tensions flared up intermittently during the regime of Yahya JAMMEH. JAMMEH led a military coup in 1994 that overthrew the president and banned political activity. A new constitution and presidential election in 1996, followed by parliamentary balloting in 1997, completed a nominal return to civilian rule. JAMMEH was elected president in all subsequent elections including most recently in late 2011. After 22 years of increasingly authoritarian rule, President JAMMEH was defeated in free and fair elections in December 2016. Due to The Gambia’s poor human rights record under JAMMEH, international development partners had distanced themselves, and substantially reduced aid to the country. These channels have now reopened under the administration of President Adama BARROW, who took office in January 2017. The US and The Gambia currently enjoy improved relations. US assistance to the country has supported military education and training programs, as well as various capacity building and democracy strengthening activities.",
+    "coordinates": "13 28 N, 16 34 W",
+    "region": "Africa",
+    "total_area": "11,300 sq km",
+    "land_area": "10,120 sq km",
+    "water_area": "1,180 sq km",
+    "land_boundary": "749 km",
+    "neighbors": {},
+    "climate": "tropical; hot, rainy season (June to November); cooler, dry season (November to May)",
+    "coastline": "80 km",
+    "natural_hazards": [
+        "droughts"
+    ],
+    "terrain": "flood plain of the Gambia River flanked by some low hills",
+    "population_distribution": "settlements are found scattered along the Gambia River; the largest communities, including the capital of Banjul, and the country's largest city, Serekunda, are found at the mouth of the Gambia River along the Atlantic coast",
+    "natural_resources": [
+        "fish",
+        "clay",
+        "silica sand",
+        "titanium (rutile and ilmenite)",
+        "tin",
+        "zircon"
+    ],
+    "population": "2,173,999",
+    "nationality": "Gambian(s)",
+    "ethnic_groups": {
+        "Mandinka/Jahanka": "34%",
+        "Fulani/Tukulur/Lorobo": "22.4%",
+        "Wolof": "12.6%",
+        "Jola/Karoninka": "10.7%",
+        "Serahuleh": "6.6%",
+        "Serer": "3.2%",
+        "Manjago": "2.1%",
+        "Bambara": "1%",
+        "Creole/Aku Marabout": "0.7%",
+        "other": "0.9%",
+        "non-Gambian": "5.2%",
+        "no answer": "0.6%"
+    },
+    "languages": {
+        "English (official)": "",
+        "Mandinka": "",
+        "Wolof": "",
+        "Fula": "",
+        "other indigenous vernaculars": ""
+    },
+    "religions": {
+        "Muslim": "95.7%", "Christian": "4.2%", "none": "0.1%", 
+        "no response": "0.1%"},
+    "government_type": "presidential republic",
+    "national_symbols": "lion",
+    "national_colors": ["red", "blue", "green", "white"],
+    "gdp": "$1.482 billion",
+    "agriculture": [
+        "rice",
+        "millet",
+        "sorghum",
+        "peanuts",
+        "corn",
+        "sesame",
+        "cassava",
+        "palm kernels",
+        "cattle",
+        "sheep",
+        "goats"
+    ],
+    "industries": [
+        "peanuts",
+        "fish",
+        "hides",
+        "tourism",
+        "beverages",
+        "agricultural machinery assembly",
+        "woodworking",
+        "metalworking",
+        "clothing"
+    ],
+    "exports": [
+        "peanut products",
+        "fish",
+        "cotton lint",
+        "palm kernels"
+    ],
+    "imports": [
+        "foodstuffs",
+        "manufactures",
+        "fuel",
+        "machinery and transport equipment"
+    ],
+    "broadband_subscriptions": "4,433",
+    "internet_users": "371,785",
+    "mobile_subscriptions": "3,181,393",
+    "internet_country_code": ".gm",
+    "military_and_security_forces": "Office of the Chief of Defense Staff: Gambian National Army (GNA), Gambian Navy (GN), Republican National Guard (RNG)",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Banjul"
+    },
+    "waterways": "390 km",
+    "number_of_airports": "1",
+    "international_disputes": "attempts to stem refugees, cross-border raids, arms smuggling, and other illegal activities by separatists from southern Senegal's Casamance region, as well as from conflicts in other west African states"
+}

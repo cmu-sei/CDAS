@@ -1,0 +1,118 @@
+{
+    "name": "Madagascar",
+    "background": "Madagascar was one of the last major habitable landmasses on earth settled by humans. While there is some evidence of human presence on the island in the millennia B.C., large-scale settlement began between A.D. 350 and 550 with settlers from present-day Indonesia. The island attracted Arab and Persian traders as early as the 7th century, and migrants from Africa arrived around A.D. 1000. Madagascar was a pirate stronghold during the late 17th and early 18th centuries, and served as a slave trading center into the 19th century. From the 16th to the late 19th century, a native Merina Kingdom dominated much of Madagascar. The island was conquered by the French in 1896 who made it a colony; independence was regained in 1960. During 1992-93, free presidential and National Assembly elections were held ending 17 years of single-party rule. In 1997, in the second presidential race, Didier RATSIRAKA, the leader during the 1970s and 1980s, returned to the presidency. The 2001 presidential election was contested between the followers of Didier RATSIRAKA and Marc RAVALOMANANA, nearly causing secession of half of the country. In 2002, the High Constitutional Court announced RAVALOMANANA the winner. RAVALOMANANA won a second term in 2006 but, following protests in 2009, handed over power to the military, which then conferred the presidency on the mayor of Antananarivo, Andry RAJOELINA, in what amounted to a coup d'etat. Following a lengthy mediation process led by the Southern African Development Community, Madagascar held UN-supported presidential and parliamentary elections in 2013. Former de facto finance minister Hery RAJAONARIMAMPIANINA won a runoff election in December 2013 and was inaugurated in January 2014. In January 2019, RAJOELINA was declared the winner of a runoff election against RAVALOMANANA; both RATSIRAKA and RAJAONARIMAMPIANINA also ran in the first round of the election, which took place in November 2018.",
+    "coordinates": "20 00 S, 47 00 E",
+    "region": "Africa",
+    "total_area": "587,041 sq km",
+    "land_area": "581,540 sq km",
+    "water_area": "5,501 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "tropical along coast, temperate inland, arid in south",
+    "coastline": "4,828 km",
+    "natural_hazards": [
+        "periodic cyclones",
+        "drought",
+        "locust infestation",
+        "volcanism: Madagascar's volcanoes have not erupted in historical times"
+    ],
+    "terrain": "narrow coastal plain, high plateau and mountains in center",
+    "population_distribution": "most of population lives on the eastern half of the island; significant clustering is found in the central highlands and eastern coastline",
+    "natural_resources": [
+        "graphite",
+        "chromite",
+        "coal",
+        "bauxite",
+        "rare earth elements",
+        "salt",
+        "quartz",
+        "tar sands",
+        "semiprecious stones",
+        "mica",
+        "fish",
+        "hydropower"
+    ],
+    "population": "26,955,737",
+    "nationality": "Malagasy (singular and plural)",
+    "ethnic_groups": {
+        "Malayo-Indonesian (Merina and related Betsileo)":"", 
+        "Cotiers (mixed African, Malayo-Indonesian, and Arab ancestry - Betsimisaraka, Tsimihety, Antaisaka, Sakalava)":"", 
+        "French":"", 
+        "Indian":"",
+        "Creole":"",
+        "Comoran":""
+    },
+    "languages": {
+        "French (official)": "",
+        "Malagasy (official)": "",
+        "English": ""
+    },
+    "religions": {"Christian":"", "indigenous":"", "Muslim":""},
+    "government_type": "semi-presidential republic",
+    "national_symbols": "traveller's palm, zebu",
+    "national_colors": ["red", "green", "white"],
+    "gdp": "$11.5 billion",
+    "agriculture": [
+        "coffee",
+        "vanilla",
+        "sugarcane",
+        "cloves",
+        "cocoa",
+        "rice",
+        "cassava",
+        "beans",
+        "bananas",
+        "peanuts",
+        "livestock products"
+    ],
+    "industries": [
+        "meat processing",
+        "seafood",
+        "soap",
+        "beer",
+        "leather",
+        "sugar",
+        "textiles",
+        "glassware",
+        "cement",
+        "automobile assembly plant",
+        "paper",
+        "petroleum",
+        "tourism",
+        "mining"
+    ],
+    "exports": [
+        "coffee",
+        "vanilla",
+        "shellfish",
+        "sugar",
+        "cotton cloth",
+        "clothing",
+        "chromite",
+        "petroleum products",
+        "gems",
+        "ilmenite",
+        "cobalt",
+        "nickel"
+    ],
+    "imports": [
+        "capital goods",
+        "petroleum",
+        "consumer goods",
+        "food"
+    ],
+    "broadband_subscriptions": "27,211",
+    "internet_users": "1,151,563",
+    "mobile_subscriptions": "10,654,710",
+    "internet_country_code": ".mg",
+    "military_and_security_forces": "People's Armed Forces: Army, Navy, Air Force; National Gendarmerie (operates under the Ministry of Defense)",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Antsiranana (Diego Suarez), Mahajanga, Toamasina, Toliara (Tulear)"
+    },
+    "waterways": "600 km",
+    "number_of_airports": "83",
+    "international_disputes": "claims Bassas da India, Europa Island, Glorioso Islands, and Juan de Nova Island (all administered by France); the vegetated drying cays of Banc du Geyser, which were claimed by Madagascar in 1976, also fall within the EEZ claims of the Comoros and France (Glorioso Islands, part of the French Southern and Antarctic Lands)"
+}

@@ -1,0 +1,131 @@
+{
+    "name": "Mexico",
+    "background": "The site of several advanced Amerindian civilizations - including the Olmec, Toltec, Teotihuacan, Zapotec, Maya, and Aztec - Mexico was conquered and colonized by Spain in the early 16th century. Administered as the Viceroyalty of New Spain for three centuries, it achieved independence early in the 19th century. Elections held in 2000 marked the first time since the 1910 Mexican Revolution that an opposition candidate - Vicente FOX of the National Action Party (PAN) - defeated the party in government, the Institutional Revolutionary Party (PRI). He was succeeded in 2006 by another PAN candidate Felipe CALDERON, but Enrique PENA NIETO regained the presidency for the PRI in 2012. Left-leaning antiestablishment politician and former mayor of Mexico City (2000-05) Andres Manuel LOPEZ OBRADOR, from the National Regeneration Movement (MORENA), became president in December 2018.The global financial crisis in late 2008 caused a massive economic downturn in Mexico the following year, although growth returned quickly in 2010. Ongoing economic and social concerns include low real wages, high underemployment, inequitable income distribution, and few advancement opportunities for the largely indigenous population in the impoverished southern states. Since 2007, Mexico's powerful drug-trafficking organizations have engaged in bloody feuding, resulting in tens of thousands of drug-related homicides.",
+    "coordinates": "23 00 N, 102 00 W",
+    "region": "North America",
+    "total_area": "1,964,375 sq km",
+    "land_area": "1,943,945 sq km",
+    "water_area": "20,430 sq km",
+    "land_boundary": "4,389 km",
+    "neighbors": {
+        "Guatemala": "958 km",
+        "US": "3155 km"
+    },
+    "climate": "varies from tropical to desert",
+    "coastline": "9,330 km",
+    "natural_hazards": [
+        "tsunamis along the Pacific coast, volcanoes and destructive earthquakes in the center and south",
+        "hurricanes on the Pacific, Gulf of Mexico, and Caribbean coasts",
+        "volcanism: volcanic activity in the central-southern part of the country; the volcanoes in Baja California are mostly dormant; Colima (3,850 m), which erupted in 2010, is Mexico's most active volcano and is responsible for causing periodic evacuations of nearby villagers, it has been deemed a Decade Volcano by the International Association of Volcanology and Chemistry of the Earth's Interior, worthy of study due to its explosive history and close proximity to human populations; Popocatepetl (5,426 m) poses a threat to Mexico City; other historically active volcanoes include Barcena, Ceboruco, El Chichon, Michoacan-Guanajuato, Pico de Orizaba, San Martin, Socorro, and Tacana"
+    ],
+    "terrain": "high, rugged mountains; low coastal plains; high plateaus; desert",
+    "population_distribution": "most of the population is found in the middle of the country between the states of Jalisco and Veracruz; approximately a quarter of the population lives in and around Mexico City",
+    "natural_resources": [
+        "petroleum",
+        "silver",
+        "antimony",
+        "copper",
+        "gold",
+        "lead",
+        "zinc",
+        "natural gas",
+        "timber"
+    ],
+    "population": "128,649,565",
+    "nationality": "Mexican(s)",
+    "ethnic_groups": {
+        "mestizo (Amerindian-Spanish)": "62%", 
+        "predominantly Amerindian": "21%", 
+        "Amerindian":"7%", 
+        "other": "10%"
+    },
+    "languages": {
+        "Spanish only": "92.7%",
+        "Spanish and indigenous languages": "5.7%",
+        "indigenous only": "0.8%",
+        "unspecified": "0.8%"
+    },
+    "religions": {
+        "Roman Catholic": "82.7%", 
+        "Pentecostal": "1.6%", 
+        "Jehovah's Witness": "1.4%", 
+        "other Evangelical Churches": "5%", 
+        "other": "1.9%", 
+        "none": "4.7%", 
+        "unspecified": "2.7%"},
+    "government_type": "federal presidential republic",
+    "national_symbols": "golden eagle",
+    "national_colors": ["green", "white", "red"],
+    "gdp": "$1,151 billion",
+    "agriculture": [
+        "corn",
+        "wheat",
+        "soybeans",
+        "rice",
+        "beans",
+        "cotton",
+        "coffee",
+        "fruit",
+        "tomatoes",
+        "beef",
+        "poultry",
+        "dairy products",
+        "wood products"
+    ],
+    "industries": [
+        "food and beverages",
+        "tobacco",
+        "chemicals",
+        "iron and steel",
+        "petroleum",
+        "mining",
+        "textiles",
+        "clothing",
+        "motor vehicles",
+        "consumer durables",
+        "tourism"
+    ],
+    "exports": [
+        "manufactured goods",
+        "electronics",
+        "vehicles and auto parts",
+        "oil and oil products",
+        "silver",
+        "plastics",
+        "fruits",
+        "vegetables",
+        "coffee",
+        "cotton"
+    ],
+    "imports": [
+        "metalworking machines",
+        "steel mill products",
+        "agricultural machinery",
+        "electrical equipment",
+        "automobile parts for assembly and repair",
+        "aircraft",
+        "aircraft parts",
+        "plastics",
+        "natural gas and oil products"
+    ],
+    "broadband_subscriptions": "18,359,028",
+    "internet_users": "73,334,032",
+    "mobile_subscriptions": "120,173,510",
+    "internet_country_code": ".mx",
+    "military_and_security_forces": "Secretariat of National Defense (Secretaria de Defensa Nacional, Sedena): Army (Ejercito), Mexican Air Force (Fuerza Aerea Mexicana, FAM); Secretariat of the Navy (Secretaria de Marina, Semar): Mexican Navy (Armada de Mexico (ARM), includes Naval Air Force (FAN), Mexican Naval Infantry Corps (Cuerpo de Infanteria de Marina, Mexmar or CIM)); Ministry of Security and Citizen Protection: Federal Police (includes Gendarmerie), National Guard",
+    "pipelines": [
+        "15986 km natural gas ",
+        "10365 km oil ",
+        "8946 km refined products"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Altamira, Coatzacoalcos, Lazaro Cardenas, Manzanillo, Veracruz",
+        "oil terminal(s)": "Cayo Arcas terminal, Dos Bocas terminal",
+        "cruise port(s)": "Cancun, Cozumel, Ensenada",
+        "container port(s) (TEUs)": "Manzanillo (2,830,370), Lazaro Cardenas (1,149,079)",
+        "LNG terminal(s) (import)": "Altamira, Ensenada"
+    },
+    "waterways": "2,900 km",
+    "number_of_airports": "1,714",
+    "international_disputes": "abundant rainfall in recent years along much of the Mexico-US border region has ameliorated periodically strained water-sharing arrangements; the US has intensified security measures to monitor and control legal and illegal personnel, transport, and commodities across its border with Mexico; Mexico must deal with thousands of impoverished Guatemalans and other Central Americans who cross the porous border looking for work in Mexico and the US; Belize and Mexico are working to solve minor border demarcation discrepancies arising from inaccuracies in the 1898 border treaty"
+}

@@ -1,0 +1,87 @@
+{
+    "name": "Islas Malvinas",
+    "background": "Although first sighted by an English navigator in 1592, the first landing (English) did not occur until almost a century later in 1690, and the first settlement (French) was not established until 1764. The colony was turned over to Spain two years later and the islands have since been the subject of a territorial dispute, first between Britain and Spain, then between Britain and Argentina. The UK asserted its claim to the islands by establishing a naval garrison there in 1833. Argentina invaded the islands on 2 April 1982. The British responded with an expeditionary force that landed seven weeks later and after fierce fighting forced an Argentine surrender on 14 June 1982. With hostilities ended and Argentine forces withdrawn, UK administration resumed. In response to renewed calls from Argentina for Britain to relinquish control of the islands, a referendum was held in March 2013, which resulted in 99.8% of the population voting to remain a part of the UK.",
+    "coordinates": "51 45 S, 59 00 W",
+    "region": "South America",
+    "total_area": "12,173 sq km",
+    "land_area": "12,173 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "cold marine; strong westerly winds, cloudy, humid; rain occurs on more than half of days in year; average annual rainfall is 60 cm in Stanley; occasional snow all year, except in January and February, but typically does not accumulate",
+    "coastline": "1,288 km",
+    "natural_hazards": [
+        "strong winds persist throughout the year"
+    ],
+    "terrain": "rocky, hilly, mountainous with some boggy, undulating plains",
+    "population_distribution": "a very small population, with most residents living in and around Stanley",
+    "natural_resources": [
+        "fish",
+        "squid",
+        "wildlife",
+        "calcified seaweed",
+        "sphagnum moss"
+    ],
+    "population": "3,198",
+    "nationality": "Falkland Islander(s)",
+    "ethnic_groups": {
+        "Falkland Islander": "48.3%",
+        "British": "23.1%",
+        "St. Helenian": "7.5%",
+        "Chilean": "4.6%",
+        "mixed": "6%",
+        "other": "8.5%", 
+        "unspecified": "2%"
+    },
+    "languages": {
+        "English": "89%",
+        "Spanish": "7.7%",
+        "other": "3.3%"
+    },
+    "religions": {"Christian": "57.1%", "other": "1.6%", "none": "35.4%", 
+        "unspecified": "6%"},
+    "government_type": "parliamentary democracy (Legislative Assembly); self-governing overseas territory of the UK",
+    "national_symbols": "ram",
+    "national_colors": [],
+    "gdp": "$0.206 billion",
+    "agriculture": [
+        "fodder and vegetable crops",
+        "venison",
+        "sheep",
+        "dairy products",
+        "fish",
+        "squid"
+    ],
+    "industries": [
+        "fish and wool processing",
+        "tourism"
+    ],
+    "exports": [
+        "wool",
+        "hides",
+        "meat",
+        "venison",
+        "fish",
+        "squid"
+    ],
+    "imports": [
+        "fuel",
+        "food and drink",
+        "building materials",
+        "clothing"
+    ],
+    "broadband_subscriptions": "1,610",
+    "internet_users": "3,000",
+    "mobile_subscriptions": "4,674",
+    "internet_country_code": ".fk",
+    "military_and_security_forces": "no regular military forces",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Stanley"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "7",
+    "international_disputes": "Argentina, which claims the islands in its constitution and briefly occupied them by force in 1982, agreed in 1995 to no longer seek settlement by force; UK continues to reject Argentine requests for sovereignty talks"
+}

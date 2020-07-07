@@ -1,0 +1,104 @@
+{
+    "name": "Armenia",
+    "background": "Armenia prides itself on being the first nation to formally adopt Christianity (early 4th century). Despite periods of autonomy, over the centuries Armenia came under the sway of various empires including the Roman, Byzantine, Arab, Persian, and Ottoman. During World War I in the western portion of Armenia, the Ottoman Empire instituted a policy of forced resettlement coupled with other harsh practices that resulted in at least 1 million Armenian deaths. The eastern area of Armenia was ceded by the Ottomans to Russia in 1828; this portion declared its independence in 1918, but was conquered by the Soviet Red Army in 1920.\nArmenia remains involved in the protracted Nagorno-Karabakh conflict with Azerbaijan. Nagorno-Karabakh was a primarily ethnic Armenian region that Moscow recognized in 1923 as an autonomous oblast within Soviet Azerbaijan. In the late Soviet period, a separatist movement developed which sought to end Azerbaijani control over the region. Fighting over Nagorno-Karabakh began in 1988 and escalated after Armenia and Azerbaijan attained independence from the Soviet Union in 1991. By the time a ceasefire took effect in May 1994, separatists, with Armenian support, controlled Nagorno‑Karabakh and seven surrounding Azerbaijani territories. The 1994 ceasefire continues to hold, although violence continues along the line of contact separating the opposing forces, as well as the Armenia-Azerbaijan international border. The final status of Nagorno-Karabakh remains the subject of international mediation by the Organization for Security and Cooperation in Europe (OSCE) Minsk Group, which works to help the sides settle the conflict peacefully. The OSCE Minsk Group is co‑chaired by the US, France, and Russia.\nTurkey closed the common border with Armenia in 1993 in support of Azerbaijan in its conflict with Armenia over control of Nagorno-Karabakh and surrounding areas, further hampering Armenian economic growth. In 2009, Armenia and Turkey signed Protocols normalizing relations between the two countries, but neither country ratified the Protocols, and Armenia officially withdrew from the Protocols in March 2018. In 2015, Armenia joined the Eurasian Economic Union alongside Russia, Belarus, Kazakhstan, and Kyrgyzstan. In November 2017, Armenia signed a Comprehensive and Enhanced Partnership Agreement (CEPA) with the EU. In spring 2018, Serzh SARGSIAN of the Republican Party of Armenia (RPA) stepped down and Civil Contract party leader Nikol PASHINYAN became prime minister.",
+    "coordinates": "40 00 N, 45 00 E",
+    "region": "Asia",
+    "total_area": "29,743 sq km",
+    "land_area": "28,203 sq km",
+    "water_area": "1,540 sq km",
+    "land_boundary": "1,570 km",
+    "neighbors": {
+        "Georgia": "219 km",
+        "Iran": "44 km",
+        "Turkey": "311 km"
+    },
+    "climate": "highland continental, hot summers, cold winters",
+    "coastline": "0 km",
+    "natural_hazards": [
+        "occasionally severe earthquakes",
+        "droughts"
+    ],
+    "terrain": "Armenian Highland with mountains; little forest land; fast flowing rivers; good soil in Aras River valley",
+    "population_distribution": "most of the population is located in the northern half of the country; the capital of Yerevan is home to more than five times as many people as Gyumri, the second largest city in the country",
+    "natural_resources": [
+        "small deposits of gold",
+        "copper",
+        "molybdenum",
+        "zinc",
+        "bauxite"
+    ],
+    "population": "3,021,324",
+    "nationality": "Armenian(s)",
+    "ethnic_groups": {
+        "Armenian": "98.1%",
+        "Yezidi (Kurd)": "1.2%",
+        "other": "0.7%"
+    },
+    "languages": {
+        "Armenian (official)": "97.9%",
+        "Kurdish": "1%",
+        "other": "1%"
+    },
+    "religions": {"Armenian Apostolic": "92.6%", "Evangelical": "1%", "other": "2.4%", "none": "1.1%", "unspecified": "2.9%"},
+    "government_type": "parliamentary democracy; note - constitutional changes adopted in December 2015 transformed the government to a parliamentary system",
+    "national_symbols": "Mount Ararat, eagle, lion",
+    "national_colors": ["red", "blue", "orange"],
+    "gdp": "$11.54 billion",
+    "agriculture": [
+        "fruit (especially grapes and apricots)",
+        "vegetables",
+        "livestock"
+    ],
+    "industries": [
+        "brandy",
+        "mining",
+        "diamond processing",
+        "metal-cutting machine tools",
+        "forging and pressing machines",
+        "electric motors",
+        "knitted wear",
+        "hosiery",
+        "shoes",
+        "silk fabric",
+        "chemicals",
+        "trucks",
+        "instruments",
+        "microelectronics",
+        "jewelry",
+        "software",
+        "food processing"
+    ],
+    "exports": [
+        "unwrought copper",
+        "pig iron",
+        "nonferrous metals",
+        "gold",
+        "diamonds",
+        "mineral products",
+        "foodstuffs",
+        "brandy",
+        "cigarettes",
+        "energy"
+    ],
+    "imports": [
+        "natural gas",
+        "petroleum",
+        "tobacco products",
+        "foodstuffs",
+        "diamonds",
+        "pharmaceuticals",
+        "cars"
+    ],
+    "broadband_subscriptions": "347,448",
+    "internet_users": "1,891,775",
+    "mobile_subscriptions": "3,579,257",
+    "internet_country_code": ".am",
+    "military_and_security_forces": "Armenian Armed Forces: Ground Forces (Armenian Army), Air Force, Air Defense; \"Nagorno-Karabakh Republic\": Nagorno-Karabakh Defense Army",
+    "pipelines": [
+        "3838 km gas (high and medium pressure)"
+    ],
+    "ports_and_terminals": "Unknown",
+    "waterways": "Unknown",
+    "number_of_airports": "11",
+    "international_disputes": "the dispute over the break-away Nagorno-Karabakh region and the Armenian military occupation of surrounding lands in Azerbaijan remains the primary focus of regional instability; residents have evacuated the former Soviet-era small ethnic enclaves in Armenia and Azerbaijan; Turkish authorities have complained that blasting from quarries in Armenia might be damaging the medieval ruins of Ani, on the other side of the Arpacay valley; in 2009, Swiss mediators facilitated an accord reestablishing diplomatic ties between Armenia and Turkey, but neither side has ratified the agreement and the rapprochement effort has faltered; local border forces struggle to control the illegal transit of goods and people across the porous, undemarcated Armenian, Azerbaijani, and Georgian borders; ethnic Armenian groups in the Javakheti region of Georgia seek greater autonomy from the Georgian Government"
+}

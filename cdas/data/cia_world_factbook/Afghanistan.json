@@ -1,0 +1,126 @@
+{
+    "name": "Afghanistan",
+    "background": "Ahmad Shah DURRANI unified the Pashtun tribes and founded Afghanistan in 1747. The country served as a buffer between the British and Russian Empires until it won independence from notional British control in 1919. A brief experiment in increased democracy ended in a 1973 coup and a 1978 communist countercoup. The Soviet Union invaded in 1979 to support the tottering Afghan communist regime, touching off a long and destructive war. The USSR withdrew in 1989 under relentless pressure by internationally supported anti-communist mujahidin rebels. A series of subsequent civil wars saw Kabul finally fall in 1996 to the Taliban, a hardline Pakistani-sponsored movement that emerged in 1994 to end the country's civil war and anarchy. Following the 11 September 2001 terrorist attacks, a US, Allied, and anti-Taliban Northern Alliance military action toppled the Taliban for sheltering Usama BIN LADIN.\nA UN-sponsored Bonn Conference in 2001 established a process for political reconstruction that included the adoption of a new constitution, a presidential election in 2004, and National Assembly elections in 2005. In December 2004, Hamid KARZAI became the first democratically elected president of Afghanistan, and the National Assembly was inaugurated the following December. KARZAI was reelected in August 2009 for a second term. The 2014 presidential election was the country's first to include a runoff, which featured the top two vote-getters from the first round, Abdullah ABDULLAH and Ashraf GHANI. Throughout the summer of 2014, their campaigns disputed the results and traded accusations of fraud, leading to a US-led diplomatic intervention that included a full vote audit as well as political negotiations between the two camps. In September 2014, GHANI and ABDULLAH agreed to form the Government of National Unity, with GHANI inaugurated as president and ABDULLAH elevated to the newly-created position of chief executive officer. The day after the inauguration, the GHANI administration signed the US-Afghan Bilateral Security Agreement and NATO Status of Forces Agreement, which provide the legal basis for the post-2014 international military presence in Afghanistan. After two postponements, the next presidential election was held in September 2019.\nThe Taliban remains a serious challenge for the Afghan Government in almost every province. The Taliban still considers itself the rightful government of Afghanistan, and it remains a capable and confident insurgent force fighting for the withdrawal of foreign military forces from Afghanistan, establishment of sharia law, and rewriting of the Afghan constitution. In 2019, negotiations between the US and the Taliban in Doha entered their highest level yet, building on momentum that began in late 2018. Underlying the negotiations is the unsettled state of Afghan politics, and prospects for a sustainable political settlement remain unclear.",
+    "coordinates": "33 00 N, 65 00 E",
+    "region": "Asia",
+    "total_area": "652,230 sq km",
+    "land_area": "652,230 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "5,987 km",
+    "neighbors": {
+        "Iran": "921 km",
+        "Pakistan": "2670 km",
+        "Tajikistan": "1357 km",
+        "Turkmenistan": "804 km",
+        "Uzbekistan": "144 km"
+    },
+    "climate": "arid to semiarid; cold winters and hot summers",
+    "coastline": "0 km",
+    "natural_hazards": [
+        "damaging earthquakes occur in Hindu Kush mountains",
+        "flooding",
+        "droughts"
+    ],
+    "terrain": "mostly rugged mountains; plains in north and southwest",
+    "population_distribution": "populations tend to cluster in the foothills and periphery of the rugged Hindu Kush range; smaller groups are found in many of the country's interior valleys; in general, the east is more densely settled, while the south is sparsely populated",
+    "natural_resources": [
+        "natural gas",
+        "petroleum",
+        "coal",
+        "copper",
+        "chromite",
+        "talc",
+        "barites",
+        "sulfur",
+        "lead",
+        "zinc",
+        "iron ore",
+        "salt",
+        "precious and semiprecious stones",
+        "arable land"
+    ],
+    "population": "36,643,815",
+    "nationality": "Afghan(s)",
+    "ethnic_groups": {
+        "Pashtun":"", 
+        "Tajik":"", 
+        "Hazara":"", 
+        "Uzbek":"", 
+        "other (includes smaller numbers of Baloch, Turkmen, Nuristani, Pamiri, Arab, Gujar, Brahui, Qizilbash, Aimaq, Pashai, and Kyrghyz)":""
+    },
+    "languages": {
+        "Afghan Persian or Dari (official)": "77%",
+        "Pashto (official)": "48%",
+        "Uzbek": "11%",
+        "English": "6%",
+        "Turkmen": "3%",
+        "Urdu": "3%",
+        "Pashayi": "1%",
+        "Nuristani": "1%",
+        "Arabic": "1%",
+        "Balochi": "1%"
+    },
+    "religions": {"Muslim": "99.7%", "other": "0.3%"},
+    "government_type": "presidential Islamic republic",
+    "national_symbol_animal": "lion",
+    "national_colors": ["red", "green", "black"],
+    "gdp": "$20.24 billion",
+    "agriculture": [
+        "opium",
+        "wheat",
+        "fruits",
+        "nuts",
+        "wool",
+        "mutton",
+        "sheepskins",
+        "lambskins",
+        "poppies"
+    ],
+    "industries": [
+        "small-scale production of bricks",
+        "textiles",
+        "soap",
+        "furniture",
+        "shoes",
+        "fertilizer",
+        "apparel",
+        "food products",
+        "non-alcoholic beverages",
+        "mineral water",
+        "cement",
+        "handwoven carpets",
+        "natural gas",
+        "coal",
+        "copper"
+    ],
+    "exports": [
+        "opium",
+        "fruits and nuts",
+        "handwoven carpets",
+        "wool",
+        "cotton",
+        "hides and pelts",
+        "precious and semi-precious gems",
+        "medical herbs"
+    ],
+    "imports": [
+        "machinery and other capital goods",
+        "food",
+        "textiles",
+        "petroleum products"
+    ],
+    "broadband_subscriptions": "15,999",
+    "internet_users": "Unknown",
+    "mobile_subscriptions": "21,976,355",
+    "internet_country_code": ".af",
+    "military_and_security_forces": "Afghan National Defense and Security Forces (ANDSF) comprised of military, police, and other security elements: Afghan National Army ((ANA), Afghan Air Force, Afghan Special Security Forces, Afghanistan National Army Territorial Forces (ANA-TF)), Afghan National Police (Ministry of Interior), Afghan Local Police (Ministry of Interior), and the National Directorate of Security",
+    "pipelines": [
+        "466 km gas"
+    ],
+    "ports_and_terminals": {
+        "river port(s)": "Kheyrabad, Shir Khan"
+    },
+    "waterways": "1,200 km",
+    "number_of_airports": "43",
+    "international_disputes": "Afghan, Coalition, and Pakistan military meet periodically to clarify the alignment of the boundary on the ground and on maps and since 2014 have met to discuss collaboration on the Taliban insurgency and counterterrorism efforts; Afghan and Iranian commissioners have discussed boundary monument densification and resurvey; Iran protests Afghanistan's restricting flow of dammed Helmand River tributaries during drought; Pakistan has sent troops across and built fences along some remote tribal areas of its treaty-defined Durand Line border with Afghanistan which serve as bases for foreign terrorists and other illegal activities; Russia remains concerned about the smuggling of poppy derivatives from Afghanistan through Central Asian countries"
+}

@@ -1,0 +1,18 @@
+{
+   "context": {
+       "countries": {
+           "randomize": true,
+           "random_vars": {
+               "num_countries": 50
+           },
+           "non_random_vars": {
+                "country_data":"./data/cia_world_factbook/"
+           }
+       },
+       "data_choices":"./data/geopol_data.json"
+   },
+   "output_path": "../output/",
+   "output_type_opts":["json","pdf"],
+   "output_type": "pdf",
+   "temp_path": "temp"
+}

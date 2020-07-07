@@ -1,0 +1,112 @@
+{
+    "name": "Bangladesh",
+    "background": "The huge delta region formed at the confluence of the Ganges and Brahmaputra River systems - now referred to as Bangladesh - was a loosely incorporated outpost of various empires centered on the Gangetic plain for much of the first millennium A.D. Muslim conversions and settlement in the region began in the 10th century, primarily from Arab and Persian traders and preachers. Europeans established trading posts in the area in the 16th century. Eventually the area known as Bengal, primarily Hindu in the western section and mostly Muslim in the eastern half, became part of British India. Partition in 1947 resulted in an eastern wing of Pakistan in the Muslim-majority area, which became East Pakistan. Calls for greater autonomy and animosity between the eastern and western wings of Pakistan led to a Bengali independence movement. That movement, led by the Awami League (AL) and supported by India, won the independence war for Bangladesh in 1971.\nThe post-independence AL government faced daunting challenges and in 1975 it was overthrown by the military, triggering a series of military coups that resulted in a military-backed government and subsequent creation of the Bangladesh Nationalist Party (BNP) in 1978. That government also ended in a coup in 1981, followed by military-backed rule until democratic elections occurred in 1991. The BNP and AL have alternated in power since 1991, with the exception of a military-backed, emergency caretaker regime that suspended parliamentary elections planned for January 2007 in an effort to reform the political system and root out corruption. That government returned the country to fully democratic rule in December 2008 with the election of the AL and Prime Minister Sheikh HASINA. In January 2014, the incumbent AL won the national election by an overwhelming majority after the BNP boycotted the election, which extended HASINA's term as prime minister. In December 2018, HASINA secured a third consecutive term (fourth overall) with the AL coalition securing 96% of available seats, amid widespread claims of election irregularities. With the help of international development assistance, Bangladesh has reduced the poverty rate from over half of the population to less than a third, achieved Millennium Development Goals for maternal and child health, and made great progress in food security since independence. The economy has grown at an annual average of about 6% for the last two decades and the country reached World Bank lower-middle income status in 2014.",
+    "coordinates": "24 00 N, 90 00 E",
+    "region": "Asia",
+    "total_area": "148,460 sq km",
+    "land_area": "130,170 sq km",
+    "water_area": "18,290 sq km",
+    "land_boundary": "4,413 km",
+    "neighbors": {
+        "India": "4142 km"
+    },
+    "climate": "tropical; mild winter (October to March); hot, humid summer (March to June); humid, warm rainy monsoon (June to October)",
+    "coastline": "580 km",
+    "natural_hazards": [
+        "droughts",
+        "cyclones",
+        "much of the country routinely inundated during the summer monsoon season"
+    ],
+    "terrain": "mostly flat alluvial plain; hilly in southeast",
+    "population_distribution": "Unknown",
+    "natural_resources": [
+        "natural gas",
+        "arable land",
+        "timber",
+        "coal"
+    ],
+    "population": "162,650,853",
+    "nationality": "Bangladeshi(s)",
+    "ethnic_groups": {
+        "Bengali": "98%",
+        "other indigenous ethnic groups": "1.1%"
+    },
+    "languages": {
+        "Bangla (official)": "98.8%",
+        "other": "1.2%"
+    },
+    "religions": {"Muslim": "89.1%", "Hindu": "10%", "other": "0.9%"},
+    "government_type": "parliamentary republic",
+    "national_symbols": "Bengal tiger, water lily",
+    "national_colors": ["green", "red"],
+    "gdp": "$261.5 billion",
+    "agriculture": [
+        "rice",
+        "jute",
+        "tea",
+        "wheat",
+        "sugarcane",
+        "potatoes",
+        "tobacco",
+        "pulses",
+        "oilseeds",
+        "spices",
+        "fruit",
+        "beef",
+        "milk",
+        "poultry"
+    ],
+    "industries": [
+        "jute",
+        "cotton",
+        "garments",
+        "paper",
+        "leather",
+        "fertilizer",
+        "iron and steel",
+        "cement",
+        "petroleum products",
+        "tobacco",
+        "pharmaceuticals",
+        "ceramics",
+        "tea",
+        "salt",
+        "sugar",
+        "edible oils",
+        "soap and detergent",
+        "fabricated metal products",
+        "electricity",
+        "natural gas"
+    ],
+    "exports": [
+        "garments",
+        "knitwear",
+        "agricultural products",
+        "frozen food (fish and seafood)",
+        "jute and jute goods",
+        "leather"
+    ],
+    "imports": [
+        "cotton",
+        "machinery and equipment",
+        "chemicals",
+        "iron and steel",
+        "foodstuffs"
+    ],
+    "broadband_subscriptions": "10,237,003",
+    "internet_users": "28,499,324",
+    "mobile_subscriptions": "161,771,617",
+    "internet_country_code": ".bd",
+    "military_and_security_forces": "Bangladesh Defense Force: Bangladesh Army, Bangladesh Navy, Bangladesh Air Force; Ministry of Home Affairs: Border Guard Bangladesh (BGB), Bangladesh Coast Guard, Ansars, Village Defense Party (VDP)",
+    "pipelines": [
+        "2950 km gas"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Chittagong",
+        "container port(s) (TEUs)": "Chittagong (2,566,597)",
+        "river port(s)": "Mongla Port (Sela River)"
+    },
+    "waterways": "8,370 km",
+    "number_of_airports": "18",
+    "international_disputes": "Bangladesh referred its maritime boundary claims with Burma and India to the International Tribunal on the Law of the Sea; Indian Prime Minister Singh's September 2011 visit to Bangladesh resulted in the signing of a Protocol to the 1974 Land Boundary Agreement between India and Bangladesh, which had called for the settlement of longstanding boundary disputes over undemarcated areas and the exchange of territorial enclaves, but which had never been implemented; Bangladesh struggles to accommodate 912,000 Rohingya, Burmese Muslim minority from Rakhine State, living as refugees in Cox's Bazar; Burmese border authorities are constructing a 200 km (124 mi) wire fence designed to deter illegal cross-border transit and tensions from the military build-up along border"
+}

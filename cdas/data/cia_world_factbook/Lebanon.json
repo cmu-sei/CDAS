@@ -1,0 +1,110 @@
+{
+    "name": "Lebanon",
+    "background": "Following World War I, France acquired a mandate over the northern portion of the former Ottoman Empire province of Syria. The French demarcated the region of Lebanon in 1920 and granted this area independence in 1943. Since independence, the country has been marked by periods of political turmoil interspersed with prosperity built on its position as a regional center for finance and trade. The country's 1975-90 civil war, which resulted in an estimated 120,000 fatalities, was followed by years of social and political instability. Sectarianism is a key element of Lebanese political life. Neighboring Syria has historically influenced Lebanon's foreign policy and internal policies, and its military occupied Lebanon from 1976 until 2005. The Lebanon-based Hizballah militia and Israel continued attacks and counterattacks against each other after Syria's withdrawal, and fought a brief war in 2006. Lebanon's borders with Syria and Israel remain unresolved.",
+    "coordinates": "33 50 N, 35 50 E",
+    "region": "Middle East",
+    "total_area": "10,400 sq km",
+    "land_area": "10,230 sq km",
+    "water_area": "170 sq km",
+    "land_boundary": "484 km",
+    "neighbors": {
+        "Syria": "403 km"
+    },
+    "climate": "Mediterranean; mild to cool, wet winters with hot, dry summers; the Lebanon Mountains experience heavy winter snows",
+    "coastline": "225 km",
+    "natural_hazards": [
+        "earthquakes",
+        "dust storms, sandstorms"
+    ],
+    "terrain": "narrow coastal plain; El Beqaa (Bekaa Valley) separates Lebanon and Anti-Lebanon Mountains",
+    "population_distribution": "the majority of the people live on or near the Mediterranean coast, and of these most live in and around the capital, Beirut; favorable growing conditions in the Bekaa Valley, on the southeastern side of the Lebanon Mountains, have attracted farmers and thus the area exhibits a smaller population density",
+    "natural_resources": [
+        "limestone",
+        "iron ore",
+        "salt",
+        "water-surplus state in a water-deficit region",
+        "arable land"
+    ],
+    "population": "5,469,612",
+    "nationality": "Lebanese (singular and plural)",
+    "ethnic_groups": {"Arab": "95%", "Armenian": "4%", "other": "1%"},
+    "languages": {
+        "Arabic  (official)": "",
+        "French": "",
+        "English": "",
+        "Armenian": ""
+    },
+    "religions": {
+        "Muslim": "61.1%", "Christian": "33.7%", "Druze": "5.2%", 
+        "very small numbers of Jews, Baha'is, Buddhists, and Hindus":""},
+    "government_type": "parliamentary republic",
+    "national_symbols": "cedar tree",
+    "national_colors": ["red", "white", "green"],
+    "gdp": "$54.18 billion",
+    "agriculture": [
+        "citrus",
+        "grapes",
+        "tomatoes",
+        "apples",
+        "vegetables",
+        "potatoes",
+        "olives",
+        "tobacco",
+        "sheep",
+        "goats"
+    ],
+    "industries": [
+        "banking",
+        "tourism",
+        "real estate and construction",
+        "food processing",
+        "wine",
+        "jewelry",
+        "cement",
+        "textiles",
+        "mineral and chemical products",
+        "wood and furniture products",
+        "oil refining",
+        "metal fabricating"
+    ],
+    "exports": [
+        "jewelry",
+        "base metals",
+        "chemicals",
+        "consumer goods",
+        "fruit and vegetables",
+        "tobacco",
+        "construction minerals",
+        "electric power machinery and switchgear",
+        "textile fibers",
+        "paper"
+    ],
+    "imports": [
+        "petroleum products",
+        "cars",
+        "medicinal products",
+        "clothing",
+        "meat and live animals",
+        "consumer goods",
+        "paper",
+        "textile fabrics",
+        "tobacco",
+        "electrical machinery and equipment",
+        "chemicals"
+    ],
+    "broadband_subscriptions": "9,395",
+    "internet_users": "4,747,542",
+    "mobile_subscriptions": "4,424,185",
+    "internet_country_code": ".lb",
+    "military_and_security_forces": "Lebanese Armed Forces (LAF): Army Command (includes Presidential Guard Brigade, Land Border Regiments), Naval Forces, Air Forces; Lebanese Internal Security Forces Directorate (includes Mobile Gendarmerie); Directorate for General Security (DGS); Directorate General for State Security",
+    "pipelines": [
+        "88 km gas"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Beirut, Tripoli",
+        "container port(s) (TEUs)": "Beirut (1,305,038)"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "8",
+    "international_disputes": "lacking a treaty or other documentation describing the boundary, portions of the Lebanon-Syria boundary are unclear with several sections in dispute; since 2000, Lebanon has claimed Shab'a Farms area in the Israeli-controlled Golan Heights; the roughly 2,000-strong UN Interim Force in Lebanon has been in place since 1978"
+}

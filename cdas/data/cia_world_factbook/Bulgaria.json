@@ -1,0 +1,119 @@
+{
+    "name": "Bulgaria",
+    "background": "The Bulgars, a Central Asian Turkic tribe, merged with the local Slavic inhabitants in the late 7th century to form the first Bulgarian state. In succeeding centuries, Bulgaria struggled with the Byzantine Empire to assert its place in the Balkans, but by the end of the 14th century the country was overrun by the Ottoman Turks. Northern Bulgaria attained autonomy in 1878 and all of Bulgaria became independent from the Ottoman Empire in 1908. Having fought on the losing side in both World Wars, Bulgaria fell within the Soviet sphere of influence and became a People's Republic in 1946. Communist domination ended in 1990, when Bulgaria held its first multiparty election since World War II and began the contentious process of moving toward political democracy and a market economy while combating inflation, unemployment, corruption, and crime. The country joined NATO in 2004 and the EU in 2007.",
+    "coordinates": "43 00 N, 25 00 E",
+    "region": "Europe",
+    "total_area": "110,879 sq km",
+    "land_area": "108,489 sq km",
+    "water_area": "2,390 sq km",
+    "land_boundary": "1,806 km",
+    "neighbors": {
+        "Macedonia": "162 km",
+        "Romania": "605 km",
+        "Serbia": "344 km",
+        "Turkey": "223 km"
+    },
+    "climate": "temperate; cold, damp winters; hot, dry summers",
+    "coastline": "354 km",
+    "natural_hazards": [
+        "earthquakes",
+        "landslides"
+    ],
+    "terrain": "mostly mountains with lowlands in north and southeast",
+    "population_distribution": "a fairly even distribution throughout most of the country, with urban areas attracting larger populations",
+    "natural_resources": [
+        "bauxite",
+        "copper",
+        "lead",
+        "zinc",
+        "coal",
+        "timber",
+        "arable land"
+    ],
+    "population": "6,966,899",
+    "nationality": "Bulgarian(s)",
+    "ethnic_groups": {
+        "Bulgarian": "76.9%",
+        "Turkish": "8%",
+        "Romani": "4.4%",
+        "other": "10.7%"
+    },
+    "languages": {
+        "Bulgarian (official)": "76.8%",
+        "Turkish": "8.2%",
+        "Romani": "3.8%",
+        "other": "0.7%",
+        "unspecified": "10.5%"
+    },
+    "religions": {
+        "Eastern Orthodox": "59.4%", 
+        "Muslim": "7.8%", 
+        "other": "1.7%", 
+        "none": "3.7%", 
+        "unspecified": "27.4%"},
+    "government_type": "parliamentary republic",
+    "national_symbols": "lion",
+    "national_colors": ["white", "green", "red"],
+    "gdp": "$56.94 billion",
+    "agriculture": [
+        "vegetables",
+        "fruits",
+        "tobacco",
+        "wine",
+        "wheat",
+        "barley",
+        "sunflowers",
+        "sugar beets",
+        "livestock"
+    ],
+    "industries": [
+        "electricity",
+        "gas",
+        "water",
+        "food",
+        "beverages",
+        "tobacco",
+        "machinery and equipment",
+        "automotive parts",
+        "base metals",
+        "chemical products",
+        "coke",
+        "refined petroleum",
+        "nuclear fuel",
+        "outsourcing centers"
+    ],
+    "exports": [
+        "clothing",
+        "footwear",
+        "iron and steel",
+        "machinery and equipment",
+        "fuels",
+        "agriculture",
+        "tobacco",
+        "IT components"
+    ],
+    "imports": [
+        "machinery and equipment",
+        "metals and ores",
+        "chemicals and plastics",
+        "fuels",
+        "minerals",
+        "raw materials"
+    ],
+    "broadband_subscriptions": "1,903,946",
+    "internet_users": "4,274,328",
+    "mobile_subscriptions": "8,387,160",
+    "internet_country_code": ".bg",
+    "military_and_security_forces": "Bulgarian Armed Forces: Land Forces (aka Army), Naval Forces, Bulgarian Air Forces (Voennovazdushni Sili, VVS)",
+    "pipelines": [
+        "2765 km gas",
+        "346 km oil",
+        "378 km refined products"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Burgas, Varna (Black Sea)"
+    },
+    "waterways": "470 km",
+    "number_of_airports": "68",
+    "international_disputes": "none"
+}

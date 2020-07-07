@@ -1,0 +1,99 @@
+{
+    "name": "Iraq",
+    "background": "Formerly part of the Ottoman Empire, Iraq was occupied by the United Kingdom during World War I and was declared a League of Nations mandate under UK administration in 1920. Iraq attained its independence as a kingdom in 1932. It was proclaimed a \"republic\" in 1958 after a coup overthrew the monarchy, but in actuality, a series of strongmen ruled the country until 2003. The last was SADDAM Husayn from 1979 to 2003. Territorial disputes with Iran led to an inconclusive and costly eight-year war (1980-88). In August 1990, Iraq seized Kuwait but was expelled by US-led UN coalition forces during the Gulf War of January-February 1991. After Iraq's expulsion, the UN Security Council (UNSC) required Iraq to scrap all weapons of mass destruction and long-range missiles and to allow UN verification inspections. Continued Iraqi noncompliance with UNSC resolutions led to the Second Gulf War in March 2003 and the ouster of the SADDAM Husayn regime by US-led forces.\nIn October 2005, Iraqis approved a constitution in a national referendum and, pursuant to this document, elected a 275-member Council of Representatives (COR) in December 2005. The COR approved most cabinet ministers in May 2006, marking the transition to Iraq's first constitutional government in nearly a half century. Iraq held elections for provincial councils in all governorates in January 2009 and April 2013 and postponed the next provincial elections, originally planned for April 2017, until 2019. Iraq has held three national legislative elections since 2005, most recently in May 2018 when 329 legislators were elected to the COR. Adil ABD AL-MAHDI assumed the premiership in October 2018 as a consensus and independent candidate - the first prime minister who is not an active member of a major political bloc. However, widespread protests that began in October 2019 demanding more employment opportunities and an end to corruption prompted ABD AL-MAHDI to announce his resignation on 20 November 2019.\nBetween 2014 and 2017, Iraq was engaged in a military campaign against the Islamic State of Iraq and ash-Sham (ISIS) to recapture territory lost in the western and northern portion of the country. Iraqi and allied forces recaptured Mosul, the country's second-largest city, in 2017 and drove ISIS out of its other urban strongholds. In December 2017, then-Prime Minister Haydar al-ABADI publicly declared victory against ISIS while continuing operations against the group's residual presence in rural areas. Also in late 2017, ABADI responded to an independence referendum held by the Kurdistan Regional Government by ordering Iraqi forces to take control of disputed territories across central and northern Iraq that were previously occupied and governed by Kurdish forces.",
+    "coordinates": "33 00 N, 44 00 E",
+    "region": "Middle East",
+    "total_area": "438,317 sq km",
+    "land_area": "437,367 sq km",
+    "water_area": "950 sq km",
+    "land_boundary": "3,809 km",
+    "neighbors": {
+        "Jordan": "179 km",
+        "Kuwait": "254 km",
+        "Saudi Arabia": "811 km",
+        "Syria": "599 km",
+        "Turkey": "367 km"
+    },
+    "climate": "mostly desert; mild to cool winters with dry, hot, cloudless summers; northern mountainous regions along Iranian and Turkish borders experience cold winters with occasionally heavy snows that melt in early spring, sometimes causing extensive flooding in central and southern Iraq",
+    "coastline": "58 km",
+    "natural_hazards": [
+        "dust storms",
+        "sandstorms",
+        "floods"
+    ],
+    "terrain": "mostly broad plains; reedy marshes along Iranian border in south with large flooded areas; mountains along borders with Iran and Turkey",
+    "population_distribution": "population is concentrated in the north, center, and eastern parts of the country, with many of the larger urban agglomerations found along extensive parts of the Tigris and Euphrates Rivers; much of the western and southern areas are either lightly populated or uninhabited",
+    "natural_resources": [
+        "petroleum",
+        "natural gas",
+        "phosphates",
+        "sulfur"
+    ],
+    "population": "38,872,655",
+    "nationality": "Iraqi(s)",
+    "ethnic_groups": {
+        "Arab": "75-80%",
+        "Kurdish": "15-20%",
+        "other": "5%"
+    },
+    "languages": {
+        "Arabic (official)": "",
+        "Kurdish (official)": "",
+        "Turkmen, Syriac, Armenian are official in areas where native speakers of these languages constitute a majority of the population": ""
+    },
+    "religions": {
+        "Muslim (official)": "95%", "Christian": "1%", "other": "4%"},
+    "government_type": "federal parliamentary republic",
+    "national_symbols": "golden eagle",
+    "national_colors": ["red", "white", "black"],
+    "gdp": "$192.4 billion",
+    "agriculture": [
+        "wheat",
+        "barley",
+        "rice",
+        "vegetables",
+        "dates",
+        "cotton",
+        "cattle",
+        "sheep",
+        "poultry"
+    ],
+    "industries": [
+        "petroleum",
+        "chemicals",
+        "textiles",
+        "leather",
+        "construction materials",
+        "food processing",
+        "fertilizer",
+        "metal fabrication/processing"
+    ],
+    "exports": [
+        "crude oil",
+        "crude materials excluding fuels",
+        "food",
+        "live animals"
+    ],
+    "imports": [
+        "food",
+        "medicine",
+        "manufactures"
+    ],
+    "broadband_subscriptions": "4,492,328",
+    "internet_users": "8,098,401",
+    "mobile_subscriptions": "36,527,353",
+    "internet_country_code": ".iq",
+    "military_and_security_forces": "Ministry of Defense: Iraqi Army, Army Aviation Command, Iraqi Navy, Iraqi Air Force, Iraqi Air Defense Command, Special Forces Command; National-Level Security Forces: Iraqi Counterterrorism Service, Prime Minister's Special Forces Division, Presidential Brigades; Ministry of Interior:  Federal Police Forces Command, Border Guard Forces Command, Federal Intelligence and Investigations Agency, Emergency Response Division, Facilities Protection Directorate, and Energy Police Directorate; Popular Mobilization Commission and Affiliated Forces; Peshmerga Ministry (Kurdistan Regional Government)",
+    "pipelines": [
+        "2455 km gas",
+        "913 km liquid petroleum gas",
+        "5432 km oil",
+        "1637 km refined products"
+    ],
+    "ports_and_terminals": {
+        "river port(s)": "Al Basrah (Shatt al Arab); Khawr az Zubayr, Umm Qasr (Khawr az Zubayr waterway)"
+    },
+    "waterways": "5,279 km",
+    "number_of_airports": "102",
+    "international_disputes": "Iraq's lack of a maritime boundary with Iran prompts jurisdiction disputes beyond the mouth of the Shatt al Arab in the Persian Gulf; Turkey has expressed concern over the autonomous status of Kurds in Iraq"
+}

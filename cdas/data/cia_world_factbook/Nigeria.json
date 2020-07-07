@@ -1,0 +1,131 @@
+{
+    "name": "Nigeria",
+    "background": "British influence and control over what would become Nigeria and Africa's most populous country grew through the 19th century. A series of constitutions after World War II granted Nigeria greater autonomy. After independence in 1960, politics were marked by coups and mostly military rule, until the death of a military head of state in 1998 allowed for a political transition. In 1999, a new constitution was adopted and a peaceful transition to civilian government was completed. The government continues to face the daunting task of institutionalizing democracy and reforming a petroleum-based economy, whose revenues have been squandered through decades of corruption and mismanagement. In addition, Nigeria continues to experience longstanding ethnic and religious tensions. Although both the 2003 and 2007 presidential elections were marred by significant irregularities and violence, Nigeria is currently experiencing its longest period of civilian rule since independence. The general elections of 2007 marked the first civilian-to-civilian transfer of power in the country's history. National and state elections in 2011 and 2015 were generally regarded as credible. The 2015 election was also heralded for the fact that the then-umbrella opposition party, the All Progressives Congress, defeated the long-ruling People's Democratic Party that had governed since 1999, and assumed the presidency, marking the first peaceful transfer of power from one party to another. Presidential and legislative elections were held in early 2019 and deemed broadly free and fair despite voting irregularities, intimidation, and violence.",
+    "coordinates": "10 00 N, 8 00 E",
+    "region": "Africa",
+    "total_area": "923,768 sq km",
+    "land_area": "910,768 sq km",
+    "water_area": "13,000 sq km",
+    "land_boundary": "4,477 km",
+    "neighbors": {
+        "Cameroon": "1975 km",
+        "Chad": "85 km",
+        "Niger": "1608 km"
+    },
+    "climate": "varies; equatorial in south, tropical in center, arid in north",
+    "coastline": "853 km",
+    "natural_hazards": [
+        "periodic droughts",
+        "flooding"
+    ],
+    "terrain": "southern lowlands merge into central hills and plateaus; mountains in southeast, plains in north",
+    "population_distribution": "largest population of any African nation; significant population clusters are scattered throughout the country, with the highest density areas being in the south and southwest",
+    "natural_resources": [
+        "natural gas",
+        "petroleum",
+        "tin",
+        "iron ore",
+        "coal",
+        "limestone",
+        "niobium",
+        "lead",
+        "zinc",
+        "arable land"
+    ],
+    "population": "214,028,302",
+    "nationality": "Nigerian(s)",
+    "ethnic_groups": {
+        "Hausa": "30%", 
+        "Yoruba": "15.5%", 
+        "Igbo (Ibo)": "15.2%", 
+        "Fulani": "6%", 
+        "Tiv": "2.4%", 
+        "Kanuri/Beriberi": "2.4%", 
+        "Ibibio": "1.8%", 
+        "Ijaw/Izon": "1.8%", 
+        "other": "24.7%"
+    },
+    "languages": {
+        "English (official)": "",
+        "Hausa": "",
+        "Yoruba": "",
+        "Igbo": "",
+        "Fulani": "",
+        "over 500 additional indigenous languages": ""
+    },
+    "religions": {
+        "Muslim": "53.5%", "Roman Catholic":"10.6%", "other Christian": "35.3%",
+        "other": ".6%"},
+    "government_type": "federal presidential republic",
+    "national_symbols": "eagle",
+    "national_colors": ["green", "white"],
+    "gdp": "$376.4 billion",
+    "agriculture": [
+        "cocoa",
+        "peanuts",
+        "cotton",
+        "palm oil",
+        "corn",
+        "rice",
+        "sorghum",
+        "millet",
+        "cassava",
+        "yams",
+        "rubber",
+        "cattle",
+        "sheep",
+        "goats",
+        "pigs",
+        "timber",
+        "fish"
+    ],
+    "industries": [
+        "crude oil",
+        "coal",
+        "tin",
+        "columbite",
+        "rubber products",
+        "wood",
+        "hides and skins",
+        "textiles",
+        "cement and other construction materials",
+        "food products",
+        "footwear",
+        "chemicals",
+        "fertilizer",
+        "printing",
+        "ceramics",
+        "steel"
+    ],
+    "exports": [
+        "petroleum and petroleum products",
+        "cocoa",
+        "rubber"
+    ],
+    "imports": [
+        "machinery",
+        "chemicals",
+        "transport equipment",
+        "manufactured goods",
+        "food and live animals"
+    ],
+    "broadband_subscriptions": "73,965",
+    "internet_users": "47,759,904",
+    "mobile_subscriptions": "172,730,603",
+    "internet_country_code": ".ng",
+    "military_and_security_forces": "Nigerian Armed Forces: Army, Navy (includes Coast Guard), Air Force; Ministry of Interior: Nigeria Security and Civil Defence Corps (NSCDC, a paramilitary agency commissioned to assist the military in the management of threats to internal security, including attacks and natural disasters)",
+    "pipelines": [
+        "124 km condensate",
+        "4045 km gas",
+        "164 km liquid petroleum gas",
+        "4441 km oil",
+        "3940 km refined products"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Bonny Inshore Terminal, Calabar, Lagos",
+        "LNG terminal(s) (export)": "Bonny Island"
+    },
+    "waterways": "8,600 km",
+    "number_of_airports": "54",
+    "international_disputes": "Joint Border Commission with Cameroon reviewed 2002 ICJ ruling on the entire boundary and bilaterally resolved differences, including June 2006 Greentree Agreement that immediately cedes sovereignty of the Bakassi Peninsula to Cameroon with a phaseout of Nigerian control within two years while resolving patriation issues; the ICJ ruled on an equidistance settlement of Cameroon-Equatorial Guinea-Nigeria maritime boundary in the Gulf of Guinea, but imprecisely defined coordinates in the ICJ decision and a sovereignty dispute between Equatorial Guinea and Cameroon over an island at the mouth of the Ntem River all contribute to the delay in implementation; only Nigeria and Cameroon have heeded the Lake Chad Commission's admonition to ratify the delimitation treaty which also includes the Chad-Niger and Niger-Nigeria boundaries; location of Benin-Niger-Nigeria tripoint is unresolved"
+}

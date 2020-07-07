@@ -1,0 +1,114 @@
+{
+    "name": "Cameroon",
+    "background": "French Cameroon became independent in 1960 as the Republic of Cameroon. The following year the southern portion of neighboring British Cameroon voted to merge with the new country to form the Federal Republic of Cameroon. In 1972, a new constitution replaced the federation with a unitary state, the United Republic of Cameroon. The country has generally enjoyed stability, which has enabled the development of agriculture, roads, and railways, as well as a petroleum industry. Despite slow movement toward democratic reform, political power remains firmly in the hands of President Paul BIYA.",
+    "coordinates": "6 00 N, 12 00 E",
+    "region": "Africa",
+    "total_area": "475,440 sq km",
+    "land_area": "472,710 sq km",
+    "water_area": "2,730 sq km",
+    "land_boundary": "5,018 km",
+    "neighbors": {
+        "Chad": "1116 km",
+        "Republic of the Congo": "494 km",
+        "Equatorial Guinea": "183 km",
+        "Gabon": "349 km",
+        "Nigeria": "1975 km"
+    },
+    "climate": "varies with terrain, from tropical along coast to semiarid and hot in north",
+    "coastline": "402 km",
+    "natural_hazards": [
+        "volcanic activity with periodic releases of poisonous gases from Lake Nyos and Lake Monoun volcanoes; volcanism: Mt. Cameroon (4,095 m), which last erupted in 2000, is the most frequently active volcano in West Africa, lakes in Oku volcanic field have released fatal levels of gas on occasion, killing some 1,700 people in 1986"
+    ],
+    "terrain": "diverse, with coastal plain in southwest, dissected plateau in center, mountains in west, plains in north",
+    "population_distribution": "population concentrated in the west and north, with the interior of the country sparsely populated",
+    "natural_resources": [
+        "petroleum",
+        "bauxite",
+        "iron ore",
+        "timber",
+        "hydropower"
+    ],
+    "population": "27,744,989",
+    "nationality": "Cameroonian(s)",
+    "ethnic_groups": {
+        "Cameroon Highlanders": "31%",
+        "Equatorial Bantu": "19%",
+        "Kirdi": "11%",
+        "Fulani": "10%",
+        "Northwestern Bantu": "8%",
+        "Eastern Nigritic": "7%",
+        "other African": "13%",
+        "non-African": "1%"
+    },
+    "languages": {
+        "24 major African language groups": "",
+        "English (official)": "",
+        "French (official)": ""
+    },
+    "religions": {
+        "Roman Catholic": "38.4%", 
+        "Protestant": "26.3%", 
+        "other Christian": "4.5%",
+        "Muslim": "20.9%",
+        "animist": "5.6%", 
+        "other": "1%",
+        "non-believer": "3.2%"},
+    "government_type": "presidential republic",
+    "national_symbols": "lion",
+    "national_colors": ["green", "red", "yellow"],
+    "gdp": "$34.99 billion",
+    "agriculture": [
+        "coffee",
+        "cocoa",
+        "cotton",
+        "rubber",
+        "bananas",
+        "oilseed",
+        "grains",
+        "cassava",
+        "livestock",
+        "timber"
+    ],
+    "industries": [
+        "petroleum production and refining",
+        "aluminum production",
+        "food processing",
+        "light consumer goods",
+        "textiles",
+        "lumber",
+        "ship repair"
+    ],
+    "exports": [
+        "crude oil and petroleum products",
+        "lumber",
+        "cocoa beans",
+        "aluminum",
+        "coffee",
+        "cotton"
+    ],
+    "imports": [
+        "machinery",
+        "electrical equipment",
+        "transport equipment",
+        "fuel",
+        "food"
+    ],
+    "broadband_subscriptions": "17,987",
+    "internet_users": "6,090,201",
+    "mobile_subscriptions": "18,455,836",
+    "internet_country_code": ".cm",
+    "military_and_security_forces": "Cameroon Armed Forces (Forces Armees Camerounaises, FAC): Army (L'Armee de Terre), Navy (Marine Nationale Republique, MNR, includes naval infantry), Air Force (Armee de l'Air du Cameroun, AAC), Gendarmerie, Presidential Guard",
+    "pipelines": [
+        "53 km gas",
+        "5 km liquid petroleum gas",
+        "1107 km oil",
+        "35 km water"
+    ],
+    "ports_and_terminals": {
+        "oil terminal(s)": "Limboh Terminal",
+        "river port(s)": "Douala (Wouri)"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "33",
+    "international_disputes": "Joint Border Commission with Nigeria reviewed 2002 ICJ ruling on the entire boundary and bilaterally resolved differences, including June 2006 Greentree Agreement that immediately ceded sovereignty of the Bakassi Peninsula to Cameroon with a full phase-out of Nigerian control and patriation of residents in 2008; Cameroon and Nigeria agreed on maritime delimitation in March 2008; sovereignty dispute between Equatorial Guinea and Cameroon over an island at the mouth of the Ntem River; only Nigeria and Cameroon have heeded the Lake Chad Commission's admonition to ratify the delimitation treaty, which also includes the Chad-Niger and Niger-Nigeria boundaries"
+}

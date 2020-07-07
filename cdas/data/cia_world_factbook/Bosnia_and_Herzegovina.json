@@ -1,0 +1,118 @@
+{
+    "name": "Bosnia and Herzegovina",
+    "background": "Bosnia and Herzegovina declared sovereignty in October 1991 and independence from the former Yugoslavia on 3 March 1992 after a referendum boycotted by ethnic Serbs. The Bosnian Serbs - supported by neighboring Serbia and Montenegro - responded with armed resistance aimed at partitioning the republic along ethnic lines and joining Serb-held areas to form a \"Greater Serbia.\" In March 1994, Bosniaks and Croats reduced the number of warring factions from three to two by signing an agreement creating a joint Bosniak-Croat Federation of Bosnia and Herzegovina. On 21 November 1995, in Dayton, Ohio, the warring parties initialed a peace agreement that ended three years of interethnic civil strife (the final agreement was signed in Paris on 14 December 1995).The Dayton Peace Accords retained Bosnia and Herzegovina's international boundaries and created a multiethnic and democratic government charged with conducting foreign, diplomatic, and fiscal policy. Also recognized was a second tier of government composed of two entities roughly equal in size: the predominantly Bosniak-Bosnian Croat Federation of Bosnia and Herzegovina and the predominantly Bosnian Serb-led Republika Srpska (RS). The Federation and RS governments are responsible for overseeing most government functions. Additionally, the Dayton Accords established the Office of the High Representative to oversee the implementation of the civilian aspects of the agreement. The Peace Implementation Council at its conference in Bonn in 1997 also gave the High Representative the authority to impose legislation and remove officials, the so-called \"Bonn Powers.\" An original NATO-led international peacekeeping force (IFOR) of 60,000 troops assembled in 1995 was succeeded over time by a smaller, NATO-led Stabilization Force (SFOR). In 2004, European Union peacekeeping troops (EUFOR) replaced SFOR. Currently, EUFOR deploys around 600 troops in theater in a security assistance and training capacity.",
+    "coordinates": "44 00 N, 18 00 E",
+    "region": "Europe",
+    "total_area": "51,197 sq km",
+    "land_area": "51,187 sq km",
+    "water_area": "10 sq km",
+    "land_boundary": "1,543 km",
+    "neighbors": {
+        "Montenegro": "242 km",
+        "Serbia": "345 km"
+    },
+    "climate": "hot summers and cold winters; areas of high elevation have short, cool summers and long, severe winters; mild, rainy winters along coast",
+    "coastline": "20 km",
+    "natural_hazards": [
+        "destructive earthquakes"
+    ],
+    "terrain": "mountains and valleys",
+    "population_distribution": "the northern and central areas of the country are the most densely populated",
+    "natural_resources": [
+        "coal",
+        "iron ore",
+        "antimony",
+        "bauxite",
+        "copper",
+        "lead",
+        "zinc",
+        "chromite",
+        "cobalt",
+        "manganese",
+        "nickel",
+        "clay",
+        "gypsum",
+        "salt",
+        "sand",
+        "timber",
+        "hydropower"
+    ],
+    "population": "3,835,586",
+    "nationality": "Bosnian(s), Herzegovinian(s)",
+    "ethnic_groups": {
+        "Bosniak": "50.1%",
+        "Serb": "30.8%",
+        "Croat": "15.4%",
+        "other": "2.7%", 
+        "not declared/no answer": "1%"
+    },
+    "languages": {
+        "Bosnian (official)": "52.9%",
+        "Serbian (official)": "30.8%",
+        "Croatian (official)": "14.6%",
+        "other": "1.6%",
+        "no answer": "0.2%"
+    },
+    "religions": {
+        "Muslim": "50.7%", 
+        "Orthodox": "30.7%", 
+        "Roman Catholic": "15.2%", 
+        "atheist": "0.8%", 
+        "agnostic": "0.3%", 
+        "other": "1.2%", 
+        "undeclared/no answer": "1.1%"},
+    "government_type": "parliamentary republic",
+    "national_symbols": "golden lily",
+    "national_colors": ["blue", "yellow", "white"],
+    "gdp": "$18.17 billion",
+    "agriculture": [
+        "wheat",
+        "corn",
+        "fruits",
+        "vegetables",
+        "livestock"
+    ],
+    "industries": [
+        "steel",
+        "coal",
+        "iron ore",
+        "lead",
+        "zinc",
+        "manganese",
+        "bauxite",
+        "aluminum",
+        "motor vehicle assembly",
+        "textiles",
+        "tobacco products",
+        "wooden furniture",
+        "ammunition",
+        "domestic appliances",
+        "oil refining"
+    ],
+    "exports": [
+        "metals",
+        "clothing",
+        "wood products"
+    ],
+    "imports": [
+        "machinery and equipment",
+        "chemicals",
+        "fuels",
+        "foodstuffs"
+    ],
+    "broadband_subscriptions": "693,554",
+    "internet_users": "2,677,502",
+    "mobile_subscriptions": "3,461,058",
+    "internet_country_code": ".ba",
+    "military_and_security_forces": "Armed Forces of Bosnia and Herzegovina (Oruzanih Snaga Bosne i Hercegovine, OSBiH): Operations Command (includes Army, Air, and Air Defense units), Support Command",
+    "pipelines": [
+        "147 km gas",
+        "9 km oil"
+    ],
+    "ports_and_terminals": {
+        "river port(s)": "Bosanska Gradiska, Bosanski Brod, Bosanski Samac, Brcko, Orasje (Sava River)"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "24",
+    "international_disputes": "Serbia delimited about half of the boundary with Bosnia and Herzegovina, but sections along the Drina River remain in dispute"
+}

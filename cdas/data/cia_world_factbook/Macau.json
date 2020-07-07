@@ -1,0 +1,97 @@
+{
+    "name": "Macau",
+    "background": "Colonized by the Portuguese in the 16th century, Macau was the first European settlement in the Far East. Pursuant to an agreement signed by China and Portugal on 13 April 1987, Macau became the Macau Special Administrative Region of the People's Republic of China on 20 December 1999. In this agreement, China promised that, under its \"one country, two systems\" formula, China's political and economic system would not be imposed on Macau, and that Macau would enjoy a \"high degree of autonomy\" in all matters except foreign affairs and defense for the subsequent 50 years.",
+    "coordinates": "22 10 N, 113 33 E",
+    "region": "Southeast Asia",
+    "total_area": "28.2 sq km",
+    "land_area": "28.2 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "3 km",
+    "neighbors": {},
+    "climate": "subtropical; marine with cool winters, warm summers",
+    "coastline": "41 km",
+    "natural_hazards": [
+        "typhoons"
+    ],
+    "terrain": "generally flat",
+    "population_distribution": "population fairly equally distributed",
+    "natural_resources": [
+        "NEGL"
+    ],
+    "population": "614,458",
+    "nationality": "Chinese",
+    "ethnic_groups": {
+        "Chinese": "88.7%", 
+        "Portuguese": "1.1%", 
+        "mixed": "1.1%",
+        "other": "9.2%"
+    },
+    "languages": {
+        "Cantonese": "80.1%",
+        "Mandarin": "5.5%",
+        "other Chinese dialects": "5.3%",
+        "Tagalog": "3%",
+        "English": "2.8%",
+        "Portuguese": "0.6%",
+        "other": "2.8%"
+    },
+    "religions": {
+        "folk religionist": "58.9%", 
+        "Buddhist": "17.3%", 
+        "Christian": "7.2%", 
+        "other": "1.2%", 
+        "none": "15.4%"},
+    "government_type": "executive-led limited democracy; a special administrative region of the People's Republic of China",
+    "national_symbols": "lotus blossom",
+    "national_colors": [
+        "green",
+        "white",
+        "yellow"
+    ],
+    "gdp": "$50.36 billion",
+    "agriculture": [
+        "vegetable growers",
+        "fishing"
+    ],
+    "industries": [
+        "tourism",
+        "gambling",
+        "clothing",
+        "textiles",
+        "electronics",
+        "footwear",
+        "toys"
+    ],
+    "exports": [
+        "clothing",
+        "textiles",
+        "footwear",
+        "toys",
+        "electronics",
+        "machinery and parts"
+    ],
+    "imports": [
+        "raw materials and semi-manufactured goods",
+        "foodstuffs",
+        "beverages",
+        "tobacco",
+        "garments and footwear",
+        "motor vehicles",
+        "capital goods",
+        "mineral fuels and oils"
+    ],
+    "broadband_subscriptions": "193,057",
+    "internet_users": "460,000",
+    "mobile_subscriptions": "2,181,194",
+    "internet_country_code": ".mo",
+    "military_and_security_forces": "no regular indigenous military forces",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Macau"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "1",
+    "international_disputes": "none"
+}

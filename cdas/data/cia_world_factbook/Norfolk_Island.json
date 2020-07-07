@@ -1,0 +1,78 @@
+{
+    "name": "Norfolk Island",
+    "background": "Two British attempts at establishing the island as a penal colony (1788-1814 and 1825-55) were ultimately abandoned. In 1856, the island was resettled by Pitcairn Islanders, descendants of the Bounty mutineers and their Tahitian companions.",
+    "coordinates": "29 02 S, 167 57 E",
+    "region": "Oceania",
+    "total_area": "36 sq km",
+    "land_area": "36 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "subtropical; mild, little seasonal temperature variation",
+    "coastline": "32 km",
+    "natural_hazards": [
+        "tropical cyclones (especially May to July)"
+    ],
+    "terrain": "volcanic island with mostly rolling plains",
+    "population_distribution": "population concentrated around the capital of Kingston",
+    "natural_resources": [
+        "fish"
+    ],
+    "population": "1,748",
+    "nationality": "Norfolk Islander(s)",
+    "ethnic_groups": {"":""},
+    "languages": {
+        "English (official)": "44.9%",
+        "Norfolk": "40.3%",
+        "Fijian": "1.8%",
+        "other": "6.8%",
+        "unspecified": "6.2%"
+    },
+    "religions": {
+        "Protestant": "46.8%", 
+        "Roman Catholic": "12.6%", 
+        "other Christian": "2.9%", 
+        "other": "1.4%", 
+        "none": "26.7%", 
+        "unspecified":"9.5%"},
+    "government_type": "non-self-governing overseas territory of Australia",
+    "national_symbols": "Norfolk Island pine",
+    "national_colors": [],
+    "gdp": "Unknown",
+    "agriculture": [
+        "Norfolk Island pine seed",
+        "Kentia palm seed",
+        "cereals",
+        "vegetables",
+        "fruit",
+        "cattle",
+        "poultry"
+    ],
+    "industries": [
+        "tourism",
+        "light industry",
+        "ready mixed concrete"
+    ],
+    "exports": [
+        "postage stamps",
+        "seeds of the Norfolk Island pine and Kentia palm",
+        "small quantities of avocados"
+    ],
+    "imports": [
+        "NA"
+    ],
+    "broadband_subscriptions": "Unknown",
+    "internet_users": "765",
+    "mobile_subscriptions": "Unknown",
+    "internet_country_code": ".nf",
+    "military_and_security_forces": "Unknown",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Kingston"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "1",
+    "international_disputes": "none"
+}

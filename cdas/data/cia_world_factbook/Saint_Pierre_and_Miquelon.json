@@ -1,0 +1,74 @@
+{
+    "name": "Saint Pierre and Miquelon",
+    "background": "First settled by the French in the early 17th century, the islands represent the sole remaining vestige of France's once vast North American possessions. They attained the status of an overseas collectivity in 2003.",
+    "coordinates": "46 50 N, 56 20 W",
+    "region": "North America",
+    "total_area": "242 sq km",
+    "land_area": "242 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "cold and wet, with considerable mist and fog; spring and autumn are often windy",
+    "coastline": "120 km",
+    "natural_hazards": [
+        "persistent fog throughout the year can be a maritime hazard"
+    ],
+    "terrain": "mostly barren rock",
+    "population_distribution": "most of the population is found on Saint Pierre Island; a small settlement is located on the north end of Miquelon Island",
+    "natural_resources": [
+        "fish",
+        "deepwater ports"
+    ],
+    "population": "5,347",
+    "nationality": "Frenchman(men), Frenchwoman(women)",
+    "ethnic_groups": {"Basques and Bretons (French fishermen)":""},
+    "languages": {
+        "French (official)": ""
+    },
+    "religions": {"Roman Catholic": "99%", "other": "1%"},
+    "government_type": "parliamentary democracy (Territorial Council); overseas collectivity of France",
+    "national_symbols": "16th-century sailing ship",
+    "national_colors": [],
+    "gdp": "$0.261 billion",
+    "agriculture": [
+        "vegetables",
+        "poultry",
+        "cattle",
+        "sheep",
+        "pigs",
+        "fish"
+    ],
+    "industries": [
+        "fish processing and supply base for fishing fleets",
+        "tourism"
+    ],
+    "exports": [
+        "fish and fish products",
+        "soybeans",
+        "animal feed",
+        "mollusks and crustaceans",
+        "fox and mink pelts"
+    ],
+    "imports": [
+        "meat",
+        "clothing",
+        "fuel",
+        "electrical equipment",
+        "machinery",
+        "building materials"
+    ],
+    "broadband_subscriptions": "Unknown",
+    "internet_users": "4,500",
+    "mobile_subscriptions": "Unknown",
+    "internet_country_code": ".pm",
+    "military_and_security_forces": "Unknown",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Saint-Pierre"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "2",
+    "international_disputes": "none"
+}

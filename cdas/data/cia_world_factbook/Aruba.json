@@ -1,0 +1,89 @@
+{
+    "name": "Aruba",
+    "background": "Discovered and claimed for Spain in 1499, Aruba was acquired by the Dutch in 1636. The island's economy has been dominated by three main industries. A 19th century gold rush was followed by prosperity brought on by the opening in 1924 of an oil refinery. The last decades of the 20th century saw a boom in the tourism industry. Aruba seceded from the Netherlands Antilles in 1986 and became a separate, semi-autonomous member of the Kingdom of the Netherlands. Movement toward full independence was halted at Aruba's request in 1990.",
+    "coordinates": "12 30 N, 69 58 W",
+    "region": "Central America and the Caribbean",
+    "total_area": "180 sq km",
+    "land_area": "180 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "tropical marine; little seasonal temperature variation",
+    "coastline": "68.5 km",
+    "natural_hazards": [
+        "hurricanes - lies outside the Caribbean hurricane belt and is rarely threatened"
+    ],
+    "terrain": "flat with a few hills; scant vegetation",
+    "population_distribution": "most residents live in or around Oranjestad and San Nicolaas; most settlments tend to be located on the less mountainous western side of the island",
+    "natural_resources": [
+        "NEGL; white sandy beaches foster tourism"
+    ],
+    "population": "119,428",
+    "nationality": "Aruban(s)",
+    "ethnic_groups": {
+        "Aruban": "66%",
+        "Colombian": "9.1%",
+        "Dutch": "4.3%",
+        "Dominican": "4.1%",
+        "Venezuelan": "3.2%",
+        "Curacaoan": "2.2%",
+        "Haitian": "1.5%",
+        "Surinamese": "1.2%",
+        "Peruvian": "1.1%",
+        "Chinese": "1.1%",
+        "other": "6.2%"
+    },
+    "languages": {
+        "Papiamento (official)": "69.4%",
+        "Spanish": "14%",
+        "English": "7%",
+        "Dutch (official)": "6%",
+        "Chinese": "1.5%",
+        "other": "1.7%",
+        "unspecified": "0.4%"
+    },
+    "religions": {
+        "Roman Catholic": "75.3%", "Protestant": "4.9%", "Jehovah's Witness": "1.7%", "other": "12%", "none": "5.5%", "unspecified": "0.5%"},
+    "government_type": "parliamentary democracy; part of the Kingdom of the Netherlands",
+    "national_symbols": "Hooiberg (Haystack) Hill",
+    "national_colors": ["blue", "yellow", "red", "white"],
+    "gdp": "$2.7 billion",
+    "agriculture": [
+        "aloes",
+        "livestock",
+        "fish"
+    ],
+    "industries": [
+        "tourism",
+        "petroleum transshipment facilities",
+        "banking"
+    ],
+    "exports": [
+        "live animals and animal products",
+        "art and collectibles",
+        "machinery and electrical equipment",
+        "transport equipment"
+    ],
+    "imports": [
+        "machinery and electrical equipment",
+        "refined oil for bunkering and reexport",
+        "chemicals",
+        "foodstuffs"
+    ],
+    "broadband_subscriptions": "Unknown",
+    "internet_users": "106,309",
+    "mobile_subscriptions": "141,000",
+    "internet_country_code": ".aw",
+    "military_and_security_forces": "no regular military forces",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Barcadera, Oranjestad",
+        "oil terminal(s)": "Sint Nicolaas",
+        "cruise port(s)": "Oranjestad"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "1",
+    "international_disputes": "none"
+}

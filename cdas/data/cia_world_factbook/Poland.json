@@ -1,0 +1,115 @@
+{
+    "name": "Poland",
+    "background": "Poland's history as a state began near the middle of the 10th century. By the mid-16th century, the Polish-Lithuanian Commonwealth ruled a vast tract of land in Central and Eastern Europe. During the 18th century, internal disorders weakened the nation, and in a series of agreements between 1772 and 1795, Russia, Prussia, and Austria partitioned Poland among themselves. Poland regained its independence in 1918 only to be overrun by Germany and the Soviet Union in World War II. It became a Soviet satellite state following the war. Labor turmoil in 1980 led to the formation of the independent trade union \"Solidarity\" that over time became a political force with over 10 million members. Free elections in 1989 and 1990 won Solidarity control of the parliament and the presidency, bringing the communist era to a close. A \"shock therapy\" program during the early 1990s enabled the country to transform its economy into one of the most robust in Central Europe. Poland joined NATO in 1999 and the EU in 2004. With its transformation to a democratic, market-oriented country largely completed and with large investments in defense, energy, and other infrastructure, Poland is an increasingly active member of Euro-Atlantic organizations.",
+    "coordinates": "52 00 N, 20 00 E",
+    "region": "Europe",
+    "total_area": "312,685 sq km",
+    "land_area": "304,255 sq km",
+    "water_area": "8,430 sq km",
+    "land_boundary": "3,071 km",
+    "neighbors": {
+        "Czech Republic": "796 km",
+        "Germany": "467 km",
+        "Lithuania": "104 km",
+        "Russia (Kaliningrad Oblast)": "210 km",
+        "Slovakia": "541 km",
+        "Ukraine": "535 km"
+    },
+    "climate": "temperate with cold, cloudy, moderately severe winters with frequent precipitation; mild summers with frequent showers and thundershowers",
+    "coastline": "440 km",
+    "natural_hazards": [
+        "flooding"
+    ],
+    "terrain": "mostly flat plain; mountains along southern border",
+    "population_distribution": "population concentrated in the southern area around Krakow and the central area around Warsaw and Lodz, with an extension to the northern coastal city of Gdansk",
+    "natural_resources": [
+        "coal",
+        "sulfur",
+        "copper",
+        "natural gas",
+        "silver",
+        "lead",
+        "salt",
+        "amber",
+        "arable land"
+    ],
+    "population": "38,282,325",
+    "nationality": "Pole(s)",
+    "ethnic_groups": {
+        "Polish": "96.9%", 
+        "Silesian": "1.1%", 
+        "German": "0.2%", 
+        "Ukrainian": "0.1%", 
+        "other and unspecified": "1.7%"},
+    "languages": {
+        "Polish (official)": "98.2%",
+        "Silesian": "1.4%",
+        "other": "1.1%",
+        "unspecified": "1.3%"
+    },
+    "religions": {
+        "Catholic": "85.9%", 
+        "Orthodox": "1.3%", 
+        "Protestant": "0.4%", 
+        "other": "0.4%", 
+        "unspecified": "12.1%"},
+    "government_type": "parliamentary republic",
+    "national_symbols": "white crowned eagle",
+    "national_colors": ["white", "red"],
+    "gdp": "$524.8 billion",
+    "agriculture": [
+        "potatoes",
+        "fruits",
+        "vegetables",
+        "wheat",
+        "poultry",
+        "eggs",
+        "pork",
+        "dairy"
+    ],
+    "industries": [
+        "machine building",
+        "iron and steel",
+        "coal mining",
+        "chemicals",
+        "shipbuilding",
+        "food processing",
+        "glass",
+        "beverages",
+        "textiles"
+    ],
+    "exports": [
+        "machinery and transport equipment",
+        "intermediate manufactured goods",
+        "miscellaneous manufactured goods%",
+        "food and live animals"
+    ],
+    "imports": [
+        "machinery and transport equipment",
+        "intermediate manufactured goods",
+        "chemicals",
+        "minerals",
+        "fuels",
+        "lubricants",
+        "related materials"
+    ],
+    "broadband_subscriptions": "6,114,926",
+    "internet_users": "28,237,820",
+    "mobile_subscriptions": "51,098,747",
+    "internet_country_code": ".pl",
+    "military_and_security_forces": "Polish Armed Forces: Land Forces (Wojska Ladowe), Navy (Marynarka Wojenna), Air Force (Sily Powietrzne), Special Forces (Wojska Specjalne), Territorial Defense Force (Wojska Obrony Terytorialnej)",
+    "pipelines": [
+        "14198 km gas",
+        "1374 km oil",
+        "2483 km refined products"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Gdansk, Gdynia, Swinoujscie",
+        "container port(s) (TEUs)": "Gdansk (1,593,761)",
+        "LNG terminal(s) (import)": "Swinoujscie",
+        "river port(s)": "Szczecin (River Oder)"
+    },
+    "waterways": "3,997 km",
+    "number_of_airports": "126",
+    "international_disputes": "as a member state that forms part of the EU's external border, Poland has implemented the strict Schengen border rules to restrict illegal immigration and trade along its eastern borders with Belarus and Ukraine"
+}

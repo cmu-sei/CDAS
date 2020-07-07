@@ -1,0 +1,114 @@
+{
+    "name": "Albania",
+    "background": "Albania declared its independence from the Ottoman Empire in 1912, but was conquered by Italy in 1939 and occupied by Germany in 1943. Communist partisans took over the country in 1944. Albania allied itself first with the USSR (until 1960), and then with China (to 1978). In the early 1990s, Albania ended 46 years of isolated communist rule and established a multiparty democracy. The transition has proven challenging as successive governments have tried to deal with high unemployment, widespread corruption, dilapidated infrastructure, powerful organized crime networks, and combative political opponents.\nAlbania has made progress in its democratic development since it first held multiparty elections in 1991, but deficiencies remain. Most of Albania's post-communist elections were marred by claims of electoral fraud; however, international observers judged elections to be largely free and fair since the restoration of political stability following the collapse of pyramid schemes in 1997. Albania joined NATO in April 2009 and in June 2014 became an EU candidate. Albania in April 2017 received a European Commission recommendation to open EU accession negotiations following the passage of historic EU-mandated justice reforms in 2016. Although Albania's economy continues to grow, it has slowed, and the country is still one of the poorest in Europe. A large informal economy and a weak energy and transportation infrastructure remain obstacles.",
+    "coordinates": "41 00 N, 20 00 E",
+    "region": "Europe",
+    "total_area": "28,748 sq km",
+    "land_area": "27,398 sq km",
+    "water_area": "1,350 sq km",
+    "land_boundary": "691 km",
+    "neighbors": {
+        "Kosovo": "112 km",
+        "Macedonia": "181 km",
+        "Montenegro": "186 km"
+    },
+    "climate": "mild temperate; cool, cloudy, wet winters; hot, clear, dry summers; interior is cooler and wetter",
+    "coastline": "362 km",
+    "natural_hazards": [
+        "destructive earthquakes",
+        "tsunamis occur along southwestern coast",
+        "floods",
+        "drought"
+    ],
+    "terrain": "mostly mountains and hills; small plains along coast",
+    "population_distribution": "a fairly even distribution, with somewhat higher concentrations of people in the western and central parts of the country",
+    "natural_resources": [
+        "petroleum",
+        "natural gas",
+        "coal",
+        "bauxite",
+        "chromite",
+        "copper",
+        "iron ore",
+        "nickel",
+        "salt",
+        "timber",
+        "hydropower",
+        "arable land"
+    ],
+    "population": "3,074,579",
+    "nationality": "Albanian(s)",
+    "ethnic_groups": {
+        "Albanian": "82.6%", 
+        "Greek": "0.9%", 
+        "other (including Vlach, Romani, Macedonian, Montenegrin, and Egyptian)": "1%", 
+        "unspecified": "15.5%"
+    },
+    "languages": {
+        "Albanian 98.8% (official)": "8%",
+        "Greek 0.": "5%",
+        "other 0.6%": "6%",
+        "unspecified 0.": "1%"
+    },
+    "religions": {"Muslim": "56.7%", "Roman Catholic": "10%", "Orthodox": "6.8%", "atheist": "2.5%", "Bektashi (a Sufi order)": "2.1%", "other": "5.7%", "unspecified": "16.2%"},
+    "government_type": "parliamentary republic",
+    "national_symbols": "black double-headed eagle",
+    "national_colors": ["red", "black"],
+    "gdp": "$13.07 billion",
+    "agriculture": [
+        "wheat",
+        "corn",
+        "potatoes",
+        "vegetables",
+        "fruits",
+        "olives and olive oil",
+        "grapes",
+        "meat",
+        "dairy products",
+        "sheep and goats"
+    ],
+    "industries": [
+        "food",
+        "footwear",
+        "apparel and clothing",
+        "lumber",
+        "oil",
+        "cement",
+        "chemicals",
+        "mining",
+        "basic metals",
+        "hydropower"
+    ],
+    "exports": [
+        "apparel and clothing",
+        "footwear",
+        "asphalt",
+        "metals and metallic ores",
+        "crude oil",
+        "cement and construction materials",
+        "vegetables",
+        "fruits",
+        "tobacco"
+    ],
+    "imports": [
+        "machinery and equipment",
+        "foodstuffs",
+        "textiles",
+        "chemicals"
+    ],
+    "broadband_subscriptions": "361,947",
+    "internet_users": "2,016,516",
+    "mobile_subscriptions": "2,714,878",
+    "internet_country_code": ".al",
+    "military_and_security_forces": "Land Forces Command, Navy Force Command, Air Forces Command",
+    "pipelines": [
+        "498 km gas (a majority of the network is in disrepair and parts of it are missing)",
+        "249 km oil"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Durres, Sarande, Shengjin, Vlore"
+    },
+    "waterways": "41 km",
+    "number_of_airports": "4",
+    "international_disputes": "none"
+}
