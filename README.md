@@ -4,14 +4,13 @@ One Paragraph of project description goes here
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine.
 
 ### Prerequisites
 
 Before installing CDAS you will need the following packages:
 
 ```
-json
 numpy
 reportlab
 drawSVG
@@ -33,17 +32,18 @@ And repeat
 until finished
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+To test that CDAS is installed properly run
+
+```
+$ python -m cdas
+Setting up outputs...
+Overwrite the output folder (../output/)? (y/n)
+$ y
+```
 
 ## Configuration
 
-Add additional notes about how to deploy this on a live system
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+CDAS is configured via the config.json file in the cdas module folder
 
 ## License
 
