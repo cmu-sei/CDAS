@@ -8,7 +8,7 @@ README = (HERE / "README.md").read_text()
 setup(
     name="cdas",
     version="0.0.1",
-    description="Cyber Decision Analysis Simulator",
+    description="Cybersecurity Decision Analysis Simulator",
     long_description=README,
     long_description_content_type="text/markdown",
     url="",

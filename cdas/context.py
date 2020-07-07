@@ -2,7 +2,6 @@ import json
 import numpy as np
 import reportlab.platypus as platy
 from reportlab.lib.styles import getSampleStyleSheet
-#import matplotlib.pyplot as plt
 import drawSvg as draw
 
 
@@ -15,11 +14,14 @@ class Country:
     id : int
     name: str
     coordinates : str
+        Lat/long coordinates calculated from the map matrix
     total_area : str
+        Area within the country's borders in sq km
     land_area : str
     water_area : str
     land_boundary : str
     neighbors : dict
+        IDs of neighboring countries and their border in km
     coastline : str
     climate : str
     terrain : str
@@ -36,8 +38,11 @@ class Country:
     national_symbol : str
     national_colors : list
     ethnic_groups : dict
+        ethnic groups with their % of population
     languages : dict
+        languages with their % of population
     religions : dict
+        religions with their % of population
     broadband_subscriptions : str
     internet_users : str
     mobile_subscriptions : str
@@ -58,6 +63,16 @@ class Country:
     countryCount = -1
 
     def __init__(self, choices=None, map_matrix=None, **kwargs):
+        """
+        Parameters
+        ----------
+        choices : dict
+            json dict with values to use as options for geopolitical context
+        map_matrix : numpy matrix
+            Taken from the Map object
+        kwargs : dict
+            custom attributes and values for the country
+        """
 
         Country.countryCount += 1
         self.id = Country.countryCount
@@ -480,6 +495,21 @@ class Country:
             self.international_disputes = "TODO"
 
     def save(self, directory, filetype):
+        """Saves the attributes of the Country to a specified file.
+
+        Parameters
+        ----------
+        directory : str
+            Path to save output 
+        filetype : str
+            For output file with country data (json or pdf)
+
+        Raises
+        ------
+        NotImplementedError
+            If unsupported filetype is passed in.
+        """
+
         filename = directory + self.name.replace(' ', '_')
         if filetype == 'json':
             filename += ".json"
@@ -511,7 +541,8 @@ class Country:
                     flowables.append(table)
             pdf.build(flowables)
         else:
-            print(f'ERROR: Output file type, {filetype}, not implemented')
+            raise NotImplementedError(
+                f"Output file type, {filetype}, not supported")
 
 
 class Map:
@@ -530,6 +561,12 @@ class Map:
         Saves the map as a SVG in [directory].
     """
     def __init__(self, num_countries):
+        """
+        Parameters
+        ----------
+        num_countries : int
+            The number of countries to generate for the random world.
+        """
 
         # start by filling a matrix of "ocean" space
         r_scale = np.ceil(np.sqrt(num_countries * 1.5))
@@ -644,8 +681,19 @@ class Map:
         self.map = map_matrix
 
     def plot_map(self, directory, **country_names):
-        #plt.matshow(self.map)
-        #plt.savefig(directory+"map.png")
+        """Converts map matrix to SVG and saves in [directory].
+
+        Country id numbers in matrix will be replaced with names if 
+        [country_names] is specified.
+
+        Parameters
+        ----------
+        directory : str
+            Path to save map SVG.
+        country_names : dict, optional
+            Mapping of country IDs (in matrix) to country names
+        """
+
         fill_colors = [
             [70, 102, 29], [186, 160, 56], [7, 48, 122], [164, 73, 171],
             [77, 81, 91], [143, 35, 24], [4, 86, 47], [142, 88, 22],
@@ -671,6 +719,18 @@ class Map:
 
 
 def markov_name(nationality=False):
+    """Generates fake place names.
+
+    Uses a dictionary of probabilities of letter sequences to generate
+    random fake place names. 
+
+    Parameters
+    ----------
+    nationality : binary, optional
+        Whether to convert generated name to a nationality by changing
+        the ending (default is False)
+    """
+
     with open('data/markov_probabilities.json', 'r') as f:
         probs = json.load(f)
     f.close()
