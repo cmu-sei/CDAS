@@ -21,15 +21,14 @@ setup(
     ],
     packages=["cdas"],
     package_data = {
-        'static': ['cdas/data/*.json'],
-        'factbook': ['cdas/data/cia_world_factbook/*'],
-        'config': ['cdas/config.json']
+        'static': ['data/*.json'],
+        'factbook': ['data/cia_world_factbook/*'],
+        'config': ['config.json']
     },
-    include_package_data=True,
     install_requires=["numpy","reportlab","drawSVG"],
     entry_points={
         "console_scripts": [
-            "cdas=cdas.__main__",
+            "cdas=cdas.__main__:main",
         ]
     },
 )

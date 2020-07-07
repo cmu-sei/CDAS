@@ -3,6 +3,7 @@ import numpy as np
 import reportlab.platypus as platy
 from reportlab.lib.styles import getSampleStyleSheet
 import drawSvg as draw
+import pkg_resources
 
 
 class Country:
@@ -731,7 +732,7 @@ def markov_name(nationality=False):
         the ending (default is False)
     """
 
-    with open('data/markov_probabilities.json', 'r') as f:
+    with open(pkg_resources.resource_filename(__name__, 'data/markov_probabilities.json'), 'r') as f:
         probs = json.load(f)
     f.close()
 
