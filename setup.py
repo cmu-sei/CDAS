@@ -20,6 +20,8 @@ setup(
         "Programming Language :: Python :: 3.7",
     ],
     packages=["cdas"],
+    package_dir={'': 'cdas'},
+    include_package_data=True,
     package_data = {
         'static': ['data/*.json'],
         'factbook': ['data/cia_world_factbook/*'],
