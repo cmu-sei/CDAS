@@ -20,12 +20,9 @@ setup(
         "Programming Language :: Python :: 3.7",
     ],
     packages=["cdas"],
-    package_dir={'': 'cdas'},
     include_package_data=True,
     package_data = {
-        'static': ['data/*.json'],
-        'factbook': ['data/cia_world_factbook/*'],
-        'config': ['config.json']
+        'cdas': ['config.json','data/*.json','data/cia_world_factbook/*']
     },
     install_requires=["numpy","reportlab","drawSVG"],
     entry_points={
