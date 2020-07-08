@@ -61,7 +61,7 @@ class Country:
         Saves the country attributes to a file of [filetype] in [directory].
     """
 
-    countryCount = -1
+    countryCount = -1  # track the number of countries created starting at 0
 
     def __init__(self, choices=None, map_matrix=None, **kwargs):
         """
@@ -79,21 +79,19 @@ class Country:
         self.id = Country.countryCount
 
         if len(kwargs) > 0:
-            # We're given country attributes
+            # We're given country attributes from a data set
             self.__dict__.update(kwargs)
         else:
             # We're not given country attributes, generate random countries
             self.name = markov_name()
 
-            # Geographic attributes
+            # Geographic coordinates based on location in map_matrix
             coords = np.where(map_matrix == self.id)
             center = [np.mean(coords[0]), np.mean(coords[1])]
+            # convert matrix rows and columns to lat/long degrees
             lat_scale = 180 / map_matrix.shape[0]
             long_scale = 180 / map_matrix.shape[1]
             lat = 90 - center[0] * lat_scale - lat_scale/2
-            if np.isnan(lat):
-                print(self.id, coords, center)
-                print(map_matrix)
             lon = 90 - center[1] * long_scale - long_scale/2
             if lat < 0:
                 lat = str(int(abs(lat))) + " 00 S, "
@@ -105,16 +103,16 @@ class Country:
                 lon = str(int(lon)) + " 00 W"
             self.coordinates = lat + lon
 
+            # Geographic area - dependent on number of "squares" in matrix
             area_multiple = 100000
             area = np.count_nonzero(map_matrix == self.id) * area_multiple
-            water = area * np.random.beta(1, 25)  # random percentage of area
+            water = area * np.random.beta(1, 25)  # percentage of area
             self.total_area = "{:,}".format(area) + " sq km"
-
             land = area - water
             self.land_area = "{:,}".format(int(land)) + ' sq km'
-
             self.water_area = "{:,}".format(int(water)) + ' sq km'
 
+            # Geo boundaries - measured from neighboring values in matrix
             neighbor_spaces = []
             for space in np.argwhere(map_matrix == self.id).tolist():
                 top, bottom = [space[0] - 1, space[1]], [space[0]+1, space[1]]
@@ -149,10 +147,9 @@ class Country:
                 neighbors[n] = "{:,}".format(int(v)) + " km"
             self.land_boundary = "{:,}".format(int(l_bound)) + " km"
             self.neighbors = neighbors
-
             self.coastline = "{:,}".format(int(coastline)) + " km"
 
-            # Calculate the climate zone
+            # Climate zone - based on latitude 
             min_lat = min(np.where(map_matrix == self.id)[0])
             max_lat = max(np.where(map_matrix == self.id)[0])
             min_lat_deg = int(90 - min_lat*lat_scale - lat_scale/2)
@@ -172,9 +169,8 @@ class Country:
                 if len(zone) > 0 and z_max <= abs(max_lat_deg):
                     zone.append(z)
             self.climate = ', '.join(zone)
-            if len(self.climate) == 0:
-                print(min_lat_deg, max_lat_deg)
 
+            # Terrain - mostly random
             self.terrain = str(np.random.choice(choices['terrain']))
             if coastline == 0:
                 # if country doesn't have coast, but terrain lists it
@@ -184,7 +180,7 @@ class Country:
             if self.climate == 'Dry':
                 self.terrain += '; desert'
 
-            # Geography - natural hazards
+            # Natural hazards - based on terrain and climate
             nh = []
             time_desc = ['', 'occasional ', 'frequent ', 'periodic ', 'rare ']
             if "volcan" in self.terrain:
@@ -227,6 +223,7 @@ class Country:
             else:
                 self.natural_hazards = nh
 
+            # Natural Resources
             num_resources = area/area_multiple + np.random.randint(4, 10)
             if "coast" in self.terrain:
                 self.natural_resources = list(np.random.choice(
@@ -715,6 +712,7 @@ class Map:
             d.append(draw.Text(
                 country_names[str(country_id)], 0.3, location[0][1],
                 -1*(location[0][0]+1), fill='white'))
+                
         d.setPixelScale(200)  # Set number of pixels per geometry unit
         d.saveSvg(directory+'map.svg')
 
