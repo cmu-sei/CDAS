@@ -40,7 +40,8 @@ def main():
                 overwrite = input(q)
         os.mkdir(config['output_path']+'countries/')
     else:
-        raise NotImplementedError(f"Output path {config['output_path']} does not exist")
+        raise NotImplementedError(
+            f"Output path {config['output_path']} does not exist")
 
     # Load or create country data
     print("Loading countries...")
@@ -49,13 +50,18 @@ def main():
     if c_cf["countries"]["randomize"] is True:
         with open(pkg_resources.resource_filename(
                 __name__, c_cf["data_choices"])) as f:
-            context_options = json.load(f)  # file containing opts for random vars
+            context_options = json.load(f)  # seed file
         f.close()
         num_countries = c_cf['countries']['random_vars']['num_countries']
         map_matrix = context.Map(num_countries)
         for c in range(0, num_countries):
             countries.append(context.Country(context_options, map_matrix.map))
         for c in countries:
+            # This loop is used mainly to convert references to other countries
+            # to the names of those countries instead of their ID numbers, 
+            # since, during the generation of each country it only has access to
+            # map_matrix with ID numbers of the other countries
+
             # Convert the neighbors listed by id# to neighbor country names
             neighbors = {}
             for n in c.neighbors:
@@ -64,14 +70,19 @@ def main():
             c.neighbors = neighbors
             if len(c.neighbors) == 0:
                 c.neighbors = "None (island nation)"
+
             # if country is a terrority, find its owner
             if c.government_type == "non-self-governing territory":
                 gdps = [
                     (int(gdp.gdp[1:].replace(',', '')), gdp.name)
                     for gdp in countries]
                 gdps.sort()
+                # Territory owners are most likely to be high GDP countries
+                # pick a random one from the top three GDP
                 owner_name = np.random.choice([gdp[1] for gdp in gdps][-3:])
                 if c.name in [gdp[1] for gdp in gdps][-3:]:
+                    # if the territory itself is in the top three GDP, change
+                    # its gov type to a republic instead of a territory
                     c.government_type = "federal parliamentary republic"
                 else:
                     c.government_type += f" of {str(owner_name)}"
@@ -107,6 +118,7 @@ def main():
                             except ValueError:
                                 langs[eg] = c.languages[eg]
                         c.languages = langs
+
             # Apply nationalities to ethnic groups listed by id#
             egs = {}
             for eg in c.ethnic_groups:
@@ -116,7 +128,8 @@ def main():
                 except ValueError:
                     egs[eg] = c.ethnic_groups[eg]
             c.ethnic_groups = egs
-            # Convert languges listed by id# to countries
+
+            # Convert languges listed by id# to country names
             egs = {}
             for eg in c.languages:
                 try:
@@ -131,6 +144,7 @@ def main():
                 except ValueError:
                     egs[eg] = c.languages[eg]
             c.languages = egs
+
             # Ensure country codes are not duplicated
             country_codes = [x.internet_country_code for x in countries]
             if country_codes.count(c.internet_country_code) > 1:
@@ -141,6 +155,7 @@ def main():
                     new_cc = "."+c.name[i:i+2]
                 c.internet_country_code = new_cc
     else:
+        # Using country data files instead of random generation
         c_folder = c_cf["countries"]["non_random_vars"]["country_data"]
         for fn in os.listdir(c_folder):
             with open(c_folder+fn, 'r') as f:
