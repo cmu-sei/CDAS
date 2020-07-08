@@ -43,11 +43,13 @@ $ y
 Loading countries...
 ```
 
-CDAS should finish with no errors and the results will be in your output folder.
+CDAS should finish with no errors and the results will be in your output folder. Results will include
+- SVG map of countries (if context was randomized)
+- Countries folder containing files with country attributes
 
 ## Configuration
 
-CDAS is configured via the config.json file in the cdas module folder. See [Config.md](Config.md) for further instructions.
+CDAS is configured via the config.json file in the cdas module folder. Users can change variables related to geopolitical context generation, asset generation, agent generation, whether to randomize or use real world data, and more. See [Config.md](Config.md) for further instructions.
 
 ## License
 
