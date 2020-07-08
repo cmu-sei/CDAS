@@ -1,6 +1,6 @@
 # Cyber Decision Analysis Simulator - CDAS
 
-One Paragraph of project description goes here
+(TODO) One Paragraph of project description goes here
 
 ## Getting Started
 
@@ -18,39 +18,42 @@ drawSVG
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+From the top-level cdas folder
 
 ```
-Give the example
+$ pip3 install .
 ```
 
-And repeat
+Create an output directory in the location you wish to output results from the simulator. For example
 
 ```
-until finished
+$ cd ~/Desktop 
+$ mkdir output
 ```
 
 To test that CDAS is installed properly run
 
 ```
+# from ~/Desktop 
+
 $ python -m cdas
 Setting up outputs...
 Overwrite the output folder (../output/)? (y/n)
 $ y
+Loading countries...
 ```
+
+CDAS should finish with no errors and the results will be in your output folder.
 
 ## Configuration
 
-CDAS is configured via the config.json file in the cdas module folder
+CDAS is configured via the config.json file in the cdas module folder. See [Config.md](Config.md) for further instructions.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+(TODO) Licensing...
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Structured Threat Information Expression (STIX™) (https://oasis-open.github.io/cti-documentation/stix/intro)
+* Mitre ATT&CK (https://attack.mitre.org/)
