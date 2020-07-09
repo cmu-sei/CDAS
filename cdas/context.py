@@ -714,7 +714,7 @@ class Map:
                 -1*(location[0][0]+1), fill='white'))
                 
         d.setPixelScale(200)  # Set number of pixels per geometry unit
-        d.saveSvg(directory+'map.svg')
+        d.saveSvg(directory+'/map.svg')
 
 
 def markov_name(nationality=False):

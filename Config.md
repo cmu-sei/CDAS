@@ -36,12 +36,16 @@ The context section of the configuration file looks like this:
 - data_choices - seed file for context randomization. Contains options for items such as colors, animals, agriculture, climate, etc.
 
 ## Asset Configuration
+<TODO>
 
 ## Agent Configuration
+<TODO>
 
 ## Simulation Configuration
+<TODO>
 
 ## Output Configuration
+<TODO>
 
 ```
    "output_path" : "output/",

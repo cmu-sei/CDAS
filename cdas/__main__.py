@@ -4,47 +4,82 @@ import os
 import shutil
 import sys
 import pkg_resources
+import argparse
 # Import custom modules
 from . import context
 
 # Set global variables
 CONFIG_FILE = pkg_resources.resource_filename(__name__, 'config.json')
 
-def main():
+def arguments():
+    # Add and parse command line arguments
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-o","--output",
+        help="directory for storing results")
+    parser.add_argument("-c","--config",
+        help="configuration file (json)")
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument("--num-countries", type=int,
+        help="number of countries to generate (if context randomize is true)")
+    group.add_argument("--country-data",
+        help="directory with json files of country information")
+    
+    args = parser.parse_args()
+    if not args.config:
+        args.config = pkg_resources.resource_filename(__name__, 'config.json')
+
+    return(args)
+
+
+def main(args):
+
     # Import configuration file
-    with open(CONFIG_FILE, 'r') as f:
+    with open(args.config, 'r') as f:
         config = json.load(f)
     f.close()
 
+    # Set arguments
+    if not args.output: args.output = config['output_path']
+    if not args.num_countries:
+        args.num_countries = config["context"]['countries']['random_vars']['num_countries']
+    if not args.country_data:
+        args.country_data = config["context"]["countries"]["non_random_vars"]["country_data"]
+
+    print(args)
+
     # Set up the Output directory
-    print("Setting up outputs...")
-    if os.path.isdir(config['output_path']):
-        if os.listdir(config['output_path']):
-            q = f"Overwrite the output folder ({config['output_path']})? (y/n) "
+    if os.path.isdir(args.output):
+        if os.listdir(args.output):
+            q = f"Overwrite the output folder {os.getcwd() + '/' + args.output}? (y/n) "
             overwrite = input(q)
             if overwrite == 'n':
-                print(f"Rename the 'output_path' variable in {CONFIG_FILE} and \
-                    restart the simulation.")
-                sys.exit()
+                sys.exit(f"CDAS exited without completing")
             elif overwrite == 'y':
-                for filename in os.listdir(config['output_path']):
-                    file_path = os.path.join(config['output_path'], filename)
+                for filename in os.listdir(args.output):
+                    file_path = os.path.join(args.output, filename)
                     try:
                         if os.path.isfile(file_path) or os.path.islink(file_path):
                             os.unlink(file_path)
                         elif os.path.isdir(file_path):
                             shutil.rmtree(file_path)
                     except Exception as e:
-                        print('Failed to delete %s. Reason: %s' % (file_path, e))
+                        print('Failed to delete %s. %s' % (file_path, e))
             else:
                 overwrite = input(q)
-        os.mkdir(config['output_path']+'countries/')
+        os.mkdir(args.output + '/countries/')
     else:
-        raise NotImplementedError(
-            f"Output path {config['output_path']} does not exist")
+        q = f"Output path {os.getcwd() + '/' + args.output} does not exist.\n\
+            Create this directory? (y/n) "
+        answer = input(q)
+        if answer  == "y":
+            os.mkdir(args.output)
+            os.mkdir(args.output + '/countries/')
+        elif answer == "n":
+            sys.exit(f"CDAS exited without completing")
+        else:
+            answer = input(q)
 
     # Load or create country data
-    print("Loading countries...")
     c_cf = config["context"]
     countries = []
     if c_cf["countries"]["randomize"] is True:
@@ -52,9 +87,8 @@ def main():
                 __name__, c_cf["data_choices"])) as f:
             context_options = json.load(f)  # seed file
         f.close()
-        num_countries = c_cf['countries']['random_vars']['num_countries']
-        map_matrix = context.Map(num_countries)
-        for c in range(0, num_countries):
+        map_matrix = context.Map(args.num_countries)
+        for c in range(0, args.num_countries):
             countries.append(context.Country(context_options, map_matrix.map))
         for c in countries:
             # This loop is used mainly to convert references to other countries
@@ -156,9 +190,8 @@ def main():
                 c.internet_country_code = new_cc
     else:
         # Using country data files instead of random generation
-        c_folder = c_cf["countries"]["non_random_vars"]["country_data"]
-        for fn in os.listdir(c_folder):
-            with open(c_folder+fn, 'r') as f:
+        for fn in os.listdir(args.country_data):
+            with open(args.country_data + fn, 'r') as f:
                 country_data = json.load(f)
             f.close()
             countries.append(context.Country(**country_data))
@@ -169,12 +202,13 @@ def main():
     for country in countries:
         country_names[str(country.id)] = country.name
     try:
-        map_matrix.plot_map(config['output_path'], **country_names)
+        map_matrix.plot_map(args.output, **country_names)
     except NameError:
         pass
     # Countries
     for country in countries:
-        country.save(config['output_path']+'countries/', config['output_type'])
+        country.save(args.output + '/countries/', config['output_type'])
 
 if __name__ == "__main__":
-    main()
+    args = arguments()
+    main(args)
