@@ -6,46 +6,58 @@ import sys
 import pkg_resources
 import argparse
 # Import custom modules
-from . import context
+from . import context, agents
 
-# Set global variables
-CONFIG_FILE = pkg_resources.resource_filename(__name__, 'config.json')
 
 def arguments():
     # Add and parse command line arguments
     parser = argparse.ArgumentParser()
-    parser.add_argument("-o","--output",
-        help="directory for storing results")
     parser.add_argument("-c","--config",
         help="configuration file (json)")
-    group = parser.add_mutually_exclusive_group()
-    group.add_argument("--num-countries", type=int,
-        help="number of countries to generate (if context randomize is true)")
-    group.add_argument("--country-data",
+    parser.add_argument("-o","--output",
+        help="directory for storing results")
+    parser.add_argument("--output-type", choices=["pdf", "json"])
+    parser.add_argument("--randomize-geopol", action='store_true',
+        help="Generate random countries")
+    parser.add_argument("--num-countries", type=int,
+        help="number of countries to generate (if geopol randomize is true)")
+    parser.add_argument("--country-data",
         help="directory with json files of country information")
     
     args = parser.parse_args()
     if not args.config:
         args.config = pkg_resources.resource_filename(__name__, 'config.json')
 
-    return(args)
-
-
-def main(args):
-
     # Import configuration file
     with open(args.config, 'r') as f:
         config = json.load(f)
     f.close()
 
-    # Set arguments
-    if not args.output: args.output = config['output_path']
+    # Set arguments to the specifications in the config file if not set at CL
+    if not args.output:
+        args.output = config['output_path']
+    if not args.output_type:
+        args.output_type = config['output_type']
+    if not args.randomize_geopol: 
+        args.randomize_geopol = config["context"]['countries']['randomize']
     if not args.num_countries:
         args.num_countries = config["context"]['countries']['random_vars']['num_countries']
     if not args.country_data:
-        args.country_data = config["context"]["countries"]["non_random_vars"]["country_data"]
+        args.country_data = pkg_resources.resource_filename(__name__,
+            config["context"]["countries"]["non_random_vars"]["country_data"])
+    
+    args.random_geodata = pkg_resources.resource_filename(__name__,
+        config["context"]["data_choices"])
 
-    print(args)
+    print("Configuration\n_____________")
+    for arg in args.__dict__:
+        print(f"    {arg}\t{args.__dict__[arg]}")
+    print("")
+
+    return(args,config)
+
+
+def main(args,config):
 
     # Set up the Output directory
     if os.path.isdir(args.output):
@@ -67,6 +79,7 @@ def main(args):
             else:
                 overwrite = input(q)
         os.mkdir(args.output + '/countries/')
+        os.mkdir(args.output + '/actors/')
     else:
         q = f"Output path {os.getcwd() + '/' + args.output} does not exist.\n\
             Create this directory? (y/n) "
@@ -74,17 +87,16 @@ def main(args):
         if answer  == "y":
             os.mkdir(args.output)
             os.mkdir(args.output + '/countries/')
+            os.mkdir(args.output + '/actors/')
         elif answer == "n":
             sys.exit(f"CDAS exited without completing")
         else:
             answer = input(q)
 
     # Load or create country data
-    c_cf = config["context"]
     countries = []
-    if c_cf["countries"]["randomize"] is True:
-        with open(pkg_resources.resource_filename(
-                __name__, c_cf["data_choices"])) as f:
+    if args.randomize_geopol is True:
+        with open(args.random_geodata) as f:
             context_options = json.load(f)  # seed file
         f.close()
         map_matrix = context.Map(args.num_countries)
@@ -207,8 +219,27 @@ def main(args):
         pass
     # Countries
     for country in countries:
-        country.save(args.output + '/countries/', config['output_type'])
+        country.save(args.output + '/countries/', args.output_type)
+
+    # Load or create actor data
+    with open(pkg_resources.resource_filename(__name__,
+            "data/stix_vocab.json")) as json_file:
+        stix_vocab = json.load(json_file)
+    json_file.close()
+    with open(pkg_resources.resource_filename(__name__,
+            config['agents']['random variables']['adjectives'])) as f:
+        adjectives = [line.rstrip() for line in f]
+    f.close()
+    with open(pkg_resources.resource_filename(__name__,
+            config['agents']['random variables']['nouns'])) as f:
+        nouns = [line.rstrip() for line in f]
+    f.close()
+    actors = []
+    while len(actors) < args.num_countries:
+        actors.append(agents.ThreatActor(stix_vocab,nouns,adjectives))
+    for actor in actors:
+        actor.save(args.output + '/actors/', args.output_type)
 
 if __name__ == "__main__":
-    args = arguments()
-    main(args)
+    args, config = arguments()
+    main(args, config)

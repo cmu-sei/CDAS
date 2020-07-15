@@ -1,15 +1,23 @@
 {
-   "context": {
+    "agents": {
+        "randomize":true,
+        "random variables": {
+            "adjectives":"data/personality_traits.txt",
+            "nouns":"data/disney_names.txt",
+            "num_agents":5
+        }
+    },
+    "context": {
        "countries": {
-           "randomize": false,
+           "randomize": true,
            "random_vars": {
                "num_countries": 10
            },
            "non_random_vars": {
-                "country_data":"./data/cia_world_factbook/"
+                "country_data":"data/cia_world_factbook/"
            }
        },
-       "data_choices":"./data/geopol_data.json"
+       "data_choices":"data/geopol_data.json"
    },
    "output_path": "output",
    "output_type_opts":["json","pdf"],

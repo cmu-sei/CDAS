@@ -1,0 +1,68 @@
+{
+    "attack-motivation": [
+        "coercion","dominance","ideology","notoriety","financial gain",
+        "economic gain","revenge","personal gain"
+    ],
+    "attack-resource-level": [
+        "individual", "club", "contest", "team", "organization", "government"
+    ],
+    "threat-actor-role": [
+        "agent", "director", "independent", "infrastructure-architect",
+        "infrastructure-operator", "sponsor"
+    ],
+    "threat-actor-sophistication":[
+        "minimal", "intermediate", "advanced", "expert", "innovator", "strategic"
+    ],
+    "threat-actor-type": [
+        "activist", "crime-syndicate", "nation-state", "spy", "terrorist"
+    ],
+    "individual-threat-type": [
+        "activist", "competitor", "criminal", "hacker", "insider-accidental", 
+        "insider-disgruntled", "sensationalist", "unknown", "malware-author"
+    ],
+    "sectors": ["agriculture","aerospace","automotive","chemical","commercial",
+        "communications", "construction", "defense", "education", "energy",
+        "entertainment", "financial-services","government (emergency-services)",
+        "government (local)", "government (national)",
+        "government (public-services)", "government (regional)","healthcare",
+        "hospitality-leisure", "infrastructure (dams, nuclear, water)",
+        "insurance", "manufacturing", "mining", "non-profit", "pharmaceuticals", 
+        "retail","technology","telecommunications","transportation","utilities"
+    ],
+    "animals": [
+        "Aardvark","Albatross","Alligator","Angelfish","Ant","Anteater",
+        "Antelope","Armadillo","Baboon","Badger","Barracuda","Bat","Bear",
+        "Beaver","Beetle","Bison","Bobcat","Buffalo","Bulldog","Bullfrog",
+        "Butterfly","Camel","Capybara","Cat","Chameleon","Cheetah","Chimpanzee",
+        "Chinchilla","Leopard","Collie","Cougar","Cow","Crab","Crocodile",
+        "Crane","Deer","Dog","Dolphin","Donkey","Dragonfly","Duck","Eagle",
+        "Elephant","Emu","Falcon","Fox","Ferret","Flamingo","Flounder","Frog",
+        "Gibbon","Giraffe","Goat","Oriole","Goose","Gopher","Gorilla","Hamster",
+        "Harrier","Hedgehog","Heron","Hippopotamus","Bee","Horse","Hummingbird",
+        "Hyena","Ibis","Iguana","Impala","Jackal","Jaguar","Kangaroo","Koala",
+        "Lemur","Lion","Lizard","Llama","Lynx","Macaw","Magpie","Mastiff",
+        "Meerkat","Monkey","Moose","Mouse","Newt","Ocelot","Ostrich","Otter",
+        "Panther","Parrot",
+        "Peacock","Pelican","Penguin","Pig","Platypus","Porcupine","Possum",
+        "Puffin","Puma","Rabbit",
+        "Raccoon","Rat","Rattlesnake","Rhinoceros","Sheep","Skunk","Sloth",
+        "Snail","Snake","Sparrow","Squirrel","Tiger","Tortoise","Toucan",
+        "Turkey","Wolf","Yak","Zebra"
+    ],
+    "colors": [
+        "Amber","Black","Blue","Bronze","Burgundy",
+        "Crimson","Gray","Green","Indigo","Lavender","Magenta","Navy","Purple",
+        "Orange","Red","Teal","Yellow"
+    ],
+    "goals": [
+        "steal financial information",
+        "steal PII",
+        "steal intellectual property",
+        "embarass ememy states",
+        "obtain state secrets", 
+        "establish and maintain strategic access",
+        "manipulate other nation's economies",
+        "manipulate geopolitical siutations",
+        "display military prowess"
+    ]
+}
