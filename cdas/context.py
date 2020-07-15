@@ -425,6 +425,7 @@ class Country:
                 Foreign Military Affairs"]
             forces += str(np.random.choice(force_list, p=[.55, .15, .15, .15]))
             self.military_and_security_forces = forces
+            self.percent_GDP_on_military = f"{np.round(10 * np.random.beta(2,5),2)}%"
 
             # Transportation data - Water ways
             self.waterways = "{:,}".format(
