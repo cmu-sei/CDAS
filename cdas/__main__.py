@@ -5,6 +5,7 @@ import shutil
 import sys
 import pkg_resources
 import argparse
+from stix2 import FileSystemStore,FileSystemSource
 # Import custom modules
 from . import context, agents
 
@@ -92,6 +93,10 @@ def main(args,config):
             sys.exit(f"CDAS exited without completing")
         else:
             answer = input(q)
+
+    # Set up the STIX data stores
+    fs_gen = FileSystemStore(store_path)
+    fs_real = FileSystemSource(real_path)
 
     # Load or create country data
     countries = []
@@ -190,16 +195,6 @@ def main(args,config):
                 except ValueError:
                     egs[eg] = c.languages[eg]
             c.languages = egs
-
-            # Ensure country codes are not duplicated
-            country_codes = [x.internet_country_code for x in countries]
-            if country_codes.count(c.internet_country_code) > 1:
-                i = 1
-                new_cc = "."+c.name[i:i+2]
-                while new_cc in country_codes:
-                    i += 1
-                    new_cc = "."+c.name[i:i+2]
-                c.internet_country_code = new_cc
     else:
         # Using country data files instead of random generation
         for fn in os.listdir(args.country_data):
@@ -235,8 +230,9 @@ def main(args,config):
         nouns = [line.rstrip() for line in f]
     f.close()
     actors = []
-    while len(actors) < args.num_countries:
-        actors.append(agents.ThreatActor(stix_vocab,nouns,adjectives))
+    while len(actors) < config['agents']['random variables']['num_agents']:
+        actors.append(agents.ThreatActor(
+            stix_vocab,nouns,adjectives,countries,fs_gen))
     for actor in actors:
         actor.save(args.output + '/actors/', args.output_type)
 

@@ -1,9 +1,10 @@
+import drawSvg as draw
 import json
 import numpy as np
+import pkg_resources
 import reportlab.platypus as platy
 from reportlab.lib.styles import getSampleStyleSheet
-import drawSvg as draw
-import pkg_resources
+import weakref
 
 
 class Country:
@@ -61,6 +62,7 @@ class Country:
         Saves the country attributes to a file of [filetype] in [directory].
     """
 
+    __instances = set()
     countryCount = -1  # track the number of countries created starting at 0
 
     def __init__(self, choices=None, map_matrix=None, **kwargs):
@@ -389,7 +391,16 @@ class Country:
             self.internet_users = "{:,}".format(intnet)
             mob = int(population * (1 - np.random.gamma(5, .1)))
             self.mobile_subscriptions = "{:,}".format(mob)
-            self.internet_country_code = "." + self.name[:2].lower()
+
+            # Set Internet country code
+            codes = [x.internet_country_code for x in Country.getinstances()]
+            code = "." + self.name[:2].lower()
+            while code in codes:
+                new_code = self.name[
+                    self.name.lower().find(code[1:])+1:
+                    self.name.lower().find(code[1:])+3]
+                code = "." + new_code.lower()
+            self.internet_country_code = code
 
             # Military and security data
             if self.government_type == "non-self-governing territory":
@@ -491,7 +502,26 @@ class Country:
                 int(land / (np.random.chisquare(1) * area_multiple)))
 
             # Create Disputes data
-            self.international_disputes = "TODO"
+            if np.random.choice([True,False]):
+                self.international_disputes = "TODO"
+            
+            # Create Terrorism data
+            if np.random.choice([True,False]):
+                self.terrorism = "TODO"
+    
+            self.__instances.add(weakref.ref(self))
+
+    @classmethod
+    def getinstances(cls):
+        dead = set()
+        for ref in cls.__instances:
+            obj = ref()
+            if obj is not None:
+                yield obj
+            else:
+                dead.add(ref)
+        cls.__instances -= dead
+
 
     def save(self, directory, filetype):
         """Saves the attributes of the Country to a specified file.

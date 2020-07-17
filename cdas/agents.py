@@ -4,13 +4,14 @@ import json
 from datetime import date
 import reportlab.platypus as platy
 from reportlab.lib.styles import getSampleStyleSheet
+from stix2.v21 import ThreatActor,Relationship,Location
 
 class ThreatActor:
 
     ActorCount = -1  # track the number of actors created starting at 0
     __instances = set()
 
-    def __init__(self,stix,nouns,adjectives):
+    def __init__(self,stix,nouns,adjectives,countries,fs_gen):
 
         ThreatActor.ActorCount += 1
         self.id = ThreatActor.ActorCount
@@ -38,7 +39,7 @@ class ThreatActor:
             {np.random.choice(stix['animals'])}"
         aliases.append(alias)
         self.aliases = aliases
-        
+
         self.first_seen = date.fromordinal(np.random.randint(
             date.today().replace(year=date.today().year-10).toordinal(),
             date.today().toordinal()))
@@ -52,11 +53,11 @@ class ThreatActor:
             date.today().toordinal()))
         self.last_seen = last_seen
 
-        self.roles = 'sponsor'
-
         self.resource_level = "government"
 
-        self.type = str(np.random.choice(stix['threat-actor-type']))
+        self.type = str(
+            np.random.choice(list(stix['threat-actor-type'].keys()),
+            p=list(stix['threat-actor-type'].values())))
 
         self.target_sectors = list(np.random.choice(stix['sectors'],np.random.randint(2,4),False))
 
@@ -69,10 +70,37 @@ class ThreatActor:
         self.secondary_motivations = motivations[1:]
         self.goals = list(np.random.choice(stix['goals'],np.random.randint(2,4),False))
 
+        # Find countries most likely to host threat actors
+        if self.type == "terrorist":
+            attr_countries = [country.name for country in countries 
+                if hasattr(country,'terrorism') and country.name not in 
+                    [c.attribution for c in ThreatActor.getinstances()]]
+        elif self.type == "nation-state":
+            attr_countries = [(country.name,country.percent_GDP_on_military) 
+                for country in countries 
+                if hasattr(country,'international_disputes') and country.name not in 
+                    [c.attribution for c in ThreatActor.getinstances()]]
+            attr_countries.sort(key = lambda x: x[1])
+            attr_countries = [country[0] for country in attr_countries]
+        else:
+            attr_countries = [country.name for country in countries 
+                if country.name not in 
+                    [c.attribution for c in ThreatActor.getinstances()]]
+        if len(attr_countries) == 0:
+            attr_countries = [country.name for country in countries 
+                if country.name not in 
+                    [c.attribution for c in ThreatActor.getinstances()]]
+        self.attribution = attr_countries.pop()
+
+        location = Location(name=self.attribution)
+        fs_gen.add(location)
+
         self.__instances.add(weakref.ref(self))
+
 
     @classmethod
     def getinstances(cls):
+        """Returns all instances of the Country class"""
         dead = set()
         for ref in cls.__instances:
             obj = ref()
@@ -81,6 +109,7 @@ class ThreatActor:
             else:
                 dead.add(ref)
         cls.__instances -= dead
+
 
     def save(self, directory, filetype):
         """Saves the attributes of the Threat Actor to a specified file.

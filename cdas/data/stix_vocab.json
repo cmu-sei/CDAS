@@ -13,13 +13,13 @@
     "threat-actor-sophistication":[
         "minimal", "intermediate", "advanced", "expert", "innovator", "strategic"
     ],
-    "threat-actor-type": [
-        "activist", "crime-syndicate", "nation-state", "spy", "terrorist"
-    ],
-    "individual-threat-type": [
-        "activist", "competitor", "criminal", "hacker", "insider-accidental", 
-        "insider-disgruntled", "sensationalist", "unknown", "malware-author"
-    ],
+    "threat-actor-type": {
+        "activist":0.1,
+        "crime-syndicate":0.1, 
+        "nation-state":0.5,
+        "spy":0.1,
+        "terrorist":0.2
+    },
     "sectors": ["agriculture","aerospace","automotive","chemical","commercial",
         "communications", "construction", "defense", "education", "energy",
         "entertainment", "financial-services","government (emergency-services)",
