@@ -95,8 +95,22 @@ def main(args,config):
             answer = input(q)
 
     # Set up the STIX data stores
-    fs_gen = FileSystemStore(store_path)
-    fs_real = FileSystemSource(real_path)
+    # Check if it's okay to overwrite the contents of the temporary data store
+    temp_path = pkg_resources.resource_filename(__name__,config['temp path'])
+    if os.path.isdir(temp_path):
+        q = f"Overwrite temporary stix data folder ({temp_path})? (y/n) "
+        overwrite = input(q)
+        if overwrite == 'n':
+            print(f"Rename the 'temp path' variable in {CONFIG_FILE} and \
+                restart the simulation.")
+            sys.exit()
+        elif overwrite == 'y':
+            shutil.rmtree(temp_path)
+            os.mkdir(temp_path)
+        else:
+            overwrite = input(q)
+    fs_gen = FileSystemStore(temp_path)
+    #fs_real = FileSystemSource(config["stix_path"])
 
     # Load or create country data
     countries = []

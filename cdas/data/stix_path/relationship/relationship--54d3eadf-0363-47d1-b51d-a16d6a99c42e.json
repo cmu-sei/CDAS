@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--01f065ca-a2c6-4492-a4ce-4832c5d8dcd4",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "relationship",
+            "target_ref": "attack-pattern--9b52fca7-1a36-4da0-b62d-da5bd83b4d69",
+            "description": "[APT28](https://attack.mitre.org/groups/G0007) has used COM hijacking for persistence by replacing the legitimate <code>MMDeviceEnumerator</code> object with a payload.",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-05-31T21:33:27.039Z",
+            "id": "relationship--54d3eadf-0363-47d1-b51d-a16d6a99c42e",
+            "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
+            "modified": "2019-09-09T17:44:35.014Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "external_references": [
+                {
+                    "source_name": "ESET Sednit Part 1",
+                    "description": "ESET. (2016, October). En Route with Sednit - Part 1: Approaching the Target. Retrieved November 8, 2016.",
+                    "url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part1.pdf"
+                },
+                {
+                    "source_name": "ESET Zebrocy May 2019",
+                    "description": "ESET Research. (2019, May 22). A journey to Zebrocy land. Retrieved June 20, 2019.",
+                    "url": "https://www.welivesecurity.com/2019/05/22/journey-zebrocy-land/"
+                }
+            ],
+            "relationship_type": "uses"
+        }
+    ]
+}

@@ -22,5 +22,6 @@
    "output_path": "output",
    "output_type_opts":["json","pdf"],
    "output_type": "pdf",
-   "temp_path": "temp"
+   "temp_path": "temp",
+   "stix_path": "data/stix_data/"
 }
