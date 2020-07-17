@@ -4,7 +4,7 @@ import json
 from datetime import date
 import reportlab.platypus as platy
 from reportlab.lib.styles import getSampleStyleSheet
-from stix2.v21 import ThreatActor,Relationship,Location
+from stix2.v21 import Relationship,Location
 
 class ThreatActor:
 

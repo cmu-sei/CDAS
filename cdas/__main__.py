@@ -101,7 +101,7 @@ def main(args,config):
         q = f"Overwrite temporary stix data folder ({temp_path})? (y/n) "
         overwrite = input(q)
         if overwrite == 'n':
-            print(f"Rename the 'temp path' variable in {CONFIG_FILE} and \
+            print(f"Rename the 'temp path' variable in config file and \
                 restart the simulation.")
             sys.exit()
         elif overwrite == 'y':
