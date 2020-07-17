@@ -22,7 +22,7 @@ setup(
     packages=["cdas"],
     include_package_data=True,
     package_data = {
-        'cdas': ['config.json','data/*.json','data/cia_world_factbook/*']
+        'cdas': ['config.json','data/*']
     },
     install_requires=["numpy","reportlab","drawSVG"],
     entry_points={

@@ -5,6 +5,7 @@ import pkg_resources
 import reportlab.platypus as platy
 from reportlab.lib.styles import getSampleStyleSheet
 import weakref
+from stix2.v21 import Relationship,Location
 
 
 class Country:
@@ -65,7 +66,7 @@ class Country:
     __instances = set()
     countryCount = -1  # track the number of countries created starting at 0
 
-    def __init__(self, choices=None, map_matrix=None, **kwargs):
+    def __init__(self,  fs, choices=None, map_matrix=None, **kwargs):
         """
         Parameters
         ----------
@@ -510,6 +511,9 @@ class Country:
                 self.terrorism = "TODO"
     
             self.__instances.add(weakref.ref(self))
+
+            location = Location(name=self.name,country=self.internet_country_code.upper()[1:])
+            fs.add(location)
 
     @classmethod
     def getinstances(cls):

@@ -96,7 +96,7 @@ def main(args,config):
 
     # Set up the STIX data stores
     # Check if it's okay to overwrite the contents of the temporary data store
-    temp_path = pkg_resources.resource_filename(__name__,config['temp path'])
+    temp_path = pkg_resources.resource_filename(__name__,config['temp_path'])
     if os.path.isdir(temp_path):
         q = f"Overwrite temporary stix data folder ({temp_path})? (y/n) "
         overwrite = input(q)
@@ -109,8 +109,11 @@ def main(args,config):
             os.mkdir(temp_path)
         else:
             overwrite = input(q)
+    else:
+        os.mkdir(temp_path)
     fs_gen = FileSystemStore(temp_path)
-    #fs_real = FileSystemSource(config["stix_path"])
+    fs_real = FileSystemSource(
+        pkg_resources.resource_filename(__name__,config["stix_path"]))
 
     # Load or create country data
     countries = []
@@ -120,7 +123,8 @@ def main(args,config):
         f.close()
         map_matrix = context.Map(args.num_countries)
         for c in range(0, args.num_countries):
-            countries.append(context.Country(context_options, map_matrix.map))
+            countries.append(context.Country(
+                fs_gen, context_options, map_matrix.map))
         for c in countries:
             # This loop is used mainly to convert references to other countries
             # to the names of those countries instead of their ID numbers, 
@@ -217,19 +221,6 @@ def main(args,config):
             f.close()
             countries.append(context.Country(**country_data))
 
-    # Create output files
-    # Map
-    country_names = {}
-    for country in countries:
-        country_names[str(country.id)] = country.name
-    try:
-        map_matrix.plot_map(args.output, **country_names)
-    except NameError:
-        pass
-    # Countries
-    for country in countries:
-        country.save(args.output + '/countries/', args.output_type)
-
     # Load or create actor data
     with open(pkg_resources.resource_filename(__name__,
             "data/stix_vocab.json")) as json_file:
@@ -243,12 +234,26 @@ def main(args,config):
             config['agents']['random variables']['nouns'])) as f:
         nouns = [line.rstrip() for line in f]
     f.close()
-    actors = []
-    while len(actors) < config['agents']['random variables']['num_agents']:
-        actors.append(agents.ThreatActor(
-            stix_vocab,nouns,adjectives,countries,fs_gen))
-    for actor in actors:
-        actor.save(args.output + '/actors/', args.output_type)
+    actors = 1
+    while actors <= config['agents']['random variables']['num_agents']:
+        agents.create_threatactor(
+            stix_vocab,nouns,adjectives,countries,fs_gen)
+        actors += 1
+
+    # Create output files
+    # Map
+    country_names = {}
+    for country in countries:
+        country_names[str(country.id)] = country.name
+    try:
+        map_matrix.plot_map(args.output, **country_names)
+    except NameError:
+        pass
+
+    for country in countries:
+        country.save(args.output + '/countries/', args.output_type)
+
+    agents.save(args.output + '/actors/', args.output_type, fs_gen, fs_real)
 
 if __name__ == "__main__":
     args, config = arguments()
