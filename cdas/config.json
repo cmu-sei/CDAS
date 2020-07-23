@@ -31,7 +31,7 @@
         "time range": ["2017-08-01","2020-08-01"]
     },
     "output_path": "output",
-    "output_type_opts":["json","pdf"],
+    "output_type_opts":["json","pdf","stix"],
     "output_type": "pdf",
     "temp_path": "temp",
     "stix_path": "assets/mitre_cti/"

@@ -5,31 +5,32 @@ Copyright 2020 Carnegie Mellon University.
 
 NO WARRANTY. THIS CARNEGIE MELLON UNIVERSITY AND SOFTWARE ENGINEERING INSTITUTE
 MATERIAL IS FURNISHED ON AN "AS-IS" BASIS. CARNEGIE MELLON UNIVERSITY MAKES NO
-WARRANTIES OF ANY KIND, EITHER EXPRESSED OR IMPLIED, AS TO ANY MATTER INCLUDING,
-BUT NOT LIMITED TO, WARRANTY OF FITNESS FOR PURPOSE OR MERCHANTABILITY, 
-EXCLUSIVITY, OR RESULTS OBTAINED FROM USE OF THE MATERIAL. CARNEGIE MELLON 
-UNIVERSITY DOES NOT MAKE ANY WARRANTY OF ANY KIND WITH RESPECT TO FREEDOM FROM 
-PATENT, TRADEMARK, OR COPYRIGHT INFRINGEMENT.
+WARRANTIES OF ANY KIND, EITHER EXPRESSED OR IMPLIED, AS TO ANY MATTER
+INCLUDING, BUT NOT LIMITED TO, WARRANTY OF FITNESS FOR PURPOSE OR
+MERCHANTABILITY, EXCLUSIVITY, OR RESULTS OBTAINED FROM USE OF THE MATERIAL.
+CARNEGIE MELLON UNIVERSITY DOES NOT MAKE ANY WARRANTY OF ANY KIND WITH RESPECT
+TO FREEDOM FROM PATENT, TRADEMARK, OR COPYRIGHT INFRINGEMENT.
 
-Released under a MIT (SEI)-style license, please see license.txt or contact 
+Released under a MIT (SEI)-style license, please see license.txt or contact
 permission@sei.cmu.edu for full terms.
 
-[DISTRIBUTION STATEMENT A] This material has been approved for public release 
-and unlimited distribution.  Please see Copyright notice for non-US Government 
+[DISTRIBUTION STATEMENT A] This material has been approved for public release
+and unlimited distribution.  Please see Copyright notice for non-US Government
 use and distribution.
 
-Carnegie Mellon® and CERT® are registered in the U.S. Patent and Trademark 
+Carnegie Mellon® and CERT® are registered in the U.S. Patent and Trademark
 Office by Carnegie Mellon University.
 
-This Software includes and/or makes use of the following Third-Party Software 
+This Software includes and/or makes use of the following Third-Party Software
 subject to its own license:
-1. python-stix (https://github.com/STIXProject/python-stix/blob/master/LICENSE.txt) 
+1. python-stix
+    (https://github.com/STIXProject/python-stix/blob/master/LICENSE.txt)
     Copyright 2017 Mitre Corporation.
-2. numpy (https://numpy.org/doc/stable/license.html) 
+2. numpy (https://numpy.org/doc/stable/license.html)
     Copyright 2005 Numpy Developers.
-3. reportlab (https://bitbucket.org/rptlab/reportlab/src/default/LICENSE.txt) 
+3. reportlab (https://bitbucket.org/rptlab/reportlab/src/default/LICENSE.txt)
     Copyright 2000-2018 ReportLab Inc.
-4. drawSvg (https://github.com/cduck/drawSvg/blob/master/LICENSE.txt) 
+4. drawSvg (https://github.com/cduck/drawSvg/blob/master/LICENSE.txt)
     Copyright 2017 Casey Duckering.
 
 DM20-0573
@@ -42,7 +43,7 @@ import pkg_resources
 import reportlab.platypus as platy
 from reportlab.lib.styles import getSampleStyleSheet
 import weakref
-from stix2.v21 import Relationship,Location
+from stix2.v21 import Relationship, Location
 
 
 class Country:
@@ -189,7 +190,7 @@ class Country:
             self.neighbors = neighbors
             self.coastline = "{:,}".format(int(coastline)) + " km"
 
-            # Climate zone - based on latitude 
+            # Climate zone - based on latitude
             min_lat = min(np.where(map_matrix == self.id)[0])
             max_lat = max(np.where(map_matrix == self.id)[0])
             min_lat_deg = int(90 - min_lat*lat_scale - lat_scale/2)
@@ -280,12 +281,18 @@ class Country:
             self.population = "{:,}".format(population)
 
             # Create nationality
-            if self.name.endswith('a'): nationality = self.name+"n(s)"
-            elif self.name.endswith('e'): nationality = self.name+"nese"
-            elif self.name.endswith('i'): nationality = self.name+"an(s)"
-            elif self.name.endswith('o'): nationality = self.name[:-1]+"ani"
-            elif self.name.endswith('y'): nationality = self.name[:-1]+"ian(s)"
-            else: nationality = self.name + "ian(s)"
+            if self.name.endswith('a'):
+                nationality = self.name+"n(s)"
+            elif self.name.endswith('e'):
+                nationality = self.name+"nese"
+            elif self.name.endswith('i'):
+                nationality = self.name+"an(s)"
+            elif self.name.endswith('o'):
+                nationality = self.name[:-1]+"ani"
+            elif self.name.endswith('y'):
+                nationality = self.name[:-1]+"ian(s)"
+            else:
+                nationality = self.name + "ian(s)"
             self.nationality = nationality
 
             # Create GDP based on population
@@ -474,7 +481,8 @@ class Country:
                 Foreign Military Affairs"]
             forces += str(np.random.choice(force_list, p=[.55, .15, .15, .15]))
             self.military_and_security_forces = forces
-            self.percent_GDP_on_military = f"{np.round(10 * np.random.beta(2,5),2)}%"
+            self.percent_GDP_on_military = (
+                f"{np.round(10 * np.random.beta(2, 5), 2)}%")
 
             # Transportation data - Water ways
             self.waterways = "{:,}".format(
@@ -540,13 +548,13 @@ class Country:
                 int(land / (np.random.chisquare(1) * area_multiple)))
 
             # Create Disputes data
-            if np.random.choice([True,False]):
+            if np.random.choice([True, False]):
                 self.international_disputes = "TODO"
-            
+
             # Create Terrorism data
-            if np.random.choice([True,False]):
+            if np.random.choice([True, False]):
                 self.terrorism = "TODO"
-    
+
             self.__instances.add(weakref.ref(self))
 
             location = Location(
@@ -566,14 +574,13 @@ class Country:
                 dead.add(ref)
         cls.__instances -= dead
 
-
     def save(self, directory, filetype):
         """Saves the attributes of the Country to a specified file.
 
         Parameters
         ----------
         directory : str
-            Path to save output 
+            Path to save output
         filetype : str
             For output file with country data (json or pdf)
 
@@ -756,7 +763,7 @@ class Map:
     def plot_map(self, directory, **country_names):
         """Converts map matrix to SVG and saves in [directory].
 
-        Country id numbers in matrix will be replaced with names if 
+        Country id numbers in matrix will be replaced with names if
         [country_names] is specified.
 
         Parameters
@@ -787,7 +794,7 @@ class Map:
             d.append(draw.Text(
                 country_names[str(country_id)], 0.3, location[0][1],
                 -1*(location[0][0]+1), fill='white'))
-                
+
         d.setPixelScale(200)  # Set number of pixels per geometry unit
         d.saveSvg(directory+'/map.svg')
 
@@ -796,7 +803,7 @@ def markov_name(nationality=False):
     """Generates fake place names.
 
     Uses a dictionary of probabilities of letter sequences to generate
-    random fake place names. 
+    random fake place names.
 
     Parameters
     ----------
@@ -805,8 +812,8 @@ def markov_name(nationality=False):
         the ending (default is False)
     """
 
-    with open(pkg_resources.resource_filename(__name__,
-            'assets/markov_probabilities.json'), 'r') as f:
+    with open(pkg_resources.resource_filename(
+            __name__, 'assets/markov_probabilities.json'), 'r') as f:
         probs = json.load(f)
     f.close()
 
@@ -816,22 +823,35 @@ def markov_name(nationality=False):
     while letter != "null":
         next_letter = np.random.choice(
             list(probs[letter].keys()), p=list(probs[letter].values()))
-        if next_letter == "null" and len(letters) < 3: continue
-        if next_letter == ' ' and len(letters) < 3: continue
-        if next_letter == ' ' and ' ' in letters[-3:]: continue
-        if next_letter == "null" and ' ' in letters[-3:]: continue
-        if next_letter == ' ' and len(letters) > 5: break
-        if len(letters) > 11: break
-        if next_letter != "null": letters.append(next_letter)
+        if next_letter == "null" and len(letters) < 3:
+            continue
+        if next_letter == ' ' and len(letters) < 3:
+            continue
+        if next_letter == ' ' and ' ' in letters[-3:]:
+            continue
+        if next_letter == "null" and ' ' in letters[-3:]:
+            continue
+        if next_letter == ' ' and len(letters) > 5:
+            break
+        if len(letters) > 11:
+            break
+        if next_letter != "null":
+            letters.append(next_letter)
         letter = next_letter
     word = ''.join(letters)
 
     if nationality:
-        if word.endswith('a'): word = word+"ni"
-        elif word.endswith('e'): word = word+"nese"
-        elif word.endswith('i'): word = word+"ani"
-        elif word.endswith('o'): word = word[:-1]+"ani"
-        elif word.endswith('y'): word = word[:-1]+"iani"
-        else: word = word+"ian"
+        if word.endswith('a'):
+            word = word+"ni"
+        elif word.endswith('e'):
+            word = word+"nese"
+        elif word.endswith('i'):
+            word = word+"ani"
+        elif word.endswith('o'):
+            word = word[:-1]+"ani"
+        elif word.endswith('y'):
+            word = word[:-1]+"iani"
+        else:
+            word = word+"ian"
 
     return word.title()
