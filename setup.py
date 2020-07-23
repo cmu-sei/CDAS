@@ -22,7 +22,7 @@ setup(
     package_data = {
         'cdas': ['config.json','data/*']
     },
-    install_requires=["numpy","reportlab","drawSVG"],
+    install_requires=["numpy","reportlab","drawSVG","pycairo"],
     entry_points={
         "console_scripts": [
             "cdas=cdas.__main__:main",
