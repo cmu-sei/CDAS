@@ -6,7 +6,9 @@ The config file controls whether the data used in the simulator is generated ran
 
 The CDAS configuration file has five sections: Context, Assets, Agents, Simulation, and output variables. 
 
-## Context Configuration
+## Configuration
+
+### Context Configuration
 
 This section defines the configuration for the geopolitical context component of the simulator.
 
@@ -35,16 +37,16 @@ The context section of the configuration file looks like this:
         - country_data - directory containing json files with country data (one file per country); used if the "randomize" variable is false
 - data_choices - seed file for context randomization. Contains options for items such as colors, animals, agriculture, climate, etc.
 
-## Asset Configuration
+### Asset Configuration
 <TODO>
 
-## Agent Configuration
+### Agent Configuration
 <TODO>
 
-## Simulation Configuration
+### Simulation Configuration
 <TODO>
 
-## Output Configuration
+### Output Configuration
 <TODO>
 
 ```
@@ -53,3 +55,7 @@ The context section of the configuration file looks like this:
    "output_type" : "pdf",
    "temp_path" : "temp"
 ```
+
+## License
+
+Copyright 2020 Carnegie Mellon University. See the [LICENSE.md](LICENSE.md) file for details.

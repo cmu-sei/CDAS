@@ -3,6 +3,7 @@ from setuptools import setup
 
 HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
+LICENSE = (HERE / "LICENSE.md").read_text()
 
 # This call to setup() does all the work
 setup(
@@ -11,10 +12,7 @@ setup(
     description="Cybersecurity Decision Analysis Simulator",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="",
-    author="",
-    author_email="",
-    license="",
+    license=LICENSE,
     classifiers=[
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7",

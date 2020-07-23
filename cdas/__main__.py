@@ -1,3 +1,40 @@
+'''
+Cybersecurity Decision Analysis Simulator (CDAS)
+
+Copyright 2020 Carnegie Mellon University.
+
+NO WARRANTY. THIS CARNEGIE MELLON UNIVERSITY AND SOFTWARE ENGINEERING INSTITUTE
+MATERIAL IS FURNISHED ON AN "AS-IS" BASIS. CARNEGIE MELLON UNIVERSITY MAKES NO
+WARRANTIES OF ANY KIND, EITHER EXPRESSED OR IMPLIED, AS TO ANY MATTER INCLUDING,
+BUT NOT LIMITED TO, WARRANTY OF FITNESS FOR PURPOSE OR MERCHANTABILITY, 
+EXCLUSIVITY, OR RESULTS OBTAINED FROM USE OF THE MATERIAL. CARNEGIE MELLON 
+UNIVERSITY DOES NOT MAKE ANY WARRANTY OF ANY KIND WITH RESPECT TO FREEDOM FROM 
+PATENT, TRADEMARK, OR COPYRIGHT INFRINGEMENT.
+
+Released under a MIT (SEI)-style license, please see license.txt or contact 
+permission@sei.cmu.edu for full terms.
+
+[DISTRIBUTION STATEMENT A] This material has been approved for public release 
+and unlimited distribution.  Please see Copyright notice for non-US Government 
+use and distribution.
+
+Carnegie Mellon® and CERT® are registered in the U.S. Patent and Trademark 
+Office by Carnegie Mellon University.
+
+This Software includes and/or makes use of the following Third-Party Software 
+subject to its own license:
+1. python-stix (https://github.com/STIXProject/python-stix/blob/master/LICENSE.txt) 
+    Copyright 2017 Mitre Corporation.
+2. numpy (https://numpy.org/doc/stable/license.html) 
+    Copyright 2005 Numpy Developers.
+3. reportlab (https://bitbucket.org/rptlab/reportlab/src/default/LICENSE.txt) 
+    Copyright 2000-2018 ReportLab Inc.
+4. drawSvg (https://github.com/cduck/drawSvg/blob/master/LICENSE.txt) 
+    Copyright 2017 Casey Duckering.
+
+DM20-0573
+'''
+
 import json
 import numpy as np
 import os
@@ -5,9 +42,10 @@ import shutil
 import sys
 import pkg_resources
 import argparse
-from stix2 import FileSystemStore,FileSystemSource
+from datetime import datetime,timedelta
+from stix2 import FileSystemStore,FileSystemSource,Filter
 # Import custom modules
-from . import context, agents
+from . import context, agents, simulator
 
 
 def arguments():
@@ -63,7 +101,8 @@ def main(args,config):
     # Set up the Output directory
     if os.path.isdir(args.output):
         if os.listdir(args.output):
-            q = f"Overwrite the output folder {os.getcwd() + '/' + args.output}? (y/n) "
+            q = f"Overwrite the output folder {os.getcwd()+'/'+args.output}? \
+                (y/n) "
             overwrite = input(q)
             if overwrite == 'n':
                 sys.exit(f"CDAS exited without completing")
@@ -223,7 +262,7 @@ def main(args,config):
 
     # Load or create actor data
     with open(pkg_resources.resource_filename(__name__,
-            "data/stix_vocab.json")) as json_file:
+            "assets/stix_vocab.json")) as json_file:
         stix_vocab = json.load(json_file)
     json_file.close()
     with open(pkg_resources.resource_filename(__name__,
@@ -236,11 +275,46 @@ def main(args,config):
     f.close()
     actors = 1
     while actors <= config['agents']['random variables']['num_agents']:
-        agents.create_threatactor(
-            stix_vocab,nouns,adjectives,countries,fs_gen)
+        agents.create_threatactor(stix_vocab,nouns,adjectives,countries,fs_gen)
         actors += 1
 
+    # Create organizations
+    print('Creating organizations...')
+    with open(pkg_resources.resource_filename(__name__,
+            config['agents']['org variables']['org names'])) as f:
+        org_names = f.read().splitlines() # organization name possibilities
+    f.close()
+    with open(pkg_resources.resource_filename(__name__,
+            'assets/NIST_assess.json')) as json_file:
+        assessment = json.load(json_file)
+    json_file.close()
+    for c in countries:
+        orgs = 0
+        while orgs < config['agents']['org variables']["orgs per country"]:
+            agents.create_organization(
+                stix_vocab,fs_gen,c.name,org_names,assessment)
+            orgs += 1
+
+    # Run simulation
+    print('Running simulation...')
+    start = datetime.strptime(config["simulation"]['time range'][0], '%Y-%m-%d')
+    end = datetime.strptime(config["simulation"]['time range'][1], '%Y-%m-%d')
+    td = end - start
+    actors = fs_gen.query(Filter("type", "=", "threat-actor"))
+    orgs = fs_gen.query([
+        Filter("type", "=", "identity"),
+        Filter("identity_class","=", "organization")])
+    tools = fs_real.query(Filter('type','=','tool'))
+    malwares = fs_real.query(Filter('type','=','malware'))
+    for r in range(1,int(config["simulation"]['number of rounds'])+1):
+        print(f'Round {r}')
+        simulator.simulate(actors,orgs,tools,malwares,fs_gen,start,
+            td.days/(config["simulation"]['number of rounds']*len(actors)))
+        start += timedelta(days = td.days/config["simulation"]['number of rounds'])
+
+
     # Create output files
+    print('Saving output...')
     # Map
     country_names = {}
     for country in countries:
@@ -254,6 +328,9 @@ def main(args,config):
         country.save(args.output + '/countries/', args.output_type)
 
     agents.save(args.output + '/actors/', args.output_type, fs_gen, fs_real)
+
+    print('Done')
+
 
 if __name__ == "__main__":
     args, config = arguments()

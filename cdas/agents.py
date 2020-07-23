@@ -1,10 +1,47 @@
+'''
+Cybersecurity Decision Analysis Simulator (CDAS)
+
+Copyright 2020 Carnegie Mellon University.
+
+NO WARRANTY. THIS CARNEGIE MELLON UNIVERSITY AND SOFTWARE ENGINEERING INSTITUTE
+MATERIAL IS FURNISHED ON AN "AS-IS" BASIS. CARNEGIE MELLON UNIVERSITY MAKES NO
+WARRANTIES OF ANY KIND, EITHER EXPRESSED OR IMPLIED, AS TO ANY MATTER INCLUDING,
+BUT NOT LIMITED TO, WARRANTY OF FITNESS FOR PURPOSE OR MERCHANTABILITY, 
+EXCLUSIVITY, OR RESULTS OBTAINED FROM USE OF THE MATERIAL. CARNEGIE MELLON 
+UNIVERSITY DOES NOT MAKE ANY WARRANTY OF ANY KIND WITH RESPECT TO FREEDOM FROM 
+PATENT, TRADEMARK, OR COPYRIGHT INFRINGEMENT.
+
+Released under a MIT (SEI)-style license, please see license.txt or contact 
+permission@sei.cmu.edu for full terms.
+
+[DISTRIBUTION STATEMENT A] This material has been approved for public release 
+and unlimited distribution.  Please see Copyright notice for non-US Government 
+use and distribution.
+
+Carnegie Mellon® and CERT® are registered in the U.S. Patent and Trademark 
+Office by Carnegie Mellon University.
+
+This Software includes and/or makes use of the following Third-Party Software 
+subject to its own license:
+1. python-stix (https://github.com/STIXProject/python-stix/blob/master/LICENSE.txt) 
+    Copyright 2017 Mitre Corporation.
+2. numpy (https://numpy.org/doc/stable/license.html) 
+    Copyright 2005 Numpy Developers.
+3. reportlab (https://bitbucket.org/rptlab/reportlab/src/default/LICENSE.txt) 
+    Copyright 2000-2018 ReportLab Inc.
+4. drawSvg (https://github.com/cduck/drawSvg/blob/master/LICENSE.txt) 
+    Copyright 2017 Casey Duckering.
+
+DM20-0573
+'''
+
 import weakref
 import numpy as np
 import json
 from datetime import date
 import reportlab.platypus as platy
 from reportlab.lib.styles import getSampleStyleSheet
-from stix2.v21 import Relationship,ThreatActor
+from stix2.v21 import Relationship,ThreatActor,Identity
 from stix2 import Filter
 
 
@@ -102,8 +139,6 @@ def create_threatactor(stix,nouns,adjectives,countries,fs):
     country = fs.query([Filter("type","=","location"),
             Filter("name","=",attr_countries.pop())])
     fs.add(Relationship(apt,'located-at',country[0]))
-
-
 
 
 def save(directory, filetype, fs, fs_real):
@@ -232,3 +267,54 @@ def save(directory, filetype, fs, fs_real):
     else:
         raise NotImplementedError(
             f"Output file type, {filetype}, not supported")
+
+
+def create_organization(stix,fs,country,org_names,assessment):
+
+    name = np.random.choice(org_names)
+    revenue = int(np.random.chisquare(1) * 10000)
+    while revenue == 0:
+        revenue = int(np.random.chisquare(1) * 10000)
+    sector = np.random.choice(stix['sectors'])
+
+    description = {
+        "Background": {
+            "headquarters": country,
+            "number of employees": "{:,}".format(np.random.randint(500,15000)),
+            "annual revenue": "$"+"{:,}".format(revenue)+" million"
+        },
+        "Network": {
+            "size": np.random.randint(1,100)
+        }
+    }
+
+    score = 0
+    vulns = []
+    dist = np.random.beta(2,2) # overall scoring distribution
+    while dist == 0:
+        dist = np.random.beta(2,2)
+    for cat in assessment:
+        for r in assessment[cat]:
+            pf = np.random.choice(a=['Yes','No'],p=[dist,1-dist])
+            if pf == 'Yes':
+                score += r['Value']
+            else:
+                vulns.append(r['Requirement'])
+    description["Security Posture"] = {
+        "vulnerability": int(score/313 * 100),
+        "vulns": vulns
+    }
+
+    # Add asset to the STIX data store
+    organization = Identity(
+        name = name,
+        identity_class = 'organization',
+        sectors = sector,
+        description = json.dumps(description)
+    )
+    fs.add(organization)
+
+    # Tie organization to country (headquarters)
+    country_id = fs.query([
+        Filter('type','=','location'),Filter("name","=",country)])[0].id
+    fs.add(Relationship(organization,'located-at',country_id))

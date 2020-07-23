@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--1011b00e-330c-4dab-a483-a9bb25fa28f2",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "attack-pattern--fb39384c-00e4-414a-88af-e80c4904e0b8",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "name": "Human performs requested action of physical nature",
+            "description": "**This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.**\n\nThrough social engineering or other methods, an adversary can get users to perform physical actions that provide access to an adversary.  This could include providing a password over the phone or inserting a 'found' CD or USB into a system. (Citation: AnonHBGary) (Citation: CSOInsideOutside)",
+            "external_references": [
+                {
+                    "source_name": "mitre-pre-attack",
+                    "external_id": "T1385",
+                    "url": "https://attack.mitre.org/techniques/T1385"
+                },
+                {
+                    "description": "PETER BRIGHT. (2011, February 15). Anonymous speaks: the inside story of the HBGary hack. Retrieved March 9, 2017.",
+                    "source_name": "AnonHBGary"
+                },
+                {
+                    "description": "Taylor Armerding. (2012, October 25). Line blurs between insider, outsider attacks. Retrieved March 9, 2017.",
+                    "source_name": "CSOInsideOutside"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-pre-attack",
+                    "phase_name": "compromise"
+                }
+            ],
+            "modified": "2020-03-30T14:21:30.878Z",
+            "created": "2017-12-14T16:46:06.044Z",
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_old_attack_id": "PRE-T1162",
+            "x_mitre_version": "1.0",
+            "x_mitre_difficulty_for_adversary_explanation": "Ill-informed users insert devices into their network that they randomly find, despite training educating them why this is not a wise idea.",
+            "x_mitre_difficulty_for_adversary": "Yes",
+            "x_mitre_detectable_by_common_defenses_explanation": "Non-hypersensing environments do not typically collect this level of detailed information.",
+            "x_mitre_deprecated": true,
+            "x_mitre_detectable_by_common_defenses": "No"
+        }
+    ]
+}

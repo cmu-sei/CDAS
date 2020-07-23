@@ -14,6 +14,7 @@ Before installing CDAS you will need the following packages:
 numpy
 reportlab
 drawSVG
+python-stix
 ```
 
 ### Installing
@@ -53,9 +54,8 @@ CDAS is configured via the config.json file in the cdas module folder. Users can
 
 ## License
 
-(TODO) Licensing...
+Copyright 2020 Carnegie Mellon University. See the [LICENSE.md](LICENSE.md) file for details.
 
-## Acknowledgments
+## Acknowledgements
 
-* Structured Threat Information Expression (STIX™) (https://oasis-open.github.io/cti-documentation/stix/intro)
-* Mitre ATT&CK (https://attack.mitre.org/)
+* CIA World Factbook (https://www.cia.gov/library/publications/the-world-factbook/)

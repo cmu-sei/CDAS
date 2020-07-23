@@ -1,3 +1,40 @@
+'''
+Cybersecurity Decision Analysis Simulator (CDAS)
+
+Copyright 2020 Carnegie Mellon University.
+
+NO WARRANTY. THIS CARNEGIE MELLON UNIVERSITY AND SOFTWARE ENGINEERING INSTITUTE
+MATERIAL IS FURNISHED ON AN "AS-IS" BASIS. CARNEGIE MELLON UNIVERSITY MAKES NO
+WARRANTIES OF ANY KIND, EITHER EXPRESSED OR IMPLIED, AS TO ANY MATTER INCLUDING,
+BUT NOT LIMITED TO, WARRANTY OF FITNESS FOR PURPOSE OR MERCHANTABILITY, 
+EXCLUSIVITY, OR RESULTS OBTAINED FROM USE OF THE MATERIAL. CARNEGIE MELLON 
+UNIVERSITY DOES NOT MAKE ANY WARRANTY OF ANY KIND WITH RESPECT TO FREEDOM FROM 
+PATENT, TRADEMARK, OR COPYRIGHT INFRINGEMENT.
+
+Released under a MIT (SEI)-style license, please see license.txt or contact 
+permission@sei.cmu.edu for full terms.
+
+[DISTRIBUTION STATEMENT A] This material has been approved for public release 
+and unlimited distribution.  Please see Copyright notice for non-US Government 
+use and distribution.
+
+Carnegie Mellon® and CERT® are registered in the U.S. Patent and Trademark 
+Office by Carnegie Mellon University.
+
+This Software includes and/or makes use of the following Third-Party Software 
+subject to its own license:
+1. python-stix (https://github.com/STIXProject/python-stix/blob/master/LICENSE.txt) 
+    Copyright 2017 Mitre Corporation.
+2. numpy (https://numpy.org/doc/stable/license.html) 
+    Copyright 2005 Numpy Developers.
+3. reportlab (https://bitbucket.org/rptlab/reportlab/src/default/LICENSE.txt) 
+    Copyright 2000-2018 ReportLab Inc.
+4. drawSvg (https://github.com/cduck/drawSvg/blob/master/LICENSE.txt) 
+    Copyright 2017 Casey Duckering.
+
+DM20-0573
+'''
+
 import drawSvg as draw
 import json
 import numpy as np
@@ -512,7 +549,10 @@ class Country:
     
             self.__instances.add(weakref.ref(self))
 
-            location = Location(name=self.name,country=self.internet_country_code.upper()[1:])
+            location = Location(
+                name=self.name,
+                description="country",
+                country=self.internet_country_code.upper()[1:])
             fs.add(location)
 
     @classmethod
@@ -765,7 +805,8 @@ def markov_name(nationality=False):
         the ending (default is False)
     """
 
-    with open(pkg_resources.resource_filename(__name__, 'data/markov_probabilities.json'), 'r') as f:
+    with open(pkg_resources.resource_filename(__name__,
+            'assets/markov_probabilities.json'), 'r') as f:
         probs = json.load(f)
     f.close()
 

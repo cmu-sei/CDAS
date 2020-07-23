@@ -1,10 +1,14 @@
 {
     "agents": {
-        "randomize":true,
+        "randomize threat actors":true,
         "random variables": {
             "adjectives":"data/personality_traits.txt",
             "nouns":"data/disney_names.txt",
             "num_agents":5
+        },
+        "org variables": {
+            "orgs per country":1,
+            "org names":"data/organization_names.txt"
         }
     },
     "context": {
@@ -18,10 +22,17 @@
            }
        },
        "data_choices":"data/geopol_data.json"
-   },
-   "output_path": "output",
-   "output_type_opts":["json","pdf"],
-   "output_type": "pdf",
-   "temp_path": "temp",
-   "stix_path": "data/stix_data/"
+    },
+    "assets": {
+        
+    },
+    "simulation": {
+        "number of rounds" : 5,
+        "time range": ["2017-08-01","2020-08-01"]
+    },
+    "output_path": "output",
+    "output_type_opts":["json","pdf"],
+    "output_type": "pdf",
+    "temp_path": "temp",
+    "stix_path": "assets/mitre_cti/"
 }

@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--ae3c3baf-3a29-489e-a3a5-c1d65d7e47b6",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "attack-pattern--3b4121aa-fc8b-40c8-ac4f-afcb5838b72c",
+            "name": "Revert Cloud Instance",
+            "external_references": [
+                {
+                    "external_id": "T1536",
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1536"
+                },
+                {
+                    "source_name": "Tech Republic - Restore AWS Snapshots",
+                    "url": "https://www.techrepublic.com/blog/the-enterprise-cloud/backing-up-and-restoring-snapshots-on-amazon-ec2-machines/",
+                    "description": "Hardiman, N.. (2012, March 20). Backing up and restoring snapshots on Amazon EC2 machines. Retrieved October 8, 2019."
+                },
+                {
+                    "source_name": "Google - Restore Cloud Snapshot",
+                    "url": "https://cloud.google.com/compute/docs/disks/restore-and-delete-snapshots",
+                    "description": "Google. (2019, October 7). Restoring and deleting persistent disk snapshots. Retrieved October 8, 2019."
+                }
+            ],
+            "revoked": true,
+            "type": "attack-pattern",
+            "modified": "2020-06-16T18:44:16.145Z",
+            "created": "2019-09-04T14:37:07.959Z"
+        }
+    ]
+}

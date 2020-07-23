@@ -1,0 +1,585 @@
+{
+    "Access Control" : [
+        {
+            "Requirement": "3.1.1",
+            "Description": "Limit system access to authorized users, processes acting on behalf of authorized users, and devices (including other systems).",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.1.2",
+            "Description": "Limit system access to the types of transactions and functions that authorized users are permitted to execute.",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.1.3",
+            "Description": "Control the flow of CUI in accordance with approved authorizations.",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.1.4",
+            "Description": "Separate the duties of individuals to reduce the risk of malevolent activity without collusion.",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.1.5",
+            "Description": "Employ the principle of least privilege, including for specific security functions and privileged accounts.",
+            "Value": 3
+        },
+        {
+            "Requirement": "3.1.6",
+            "Description": "Use non-privileged accounts or roles when accessing nonsecurity functions.",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.1.7",
+            "Description": "Prevent non-privileged users from executing privileged functions and capture the execution of such functions in audit logs.",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.1.8",
+            "Description": "Limit unsuccessful logon attempts.",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.1.9",
+            "Description": "Provide privacy and security notices consistent with applicable CUI rules.",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.1.10",
+            "Description": "Use session lock with pattern-hiding displays to prevent access and viewing of data after a period of inactivity.",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.1.11",
+            "Description": "Terminate (automatically) a user session after a defined condition.",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.1.12",
+            "Description": "Monitor and control remote access sessions.",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.1.13",
+            "Description": "Employ cryptographic mechanisms to protect the confidentiality of remote access sessions.",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.1.14",
+            "Description": "Route remote access via managed access control points.",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.1.15",
+            "Description": "Authorize remote execution of privileged commands and remote access to security- relevant information.",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.1.16",
+            "Description": "Authorize wireless access prior to allowing such connections.",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.1.17",
+            "Description": "Protect wireless access using authentication and encryption.",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.1.18",
+            "Description": "Control connection of mobile devices.",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.1.19",
+            "Description": "Encrypt CUI on mobile devices and mobile computing platforms.",
+            "Value": 3
+        },
+        {
+            "Requirement": "3.1.20",
+            "Description": "Verify and control/limit connections to and use of external systems.",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.1.21",
+            "Description": "Limit use of portable storage devices on external systems.",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.1.22",
+            "Description": "Control CUI posted or processed on publicly accessible systems.",
+            "Value": 1
+        }
+    ],
+    "Awareness and Training" : [
+        {
+            "Requirement": "3.2.1",
+            "Description": "Ensure that managers, systems administrators, and users of organizational systems are made aware of the security risks associated with their activities and of the applicable policies, standards, and procedures related to the security of those systems.",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.2.2",
+            "Description": "Ensure that personnel are trained to carry out their assigned information security- related duties and responsibilities.",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.2.3",
+            "Description": "Provide security awareness training on recognizing and reporting potential indicators of insider threat.",
+            "Value": 1
+        }
+    ],
+    "Audit and Accountability" : [
+        {
+            "Requirement": "3.3.1",
+            "Description": "Create and retain system audit logs and records to the extent needed to enable the monitoring, analysis, investigation, and reporting of unlawful or unauthorized system activity.",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.3.2",
+            "Description": "Ensure that the actions of individual system users can be uniquely traced to those users so they can be held accountable for their actions.",
+            "Value": 3
+        },
+        {
+            "Requirement": "3.3.3",
+            "Description": "Review and update logged events.",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.3.4",
+            "Description": "Alert in the event of an audit logging process failure.",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.3.5",
+            "Description": "Correlate audit record review, analysis, and reporting processes for investigation and response to indications of unlawful, unauthorized, suspicious, or unusual activity.",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.3.6",
+            "Description": "Provide audit record reduction and report generation to support on-demand analysis and reporting.",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.3.7",
+            "Description": "Provide a system capability that compares and synchronizes internal system clocks with an authoritative source to generate time stamps for audit records.",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.3.8",
+            "Description": "Protect audit information and audit logging tools from unauthorized access, modification, and deletion.",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.3.9",
+            "Description": "Limit management of audit logging functionality to a subset of privileged users.",
+            "Value": 1
+        }
+    ],
+    "Configuration Management": [
+        {
+            "Requirement": "3.4.1",
+            "Description": "Establish and maintain baseline configurations and inventories of organizational systems (including hardware, software, firmware, and documentation) throughout the respective system development life cycles.",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.4.2",
+            "Description": "Establish and enforce security configuration settings for information technology products employed in organizational systems.",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.4.3",
+            "Description": "Track, review, approve or disapprove, and log changes to organizational systems.",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.4.4",
+            "Description": "Analyze the security impact of changes prior to implementation.",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.4.5",
+            "Description": "Define, document, approve, and enforce physical and logical access restrictions associated with changes to organizational systems.",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.4.6",
+            "Description": "Employ the principle of least functionality by configuring organizational systems to provide only essential capabilities.",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.4.7",
+            "Description": "Restrict, disable, or prevent the use of nonessential programs, functions, ports, protocols, and services.",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.4.8",
+            "Description": "Apply deny-by-exception (blacklisting) policy to prevent the use of unauthorized software or deny-all, permit-by-exception (whitelisting) policy to allow the execution of authorized software.",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.4.9",
+            "Description": "Control and monitor user-installed software.",
+            "Value": 1
+        }
+    ],
+    "Identification and Authentication" : [
+        {
+            "Requirement": "3.5.1",
+            "Description": "Identify system users, processes acting on behalf of users, and devices.",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.5.2",
+            "Description": "Authenticate (or verify) the identities of users, processes, or devices, as a prerequisite to allowing access to organizational systems.",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.5.3",
+            "Description": "Use multifactor authentication (MFA) for local and network access to privileged accounts and for network access to non- privileged accounts.",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.5.4",
+            "Description": "Employ replay-resistant authentication mechanisms for network access to privileged and non-privileged accounts.",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.5.5",
+            "Description": "Prevent reuse of identifiers for a defined period.",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.5.6",
+            "Description": "Disable identifiers after a defined period of inactivity.",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.5.7",
+            "Description": "Enforce a minimum password complexity and change of characters when new passwords are created.",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.5.8",
+            "Description": "Prohibit password reuse for a specified number of generations.",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.5.9",
+            "Description": "Allow temporary password use for system logons with an immediate change to a permanent password.",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.5.10",
+            "Description": "Store and transmit only cryptographically-protected passwords.",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.5.11",
+            "Description": "Obscure feedback of authentication information.",
+            "Value": 1
+        }
+    ],
+    "Incident Response" : [
+        {
+            "Requirement": "3.6.1",
+            "Description": "Establish an operational incident-handling capability for organizational systems that includes preparation, detection, analysis, containment, recovery, and user response activities.",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.6.2",
+            "Description": "Track, document, and report incidents to designated officials and/or authorities both internal and external to the organization.",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.6.3",
+            "Description": "Test the organizational incident response capability.",
+            "Value": 1
+        }
+    ],
+    "Maintenance" : [
+        {
+            "Requirement": "3.7.1",
+            "Description": "Perform maintenance on organizational systems.",
+            "Value": 3
+        },
+        {
+            "Requirement": "3.7.2",
+            "Description": "Provide controls on the tools, techniques, mechanisms, and personnel used to conduct system maintenance.",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.7.3",
+            "Description": "Ensure equipment removed for off-site maintenance is sanitized of any CUI.",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.7.4",
+            "Description": "Check media containing diagnostic and test programs for malicious code before the media are used in organizational systems.",
+            "Value": 3
+        },
+        {
+            "Requirement": "3.7.5",
+            "Description": "Require multifactor authentication to establish nonlocal maintenance sessions via external network connections and terminate such connections when nonlocal maintenance is complete.",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.7.6",
+            "Description": "Supervise the maintenance activities of maintenance personnel without required access authorization.",
+            "Value": 1
+        }
+    ],
+    "Media Protection" : [
+        {
+            "Requirement": "3.8.1",
+            "Description": "",
+            "Value": 3
+        },
+        {
+            "Requirement": "3.8.2",
+            "Description": "",
+            "Value": 3
+        },
+        {
+            "Requirement": "3.8.3",
+            "Description": "",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.8.4",
+            "Description": "",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.8.5",
+            "Description": "",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.8.6",
+            "Description": "",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.8.7",
+            "Description": "",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.8.8",
+            "Description": "",
+            "Value": 3
+        },
+        {
+            "Requirement": "3.8.9",
+            "Description": "",
+            "Value": 1
+        }
+    ],
+    "Personal Security" : [
+        {
+            "Requirement": "3.9.1",
+            "Description": "",
+            "Value": 3
+        },
+        {
+            "Requirement": "3.9.2",
+            "Description": "",
+            "Value": 5
+        }
+    ],
+    "Physical Protection" : [
+        {
+            "Requirement": "3.10.1",
+            "Description": "",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.10.2",
+            "Description": "",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.10.3",
+            "Description": "",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.10.4",
+            "Description": "",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.10.5",
+            "Description": "",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.10.6",
+            "Description": "",
+            "Value": 1
+        }
+    ], 
+    "Risk Assessment" : [
+        {
+            "Requirement": "3.11.1",
+            "Description": "",
+            "Value": 3
+        },
+        {
+            "Requirement": "3.11.2",
+            "Description": "",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.11.3",
+            "Description": "",
+            "Value": 1
+        }
+    ],
+    "Security Assessment" : [
+        {
+            "Requirement": "3.12.1",
+            "Description": "",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.12.2",
+            "Description": "",
+            "Value": 3
+        },
+        {
+            "Requirement": "3.12.3",
+            "Description": "",
+            "Value": 5
+        }
+    ],
+    "Systems and Communications Protection" : [
+        {
+            "Requirement": "3.13.1",
+            "Description": "",
+            "Value": 5,
+            "Fail message": ""
+        },
+        {
+            "Requirement": "3.13.2",
+            "Description": "",
+            "Value": 5,
+            "Fail message": "Network architecture design does not support the security policies of the organization"
+        },
+        {
+            "Requirement": "3.13.3",
+            "Description": "",
+            "Value": 1,
+            "Fail message": ""
+        },
+        {
+            "Requirement": "3.13.4",
+            "Description": "",
+            "Value": 1,
+            "Fail message": ""
+        },
+        {
+            "Requirement": "3.13.5",
+            "Description": "",
+            "Value": 5,
+            "Fail message": ""
+        },
+        {
+            "Requirement": "3.13.6",
+            "Description": "",
+            "Value": 5,
+            "Fail message": ""
+        },
+        {
+            "Requirement": "3.13.7",
+            "Description": "",
+            "Value": 1,
+            "Fail message": ""
+        },
+        {
+            "Requirement": "3.13.8",
+            "Description": "",
+            "Value": 3
+        },
+        {
+            "Requirement": "3.13.9",
+            "Description": "",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.13.10",
+            "Description": "",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.13.11",
+            "Description": "",
+            "Value": 5,
+            "Fail message": ""
+        },
+        {
+            "Requirement": "3.13.12",
+            "Description": "",
+            "Value": 1,
+            "Fail message": ""
+        },
+        {
+            "Requirement": "3.13.13",
+            "Description": "",
+            "Value": 1,
+            "Fail message": ""
+        },
+        {
+            "Requirement": "3.13.14",
+            "Description": "",
+            "Value": 1
+        },
+        {
+            "Requirement": "3.13.15",
+            "Description": "",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.13.16",
+            "Description": "",
+            "Value": 1
+        }
+    ],
+    "System and Information Integrity" : [
+        {
+            "Requirement": "3.14.1",
+            "Description": "",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.14.2",
+            "Description": "",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.14.3",
+            "Description": "",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.14.4",
+            "Description": "",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.14.5",
+            "Description": "",
+            "Value": 3
+        },
+        {
+            "Requirement": "3.14.6",
+            "Description": "",
+            "Value": 5
+        },
+        {
+            "Requirement": "3.14.7",
+            "Description": "",
+            "Value": 3
+        }
+    ]
+}
