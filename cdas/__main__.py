@@ -120,6 +120,7 @@ def main(args,config):
                 overwrite = input(q)
         os.mkdir(args.output + '/countries/')
         os.mkdir(args.output + '/actors/')
+        os.mkdir(args.output + '/reports/')
     else:
         q = f"Output path {os.getcwd() + '/' + args.output} does not exist.\n\
             Create this directory? (y/n) "
@@ -128,6 +129,7 @@ def main(args,config):
             os.mkdir(args.output)
             os.mkdir(args.output + '/countries/')
             os.mkdir(args.output + '/actors/')
+            os.mkdir(args.output + '/reports/')
         elif answer == "n":
             sys.exit(f"CDAS exited without completing")
         else:
@@ -328,6 +330,10 @@ def main(args,config):
         country.save(args.output + '/countries/', args.output_type)
 
     agents.save(args.output + '/actors/', args.output_type, fs_gen, fs_real)
+
+    events = fs_gen.query(Filter("type", "=", "sighting"))
+    for e in events:
+        simulator.save(e, fs_gen, fs_real, args.output + '/reports/')
 
     print('Done')
 

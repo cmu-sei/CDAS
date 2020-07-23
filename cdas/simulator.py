@@ -39,6 +39,8 @@ import json
 import numpy as np
 import string
 from datetime import datetime, timedelta
+import reportlab.platypus as platy
+from reportlab.lib.styles import getSampleStyleSheet
 from stix2 import FileSystemStore, FileSystemSource, Filter
 from stix2.v21 import Sighting, Relationship
 
@@ -89,31 +91,56 @@ def simulate(actors,orgs,tools,malwares,fs,start_date,td):
                 fs.add(Relationship(agent,'uses',malware))
         target_description = json.loads(target.description)
         if success == True:
-            description = f'On {str(start_date)[:10]}, an attacker \
-                successfully attacked COMPANY located in {target_description["Background"]["headquarters"]} to \
-                {np.random.choice(agent.goals)}. The tool, {tool.name}, was \
-                used during the course of the attack, and one \
-            of the indicators discovered was the {indicator_type}, \
-            {random_indicator(indicator_type)}.'
+            description = (
+                f'On {str(start_date)[:10]}, an attacker successfully attacked'
+                f' COMPANY located in the country of '
+                f'{target_description["Background"]["headquarters"]} to '
+                f'{np.random.choice(agent.goals)}. The tool, {tool.name}, was '
+                f'used during the course of the attack, and one of the '
+                f'indicators discovered was the {indicator_type}, '
+                f'{random_indicator(indicator_type)}.')
         else:
-            description = f'On {str(start_date)[:10]}, an attack was \
-                attempted against COMPANY located in {target_description["Background"]["headquarters"]}. The \
-                attacker used the tool, {tool.name}, during its attack. It is believed\
-                    the attack was an unsuccessful attempt to \
-                {np.random.choice(agent.goals)}, and one of the indicators \
-                discovered was the {indicator_type}, \
-                {random_indicator(indicator_type)}.'
+            description = (
+                f'On {str(start_date)[:10]}, an attack was attempted against '
+                f'COMPANY located in the country of '
+                f'{target_description["Background"]["headquarters"]}. The '
+                f'attacker used the tool, {tool.name}, during its attack. It '
+                f'is believed the attack was an unsuccessful attempt to '
+                f'{np.random.choice(agent.goals)}, and one of the indicators '
+                f'discovered was the {indicator_type}, '
+                f'{random_indicator(indicator_type)}.')
         if used_malware == 'yes':
-            description += f" The attacker also attempted to use the \
-                malware {malware.name}."
+            description += (
+                f' The attacker also attempted to use the malware '
+                f'{malware.name}.')
         sighting_of_ref = agent.id
 
-        print(description)
+        fs.add(Sighting(
+            description = description,
+            first_seen = start_date,
+            sighting_of_ref = sighting_of_ref))
+        start_date += timedelta(td)
 
-    fs.add(Sighting(
-        description = description,
-        first_seen = start_date,
-        sighting_of_ref = sighting_of_ref))
-    start_date += timedelta(td)
+# @TODO add "defense" option back in as closure of vulnerabilities
 
-    # @TODO add "defense" option back in as closure of vulnerabilities
+def save(e,agent_store,vuln_store,filename):
+    
+    ss = getSampleStyleSheet()
+    flowables = []
+    r_num = str(e.first_seen).replace('-','').replace(' ','_').replace(':','')
+    flowables.append(platy.Paragraph(f"Report #{r_num[:15]}", ss['Heading1']))
+    flowables.append(platy.Paragraph("Date:",ss['Italic']))
+    flowables.append(platy.Paragraph(str(e.first_seen)[:19],ss['BodyText']))
+    flowables.append(platy.Paragraph("Description:",ss['Italic']))
+    flowables.append(platy.Paragraph(e.description,ss['BodyText']))
+    if 'vulnerability' in e.sighting_of_ref:
+        p = "References:"
+        vuln = vuln_store.query(Filter("id", "=", e.sighting_of_ref))[0]
+        p2 = vuln.name + ": " + vuln.description
+    else: 
+        p = "Possible attribution:"
+        p2 = agent_store.query(Filter("id", "=", e.sighting_of_ref))[0].name
+    flowables.append(platy.Paragraph(p,ss['Italic']))
+    flowables.append(platy.Paragraph(p2,ss['BodyText']))
+    pdf = platy.SimpleDocTemplate(filename+r_num[:15]+'.pdf')
+    pdf.build(flowables)

@@ -183,7 +183,7 @@ def save(directory, filetype, fs, fs_real):
                 elif "location" in r.target_ref:
                     countries = fs.query([Filter("type","=","location"),
                         Filter("id","=",r.target_ref)])
-
+            
             flowables.append(platy.Paragraph(iset.name, ss['Heading1']))
             p = f'{iset.name} is a {iset.resource_level} backed \
                 {iset.threat_actor_types[0]} group also known as \
@@ -210,9 +210,11 @@ def save(directory, filetype, fs, fs_real):
                     [Filter("type","=","tool"),Filter("id","=",t)])[0].name 
                     for t in tools][:10]
             bullets = []
+            print(t_s)
             for tool in sorted(t_s, key=str.casefold):
                 p = platy.Paragraph(tool, ss['Normal'])
                 bullets.append(platy.ListItem(p,leftIndent=35))
+            print(bullets)
             flowables.append(platy.ListFlowable(bullets, bulletType='bullet'))
             
             flowables.append(platy.Paragraph('Malware', ss['Heading2']))
