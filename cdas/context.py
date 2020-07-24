@@ -32,6 +32,9 @@ subject to its own license:
     Copyright 2000-2018 ReportLab Inc.
 4. drawSvg (https://github.com/cduck/drawSvg/blob/master/LICENSE.txt)
     Copyright 2017 Casey Duckering.
+5. Cyber Threat Intelligence Repository (Mitre/CTI)
+    (https://github.com/mitre/cti/blob/master/LICENSE.txt)
+    Copyright 2017 Mitre Corporation.
 
 DM20-0573
 '''
