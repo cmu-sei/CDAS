@@ -124,6 +124,7 @@
     "mobile_subscriptions": "229,431,008",
     "internet_country_code": ".ru; note - Russia also has responsibility for a legacy domain \".su\" that was allocated to the Soviet Union and is being phased out",
     "military_and_security_forces": "Armed Forces of the Russian Federation: Ground Troops (Sukhoputnyye Voyskia, SV), Navy (Voyenno-Morskoy Flot, VMF), Aerospace Forces (Vozdushno-Kosmicheskiye Sily, VKS); Airborne Troops (Vozdushno-Desantnyye Voyska, VDV), and Missile Troops of Strategic Purpose (Raketnyye Voyska Strategicheskogo Naznacheniya, RVSN) referred to commonly as Strategic Rocket Forces, are independent \"combat arms,\" not subordinate to any of the three branchesFederal National Guard Troops Service of the Russian Federation (National Guard, Russian Guard, or Rosgvardiya): created in 2016 as an independent agency for internal/regime security, combating terrorism and narcotics trafficking, protecting important state facilities and government personnel, and supporting border security; forces include Interior Troops that formerly belong to the Interior Ministry, special police units, rapid response units, and other air, ground, maritime, and police forcesFederal Security Service (FSB) Border Guard Service: Coast Guard",
+    "percent_GDP_on_military": "3.9%",
     "pipelines": [
         "177700 km gas",
         "54800 km oil",

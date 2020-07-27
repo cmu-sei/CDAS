@@ -113,6 +113,7 @@
     "mobile_subscriptions": "70,422,000",
     "internet_country_code": ".fr",
     "military_and_security_forces": "Army (Armee de Terre; includes Foreign Legion), Navy (Marine Nationale), Air Force (Armee de l'Air (AdlA); includes Air Defense), National Guard (Reserves), National Gendarmerie (paramilitary police force that is a branch of the Armed Forces but under the jurisdiction of the Ministry of the Interior; also has additional duties to the Ministry of Defense)",
+    "percent_GDP_on_military": "1.8%",
     "pipelines": [
         "15322 km gas",
         "2939 km oil",

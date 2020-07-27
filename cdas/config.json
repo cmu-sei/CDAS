@@ -13,7 +13,7 @@
     },
     "context": {
        "countries": {
-           "randomize": true,
+           "randomize": false,
            "random_vars": {
                "num_countries": 10
            },

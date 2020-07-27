@@ -106,6 +106,7 @@
     "mobile_subscriptions": "80,117,999",
     "internet_country_code": ".tr",
     "military_and_security_forces": "Turkish Armed Forces (TSK): Turkish Land Forces (Turk Kara Kuvvetleri), Turkish Naval Forces (Turk Deniz Kuvvetleri; includes naval air and naval infantry), Turkish Air Forces (Turk Hava Kuvvetleri); Ministry of Interior: Gendarmerie of the Turkish Republic, Turkish Coast Guard Command",
+    "percent_GDP_on_military": "1.9%",
     "pipelines": [
         "14666 km gas",
         "3293 km oil"

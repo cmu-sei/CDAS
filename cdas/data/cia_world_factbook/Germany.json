@@ -119,6 +119,7 @@
     "mobile_subscriptions": "107,500,000",
     "internet_country_code": ".de",
     "military_and_security_forces": "Federal Armed Forces (Bundeswehr): Army (Heer), Navy (Deutsche Marine, includes naval air arm), Air Force (Luftwaffe, includes air defense), Joint Support Service (Streitkraeftebasis, SKB), Central Medical Service (Zentraler Sanitaetsdienst, ZSanDstBw), Cyber and Information Space Command (Kommando Cyber- und Informationsraum, Kdo CIR)",
+    "percent_GDP_on_military": "1.4%",
     "pipelines": [
         "37 km condensate",
         "26985 km gas",

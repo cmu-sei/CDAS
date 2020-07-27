@@ -179,7 +179,7 @@ def save(directory, filetype, fs, fs_real):
         for actor in agents:
             filename = directory + actor.name.replace(' ', '') + ".json"
             with open(filename, 'w') as f:
-                json.dump(actor, f)
+                json.dump(actor.__dict__, f)
             f.close()
     elif filetype == 'pdf':
         ss = getSampleStyleSheet()  # Set up the PDF template

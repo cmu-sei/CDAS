@@ -113,6 +113,7 @@
     "mobile_subscriptions": "120,173,510",
     "internet_country_code": ".mx",
     "military_and_security_forces": "Secretariat of National Defense (Secretaria de Defensa Nacional, Sedena): Army (Ejercito), Mexican Air Force (Fuerza Aerea Mexicana, FAM); Secretariat of the Navy (Secretaria de Marina, Semar): Mexican Navy (Armada de Mexico (ARM), includes Naval Air Force (FAN), Mexican Naval Infantry Corps (Cuerpo de Infanteria de Marina, Mexmar or CIM)); Ministry of Security and Citizen Protection: Federal Police (includes Gendarmerie), National Guard",
+    "percent_GDP_on_military": "0.5%",
     "pipelines": [
         "15986 km natural gas ",
         "10365 km oil ",

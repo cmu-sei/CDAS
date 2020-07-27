@@ -122,6 +122,7 @@
     "mobile_subscriptions": "319,434,605",
     "internet_country_code": ".id",
     "military_and_security_forces": "Indonesian National Armed Forces (Tentara Nasional Indonesia, TNI): Army (TNI-Angkatan Darat (TNI-AD)), Navy (TNI-Angkatan Laut (TNI-AL), includes marines (Korps Marinir, KorMar), naval air arm), Air Force (TNI-Angkatan Udara (TNI-AU)), National Air Defense Command (Komando Pertahanan Udara Nasional (Kohanudnas)), Armed Forces Special Operations Command (Koopssus), Strategic Reserve Command (Kostrad)",
+    "percent_GDP_on_military": "0.7%",
     "pipelines": [
         "1064 km condensate",
         "150 km condensate/gas",

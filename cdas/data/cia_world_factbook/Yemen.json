@@ -83,6 +83,7 @@
     "mobile_subscriptions": "15,297,789",
     "internet_country_code": ".ye",
     "military_and_security_forces": "Land Forces (includes seven Military Regional Commands, supported by Strategic Reserve Units), Naval and Coastal Defense Forces (includes Navy Infantry or Marine units and Coast Guard), Air and Air Defense Force (although it still exists in name, in practice many of the officers and soldiers in this branch have been distributed to other military branches and jobs), Border Guards, Strategic Reserve Forces (supports the Land Forces at the discretion of the Armed Forces Commander-in-Chief and also includes a Missile Group, Presidential Protection Brigades, and Special Operations Forces), Minister of Defense Intelligence Authority (consists of the Department of Military Intelligence [active], Department of Reconnaissance [active], Department of Military Security [inactive], and the Electronic Warfare Department [inactive])",
+    "percent_GDP_on_military": "4%",
     "pipelines": [
         "641 km gas",
         "22 km liquid petroleum gas",

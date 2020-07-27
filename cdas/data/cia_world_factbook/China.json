@@ -171,6 +171,7 @@
     "mobile_subscriptions": "1,649,301,700",
     "internet_country_code": ".cn",
     "military_and_security_forces": "People's Liberation Army (PLA): Ground Forces, Navy (PLAN, includes marines and naval aviation), Air Force (PLAAF, includes airborne forces), Rocket Force (strategic missile force), and Strategic Support Force (space and cyber forces); People's Armed Police (PAP, includes Coast Guard, Border Defense Force, Internal Security Forces); PLA Reserve Force",
+    "percent_GDP_on_military": "1.9%",
     "pipelines": [
         "76000 km gas",
         "30400 km crude oil",

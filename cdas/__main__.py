@@ -264,7 +264,7 @@ def main(args, config):
             with open(args.country_data + fn, 'r') as f:
                 country_data = json.load(f)
             f.close()
-            countries.append(context.Country(**country_data))
+            countries.append(context.Country(fs_gen, **country_data))
 
     # Load or create actor data
     with open(pkg_resources.resource_filename(

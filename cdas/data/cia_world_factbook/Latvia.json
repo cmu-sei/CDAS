@@ -93,6 +93,7 @@
     "mobile_subscriptions": "2,070,180",
     "internet_country_code": ".lv",
     "military_and_security_forces": "National Armed Forces (Nacionalie Brunotie Speki): Land Forces (Latvijas Sauszemes Speki), Naval Force (Latvijas Juras Speki, includes Coast Guard (Latvijas Kara Flote)), Air Force (Latvijas Gaisa Speki), National Guard",
+    "percent_GDP_on_military": "2%",
     "pipelines": [
         "1,213 km gas",
         "417 km refined products"
