@@ -1,14 +1,14 @@
 {
     "agents": {
-        "randomize threat actors":true,
+        "randomize threat actors": true,
         "random variables": {
-            "adjectives":"data/personality_traits.txt",
-            "nouns":"data/disney_names.txt",
-            "num_agents":5
+            "adjectives": "data/personality_traits.txt",
+            "nouns": "data/disney_names.txt",
+            "num_agents": 5
         },
         "org variables": {
-            "orgs per country":1,
-            "org names":"data/organization_names.txt"
+            "orgs per country": 1,
+            "org names": "data/organization_names.txt"
         }
     },
     "context": {
@@ -18,20 +18,27 @@
                "num_countries": 10
            },
            "non_random_vars": {
-                "country_data":"data/cia_world_factbook/"
+                "country_data": "data/cia_world_factbook/"
            }
        },
-       "data_choices":"data/geopol_data.json"
+       "data_choices": "data/geopol_data.json"
     },
     "assets": {
         
     },
     "simulation": {
         "number of rounds" : 5,
-        "time range": ["2017-08-01","2020-08-01"]
+        "time range": [
+            "2017-08-01",
+            "2020-08-01"
+        ]
     },
     "output_path": "output",
-    "output_type_opts":["json","pdf","stix"],
+    "output_type_opts": [
+        "json",
+        "pdf",
+        "stix"
+    ],
     "output_type": "pdf",
     "temp_path": "temp"
 }

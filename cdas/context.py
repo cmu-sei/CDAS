@@ -366,9 +366,13 @@ class Country:
                         if len(neighbors) > 0:
                             self.ethnic_groups[str(np.random.choice(
                                 neighbors))] = percent
-                        else:
+                        elif len(not_neighbors) > 0:
                             self.ethnic_groups[str(np.random.choice(
                                 not_neighbors))] = percent
+                        else:
+                            self.ethnic_groups[
+                                markov_name(nationality=True) +
+                                " (indigenous)"] = percent
                     elif g == 1:
                         # ethnic group from a non-neighboring country
                         self.ethnic_groups[str(np.random.choice(
