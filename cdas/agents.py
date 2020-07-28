@@ -63,9 +63,14 @@ def create_threatactor(stix, nouns, adjectives, countries, fs):
     agent_name = adj + " " + noun
 
     # target sectors
-    desc = list(np.random.choice(
+    sectors = list(np.random.choice(
         stix['sectors'], np.random.randint(2, 4), False))
-
+    if len(sectors) == 2:
+        sector_desc = 'and '.join(sectors)
+    else:
+        sector_desc = ', '.join(sectors[:-1]) + ', and ' + sectors[-1]
+    desc = f'{agent_name} typically targets the {sector_desc} sectors'
+    
     aliases = [f"APT {1000+(len(actors))}"]
     aliases_taken = []
     for ta in actors:

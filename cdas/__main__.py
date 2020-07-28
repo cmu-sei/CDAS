@@ -70,7 +70,7 @@ def arguments():
     parser.add_argument(
         "--country-data",
         help="directory with json files of country information")
-    parser.add_argument("--overwrite-ouput", action='store_true')
+    parser.add_argument("--overwrite-output", action='store_true')
     parser.add_argument("--overwrite-temp", action='store_true')
 
     args = parser.parse_args()
@@ -119,7 +119,10 @@ def main(args, config):
     else:
         q = f"Output path {os.getcwd() + '/' + args.output} does not exist.\n\
             Create this directory? (y/n) "
-    answer = input(q)
+    if not args.overwrite_output:
+        answer = input(q)
+    else:
+        answer = 'y'
     if answer == 'n':
         sys.exit(f"CDAS exited without completing")
     elif answer == 'y':
