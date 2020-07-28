@@ -33,12 +33,12 @@
             "2020-08-01"
         ]
     },
-    "output_path": "output",
+    "output_path": "cdas-output",
     "output_type_opts": [
         "json",
         "pdf",
         "stix"
     ],
     "output_types": ["pdf"],
-    "temp_path": "temp"
+    "temp_path": "cdas-temp"
 }

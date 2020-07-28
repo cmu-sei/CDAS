@@ -86,7 +86,7 @@ def arguments():
     if not args.output:
         args.output = config['output_path']
     if not args.output_types:
-        args.output_types = config['output_type']
+        args.output_types = config['output_types']
     else:
         args.output_types = args.output_types.split(',')
     if not args.randomize_geopol:

@@ -2,8 +2,8 @@ import pathlib
 from setuptools import setup
 
 HERE = pathlib.Path(__file__).parent
-README = (HERE / "README.md").read_text()
-LICENSE = (HERE / "LICENSE.md").read_text()
+README = (HERE / "README.md").read_text(encoding="utf8")
+LICENSE = (HERE / "LICENSE.md").read_text(encoding="utf8")
 
 setup(
     name="cdas",
@@ -19,9 +19,14 @@ setup(
     packages=["cdas"],
     include_package_data=True,
     package_data = {
-        'cdas': ['config.json','data/*']
+        'cdas': [
+            'config.json',
+            'data/*',
+            'data/cia_world_factbook/*',
+            'assets/*',
+            'assets/mitre_cti/*']
     },
-    install_requires=["numpy","reportlab","drawSVG","stix"],
+    install_requires=["numpy","reportlab","drawSVG","stix2"],
     entry_points={
         "console_scripts": [
             "cdas=cdas.__main__:main",

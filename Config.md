@@ -4,6 +4,12 @@ The main configuration file for cdas, ```config.json```, is located in the main 
 
 The config file controls whether the data used in the simulator is generated randomly or pulled from a file. It specifies which files to use for data sets and randomization seeding. 
 
+Many of the variables in the configuration file can be changed with command line flags. See the help menu for information on available flags.
+
+```
+$ python -m cdas -h
+```
+
 The CDAS configuration file has five sections: Context, Assets, Agents, Simulation, and output variables. 
 
 ## Configuration
