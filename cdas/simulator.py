@@ -132,25 +132,38 @@ def simulate(actors, orgs, tools, malwares, fs, start_date, td):
 # @TODO add "defense" option back in as closure of vulnerabilities
 
 
-def save(e, agent_store, vuln_store, filename):
-
-    ss = getSampleStyleSheet()
-    flowables = []
+def save(e, agent_store, vuln_store, filename, output_type):
     r_num = str(
         e.first_seen).replace('-', '').replace(' ', '_').replace(':', '')
-    flowables.append(platy.Paragraph(f"Report #{r_num[:15]}", ss['Heading1']))
-    flowables.append(platy.Paragraph("Date:", ss['Italic']))
-    flowables.append(platy.Paragraph(str(e.first_seen)[:19], ss['BodyText']))
-    flowables.append(platy.Paragraph("Description:", ss['Italic']))
-    flowables.append(platy.Paragraph(e.description, ss['BodyText']))
     if 'vulnerability' in e.sighting_of_ref:
-        p = "References:"
+        p = "References"
         vuln = vuln_store.query(Filter("id", "=", e.sighting_of_ref))[0]
         p2 = vuln.name + ": " + vuln.description
     else:
-        p = "Possible attribution:"
+        p = "Possible attribution"
         p2 = agent_store.query(Filter("id", "=", e.sighting_of_ref))[0].name
-    flowables.append(platy.Paragraph(p, ss['Italic']))
-    flowables.append(platy.Paragraph(p2, ss['BodyText']))
-    pdf = platy.SimpleDocTemplate(filename + r_num[:15] + '.pdf')
-    pdf.build(flowables)
+
+    if output_type == "pdf":
+        ss = getSampleStyleSheet()
+        flowables = []
+        flowables.append(
+            platy.Paragraph(f"Report #{r_num[:15]}", ss['Heading1']))
+        flowables.append(platy.Paragraph("Date:", ss['Italic']))
+        flowables.append(
+            platy.Paragraph(str(e.first_seen)[:19], ss['BodyText']))
+        flowables.append(platy.Paragraph("Description:", ss['Italic']))
+        flowables.append(platy.Paragraph(e.description, ss['BodyText']))
+        flowables.append(platy.Paragraph(p, ss['Italic']))
+        flowables.append(platy.Paragraph(p2, ss['BodyText']))
+        pdf = platy.SimpleDocTemplate(filename + r_num[:15] + '.pdf')
+        pdf.build(flowables)
+    elif output_type == "json":
+        event_dict = {
+            "report number": r_num[:15],
+            "date": str(e.first_seen)[:19],
+            "description": e.description,
+            p : p2
+        }
+        with open(filename + r_num[:15] + ".json", 'w') as f:
+            json.dump(event_dict, f)
+        f.close()

@@ -59,7 +59,7 @@ def arguments():
         "-c", "--config", help="configuration file (json)")
     parser.add_argument(
         "-o", "--output", help="directory for storing results")
-    parser.add_argument("--output-type", choices=["pdf", "json"])
+    parser.add_argument("--output-type", choices=["pdf", "json", "stix"])
     parser.add_argument(
         "--randomize-geopol", action='store_true',
         help="Generate random countries")
@@ -69,6 +69,8 @@ def arguments():
     parser.add_argument(
         "--country-data",
         help="directory with json files of country information")
+    parser.add_argument("--overwrite-ouput", action='store_true')
+    parser.add_argument("--overwrite-temp", action='store_true')
 
     args = parser.parse_args()
     if not args.config:
@@ -130,9 +132,6 @@ def main(args, config):
                     print('Failed to delete %s. %s' % (file_path, e))
         else:
             os.mkdir(args.output)
-        os.mkdir(args.output + '/countries/')
-        os.mkdir(args.output + '/actors/')
-        os.mkdir(args.output + '/reports/')
     else:
         overwrite = input(q)
 
@@ -155,7 +154,7 @@ def main(args, config):
         os.mkdir(temp_path)
     fs_gen = FileSystemStore(temp_path)
     fs_real = FileSystemSource(
-        pkg_resources.resource_filename(__name__, config["stix_path"]))
+        pkg_resources.resource_filename(__name__, "assets/mitre_cti/"))
 
     # Load or create country data
     countries = []
@@ -337,14 +336,19 @@ def main(args, config):
     except NameError:
         pass
 
-    for country in countries:
-        country.save(args.output + '/countries/', args.output_type)
-
-    agents.save(args.output + '/actors/', args.output_type, fs_gen, fs_real)
-
-    events = fs_gen.query(Filter("type", "=", "sighting"))
-    for e in events:
-        simulator.save(e, fs_gen, fs_real, args.output + '/reports/')
+    if args.output_type == "stix":
+        shutil.copytree(temp_path, args.output+"/stix")
+    else:
+        os.mkdir(args.output + '/countries/')
+        os.mkdir(args.output + '/actors/')
+        os.mkdir(args.output + '/reports/')
+        for country in countries:
+            country.save(args.output + '/countries/', args.output_type)
+        agents.save(args.output + '/actors/', args.output_type, fs_gen, fs_real)
+        events = fs_gen.query(Filter("type", "=", "sighting"))
+        for e in events:
+            simulator.save(
+                e, fs_gen, fs_real, args.output + '/reports/', args.output_type)
 
     print('Done')
 

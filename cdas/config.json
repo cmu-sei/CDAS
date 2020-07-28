@@ -33,6 +33,5 @@
     "output_path": "output",
     "output_type_opts":["json","pdf","stix"],
     "output_type": "pdf",
-    "temp_path": "temp",
-    "stix_path": "assets/mitre_cti/"
+    "temp_path": "temp"
 }

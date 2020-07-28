@@ -175,54 +175,73 @@ def save(directory, filetype, fs, fs_real):
     """
 
     agents = fs.query(Filter("type", "=", "threat-actor"))
-    if filetype == 'json':
-        for actor in agents:
-            filename = directory + actor.name.replace(' ', '') + ".json"
-            with open(filename, 'w') as f:
-                json.dump(actor.__dict__, f)
-            f.close()
-    elif filetype == 'pdf':
-        ss = getSampleStyleSheet()  # Set up the PDF template
+    for actor in agents:
+        filename = directory + actor.name.replace(' ', '')
+        
+        relationships = fs.query([
+            Filter("type", "=", "relationship"),
+            Filter("source_ref", "=", actor.id)])
+        ttps, tools, malwares = [], [], []
+        for r in relationships:
+            if "attack-pattern" in r.target_ref:
+                ttps.append(r.target_ref)
+            elif "tool" in r.target_ref:
+                tools.append(r.target_ref)
+            elif "malware" in r.target_ref:
+                malwares.append(r.target_ref)
+            elif "location" in r.target_ref:
+                countries = fs.query([
+                    Filter("type", "=", "location"),
+                    Filter("id", "=", r.target_ref)])
+        tool_names = [fs_real.query([
+            Filter("type", "=", "tool"), Filter("id", "=", t)])[0].name
+            for t in tools]
+        m_s = [fs_real.query([
+            Filter("type", "=", "malware"), Filter("id", "=", m)])[0].name
+            for m in malwares]
 
-        # Obtain info for each APT and output to PDF
-        for iset in agents:
-            pdf = platy.SimpleDocTemplate(
-                directory + iset.name.replace(' ', '') + ".pdf")
+        if filetype == 'json':
+            actor_dict = {
+                "name": actor.name,
+                "resource level": actor.resource_level,
+                "types": actor.threat_actor_types,
+                "aliases": actor.aliases,
+                "first seen": actor.first_seen.strftime("%B %Y"),
+                "attribution": countries[0].name,
+                "role": actor.roles[0],
+                "sophistication": actor.sophistication,
+                "primary motivation": actor.primary_motivation,
+                "secondary motivations": actor.secondary_motivations,
+                "description": actor.description,
+                "ttps": ttps,
+                "tools": tool_names,
+                "malware": m_s
+            }
+            with open(filename+".json", 'w') as f:
+                json.dump(actor_dict, f)
+            f.close()
+        elif filetype == 'pdf':
+            ss = getSampleStyleSheet()
+            pdf = platy.SimpleDocTemplate(filename + ".pdf")
             flowables = []
 
-            relationships = fs.query([
-                Filter("type", "=", "relationship"),
-                Filter("source_ref", "=", iset.id)])
-            ttps, tools, malwares = [], [], []
-            for r in relationships:
-                if "attack-pattern" in r.target_ref:
-                    ttps.append(r.target_ref)
-                elif "tool" in r.target_ref:
-                    tools.append(r.target_ref)
-                elif "malware" in r.target_ref:
-                    malwares.append(r.target_ref)
-                elif "location" in r.target_ref:
-                    countries = fs.query([
-                        Filter("type", "=", "location"),
-                        Filter("id", "=", r.target_ref)])
-
-            flowables.append(platy.Paragraph(iset.name, ss['Heading1']))
+            flowables.append(platy.Paragraph(actor.name, ss['Heading1']))
             p = (
-                f'{iset.name} is a {iset.resource_level} backed '
-                f'{iset.threat_actor_types[0]} group also known as '
-                f'{" or ".join(iset.aliases)}, first seen in '
-                f'{iset.first_seen.strftime("%B %Y")}. It is attributed to the'
-                f' state of {countries[0].name} as a {iset.roles[0]} of '
+                f'{actor.name} is a {actor.resource_level} backed '
+                f'{actor.threat_actor_types[0]} group also known as '
+                f'{" or ".join(actor.aliases)}, first seen in '
+                f'{actor.first_seen.strftime("%B %Y")}. It is attributed to the'
+                f' state of {countries[0].name} as a {actor.roles[0]} of '
                 f'malicious cyber activity. Its level of sophistication is '
-                f'{iset.sophistication}, and its primary motivation is '
-                f'{iset.primary_motivation}, though it is sometimes motivated '
-                f'by {" and ".join(iset.secondary_motivations)}. '
-                f'{iset.description}.')
+                f'{actor.sophistication}, and its primary motivation is '
+                f'{actor.primary_motivation}, though it is sometimes motivated '
+                f'by {" and ".join(actor.secondary_motivations)}. '
+                f'{actor.description}.')
             flowables.append(platy.Paragraph(p, ss['BodyText']))
-            p = iset.name+"'s goals are "
+            p = actor.name + "'s goals are "
             flowables.append(platy.Paragraph(p, ss['BodyText']))
             bullets = []
-            for g in iset.goals:
+            for g in actor.goals:
                 p = platy.Paragraph(g, ss['Normal'])
                 bullets.append(platy.ListItem(p, leftIndent=35))
             flowables.append(platy.ListFlowable(bullets, bulletType='bullet'))
@@ -230,14 +249,9 @@ def save(directory, filetype, fs, fs_real):
             flowables.append(platy.Paragraph('Tools', ss['Heading2']))
             p = "This threat actor is known to use the following tools."
             flowables.append(platy.Paragraph(p, ss['BodyText']))
-            t_s = [
-                fs_real.query([
-                    Filter("type", "=", "tool"),
-                    Filter("id", "=", t)])[0].name
-                for t in tools][:10]
-            bullets = []
 
-            for tool in sorted(t_s, key=str.casefold):
+            bullets = []
+            for tool in sorted(tool_names[:10], key=str.casefold):
                 p = platy.Paragraph(tool, ss['Normal'])
                 bullets.append(platy.ListItem(p, leftIndent=35))
 
@@ -246,13 +260,9 @@ def save(directory, filetype, fs, fs_real):
             flowables.append(platy.Paragraph('Malware', ss['Heading2']))
             p = "This threat actor is known to use the following malware."
             flowables.append(platy.Paragraph(p, ss['BodyText']))
-            m_s = [
-                fs_real.query([
-                    Filter("type", "=", "malware"),
-                    Filter("id", "=", m)])[0].name
-                for m in malwares][:5]
+
             bullets = []
-            for malware in sorted(m_s, key=str.casefold):
+            for malware in sorted(m_s[:5], key=str.casefold):
                 p = platy.Paragraph(malware, ss['Normal'])
                 bullets.append(platy.ListItem(p, leftIndent=35))
             flowables.append(platy.ListFlowable(bullets, bulletType='bullet'))
@@ -285,11 +295,11 @@ def save(directory, filetype, fs, fs_real):
             flowables.append(
                 platy.Paragraph('Related Reporting', ss['Heading2']))
             p = f"These reported incidents are likely or highly likely to be \
-                attributed to {iset.name}, though there may be others:"
+                attributed to {actor.name}, though there may be others:"
             flowables.append(platy.Paragraph(p, ss['BodyText']))
             sightings = fs.query([
                 Filter("type", "=", "sighting"),
-                Filter("sighting_of_ref", "=", iset.id)])
+                Filter("sighting_of_ref", "=", actor.id)])
             r_nums = [
                 str(s.first_seen).replace('-', '') for s in sightings][:15]
             bullets = []
@@ -300,9 +310,6 @@ def save(directory, filetype, fs, fs_real):
             flowables.append(platy.ListFlowable(bullets, bulletType='bullet'))
 
             pdf.build(flowables)
-    else:
-        raise NotImplementedError(
-            f"Output file type, {filetype}, not supported")
 
 
 def create_organization(stix, fs, country, org_names, assessment):
