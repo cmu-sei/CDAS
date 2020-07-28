@@ -39,15 +39,15 @@ subject to its own license:
 DM20-0573
 '''
 
+import argparse
+from datetime import datetime, timedelta
 import json
 import numpy as np
 import os
-import shutil
-import sys
 import pkg_resources
-import argparse
-from datetime import datetime, timedelta
+import shutil
 from stix2 import FileSystemStore, FileSystemSource, Filter
+import sys
 # Import custom modules
 from . import context, agents, simulator
 
@@ -59,7 +59,8 @@ def arguments():
         "-c", "--config", help="configuration file (json)")
     parser.add_argument(
         "-o", "--output", help="directory for storing results")
-    parser.add_argument("--output-type", choices=["pdf", "json", "stix"])
+    parser.add_argument("--output-types",
+        help="[\"pdf\", \"json\", \"stix\"]  ex. \"pdf,json\"")
     parser.add_argument(
         "--randomize-geopol", action='store_true',
         help="Generate random countries")
@@ -84,8 +85,10 @@ def arguments():
     # Set arguments to the specifications in the config file if not set at CL
     if not args.output:
         args.output = config['output_path']
-    if not args.output_type:
-        args.output_type = config['output_type']
+    if not args.output_types:
+        args.output_types = config['output_type']
+    else:
+        args.output_types = args.output_types.split(',')
     if not args.randomize_geopol:
         args.randomize_geopol = config["context"]['countries']['randomize']
     if not args.num_countries:
@@ -159,6 +162,7 @@ def main(args, config):
     # Load or create country data
     countries = []
     if args.randomize_geopol is True:
+        print("Creating countries...")
         with open(args.random_geodata) as f:
             context_options = json.load(f)  # seed file
         f.close()
@@ -259,6 +263,7 @@ def main(args, config):
             c.languages = egs
     else:
         # Using country data files instead of random generation
+        print("Loading countries...")
         for fn in os.listdir(args.country_data):
             with open(args.country_data + fn, 'r') as f:
                 country_data = json.load(f)
@@ -266,6 +271,7 @@ def main(args, config):
             countries.append(context.Country(fs_gen, **country_data))
 
     # Load or create actor data
+    print("Creating threat actors...")
     with open(pkg_resources.resource_filename(
             __name__,
             "assets/stix_vocab.json")) as json_file:
@@ -336,19 +342,24 @@ def main(args, config):
     except NameError:
         pass
 
-    if args.output_type == "stix":
-        shutil.copytree(temp_path, args.output+"/stix")
-    else:
-        os.mkdir(args.output + '/countries/')
-        os.mkdir(args.output + '/actors/')
-        os.mkdir(args.output + '/reports/')
-        for country in countries:
-            country.save(args.output + '/countries/', args.output_type)
-        agents.save(args.output + '/actors/', args.output_type, fs_gen, fs_real)
-        events = fs_gen.query(Filter("type", "=", "sighting"))
-        for e in events:
-            simulator.save(
-                e, fs_gen, fs_real, args.output + '/reports/', args.output_type)
+    for ot in args.output_types:
+        print(f'\t{ot}')
+        if ot == "stix":
+            shutil.copytree(temp_path, args.output+"/stix")
+        else:
+            if not os.path.isdir(args.output + '/countries/'):
+                os.mkdir(args.output + '/countries/')
+                os.mkdir(args.output + '/actors/')
+                os.mkdir(args.output + '/reports/')
+            for country in countries:
+                country.save(args.output + '/countries/', ot)
+            agents.save(args.output + '/actors/', ot, fs_gen, fs_real)
+            events = fs_gen.query(Filter("type", "=", "sighting"))
+            for e in events:
+                simulator.save(
+                    e, fs_gen, fs_real, args.output + '/reports/', ot)
+
+    shutil.rmtree(temp_path)
 
     print('Done')
 

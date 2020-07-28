@@ -39,6 +39,6 @@
         "pdf",
         "stix"
     ],
-    "output_type": "pdf",
+    "output_types": ["pdf"],
     "temp_path": "temp"
 }
