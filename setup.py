@@ -23,8 +23,16 @@ setup(
             'config.json',
             'data/*',
             'data/cia_world_factbook/*',
-            'assets/*',
-            'assets/mitre_cti/*']
+            'assets/*','assets/mitre_cti/*',
+            'assets/mitre_cti/attack-pattern/*',
+            'assets/mitre_cti/course-of-action/*',
+            'assets/mitre_cti/identity/*',
+            'assets/mitre_cti/intrusion-set/*',
+            'assets/mitre_cti/malware/*',
+            'assets/mitre_cti/marking-definition/*',
+            'assets/mitre_cti/relationship/*',
+            'assets/mitre_cti/tool/*'
+        ]
     },
     install_requires=["numpy","reportlab","drawSVG","stix2"],
     entry_points={
