@@ -93,7 +93,7 @@ def arguments():
         args.randomize_geopol = config["context"]['countries']['randomize']
     if not args.num_countries:
         args.num_countries = config["context"]['countries']['random_vars']['num_countries']
-    if not args.country_data:
+    if not args.country_data and args.randomize_geopol is False:
         args.country_data = pkg_resources.resource_filename(
             __name__,
             config["context"]["countries"]["non_random_vars"]["country_data"])

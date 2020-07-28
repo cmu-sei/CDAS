@@ -140,7 +140,11 @@ class Country:
             if lat < 0:
                 lat = str(int(abs(lat))) + " 00 S, "
             else:
-                lat = str(int(lat)) + " 00 N, "
+                try:
+                    lat = str(int(lat)) + " 00 N, "
+                except ValueError:
+                    print(f'lat: {lat}, coords: {coords}, center: {center}')
+                    raise ValueError('cannot convert float NaN to integer')
             if lon < 0:
                 lon = str(int(abs(lon))) + " 00 E"
             else:

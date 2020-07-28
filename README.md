@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Before installing CDAS you will need the following packages:
+CDAS installs the following packages and their dependencies upon setup:
 
 ```
 numpy
@@ -16,6 +16,8 @@ reportlab
 drawSVG
 python-stix
 ```
+
+You may also want to install ```libcairo2```. Optional, but you will receive errors when running CDAS without it.
 
 ### Installing
 

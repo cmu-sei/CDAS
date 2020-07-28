@@ -5,7 +5,6 @@ HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
 LICENSE = (HERE / "LICENSE.md").read_text()
 
-# This call to setup() does all the work
 setup(
     name="cdas",
     version="0.0.1",
@@ -22,7 +21,7 @@ setup(
     package_data = {
         'cdas': ['config.json','data/*']
     },
-    install_requires=["numpy","reportlab","drawSVG","pycairo"],
+    install_requires=["numpy","reportlab","drawSVG","stix"],
     entry_points={
         "console_scripts": [
             "cdas=cdas.__main__:main",
