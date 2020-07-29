@@ -18,12 +18,13 @@ setup(
     ],
     packages=["cdas"],
     include_package_data=True,
-    package_data = {
+    package_data={
         'cdas': [
             'config.json',
             'data/*',
             'data/cia_world_factbook/*',
-            'assets/*','assets/mitre_cti/*',
+            'assets/*',
+            'assets/mitre_cti/*',
             'assets/mitre_cti/attack-pattern/*',
             'assets/mitre_cti/course-of-action/*',
             'assets/mitre_cti/identity/*',
@@ -34,7 +35,7 @@ setup(
             'assets/mitre_cti/tool/*'
         ]
     },
-    install_requires=["numpy","reportlab","drawSVG","stix2"],
+    install_requires=["numpy", "reportlab", "drawSVG", "stix2"],
     entry_points={
         "console_scripts": [
             "cdas=cdas.__main__:main",

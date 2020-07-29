@@ -1,6 +1,23 @@
 # Cyber Decision Analysis Simulator - CDAS
 
-(TODO) One Paragraph of project description goes here
+## Overview
+
+This program generates cyber attack scenarios for use in cyber training exercises, red team planning, blue team planning, automated attack execution, and cybersecurity policy analysis. The current version generates documentation for these scenarios in the form of cyber incident reports and supporting contextual information (information on countries and threat actors). Scenarios can be based on real countries and geopolitical context, or have this context generated psuedo-randomly. Scenarios can use real APTs or have them generated pseudo-randomly to match the geopolitical context. 
+
+Future versions will include fine-grained ability to control detailed aspects of the simulation, improved logic for APT and event generation, and a policy analysis capability allowing decision makers to compare risk reduction or outcome improvements across different policy simulations.
+
+## Features
+
+- [x] Country and geopolitical context generation
+- [x] APT generation
+- [x] Cyber event generation (incidents, attacks, intelligence)
+- [x] Output formats: PDF, JSON, and/or STIX
+
+### ToDo
+- [ ] Output formats: HTML, SQL dump
+- [ ] Visualization of relationships between data points
+- [ ] Improved world map generation
+- [ ] "web feeds" of intelligence/events (ex. news reports, dark web posts, etc.)
 
 ## Getting Started
 
@@ -32,13 +49,24 @@ $ pip3 install .
 
 ```
 $ python -m cdas
-Setting up outputs...
-Overwrite the output folder (../output/)? (y/n)
+Output path ..\cdas-output does not exist.
+            Create this directory? (y/n)
 $ y
-Loading countries...
+Creating countries...
+Creating threat actors...
+Creating organizations...
+Running simulation...
+        Round 1
+        Round 2
+        Round 3
+        Round 4
+        Round 5
+Saving output...
+        pdf
+Done
 ```
 
-CDAS should finish with no errors and the results will be in a folder called cdas-output. Results will include
+CDAS should finish with no errors (you will get warnings about libcairo2 if you did not install that) and the results will be in a folder called cdas-output. Results will include
 - SVG map of countries
 - 'actors' folder containing PDF files with threat actor descriptions
 - 'countries' folder containing PDF files with country attributes

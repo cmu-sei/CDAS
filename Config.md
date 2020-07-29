@@ -62,6 +62,8 @@ The context section of the configuration file looks like this:
    "temp_path" : "temp"
 ```
 
+## Example 1
+
 ## License
 
 Copyright 2020 Carnegie Mellon University. See the [LICENSE.md](LICENSE.md) file for details.

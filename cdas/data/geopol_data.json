@@ -93,7 +93,9 @@
             "cabbage","barley","cheese","dairy","hardwood","cut flowers","milk",
             "forest products","goat meat","goats","reindeer","lumber","hides"
         ],
-        "Polar": [],
+        "Polar": [
+            "barley","vegetables (hydroponic)"
+        ],
         "Coast": [
             "caviar","cultured shrimp","ornamental fish","fish","herring",
             "yellow-fin tuna","tilapia","squid","shrimp","shellfish","seafood",

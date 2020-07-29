@@ -66,11 +66,11 @@ def create_threatactor(stix, nouns, adjectives, countries, fs):
     sectors = list(np.random.choice(
         stix['sectors'], np.random.randint(2, 4), False))
     if len(sectors) == 2:
-        sector_desc = 'and '.join(sectors)
+        sector_desc = ' and '.join(sectors)
     else:
         sector_desc = ', '.join(sectors[:-1]) + ', and ' + sectors[-1]
     desc = f'{agent_name} typically targets the {sector_desc} sectors'
-    
+
     aliases = [f"APT {1000+(len(actors))}"]
     aliases_taken = []
     for ta in actors:
@@ -182,7 +182,7 @@ def save(directory, filetype, fs, fs_real):
     agents = fs.query(Filter("type", "=", "threat-actor"))
     for actor in agents:
         filename = directory + actor.name.replace(' ', '')
-        
+
         relationships = fs.query([
             Filter("type", "=", "relationship"),
             Filter("source_ref", "=", actor.id)])
@@ -235,12 +235,12 @@ def save(directory, filetype, fs, fs_real):
                 f'{actor.name} is a {actor.resource_level} backed '
                 f'{actor.threat_actor_types[0]} group also known as '
                 f'{" or ".join(actor.aliases)}, first seen in '
-                f'{actor.first_seen.strftime("%B %Y")}. It is attributed to the'
-                f' state of {countries[0].name} as a {actor.roles[0]} of '
+                f'{actor.first_seen.strftime("%B %Y")}. It is attributed to '
+                f'the state of {countries[0].name} as a {actor.roles[0]} of '
                 f'malicious cyber activity. Its level of sophistication is '
                 f'{actor.sophistication}, and its primary motivation is '
-                f'{actor.primary_motivation}, though it is sometimes motivated '
-                f'by {" and ".join(actor.secondary_motivations)}. '
+                f'{actor.primary_motivation}, though it is sometimes motivated'
+                f' by {" and ".join(actor.secondary_motivations)}. '
                 f'{actor.description}.')
             flowables.append(platy.Paragraph(p, ss['BodyText']))
             p = actor.name + "'s goals are "

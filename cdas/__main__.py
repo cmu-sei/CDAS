@@ -166,7 +166,7 @@ def main(args, config):
     countries = []
     if args.randomize_geopol is True:
         print("Creating countries...")
-        with open(args.random_geodata) as f:
+        with open(args.random_geodata, encoding='utf-8') as f:
             context_options = json.load(f)  # seed file
         f.close()
         map_matrix = context.Map(args.num_countries)
@@ -277,17 +277,17 @@ def main(args, config):
     print("Creating threat actors...")
     with open(pkg_resources.resource_filename(
             __name__,
-            "assets/stix_vocab.json")) as json_file:
+            "assets/stix_vocab.json"), encoding='utf-8') as json_file:
         stix_vocab = json.load(json_file)
     json_file.close()
     with open(pkg_resources.resource_filename(
             __name__,
-            config['agents']['random variables']['adjectives'])) as f:
+            config['agents']['random variables']['adjectives']), encoding='utf-8') as f:
         adjectives = [line.rstrip() for line in f]
     f.close()
     with open(pkg_resources.resource_filename(
             __name__,
-            config['agents']['random variables']['nouns'])) as f:
+            config['agents']['random variables']['nouns']), encoding='utf-8') as f:
         nouns = [line.rstrip() for line in f]
     f.close()
     actors = 1
@@ -304,7 +304,7 @@ def main(args, config):
         org_names = f.read().splitlines()  # organization name possibilities
     f.close()
     with open(pkg_resources.resource_filename(
-            __name__, 'assets/NIST_assess.json')) as json_file:
+            __name__, 'assets/NIST_assess.json'), encoding='utf-8') as json_file:
         assessment = json.load(json_file)
     json_file.close()
     for c in countries:

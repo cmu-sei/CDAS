@@ -101,7 +101,8 @@ def simulate(actors, orgs, tools, malwares, fs, start_date, td):
         if success is True:
             description = (
                 f'On {str(start_date)[:10]}, an attacker successfully attacked'
-                f' COMPANY located in the country of '
+                f' a company named {target.name.upper()} located in the '
+                f'country of '
                 f'{target_description["Background"]["headquarters"]} to '
                 f'{np.random.choice(agent.goals)}. The tool, {tool.name}, was '
                 f'used during the course of the attack, and one of the '
@@ -110,8 +111,8 @@ def simulate(actors, orgs, tools, malwares, fs, start_date, td):
         else:
             description = (
                 f'On {str(start_date)[:10]}, an attack was attempted against '
-                f'COMPANY located in the country of '
-                f'{target_description["Background"]["headquarters"]}. The '
+                f'a company named {target.name.upper()} located in the country'
+                f' of {target_description["Background"]["headquarters"]}. The '
                 f'attacker used the tool, {tool.name}, during its attack. It '
                 f'is believed the attack was an unsuccessful attempt to '
                 f'{np.random.choice(agent.goals)}, and one of the indicators '
@@ -162,7 +163,7 @@ def save(e, agent_store, vuln_store, filename, output_type):
             "report number": r_num[:15],
             "date": str(e.first_seen)[:19],
             "description": e.description,
-            p : p2
+            p: p2
         }
         with open(filename + r_num[:15] + ".json", 'w') as f:
             json.dump(event_dict, f)
