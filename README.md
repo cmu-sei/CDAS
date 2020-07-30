@@ -1,8 +1,10 @@
 # Cyber Decision Analysis Simulator - CDAS
 
+![CDAS Logo](cdas/assets/CDAS.png)
+
 ## Overview
 
-This program generates cyber attack scenarios for use in cyber training exercises, red team planning, blue team planning, automated attack execution, and cybersecurity policy analysis. The current version generates documentation for these scenarios in the form of cyber incident reports and supporting contextual information (information on countries and threat actors). Scenarios can be based on real countries and geopolitical context, or have this context generated psuedo-randomly. Scenarios can use real APTs or have them generated pseudo-randomly to match the geopolitical context. 
+This program generates cyber attack scenarios for use in cyber training exercises, red team planning, blue team planning, automated attack execution, and cybersecurity policy analysis. The current version generates documentation for these scenarios in the form of cyber incident reports and supporting contextual information (information on countries and threat actors). Scenarios can be based on real countries and geopolitical context, or have this context generated psuedo-randomly. Scenarios can use real APTs or have them generated pseudo-randomly to match the geopolitical context. Simulated cyber events are then generated based on APT motivation and organization vulnerability.
 
 Future versions will include fine-grained ability to control detailed aspects of the simulation, improved logic for APT and event generation, and a policy analysis capability allowing decision makers to compare risk reduction or outcome improvements across different policy simulations.
 
@@ -15,9 +17,22 @@ Future versions will include fine-grained ability to control detailed aspects of
 
 ### ToDo
 - [ ] Output formats: HTML, SQL dump
+- [ ] Country relationship details
+- [ ] Detailed representation of organization networks (asset improvement)
 - [ ] Visualization of relationships between data points
 - [ ] Improved world map generation
 - [ ] "web feeds" of intelligence/events (ex. news reports, dark web posts, etc.)
+
+## Components
+
+- Agents: Threat actors, organizations (companies)
+    - Friendly, enemy, and neutral players in the simulation
+- Assets: Cyber infrastructure
+    - Networks, software, hardware, configurations, and vulnerabilities
+- Context: Geopolitical context
+    - Countries, country attributes, and relationships with other countries which drive agent decision making
+- Simulation
+    - Decision parameters, simulation parameters, and output/formatting controls
 
 ## Getting Started
 
