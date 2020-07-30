@@ -156,6 +156,9 @@ def create_threatactor(stix, nouns, adjectives, countries, fs):
         attr_countries = [
             country.name for country in countries
             if country.name not in have_actors]
+        if len(attr_countries) == 0:
+            # all of the countries already have at least one actor
+            attr_countries = [country.name for country in countries]
     # Set attribution
     country = fs.query([
         Filter("type", "=", "location"),
