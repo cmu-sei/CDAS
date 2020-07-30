@@ -14,8 +14,11 @@ Adapting Use Cases
 ## Using the Features
 
 ### <a name="1.1"></a>Custom choices for APT names
+...
 ### <a name="1.2"></a>Custom choices for organization names
+...
 
 ## Adapting Use Cases
 
 ### <a name="2.1"></a>A multi-event training exercise with context carried between exercises
+...
