@@ -1,14 +1,17 @@
 {
     "agents": {
-        "randomize threat actors": true,
-        "random variables": {
-            "adjectives": "data/personality_traits.txt",
-            "nouns": "data/disney_names.txt",
+        "randomize_threat_actors": true,
+        "random_variables": {
+            "actor_name_1": "data/personality_traits.txt",
+            "actor_name_2": "data/disney_names.txt",
             "num_agents": 5
         },
-        "org variables": {
-            "orgs per country": 1,
-            "org names": "data/organization_names.txt"
+        "non_random_vars": {
+            "apt_data": "mitre_cti"
+        },
+        "org_variables": {
+            "orgs_per_country": 1,
+            "org_names": "data/organization_names.txt"
         }
     },
     "context": {
@@ -27,8 +30,8 @@
 
     },
     "simulation": {
-        "number of rounds": 5,
-        "time range": [
+        "number_of_rounds": 5,
+        "time_range": [
             "2017-08-01",
             "2020-08-01"
         ]

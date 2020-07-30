@@ -280,27 +280,31 @@ def main(args, config):
             "assets/stix_vocab.json"), encoding='utf-8') as json_file:
         stix_vocab = json.load(json_file)
     json_file.close()
-    with open(pkg_resources.resource_filename(
-            __name__,
-            config['agents']['random variables']['adjectives']), encoding='utf-8') as f:
-        adjectives = [line.rstrip() for line in f]
-    f.close()
-    with open(pkg_resources.resource_filename(
-            __name__,
-            config['agents']['random variables']['nouns']), encoding='utf-8') as f:
-        nouns = [line.rstrip() for line in f]
-    f.close()
-    actors = 1
-    while actors <= config['agents']['random variables']['num_agents']:
-        agents.create_threatactor(
-            stix_vocab, nouns, adjectives, countries, fs_gen)
-        actors += 1
+    if config['agents']['randomize_threat_actors'] is True:
+        with open(pkg_resources.resource_filename(
+                __name__,
+                config['agents']['random_variables']['actor_name_1']), encoding='utf-8') as f:
+            adjectives = [line.rstrip() for line in f]
+        f.close()
+        with open(pkg_resources.resource_filename(
+                __name__,
+                config['agents']['random_variables']['actor_name_2']), encoding='utf-8') as f:
+            nouns = [line.rstrip() for line in f]
+        f.close()
+        actors = 1
+        while actors <= config['agents']['random_variables']['num_agents']:
+            agents.create_threatactor(
+                stix_vocab, nouns, adjectives, countries, fs_gen)
+            actors += 1
+    else:
+        # no randomization - use provided data set
+        raise NotImplementedError("Feature: Pre-defined threat actors not implemented yet")
 
     # Create organizations
     print('Creating organizations...')
     with open(pkg_resources.resource_filename(
             __name__,
-            config['agents']['org variables']['org names'])) as f:
+            config['agents']['org_variables']['org_names'])) as f:
         org_names = f.read().splitlines()  # organization name possibilities
     f.close()
     with open(pkg_resources.resource_filename(
@@ -309,7 +313,7 @@ def main(args, config):
     json_file.close()
     for c in countries:
         orgs = 0
-        while orgs < config['agents']['org variables']["orgs per country"]:
+        while orgs < config['agents']['org_variables']["orgs_per_country"]:
             agents.create_organization(
                 stix_vocab, fs_gen, c.name, org_names, assessment)
             orgs += 1
@@ -318,7 +322,7 @@ def main(args, config):
     print('Running simulation...')
     start = datetime.strptime(
         config["simulation"]['time range'][0], '%Y-%m-%d')
-    end = datetime.strptime(config["simulation"]['time range'][1], '%Y-%m-%d')
+    end = datetime.strptime(config["simulation"]['time_range'][1], '%Y-%m-%d')
     td = end - start
     actors = fs_gen.query(Filter("type", "=", "threat-actor"))
     orgs = fs_gen.query([
@@ -326,13 +330,13 @@ def main(args, config):
         Filter("identity_class", "=", "organization")])
     tools = fs_real.query(Filter('type', '=', 'tool'))
     malwares = fs_real.query(Filter('type', '=', 'malware'))
-    for r in range(1, int(config["simulation"]['number of rounds'])+1):
+    for r in range(1, int(config["simulation"]['number_of_rounds'])+1):
         print(f'\tRound {r}')
         simulator.simulate(
             actors, orgs, tools, malwares, fs_gen, start,
-            td.days/(config["simulation"]['number of rounds']*len(actors)))
+            td.days/(config["simulation"]['number_of_rounds']*len(actors)))
         start += timedelta(
-            days=td.days/config["simulation"]['number of rounds'])
+            days=td.days/config["simulation"]['number_of_rounds'])
 
     # Create output files
     print('Saving output...')
