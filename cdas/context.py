@@ -314,7 +314,8 @@ class Country:
                 ag_opts.extend(choices['agriculture']["Coast"])
             self.agriculture = list(np.random.choice(
                 list(set(ag_opts)),
-                np.random.randint(2, area/area_multiple + 4), False))
+                np.random.randint(2, min(area/area_multiple + 4,len(ag_opts))),
+                False))
             self.industries = list(np.random.choice(
                 choices['eximports'], np.random.randint(3, 12), False))
             self.exports = list(np.random.choice(
