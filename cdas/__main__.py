@@ -120,12 +120,14 @@ def main(args, config):
         q = f"Output path {os.getcwd() + '/' + args.output} does not exist.\n\
             Create this directory? (y/n) "
     if not args.overwrite_output:
-        answer = input(q)
+        answer = ""
+        while answer not in ['y','n']:
+            answer = input(q)
     else:
         answer = 'y'
     if answer == 'n':
         sys.exit(f"CDAS exited without completing")
-    elif answer == 'y':
+    else:
         if os.path.isdir(args.output):
             for filename in os.listdir(args.output):
                 file_path = os.path.join(args.output, filename)
@@ -138,8 +140,7 @@ def main(args, config):
                     print('Failed to delete %s. %s' % (file_path, e))
         else:
             os.mkdir(args.output)
-    else:
-        overwrite = input(q)
+
 
     # Set up the STIX data stores
     # Check if it's okay to overwrite the contents of the temporary data store
