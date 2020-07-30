@@ -2,12 +2,20 @@
 
 The following are examples of how to use different features in CDAS and possible configurations for various use cases.
 
-1. Features
-    - [1.1 Custom word choices for APT names](#1.1)
-2. Use Cases
+Using the Features
 
-## 1. Features
+- [Custom choices for APT names](#1.1)
+- [Custom choices for organization names](#1.2)
 
-### <a name="1.1"></a>1.1 Custom word choices for APT names 
+Adapting Use Cases
 
-## 2. Use Cases
+- [A multi-event training exercise with context carried between exercises](#2.1)
+
+## Using the Features
+
+### <a name="1.1"></a>Custom choices for APT names
+### <a name="1.2"></a>Custom choices for organization names
+
+## Adapting Use Cases
+
+### <a name="2.1"></a>A multi-event training exercise with context carried between exercises

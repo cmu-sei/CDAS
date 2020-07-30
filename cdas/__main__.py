@@ -321,7 +321,7 @@ def main(args, config):
     # Run simulation
     print('Running simulation...')
     start = datetime.strptime(
-        config["simulation"]['time range'][0], '%Y-%m-%d')
+        config["simulation"]['time_range'][0], '%Y-%m-%d')
     end = datetime.strptime(config["simulation"]['time_range'][1], '%Y-%m-%d')
     td = end - start
     actors = fs_gen.query(Filter("type", "=", "threat-actor"))
@@ -329,7 +329,7 @@ def main(args, config):
         Filter("type", "=", "identity"),
         Filter("identity_class", "=", "organization")])
     tools = fs_real.query(Filter('type', '=', 'tool'))
-    malwares = fs_real.query(Filter('type', '=', 'malware'))
+    malwares = fs_real.query(Filter('type','=','malware'))
     for r in range(1, int(config["simulation"]['number_of_rounds'])+1):
         print(f'\tRound {r}')
         simulator.simulate(

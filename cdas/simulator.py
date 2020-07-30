@@ -80,7 +80,7 @@ def simulate(actors, orgs, tools, malwares, fs, start_date, td):
         target = [org for org in orgs if org['id'] == target_id][0]
 
         success = np.random.choice([True, False])
-        tool = np.random.choice(tools)
+        tool = tools[np.random.randint(0,len(tools))]
         tool_rels = fs.query([
             Filter('type', '=', 'relationship'),
             Filter('source_ref', '=', agent.id),
@@ -90,13 +90,13 @@ def simulate(actors, orgs, tools, malwares, fs, start_date, td):
         indicator_type = np.random.choice(['IPv4 address', 'domain name'])
         used_malware = np.random.choice(['yes', 'no'], p=[.25, .75])
         if used_malware == 'yes':
-            malware = np.random.choice(malwares)
+            malware = malwares[np.random.randint(0,len(malwares))]
             mw_rels = fs.query([
                 Filter('type', '=', 'relationship'),
                 Filter('source_ref', '=', agent.id),
                 Filter('target_ref', '=', malware.id)])
             if len(mw_rels) == 0:
-                fs.add(Relationship(agent, 'uses', malware))
+                fs.add(Relationship(agent, 'uses', malware.id))
         target_description = json.loads(target.description)
         if success is True:
             description = (
