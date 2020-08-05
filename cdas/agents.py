@@ -45,7 +45,7 @@ import json
 from datetime import date
 import reportlab.platypus as platy
 from reportlab.lib.styles import getSampleStyleSheet
-from stix2.v21 import Relationship, ThreatActor, Identity
+from stix2.v21 import Relationship, IntrusionSet, Identity
 from stix2 import Filter
 
 
@@ -62,14 +62,20 @@ def create_threatactor(stix, nouns, adjectives, countries, fs):
         noun = np.random.choice(nouns)
     agent_name = adj + " " + noun
 
+    sophistication = str(np.random.choice(stix['threat-actor-sophistication']))
+    actor_type = np.random.choice(
+        list(stix["threat-actor-type"].keys()),
+        p=list(stix["threat-actor-type"].values()))
+
     # target sectors
     sectors = list(np.random.choice(
         stix['sectors'], np.random.randint(2, 4), False))
-    if len(sectors) == 2:
-        sector_desc = ' and '.join(sectors)
-    else:
-        sector_desc = ', '.join(sectors[:-1]) + ', and ' + sectors[-1]
-    desc = f'{agent_name} typically targets the {sector_desc} sectors'
+    
+    description = {
+        'sophistication': sophistication,
+        'actor_type': actor_type,
+        'target_sectors': sectors
+    }
 
     aliases = [f"APT {1000+(len(actors))}"]
     aliases_taken = []
@@ -98,30 +104,21 @@ def create_threatactor(stix, nouns, adjectives, countries, fs):
 
     resource_level = "government"
 
-    threat_actor_types = str(np.random.choice(
-        list(stix['threat-actor-type'].keys()),
-        p=list(stix['threat-actor-type'].values())))
-
     motivations = list(np.random.choice(
         stix['attack-motivation'], np.random.randint(2, 4), replace=False))
     primary_motivation = str(motivations[0])
-
-    sophistication = str(np.random.choice(stix['threat-actor-sophistication']))
     secondary_motivations = motivations[1:]
     goals = list(
         np.random.choice(stix['goals'], np.random.randint(2, 4), False))
 
-    apt = ThreatActor(
+    apt = IntrusionSet(
         name=agent_name,
         aliases=aliases,
         first_seen=first_seen,
         last_seen=last_seen,
-        roles='sponsor',
         resource_level=resource_level,
-        threat_actor_types=threat_actor_types,
-        description=desc,
+        description=json.dumps(description),
         primary_motivation=primary_motivation,
-        sophistication=sophistication,
         secondary_motivations=secondary_motivations,
         goals=goals
     )
@@ -131,16 +128,16 @@ def create_threatactor(stix, nouns, adjectives, countries, fs):
     relationships = fs.query([
         Filter("type", "=", "relationship"),
         Filter("relationship_type", "=", "located-at"),
-        Filter("source_ref", "contains", "threat-actor")])
+        Filter("source_ref", "contains", "intrusion-set")])
     have_actors = [country.name for country in fs.query([
         Filter("type", "=", "location"),
         Filter("id", "in", [r.target_ref for r in relationships])])]
-    if threat_actor_types == "terrorist":
+    if actor_type == "terrorist":
         attr_countries = [
             country.name for country in countries
             if hasattr(country, 'terrorism') and
             country.name not in have_actors]
-    elif threat_actor_types == "nation-state":
+    elif actor_type == "nation-state":
         attr_countries = [
             (country.name, country.percent_GDP_on_military)
             for country in countries
@@ -166,7 +163,7 @@ def create_threatactor(stix, nouns, adjectives, countries, fs):
     fs.add(Relationship(apt, 'located-at', country[0]))
 
 
-def save(directory, filetype, fs, fs_real):
+def save(actor, directory, filetype, fs_gen, fs_real):
     """Saves the attributes of the Threat Actor to a specified file.
 
     Parameters
@@ -182,70 +179,72 @@ def save(directory, filetype, fs, fs_real):
         If unsupported filetype is passed in.
     """
 
-    agents = fs.query(Filter("type", "=", "threat-actor"))
-    for actor in agents:
-        filename = directory + actor.name.replace(' ', '')
+    filename = directory + actor.name.replace(' ', '')
 
-        relationships = fs.query([
-            Filter("type", "=", "relationship"),
-            Filter("source_ref", "=", actor.id)])
-        ttps, tools, malwares = [], [], []
-        for r in relationships:
-            if "attack-pattern" in r.target_ref:
-                ttps.append(r.target_ref)
-            elif "tool" in r.target_ref:
-                tools.append(r.target_ref)
-            elif "malware" in r.target_ref:
-                malwares.append(r.target_ref)
-            elif "location" in r.target_ref:
-                countries = fs.query([
-                    Filter("type", "=", "location"),
-                    Filter("id", "=", r.target_ref)])
-        tool_names = [fs_real.query([
-            Filter("type", "=", "tool"), Filter("id", "=", t)])[0].name
-            for t in tools]
-        m_s = [fs_real.query([
-            Filter("type", "=", "malware"), Filter("id", "=", m)])[0].name
-            for m in malwares]
+    relationships = fs_gen.query([
+        Filter("type", "=", "relationship"),
+        Filter("source_ref", "=", actor.id)])
+    ttps, tools, malwares = [], [], []
+    for r in relationships:
+        if "attack-pattern" in r.target_ref:
+            ttps.append(r.target_ref)
+        elif "tool" in r.target_ref:
+            tools.append(r.target_ref)
+        elif "malware" in r.target_ref:
+            malwares.append(r.target_ref)
+        elif "location" in r.target_ref:
+            countries = fs_gen.query([
+                Filter("type", "=", "location"),
+                Filter("id", "=", r.target_ref)])
+    tool_names = [fs_real.query([
+        Filter("type", "=", "tool"), Filter("id", "=", t)])[0].name
+        for t in tools]
+    m_s = [fs_real.query([
+        Filter("type", "=", "malware"), Filter("id", "=", m)])[0].name
+        for m in malwares]
 
-        if filetype == 'json':
-            actor_dict = {
-                "name": actor.name,
-                "resource level": actor.resource_level,
-                "types": actor.threat_actor_types,
-                "aliases": actor.aliases,
-                "first seen": actor.first_seen.strftime("%B %Y"),
-                "attribution": countries[0].name,
-                "role": actor.roles[0],
-                "sophistication": actor.sophistication,
-                "primary motivation": actor.primary_motivation,
-                "secondary motivations": actor.secondary_motivations,
-                "description": actor.description,
-                "ttps": ttps,
-                "tools": tool_names,
-                "malware": m_s
-            }
-            with open(filename+".json", 'w') as f:
-                json.dump(actor_dict, f)
-            f.close()
-        elif filetype == 'pdf':
-            ss = getSampleStyleSheet()
-            pdf = platy.SimpleDocTemplate(filename + ".pdf")
-            flowables = []
+    if filetype == 'json':
+        actor_dict = {
+            "name": actor.name,
+            "aliases": actor.aliases,
+            "first_seen": actor.first_seen.strftime("%B %Y"),
+            "last_seen": actor.last_seen.strftime("%B %Y"),
+            "attribution": countries[0].name,
+            "resource_level": actor.resource_level,
+            "primary motivation": actor.primary_motivation,
+            "secondary motivations": actor.secondary_motivations,
+            "description": actor.description,
+            "ttps": ttps,
+            "tools": tool_names,
+            "malware": m_s
+        }
+        with open(filename+".json", 'w') as f:
+            json.dump(actor_dict, f)
+        f.close()
+    elif filetype == 'pdf':
+        ss = getSampleStyleSheet()
+        pdf = platy.SimpleDocTemplate(filename + ".pdf")
+        flowables = []
 
-            flowables.append(platy.Paragraph(actor.name, ss['Heading1']))
+        try:
+            actor_dict = json.loads(actor.description)
             p = (
-                f'{actor.name} is a {actor.resource_level} backed '
-                f'{actor.threat_actor_types[0]} group also known as '
-                f'{" or ".join(actor.aliases)}, first seen in '
-                f'{actor.first_seen.strftime("%B %Y")}. It is attributed to '
-                f'the state of {countries[0].name} as a {actor.roles[0]} of '
-                f'malicious cyber activity. Its level of sophistication is '
-                f'{actor.sophistication}, and its primary motivation is '
-                f'{actor.primary_motivation}, though it is sometimes motivated'
-                f' by {" and ".join(actor.secondary_motivations)}. '
-                f'{actor.description}.')
-            flowables.append(platy.Paragraph(p, ss['BodyText']))
+                f'{actor.name} is a {actor_dict["actor_type"]} group also '
+                f'known as {" or ".join(actor.aliases)}. It was first seen in '
+                f'{actor.first_seen.strftime("%B %Y")}, and is attributed to '
+                f'the state of {countries[0].name}. Its level of '
+                f'sophistication is {actor_dict["sophistication"]}, and its '
+                f'primary motivation is {actor.primary_motivation}, though it '
+                f'is sometimes motivated by '
+                f'{" and ".join(actor.secondary_motivations)}.'
+            )
+        except json.decoder.JSONDecodeError:
+            actor_dict = None
+            p = actor.description
+        flowables.append(platy.Paragraph(actor.name, ss['Heading1']))
+        flowables.append(platy.Paragraph(p, ss['BodyText']))
+
+        if actor_dict is not None:
             p = actor.name + "'s goals are "
             flowables.append(platy.Paragraph(p, ss['BodyText']))
             bullets = []
@@ -254,70 +253,70 @@ def save(directory, filetype, fs, fs_real):
                 bullets.append(platy.ListItem(p, leftIndent=35))
             flowables.append(platy.ListFlowable(bullets, bulletType='bullet'))
 
-            flowables.append(platy.Paragraph('Tools', ss['Heading2']))
-            p = "This threat actor is known to use the following tools."
-            flowables.append(platy.Paragraph(p, ss['BodyText']))
+        flowables.append(platy.Paragraph('Tools', ss['Heading2']))
+        p = "This threat actor is known to use the following tools."
+        flowables.append(platy.Paragraph(p, ss['BodyText']))
 
-            bullets = []
-            for tool in sorted(tool_names[:10], key=str.casefold):
-                p = platy.Paragraph(tool, ss['Normal'])
-                bullets.append(platy.ListItem(p, leftIndent=35))
+        bullets = []
+        for tool in sorted(tool_names[:10], key=str.casefold):
+            p = platy.Paragraph(tool, ss['Normal'])
+            bullets.append(platy.ListItem(p, leftIndent=35))
 
-            flowables.append(platy.ListFlowable(bullets, bulletType='bullet'))
+        flowables.append(platy.ListFlowable(bullets, bulletType='bullet'))
 
-            flowables.append(platy.Paragraph('Malware', ss['Heading2']))
-            p = "This threat actor is known to use the following malware."
-            flowables.append(platy.Paragraph(p, ss['BodyText']))
+        flowables.append(platy.Paragraph('Malware', ss['Heading2']))
+        p = "This threat actor is known to use the following malware."
+        flowables.append(platy.Paragraph(p, ss['BodyText']))
 
-            bullets = []
-            for malware in sorted(m_s[:5], key=str.casefold):
-                p = platy.Paragraph(malware, ss['Normal'])
-                bullets.append(platy.ListItem(p, leftIndent=35))
-            flowables.append(platy.ListFlowable(bullets, bulletType='bullet'))
+        bullets = []
+        for malware in sorted(m_s[:5], key=str.casefold):
+            p = platy.Paragraph(malware, ss['Normal'])
+            bullets.append(platy.ListItem(p, leftIndent=35))
+        flowables.append(platy.ListFlowable(bullets, bulletType='bullet'))
 
-            flowables.append(
-                platy.Paragraph('Attack Patterns', ss['Heading2']))
-            for t in ttps:
-                ttp = fs_real.query([
-                    Filter("type", "=", "attack-pattern"),
-                    Filter("id", "=", t)])[0]
-                p = f"{ttp.name}"
-                flowables.append(platy.Paragraph(p, ss['Italic']))
-                p = []
-                for ref in ttp.external_references:
-                    if ref.source_name == "mitre-attack":
-                        p.append("Mitre Attack: "+ref.external_id)
-                    elif ref.source_name == "capec":
-                        p.append(ref.external_id)
-                if len(p) > 0:
-                    p = "(" + ", ".join(p) + ")\n"
-                    flowables.append(platy.Paragraph(p, ss['BodyText']))
-                else:
-                    try:
-                        flowables.append(platy.Paragraph(
-                            ttp.description+'\n', ss['BodyText']))
-                    except AttributeError:
-                        pass
-                flowables.append(platy.Paragraph("", ss['Heading2']))
+        flowables.append(
+            platy.Paragraph('Attack Patterns', ss['Heading2']))
+        for t in ttps:
+            ttp = fs_real.query([
+                Filter("type", "=", "attack-pattern"),
+                Filter("id", "=", t)])[0]
+            p = f"{ttp.name}"
+            flowables.append(platy.Paragraph(p, ss['Italic']))
+            p = []
+            for ref in ttp.external_references:
+                if ref.source_name == "mitre-attack":
+                    p.append("Mitre Attack: "+ref.external_id)
+                elif ref.source_name == "capec":
+                    p.append(ref.external_id)
+            if len(p) > 0:
+                p = "(" + ", ".join(p) + ")\n"
+                flowables.append(platy.Paragraph(p, ss['BodyText']))
+            else:
+                try:
+                    flowables.append(platy.Paragraph(
+                        ttp.description+'\n', ss['BodyText']))
+                except AttributeError:
+                    pass
+            flowables.append(platy.Paragraph("", ss['Heading2']))
 
-            flowables.append(
-                platy.Paragraph('Related Reporting', ss['Heading2']))
-            p = f"These reported incidents are likely or highly likely to be \
-                attributed to {actor.name}, though there may be others:"
-            flowables.append(platy.Paragraph(p, ss['BodyText']))
-            sightings = fs.query([
-                Filter("type", "=", "sighting"),
-                Filter("sighting_of_ref", "=", actor.id)])
-            r_nums = [
-                str(s.first_seen).replace('-', '') for s in sightings][:15]
-            bullets = []
-            for r in sorted(r_nums):
-                p = platy.Paragraph(
-                    r.replace(' ', '_').replace(':', '')[:15], ss['Normal'])
-                bullets.append(platy.ListItem(p, leftIndent=35))
-            flowables.append(platy.ListFlowable(bullets, bulletType='bullet'))
+        flowables.append(
+            platy.Paragraph('Related Reporting', ss['Heading2']))
+        p = f"These reported incidents are likely or highly likely to be \
+            attributed to {actor.name}, though there may be others:"
+        flowables.append(platy.Paragraph(p, ss['BodyText']))
+        sightings = fs_gen.query([
+            Filter("type", "=", "sighting"),
+            Filter("sighting_of_ref", "=", actor.id)])
+        r_nums = [
+            str(s.first_seen).replace('-', '') for s in sightings][:15]
+        bullets = []
+        for r in sorted(r_nums):
+            p = platy.Paragraph(
+                r.replace(' ', '_').replace(':', '')[:15], ss['Normal'])
+            bullets.append(platy.ListItem(p, leftIndent=35))
+        flowables.append(platy.ListFlowable(bullets, bulletType='bullet'))
 
-            pdf.build(flowables)
+        pdf.build(flowables)
 
 
 def create_organization(stix, fs, country, org_names, assessment):

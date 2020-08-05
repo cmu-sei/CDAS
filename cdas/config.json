@@ -18,7 +18,7 @@
        "countries": {
            "randomize": true,
            "random_vars": {
-               "num_countries": 10
+               "num_countries": 50
            },
            "non_random_vars": {
                 "country_data": "data/cia_world_factbook/"

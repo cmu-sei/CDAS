@@ -98,51 +98,48 @@ def simulate(actors, orgs, tools, malwares, fs, start_date, td):
             if len(mw_rels) == 0:
                 fs.add(Relationship(agent, 'uses', malware.id))
         target_description = json.loads(target.description)
+
+        description = f'On {str(start_date)[:10]}, '
         if success is True:
-            description = (
-                f'On {str(start_date)[:10]}, an attacker successfully attacked'
-                f' a company named {target.name.upper()} located in the '
-                f'country of '
-                f'{target_description["Background"]["headquarters"]} to '
-                f'{np.random.choice(agent.goals)}. The tool, {tool.name}, was '
-                f'used during the course of the attack, and one of the '
-                f'indicators discovered was the {indicator_type}, '
-                f'{random_indicator(indicator_type)}.')
+            description += 'an attacker successfully attacked a company named '
         else:
-            description = (
-                f'On {str(start_date)[:10]}, an attack was attempted against '
-                f'a company named {target.name.upper()} located in the country'
-                f' of {target_description["Background"]["headquarters"]}. The '
-                f'attacker used the tool, {tool.name}, during its attack. It '
-                f'is believed the attack was an unsuccessful attempt to '
-                f'{np.random.choice(agent.goals)}, and one of the indicators '
-                f'discovered was the {indicator_type}, '
-                f'{random_indicator(indicator_type)}.')
+            description += 'an attack was attempted against a company named '
+        description += (
+            f'{target.name.upper()} located in the country of '
+            f'{target_description["Background"]["headquarters"]}. The '
+            f'attacker used the tool, {tool.name}, during its attack. ') 
+        if hasattr(agent,'goals'):
+            description += (
+                f'It is believed the goal of the attack was to '
+                f'{np.random.choice(agent.goals)}.')
+        description += (
+            f' One of the indicators discovered was the {indicator_type}, '
+            f'{random_indicator(indicator_type)}.')
         if used_malware == 'yes':
             description += (
                 f' The attacker also attempted to use the malware '
                 f'{malware.name}.')
-        sighting_of_ref = agent.id
 
         fs.add(Sighting(
             description=description,
             first_seen=start_date,
-            sighting_of_ref=sighting_of_ref))
+            sighting_of_ref=agent.id))
         start_date += timedelta(td)
 
 # @TODO add "defense" option back in as closure of vulnerabilities
 
 
-def save(e, agent_store, vuln_store, filename, output_type):
+def save(e, apt_store, vuln_store, filename, output_type):
     r_num = str(
         e.first_seen).replace('-', '').replace(' ', '_').replace(':', '')
+
     if 'vulnerability' in e.sighting_of_ref:
         p = "References"
         vuln = vuln_store.query(Filter("id", "=", e.sighting_of_ref))[0]
         p2 = vuln.name + ": " + vuln.description
     else:
         p = "Possible attribution"
-        p2 = agent_store.query(Filter("id", "=", e.sighting_of_ref))[0].name
+        p2 = apt_store.query(Filter("id", "=", e.sighting_of_ref))[0].name
 
     if output_type == "pdf":
         ss = getSampleStyleSheet()

@@ -101,6 +101,11 @@ def arguments():
     args.random_geodata = pkg_resources.resource_filename(
         __name__, config["context"]["data_choices"])
 
+    # Validate arguments
+    for ot in args.output_types:
+        if ot not in ['stix', 'pdf', 'json']:
+            sys.exit(f"ERROR: {ot} is not a valid output type")
+
     print("Configuration\n_____________")
     for arg in args.__dict__:
         print(f"    {arg}\t{args.__dict__[arg]}")
@@ -282,6 +287,7 @@ def main(args, config):
         stix_vocab = json.load(json_file)
     json_file.close()
     if config['agents']['randomize_threat_actors'] is True:
+        apt_store = fs_gen
         with open(pkg_resources.resource_filename(
                 __name__,
                 config['agents']['random_variables']['actor_name_1']), encoding='utf-8') as f:
@@ -295,11 +301,15 @@ def main(args, config):
         actors = 1
         while actors <= config['agents']['random_variables']['num_agents']:
             agents.create_threatactor(
-                stix_vocab, nouns, adjectives, countries, fs_gen)
+                stix_vocab, nouns, adjectives, countries, apt_store)
             actors += 1
     else:
         # no randomization - use provided data set
-        raise NotImplementedError("Feature: Pre-defined threat actors not implemented yet")
+        if config['agents']['non_random_vars']['apt_data'] == "mitre_cti":
+            apt_store = fs_real
+        else:
+            apt_store = FileSystemStore(
+                config['agents']['non_random_vars']['apt_data'])
 
     # Create organizations
     print('Creating organizations...')
@@ -325,7 +335,7 @@ def main(args, config):
         config["simulation"]['time_range'][0], '%Y-%m-%d')
     end = datetime.strptime(config["simulation"]['time_range'][1], '%Y-%m-%d')
     td = end - start
-    actors = fs_gen.query(Filter("type", "=", "threat-actor"))
+    actors = apt_store.query(Filter("type", "=", "intrusion-set"))
     orgs = fs_gen.query([
         Filter("type", "=", "identity"),
         Filter("identity_class", "=", "organization")])
@@ -361,11 +371,13 @@ def main(args, config):
                 os.mkdir(args.output + '/reports/')
             for country in countries:
                 country.save(args.output + '/countries/', ot)
-            agents.save(args.output + '/actors/', ot, fs_gen, fs_real)
+            apts = apt_store.query(Filter("type", "=", "intrusion-set"))
+            for apt in apts:
+                agents.save(apt, args.output + '/actors/', ot, fs_gen, fs_real)
             events = fs_gen.query(Filter("type", "=", "sighting"))
             for e in events:
                 simulator.save(
-                    e, fs_gen, fs_real, args.output + '/reports/', ot)
+                    e, apt_store, fs_real, args.output + '/reports/', ot)
 
     shutil.rmtree(temp_path)
 
