@@ -63,7 +63,7 @@ $ pip3 install .
 3. To test that CDAS is installed properly run
 
 ```
-$ python -m cdas
+$ python3 -m cdas
 Output path ..\cdas-output does not exist.
             Create this directory? (y/n)
 $ y
