@@ -94,9 +94,12 @@ def arguments():
     if not args.num_countries:
         args.num_countries = config["context"]['countries']['random_vars']['num_countries']
     if not args.country_data and args.randomize_geopol is False:
-        args.country_data = pkg_resources.resource_filename(
-            __name__,
-            config["context"]["countries"]["non_random_vars"]["country_data"])
+        c_d = config["context"]["countries"]["non_random_vars"]["country_data"] 
+        if c_d == "cia_world_factbook":
+            args.country_data = pkg_resources.resource_filename(
+                __name__, 'data/' + c_d + '/')
+        else:
+            args.country_data = c_d
 
     args.random_geodata = pkg_resources.resource_filename(
         __name__, config["context"]["data_choices"])

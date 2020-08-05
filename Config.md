@@ -28,6 +28,8 @@ The CDAS configuration file has five sections: Context, Assets, Agents, Simulati
 
 ## Configuration
 
+This document descibes the variables in the configuraiton file. See the [Examples.md](Examples.md) file for examples of various use cases. 
+
 ### Context Configuration
 
 This section defines the configuration for the geopolitical context component of the simulator.
@@ -42,7 +44,7 @@ The context section of the configuration file looks like this:
             "num_countries": 10
         },
         "non_random_vars": {
-            "country_data": "data/cia_world_factbook/"
+            "country_data": "cia_world_factbook"
         }
     },
     "data_choices": "data/geopol_data.json"
