@@ -94,7 +94,7 @@ CDAS is configured via the config.json file in the cdas python module folder. Us
 Many of the variables in the configuration file can be changed with command line flags. See the help menu for information on available flags.
 
 ```
-$ python -m cdas -h
+$ python3 -m cdas -h
 ```
 
 ## License
