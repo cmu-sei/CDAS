@@ -23,9 +23,9 @@
     "population": "3,189,068",
     "nationality": "Puerto Rican(s) (US citizens)",
     "ethnic_groups": {
-        "white": "75.8%", 
-        "black/African American": "12.4%", 
-        "other": "8.5%", 
+        "white": "75.8%",
+        "black/African American": "12.4%",
+        "other": "8.5%",
         "mixed": "3.3%"
     },
     "languages": {
@@ -33,11 +33,16 @@
         "English": ""
     },
     "religions": {
-        "Roman Catholic": "85%", 
-        "Protestant and other": "15%"},
-    "government_type": "republican form of government with separate executive, legislative, and judicial branches; unincorporated organized territory of the US with local self-government",
+        "Roman Catholic": "85%",
+        "Protestant and other": "15%"
+    },
+    "government_type": "republican form of government with separate executive, legislative, and judicial branches; unincorporated organized territory of the US with local self-government\n        \n      \n\n      Note: reference Puerto Rican Federal Relations Act, 2 March 1917, as amended by Public Law 600, 3 July 1950",
     "national_symbols": "Puerto Rican spindalis (bird), coqui (frog)",
-    "national_colors": ["red", "white", "blue"],
+    "national_colors": [
+        "red",
+        "white",
+        "blue"
+    ],
     "gdp": "$104.2 billion",
     "agriculture": [
         "sugarcane",
@@ -88,5 +93,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "29",
-    "international_disputes": "increasing numbers of illegal migrants from the Dominican Republic cross the Mona Passage to Puerto Rico each year looking for work"
+    "international_disputes": "increasing numbers of illegal migrants from the Dominican Republic cross the Mona Passage to Puerto Rico each year looking for work",
+    "terrorism": "Unknown"
 }

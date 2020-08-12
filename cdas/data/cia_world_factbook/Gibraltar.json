@@ -1,6 +1,6 @@
 {
     "name": "Gibraltar",
-    "background": "Strategically important, Gibraltar was reluctantly ceded to Great Britain by Spain in the 1713 Treaty of Utrecht; the British garrison was formally declared a colony in 1830. In a referendum held in 1967, Gibraltarians voted overwhelmingly to remain a British dependency. The subsequent granting of autonomy in 1969 by the UK led Spain to close the border and sever all communication links. Between 1997 and 2002, the UK and Spain held a series of talks on establishing temporary joint sovereignty over Gibraltar. In response to these talks, the Gibraltar Government called a referendum in late 2002 in which the majority of citizens voted overwhelmingly against any sharing of sovereignty with Spain. Since late 2004, Spain, the UK, and Gibraltar have held tripartite talks with the aim of cooperatively resolving problems that affect the local population, and work continues on cooperation agreements in areas such as taxation and financial services; communications and maritime security; policy, legal and customs services; environmental protection; and education and visa services. A new noncolonial constitution came into force in 2007, and the European Court of First Instance recognized Gibraltar's right to regulate its own tax regime in December 2008. The UK retains responsibility for defense, foreign relations, internal security, and financial stability.\nSpain and the UK continue to spar over the territory. Throughout 2009, a dispute over Gibraltar's claim to territorial waters extending out three miles gave rise to periodic non-violent maritime confrontations between Spanish and UK naval patrols and in 2013, the British reported a record number of entries by Spanish vessels into waters claimed by Gibraltar following a dispute over Gibraltar's creation of an artificial reef in those waters. Spain renewed its demands for an eventual return of Gibraltar to Spanish control after the UK’s June 2016 vote to leave the EU, but London has dismissed any connection between the vote and its continued sovereignty over Gibraltar. The EU has said that Gibraltar will be ouside the territorial scope of any future UK-EU trade deal and that separate agreements between the EU and UK regarding Gibraltar would require Spain's prior approval.",
+    "background": "Strategically important, Gibraltar was reluctantly ceded to Great Britain by Spain in the 1713 Treaty of Utrecht; the British garrison was formally declared a colony in 1830. In a referendum held in 1967, Gibraltarians voted overwhelmingly to remain a British dependency. The subsequent granting of autonomy in 1969 by the UK led Spain to close the border and sever all communication links. Between 1997 and 2002, the UK and Spain held a series of talks on establishing temporary joint sovereignty over Gibraltar. In response to these talks, the Gibraltar Government called a referendum in late 2002 in which the majority of citizens voted overwhelmingly against any sharing of sovereignty with Spain. Since late 2004, Spain, the UK, and Gibraltar have held tripartite talks with the aim of cooperatively resolving problems that affect the local population, and work continues on cooperation agreements in areas such as taxation and financial services; communications and maritime security; policy, legal and customs services; environmental protection; and education and visa services. A new noncolonial constitution came into force in 2007, and the European Court of First Instance recognized Gibraltar's right to regulate its own tax regime in December 2008. The UK retains responsibility for defense, foreign relations, internal security, and financial stability.\nSpain and the UK continue to spar over the territory. Throughout 2009, a dispute over Gibraltar's claim to territorial waters extending out three miles gave rise to periodic non-violent maritime confrontations between Spanish and UK naval patrols and in 2013, the British reported a record number of entries by Spanish vessels into waters claimed by Gibraltar following a dispute over Gibraltar's creation of an artificial reef in those waters. Spain renewed its demands for an eventual return of Gibraltar to Spanish control after the UK's June 2016 vote to leave the EU, but London has dismissed any connection between the vote and its continued sovereignty over Gibraltar. The EU has said that Gibraltar will be ouside the territorial scope of any future UK-EU trade deal and that separate agreements between the EU and UK regarding Gibraltar would require Spain's prior approval.",
     "coordinates": "36 08 N, 5 21 W",
     "region": "Europe",
     "total_area": "6.5 sq km",
@@ -36,18 +36,23 @@
         "Portuguese": ""
     },
     "religions": {
-        "Roman Catholic": "72.1%", 
-        "Church of England": "7.7%", 
-        "other Christian": "3.8%", 
-        "Muslim": "3.6%", 
-        "Jewish": "2.4%", 
-        "Hindu": "2%", 
-        "other": "1.1%", 
-        "none": "7.1%", 
-        "unspecified": "0.1%"},
+        "Roman Catholic": "72.1%",
+        "Church of England": "7.7%",
+        "other Christian": "3.8%",
+        "Muslim": "3.6%",
+        "Jewish": "2.4%",
+        "Hindu": "2%",
+        "other": "1.1%",
+        "none": "7.1%",
+        "unspecified": "0.1%"
+    },
     "government_type": "parliamentary democracy (Parliament); self-governing overseas territory of the UK",
     "national_symbols": "Barbary macaque",
-    "national_colors": ["red", "white", "yellow"],
+    "national_colors": [
+        "red",
+        "white",
+        "yellow"
+    ],
     "gdp": "$2.044 billion",
     "agriculture": [
         "none"
@@ -59,7 +64,7 @@
         "tobacco"
     ],
     "exports": [
-        "petroleum",
+        "(principally reexports) petroleum",
         "manufactured goods"
     ],
     "imports": [
@@ -81,5 +86,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "1",
-    "international_disputes": "in 2002, Gibraltar residents voted overwhelmingly by referendum to reject any \"shared sovereignty\" arrangement; the Government of Gibraltar insists on equal participation in talks between the UK and Spain; Spain disapproves of UK plans to grant Gibraltar even greater autonomy"
+    "international_disputes": "in 2002, Gibraltar residents voted overwhelmingly by referendum to reject any \"shared sovereignty\" arrangement; the Government of Gibraltar insists on equal participation in talks between the UK and Spain; Spain disapproves of UK plans to grant Gibraltar even greater autonomy",
+    "terrorism": "Unknown"
 }

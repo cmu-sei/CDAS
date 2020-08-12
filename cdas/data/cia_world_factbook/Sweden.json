@@ -1,6 +1,6 @@
 {
     "name": "Sweden",
-    "background": "A military power during the 17th century, Sweden has not participated in any war for two centuries. An armed neutrality was preserved in both World Wars. Since then, Sweden has pursued a successful economic formula consisting of a capitalist system intermixed with substantial welfare elements. Sweden joined the EU in 1995, but the public rejected the introduction of the euro in a 2003 referendum. The share of Sweden’s population born abroad increased from 11.3% in 2000 to 19.1% in 2018.",
+    "background": "A military power during the 17th century, Sweden has not participated in any war for two centuries. An armed neutrality was preserved in both World Wars. Since then, Sweden has pursued a successful economic formula consisting of a capitalist system intermixed with substantial welfare elements. Sweden joined the EU in 1995, but the public rejected the introduction of the euro in a 2003 referendum. The share of Sweden's population born abroad increased from 11.3% in 2000 to 19.1% in 2018.",
     "coordinates": "62 00 N, 15 00 E",
     "region": "Europe",
     "total_area": "450,295 sq km",
@@ -33,17 +33,23 @@
     ],
     "population": "10,202,491",
     "nationality": "Swede(s)",
-    "ethnic_groups": {"":""},
+    "ethnic_groups": {
+        "": ""
+    },
     "languages": {
         "Swedish (official)": ""
     },
     "religions": {
-        "Church of Sweden (Lutheran)": "60.2%", 
-        "other": "8.5%", 
-        "none or unspecified": "31.3%"},
+        "Church of Sweden": "60.2%",
+        "other": "8.5%",
+        "none or unspecified": "31.3%"
+    },
     "government_type": "parliamentary constitutional monarchy",
     "national_symbols": "three crowns, lion",
-    "national_colors": ["blue", "yellow"],
+    "national_colors": [
+        "blue",
+        "yellow"
+    ],
     "gdp": "$535.6 billion",
     "agriculture": [
         "barley",
@@ -54,9 +60,7 @@
     ],
     "industries": [
         "iron and steel",
-        "precision equipment",
-        "radio and telephone parts",
-        "armaments",
+        "precision equipment (bearings, radio and telephone parts, armaments)",
         "wood pulp and paper products",
         "processed foods",
         "motor vehicles"
@@ -82,7 +86,7 @@
     "internet_users": "9,041,427",
     "mobile_subscriptions": "12,647,103",
     "internet_country_code": ".se",
-    "military_and_security_forces": "Swedish Armed Forces (Forsvarsmakten): Army, Navy, Air Force, Home Guard",
+    "military_and_security_forces": "Swedish Armed Forces (Forsvarsmakten): Army, Navy, Air Force; Home Guard",
     "percent_GDP_on_military": "1.1%",
     "pipelines": [
         "1626 km gas"
@@ -92,5 +96,7 @@
         "LNG terminal(s) (import)": "Brunnsviksholme, Lysekil"
     },
     "waterways": "2,052 km",
-    "number_of_airports": "231"
+    "number_of_airports": "231",
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

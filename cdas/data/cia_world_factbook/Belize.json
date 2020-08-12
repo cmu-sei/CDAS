@@ -49,11 +49,11 @@
         "none": "0.2%"
     },
     "religions": {
-        "Roman Catholic": "40.1%", 
-        "Protestant": "31.5%", 
-        "Jehovah's Witness": "1.7%", 
-        "other": "10.5%", 
-        "unspecified": "0.6%", 
+        "Roman Catholic": "40.1%",
+        "Protestant": "31.5%",
+        "Jehovah's Witness": "1.7%",
+        "other": "10.5%",
+        "unspecified": "0.6%",
         "none": "15.5%"
     },
     "government_type": "parliamentary democracy (National Assembly) under a constitutional monarchy; a Commonwealth realm",
@@ -113,5 +113,6 @@
     },
     "waterways": "825 km",
     "number_of_airports": "47",
-    "international_disputes": "Guatemala persists in its territorial claim to approximately half of Belize, but agrees to the Line of Adjacency to keep Guatemalan squatters out of Belize's forested interior; both countries agreed in April 2012 to hold simultaneous referenda, scheduled for 6 October 2013, to decide whether to refer the dispute to the ICJ for binding resolution, but this vote was suspended indefinitely; Belize and Mexico are working to solve minor border demarcation discrepancies arising from inaccuracies in the 1898 border treaty"
+    "international_disputes": "Guatemala persists in its territorial claim to approximately half of Belize, but agrees to the Line of Adjacency to keep Guatemalan squatters out of Belize's forested interior; both countries agreed in April 2012 to hold simultaneous referenda, scheduled for 6 October 2013, to decide whether to refer the dispute to the ICJ for binding resolution, but this vote was suspended indefinitely; Belize and Mexico are working to solve minor border demarcation discrepancies arising from inaccuracies in the 1898 border treaty",
+    "terrorism": "Unknown"
 }

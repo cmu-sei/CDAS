@@ -66,15 +66,15 @@
         "unspecified": "6.5%"
     },
     "religions": {
-        "Protestant": "23.1%", 
-        "Roman Catholic": "22.6%", 
-        "other Christian": "4.2%", 
-        "Muslim": "2.6%", 
-        "Buddhist": "2.4%", 
-        "Orthodox": "2.3%", 
-        "Hindu": "1.9%", 
-        "other": "1.3%", 
-        "none": "30.1%", 
+        "Protestant": "23.1%",
+        "Roman Catholic": "22.6%",
+        "other Christian": "4.2%",
+        "Muslim": "2.6%",
+        "Buddhist": "2.4%",
+        "Orthodox": "2.3%",
+        "Hindu": "1.9%",
+        "other": "1.3%",
+        "none": "30.1%",
         "unspecified": "9.6%"
     },
     "government_type": "federal parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
@@ -145,5 +145,6 @@
     },
     "waterways": "2,000 km",
     "number_of_airports": "418",
-    "international_disputes": "In 2007, Australia and Timor-Leste agreed to a 50-year development zone and revenue sharing arrangement and deferred a maritime boundary; Australia asserts land and maritime claims to Antarctica; Australia's 2004 submission to the Commission on the Limits of the Continental Shelf extends its continental margins over 3.37 million square kilometers, expanding its seabed roughly 30 percent beyond its claimed EEZ; all borders between Indonesia and Australia have been agreed upon bilaterally, but a 1997 treaty that would settle the last of their maritime and EEZ boundary has yet to be ratified by Indonesia's legislature; Indonesian groups challenge Australia's claim to Ashmore Reef; Australia closed parts of the Ashmore and Cartier reserve to Indonesian traditional fishing"
+    "international_disputes": "In 2007, Australia and Timor-Leste agreed to a 50-year development zone and revenue sharing arrangement and deferred a maritime boundary; Australia asserts land and maritime claims to Antarctica; Australia's 2004 submission to the Commission on the Limits of the Continental Shelf extends its continental margins over 3.37 million square kilometers, expanding its seabed roughly 30 percent beyond its claimed EEZ; all borders between Indonesia and Australia have been agreed upon bilaterally, but a 1997 treaty that would settle the last of their maritime and EEZ boundary has yet to be ratified by Indonesia's legislature; Indonesian groups challenge Australia's claim to Ashmore Reef; Australia closed parts of the Ashmore and Cartier reserve to Indonesian traditional fishing",
+    "terrorism": "Unknown"
 }

@@ -39,17 +39,17 @@
     "population": "84,923,314",
     "nationality": "Iranian(s)",
     "ethnic_groups": {
-        "Persian":"",
-        "Azeri":"",
-        "Kurd":"",
-        "Lur":"",
-        "Baloch":"",
-        "Arab":"", 
-        "Turkmen and Turkic tribes":""
+        "Persian": "",
+        "Azeri": "",
+        "Kurd": "",
+        "Lur": "",
+        "Baloch": "",
+        "Arab": "",
+        "Turkmen and Turkic tribes": ""
     },
     "languages": {
-        "Persian Farsi (official)": "",
-        "Azeri and other Turkic dialects": "",
+        "Persian Farsi (official)": "",
+        "Azeri and other Turkic dialects": "",
         "Kurdish": "",
         "Gilaki and Mazandarani": "",
         "Luri": "",
@@ -57,10 +57,17 @@
         "Arabic": ""
     },
     "religions": {
-        "Muslim (official)": "99.4%", "other": "0.3%", "unspecified": "0.4%"},
+        "Muslim": "99.4%",
+        "other": "0.3%",
+        "unspecified": "0.4%"
+    },
     "government_type": "theocratic republic",
     "national_symbols": "lion",
-    "national_colors": ["green", "white", "red"],
+    "national_colors": [
+        "green",
+        "white",
+        "red"
+    ],
     "gdp": "$430.7 billion",
     "agriculture": [
         "wheat",
@@ -102,7 +109,7 @@
         "technical services"
     ],
     "broadband_subscriptions": "9,806,123",
-    "internet_users": "67,600,000",
+    "internet_users": "67.6 million",
     "mobile_subscriptions": "88,722,442",
     "internet_country_code": ".ir",
     "military_and_security_forces": "Islamic Republic of Iran Regular Forces (Artesh): Ground Forces, Navy (includes marines), Air Force, Air Defense Forces; Islamic Revolutionary Guard Corps (Sepah, IRGC): Ground Forces, Navy (includes marines), Aerospace Force (controls strategic missile force), Qods Force (special operations), Cyber Command, Basij Paramilitary Forces (Popular Mobilization Army); Law Enforcement Forces (border and security troops, assigned to the armed forces in wartime)",
@@ -121,5 +128,12 @@
     },
     "waterways": "850 km",
     "number_of_airports": "319",
-    "international_disputes": "Iran protests Afghanistan's limiting flow of dammed Helmand River tributaries during drought; Iraq's lack of a maritime boundary with Iran prompts jurisdiction disputes beyond the mouth of the Shatt al Arab in the Persian Gulf; Iran and UAE dispute Tunb Islands and Abu Musa Island, which are occupied by Iran; Azerbaijan, Kazakhstan, and Russia ratified Caspian seabed delimitation treaties based on equidistance, while Iran continues to insist on a one-fifth slice of the sea; Afghan and Iranian commissioners have discussed boundary monument densification and resurvey"
+    "international_disputes": "Iran protests Afghanistan's limiting flow of dammed Helmand River tributaries during drought; Iraq's lack of a maritime boundary with Iran prompts jurisdiction disputes beyond the mouth of the Shatt al Arab in the Persian Gulf; Iran and UAE dispute Tunb Islands and Abu Musa Island, which are occupied by Iran; Azerbaijan, Kazakhstan, and Russia ratified Caspian seabed delimitation treaties based on equidistance, while Iran continues to insist on a one-fifth slice of the sea; Afghan and Iranian commissioners have discussed boundary monument densification and resurvey",
+    "terrorism": {
+        "Islamic Revolutionary Guard Corps (IRGC)": " protect Iran\u2019s Islamic Revolution; spread Shia influence; internal security, including border control, law enforcement, and suppressing domestic opposition; controls country\u2019s missiles and rockets; influence Iran\u2019s politics and economyarea of operation(s)",
+        "Islamic Revolutionary Guard Corps - Qods Force (IRGC-QF)": "protect Iran\u2019s Islamic Revolution; spread Shia influence; conduct clandestine overseas operations, often supporting other terrorist organizations (including Sunni groups like the Taliban when their goals align) with significant funding, logistics, training, or weaponry to commit terror attacks, either directly or through proxies; recruit, train, and equip foreign Islamic revolutionary groups throughout the Middle Eastarea(s) of operations",
+        "Jaysh al Adl": "formerly known as Jundallah\n",
+        "al-Qa'ida (AQ)": "unite the worldwide Muslim community, overthrow governments perceived as un-Islamic, and, ultimately, establish a pan-Islamic caliphate under a strict Salafi Muslim interpretation of sharia\n        (2018)\n",
+        "Kurdistan Workers' Party (PKK)": "advance Kurdish autonomy, political, and cultural rights in Iran, Turkey, Iraq, and Syriaarea(s) of operation"
+    }
 }

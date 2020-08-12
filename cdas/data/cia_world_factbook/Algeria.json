@@ -36,7 +36,7 @@
     "population": "42,972,878",
     "nationality": "Algerian(s)",
     "ethnic_groups": {
-        "Arab-Berber": "99%", 
+        "Arab-Berber": "99%",
         "European": "1%"
     },
     "languages": {
@@ -108,5 +108,10 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "149",
-    "international_disputes": "Algeria and many other states reject Moroccan administration of Western Sahara; the Polisario Front, exiled in Algeria, represents the \"Sahrawi Arab Democratic Republic\" which Algeria recognizes; the Algerian-Moroccan land border remains closed; dormant disputes include Libyan claims of about 32,000 sq km of southeastern Algeria and the National Liberation Front's (FLN) assertions of a claim to Chirac Pastures in southeastern Morocco."
+    "international_disputes": "Algeria and many other states reject Moroccan administration of Western Sahara; the Polisario Front, exiled in Algeria, represents the \"Sahrawi Arab Democratic Republic\" which Algeria recognizes; the Algerian-Moroccan land border remains closed; dormant disputes include Libyan claims of about 32,000 sq km of southeastern Algeria and the National Liberation Front's (FLN) assertions of a claim to Chirac Pastures in southeastern Morocco.",
+    "terrorism": {
+        "al-Qa'ida in the Islamic Maghreb (AQIM)": "overthrow various African regimes and replace them with one ruled by sharia; establish a regional Islamic caliphate across all of North and West Africaarea(s) of operation",
+        "Islamic State of Iraq and ash-Sham (ISIS)-Algeria": "replace the Algerian Government with an Islamic state and implement ISIS's strict interpretation of sharia;\u00a0 attack Algerian security services, local government targets, and Western interestsarea(s) of operation",
+        "al-Mulathamun Battalion": " expel Westerners from North and West Africa; create Islamic statearea(s) of operation"
+    }
 }

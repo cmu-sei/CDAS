@@ -1,6 +1,6 @@
 {
     "name": "Taiwan",
-    "background": "First inhabited by Austronesian people, Taiwan became home to Han immigrants beginning in the late Ming Dynasty (17th century). In 1895, military defeat forced China's Qing Dynasty to cede Taiwan to Japan, which then governed Taiwan for 50 years. Taiwan came under Chinese Nationalist (Kuomintang, KMT) control after World War II. With the communist victory in the Chinese civil war in 1949, the Nationalist-controlled Republic of China government and 2 million Nationalists fled to Taiwan and continued to claim to be the legitimate government for mainland China and Taiwan based on a 1947 Constitution drawn up for all of China. Until 1987, however, the Nationalist government ruled Taiwan under a civil war martial law declaration dating to 1948. Beginning in the 1970s, Nationalist authorities gradually began to incorporate the native population into the governing structure beyond the local level. The democratization process expanded rapidly in the 1980s, leading to the then illegal founding of Taiwan’s first opposition party (the Democratic Progressive Party or DPP) in 1986 and the lifting of martial law the following year. Taiwan held legislative elections in 1992, the first in over forty years, and its first direct presidential election in 1996. In the 2000 presidential elections, Taiwan underwent its first peaceful transfer of power with the KMT loss to the DPP and afterwards experienced two additional democratic transfers of power in 2008 and 2016. Throughout this period, the island prospered, became one of East Asia's economic \"Tigers,\" and after 2000 became a major investor in mainland China as cross-Strait ties matured. The dominant political issues continue to be economic reform and growth as well as management of sensitive relations between Taiwan and China.",
+    "background": "First inhabited by Austronesian people, Taiwan became home to Han immigrants beginning in the late Ming Dynasty (17th century). In 1895, military defeat forced China's Qing Dynasty to cede Taiwan to Japan, which then governed Taiwan for 50 years. Taiwan came under Chinese Nationalist (Kuomintang, KMT) control after World War II. With the communist victory in the Chinese civil war in 1949, the Nationalist-controlled Republic of China government and 2 million Nationalists fled to Taiwan and continued to claim to be the legitimate government for mainland China and Taiwan based on a 1947 Constitution drawn up for all of China. Until 1987, however, the Nationalist government ruled Taiwan under a civil war martial law declaration dating to 1948. Beginning in the 1970s, Nationalist authorities gradually began to incorporate the native population into the governing structure beyond the local level. The democratization process expanded rapidly in the 1980s, leading to the then illegal founding of Taiwan's first opposition party (the Democratic Progressive Party or DPP) in 1986 and the lifting of martial law the following year. Taiwan held legislative elections in 1992, the first in over forty years, and its first direct presidential election in 1996. In the 2000 presidential elections, Taiwan underwent its first peaceful transfer of power with the KMT loss to the DPP and afterwards experienced two additional democratic transfers of power in 2008 and 2016. Throughout this period, the island prospered, became one of East Asia's economic \"Tigers,\" and after 2000 became a major investor in mainland China as cross-Strait ties matured. The dominant political issues continue to be economic reform and growth as well as management of sensitive relations between Taiwan and China.",
     "coordinates": "23 30 N, 121 00 E",
     "region": "Southeast Asia",
     "total_area": "35,980 sq km",
@@ -28,7 +28,9 @@
     "population": "23,603,049",
     "nationality": "Taiwan (singular and plural)",
     "ethnic_groups": {
-        "Han Chinese":"95%", "indigenous Malayo-Polynesian peoples": "2.3%"},
+        "Han Chinese more than": "95%",
+        "indigenous Malayo-Polynesian peoples": "2.3%"
+    },
     "languages": {
         "Mandarin Chinese (official)": "",
         "Taiwanese": "",
@@ -36,14 +38,19 @@
         "approximately 16 indigenous languages": ""
     },
     "religions": {
-        "Buddhist": "35.3%", 
-        "Taoist": "33.2%", 
-        "Christian": "3.9%", 
-        "folk (includes Confucian) approximately": "10%", 
-        "none or unspecified": "18.2%"},
+        "Buddhist": "35.3%",
+        "Taoist": "33.2%",
+        "Christian": "3.9%",
+        "folk approximately": "10%",
+        "none or unspecified": "18.2%"
+    },
     "government_type": "semi-presidential republic",
     "national_symbols": "white, 12-rayed sun on blue field",
-    "national_colors": ["blue", "white", "red"],
+    "national_colors": [
+        "blue",
+        "white",
+        "red"
+    ],
     "gdp": "$572.6 billion",
     "agriculture": [
         "rice",
@@ -94,15 +101,15 @@
         "textiles"
     ],
     "broadband_subscriptions": "5,725,022",
-    "internet_users": "20,601,000",
+    "internet_users": "20.601 million",
     "mobile_subscriptions": "29,340,886",
     "internet_country_code": ".tw",
-    "military_and_security_forces": "Republic of China Armed Forces: Republic of China Army, Republic of China Navy (includes Marine Corps), Republic of China Air Force, Military Police Command, Armed Forces Reserve Command; Taiwan Coast Guard Administration (a law enforcement organization with homeland security functions during peacetime and national defense missions during wartime)",
+    "military_and_security_forces": "Taiwan Armed Forces: Army, Navy (includes Marine Corps), Air Force, Military Police Command, Armed Forces Reserve Command; Taiwan Coast Guard Administration (a law enforcement organization with homeland security functions during peacetime and national defense missions during wartime)",
     "percent_GDP_on_military": "1.7%",
     "pipelines": [
         "25 km condensate",
-        "2200 km gas",
-        "13500 km oil"
+        "2,200 km gas",
+        "13,500 km oil"
     ],
     "ports_and_terminals": {
         "major seaport(s)": "Keelung (Chi-lung), Kaohsiung, Hualian, Taichung",
@@ -111,5 +118,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "37",
-    "international_disputes": "involved in complex dispute with Brunei, China, Malaysia, the Philippines, and Vietnam over the Spratly Islands, and with China and the Philippines over Scarborough Reef; the 2002 \"Declaration on the Conduct of Parties in the South China Sea\" has eased tensions but falls short of a legally binding \"code of conduct\" desired by several of the disputants; Paracel Islands are occupied by China, but claimed by Taiwan and Vietnam; in 2003, China and Taiwan became more vocal in rejecting both Japan's claims to the uninhabited islands of the Senkaku-shoto (Diaoyu Tai) and Japan's unilaterally declared exclusive economic zone in the East China Sea where all parties engage in hydrocarbon prospecting"
+    "international_disputes": "involved in complex dispute with Brunei, China, Malaysia, the Philippines, and Vietnam over the Spratly Islands, and with China and the Philippines over Scarborough Reef; the 2002 \"Declaration on the Conduct of Parties in the South China Sea\" has eased tensions but falls short of a legally binding \"code of conduct\" desired by several of the disputants; Paracel Islands are occupied by China, but claimed by Taiwan and Vietnam; in 2003, China and Taiwan became more vocal in rejecting both Japan's claims to the uninhabited islands of the Senkaku-shoto (Diaoyu Tai) and Japan's unilaterally declared exclusive economic zone in the East China Sea where all parties engage in hydrocarbon prospecting",
+    "terrorism": "Unknown"
 }

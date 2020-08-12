@@ -45,7 +45,7 @@
     "languages": {
         "Croatian (official)": "95.6%",
         "Serbian": "1.2%",
-        "other": "3.3%",
+        "other": "3%",
         "unspecified": "0.2%"
     },
     "religions": {
@@ -65,27 +65,11 @@
     ],
     "gdp": "$54.76 billion",
     "agriculture": [
-        "wheat",
-        "corn",
-        "barley",
-        "sugar beet",
-        "sunflower",
-        "rapeseed",
-        "alfalfa",
-        "clover",
-        "potatoes",
-        "cabbage",
-        "onion",
-        "tomato",
-        "pepper",
-        "apples",
-        "plum",
-        "mandarins",
-        "olives",
+        "arable crops",
+        "vegetables",
+        "fruits",
         "grapes for wine",
-        "cattle",
-        "cows",
-        "pigs",
+        "livestock",
         "dairy products"
     ],
     "industries": [
@@ -124,7 +108,7 @@
     "mobile_subscriptions": "4,388,476",
     "internet_country_code": ".hr",
     "military_and_security_forces": "Armed Forces of the Republic of Croatia (Oruzane Snage Republike Hrvatske, OSRH) consists of five major commands directly subordinate to a General Staff: Ground Forces (Hrvatska Kopnena Vojska, HKoV), Naval Forces (Hrvatska Ratna Mornarica, HRM, includes Coast Guard), Air Force and Air Defense Command (Hrvatsko Ratno Zrakoplovstvo I Protuzracna Obrana), Joint Education and Training Command, Logistics Command; Military Police Force supports each of the three Croatian military forces",
-    "percent_GDP_on_military": "1.7%",
+    "percent_GDP_on_military": "1.68%",
     "pipelines": [
         "2410 km gas",
         "610 km oil"
@@ -136,5 +120,6 @@
     },
     "waterways": "785 km",
     "number_of_airports": "69",
-    "international_disputes": "dispute remains with Bosnia and Herzegovina over several small sections of the boundary related to maritime access that hinders ratification of the 1999 border agreement; since the breakup of Yugoslavia in the early 1990s, Croatia and Slovenia have each claimed sovereignty over Piranski Bay and four villages, and Slovenia has objected to Croatia's claim of an exclusive economic zone in the Adriatic Sea; in 2009, however Croatia and Slovenia signed a binding international arbitration agreement to define their disputed land and maritime borders, which led to Slovenia lifting its objections to Croatia joining the EU; Slovenia continues to impose a hard border Schengen regime with Croatia, which joined the EU in 2013 but has not yet fulfilled Schengen requirements"
+    "international_disputes": "dispute remains with Bosnia and Herzegovina over several small sections of the boundary related to maritime access that hinders ratification of the 1999 border agreement; since the breakup of Yugoslavia in the early 1990s, Croatia and Slovenia have each claimed sovereignty over Piranski Bay and four villages, and Slovenia has objected to Croatia's claim of an exclusive economic zone in the Adriatic Sea; in 2009, however Croatia and Slovenia signed a binding international arbitration agreement to define their disputed land and maritime borders, which led to Slovenia lifting its objections to Croatia joining the EU; Slovenia continues to impose a hard border Schengen regime with Croatia, which joined the EU in 2013 but has not yet fulfilled Schengen requirements",
+    "terrorism": "Unknown"
 }

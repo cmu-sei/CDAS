@@ -44,12 +44,13 @@
     "population": "7,012,165",
     "nationality": "Serb(s)",
     "ethnic_groups": {
-        "Serb": "83.3%", 
-        "Hungarian": "3.5%", 
-        "Romani": "2.1%", 
-        "Bosniak": "2%", 
-        "other": "5.7%", 
-        "undeclared or unknown": "3.4%"},
+        "Serb": "83.3%",
+        "Hungarian": "3.5%",
+        "Romani": "2.1%",
+        "Bosniak": "2%",
+        "other": "5.7%",
+        "undeclared or unknown": "3.4%"
+    },
     "languages": {
         "Serbian (official)": "88.1%",
         "Hungarian": "3.4%",
@@ -59,16 +60,21 @@
         "undeclared or unknown": "1.8%"
     },
     "religions": {
-        "Orthodox": "84.6%", 
-        "Catholic": "5%", 
-        "Muslim": "3.1%", 
-        "Protestant": "1%", 
-        "atheist": "1.1%", 
-        "other": "0.8%", 
-        "undeclared or unknown": "4.5%"},
+        "Orthodox": "84.6%",
+        "Catholic": "5%",
+        "Muslim": "3.1%",
+        "Protestant": "1%",
+        "atheist": "1.1%",
+        "other": "0.8%",
+        "undeclared or unknown": "4.5%"
+    },
     "government_type": "parliamentary republic",
     "national_symbols": "white double-headed eagle",
-    "national_colors": ["red", "blue", "white"],
+    "national_colors": [
+        "red",
+        "blue",
+        "white"
+    ],
     "gdp": "$41.43 billion",
     "agriculture": [
         "wheat",
@@ -76,8 +82,8 @@
         "sunflower",
         "sugar beets",
         "grapes/wine",
-        "fruits (raspberries, apples, sour cherries)",
-        "vegetables (tomatoes, peppers, potatoes)",
+        "fruits",
+        "vegetables",
         "beef",
         "pork",
         "and meat products",
@@ -119,7 +125,7 @@
     "internet_users": "4,790,488",
     "mobile_subscriptions": "8,431,365",
     "internet_country_code": ".rs",
-    "military_and_security_forces": "Serbian Armed Forces (Vojska Srbije, VS): Land Forces (includes Riverine Component, consisting of a river flotilla on the Danube), Air and Air Defense Forces; Ministry of Interior: Gendarmerie",
+    "military_and_security_forces": "Serbian Armed Forces (Vojska Srbije, VS): Land Forces (includes Riverine Component, consisting of a river flotilla on the Danube), Air and Air Defense Forces, Serbian Guard; Ministry of Interior: Gendarmerie",
     "percent_GDP_on_military": "2.2%",
     "pipelines": [
         "1936 km gas",
@@ -130,5 +136,6 @@
     },
     "waterways": "587 km",
     "number_of_airports": "26",
-    "international_disputes": "Serbia with several other states protest the US and other states' recognition of Kosovo's declaration of its status as a sovereign and independent state in February 2008; ethnic Serbian municipalities along Kosovo's northern border challenge final status of Kosovo-Serbia boundary; several thousand NATO-led Kosovo Force peacekeepers under UN Interim Administration Mission in Kosovo authority continue to keep the peace within Kosovo between the ethnic Albanian majority and the Serb minority in Kosovo; Serbia delimited about half of the boundary with Bosnia and Herzegovina, but sections along the Drina River remain in dispute"
+    "international_disputes": "Serbia with several other states protest the US and other states' recognition of Kosovo's declaration of its status as a sovereign and independent state in February 2008; ethnic Serbian municipalities along Kosovo's northern border challenge final status of Kosovo-Serbia boundary; several thousand NATO-led Kosovo Force peacekeepers under UN Interim Administration Mission in Kosovo authority continue to keep the peace within Kosovo between the ethnic Albanian majority and the Serb minority in Kosovo; Serbia delimited about half of the boundary with Bosnia and Herzegovina, but sections along the Drina River remain in dispute",
+    "terrorism": "Unknown"
 }

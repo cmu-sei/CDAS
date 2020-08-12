@@ -35,11 +35,11 @@
         "Creole": ""
     },
     "religions": {
-        "Protestant": "69.9%", 
-        "Roman Catholic": "12%", 
-        "other Christian": "13%", 
-        "other": "0.6%", 
-        "none": "1.9%", 
+        "Protestant": "69.9%",
+        "Roman Catholic": "12%",
+        "other Christian": "13%",
+        "other": "0.6%",
+        "none": "1.9%",
         "unspecified": "2.6%"
     },
     "government_type": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
@@ -95,5 +95,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "54",
-    "international_disputes": "disagrees with the US on the alignment of the northern axis of a potential maritime boundary"
+    "international_disputes": "disagrees with the US on the alignment of the northern axis of a potential maritime boundary",
+    "terrorism": "Unknown"
 }

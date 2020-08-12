@@ -43,7 +43,7 @@
         "Bosniak": "50.1%",
         "Serb": "30.8%",
         "Croat": "15.4%",
-        "other": "2.7%", 
+        "other": "2.7%",
         "not declared/no answer": "1%"
     },
     "languages": {
@@ -54,12 +54,12 @@
         "no answer": "0.2%"
     },
     "religions": {
-        "Muslim": "50.7%", 
-        "Orthodox": "30.7%", 
-        "Roman Catholic": "15.2%", 
-        "atheist": "0.8%", 
-        "agnostic": "0.3%", 
-        "other": "1.2%", 
+        "Muslim": "50.7%",
+        "Orthodox": "30.7%",
+        "Roman Catholic": "15.2%",
+        "atheist": "0.8%",
+        "agnostic": "0.3%",
+        "other": "1.2%",
         "undeclared/no answer": "1.1%"
     },
     "government_type": "parliamentary republic",
@@ -120,5 +120,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "24",
-    "international_disputes": "Serbia delimited about half of the boundary with Bosnia and Herzegovina, but sections along the Drina River remain in dispute"
+    "international_disputes": "Serbia delimited about half of the boundary with Bosnia and Herzegovina, but sections along the Drina River remain in dispute",
+    "terrorism": "Unknown"
 }

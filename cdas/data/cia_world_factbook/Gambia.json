@@ -1,6 +1,6 @@
 {
     "name": "The Gambia",
-    "background": "The Gambia gained its independence from the UK in 1965. Geographically surrounded by Senegal, it formed a short-lived Confederation of Senegambia between 1982 and 1989. In 1991, the two nations signed a friendship and cooperation treaty, although tensions flared up intermittently during the regime of Yahya JAMMEH. JAMMEH led a military coup in 1994 that overthrew the president and banned political activity. A new constitution and presidential election in 1996, followed by parliamentary balloting in 1997, completed a nominal return to civilian rule. JAMMEH was elected president in all subsequent elections including most recently in late 2011. After 22 years of increasingly authoritarian rule, President JAMMEH was defeated in free and fair elections in December 2016. Due to The Gambia’s poor human rights record under JAMMEH, international development partners had distanced themselves, and substantially reduced aid to the country. These channels have now reopened under the administration of President Adama BARROW, who took office in January 2017. The US and The Gambia currently enjoy improved relations. US assistance to the country has supported military education and training programs, as well as various capacity building and democracy strengthening activities.",
+    "background": "The Gambia gained its independence from the UK in 1965. Geographically surrounded by Senegal, it formed a short-lived Confederation of Senegambia between 1982 and 1989. In 1991, the two nations signed a friendship and cooperation treaty, although tensions flared up intermittently during the regime of Yahya JAMMEH. JAMMEH led a military coup in 1994 that overthrew the president and banned political activity. A new constitution and presidential election in 1996, followed by parliamentary balloting in 1997, completed a nominal return to civilian rule. JAMMEH was elected president in all subsequent elections including most recently in late 2011. After 22 years of increasingly authoritarian rule, President JAMMEH was defeated in free and fair elections in December 2016. Due to The Gambia's poor human rights record under JAMMEH, international development partners had distanced themselves, and substantially reduced aid to the country. These channels have now reopened under the administration of President Adama BARROW, who took office in January 2017. The US and The Gambia currently enjoy improved relations. US assistance to the country has supported military education and training programs, as well as various capacity building and democracy strengthening activities.",
     "coordinates": "13 28 N, 16 34 W",
     "region": "Africa",
     "total_area": "11,300 sq km",
@@ -47,11 +47,19 @@
         "other indigenous vernaculars": ""
     },
     "religions": {
-        "Muslim": "95.7%", "Christian": "4.2%", "none": "0.1%", 
-        "no response": "0.1%"},
+        "Muslim": "95.7%",
+        "Christian": "4.2%",
+        "none": "0.1%",
+        "no response": "0.1%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "lion",
-    "national_colors": ["red", "blue", "green", "white"],
+    "national_colors": [
+        "red",
+        "blue",
+        "green",
+        "white"
+    ],
     "gdp": "$1.482 billion",
     "agriculture": [
         "rice",
@@ -93,7 +101,7 @@
     "internet_users": "371,785",
     "mobile_subscriptions": "3,181,393",
     "internet_country_code": ".gm",
-    "military_and_security_forces": "Office of the Chief of Defense Staff: Gambian National Army (GNA), Gambian Navy (GN), Republican National Guard (RNG)",
+    "military_and_security_forces": "Office of the Chief of Defense Staff: Gambian National Army (GNA, includes marine and air elements)",
     "percent_GDP_on_military": "0.8%",
     "pipelines": [
         "Unknown"
@@ -103,5 +111,6 @@
     },
     "waterways": "390 km",
     "number_of_airports": "1",
-    "international_disputes": "attempts to stem refugees, cross-border raids, arms smuggling, and other illegal activities by separatists from southern Senegal's Casamance region, as well as from conflicts in other west African states"
+    "international_disputes": "attempts to stem refugees, cross-border raids, arms smuggling, and other illegal activities by separatists from southern Senegal's Casamance region, as well as from conflicts in other west African states",
+    "terrorism": "Unknown"
 }

@@ -13,7 +13,7 @@
     "natural_hazards": [
         "periodic cyclones",
         "drought",
-        "locust infestation",
+        "and locust infestation",
         "volcanism: Madagascar's volcanoes have not erupted in historical times"
     ],
     "terrain": "narrow coastal plain, high plateau and mountains in center",
@@ -35,22 +35,30 @@
     "population": "26,955,737",
     "nationality": "Malagasy (singular and plural)",
     "ethnic_groups": {
-        "Malayo-Indonesian (Merina and related Betsileo)":"", 
-        "Cotiers (mixed African, Malayo-Indonesian, and Arab ancestry - Betsimisaraka, Tsimihety, Antaisaka, Sakalava)":"", 
-        "French":"", 
-        "Indian":"",
-        "Creole":"",
-        "Comoran":""
+        "Malayo-Indonesian": "",
+        "Cotiers": "",
+        "French": "",
+        "Indian": "",
+        "Creole": "",
+        "Comoran": ""
     },
     "languages": {
         "French (official)": "",
         "Malagasy (official)": "",
         "English": ""
     },
-    "religions": {"Christian":"", "indigenous":"", "Muslim":""},
+    "religions": {
+        "Christian": "",
+        "indigenous": "",
+        "Muslim": ""
+    },
     "government_type": "semi-presidential republic",
     "national_symbols": "traveller's palm, zebu",
-    "national_colors": ["red", "green", "white"],
+    "national_colors": [
+        "red",
+        "green",
+        "white"
+    ],
     "gdp": "$11.5 billion",
     "agriculture": [
         "coffee",
@@ -115,5 +123,6 @@
     },
     "waterways": "600 km",
     "number_of_airports": "83",
-    "international_disputes": "claims Bassas da India, Europa Island, Glorioso Islands, and Juan de Nova Island (all administered by France); the vegetated drying cays of Banc du Geyser, which were claimed by Madagascar in 1976, also fall within the EEZ claims of the Comoros and France (Glorioso Islands, part of the French Southern and Antarctic Lands)"
+    "international_disputes": "claims Bassas da India, Europa Island, Glorioso Islands, and Juan de Nova Island (all administered by France); the vegetated drying cays of Banc du Geyser, which were claimed by Madagascar in 1976, also fall within the EEZ claims of the Comoros and France (Glorioso Islands, part of the French Southern and Antarctic Lands)",
+    "terrorism": "Unknown"
 }

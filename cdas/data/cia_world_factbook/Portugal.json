@@ -36,20 +36,27 @@
     ],
     "population": "10,302,674",
     "nationality": "Portuguese (singular and plural)",
-    "ethnic_groups": {"white homogeneous Mediterranean population; citizens of black African descent who immigrated to mainland during decolonization number less than 100,000; since 1990, Eastern Europeans have migrated to Portugal":""},
+    "ethnic_groups": {
+        "Eastern Europeans have migrated to Portugal": "",
+        "white homogeneous Mediterranean population; citizens of black African descent who immigrated to mainland during decolonization number 100,000; since 1990": ""
+    },
     "languages": {
         "Portuguese (official)": "",
         "Mirandese (official)": ""
     },
     "religions": {
-        "Roman Catholic": "81%", 
-        "other Christian": "3.3%", 
-        "other (includes Jewish, Muslim)": "0.6%", 
-        "none": "6.8%", 
-        "unspecified": "8.3%"},
+        "Roman Catholic": "81%",
+        "other Christian": "3.3%",
+        "other": "0.6%",
+        "none": "6.8%",
+        "unspecified": "8.3%"
+    },
     "government_type": "semi-presidential republic",
     "national_symbols": "armillary sphere (a spherical astrolabe modeling objects in the sky and representing the Republic)",
-    "national_colors": ["red", "green"],
+    "national_colors": [
+        "red",
+        "green"
+    ],
     "gdp": "$218 billion",
     "agriculture": [
         "grain",
@@ -123,7 +130,7 @@
     "mobile_subscriptions": "11,859,548",
     "internet_country_code": ".pt",
     "military_and_security_forces": "Portuguese Armed Forces: Portuguese Army (Exercito Portuguesa), Portuguese Navy (Marinha Portuguesa; includes Marine Corps), Portuguese Air Force (Forca Aerea Portuguesa, FAP); Portuguese National Republican Guard (Guarda Nacional Republicana, GNR)",
-    "percent_GDP_on_military": "1.5%",
+    "percent_GDP_on_military": "1.52%",
     "pipelines": [
         "1344 km gas",
         "11 km oil",
@@ -136,5 +143,6 @@
     },
     "waterways": "210 km",
     "number_of_airports": "64",
-    "international_disputes": "Portugal does not recognize Spanish sovereignty over the territory of Olivenza based on a difference of interpretation of the 1815 Congress of Vienna and the 1801 Treaty of Badajoz"
+    "international_disputes": "Portugal does not recognize Spanish sovereignty over the territory of Olivenza based on a difference of interpretation of the 1815 Congress of Vienna and the 1801 Treaty of Badajoz",
+    "terrorism": "Unknown"
 }

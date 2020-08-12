@@ -15,14 +15,12 @@
     ],
     "terrain": "generally flat",
     "population_distribution": "population fairly equally distributed",
-    "natural_resources": [
-        "NEGL"
-    ],
+    "natural_resources": [],
     "population": "614,458",
     "nationality": "Chinese",
     "ethnic_groups": {
-        "Chinese": "88.7%", 
-        "Portuguese": "1.1%", 
+        "Chinese": "88.7%",
+        "Portuguese": "1.1%",
         "mixed": "1.1%",
         "other": "9.2%"
     },
@@ -36,11 +34,12 @@
         "other": "2.8%"
     },
     "religions": {
-        "folk religionist": "58.9%", 
-        "Buddhist": "17.3%", 
-        "Christian": "7.2%", 
-        "other": "1.2%", 
-        "none": "15.4%"},
+        "folk religionist": "58.9%",
+        "Buddhist": "17.3%",
+        "Christian": "7.2%",
+        "other": "1.2%",
+        "none": "15.4%"
+    },
     "government_type": "executive-led limited democracy; a special administrative region of the People's Republic of China",
     "national_symbols": "lotus blossom",
     "national_colors": [
@@ -50,8 +49,12 @@
     ],
     "gdp": "$50.36 billion",
     "agriculture": [
-        "vegetable growers",
-        "fishing"
+        "only 2% of land area is cultivated",
+        "mainly by vegetable growers",
+        "fishing",
+        "mostly for crustaceans",
+        "is important",
+        "some of the catch is exported to Hong Kong"
     ],
     "industries": [
         "tourism",
@@ -72,11 +75,11 @@
     ],
     "imports": [
         "raw materials and semi-manufactured goods",
-        "foodstuffs",
+        "consumer goods (foodstuffs",
         "beverages",
         "tobacco",
         "garments and footwear",
-        "motor vehicles",
+        "motor vehicles)",
         "capital goods",
         "mineral fuels and oils"
     ],
@@ -93,5 +96,7 @@
         "major seaport(s)": "Macau"
     },
     "waterways": "Unknown",
-    "number_of_airports": "1"
+    "number_of_airports": "1",
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

@@ -1,6 +1,6 @@
 {
     "name": "Saint Lucia",
-    "background": "The island, with its fine natural harbor at Castries and burgeoning sugar industry, was contested between England and France throughout the 17th and early 18th centuries (changing possession 14 times); it was finally ceded to the UK in 1814 and became part of the British Windward Islands colony. Even after the abolition of slavery on its plantations in 1834, Saint Lucia remained an agricultural island, dedicated to producing tropical commodity crops. In the mid-20th century, Saint Lucia joined the West Indies Federation (1958–1962) and in 1967 became one of the six members of the West Indies Associated States, with internal self-government. In 1979, Saint Lucia gained full independence.",
+    "background": "The island, with its fine natural harbor at Castries and burgeoning sugar industry, was contested between England and France throughout the 17th and early 18th centuries (changing possession 14 times); it was finally ceded to the UK in 1814 and became part of the British Windward Islands colony. Even after the abolition of slavery on its plantations in 1834, Saint Lucia remained an agricultural island, dedicated to producing tropical commodity crops. In the mid-20th century, Saint Lucia joined the West Indies Federation (1958\u20131962) and in 1967 became one of the six members of the West Indies Associated States, with internal self-government. In 1979, Saint Lucia gained full independence.",
     "coordinates": "13 53 N, 60 58 W",
     "region": "Central America and the Caribbean",
     "total_area": "616 sq km",
@@ -26,26 +26,33 @@
     "population": "166,487",
     "nationality": "Saint Lucian(s)",
     "ethnic_groups": {
-        "black/African descent": "85.3%", 
-        "mixed": "10.9%", 
-        "East Indian": "2.2%", 
-        "other": "1.6%", 
-        "unspecified": "0.1%"},
+        "black/African descent": "85.3%",
+        "mixed": "10.9%",
+        "East Indian": "2.2%",
+        "other": "1.6%",
+        "unspecified": "0.1%"
+    },
     "languages": {
         "English (official)": "",
         "French patois": ""
     },
     "religions": {
-        "Roman Catholic": "61.5%", 
-        "Protestant": "25.5%", 
-        "other Christian": "3.4%", 
-        "Rastafarian": "1.9%", 
-        "other": "0.4%", 
-        "none": "5.9%", 
-        "unspecified": "1.4%"},
+        "Roman Catholic": "61.5%",
+        "Protestant": "25.5%",
+        "other Christian": "3.4%",
+        "Rastafarian": "1.9%",
+        "other": "0.4%",
+        "none": "5.9%",
+        "unspecified": "1.4%"
+    },
     "government_type": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
     "national_symbols": "twin pitons (volcanic peaks), Saint Lucia parrot",
-    "national_colors": ["cerulean blue", "gold", "black", "white"],
+    "national_colors": [
+        "cerulean blue",
+        "gold",
+        "black",
+        "white"
+    ],
     "gdp": "$1.686 billion",
     "agriculture": [
         "bananas",
@@ -93,5 +100,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "2",
-    "international_disputes": "joins other Caribbean states to counter Venezuela's claim that Aves Island sustains human habitation, a criterion under UN Convention on the Law of the Sea, which permits Venezuela to extend its EEZ/continental shelf over a large portion of the eastern Caribbean Sea"
+    "international_disputes": "joins other Caribbean states to counter Venezuela's claim that Aves Island sustains human habitation, a criterion under UN Convention on the Law of the Sea, which permits Venezuela to extend its EEZ/continental shelf over a large portion of the eastern Caribbean Sea",
+    "terrorism": "Unknown"
 }

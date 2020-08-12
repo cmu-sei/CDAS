@@ -1,6 +1,6 @@
 {
     "name": "Central African Republic",
-    "background": "The former French colony of Ubangi-Shari became the Central African Republic upon independence in 1960. After three tumultuous decades of misrule - mostly by military governments - civilian rule was established in 1993 but lasted only a decade. In March 2003, President Ange-Felix PATASSE was deposed in a military coup led by General Francois BOZIZE, who established a transitional government. Elections held in 2005 affirmed General BOZIZE as president; he was reelected in 2011 in voting widely viewed as flawed. The government still lacks full control of the countryside, where lawlessness persists. Several rebel groups joined together in early December 2012 to launch a series of attacks that left them in control of numerous towns in the northern and central parts of the country. The rebels - unhappy with BOZIZE's government - participated in peace talks in early January 2013 which resulted in a coalition government including the rebellion's leadership. In March 2013, the coalition government dissolved, rebels seized the capital, and President BOZIZE fled the country. Rebel leader Michel DJOTODIA assumed the presidency and the following month established a National Transitional Council (CNT). In January 2014, the CNT elected Catherine SAMBA-PANZA as interim president. Elections completed in March 2016 installed independent candidate Faustin-Archange TOUADERA as president; he continues to work towards peace between the government and armed groups, and is developing a disarmament, demobilization, reintegration, and repatriation program to reintegrate the armed groups into society.",
+    "background": "The former French colony of Ubangi-Shari became the Central African Republic upon independence in 1960. After three tumultuous decades of misrule - mostly by military governments - civilian rule was established in 1993 but lasted only a decade. In March 2003, President Ange-Felix PATASSE was deposed in a military coup led by General Francois BOZIZE, who established a transitional government. Elections held in 2005 affirmed General BOZIZE as president; he was reelected in 2011 in voting widely viewed as flawed. Several rebel groups joined together in early December 2012 to launch a series of attacks that left them in control of numerous towns in the northern and central parts of the country. The rebels - unhappy with BOZIZE's government - participated in peace talks in early January 2013 which resulted in a coalition government including the rebellion's leadership. In March 2013, the coalition government dissolved, rebels seized the capital, and President BOZIZE fled the country. Rebel leader Michel DJOTODIA assumed the presidency and the following month established a National Transitional Council (CNT). In January 2014, the CNT elected Catherine SAMBA-PANZA as interim president. Elections completed in March 2016 installed independent candidate Faustin-Archange TOUADERA as president; he continues to work towards peace between the government and armed groups, and is developing a disarmament, demobilization, reintegration, and repatriation program to reintegrate the armed groups into society. Nonetheless, as of early 2020 widespread violence continued, and the government in Bangui remains unable to extend control outside the capital.\u00a0Peace agreements signed in 2017 and 2019 between the government and the main armed factions have had little effect and armed groups operate openly and control large swaths - as much as two thirds by some estimates - of the country's territory.",
     "coordinates": "7 00 N, 21 00 E",
     "region": "Africa",
     "total_area": "622,984 sq km",
@@ -33,21 +33,29 @@
     "population": "5,990,855",
     "nationality": "Central African(s)",
     "ethnic_groups": {
-        "Baya": "33%",
-        "Banda": "27%",
-        "Mandjia": "13%",
-        "Sara": "10%",
-        "Mboum": "7%",
-        "M'Baka": "4%",
-        "Yakoma": "4%",
-        "other": "2%"
+        "Baya": "28.8%",
+        "Banda": "22.9%",
+        "Mandjia": "9.9%",
+        "Sara": "7.9%",
+        "M'Baka-Bantu": "7.9%",
+        "Arab-Fulani": "6%",
+        "Mbum": "6%",
+        "Ngbanki": "5.5%",
+        "Zande-Nzakara": "3%",
+        "other Central African Republic ethnic groups": "2%",
+        "non-Central African Republic ethnic groups": ".1%"
     },
     "languages": {
         "French (official)": "",
         "Sangho": "",
         "tribal languages": ""
     },
-    "religions": {},
+    "religions": {
+        "Christian": "89.5%",
+        "Muslim": "8.5%",
+        "folk": "1%",
+        "unaffiliated": "1%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "elephant",
     "national_colors": [
@@ -105,5 +113,6 @@
     },
     "waterways": "2,800 km",
     "number_of_airports": "39",
-    "international_disputes": "periodic skirmishes persist over water and grazing rights among related pastoral populations along the border with southern Sudan"
+    "international_disputes": "periodic skirmishes persist over water and grazing rights among related pastoral populations along the border with southern Sudan",
+    "terrorism": "Unknown"
 }

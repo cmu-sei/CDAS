@@ -27,19 +27,33 @@
     ],
     "population": "5,469,612",
     "nationality": "Lebanese (singular and plural)",
-    "ethnic_groups": {"Arab": "95%", "Armenian": "4%", "other": "1%"},
+    "ethnic_groups": {
+        "Arab": "95%",
+        "Armenian": "4%",
+        "other": "1%"
+    },
     "languages": {
-        "Arabic  (official)": "",
+        "Arabic (official)": "",
         "French": "",
         "English": "",
         "Armenian": ""
     },
     "religions": {
-        "Muslim": "61.1%", "Christian": "33.7%", "Druze": "5.2%", 
-        "very small numbers of Jews, Baha'is, Buddhists, and Hindus":""},
+        "Muslim": "61.1%",
+        "Christian": "33.7%",
+        "Druze": "5.2%",
+        "very small numbers of Jews": "",
+        "Baha'is": "",
+        "Buddhists": "",
+        "and Hindus": ""
+    },
     "government_type": "parliamentary republic",
     "national_symbols": "cedar tree",
-    "national_colors": ["red", "white", "green"],
+    "national_colors": [
+        "red",
+        "white",
+        "green"
+    ],
     "gdp": "$54.18 billion",
     "agriculture": [
         "citrus",
@@ -107,5 +121,16 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "8",
-    "international_disputes": "lacking a treaty or other documentation describing the boundary, portions of the Lebanon-Syria boundary are unclear with several sections in dispute; since 2000, Lebanon has claimed Shab'a Farms area in the Israeli-controlled Golan Heights; the roughly 2,000-strong UN Interim Force in Lebanon has been in place since 1978"
+    "international_disputes": "lacking a treaty or other documentation describing the boundary, portions of the Lebanon-Syria boundary are unclear with several sections in dispute; since 2000, Lebanon has claimed Shab'a Farms area in the Israeli-controlled Golan Heights; the roughly 2,000-strong UN Interim Force in Lebanon has been in place since 1978",
+    "terrorism": {
+        "Abdallah Azzam Brigades (AAB)": "enhance its networks in Lebanon to combat Shia Muslim influence in the country; seeks to disrupt Israel's economy and its efforts to establish security; attack Western interests in the Middle Eastarea(s) of operation",
+        "Asbat al-Ansar (AAA)": "overthrow the Lebanese Government, rid Lebanon of Western influences, destroy the state of Israel to seize Jerusalem and, ultimately, establish an Islamic state in the Levant regionarea(s) of operation",
+        "Hizballah": "accrue military resources and political power and defend its position of strength in Lebanon; destroy the state of Israel; counter the West; provide paramilitary support to Syrian President Bashar al-ASAD's regimearea(s) of operation",
+        "al-Aqsa Martyrs Brigade (AAMB)": "bolster its recruitment presence in Lebanon and, ultimately, establish a Palestinian state comprising the West Bank, Gaza Strip, and Jerusalemarea(s) of operation",
+        "al-Nusrah Front/al-Qa'ida": "bolster networks in Lebanon and, ultimately, establish a regional Islamic caliphatearea(s) of operation",
+        "Islamic Revolutionary Guard Corps -- Qods Force (IRGC-QF)": "support Lebanon\u2019s Hezbollah movement to advance Shia agenda through funding, training, and weapons area(s) of operations",
+        "Palestine Liberation Front (PLF)": "enhance its networks in Lebanon and, ultimately, destroy the state of Israel to establish a secular, Marxist Palestinian state with Jerusalem as its capitalarea(s) of operation",
+        "PFLP-General Command (PFLP-GC)": "enhance recruitment and operational networks in Lebanonarea(s) of operation",
+        "Popular Front for the Liberation of Palestine (PFLP)": "enhance its recruitment network in Lebanon and, ultimately, establish a secular, Marxist Palestinian statearea(s) of operation"
+    }
 }

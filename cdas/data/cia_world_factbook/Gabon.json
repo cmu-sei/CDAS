@@ -1,6 +1,6 @@
 {
     "name": "Gabon",
-    "background": "Following, independence from France in 1960, El Hadj Omar BONGO Ondimba - one of the longest-ruling heads of state in the world - dominated the country's political scene for four decades (1967-2009). President BONGO introduced a nominal multiparty system and a new constitution in the early 1990s. However, allegations of electoral fraud during local elections in December 2002 and the presidential election in 2005 exposed the weaknesses of formal political structures in Gabon. Following President BONGO's death in 2009, a new election brought his son, Ali BONGO Ondimba, to power. Despite constrained political conditions, Gabon's small population, abundant natural resources, and considerable foreign support have helped make it one of the more stable African countries.President Ali BONGO Ondimba’s controversial August 2016 reelection sparked unprecedented opposition protests that resulted in the burning of the parliament building. The election was contested by the opposition after fraudulent results were flagged by international election observers. Gabon’s Constitutional Court reviewed the election results but ruled in favor of President BONGO, upholding his win and extending his mandate to 2023.",
+    "background": "Following, independence from France in 1960, El Hadj Omar BONGO Ondimba - one of the longest-ruling heads of state in the world - dominated the country's political scene for four decades (1967-2009). President BONGO introduced a nominal multiparty system and a new constitution in the early 1990s. However, allegations of electoral fraud during local elections in December 2002 and the presidential election in 2005 exposed the weaknesses of formal political structures in Gabon. Following President BONGO's death in 2009, a new election brought his son, Ali BONGO Ondimba, to power. Despite constrained political conditions, Gabon's small population, abundant natural resources, and considerable foreign support have helped make it one of the more stable African countries.President Ali BONGO Ondimba's controversial August 2016 reelection sparked unprecedented opposition protests that resulted in the burning of the parliament building. The election was contested by the opposition after fraudulent results were flagged by international election observers. Gabon's Constitutional Court reviewed the election results but ruled in favor of President BONGO, upholding his win and extending his mandate to 2023.",
     "coordinates": "1 00 S, 11 45 E",
     "region": "Africa",
     "total_area": "267,667 sq km",
@@ -36,12 +36,14 @@
         "Gabonese-born": "80.1%",
         "Cameroonian": "4.6%",
         "Malian": "2.4%",
-        "Beninese": "2.1%", 
+        "Beninese": "2.1%",
         "acquired Gabonese nationality": "1.6%",
         "Togolese": "1.6%",
         "Senegalese": "1.1%",
-        "Congolese (Brazzaville)": "1%",
-        "other": "5.5%"
+        "Congolese": "1%",
+        "other": "5.5%",
+        "Equatorial Guinean": "",
+        "Nigerian)": ""
     },
     "languages": {
         "French (official)": "",
@@ -52,12 +54,21 @@
         "Bandjabi": ""
     },
     "religions": {
-        "Roman Catholic": "42.3%", "Protestant": "12.3%", 
-        "other Christian": "27.4%", "Muslim": "9.8%", "animist": "0.6", 
-        "other": "0.5%", "none/no answer": "7.1%"},
+        "Roman Catholic": "42.3%",
+        "Protestant": "12.3%",
+        "other Christian": "27.4%",
+        "Muslim": "9.8%",
+        "animist": "0.6%",
+        "other": "0.5%",
+        "none/no answer": "7.1%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "black panther",
-    "national_colors": ["green", "yellow", "blue"],
+    "national_colors": [
+        "green",
+        "yellow",
+        "blue"
+    ],
     "gdp": "$14.93 billion",
     "agriculture": [
         "cocoa",
@@ -66,7 +77,7 @@
         "palm oil",
         "rubber",
         "cattle",
-        "okoume (a tropical softwood)",
+        "okoume",
         "fish"
     ],
     "industries": [
@@ -109,5 +120,6 @@
     },
     "waterways": "1,600 km",
     "number_of_airports": "44",
-    "international_disputes": "UN urges Equatorial Guinea and Gabon to resolve the sovereignty dispute over Gabon-occupied Mbane Island and lesser islands and to establish a maritime boundary in hydrocarbon-rich Corisco Bay"
+    "international_disputes": "UN urges Equatorial Guinea and Gabon to resolve the sovereignty dispute over Gabon-occupied Mbane Island and lesser islands and to establish a maritime boundary in hydrocarbon-rich Corisco Bay",
+    "terrorism": "Unknown"
 }

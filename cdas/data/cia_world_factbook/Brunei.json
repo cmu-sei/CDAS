@@ -1,6 +1,6 @@
 {
     "name": "Brunei",
-    "background": "The Sultanate of Brunei's influence peaked between the 15th and 17th centuries when its control extended over coastal areas of northwest Borneo and the southern Philippines. Brunei subsequently entered a period of decline brought on by internal strife over royal succession, colonial expansion of European powers, and piracy. In 1888, Brunei became a British protectorate; independence was achieved in 1984. The same family has ruled Brunei for over six centuries. Brunei benefits from extensive petroleum and natural gas fields, the source of one of the highest per capita GDPs in the world. In 2017, Brunei celebrated the 50th anniversary of the Sultan Hassanal BOLKIAH’s accession to the throne.",
+    "background": "The Sultanate of Brunei's influence peaked between the 15th and 17th centuries when its control extended over coastal areas of northwest Borneo and the southern Philippines. Brunei subsequently entered a period of decline brought on by internal strife over royal succession, colonial expansion of European powers, and piracy. In 1888, Brunei became a British protectorate; independence was achieved in 1984. The same family has ruled Brunei for over six centuries. Brunei benefits from extensive petroleum and natural gas fields, the source of one of the highest per capita GDPs in the world. In 2017, Brunei celebrated the 50th anniversary of the Sultan Hassanal BOLKIAH's accession to the throne.",
     "coordinates": "4 30 N, 114 40 E",
     "region": "Southeast Asia",
     "total_area": "5,765 sq km",
@@ -33,10 +33,10 @@
         "Chinese dialects": ""
     },
     "religions": {
-        "Muslim (official)": "78.8%", 
-        "Christian": "8.7%", 
-        "Buddhist": "7.8%", 
-        "other (includes indigenous beliefs)": "4.7%"
+        "Muslim": "78.8%",
+        "Christian": "8.7%",
+        "Buddhist": "7.8%",
+        "other": "4.7%"
     },
     "government_type": "absolute monarchy or sultanate",
     "national_symbols": "royal parasol",
@@ -94,5 +94,6 @@
     },
     "waterways": "209 km",
     "number_of_airports": "1",
-    "international_disputes": "per Letters of Exchange signed in 2009, Malaysia in 2010 ceded two hydrocarbon concession blocks to Brunei in exchange for Brunei's sultan dropping claims to the Limbang corridor, which divides Brunei; nonetheless, Brunei claims a maritime boundary extending as far as a median with Vietnam, thus asserting an implicit claim to Louisa Reef"
+    "international_disputes": "per Letters of Exchange signed in 2009, Malaysia in 2010 ceded two hydrocarbon concession blocks to Brunei in exchange for Brunei's sultan dropping claims to the Limbang corridor, which divides Brunei; nonetheless, Brunei claims a maritime boundary extending as far as a median with Vietnam, thus asserting an implicit claim to Louisa Reef",
+    "terrorism": "Unknown"
 }

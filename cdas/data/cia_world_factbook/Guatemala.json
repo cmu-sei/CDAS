@@ -17,7 +17,7 @@
     "natural_hazards": [
         "numerous volcanoes in mountains, with occasional violent earthquakes",
         "Caribbean coast extremely susceptible to hurricanes and other tropical storms",
-        "volcanism: significant volcanic activity in the Sierra Madre range; Santa Maria (3,772 m) has been deemed a Decade Volcano by the International Association of Volcanology and Chemistry of the Earth's Interior, worthy of study due to its explosive history and close proximity to human populations; Pacaya (2,552 m), which erupted in May 2010 causing an ashfall on Guatemala City and prompting evacuations, is one of the country's most active volcanoes with frequent eruptions since 1965; other historically active volcanoes include Acatenango, Almolonga, Atitlan, Fuego, and Tacana"
+        "volcanism: significant volcanic activity in the Sierra Madre range; Santa Maria (3,772 m) has been deemed a Decade Volcano by the International Association of Volcanology and Chemistry of the Earth's Interior, worthy of study due to its explosive history and close proximity to human populations; Pacaya (2,552 m), which erupted in May 2010 causing an ashfall on Guatemala City and prompting evacuations, is one of the country's most active volcanoes with frequent eruptions since 1965; other historically active volcanoes include Acatenango, Almolonga, Atitlan, Fuego, and Tacana; see note 2 under \"Geography - note\""
     ],
     "terrain": "two east-west trending mountain chains divide the country into three regions: the mountainous highlands, the Pacific coast south of mountains, and the vast northern Peten lowlands",
     "population_distribution": "the vast majority of the populace resides in the southern half of the country, particularly in the mountainous regions; more than half of the population lives in rural areas",
@@ -34,9 +34,9 @@
     "ethnic_groups": {
         "mestizo": "56%",
         "Maya": "41.7%",
-        "Xinca (indigenous, non-Maya)": "1.8%",
+        "Xinca": "1.8%",
         "African descent": ".2%",
-        "Garifuna (mixed West and Central African, Island Carib, and Arawak)": ".1%",
+        "Garifuna": ".1%",
         "foreign": ".2%"
     },
     "languages": {
@@ -44,10 +44,17 @@
         "Maya languages": "29.7%",
         "other": "0.4%"
     },
-    "religions": {"Roman Catholic":"", "Protestant":"", "indigenous Maya":""},
+    "religions": {
+        "Roman Catholic": "",
+        "Protestant": "",
+        "indigenous Maya": ""
+    },
     "government_type": "presidential republic",
     "national_symbols": "quetzal (bird)",
-    "national_colors": ["blue", "white"],
+    "national_colors": [
+        "blue",
+        "white"
+    ],
     "gdp": "$75.62 billion",
     "agriculture": [
         "sugarcane",
@@ -108,5 +115,6 @@
     },
     "waterways": "990 km",
     "number_of_airports": "291",
-    "international_disputes": "annual ministerial meetings under the Organization of American States-initiated Agreement on the Framework for Negotiations and Confidence Building Measures continue to address Guatemalan land and maritime claims in Belize and the Caribbean Sea; Guatemala persists in its territorial claim to half of Belize, but agrees to Line of Adjacency to keep Guatemalan squatters out of Belize's forested interior; both countries agreed in April 2012 to hold simultaneous referenda, scheduled for 6 October 2013, to decide whether to refer the dispute to the ICJ for binding resolution, but this vote was suspended indefinitely; Mexico must deal with thousands of impoverished Guatemalans and other Central Americans who cross the porous border looking for work in Mexico and the US"
+    "international_disputes": "annual ministerial meetings under the Organization of American States-initiated Agreement on the Framework for Negotiations and Confidence Building Measures continue to address Guatemalan land and maritime claims in Belize and the Caribbean Sea; Guatemala persists in its territorial claim to half of Belize, but agrees to Line of Adjacency to keep Guatemalan squatters out of Belize's forested interior; both countries agreed in April 2012 to hold simultaneous referenda, scheduled for 6 October 2013, to decide whether to refer the dispute to the ICJ for binding resolution, but this vote was suspended indefinitely; Mexico must deal with thousands of impoverished Guatemalans and other Central Americans who cross the porous border looking for work in Mexico and the US",
+    "terrorism": "Unknown"
 }

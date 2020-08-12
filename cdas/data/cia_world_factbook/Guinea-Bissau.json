@@ -51,11 +51,21 @@
         "Pular": "",
         "Mandingo": ""
     },
-    "religions": {"Muslim": "45.1%", "Christian": "22.1%", "animist": "14.9%", 
-        "none": "2%", "unspecified": "15.9%"},
+    "religions": {
+        "Muslim": "45.1%",
+        "Christian": "22.1%",
+        "animist": "14.9%",
+        "none": "2%",
+        "unspecified": "15.9%"
+    },
     "government_type": "semi-presidential republic",
     "national_symbols": "black star",
-    "national_colors": ["red", "yellow", "green", "black"],
+    "national_colors": [
+        "red",
+        "yellow",
+        "green",
+        "black"
+    ],
     "gdp": "$1.35 billion",
     "agriculture": [
         "rice",
@@ -101,5 +111,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "8",
-    "international_disputes": "a longstanding low-grade conflict continues in parts of\nCasamance, in Senegal across the border; some rebels use Guinea-Bissau as a safe haven"
+    "international_disputes": "a longstanding low-grade conflict continues in parts of\nCasamance, in Senegal across the border; some rebels use Guinea-Bissau as a safe haven",
+    "terrorism": "Unknown"
 }

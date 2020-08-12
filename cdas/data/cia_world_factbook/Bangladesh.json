@@ -116,5 +116,11 @@
     },
     "waterways": "8,370 km",
     "number_of_airports": "18",
-    "international_disputes": "Bangladesh referred its maritime boundary claims with Burma and India to the International Tribunal on the Law of the Sea; Indian Prime Minister Singh's September 2011 visit to Bangladesh resulted in the signing of a Protocol to the 1974 Land Boundary Agreement between India and Bangladesh, which had called for the settlement of longstanding boundary disputes over undemarcated areas and the exchange of territorial enclaves, but which had never been implemented; Bangladesh struggles to accommodate 912,000 Rohingya, Burmese Muslim minority from Rakhine State, living as refugees in Cox's Bazar; Burmese border authorities are constructing a 200 km (124 mi) wire fence designed to deter illegal cross-border transit and tensions from the military build-up along border"
+    "international_disputes": "Bangladesh referred its maritime boundary claims with Burma and India to the International Tribunal on the Law of the Sea; Indian Prime Minister Singh's September 2011 visit to Bangladesh resulted in the signing of a Protocol to the 1974 Land Boundary Agreement between India and Bangladesh, which had called for the settlement of longstanding boundary disputes over undemarcated areas and the exchange of territorial enclaves, but which had never been implemented; Bangladesh struggles to accommodate 912,000 Rohingya, Burmese Muslim minority from Rakhine State, living as refugees in Cox's Bazar; Burmese border authorities are constructing a 200 km (124 mi) wire fence designed to deter illegal cross-border transit and tensions from the military build-up along border",
+    "terrorism": {
+        "Harakat ul-Jihad-i-Islami/Bangladesh (HUJI-B)": "install an Islamic state in Bangladesharea(s) of operation",
+        "Islamic State of Iraq and ash-Sham (ISIS) networks in Bangladesh": "replace the Bangladesh Government with an Islamic state and implement ISIS's strict interpretation of Sharia; ISIS operates in Bangladesh under the name Islamic State in Bangladesh (ISB)area(s) of operation",
+        "al-Qa'ida (AQ)": "overthrow the Bangladesh Government and, ultimately, establish a pan-Islamic caliphate under a strict Salafi Muslim interpretation of shariaarea(s) of operation",
+        "al-Qa'ida in the Indian Subcontinent (AQIS)": "protect Muslims in Bangladesh from perceived injustices and, ultimately, establish an Islamic caliphate in the Indian subcontinentarea(s) of operation"
+    }
 }

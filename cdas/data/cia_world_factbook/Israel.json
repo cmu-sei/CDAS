@@ -46,11 +46,18 @@
         "English": ""
     },
     "religions": {
-        "Jewish": "74.3%", "Muslim": "17.8%", "Christian": "1.9%", 
-        "Druze": "1.6%", "other": "4.4%"},
+        "Jewish": "74.3%",
+        "Muslim": "17.8%",
+        "Christian": "1.9%",
+        "Druze": "1.6%",
+        "other": "4.4%"
+    },
     "government_type": "parliamentary democracy",
     "national_symbols": "Star of David (Magen David), menorah (seven-branched lampstand)",
-    "national_colors": ["blue", "white"],
+    "national_colors": [
+        "blue",
+        "white"
+    ],
     "gdp": "$350.7 billion",
     "agriculture": [
         "citrus",
@@ -61,11 +68,7 @@
         "dairy products"
     ],
     "industries": [
-        "aviation",
-        "communications",
-        "computer-aided design and manufacture",
-        "medical electronics",
-        "fiber optics",
+        "high-technology products (including aviation, communications, computer-aided design and manufactures, medical electronics, fiber optics)",
         "wood and paper products",
         "potash and phosphates",
         "food",
@@ -116,5 +119,8 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "42",
-    "international_disputes": "West Bank and Gaza Strip are Israeli-occupied with current status subject to the Israeli-Palestinian Interim Agreement - permanent status to be determined through further negotiation; Israel continues construction of a \"seam line\" separation barrier along parts of the Green Line and within the West Bank; Israel withdrew its settlers and military from the Gaza Strip and from four settlements in the West Bank in August 2005; Golan Heights is Israeli-controlled (Lebanon claims the Shab'a Farms area of Golan Heights); since 1948, about 350 peacekeepers from the UN Truce Supervision Organization headquartered in Jerusalem monitor ceasefires, supervise armistice agreements, prevent isolated incidents from escalating, and assist other UN personnel in the region"
+    "international_disputes": "West Bank and Gaza Strip are Israeli-occupied with current status subject to the Israeli-Palestinian Interim Agreement - permanent status to be determined through further negotiation; Israel continues construction of a \"seam line\" separation barrier along parts of the Green Line and within the West Bank; Israel withdrew its settlers and military from the Gaza Strip and from four settlements in the West Bank in August 2005; Golan Heights is Israeli-controlled (Lebanon claims the Shab'a Farms area of Golan Heights); since 1948, about 350 peacekeepers from the UN Truce Supervision Organization headquartered in Jerusalem monitor ceasefires, supervise armistice agreements, prevent isolated incidents from escalating, and assist other UN personnel in the region",
+    "terrorism": {
+        "Kahane Chai (Kach)": "expel Arabs from Israel's biblical lands and, ultimately, restore the biblical state of Israelarea(s) of operation"
+    }
 }

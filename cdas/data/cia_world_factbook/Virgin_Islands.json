@@ -24,8 +24,12 @@
     "population": "106,235",
     "nationality": "Virgin Islander(s) (US citizens)",
     "ethnic_groups": {
-        "black": "76%", "white": "15.6%", "Asian": "1.4%", "other": "4.9%", 
-        "mixed": "2.1%"},
+        "black": "76%",
+        "white": "15.6%",
+        "Asian": "1.4%",
+        "other": "4.9%",
+        "mixed": "2.1%"
+    },
     "languages": {
         "English": "71.6%",
         "Spanish or Spanish Creole": "17.2%",
@@ -33,10 +37,16 @@
         "other": "2.5%"
     },
     "religions": {
-        "Protestant": "59%", "Roman Catholic": "34%", "other": "7%"},
+        "Protestant": "59%",
+        "Roman Catholic": "34%",
+        "other": "7%"
+    },
     "government_type": "republican form of government with separate executive, legislative, and judicial branches; unincorporated organized territory of the US with local self-government",
     "national_symbols": "Unknown",
-    "national_colors": [],
+    "national_colors": [
+        "red",
+        "yellow"
+    ],
     "gdp": "$5.182 billion",
     "agriculture": [
         "fruit",
@@ -73,5 +83,7 @@
         "major seaport(s)": "Charlotte Amalie, Christiansted, Cruz Bay, Frederiksted, Limetree Bay"
     },
     "waterways": "Unknown",
-    "number_of_airports": "2"
+    "number_of_airports": "2",
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

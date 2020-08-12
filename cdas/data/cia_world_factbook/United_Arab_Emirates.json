@@ -24,8 +24,12 @@
     "population": "9,992,083",
     "nationality": "Emirati(s)",
     "ethnic_groups": {
-        "Emirati": "11.6%", "South Asian": "59.4%", "Egyptian": "10.2%", 
-        "Filipino": "6.1%", "other": "12.8%"},
+        "Emirati": "11.6%",
+        "South Asian": "59.4%",
+        "Egyptian": "10.2%",
+        "Filipino": "6.1%",
+        "other": "12.8%"
+    },
     "languages": {
         "Arabic (official)": "",
         "English": "",
@@ -37,12 +41,18 @@
         "Persian": ""
     },
     "religions": {
-        "Muslim (official)": "76%", 
-        "Christian": "9%", 
-        "other": "15%"},
+        "Muslim": "76%",
+        "Christian": "9%",
+        "other": "15%"
+    },
     "government_type": "federation of monarchies",
     "national_symbols": "golden falcon",
-    "national_colors": ["green", "white", "black", "red"],
+    "national_colors": [
+        "green",
+        "white",
+        "black",
+        "red"
+    ],
     "gdp": "$382.6 billion",
     "agriculture": [
         "dates",
@@ -98,5 +108,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "43",
-    "international_disputes": "boundary agreement was signed and ratified with Oman in 2003 for entire border, including Oman's Musandam Peninsula and Al Madhah enclaves, but contents of the agreement and detailed maps showing the alignment have not been published; Iran and UAE dispute Tunb Islands and Abu Musa Island, which Iran occupies"
+    "international_disputes": "boundary agreement was signed and ratified with Oman in 2003 for entire border, including Oman's Musandam Peninsula and Al Madhah enclaves, but contents of the agreement and detailed maps showing the alignment have not been published; Iran and UAE dispute Tunb Islands and Abu Musa Island, which Iran occupies",
+    "terrorism": "Unknown"
 }

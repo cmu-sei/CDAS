@@ -24,7 +24,10 @@
     ],
     "population": "350,734",
     "nationality": "Icelander(s)",
-    "ethnic_groups": {"homogeneous mixture of descendants of Norse and Celts": "81%", "population with foreign background": "19%"},
+    "ethnic_groups": {
+        "homogeneous mixture of descendants of Norse and Celts": "81%",
+        "population with foreign background": "19%"
+    },
     "languages": {
         "Icelandic": "",
         "English": "",
@@ -32,14 +35,23 @@
         "German": ""
     },
     "religions": {
-        "Evangelical Lutheran Church of Iceland (official)": "67.2%", 
-        "Roman Catholic": "3.9%", "Reykjavik Free Church": "2.8%",
-        "Hafnarfjordur Free Church": "2%", "Asatru Association": "1.2%", 
-        "The Independent Congregation": ".9%", "other religions": "4%", 
-        "none": "6.7%", "other or unspecified": "11.3%"},
+        "Evangelical Lutheran Church of Iceland": "67.2%",
+        "Roman Catholic": "3.9%",
+        "Reykjavik Free Church": "2.8%",
+        "Hafnarfjordur Free Church": "2%",
+        "Asatru Association": "1.2%",
+        "The Independent Congregation": ".9%",
+        "other religions": "4%",
+        "none": "6.7%",
+        "other or unspecified": "11.3%"
+    },
     "government_type": "unitary parliamentary republic",
     "national_symbols": "gyrfalcon",
-    "national_colors": ["blue", "white", "red"],
+    "national_colors": [
+        "blue",
+        "white",
+        "red"
+    ],
     "gdp": "$24.48 billion",
     "agriculture": [
         "potatoes",
@@ -89,5 +101,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "96",
-    "international_disputes": "Iceland, the UK, and Ireland dispute Denmark's claim that the Faroe Islands' continental shelf extends beyond 200 nm; the European Free Trade Association Surveillance Authority filed a suit against Iceland, claiming the country violated the Agreement on the European Economic Area in failing to pay minimum compensation to Icesave depositors"
+    "international_disputes": "Iceland, the UK, and Ireland dispute Denmark's claim that the Faroe Islands' continental shelf extends beyond 200 nm; the European Free Trade Association Surveillance Authority filed a suit against Iceland, claiming the country violated the Agreement on the European Economic Area in failing to pay minimum compensation to Icesave depositors",
+    "terrorism": "Unknown"
 }

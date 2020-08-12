@@ -29,7 +29,13 @@
     ],
     "population": "9,771,827",
     "nationality": "Hungarian(s)",
-    "ethnic_groups": {"Hungarian": "85.6%", "Romani": "3.2%", "German": "1.9%", "other": "2.6%", "unspecified": "14.1%"},
+    "ethnic_groups": {
+        "Hungarian": "85.6%",
+        "Romani": "3.2%",
+        "German": "1.9%",
+        "other": "2.6%",
+        "unspecified": "14.1%"
+    },
     "languages": {
         "Hungarian (official)": "99.6%",
         "English": "16%",
@@ -40,12 +46,21 @@
         "other": "4.2%"
     },
     "religions": {
-        "Roman Catholic": "37.2%", "Calvinist": "11.6%", "Lutheran": "2.2%", 
-        "Greek Catholic": "1.8%", "other": "1.9%", "none": "18.2%", 
-        "no response": "27.2%"},
+        "Roman Catholic": "37.2%",
+        "Calvinist": "11.6%",
+        "Lutheran": "2.2%",
+        "Greek Catholic": "1.8%",
+        "other": "1.9%",
+        "none": "18.2%",
+        "no response": "27.2%"
+    },
     "government_type": "parliamentary republic",
     "national_symbols": "Holy Crown of Hungary (Crown of Saint Stephen)",
-    "national_colors": ["red", "white", "green"],
+    "national_colors": [
+        "red",
+        "white",
+        "green"
+    ],
     "gdp": "$139.2 billion",
     "agriculture": [
         "wheat",
@@ -75,21 +90,21 @@
         "fuels and electricity"
     ],
     "imports": [
-        "machinery and equipment",
-        "other manufactures",
-        "fuels and electricity",
-        "food products",
-        "raw materials"
+        "machinery and equipment 45.4%",
+        "other manufactures 34.3%",
+        "fuels and electricity 12.6%",
+        "food products 5.3%",
+        "raw materials 2.5%"
     ],
     "broadband_subscriptions": "3,079,549",
     "internet_users": "7,826,695",
     "mobile_subscriptions": "10,041,939",
     "internet_country_code": ".hu",
     "military_and_security_forces": "Hungarian Defense Forces: Ground Forces and Hungarian Air Force",
-    "percent_GDP_on_military": "1.2%",
+    "percent_GDP_on_military": "1.21%",
     "pipelines": [
-        "5874 km gas (high-pressure transmission system)",
-        "83732 km gas (low-pressure distribution network)",
+        "5874 km gas ",
+        "83732 km gas ",
         "850 km oil",
         "1200 km refined products"
     ],
@@ -98,5 +113,6 @@
     },
     "waterways": "1,622 km",
     "number_of_airports": "41",
-    "international_disputes": "bilateral government, legal, technical and economic working group negotiations continue in 2006 with Slovakia over Hungary's failure to complete its portion of the Gabcikovo-Nagymaros hydroelectric dam project along the Danube; as a member state that forms part of the EU's external border, Hungary has implemented the strict Schengen border rules"
+    "international_disputes": "bilateral government, legal, technical and economic working group negotiations continue in 2006 with Slovakia over Hungary's failure to complete its portion of the Gabcikovo-Nagymaros hydroelectric dam project along the Danube; as a member state that forms part of the EU's external border, Hungary has implemented the strict Schengen border rules",
+    "terrorism": "Unknown"
 }

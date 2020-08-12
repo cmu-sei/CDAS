@@ -43,25 +43,37 @@
     "population": "43,922,939",
     "nationality": "Ukrainian(s)",
     "ethnic_groups": {
-        "Ukrainian": "77.8%", "Russian": "17.3%", "Belarusian": "0.6%", 
-        "Moldovan": "0.5%", "Crimean Tatar": "0.5%", "Bulgarian": "0.4%", 
-        "Hungarian": "0.3%", "Romanian": "0.3%", "Polish": "0.3%", 
-        "Jewish": "0.2%", "other": "1.8%"},
+        "Ukrainian": "77.8%",
+        "Russian": "17.3%",
+        "Belarusian": "0.6%",
+        "Moldovan": "0.5%",
+        "Crimean Tatar": "0.5%",
+        "Bulgarian": "0.4%",
+        "Hungarian": "0.3%",
+        "Romanian": "0.3%",
+        "Polish": "0.3%",
+        "Jewish": "0.2%",
+        "other": "1.8%"
+    },
     "languages": {
         "Ukrainian (official)": "67.5%",
         "Russian": "29.6%",
         "other": "2.9%"
     },
     "religions": {
-        "Orthodox":"", 
-        "Ukrainian Greek Catholic":"", 
-        "Roman Catholic":"", 
-        "Protestant":"", 
-        "Muslim":"", 
-        "Jewish":""},
+        "Orthodox and the Ukrainian Orthodox - Moscow Patriarchate)": "",
+        "Ukrainian Greek Catholic": "",
+        "Roman Catholic": "",
+        "Protestant": "",
+        "Muslim": "",
+        "Jewish": ""
+    },
     "government_type": "semi-presidential republic",
     "national_symbols": "tryzub (trident)",
-    "national_colors": ["blue", "yellow"],
+    "national_colors": [
+        "blue",
+        "yellow"
+    ],
     "gdp": "$112.1 billion",
     "agriculture": [
         "grain",
@@ -95,7 +107,7 @@
     "internet_users": "23,202,067",
     "mobile_subscriptions": "53,933,592",
     "internet_country_code": ".ua",
-    "military_and_security_forces": "Armed Forces of Ukraine (Zbroyni Syly Ukrayiny, ZSU): Ground Forces (Sukhoputni Viys’ka), Naval Forces (Viys’kovo-Mors’ki Syly, VMS), Air Forces (Povitryani Syly, PS), Air Assault Forces (Desantno-shturmovi Viyska, DShV);  Ministry of Internal Affairs: National Guard of Ukraine, State Border Guard Service of Ukraine (includes Maritime Border Guard)",
+    "military_and_security_forces": "Armed Forces of Ukraine (Zbroyni Syly Ukrayiny, ZSU): Ground Forces (Sukhoputni Viys\u2019ka), Naval Forces (Viys\u2019kovo-Mors\u2019ki Syly, VMS), Air Forces (Povitryani Syly, PS), Air Assault Forces (Desantno-shturmovi Viyska, DShV);\u00a0 Ministry of Internal Affairs: National Guard of Ukraine, State Border Guard Service of Ukraine (includes Maritime Border Guard)",
     "percent_GDP_on_military": "3.9%",
     "pipelines": [
         "36720 km gas",
@@ -107,5 +119,6 @@
     },
     "waterways": "1,672 km",
     "number_of_airports": "187",
-    "international_disputes": "1997 boundary delimitation treaty with Belarus remains unratified due to unresolved financial claims, stalling demarcation and reducing border security; delimitation of land boundary with Russia is complete and demarcation began in 2012; the dispute over the boundary between Russia and Ukraine through the Kerch Strait and Sea of Azov is suspended due to the occupation of Crimea by Russia; Ukraine and Moldova signed an agreement officially delimiting their border in 1999, but the border has not been demarcated due to Moldova's difficulties with the break-away region of Transnistria; Moldova and Ukraine operate joint customs posts to monitor transit of people and commodities through Moldova's Transnistria Region, which remains under the auspices of an Organization for Security and Cooperation in Europe-mandated peacekeeping mission comprised of Moldovan, Transnistrian, Russian, and Ukrainian troops; the ICJ ruled largely in favor of Romania in its dispute submitted in 2004 over Ukrainian-administered Zmiyinyy/Serpilor (Snake) Island and Black Sea maritime boundary delimitation; Romania opposes Ukraine's reopening of a navigation canal from the Danube border through Ukraine to the Black Sea"
+    "international_disputes": "1997 boundary delimitation treaty with Belarus remains unratified due to unresolved financial claims, stalling demarcation and reducing border security; delimitation of land boundary with Russia is complete and demarcation began in 2012; the dispute over the boundary between Russia and Ukraine through the Kerch Strait and Sea of Azov is suspended due to the occupation of Crimea by Russia; Ukraine and Moldova signed an agreement officially delimiting their border in 1999, but the border has not been demarcated due to Moldova's difficulties with the break-away region of Transnistria; Moldova and Ukraine operate joint customs posts to monitor transit of people and commodities through Moldova's Transnistria Region, which remains under the auspices of an Organization for Security and Cooperation in Europe-mandated peacekeeping mission comprised of Moldovan, Transnistrian, Russian, and Ukrainian troops; the ICJ ruled largely in favor of Romania in its dispute submitted in 2004 over Ukrainian-administered Zmiyinyy/Serpilor (Snake) Island and Black Sea maritime boundary delimitation; Romania opposes Ukraine's reopening of a navigation canal from the Danube border through Ukraine to the Black Sea",
+    "terrorism": "Unknown"
 }

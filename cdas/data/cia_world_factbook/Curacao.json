@@ -30,7 +30,9 @@
         "Dutch": "6%",
         "Dominican": "3.6%",
         "Colombian": "3%",
-        "Bonairean, Sint Eustatian, Saban": "1.5%",
+        "Bonairean": "",
+        "Sint Eustatian": "",
+        "Saban": "1.5%",
         "Haitian": "1.2%",
         "Surinamese": "1.2%",
         "Venezuelan": "1.1%",
@@ -44,15 +46,15 @@
         "Spanish": "5.6%",
         "English (official)": "3.1%",
         "other": "2.9%",
-        "unspecified": "0.3%"
+        "unspecified": ".3%"
     },
     "religions": {
         "Roman Catholic": "72.8%",
         "Pentecostal": "6.6%",
-        "Protestant": "3.2%", 
+        "Protestant": "3.2%",
         "Adventist": "3%",
         "Jehovah's Witness": "2%",
-        "Evangelical": "1.9%", 
+        "Evangelical": "1.9%",
         "other": "3.8%",
         "none": "6%",
         "unspecified": "0.6%"
@@ -102,5 +104,7 @@
         "bulk cargo port(s)": "Fuik Bay (phosphate rock)"
     },
     "waterways": "Unknown",
-    "number_of_airports": "1"
+    "number_of_airports": "1",
+    "international_disputes": "Unknown",
+    "terrorism": "Unknown"
 }

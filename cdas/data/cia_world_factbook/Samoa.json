@@ -12,7 +12,8 @@
     "coastline": "403 km",
     "natural_hazards": [
         "occasional cyclones",
-        "active volcanism: Savai'I Island (1,858 m), which last erupted in 1911, is historically active"
+        "active volcanism",
+        "volcanism: Savai'I Island (1,858 m), which last erupted in 1911, is historically active"
     ],
     "terrain": "two main islands (Savaii, Upolu) and several smaller islands and uninhabited islets; narrow coastal plain with volcanic, rugged mountains in interior",
     "population_distribution": "about three-quarters of the population lives on the island of Upolu",
@@ -24,7 +25,10 @@
     "population": "203,774",
     "nationality": "Samoan(s)",
     "ethnic_groups": {
-        "Samoan": "96%", "Samoan/New Zealander": "2%", "other": "1.9%"},
+        "Samoan": "96%",
+        "Samoan/New Zealander": "2%",
+        "other": "1.9%"
+    },
     "languages": {
         "Samoan (official)": "91.1%",
         "Somoan/English": "6.7%",
@@ -33,16 +37,21 @@
         "unspecified": "1.6%"
     },
     "religions": {
-        "Protestant": "54.9%", 
-        "Roman Catholic": "18.8%", 
-        "Mormon": "16.9%", 
-        "Worship Centre": "2.8%", 
-        "other Christian": "3.6%", 
-        "other": "2.9%", 
-        "none": "0.2%"},
+        "Protestant": "54.9%",
+        "Roman Catholic": "18.8%",
+        "Mormon": "16.9%",
+        "Worship Centre": "2.8%",
+        "other Christian": "3.6%",
+        "other": "2.9%",
+        "none": "0.2%"
+    },
     "government_type": "parliamentary republic",
     "national_symbols": "Southern Cross constellation (five, five-pointed stars)",
-    "national_colors": ["red", "white", "blue"],
+    "national_colors": [
+        "red",
+        "white",
+        "blue"
+    ],
     "gdp": "$0.841 billion",
     "agriculture": [
         "coconuts",
@@ -86,5 +95,7 @@
         "major seaport(s)": "Apia"
     },
     "waterways": "Unknown",
-    "number_of_airports": "4"
+    "number_of_airports": "4",
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

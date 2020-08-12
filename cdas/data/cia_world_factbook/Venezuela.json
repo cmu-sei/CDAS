@@ -31,17 +31,31 @@
     ],
     "population": "28,644,603",
     "nationality": "Venezuelan(s)",
-    "ethnic_groups": {"unspecified Spanish":"", "Italian":"", "Portuguese":"", 
-        "Arab":"", "German":"", "African":"", "indigenous people":""},
+    "ethnic_groups": {
+        "unspecified Spanish": "",
+        "Italian": "",
+        "Portuguese": "",
+        "Arab": "",
+        "German": "",
+        "African": "",
+        "indigenous people": ""
+    },
     "languages": {
-        "Spanish  (official)": "",
+        "Spanish (official)": "",
         "numerous indigenous dialects": ""
     },
     "religions": {
-        "nominally Roman Catholic": "96%", "Protestant": "2%", "other": "2%"},
+        "nominally Roman Catholic": "96%",
+        "Protestant": "2%",
+        "other": "2%"
+    },
     "government_type": "federal presidential republic",
     "national_symbols": "troupial (bird)",
-    "national_colors": ["yellow", "blue", "red"],
+    "national_colors": [
+        "yellow",
+        "blue",
+        "red"
+    ],
     "gdp": "$210.1 billion",
     "agriculture": [
         "corn",
@@ -95,7 +109,7 @@
     "mobile_subscriptions": "20,731,169",
     "internet_country_code": ".ve",
     "military_and_security_forces": "Bolivarian National Armed Forces (Fuerza Armada Nacional Bolivariana, FANB): Bolivarian Army (Ejercito Bolivariano, EB), Bolivarian Navy (Armada Bolivariana, AB; includes Marines, Coast Guard), Bolivarian Military Aviation (Aviacion Militar Bolivariana, AMB), Integral Aerospace Defense Command (Comando de Defensa Aeroespacial Integral, CODAI), Bolivarian National Guard (Guardia Nacional Bolivaria, GNB); Bolivarian Militia (Milicia Bolivariana, NMB)",
-    "percent_GDP_on_military": "0.5%",
+    "percent_GDP_on_military": "0.49%",
     "pipelines": [
         "981 km extra heavy crude",
         "5941 km gas",
@@ -108,5 +122,6 @@
     },
     "waterways": "7,100 km",
     "number_of_airports": "444",
-    "international_disputes": "claims all of the area west of the Essequibo River in Guyana, preventing any discussion of a maritime boundary; Guyana has expressed its intention to join Barbados in asserting claims before the UN Convention on the Law of the Sea that Trinidad and Tobago's maritime boundary with Venezuela extends into their waters; dispute with Colombia over maritime boundary and Venezuelan administered Los Monjes Islands near the Gulf of Venezuela; Colombian organized illegal narcotics and paramilitary activities penetrate Venezuela's shared border region; US, France, and the Netherlands recognize Venezuela's granting full effect to Aves Island, thereby claiming a Venezuelan Economic Exclusion Zone/continental shelf extending over a large portion of the eastern Caribbean Sea; Dominica, Saint Kitts and Nevis, Saint Lucia, and Saint Vincent and the Grenadines protest Venezuela's full effect claim"
+    "international_disputes": "claims all of the area west of the Essequibo River in Guyana, preventing any discussion of a maritime boundary; Guyana has expressed its intention to join Barbados in asserting claims before the UN Convention on the Law of the Sea that Trinidad and Tobago's maritime boundary with Venezuela extends into their waters; dispute with Colombia over maritime boundary and Venezuelan administered Los Monjes Islands near the Gulf of Venezuela; Colombian organized illegal narcotics and paramilitary activities penetrate Venezuela's shared border region; US, France, and the Netherlands recognize Venezuela's granting full effect to Aves Island, thereby claiming a Venezuelan Economic Exclusion Zone/continental shelf extending over a large portion of the eastern Caribbean Sea; Dominica, Saint Kitts and Nevis, Saint Lucia, and Saint Vincent and the Grenadines protest Venezuela's full effect claim",
+    "terrorism": "Unknown"
 }

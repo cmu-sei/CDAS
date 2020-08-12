@@ -29,7 +29,7 @@
     "ethnic_groups": {
         "Andorran": "48.8%",
         "Spanish": "25.1%",
-        "Portuguese": "12%", 
+        "Portuguese": "12%",
         "French": "4.4%",
         "other": "9.7%"
     },
@@ -88,5 +88,6 @@
     "ports_and_terminals": "Unknown",
     "waterways": "Unknown",
     "number_of_airports": "Unknown",
-    "international_disputes": "none"
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

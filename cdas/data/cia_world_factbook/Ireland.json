@@ -30,7 +30,7 @@
     "population": "5,176,569",
     "nationality": "Irishman(men), Irishwoman(women), Irish (collective plural)",
     "ethnic_groups": {
-        "Irish":"82.2%",
+        "Irish": "82.2%",
         "Irish travelers": "0.7%",
         "other white": "9.5%",
         "Asian": "2.1%",
@@ -40,15 +40,24 @@
     },
     "languages": {
         "English (official)": "",
-        "Irish  (official)": ""
+        "Irish (official)": ""
     },
     "religions": {
-        "Roman Catholic": "78.3%", "Church of Ireland": "2.7%", 
-        "other Christian": "1.6%", "Orthodox": "1.3%", "Muslim": "1.3%", 
-        "other": "2.4%", "none": "9.8%", "unspecified": "2.6%"},
+        "Roman Catholic": "78.3%",
+        "Church of Ireland": "2.7%",
+        "other Christian": "1.6%",
+        "Orthodox": "1.3%",
+        "Muslim": "1.3%",
+        "other": "2.4%",
+        "none": "9.8%",
+        "unspecified": "2.6%"
+    },
     "government_type": "parliamentary republic",
     "national_symbols": "harp, shamrock (trefoil)",
-    "national_colors": ["blue", "green"],
+    "national_colors": [
+        "blue",
+        "green"
+    ],
     "gdp": "$331.5 billion",
     "agriculture": [
         "barley",
@@ -89,7 +98,7 @@
     "military_and_security_forces": "Irish Defence Forces (Oglaigh na h-Eireannn): Army (includes Army Reserve), Naval Service (includes Naval Service Reserves), Air Corps",
     "percent_GDP_on_military": "0.3%",
     "pipelines": [
-        "2427 km gas"
+        "2,427 km gas"
     ],
     "ports_and_terminals": {
         "major seaport(s)": "Dublin, Shannon Foynes",
@@ -99,5 +108,6 @@
     },
     "waterways": "956 km",
     "number_of_airports": "40",
-    "international_disputes": "Ireland, Iceland, and the UK dispute Denmark's claim that the Faroe Islands' continental shelf extends beyond 200 nm"
+    "international_disputes": "Ireland, Iceland, and the UK dispute Denmark's claim that the Faroe Islands' continental shelf extends beyond 200 nm",
+    "terrorism": "Unknown"
 }

@@ -34,10 +34,16 @@
         "Norman-French dialect spoken in country districts": ""
     },
     "religions": {
-        "Protestant":"", "Roman Catholic":""},
+        "Protestant": "",
+        "Roman Catholic": ""
+    },
     "government_type": "parliamentary democracy (States of Deliberation)",
     "national_symbols": "Guernsey cow, donkey",
-    "national_colors": ["red", "white", "yellow"],
+    "national_colors": [
+        "red",
+        "white",
+        "yellow"
+    ],
     "gdp": "$2.742 billion",
     "agriculture": [
         "tomatoes",
@@ -62,7 +68,8 @@
         "coal",
         "gasoline",
         "oil",
-        "machinery and equipment"
+        "machinery",
+        "and equipment"
     ],
     "broadband_subscriptions": "Unknown",
     "internet_users": "55,050",
@@ -77,5 +84,7 @@
         "major seaport(s)": "Braye Bay, Saint Peter Port"
     },
     "waterways": "Unknown",
-    "number_of_airports": "2"
+    "number_of_airports": "2",
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

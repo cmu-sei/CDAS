@@ -24,10 +24,10 @@
     "population": "51,628",
     "nationality": "Faroese (singular and plural)",
     "ethnic_groups": {
-        "Faroese (Scandinavian and Anglo-Saxon descent)": "87.6%", 
-        "Danish": "7.8%", 
-        "other Nordic": "1.4%", 
-        "other (includes Filipino, Thai, British)": "3.2%"
+        "Faroese": "87.6%",
+        "Danish": "7.8%",
+        "other Nordic": "1.4%",
+        "other": "3.2%"
     },
     "languages": {
         "Faroese": "93.8%",
@@ -35,9 +35,9 @@
         "other": "3%"
     },
     "religions": {
-        "Christian": "89.3%", 
-        "other": "1%", 
-        "none": "3.8%", 
+        "Christian": "89.3%",
+        "other": "1%",
+        "none": "3.8%",
         "unspecified": "6%"
     },
     "government_type": "parliamentary democracy (Faroese Parliament); part of the Kingdom of Denmark",
@@ -78,7 +78,7 @@
     "internet_users": "47,988",
     "mobile_subscriptions": "56,792",
     "internet_country_code": ".fo",
-    "military_and_security_forces": "no regular military forces or conscription; the Government of Denmark has responsibility for defense; as such, the Danish military’s Joint Arctic Command in Nuuk, Greenland is responsible for territorial defense of the Faroe Islands; the Joint Arctic Command has a contact element in the capital of Torshavn",
+    "military_and_security_forces": "no regular military forces or conscription; the Government of Denmark has responsibility for defense; as such, the Danish military\u2019s Joint Arctic Command in Nuuk, Greenland is responsible for territorial defense of the Faroe Islands; the Joint Arctic Command has a contact element in the capital of Torshavn",
     "percent_GDP_on_military": "Unknown",
     "pipelines": [
         "Unknown"
@@ -88,5 +88,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "1",
-    "international_disputes": "because anticipated offshore hydrocarbon resources have not been realized, earlier Faroese proposals for full independence have been deferred; Iceland, the UK, and Ireland dispute Denmark's claim to UNCLOS that the Faroe Islands' continental shelf extends beyond 200 nm"
+    "international_disputes": "because anticipated offshore hydrocarbon resources have not been realized, earlier Faroese proposals for full independence have been deferred; Iceland, the UK, and Ireland dispute Denmark's claim to UNCLOS that the Faroe Islands' continental shelf extends beyond 200 nm",
+    "terrorism": "Unknown"
 }

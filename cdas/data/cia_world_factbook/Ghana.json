@@ -1,6 +1,6 @@
 {
     "name": "Ghana",
-    "background": "Formed from the merger of the British colony of the Gold Coast and the Togoland trust territory, Ghana in 1957 became the first Sub-Saharan country in colonial Africa to gain its independence. Ghana endured a series of coups before Lt. Jerry RAWLINGS took power in 1981 and banned political parties. After approving a new constitution and restoring multiparty politics in 1992, RAWLINGS won presidential elections in 1992 and 1996 but was constitutionally prevented from running for a third term in 2000. John KUFUOR of the opposition New Patriotic Party (NPP) succeeded him and was reelected in 2004. John Atta MILLS of the National Democratic Congress won the 2008 presidential election and took over as head of state. MILLS died in July 2012 and was constitutionally succeeded by his vice president, John Dramani MAHAMA, who subsequently won the December 2012 presidential election. In 2016, Nana Addo Dankwa AKUFO-ADDO of the NPP defeated MAHAMA, marking the third time that Ghana’s presidency has changed parties since the return to democracy.",
+    "background": "Formed from the merger of the British colony of the Gold Coast and the Togoland trust territory, Ghana in 1957 became the first Sub-Saharan country in colonial Africa to gain its independence. Ghana endured a series of coups before Lt. Jerry RAWLINGS took power in 1981 and banned political parties. After approving a new constitution and restoring multiparty politics in 1992, RAWLINGS won presidential elections in 1992 and 1996 but was constitutionally prevented from running for a third term in 2000. John KUFUOR of the opposition New Patriotic Party (NPP) succeeded him and was reelected in 2004. John Atta MILLS of the National Democratic Congress won the 2008 presidential election and took over as head of state. MILLS died in July 2012 and was constitutionally succeeded by his vice president, John Dramani MAHAMA, who subsequently won the December 2012 presidential election. In 2016, Nana Addo Dankwa AKUFO-ADDO of the NPP defeated MAHAMA, marking the third time that Ghana's presidency has changed parties since the return to democracy.",
     "coordinates": "8 00 N, 2 00 W",
     "region": "Africa",
     "total_area": "238,533 sq km",
@@ -60,14 +60,20 @@
         "other": "31.2%"
     },
     "religions": {
-        "Christian": "71.2%", 
-        "Muslim": "17.6%", 
-        "traditional": "5.2%", 
-        "other": "0.8%", 
-        "none": "5.2%"},
+        "Christian": "71.2%",
+        "Muslim": "17.6%",
+        "traditional": "5.2%",
+        "other": "0.8%",
+        "none": "5.2%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "black star, golden eagle",
-    "national_colors": ["red", "yellow", "green", "black"],
+    "national_colors": [
+        "red",
+        "yellow",
+        "green",
+        "black"
+    ],
     "gdp": "$47.02 billion",
     "agriculture": [
         "cocoa",
@@ -122,5 +128,6 @@
     },
     "waterways": "1,293 km",
     "number_of_airports": "10",
-    "international_disputes": "disputed maritime border between Ghana and Cote d'Ivoire"
+    "international_disputes": "disputed maritime border between Ghana and Cote d'Ivoire",
+    "terrorism": "Unknown"
 }

@@ -34,20 +34,16 @@
     "population": "108,113,150",
     "nationality": "Ethiopian(s)",
     "ethnic_groups": {
-        "Oromo": "34.4%",
-        "Amhara (Amara)": "27%",
-        "Somali (Somalie)": "6.2%",
-        "Tigray (Tigrinya)": "6.1%",
-        "Sidama": "4%",
-        "Gurage": "2.5%",
-        "Welaita": "2.3%",
-        "Hadiya": "1.7%",
-        "Afar (Affar)": "1.7%",
-        "Gamo": "1.5%",
-        "Gedeo": "1.3%",
-        "Silte": "1.3%",
-        "Kefficho": "1.2%",
-        "other": "8.8%"
+        "Oromo": "34.9%",
+        "Amhara": "27.9%",
+        "Tigray": "7.3%",
+        "Sidama": "4.1%",
+        "Welaita": "3%",
+        "Gurage": "2.8%",
+        "Somali": "2.7%",
+        "Hadiya": "2.2%",
+        "Afar": ".6%",
+        "other": "12.6%"
     },
     "languages": {
         "Oromo (official)": "33.8%",
@@ -59,7 +55,7 @@
         "Gurage": "2%",
         "Afar (official)": "1.7%",
         "Hadiyya": "1.7%",
-        "Gamo": "1.55%",
+        "Gamo": "1.5%",
         "Gedeo": "1.3%",
         "Opuuo": "1.2%",
         "Kafa": "1.1%",
@@ -68,12 +64,12 @@
         "Arabic": ""
     },
     "religions": {
-        "Ethiopian Orthodox": "43.5%", 
-        "Muslim": "33.9%", 
-        "Protestant": "18.5%", 
-        "traditional": "2.7%", 
-        "Catholic": "0.7%", 
-        "other": "0.6%"
+        "Ethiopian Orthodox": "43.8%",
+        "Muslim": "31.3%",
+        "Protestant": "22.8%",
+        "Catholic": "0.7%",
+        "traditional": ".6%",
+        "other": "0.8%"
     },
     "government_type": "federal parliamentary republic",
     "national_symbols": "Abyssinian lion (traditional), yellow pentagram with five rays of light on a blue field (promoted by current government)",
@@ -110,6 +106,7 @@
     ],
     "exports": [
         "coffee",
+        "by value)",
         "oilseeds",
         "edible vegetables including khat",
         "gold",
@@ -119,24 +116,31 @@
         "meat products"
     ],
     "imports": [
-        "machinery and aircraft",
+        "machinery and aircraft (14%",
+        "by value)",
         "metal and metal products",
+        "(14%)",
         "electrical materials",
-        "petroleum products",
+        "(13%)",
+        "petroleum products (12%)",
         "motor vehicles",
-        "chemicals and fertilizers"
+        "(10%)",
+        "chemicals and fertilizers (4%)"
     ],
     "broadband_subscriptions": "580,120",
     "internet_users": "15,731,741",
     "mobile_subscriptions": "62,617,000",
     "internet_country_code": ".et",
     "military_and_security_forces": "Ethiopian National Defense Force (ENDF): Ground Forces, Ethiopian Air Force (Ye Ityopya Ayer Hayl, ETAF)",
-    "percent_GDP_on_military": "0.6%",
+    "percent_GDP_on_military": "0.64%",
     "pipelines": [
         "Unknown"
     ],
     "ports_and_terminals": {},
     "waterways": "Unknown",
     "number_of_airports": "57",
-    "international_disputes": "Eritrea and Ethiopia agreed to abide by the 2002 Eritrea-Ethiopia Boundary Commission's (EEBC) delimitation decision, but neither party responded to the revised line detailed in the November 2006 EEBC Demarcation Statement; the undemarcated former British administrative line has little meaning as a political separation to rival clans within Ethiopia's Ogaden and southern Somalia's Oromo region; Ethiopian forces invaded southern Somalia and routed Islamist courts from Mogadishu in January 2007; \"Somaliland\" secessionists provide port facilities in Berbera and trade ties to landlocked Ethiopia; civil unrest in eastern Sudan has hampered efforts to demarcate the porous boundary with Ethiopia"
+    "international_disputes": "Eritrea and Ethiopia agreed to abide by the 2002 Eritrea-Ethiopia Boundary Commission's (EEBC) delimitation decision, but neither party responded to the revised line detailed in the November 2006 EEBC Demarcation Statement; the undemarcated former British administrative line has little meaning as a political separation to rival clans within Ethiopia's Ogaden and southern Somalia's Oromo region; Ethiopian forces invaded southern Somalia and routed Islamist courts from Mogadishu in January 2007; \"Somaliland\" secessionists provide port facilities in Berbera and trade ties to landlocked Ethiopia; civil unrest in eastern Sudan has hampered efforts to demarcate the porous boundary with Ethiopia; Ethiopia's construction of a large dam (the Grand Ethiopian Renaissance Dam) on the Blue Nile since 2011 has become a focal point of relations with Egypt and Sudan; as of 2020, four years of three-way talks between the three capitals over operating the dam and filling its reservoir had made little progress; Ethiopia plans to start filling the dam in July 2020",
+    "terrorism": {
+        "al-Shabaab": "punish Ethiopia for participating in the African Union Mission in Somalia; compel Ethiopia to withdraw troops from Somaliaarea(s) of operation"
+    }
 }

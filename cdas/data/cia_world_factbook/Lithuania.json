@@ -27,11 +27,11 @@
     "population": "2,731,464",
     "nationality": "Lithuanian(s)",
     "ethnic_groups": {
-        "Lithuanian": "84.1%", 
-        "Polish": "6.6%", 
-        "Russian": "5.8%", 
-        "Belarusian": "1.2%", 
-        "other": "1.1%", 
+        "Lithuanian": "84.1%",
+        "Polish": "6.6%",
+        "Russian": "5.8%",
+        "Belarusian": "1.2%",
+        "other": "1.1%",
         "unspecified": "1.2%"
     },
     "languages": {
@@ -42,17 +42,22 @@
         "unspecified": "3.5%"
     },
     "religions": {
-        "Roman Catholic": "77.2%", 
-        "Russian Orthodox": "4.1%", 
-        "Old Believer": "0.8%", 
-        "Evangelical Lutheran": "0.6%", 
-        "Evangelical Reformist": "0.2%", 
-        "other": "0.8%", 
-        "none": "6.1%", 
-        "unspecified": "10.1%"},
+        "Roman Catholic": "77.2%",
+        "Russian Orthodox": "4.1%",
+        "Old Believer": "0.8%",
+        "Evangelical Lutheran": "0.6%",
+        "Evangelical Reformist": "0.2%",
+        "other": "0.8%",
+        "none": "6.1%",
+        "unspecified": "10.1%"
+    },
     "government_type": "semi-presidential republic",
     "national_symbols": "mounted knight known as Vytis (the Chaser), white stork",
-    "national_colors": ["yellow", "green", "red"],
+    "national_colors": [
+        "yellow",
+        "green",
+        "red"
+    ],
     "gdp": "$47.26 billion",
     "agriculture": [
         "grain",
@@ -86,7 +91,7 @@
         "amber jewelry",
         "information technology",
         "video game development",
-        "software development",
+        "app/software development",
         "biotechnology"
     ],
     "exports": [
@@ -110,8 +115,8 @@
     "internet_users": "2,122,884",
     "mobile_subscriptions": "4,590,441",
     "internet_country_code": ".lt",
-    "military_and_security_forces": "Lithuanian Armed Forces (Lietuvos Ginkluotosios Pajegos): Land Forces (Sausumos Pajegos), Naval Forces (Karines Juru Pajegos), Air Forces (Karines Oro Pajegos), Special Operations Forces (Specialiuju Operaciju Pajegos); National Defense Volunteer Forces (Savanoriu Pajegos)",
-    "percent_GDP_on_military": "2%",
+    "military_and_security_forces": "Lithuanian Armed Forces (Lietuvos Ginkluotosios Pajegos): Land Forces (Sausumos Pajegos), Naval Forces (Karines Juru Pajegos), Air Forces (Karines Oro Pajegos), Special Operations Forces (Specialiuju Operaciju Pajegos); National Defense Volunteer Forces (Savanoriu Pajegos); National Riflemen's Union (paramilitary force that acts as an additional reserve force)",
+    "percent_GDP_on_military": "2.03%",
     "pipelines": [
         "1921 km gas",
         "121 km refined products"
@@ -123,5 +128,6 @@
     },
     "waterways": "441 km",
     "number_of_airports": "61",
-    "international_disputes": "Lithuania and Russia committed to demarcating their boundary in 2006 in accordance with the land and maritime treaty ratified by Russia in May 2003 and by Lithuania in 1999; Lithuania operates a simplified transit regime for Russian nationals traveling from the Kaliningrad coastal exclave into Russia, while still conforming, as a EU member state having an external border with a non-EU member, to strict Schengen border rules; boundary demarcated with Latvia and Lithuania; as of January 2007, ground demarcation of the boundary with Belarus was complete and mapped with final ratification documents in preparation"
+    "international_disputes": "Lithuania and Russia committed to demarcating their boundary in 2006 in accordance with the land and maritime treaty ratified by Russia in May 2003 and by Lithuania in 1999; Lithuania operates a simplified transit regime for Russian nationals traveling from the Kaliningrad coastal exclave into Russia, while still conforming, as a EU member state having an external border with a non-EU member, to strict Schengen border rules; boundary demarcated with Latvia and Lithuania; as of January 2007, ground demarcation of the boundary with Belarus was complete and mapped with final ratification documents in preparation",
+    "terrorism": "Unknown"
 }

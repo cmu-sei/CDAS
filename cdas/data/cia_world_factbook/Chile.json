@@ -16,7 +16,8 @@
     "natural_hazards": [
         "severe earthquakes",
         "active volcanism",
-        "tsunamisvolcanism: significant volcanic activity due to more than three-dozen active volcanoes along the Andes Mountains; Lascar (5,592 m), which last erupted in 2007, is the most active volcano in the northern Chilean Andes; Llaima (3,125 m) in central Chile, which last erupted in 2009, is another of the country's most active; Chaiten's 2008 eruption forced major evacuations; other notable historically active volcanoes include Cerro Hudson, Calbuco, Copahue, Guallatiri, Llullaillaco, Nevados de Chillan, Puyehue, San Pedro, and Villarrica"
+        "tsunamis",
+        "volcanism: significant volcanic activity due to more than three-dozen active volcanoes along the Andes Mountains; Lascar (5,592 m), which last erupted in 2007, is the most active volcano in the northern Chilean Andes; Llaima (3,125 m) in central Chile, which last erupted in 2009, is another of the country's most active; Chaiten's 2008 eruption forced major evacuations; other notable historically active volcanoes include Cerro Hudson, Calbuco, Copahue, Guallatiri, Llullaillaco, Nevados de Chillan, Puyehue, San Pedro, and Villarrica; see note 2 under \"Geography - note\""
     ],
     "terrain": "low coastal mountains, fertile central valley, rugged Andes in east",
     "population_distribution": "90% of the population is located in the middle third of the country around the capital of Santiago; the far north (anchored by the Atacama Desert) and the extreme south are relatively underpopulated",
@@ -39,18 +40,18 @@
         "unspecified": "0.3%"
     },
     "languages": {
-        "Spanish 99.5% (official)": "5%",
-        "English 10.": "2%",
-        "indigenous 1%": "1%",
-        "other 2.": "3%",
-        "unspecified 0.": "2%"
+        "Spanish (official)": "99.5%",
+        "English": "10.2%",
+        "indigenous": "1%",
+        "other": "2.3%",
+        "unspecified": "0.2%"
     },
     "religions": {
-        "Roman Catholic": "66.7%", 
-        "Evangelical or Protestant": "16.4%", 
-        "Jehovah's Witness": "1%", 
-        "other": "3.4%", 
-        "none": "11.5%", 
+        "Roman Catholic": "66.7%",
+        "Evangelical or Protestant": "16.4%",
+        "Jehovah's Witness": "1%",
+        "other": "3.4%",
+        "none": "11.5%",
         "unspecified": "1.1%"
     },
     "government_type": "presidential republic",
@@ -111,7 +112,7 @@
     "internet_users": "11,650,840",
     "mobile_subscriptions": "25,178,981",
     "internet_country_code": ".cl",
-    "military_and_security_forces": "Armed Forces of Chile (Fuerzas Armadas de Chile):  Chilean Army, Chilean Navy (Armada de Chile, includes Naval Aviation, Marine Corps, and Maritime Territory and Merchant Marine Directorate (Directemar)), Chilean Air Force (Fuerza Aerea de Chile, FACh); Carabineros de Chile (National Police Force)",
+    "military_and_security_forces": "Armed Forces of Chile (Fuerzas Armadas de Chile):\u00a0 Chilean Army, Chilean Navy (Armada de Chile, includes Naval Aviation, Marine Corps, and Maritime Territory and Merchant Marine Directorate (Directemar)), Chilean Air Force (Fuerza Aerea de Chile, FACh); Carabineros de Chile (National Police Force)",
     "percent_GDP_on_military": "1.8%",
     "pipelines": [
         "3160 km gas",
@@ -126,5 +127,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "481",
-    "international_disputes": "Chile and Peru rebuff Bolivia's reactivated claim to restore the Atacama corridor, ceded to Chile in 1884, but Chile has offered instead unrestricted but not sovereign maritime access through Chile to Bolivian natural gas; Chile rejects Peru's unilateral legislation to change its latitudinal maritime boundary with Chile to an equidistance line with a southwestern axis favoring Peru; in October 2007, Peru took its maritime complaint with Chile to the ICJ; territorial claim in Antarctica (Chilean Antarctic Territory) partially overlaps Argentine and British claims; the joint boundary commission, established by Chile and Argentina in 2001, has yet to map and demarcate the delimited boundary in the inhospitable Andean Southern Ice Field (Campo de Hielo Sur)"
+    "international_disputes": "Chile and Peru rebuff Bolivia's reactivated claim to restore the Atacama corridor, ceded to Chile in 1884, but Chile has offered instead unrestricted but not sovereign maritime access through Chile to Bolivian natural gas; Chile rejects Peru's unilateral legislation to change its latitudinal maritime boundary with Chile to an equidistance line with a southwestern axis favoring Peru; in October 2007, Peru took its maritime complaint with Chile to the ICJ; territorial claim in Antarctica (Chilean Antarctic Territory) partially overlaps Argentine and British claims; the joint boundary commission, established by Chile and Argentina in 2001, has yet to map and demarcate the delimited boundary in the inhospitable Andean Southern Ice Field (Campo de Hielo Sur)",
+    "terrorism": "Unknown"
 }

@@ -25,14 +25,14 @@
     "population": "628,381",
     "nationality": "Luxembourger(s)",
     "ethnic_groups": {
-        "Luxembourger": "51.1%", 
-        "Portuguese": "15.7%", 
-        "French": "7.5%", 
-        "Italian": "3.6%", 
-        "Belgian": "3.3%", 
-        "German": "2.1%", 
-        "Spanish": "1.1%", 
-        "British": "1%", 
+        "Luxembourger": "51.1%",
+        "Portuguese": "15.7%",
+        "French": "7.5%",
+        "Italian": "3.6%",
+        "Belgian": "3.3%",
+        "German": "2.1%",
+        "Spanish": "1.1%",
+        "British": "1%",
         "other": "14.6%"
     },
     "languages": {
@@ -45,13 +45,18 @@
         "other": "8.4%"
     },
     "religions": {
-        "Christian (predominantly Roman Catholic)": "70.4%", 
-        "Muslim": "2.3%", 
-        "other": "0.5%", 
-        "none": "26.8%"},
+        "Christian": "70.4%",
+        "Muslim": "2.3%",
+        "other": "0.5%",
+        "none": "26.8%"
+    },
     "government_type": "constitutional monarchy",
     "national_symbols": "red, rampant lion",
-    "national_colors": ["red", "white", "light blue"],
+    "national_colors": [
+        "red",
+        "white",
+        "light blue"
+    ],
     "gdp": "$62.53 billion",
     "agriculture": [
         "grapes",
@@ -68,7 +73,7 @@
         "real estate services",
         "iron",
         "metals",
-        "and steel",
+        "steel",
         "information technology",
         "telecommunications",
         "cargo transportation and logistics",
@@ -99,8 +104,8 @@
     "internet_users": "567,698",
     "mobile_subscriptions": "798,600",
     "internet_country_code": ".lu",
-    "military_and_security_forces": "Luxembourg Army (l'Armée Luxembourgeoise)",
-    "percent_GDP_on_military": "0.6%",
+    "military_and_security_forces": "Luxembourg Army (l'Arm\u00e9e Luxembourgeoise)",
+    "percent_GDP_on_military": "0.56%",
     "pipelines": [
         "142 km gas",
         "27 km refined products"
@@ -109,5 +114,7 @@
         "river port(s)": "Mertert (Moselle)"
     },
     "waterways": "37 km",
-    "number_of_airports": "2"
+    "number_of_airports": "2",
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

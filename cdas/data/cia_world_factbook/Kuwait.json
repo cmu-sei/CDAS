@@ -27,22 +27,29 @@
     "population": "2,993,706",
     "nationality": "Kuwaiti(s)",
     "ethnic_groups": {
-        "Kuwaiti": "30.4%", 
-        "other Arab": "27.4%", 
-        "Asian": "40.3%", 
-        "African": "1%", 
+        "Kuwaiti": "30.4%",
+        "other Arab": "27.4%",
+        "Asian": "40.3%",
+        "African": "1%",
         "other": ".9%"
     },
     "languages": {
         "Arabic (official)": "",
-        "English widely spoken": ""
+        "English  widely spoken": ""
     },
     "religions": {
-        "Muslim (official)": "74.6%", "Christian": "18.2%", 
-        "other and unspecified": "7.2%"},
+        "Muslim": "74.6%",
+        "Christian": "18.2%",
+        "other and unspecified": "7.2%"
+    },
     "government_type": "constitutional monarchy (emirate)",
     "national_symbols": "golden falcon",
-    "national_colors": ["green", "white", "red", "black"],
+    "national_colors": [
+        "green",
+        "white",
+        "red",
+        "black"
+    ],
     "gdp": "$120.7 billion",
     "agriculture": [
         "fish"
@@ -70,7 +77,7 @@
     "internet_users": "2,219,972",
     "mobile_subscriptions": "7,099,848",
     "internet_country_code": ".kw",
-    "military_and_security_forces": "Kuwaiti Armed Forces: Kuwaiti Land Forces (KLF), Kuwaiti Navy (includes Coast Guard), Kuwaiti Air Force (Al-Quwwat al-Jawwiya al-Kuwaitiya; includes Kuwaiti Air Defense Force, KADF), Kuwaiti National Guard (KNG)",
+    "military_and_security_forces": "Kuwaiti Armed Forces: Kuwaiti Land Forces (KLF), Kuwaiti Navy, Kuwaiti Air Force (Al-Quwwat al-Jawwiya al-Kuwaitiya; includes Kuwaiti Air Defense Force, KADF), 25th Commando Brigade, and the Kuwait Emiri Guard Brigade; Kuwaiti National Guard (KNG); Coast Guard (Ministry of Interior)",
     "percent_GDP_on_military": "5.6%",
     "pipelines": [
         "261 km gas",
@@ -82,5 +89,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "7",
-    "international_disputes": "Kuwait and Saudi Arabia continue negotiating a joint maritime boundary with Iran; no maritime boundary exists with Iraq in the Persian Gulf"
+    "international_disputes": "Kuwait and Saudi Arabia continue negotiating a joint maritime boundary with Iran; no maritime boundary exists with Iraq in the Persian Gulf",
+    "terrorism": "Unknown"
 }

@@ -34,12 +34,12 @@
     "population": "21,302,893",
     "nationality": "Romanian(s)",
     "ethnic_groups": {
-        "Romanian": "83.4%", 
-        "Hungarian": "6.1%", 
-        "Romani": "3.1%", 
-        "Ukrainian": "0.3%", 
-        "German": "0.2%", 
-        "other": "0.7%", 
+        "Romanian": "83.4%",
+        "Hungarian": "6.1%",
+        "Romani": "3.1%",
+        "Ukrainian": "0.3%",
+        "German": "0.2%",
+        "other": "0.7%",
         "unspecified": "6.1%"
     },
     "languages": {
@@ -50,15 +50,20 @@
         "unspecified": "6.1%"
     },
     "religions": {
-        "Eastern Orthodox (including all sub-denominations)": "81.9%", 
-        "Protestant": "6.4%", 
-        "Roman Catholic": "4.3%", 
-        "other (includes Muslim)": "0.9%",
-        "none or atheist": "0.2%", 
-        "unspecified": "6.3%"},
+        "Eastern Orthodox": "81.9%",
+        "Protestant": "6.4%",
+        "Roman Catholic": "4.3%",
+        "other": "0.9%",
+        "none or atheist": "0.2%",
+        "unspecified": "6.3%"
+    },
     "government_type": "semi-presidential republic",
     "national_symbols": "golden eagle",
-    "national_colors": ["blue", "yellow", "red"],
+    "national_colors": [
+        "blue",
+        "yellow",
+        "red"
+    ],
     "gdp": "$211.9 billion",
     "agriculture": [
         "wheat",
@@ -102,12 +107,12 @@
         "metals and metal products",
         "raw materials"
     ],
-    "broadband_subscriptions": "5.083 million",
+    "broadband_subscriptions": "5,083,000",
     "internet_users": "12,852,696",
-    "mobile_subscriptions": "22.675 million",
+    "mobile_subscriptions": "22,675,000",
     "internet_country_code": ".ro",
     "military_and_security_forces": "Romanian Armed Forces: Land Forces, Naval Forces, Air Force; Ministry of Internal Affairs: Romanian Gendarmerie",
-    "percent_GDP_on_military": "2%",
+    "percent_GDP_on_military": "2.04%",
     "pipelines": [
         "3726 km gas",
         "2451 km oil"
@@ -118,5 +123,6 @@
     },
     "waterways": "1,731 km",
     "number_of_airports": "45",
-    "international_disputes": "the ICJ ruled largely in favor of Romania in its dispute submitted in 2004 over Ukrainian-administered Zmiyinyy/Serpilor (Snake) Island and Black Sea maritime boundary delimitation; Romania opposes Ukraine's reopening of a navigation canal from the Danube border through Ukraine to the Black Sea"
+    "international_disputes": "the ICJ ruled largely in favor of Romania in its dispute submitted in 2004 over Ukrainian-administered Zmiyinyy/Serpilor (Snake) Island and Black Sea maritime boundary delimitation; Romania opposes Ukraine's reopening of a navigation canal from the Danube border through Ukraine to the Black Sea",
+    "terrorism": "Unknown"
 }

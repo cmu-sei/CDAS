@@ -22,7 +22,7 @@
     "population": "61,944",
     "nationality": "Caymanian(s)",
     "ethnic_groups": {
-        "mixed": "40%", 
+        "mixed": "40%",
         "white": "20%",
         "black": "20%",
         "expatriates of various ethnic groups": "20%"
@@ -35,16 +35,19 @@
         "unspecified": "0.1%"
     },
     "religions": {
-        "Protestant": "67.8%", 
-        "Roman Catholic": "14.1%", 
-        "Jehovah's Witness": "1.1%", 
-        "other": "7%", 
-        "none": "9.3%", 
+        "Protestant": "67.8%",
+        "Roman Catholic": "14.1%",
+        "Jehovah's Witness": "1.1%",
+        "other": "7%",
+        "none": "9.3%",
         "unspecified": "0.7%"
     },
     "government_type": "parliamentary democracy; self-governing overseas territory of the UK",
     "national_symbols": "green sea turtle",
-    "national_colors": [],
+    "national_colors": [
+        "red",
+        "white"
+    ],
     "gdp": "$2.25 billion",
     "agriculture": [
         "vegetables",
@@ -82,5 +85,7 @@
         "major seaport(s)": "Cayman Brac, George Town"
     },
     "waterways": "Unknown",
-    "number_of_airports": "3"
+    "number_of_airports": "3",
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

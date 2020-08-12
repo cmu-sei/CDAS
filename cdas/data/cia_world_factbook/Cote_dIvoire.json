@@ -1,6 +1,6 @@
 {
     "name": "Cote d'Ivoire",
-    "background": "Close ties to France following independence in 1960, the development of cocoa production for export, and foreign investment all made Cote d'Ivoire one of the most prosperous of the West African states but did not protect it from political turmoil. In December 1999, a military coup - the first ever in Cote d'Ivoire's history - overthrew the government. Junta leader Robert GUEI attempted to rig the elections held in late 2000 and declared himself the winner. Popular protest forced him to step aside and an election brought Laurent GBAGBO into power. Ivoirian dissidents and disaffected members of the military launched a failed coup attempt in September 2002 that developed into a rebellion and then a civil war. In 2003, a cease-fire resulted in the country being divided with the rebels holding the north, the government the south, and peacekeeping forces a buffer zone between the two. In March 2007, President GBAGBO and former New Forces rebel leader Guillaume SORO signed an agreement in which SORO joined GBAGBO's government as prime minister and the two agreed to reunite the country by dismantling the buffer zone, integrating rebel forces into the national armed forces, and holding elections. Difficulties in preparing electoral registers delayed balloting until 2010. In November 2010, Alassane Dramane OUATTARA won the presidential election over GBAGBO, but GBAGBO refused to hand over power, resulting in a five-month resumption of violent conflict. In April 2011, after widespread fighting, GBAGBO was formally forced from office by armed OUATTARA supporters with the help of UN and French forces. OUATTARA won a second term in 2015 and is focused on rebuilding the country's economy and infrastructure while reforming the security forces. The UN peacekeeping mission departed in June 2017. GBAGBO was in The Hague on trial for crimes against humanity, but was acquitted in January 2019. Côte d’Ivoire is scheduled to hold presidential elections in November 2020.",
+    "background": "Close ties to France following independence in 1960, the development of cocoa production for export, and foreign investment all made Cote d'Ivoire one of the most prosperous of the West African states but did not protect it from political turmoil. In December 1999, a military coup - the first ever in Cote d'Ivoire's history - overthrew the government. Junta leader Robert GUEI attempted to rig the elections held in late 2000 and declared himself the winner. Popular protest forced him to step aside and an election brought Laurent GBAGBO into power. Ivoirian dissidents and disaffected members of the military launched a failed coup attempt in September 2002 that developed into a rebellion and then a civil war. In 2003, a cease-fire resulted in the country being divided with the rebels holding the north, the government the south, and peacekeeping forces a buffer zone between the two. In March 2007, President GBAGBO and former New Forces rebel leader Guillaume SORO signed an agreement in which SORO joined GBAGBO's government as prime minister and the two agreed to reunite the country by dismantling the buffer zone, integrating rebel forces into the national armed forces, and holding elections. Difficulties in preparing electoral registers delayed balloting until 2010. In November 2010, Alassane Dramane OUATTARA won the presidential election over GBAGBO, but GBAGBO refused to hand over power, resulting in a five-month resumption of violent conflict. In April 2011, after widespread fighting, GBAGBO was formally forced from office by armed OUATTARA supporters with the help of UN and French forces. OUATTARA won a second term in 2015 and is focused on rebuilding the country's economy and infrastructure while reforming the security forces. The UN peacekeeping mission departed in June 2017. GBAGBO was in The Hague on trial for crimes against humanity, but was acquitted in January 2019. C\u00f4te d'Ivoire is scheduled to hold presidential elections in November 2020.",
     "coordinates": "8 00 N, 5 00 W",
     "region": "Africa",
     "total_area": "322,463 sq km",
@@ -56,14 +56,14 @@
         "60 native dialects of which  Dioula is the most widely spoken": ""
     },
     "religions": {
-        "Muslim":"42.9%",
-        "Catholic":"17.2%",
-        "Evangelical":"11.8%",
-        "Methodist":"1.7%",
-        "other Christian":"3.2%",
-        "animist":"3.6%",
-        "other religion":"0.5%",
-        "none":"19.1%"
+        "Muslim": "42.9%",
+        "Catholic": "17.2%",
+        "Evangelical": "11.8%",
+        "Methodist": "1.7%",
+        "other Christian": "3.2%",
+        "animist": "3.6%",
+        "other religion": "0.5%",
+        "none": "19.1%"
     },
     "government_type": "presidential republic",
     "national_symbols": "elephant",
@@ -134,5 +134,6 @@
     },
     "waterways": "980 km",
     "number_of_airports": "27",
-    "international_disputes": "disputed maritime border between Cote d'Ivoire and Ghana"
+    "international_disputes": "disputed maritime border between Cote d'Ivoire and Ghana",
+    "terrorism": "Unknown"
 }

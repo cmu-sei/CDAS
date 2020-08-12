@@ -43,11 +43,11 @@
     },
     "religions": {
         "Roman Catholic": "50%",
-        "Protestant and other Christian": "2.5%", 
+        "Protestant and other Christian": "2.5%",
         "Muslim": "5%",
         "Jewish": "0.4%",
         "Buddhist": "0.3%",
-        "atheist": "9.2%", 
+        "atheist": "9.2%",
         "none": "32.6%"
     },
     "government_type": "federal parliamentary democracy under a constitutional monarchy",
@@ -118,5 +118,6 @@
     },
     "waterways": "2,043 km",
     "number_of_airports": "41",
-    "international_disputes": "none"
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

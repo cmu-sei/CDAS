@@ -48,11 +48,11 @@
         "unspecified": "0.1%"
     },
     "religions": {
-        "Orthodox": "16.2%", 
-        "Lutheran": "9.9%", 
-        "other Christian": "2.2%", 
-        "other": "0.9%", 
-        "none": "54.1%", 
+        "Orthodox": "16.2%",
+        "Lutheran": "9.9%",
+        "other Christian": "2.2%",
+        "other": "0.9%",
+        "none": "54.1%",
         "unspecified": "16.7%"
     },
     "government_type": "parliamentary republic",
@@ -90,19 +90,19 @@
         "chemicals"
     ],
     "imports": [
-        "machinery and electrical equipment",
-        "mineral fuels",
-        "food and food products",
-        "vehicles",
-        "chemical products",
-        "metals"
+        "machinery and electrical equipment 28%",
+        "mineral fuels 11%",
+        "food and food products 10%",
+        "vehicles 9%",
+        "chemical products 8%",
+        "metals 8%"
     ],
     "broadband_subscriptions": "441,167",
     "internet_users": "1,097,921",
     "mobile_subscriptions": "1,924,034",
     "internet_country_code": ".ee",
     "military_and_security_forces": "Estonian Defense Forces: Land Forces, Navy, Air Force, Estonian Defence League (Reserves); Ministry of Interior: Border Guards",
-    "percent_GDP_on_military": "2.1%",
+    "percent_GDP_on_military": "2.14%",
     "pipelines": [
         "2360 km gas"
     ],
@@ -111,5 +111,6 @@
     },
     "waterways": "335 km",
     "number_of_airports": "18",
-    "international_disputes": "Russia and Estonia in May 2005 signed a technical border agreement, but Russia in June 2005 recalled its signature after the Estonian parliament added to its domestic ratification act a historical preamble referencing the Soviet occupation and Estonia's pre-war borders under the 1920 Treaty of Tartu; Russia contends that the preamble allows Estonia to make territorial claims on Russia in the future, while Estonian officials deny that the preamble has any legal impact on the treaty text; Russia demands better treatment of the Russian-speaking population in Estonia; as a member state that forms part of the EU's external border, Estonia implements strict Schengen border rules with Russia"
+    "international_disputes": "Russia and Estonia in May 2005 signed a technical border agreement, but Russia in June 2005 recalled its signature after the Estonian parliament added to its domestic ratification act a historical preamble referencing the Soviet occupation and Estonia's pre-war borders under the 1920 Treaty of Tartu; Russia contends that the preamble allows Estonia to make territorial claims on Russia in the future, while Estonian officials deny that the preamble has any legal impact on the treaty text; Russia demands better treatment of the Russian-speaking population in Estonia; as a member state that forms part of the EU's external border, Estonia implements strict Schengen border rules with Russia",
+    "terrorism": "Unknown"
 }

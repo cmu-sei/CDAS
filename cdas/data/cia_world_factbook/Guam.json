@@ -1,6 +1,6 @@
 {
     "name": "Guam",
-    "background": "Spain ceded Guam to the US in 1898. Captured by the Japanese in 1941, it was retaken by the US three years later. The military installations on the island are some of the most strategically important US bases in the Pacific; they also constitute the island’s most important source of income and economic stability.",
+    "background": "Spain ceded Guam to the US in 1898. Captured by the Japanese in 1941, it was retaken by the US three years later. The military installations on the island are some of the most strategically important US bases in the Pacific; they also constitute the island's most important source of income and economic stability.",
     "coordinates": "13 28 N, 144 47 E",
     "region": "Oceania",
     "total_area": "544 sq km",
@@ -34,7 +34,7 @@
         "Palauan": "1.6%",
         "Japanese": "1.5%",
         "Pohnpeian": "1.4%",
-        "mixed": "9.4%", 
+        "mixed": "9.4%",
         "other": "0.6%"
     },
     "languages": {
@@ -45,10 +45,16 @@
         "Asian languages": "6.3%",
         "other": "1.1%"
     },
-    "religions": {"Roman Catholic": "85%", "other": "15%"},
+    "religions": {
+        "Roman Catholic": "85%",
+        "other": "15%"
+    },
     "government_type": "republican form of government with separate executive, legislative, and judicial branches; unincorporated organized territory of the US with local self-government",
     "national_symbols": "coconut tree",
-    "national_colors": ["deep blue", "red"],
+    "national_colors": [
+        "deep blue",
+        "red"
+    ],
     "gdp": "$5.793 billion",
     "agriculture": [
         "fruits",
@@ -93,5 +99,7 @@
         "major seaport(s)": "Apra Harbor"
     },
     "waterways": "Unknown",
-    "number_of_airports": "5"
+    "number_of_airports": "5",
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

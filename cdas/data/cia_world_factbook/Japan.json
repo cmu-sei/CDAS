@@ -15,26 +15,41 @@
         "about 1,500 seismic occurrences (mostly tremors but occasional severe earthquakes) every year",
         "tsunamis",
         "typhoons",
-        "volcanism: both Unzen (1,500 m) and Sakura-jima (1,117 m), which lies near the densely populated city of Kagoshima, have been deemed Decade Volcanoes by the International Association of Volcanology and Chemistry of the Earth's Interior, worthy of study due to their explosive history and close proximity to human populations; other notable historically active volcanoes include Asama, Honshu Island's most active volcano, Aso, Bandai, Fuji, Iwo-Jima, Kikai, Kirishima, Komaga-take, Oshima, Suwanosejima, Tokachi, Yake-dake, and Usu"
+        "volcanism: both Unzen (1,500 m) and Sakura-jima (1,117 m), which lies near the densely populated city of Kagoshima, have been deemed Decade Volcanoes by the International Association of Volcanology and Chemistry of the Earth's Interior, worthy of study due to their explosive history and close proximity to human populations; other notable historically active volcanoes include Asama, Honshu Island's most active volcano, Aso, Bandai, Fuji, Iwo-Jima, Kikai, Kirishima, Komaga-take, Oshima, Suwanosejima, Tokachi, Yake-dake, and Usu; see note 2 under \"Geography - note\""
     ],
     "terrain": "mostly rugged and mountainous",
     "population_distribution": "all primary and secondary regions of high population density lie on the coast; one-third of the population resides in and around Tokyo on the central plain (Kanto Plain)",
     "natural_resources": [
         "negligible mineral resources",
-        "fish"
+        "fish",
+        "note",
+        "with virtually no natural energy resources",
+        "Japan is the world's largest importer of coal and liquefied natural gas",
+        "as well as the second largest importer of oil"
     ],
     "population": "125,507,472",
     "nationality": "Japanese (singular and plural)",
-    "ethnic_groups": {"Japanese": "98.1%", "Chinese": "0.5%", "Korean": "0.4%", "other": "1%"},
+    "ethnic_groups": {
+        "Japanese": "98.1%",
+        "Chinese": "0.5%",
+        "Korean": "0.4%",
+        "other": "1%"
+    },
     "languages": {
         "Japanese": ""
     },
     "religions": {
-        "Shintoism": "70.4%", "Buddhism": "69.8%", "Christianity": "1.5%", 
-        "other": "6.9%"},
+        "Shintoism": "70.4%",
+        "Buddhism": "69.8%",
+        "Christianity": "1.5%",
+        "other": "6.9%"
+    },
     "government_type": "parliamentary constitutional monarchy",
     "national_symbols": "red sun disc, chrysanthemum",
-    "national_colors": ["red", "white"],
+    "national_colors": [
+        "red",
+        "white"
+    ],
     "gdp": "$4,873 billion",
     "agriculture": [
         "vegetables",
@@ -63,27 +78,17 @@
         "processed foods"
     ],
     "exports": [
-        "motor vehicles",
-        "iron and steel products",
-        "semiconductors",
-        "auto parts",
-        "power generating machinery",
-        "plastic materials"
+        "14.9 motor vehicles5.4 iron and steel products5 semiconductors4.8 auto parts3.5 power generating machinery3.3 plastic materials"
     ],
     "imports": [
-        "petroleum",
-        "liquid natural gas",
-        "clothing",
-        "semiconductors",
-        "coal",
-        "audio and visual apparatus"
+        "16.1 petroleum9.1 liquid natural gas3.8 clothing3.3 semiconductors2.4 coal1.4 audio and visual apparatus"
     ],
     "broadband_subscriptions": "41,496,293",
     "internet_users": "116,565,962",
     "mobile_subscriptions": "179,872,794",
     "internet_country_code": ".jp",
     "military_and_security_forces": "Japan Self-Defense Force (JSDF): Ground Self-Defense Force (Rikujou Jieitai, GSDF; includes aviation), Maritime Self-Defense Force (Kaijou Jieitai, MSDF; includes naval aviation), Air Self-Defense Force (Koukuu Jieitai, ASDF); Japan Coast Guard (Ministry of Land, Transport, Infrastructure and Tourism)",
-    "percent_GDP_on_military": "0.9%",
+    "percent_GDP_on_military": "0.93%",
     "pipelines": [
         "4456 km gas",
         "174 km oil",
@@ -96,5 +101,6 @@
     },
     "waterways": "1,770 km",
     "number_of_airports": "175",
-    "international_disputes": "the sovereignty dispute over the islands of Etorofu, Kunashiri, and Shikotan, and the Habomai group, known in Japan as the \"Northern Territories\" and in Russia as the \"Southern Kuril Islands,\" occupied by the Soviet Union in 1945, now administered by Russia and claimed by Japan, remains the primary sticking point to signing a peace treaty formally ending World War II hostilities; Japan and South Korea claim Liancourt Rocks (Take-shima/Tok-do) occupied by South Korea since 1954; the Japanese-administered Senkaku Islands are also claimed by China and Taiwan"
+    "international_disputes": "the sovereignty dispute over the islands of Etorofu, Kunashiri, and Shikotan, and the Habomai group, known in Japan as the \"Northern Territories\" and in Russia as the \"Southern Kuril Islands,\" occupied by the Soviet Union in 1945, now administered by Russia and claimed by Japan, remains the primary sticking point to signing a peace treaty formally ending World War II hostilities; Japan and South Korea claim Liancourt Rocks (Take-shima/Tok-do) occupied by South Korea since 1954; the Japanese-administered Senkaku Islands are also claimed by China and Taiwan",
+    "terrorism": "Unknown"
 }

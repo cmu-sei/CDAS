@@ -1,6 +1,6 @@
 {
     "name": "Mauritania",
-    "background": "Independent from France in 1960, Mauritania annexed the southern third of the former Spanish Sahara (now Western Sahara) in 1976 but relinquished it after three years of raids by the Polisario guerrilla front seeking independence for the territory. Maaouya Ould Sid Ahmed TAYA seized power in a coup in 1984 and ruled Mauritania with a heavy hand for more than two decades. A series of presidential elections that he held were widely seen as flawed. A bloodless coup in August 2005 deposed President TAYA and ushered in a military council that oversaw a transition to democratic rule. Independent candidate Sidi Ould Cheikh ABDALLAHI was inaugurated in April 2007 as Mauritania's first freely and fairly elected president. His term ended prematurely in August 2008 when a military junta led by General Mohamed Ould Abdel AZIZ deposed him and installed a military council government. AZIZ was subsequently elected president in July 2009 and sworn in the following month. AZIZ sustained injuries from an accidental shooting by his own troops in October 2012 but has continued to maintain his authority. He was reelected in 2014 to a second and final term as president (according to the present constitution). AZIZ will be replaced through elections scheduled for June 2019. The country continues to experience ethnic tensions among three major groups: Arabic-speaking descendants of slaves (Haratines), Arabic-speaking \"White Moors\" (Beydane), and members of Sub-Saharan ethnic groups mostly originating in the Senegal River valley (Halpulaar, Soninke, and Wolof).\nAl-Qaeda in the Islamic Maghreb (AQIM) launched a series of attacks in Mauritania between 2005 and 2011, murdering American and foreign tourists and aid workers, attacking diplomatic and government facilities, and ambushing Mauritanian soldiers and gendarmes. A successful strategy against terrorism that combines dialogue with the terrorists and military actions has prevented the country from further terrorist attacks since 2011. However, AQIM and similar groups remain active in neighboring Mali and elsewhere in the Sahel region and continue to pose a threat to Mauritanians and foreign visitors.",
+    "background": "Independent from France in 1960, Mauritania annexed the southern third of the former Spanish Sahara (now Western Sahara) in 1976 but relinquished it after three years of raids by the Polisario guerrilla front seeking independence for the territory. Maaouya Ould Sid Ahmed TAYA seized power in a coup in 1984 and ruled Mauritania with a heavy hand for more than two decades. A series of presidential elections that he held were widely seen as flawed. A bloodless coup in August 2005 deposed President TAYA and ushered in a military council that oversaw a transition to democratic rule. Independent candidate Sidi Ould Cheikh ABDALLAHI was inaugurated in April 2007 as Mauritania's first freely and fairly elected president. His term ended prematurely in August 2008 when a military junta led by General Mohamed Ould Abdel AZIZ deposed him and installed a military council government. AZIZ was subsequently elected president in 2009 and reelected in 2014 to a second and final term. He was replaced in 2019 by Mohamed Cheikh El GHAZOUANI. The country continues to experience ethnic tensions among three major groups: Arabic-speaking descendants of slaves (Haratines), Arabic-speaking \"White Moors\" (Beydane), and members of Sub-Saharan ethnic groups mostly originating in the Senegal River valley (Halpulaar, Soninke, and Wolof).\nAl-Qaeda in the Islamic Maghreb (AQIM) launched a series of attacks in Mauritania between 2005 and 2011, murdering American and foreign tourists and aid workers, attacking diplomatic and government facilities, and ambushing Mauritanian soldiers and gendarmes. A successful strategy against terrorism that combines dialogue with the terrorists and military actions has prevented the country from further terrorist attacks since 2011. However, AQIM and similar groups remain active in neighboring Mali and elsewhere in the Sahel region and continue to pose a threat to Mauritanians and foreign visitors.",
     "coordinates": "20 00 N, 12 00 W",
     "region": "Africa",
     "total_area": "1,030,700 sq km",
@@ -33,9 +33,10 @@
     "population": "4,005,475",
     "nationality": "Mauritanian(s)",
     "ethnic_groups": {
-        "black Moors (Haratines - Arab-speaking slaves, former slaves, and their descendants of African origin, enslaved by white Moors)": "40%", 
-        "white Moors (of Arab-Berber descent, known as Beydane)": "30%", 
-        "Sub-Saharan Mauritanians (non-Arabic speaking, largely resident in or originating from the Senegal River Valley, including Halpulaar, Fulani, Soninke, Wolof, and Bambara ethnic groups)": "30%"},
+        "black Moors": "40%",
+        "white Moors": "30%",
+        "Sub-Saharan Mauritanians": "30%"
+    },
     "languages": {
         "Arabic (official)": "",
         "Pular": "",
@@ -43,10 +44,15 @@
         "Wolof": "",
         "French": ""
     },
-    "religions": {"Muslim (official)": "100%"},
+    "religions": {
+        "Muslim": "100%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "five-pointed star between the horns of a horizontal crescent moon",
-    "national_colors": ["green", "yellow"],
+    "national_colors": [
+        "green",
+        "yellow"
+    ],
     "gdp": "$4.935 billion",
     "agriculture": [
         "dates",
@@ -91,5 +97,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "30",
-    "international_disputes": "Mauritanian claims to Western Sahara remain dormant"
+    "international_disputes": "Mauritanian claims to Western Sahara remain dormant",
+    "terrorism": "Unknown"
 }

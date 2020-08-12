@@ -36,11 +36,12 @@
     "population": "38,282,325",
     "nationality": "Pole(s)",
     "ethnic_groups": {
-        "Polish": "96.9%", 
-        "Silesian": "1.1%", 
-        "German": "0.2%", 
-        "Ukrainian": "0.1%", 
-        "other and unspecified": "1.7%"},
+        "Polish": "96.9%",
+        "Silesian": "1.1%",
+        "German": "0.2%",
+        "Ukrainian": "0.1%",
+        "other and unspecified": "1.7%"
+    },
     "languages": {
         "Polish (official)": "98.2%",
         "Silesian": "1.4%",
@@ -48,14 +49,18 @@
         "unspecified": "1.3%"
     },
     "religions": {
-        "Catholic": "85.9%", 
-        "Orthodox": "1.3%", 
-        "Protestant": "0.4%", 
-        "other": "0.4%", 
-        "unspecified": "12.1%"},
+        "Catholic": "85.9%",
+        "Orthodox": "1.3%",
+        "Protestant": "0.4%",
+        "other": "0.4%",
+        "unspecified": "12.1%"
+    },
     "government_type": "parliamentary republic",
     "national_symbols": "white crowned eagle",
-    "national_colors": ["white", "red"],
+    "national_colors": [
+        "white",
+        "red"
+    ],
     "gdp": "$524.8 billion",
     "agriculture": [
         "potatoes",
@@ -81,23 +86,23 @@
     "exports": [
         "machinery and transport equipment",
         "intermediate manufactured goods",
-        "miscellaneous manufactured goods%",
+        "miscellaneous manufactured goods",
         "food and live animals"
     ],
     "imports": [
-        "machinery and transport equipment",
-        "intermediate manufactured goods",
-        "chemicals",
+        "machinery and transport equipment 38%",
+        "intermediate manufactured goods 21%",
+        "chemicals 15%",
         "minerals",
         "fuels",
         "lubricants",
-        "related materials"
+        "and related materials 9%"
     ],
     "broadband_subscriptions": "6,114,926",
     "internet_users": "28,237,820",
     "mobile_subscriptions": "51,098,747",
     "internet_country_code": ".pl",
-    "military_and_security_forces": "Polish Armed Forces: Land Forces (Wojska Ladowe), Navy (Marynarka Wojenna), Air Force (Sily Powietrzne), Special Forces (Wojska Specjalne), Territorial Defense Force (Wojska Obrony Terytorialnej)",
+    "military_and_security_forces": "Polish Armed Forces: Land Forces (Wojska Ladowe), Navy (Marynarka Wojenna), Air Force (Sily Powietrzne), Special Forces (Wojska Specjalne), Territorial Defense Force (Wojska Obrony Terytorialnej); Ministry of the Interior: Border Guard (includes coast guard duties)",
     "percent_GDP_on_military": "2%",
     "pipelines": [
         "14198 km gas",
@@ -112,5 +117,6 @@
     },
     "waterways": "3,997 km",
     "number_of_airports": "126",
-    "international_disputes": "as a member state that forms part of the EU's external border, Poland has implemented the strict Schengen border rules to restrict illegal immigration and trade along its eastern borders with Belarus and Ukraine"
+    "international_disputes": "as a member state that forms part of the EU's external border, Poland has implemented the strict Schengen border rules to restrict illegal immigration and trade along its eastern borders with Belarus and Ukraine",
+    "terrorism": "Unknown"
 }

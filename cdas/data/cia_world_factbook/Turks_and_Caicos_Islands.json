@@ -22,25 +22,32 @@
     "population": "55,926",
     "nationality": "none",
     "ethnic_groups": {
-        "black": "87.6%", "white": "7.9%", "mixed": "2.5%", 
-        "East Indian": "1.3%", "other": "0.7%"},
+        "black": "87.6%",
+        "white": "7.9%",
+        "mixed": "2.5%",
+        "East Indian": "1.3%",
+        "other": "0.7%"
+    },
     "languages": {
-        "English  (official)": ""
+        "English (official)": ""
     },
     "religions": {
-        "Protestant": "72.8%", 
-        "Roman Catholic": "11.4%", 
-        "Jehovah's Witness": "1.8%", 
-        "other": "14%"},
+        "Protestant": "72.8%",
+        "Roman Catholic": "11.4%",
+        "Jehovah's Witness": "1.8%",
+        "other": "14%"
+    },
     "government_type": "parliamentary democracy",
     "national_symbols": "conch shell, Turk's cap cactus",
-    "national_colors": [],
+    "national_colors": [
+        "green",
+        "white"
+    ],
     "gdp": "NA",
     "agriculture": [
         "corn",
         "beans",
         "cassava",
-        "tapioca",
         "citrus fruits",
         "fish"
     ],
@@ -74,5 +81,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "8",
-    "international_disputes": "have received Haitians fleeing economic and civil disorder"
+    "international_disputes": "have received Haitians fleeing economic and civil disorder",
+    "terrorism": "Unknown"
 }

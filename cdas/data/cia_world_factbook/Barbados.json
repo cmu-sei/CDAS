@@ -36,12 +36,12 @@
         "Bajan": ""
     },
     "religions": {
-        "Protestant": "66.4%", 
-        "Roman Catholic": "3.8%", 
-        "other Christian": "5.4%", 
-        "Rastafarian": "1%", 
-        "other": "1.5%", 
-        "none": "20.6%", 
+        "Protestant": "66.4%",
+        "Roman Catholic": "3.8%",
+        "other Christian": "5.4%",
+        "Rastafarian": "1%",
+        "other": "1.5%",
+        "none": "20.6%",
         "unspecified": "1.2%"
     },
     "government_type": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
@@ -97,5 +97,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "1",
-    "international_disputes": "Barbados and Trinidad and Tobago abide by the April 2006 Permanent Court of Arbitration decision delimiting a maritime boundary and limiting catches of flying fish in Trinidad and Tobago's exclusive economic zone; joins other Caribbean states to counter Venezuela's claim that Aves Island sustains human habitation, a criterion under the UN Convention on the Law of the Sea, which permits Venezuela to extend its Economic Exclusion Zone/continental shelf over a large portion of the eastern Caribbean Sea"
+    "international_disputes": "Barbados and Trinidad and Tobago abide by the April 2006 Permanent Court of Arbitration decision delimiting a maritime boundary and limiting catches of flying fish in Trinidad and Tobago's exclusive economic zone; joins other Caribbean states to counter Venezuela's claim that Aves Island sustains human habitation, a criterion under the UN Convention on the Law of the Sea, which permits Venezuela to extend its Economic Exclusion Zone/continental shelf over a large portion of the eastern Caribbean Sea",
+    "terrorism": "Unknown"
 }

@@ -42,7 +42,10 @@
     },
     "government_type": "parliamentary democracy (Assembly of French Polynesia); an overseas collectivity of France",
     "national_symbols": "outrigger canoe, Tahitian gardenia (Gardenia taitensis) flower",
-    "national_colors": ["red", "white"],
+    "national_colors": [
+        "red",
+        "white"
+    ],
     "gdp": "$4.795 billion",
     "agriculture": [
         "coconuts",
@@ -87,5 +90,7 @@
         "major seaport(s)": "Papeete"
     },
     "waterways": "Unknown",
-    "number_of_airports": "54"
+    "number_of_airports": "54",
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

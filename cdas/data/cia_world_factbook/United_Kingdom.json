@@ -38,22 +38,35 @@
     "population": "65,761,117",
     "nationality": "Briton(s), British (collective plural)",
     "ethnic_groups": {
-        "white": "87.2%", "black/African/Caribbean/black British": "3%", 
-        "Asian/Asian British: Indian": "2.3%", 
-        "Asian/Asian British: Pakistani": "1.9%", "mixed": "2%", "other": "3.7%"},
+        "white": "87.2%",
+        "black/African/Caribbean/black British": "3%",
+        "Asian/Asian British: Indian": "2.3%",
+        "Asian/Asian British: Pakistani": "1.9%",
+        "mixed": "2%",
+        "other": "3.7%"
+    },
     "languages": {
         "English": ""
     },
     "religions": {
-        "Christian": "59.5%", 
-        "Muslim": "4.4%", 
-        "Hindu": "1.3%", 
-        "other": "2%", 
-        "unspecified": "7.2%", 
-        "none": "25.7%"},
+        "Christian": "59.5%",
+        "Muslim": "4.4%",
+        "Hindu": "1.3%",
+        "other": "2%",
+        "unspecified": "7.2%",
+        "none": "25.7%"
+    },
     "government_type": "parliamentary constitutional monarchy; a Commonwealth realm",
     "national_symbols": "lion (Britain in general); lion, Tudor rose, oak (England); lion, unicorn, thistle (Scotland); dragon, daffodil, leek (Wales); shamrock, flax (Northern Ireland)",
-    "national_colors": ["red", "white", "blue"],
+    "national_colors": [
+        "red",
+        "white",
+        "blue (Britain in general); red",
+        "white (England); blue",
+        "white (Scotland); red",
+        "white",
+        "green (Wales)"
+    ],
     "gdp": "$2,628 billion",
     "agriculture": [
         "cereals",
@@ -105,7 +118,7 @@
     "mobile_subscriptions": "79,472,341",
     "internet_country_code": ".uk",
     "military_and_security_forces": "British Army, Royal Navy (includes Royal Marines), Royal Air Force",
-    "percent_GDP_on_military": "2.1%",
+    "percent_GDP_on_military": "2.14%",
     "pipelines": [
         "502 km condensate",
         "9 km condensate/gas",
@@ -124,5 +137,6 @@
     },
     "waterways": "3,200 km",
     "number_of_airports": "460",
-    "international_disputes": "in 2002, Gibraltar residents voted overwhelmingly by referendum to reject any \"shared sovereignty\" arrangement between the UK and Spain; the Government of Gibraltar insisted on equal participation in talks between the two countries; Spain disapproved of UK plans to grant Gibraltar greater autonomy; Mauritius and Seychelles claim the Chagos Archipelago (British Indian Ocean Territory); in 2001, the former inhabitants of the archipelago, evicted 1967 - 1973, were granted UK citizenship and the right of return, followed by Orders in Council in 2004 that banned rehabitation, a High Court ruling reversed the ban, a Court of Appeal refusal to hear the case, and a Law Lords' decision in 2008 denied the right of return; in addition, the UK created the world's largest marine protection area around the Chagos islands prohibiting the extraction of any natural resources therein; UK rejects sovereignty talks requested by Argentina, which still claims the Falkland Islands (Islas Malvinas) and South Georgia and the South Sandwich Islands; territorial claim in Antarctica (British Antarctic Territory) overlaps Argentine claim and partially overlaps Chilean claim; Iceland, the UK, and Ireland dispute Denmark's claim that the Faroe Islands' continental shelf extends beyond 200 nm"
+    "international_disputes": "in 2002, Gibraltar residents voted overwhelmingly by referendum to reject any \"shared sovereignty\" arrangement between the UK and Spain; the Government of Gibraltar insisted on equal participation in talks between the two countries; Spain disapproved of UK plans to grant Gibraltar greater autonomy; Mauritius and Seychelles claim the Chagos Archipelago (British Indian Ocean Territory); in 2001, the former inhabitants of the archipelago, evicted 1967 - 1973, were granted UK citizenship and the right of return, followed by Orders in Council in 2004 that banned rehabitation, a High Court ruling reversed the ban, a Court of Appeal refusal to hear the case, and a Law Lords' decision in 2008 denied the right of return; in addition, the UK created the world's largest marine protection area around the Chagos islands prohibiting the extraction of any natural resources therein; UK rejects sovereignty talks requested by Argentina, which still claims the Falkland Islands (Islas Malvinas) and South Georgia and the South Sandwich Islands; territorial claim in Antarctica (British Antarctic Territory) overlaps Argentine claim and partially overlaps Chilean claim; Iceland, the UK, and Ireland dispute Denmark's claim that the Faroe Islands' continental shelf extends beyond 200 nm",
+    "terrorism": "Unknown"
 }

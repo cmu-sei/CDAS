@@ -1,6 +1,6 @@
 {
     "name": "Sri Lanka",
-    "background": "The first Sinhalese arrived in Sri Lanka late in the 6th century B.C., probably from northern India. Buddhism was introduced circa 250 B.C., and the first kingdoms developed at the cities of Anuradhapura (from circa 200 B.C. to circa A.D. 1000) and Polonnaruwa (from about 1070 to 1200). In the 14th century, a south Indian dynasty established a Tamil kingdom in northern Sri Lanka. The Portuguese controlled the coastal areas of the island in the 16th century followed by the Dutch in the 17th century. The island was ceded to the British in 1796, became a crown colony in 1802, and was formally united under British rule by 1815. As Ceylon, it became independent in 1948; its name was changed to Sri Lanka in 1972. Prevailing tensions between the Sinhalese majority and Tamil separatists erupted into war in July 1983. Fighting between the government and Liberation Tigers of Tamil Eelam (LTTE) continued for over a quarter century. Although Norway brokered peace negotiations that led to a ceasefire in 2002, the fighting slowly resumed and was again in full force by 2006. The government defeated the LTTE in May 2009.\nDuring the post-conflict years under President Mahinda RAJAPAKSA, the government initiated infrastructure development projects, many of which were financed by loans from China. His regime faced significant allegations of human rights violations and a shrinking democratic space for civil society.  In 2015, a new coalition government headed by President Maithripala SIRISENA of the Sri Lanka Freedom Party and Prime Minister Ranil WICKREMESINGHE of the United National Party came to power with pledges to advance economic, governance, anti-corruption, reconciliation, justice, and accountability reforms. However, implementation of these reforms has been uneven. In October 2018, President SIRISENA attempted to oust Prime Minister WICKREMESINGHE, swearing in former President RAJAPAKSA as the new prime minister and issuing an order to dissolve the parliament and hold elections. This sparked a seven-week constitutional crisis that ended when the Supreme Court ruled SIRISENA’s actions unconstitutional, RAJAPAKSA resigned, and WICKREMESINGHE was reinstated. In November 2019, Gotabaya RAJAPAKSA won the presidential election and appointed his brother, Mahinda, prime minister.",
+    "background": "The first Sinhalese arrived in Sri Lanka late in the 6th century B.C., probably from northern India. Buddhism was introduced circa 250 B.C., and the first kingdoms developed at the cities of Anuradhapura (from circa 200 B.C. to circa A.D. 1000) and Polonnaruwa (from about 1070 to 1200). In the 14th century, a south Indian dynasty established a Tamil kingdom in northern Sri Lanka. The Portuguese controlled the coastal areas of the island in the 16th century followed by the Dutch in the 17th century. The island was ceded to the British in 1796, became a crown colony in 1802, and was formally united under British rule by 1815. As Ceylon, it became independent in 1948; its name was changed to Sri Lanka in 1972. Prevailing tensions between the Sinhalese majority and Tamil separatists erupted into war in July 1983. Fighting between the government and Liberation Tigers of Tamil Eelam (LTTE) continued for over a quarter century. Although Norway brokered peace negotiations that led to a ceasefire in 2002, the fighting slowly resumed and was again in full force by 2006. The government defeated the LTTE in May 2009.\nDuring the post-conflict years under President Mahinda RAJAPAKSA, the government initiated infrastructure development projects, many of which were financed by loans from China. His regime faced significant allegations of human rights violations and a shrinking democratic space for civil society.\u00a0 In 2015, a new coalition government headed by President Maithripala SIRISENA of the Sri Lanka Freedom Party and Prime Minister Ranil WICKREMESINGHE of the United National Party came to power with pledges to advance economic, governance, anti-corruption, reconciliation, justice, and accountability reforms. However, implementation of these reforms has been uneven. In October 2018, President SIRISENA attempted to oust Prime Minister WICKREMESINGHE, swearing in former President RAJAPAKSA as the new prime minister and issuing an order to dissolve the parliament and hold elections. This sparked a seven-week constitutional crisis that ended when the Supreme Court ruled SIRISENA's actions unconstitutional, RAJAPAKSA resigned, and WICKREMESINGHE was reinstated. In November 2019, Gotabaya RAJAPAKSA won the presidential election and appointed his brother, Mahinda, prime minister.",
     "coordinates": "7 00 N, 81 00 E",
     "region": "Asia",
     "total_area": "65,610 sq km",
@@ -28,23 +28,31 @@
     "population": "22,889,201",
     "nationality": "Sri Lankan(s)",
     "ethnic_groups": {
-        "Sinhalese": "74.9%", "Sri Lankan Tamil": "11.2%", 
-        "Sri Lankan Moors": "9.2%", "Indian Tamil": "4.2%", "other": "0.5%"},
+        "Sinhalese": "74.9%",
+        "Sri Lankan Tamil": "11.2%",
+        "Sri Lankan Moors": "9.2%",
+        "Indian Tamil": "4.2%",
+        "other": "0.5%"
+    },
     "languages": {
         "Sinhala (official)": "87%",
         "Tamil (official)": "28.5%",
         "English": "23.8%"
     },
     "religions": {
-        "Buddhist (official)": "70.2%", 
-        "Hindu": "12.6%", 
-        "Muslim": "9.7%", 
-        "Roman Catholic": "6.1%", 
-        "other Christian": "1.3%", 
-        "other": "0.05%"},
+        "Buddhist": "70.2%",
+        "Hindu": "12.6%",
+        "Muslim": "9.7%",
+        "Roman Catholic": "6.1%",
+        "other Christian": "1.3%",
+        "other": "0.05%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "lion, water lily",
-    "national_colors": ["maroon", "yellow"],
+    "national_colors": [
+        "maroon",
+        "yellow"
+    ],
     "gdp": "$87.35 billion",
     "agriculture": [
         "rice",
@@ -111,5 +119,7 @@
         "container port(s) (TEUs)": "Colombo (6,209,000)"
     },
     "waterways": "160 km",
-    "number_of_airports": "18"
+    "number_of_airports": "18",
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

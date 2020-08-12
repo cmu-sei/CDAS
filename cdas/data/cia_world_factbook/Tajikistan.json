@@ -36,18 +36,27 @@
     "population": "8,873,669",
     "nationality": "Tajikistani(s)",
     "ethnic_groups": {
-        "Tajik": "84.3%", "Uzbek": "13.8%", "other": "2%"},
+        "Tajik": "84.3%",
+        "Uzbek": "13.8%",
+        "other": "2%"
+    },
     "languages": {
         "Tajik (official)": "84.4%",
         "Uzbek": "11.9%",
-        "Kyrgyz": "0.8%",
-        "Russian": "0.5%",
+        "Kyrgyz": ".8%",
+        "Russian": ".5%",
         "other": "2.4%"
     },
-    "religions": {"Muslim": "98%", "other": "2%"},
+    "religions": {
+        "Muslim 98% other": "2%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "crown surmounted by an arc of seven, five-pointed stars; snow leopard",
-    "national_colors": ["red", "white", "green"],
+    "national_colors": [
+        "red",
+        "white",
+        "green"
+    ],
     "gdp": "$7.144 billion",
     "agriculture": [
         "cotton",
@@ -88,7 +97,7 @@
     "mobile_subscriptions": "9,400,000",
     "internet_country_code": ".tj",
     "military_and_security_forces": "Armed Forces of the Republic of Tajikistan: Land Forces, Mobile Forces, Air and Air Defense Forces; National Guard; Ministry of Internal Affairs: Internal Troops (reserves for Armed Forces in wartime); State Committee on National Security: Border Guard Forces",
-    "percent_GDP_on_military": "1.2%",
+    "percent_GDP_on_military": "1.22%",
     "pipelines": [
         "549 km gas",
         "38 km oil"
@@ -96,5 +105,6 @@
     "ports_and_terminals": "Unknown",
     "waterways": "200 km",
     "number_of_airports": "24",
-    "international_disputes": "in 2006, China and Tajikistan pledged to commence demarcation of the revised boundary agreed to in the delimitation of 2002; talks continue with Uzbekistan to delimit border and remove minefields; disputes in Isfara Valley delay delimitation with Kyrgyzstan"
+    "international_disputes": "in 2006, China and Tajikistan pledged to commence demarcation of the revised boundary agreed to in the delimitation of 2002; talks continue with Uzbekistan to delimit border and remove minefields; disputes in Isfara Valley delay delimitation with Kyrgyzstan",
+    "terrorism": "Unknown"
 }

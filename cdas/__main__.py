@@ -300,6 +300,7 @@ def main(args, config):
         # Using country data files instead of random generation
         print("Loading countries...")
         for fn in os.listdir(args.country_data):
+            print(fn)
             with open(args.country_data + fn, 'r') as f:
                 country_data = json.load(f)
             f.close()

@@ -49,7 +49,7 @@
     "nationality": "Brazilian(s)",
     "ethnic_groups": {
         "white": "47.7%",
-        "mulatto (mixed white and black)": "43.1%",
+        "mulatto": "43.1%",
         "black": "7.6%",
         "Asian": "1.1%",
         "indigenous": "0.4%"
@@ -58,14 +58,15 @@
         "Portuguese (official)": ""
     },
     "religions": {
-        "Roman Catholic": "64.6%", 
-        "other Catholic": "0.4%", 
-        "Protestant": "22.2%", 
-        "other Christian": "0.7%", 
-        "Spiritist": "2.2%", 
-        "other": "1.4%", 
-        "none": "8%", 
-        "unspecified": "0.4%"},
+        "Roman Catholic": "64.6%",
+        "other Catholic": "0.4%",
+        "Protestant": "22.2%",
+        "other Christian": "0.7%",
+        "Spiritist": "2.2%",
+        "other": "1.4%",
+        "none": "8%",
+        "unspecified": "0.4%"
+    },
     "government_type": "federal presidential republic",
     "national_symbols": "Southern Cross constellation",
     "national_colors": [
@@ -121,9 +122,9 @@
     "military_and_security_forces": "Brazilian Armed Forces: Brazilian Army (Exercito Brasileiro, EB), Brazilian Navy (Marinha do Brasil, MB, includes Naval Aviation and Marine Corps (Corpo de Fuzileiros Navais)), Brazilian Air Force (Forca Aerea Brasileira, FAB); Public Security Forces",
     "percent_GDP_on_military": "1.5%",
     "pipelines": [
-        "5959 km refined petroleum product",
-        "11696 km natural gas",
-        "1985 km crude oil (distribution)",
+        "5959 km refined petroleum product ",
+        "11696 km natural gas ",
+        "1985 km crude oil ",
         "77 km ethanol/petrochemical"
     ],
     "ports_and_terminals": {
@@ -136,5 +137,6 @@
     },
     "waterways": "50,000 km",
     "number_of_airports": "4,093",
-    "international_disputes": "uncontested boundary dispute between Brazil and Uruguay over Braziliera/Brasiliera Island in the Quarai/Cuareim River leaves the tripoint with Argentina in question; smuggling of firearms and narcotics continues to be an issue along the Uruguay-Brazil border; Colombian-organized illegal narcotics and paramilitary activities penetrate Brazil's border region with Venezuela"
+    "international_disputes": "uncontested boundary dispute between Brazil and Uruguay over Braziliera/Brasiliera Island in the Quarai/Cuareim River leaves the tripoint with Argentina in question; smuggling of firearms and narcotics continues to be an issue along the Uruguay-Brazil border; Colombian-organized illegal narcotics and paramilitary activities penetrate Brazil's border region with Venezuela",
+    "terrorism": "Unknown"
 }

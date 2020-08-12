@@ -22,9 +22,9 @@
     "population": "11,000",
     "nationality": "Nauruan(s)",
     "ethnic_groups": {
-        "Nauruan": "88.9%", 
-        "part Nauruan": "6.6%", 
-        "I-Kiribati": "2%", 
+        "Nauruan": "88.9%",
+        "part Nauruan": "6.6%",
+        "I-Kiribati": "2%",
         "other": "2.5%"
     },
     "languages": {
@@ -33,14 +33,19 @@
         "other": "5%"
     },
     "religions": {
-        "Protestant": "60.4%", 
-        "Roman Catholic": "33%", 
-        "other": "3.7%", 
-        "none": "1.8%", 
-        "unspecified": "1.1%"},
+        "Protestant": "60.4%",
+        "Roman Catholic": "33%",
+        "other": "3.7%",
+        "none": "1.8%",
+        "unspecified": "1.1%"
+    },
     "government_type": "parliamentary republic",
     "national_symbols": "frigatebird, calophyllum flower",
-    "national_colors": ["blue", "yellow", "white"],
+    "national_colors": [
+        "blue",
+        "yellow",
+        "white"
+    ],
     "gdp": "$0.114 billion",
     "agriculture": [
         "coconuts"
@@ -73,5 +78,7 @@
         "major seaport(s)": "Nauru"
     },
     "waterways": "Unknown",
-    "number_of_airports": "1"
+    "number_of_airports": "1",
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

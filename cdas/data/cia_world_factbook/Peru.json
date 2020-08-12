@@ -16,8 +16,8 @@
     "climate": "varies from tropical in east to dry desert in west; temperate to frigid in Andes",
     "coastline": "2,414 km",
     "natural_hazards": [
-        "earthquakes", "tsunamis", "flooding", "landslides",
-        "mild volcanic activity: volcanic activity in the Andes Mountains; Ubinas (5,672 m), which last erupted in 2009, is the country's most active volcano; other historically active volcanoes include El Misti, Huaynaputina, Sabancaya, and Yucamane"
+        "earthquakes, tsunamis, flooding, landslides, mild volcanic activity",
+        "volcanism: volcanic activity in the Andes Mountains; Ubinas (5,672 m), which last erupted in 2009, is the country's most active volcano; other historically active volcanoes include El Misti, Huaynaputina, Sabancaya, and Yucamane; see note 2 under \"Geography - note\""
     ],
     "terrain": "western coastal plain (costa), high and rugged Andes in center (sierra), eastern lowland jungle of Amazon Basin (selva)",
     "population_distribution": "approximately one-third of the population resides along the desert coastal belt in the west, with a strong focus on the capital city of Lima; the Andean highlands, or sierra, which is strongly identified with the country's Amerindian population, contains roughly half of the overall population; the eastern slopes of the Andes, and adjoining rainforest, are sparsely populated",
@@ -38,12 +38,13 @@
     "population": "31,914,989",
     "nationality": "Peruvian(s)",
     "ethnic_groups": {
-        "mestizo (mixed Amerindian and white)":"60.2%", 
-        "Amerindian":"25.8%",
-        "white":"5.9%",
-        "African descent":"3.6%",
-        "other (includes Chinese and Japanese descent)":"1.2%",
-        "unspecified":"3.3%"},
+        "mestizo": "60.2%",
+        "Amerindian": "25.8%",
+        "white": "5.9%",
+        "African descent": "3.6%",
+        "other": "1.2%",
+        "unspecified": "3.3%"
+    },
     "languages": {
         "Spanish (official)": "82.9%",
         "Quechua (official)": "13.6%",
@@ -51,18 +52,22 @@
         "Ashaninka": "0.3%",
         "other native languages": "0.8%",
         "other": "0.2%",
-        "none": "0.1%",
-        "unspecified": "0.7%"
+        "none": ".1%",
+        "unspecified": ".7%"
     },
     "religions": {
-        "Roman Catholic": "60%", 
-        "Christian": "14.6%", 
-        "other": ".3%", 
-        "none": "4%", 
-        "unspecified": "21.1%"},
+        "Roman Catholic": "60%",
+        "Christian": "14.6%",
+        "other": ".3%",
+        "none": "4%",
+        "unspecified": "21.1%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "vicuna (a camelid related to the llama)",
-    "national_colors": ["red", "white"],
+    "national_colors": [
+        "red",
+        "white"
+    ],
     "gdp": "$214.2 billion",
     "agriculture": [
         "artichokes",
@@ -166,7 +171,7 @@
     "internet_users": "13,975,422",
     "mobile_subscriptions": "38,915,386",
     "internet_country_code": ".pe",
-    "military_and_security_forces": "Joint Command of the Armed Forces of Peru: Peruvian Army (Ejercito del Peru), Peruvian Navy (Marina de Guerra del Peru, MGP, includes naval air, naval infantry, and Coast Guard), Air Force of Peru (Fuerza Aerea del Peru, FAP); Ministry of the Interior (Ministerio del Interior): Peruvian National Police (Policía Nacional del Perú, PNP)",
+    "military_and_security_forces": "Joint Command of the Armed Forces of Peru: Peruvian Army (Ejercito del Peru), Peruvian Navy (Marina de Guerra del Peru, MGP, includes naval air, naval infantry, and Coast Guard), Air Force of Peru (Fuerza Aerea del Peru, FAP); Ministry of the Interior (Ministerio del Interior): Peruvian National Police (Polic\u00eda Nacional del Per\u00fa, PNP)",
     "percent_GDP_on_military": "1.2%",
     "pipelines": [
         "786 km extra heavy crude",
@@ -183,5 +188,6 @@
     },
     "waterways": "8,808 km",
     "number_of_airports": "191",
-    "international_disputes": "Chile and Ecuador rejected Peru's November 2005 unilateral legislation to shift the axis of their joint treaty-defined maritime boundaries along the parallels of latitude to equidistance lines which favor Peru; organized illegal narcotics operations in Colombia have penetrated Peru's shared border; Peru rejects Bolivia's claim to restore maritime access through a sovereign corridor through Chile along the Peruvian border"
+    "international_disputes": "Chile and Ecuador rejected Peru's November 2005 unilateral legislation to shift the axis of their joint treaty-defined maritime boundaries along the parallels of latitude to equidistance lines which favor Peru; organized illegal narcotics operations in Colombia have penetrated Peru's shared border; Peru rejects Bolivia's claim to restore maritime access through a sovereign corridor through Chile along the Peruvian border",
+    "terrorism": "Unknown"
 }

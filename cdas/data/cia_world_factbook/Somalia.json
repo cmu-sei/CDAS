@@ -33,7 +33,9 @@
     "population": "11,757,124",
     "nationality": "Somali(s)",
     "ethnic_groups": {
-        "Somali": "85%", "Bantu and other non-Somali": "15%"},
+        "Somali": "85%",
+        "Bantu and other non-Somali": "15%"
+    },
     "languages": {
         "Somali (official)": "",
         "Arabic (official)": "",
@@ -41,10 +43,14 @@
         "English": ""
     },
     "religions": {
-        "Sunni Muslim (Islam)":""},
+        "Sunni Muslim": ""
+    },
     "government_type": "federal parliamentary republic",
     "national_symbols": "leopard",
-    "national_colors": ["blue", "white"],
+    "national_colors": [
+        "blue",
+        "white"
+    ],
     "gdp": "$7.052 billion",
     "agriculture": [
         "bananas",
@@ -86,7 +92,7 @@
     "internet_users": "203,366",
     "mobile_subscriptions": "7,653,040",
     "internet_country_code": ".so",
-    "military_and_security_forces": "Somali National Security Forces:  Somali National Army (SNA), Somali National Police (SNP, includes a maritime unit), National Intelligence and Security Agency (NISA)",
+    "military_and_security_forces": "Somali National Security Forces: Somali National Army (SNA), Somali National Police (SNP, includes a maritime unit), National Intelligence and Security Agency (NISA)",
     "percent_GDP_on_military": "Unknown",
     "pipelines": [
         "Unknown"
@@ -96,5 +102,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "52",
-    "international_disputes": "Ethiopian forces invaded southern Somalia and routed Islamist Courts from Mogadishu in January 2007; \"Somaliland\" secessionists provide port facilities in Berbera to landlocked Ethiopia and have established commercial ties with other regional states; \"Puntland\" and \"Somaliland\" \"governments\" seek international support in their secessionist aspirations and overlapping border claims; the undemarcated former British administrative line has little meaning as a political separation to rival clans within Ethiopia's Ogaden and southern Somalia's Oromo region; Kenya works hard to prevent the clan and militia fighting in Somalia from spreading south across the border, which has long been open to nomadic pastoralists"
+    "international_disputes": "Ethiopian forces invaded southern Somalia and routed Islamist Courts from Mogadishu in January 2007; \"Somaliland\" secessionists provide port facilities in Berbera to landlocked Ethiopia and have established commercial ties with other regional states; \"Puntland\" and \"Somaliland\" \"governments\" seek international support in their secessionist aspirations and overlapping border claims; the undemarcated former British administrative line has little meaning as a political separation to rival clans within Ethiopia's Ogaden and southern Somalia's Oromo region; Kenya works hard to prevent the clan and militia fighting in Somalia from spreading south across the border, which has long been open to nomadic pastoralists",
+    "terrorism": "Unknown"
 }

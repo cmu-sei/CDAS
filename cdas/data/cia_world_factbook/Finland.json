@@ -33,12 +33,12 @@
     "population": "5,571,665",
     "nationality": "Finn(s)",
     "ethnic_groups": {
-        "Finn":"",
-        "Swede":"",
-        "Russian":"",
-        "Estonian":"",
-        "Romani":"",
-        "Sami":""
+        "Finn": "",
+        "Swede": "",
+        "Russian": "",
+        "Estonian": "",
+        "Romani": "",
+        "Sami": ""
     },
     "languages": {
         "Finnish (official)": "87.6%",
@@ -102,8 +102,8 @@
     "broadband_subscriptions": "1,737,000",
     "internet_users": "4,822,132",
     "mobile_subscriptions": "7,150,000",
-    "internet_country_code": ".fi",
-    "military_and_security_forces": "Finnish Defense Forces (FDF): Army (Maavoimat), Navy (Merivoimat), Air Force (Ilmavoimat), Border Guard (Rajavartiolaitos)",
+    "internet_country_code": ".fi\n\u00a0\n\n\nnote - Aland Islands assigned .ax",
+    "military_and_security_forces": "Finnish Defense Forces (FDF): Army (Maavoimat), Navy (Merivoimat), Air Force (Ilmavoimat); Ministry of the Interior: Border Guard (Rajavartiolaitos)",
     "percent_GDP_on_military": "1.5%",
     "pipelines": [
         "1288 km gas transmission pipes",
@@ -114,5 +114,6 @@
     },
     "waterways": "8,000 km",
     "number_of_airports": "148",
-    "international_disputes": "various groups in Finland advocate restoration of Karelia and other areas ceded to the former Soviet Union, but the Finnish Government asserts no territorial demands"
+    "international_disputes": "various groups in Finland advocate restoration of Karelia and other areas ceded to the former Soviet Union, but the Finnish Government asserts no territorial demands",
+    "terrorism": "Unknown"
 }

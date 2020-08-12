@@ -39,22 +39,22 @@
         "iron ore",
         "manganese",
         "tin",
-        "copper deposits are known but not exploited"
+        "and copper deposits are known but not exploited"
     ],
     "population": "19,553,397",
     "nationality": "Malian(s)",
     "ethnic_groups": {
-        "Bambara": "33.3%", 
-        "Fulani (Peuhl)": "13.3%", 
-        "Sarakole/Soninke/Marka": "9.8%", 
-        "Senufo/Manianka": "9.6%", 
-        "Malinke": "8.8%", 
-        "Dogon": "8.7%", 
-        "Sonrai": "5.9%", 
-        "Bobo": "2.1%", 
-        "Tuareg/Bella": "1.7%", 
-        "other Malian": "6%", 
-        "from member of Economic Community of West Africa": ".4%", 
+        "Bambara": "33.3%",
+        "Fulani": "13.3%",
+        "Sarakole/Soninke/Marka": "9.8%",
+        "Senufo/Manianka": "9.6%",
+        "Malinke": "8.8%",
+        "Dogon": "8.7%",
+        "Sonrai": "5.9%",
+        "Bobo": "2.1%",
+        "Tuareg/Bella": "1.7%",
+        "other Malian": "6%",
+        "from member of Economic Community of West Africa": ".4%",
         "other": ".3%"
     },
     "languages": {
@@ -73,13 +73,18 @@
         "other": "6.3%"
     },
     "religions": {
-        "Muslim": "93.9%", 
-        "Christian": "2.8%", 
-        "animist": ".7%", 
-        "none": "2.5%"},
+        "Muslim": "93.9%",
+        "Christian": "2.8%",
+        "animist": ".7%",
+        "none": "2.5%"
+    },
     "government_type": "semi-presidential republic",
     "national_symbols": "Great Mosque of Djenne",
-    "national_colors": ["green", "yellow", "red"],
+    "national_colors": [
+        "green",
+        "yellow",
+        "red"
+    ],
     "gdp": "$15.37 billion",
     "agriculture": [
         "cotton",
@@ -113,7 +118,7 @@
     "internet_users": "1,940,978",
     "mobile_subscriptions": "21,955,565",
     "internet_country_code": ".ml",
-    "military_and_security_forces": "Malian Armed Forces (FAMa): Army (Armee de Terre), Republic of Mali Air Force (Force Aerienne de la Republique du Mali, FARM), National Guard (Garde National du Mali), Gendarmerie",
+    "military_and_security_forces": "Malian Armed Forces (FAMa): Army (Armee de Terre), Republic of Mali Air Force (Force Aerienne de la Republique du Mali, FARM); Gendarmerie; National Guard (Garde National du Mali)",
     "percent_GDP_on_military": "2.7%",
     "pipelines": [
         "Unknown"
@@ -123,5 +128,6 @@
     },
     "waterways": "1,800 km",
     "number_of_airports": "25",
-    "international_disputes": "demarcation is underway with Burkina Faso"
+    "international_disputes": "demarcation is underway with Burkina Faso",
+    "terrorism": "Unknown"
 }

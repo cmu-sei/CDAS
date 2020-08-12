@@ -39,12 +39,27 @@
     "population": "17,426,623",
     "nationality": "Zambian(s)",
     "ethnic_groups": {
-        "Bemba": "21%", "Tonga": "13.6%", "Chewa": "7.4%", "Lozi": "5.7%", 
-        "Nsenga": "5.3%", "Tumbuka": "4.4%", "Ngoni": "4%", "Lala": "3.1%", 
-        "Kaonde": "2.9%", "Namwanga": "2.8%", "Lunda (north Western)": "2.6%", 
-        "Mambwe": "2.5%", "Luvale": "2.2%", "Lamba": "2.1%", "Ushi": "1.9%", 
-        "Lenje": "1.6%", "Bisa": "1.6%", "Mbunda": "1.2%", "other": "13.8%", 
-        "unspecified": "0.4%"},
+        "Bemba": "21%",
+        "Tonga": "13.6%",
+        "Chewa": "7.4%",
+        "Lozi": "5.7%",
+        "Nsenga": "5.3%",
+        "Tumbuka": "4.4%",
+        "Ngoni": "4%",
+        "Lala": "3.1%",
+        "Kaonde": "2.9%",
+        "Namwanga": "2.8%",
+        "Lunda": "2.6%",
+        "Mambwe": "2.5%",
+        "Luvale": "2.2%",
+        "Lamba": "2.1%",
+        "Ushi": "1.9%",
+        "Lenje": "1.6%",
+        "Bisa": "1.6%",
+        "Mbunda": "1.2%",
+        "other": "13.8%",
+        "unspecified": "0.4%"
+    },
     "languages": {
         "Bemba": "33.4%",
         "Nyanja": "14.7%",
@@ -67,13 +82,19 @@
         "unspecified": "0.2%"
     },
     "religions": {
-        "Protestant": "75.3%", 
-        "Roman Catholic": "20.2%", 
-        "other": "2.7%", 
-        "none": "1.8%"},
+        "Protestant": "75.3%",
+        "Roman Catholic": "20.2%",
+        "other": "2.7%",
+        "none": "1.8%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "African fish eagle",
-    "national_colors": ["green", "red", "black", "orange"],
+    "national_colors": [
+        "green",
+        "red",
+        "black",
+        "orange"
+    ],
     "gdp": "$25.71 billion",
     "agriculture": [
         "corn",
@@ -138,5 +159,6 @@
     },
     "waterways": "2,250 km",
     "number_of_airports": "88",
-    "international_disputes": "in 2004, Zimbabwe dropped objections to plans between Botswana and Zambia to build a bridge over the Zambezi River, thereby de facto recognizing a short, but not clearly delimited, Botswana-Zambia boundary in the river"
+    "international_disputes": "in 2004, Zimbabwe dropped objections to plans between Botswana and Zambia to build a bridge over the Zambezi River, thereby de facto recognizing a short, but not clearly delimited, Botswana-Zambia boundary in the river",
+    "terrorism": "Unknown"
 }

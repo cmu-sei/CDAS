@@ -14,7 +14,7 @@
     "coastline": "451 km",
     "natural_hazards": [
         "flooding",
-        "volcanism: Mount Scenery (887 m), located on the island of Saba in the Caribbean, last erupted in 1640; Round Hill (601 m), a dormant volcano also known as The Quill, is located on the island of St. Eustatius in the Caribbean; these islands are at the northern end of the volcanic island arc of the Lesser Antilles that extends south to Grenada"
+        "volcanism: Mount Scenery (887 m), located on the island of Saba in the Caribbean, last erupted in 1640;; Round Hill (601 m), a dormant volcano also known as The Quill, is located on the island of St. Eustatius in the Caribbean;; these islands are at the northern end of the volcanic island arc of the Lesser Antilles that extends south to Grenada"
     ],
     "terrain": "mostly coastal lowland and reclaimed land (polders); some hills in southeast",
     "population_distribution": "an area known as the Randstad, anchored by the cities of Amsterdam, Rotterdam, the Hague, and Utrecht, is the most densely populated region; the north tends to be less dense, though sizeable communities can be found throughout the entire country",
@@ -30,28 +30,33 @@
     "population": "17,280,397",
     "nationality": "Dutchman(men), Dutchwoman(women)",
     "ethnic_groups": {
-        "Dutch": "76.9%", 
-        "EU": "6.4%", 
-        "Turkish": "2.4%", 
-        "Moroccan": "2.3%", 
-        "Indonesian": "2.1%", 
-        "German": "2.1%", 
-        "Surinamese": "2%", 
-        "Polish": "1%", 
+        "Dutch": "76.9%",
+        "EU": "6.4%",
+        "Turkish": "2.4%",
+        "Moroccan": "2.3%",
+        "Indonesian": "2.1%",
+        "German": "2.1%",
+        "Surinamese": "2%",
+        "Polish": "1%",
         "other": "4.8%"
     },
     "languages": {
         "Dutch (official)": ""
     },
     "religions": {
-        "Roman Catholic": "23.6%", 
-        "Protestant": "14.9%", 
-        "Muslim": "5.1%", 
-        "other": "5.6%", 
-        "none": "50.7%"},
+        "Roman Catholic": "23.6%",
+        "Protestant": "14.9%",
+        "Muslim": "5.1%",
+        "other": "5.6%",
+        "none": "50.7%"
+    },
     "government_type": "parliamentary constitutional monarchy; part of the Kingdom of the Netherlands",
-    "national_symbols": "lion, tulip",
-    "national_colors": ["orange"],
+    "national_symbols": "lion, tulip; national color: orange",
+    "national_colors": [
+        "blue",
+        "yellow",
+        "white"
+    ],
     "gdp": "$832.2 billion",
     "agriculture": [
         "vegetables",
@@ -88,8 +93,8 @@
     "internet_users": "15,385,203",
     "mobile_subscriptions": "21,108,000",
     "internet_country_code": ".nl",
-    "military_and_security_forces": "Royal Netherlands Army, Royal Netherlands Navy (includes Naval Air Service and Marine Corps), Royal Netherlands Air Force (Koninklijke Luchtmacht, KLu), Royal Netherlands Marechaussee (Gendarmerie)",
-    "percent_GDP_on_military": "1.4%",
+    "military_and_security_forces": "Royal Netherlands Army, Royal Netherlands Navy (includes Naval Air Service and Marine Corps), Royal Netherlands Air Force (Koninklijke Luchtmacht, KLu), Royal Netherlands Marechaussee (Military Constabulary)",
+    "percent_GDP_on_military": "1.36%",
     "pipelines": [
         "14000 km gas",
         "2500 km oil and refined products",
@@ -102,5 +107,7 @@
         "river port(s)": "Amsterdam (Nordsee Kanaal); Moerdijk (Hollands Diep River); Rotterdam (Rhine River); Terneuzen (Western Scheldt River)"
     },
     "waterways": "6,237 km",
-    "number_of_airports": "29"
+    "number_of_airports": "29",
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

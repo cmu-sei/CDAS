@@ -18,8 +18,9 @@
         "severe droughts",
         "tsunamis",
         "earthquakes",
+        "volcanoes",
         "forest fires",
-        "volcanism: Indonesia contains the most volcanoes of any country in the world - some 76 are historically active; significant volcanic activity occurs on Java, Sumatra, the Sunda Islands, Halmahera Island, Sulawesi Island, Sangihe Island, and in the Banda Sea; Merapi (2,968 m), Indonesia's most active volcano and in eruption since 2010, has been deemed a Decade Volcano by the International Association of Volcanology and Chemistry of the Earth's Interior, worthy of study due to its explosive history and close proximity to human populations; other notable historically active volcanoes include Agung, Awu, Karangetang, Krakatau (Krakatoa), Makian, Raung, and Tambora"
+        "volcanism: Indonesia contains the most volcanoes of any country in the world - some 76 are historically active; significant volcanic activity occurs on Java, Sumatra, the Sunda Islands, Halmahera Island, Sulawesi Island, Sangihe Island, and in the Banda Sea; Merapi (2,968 m), Indonesia's most active volcano and in eruption since 2010, has been deemed a Decade Volcano by the International Association of Volcanology and Chemistry of the Earth's Interior, worthy of study due to its explosive history and close proximity to human populations; other notable historically active volcanoes include Agung, Awu, Karangetang, Krakatau (Krakatoa), Makian, Raung, and Tambora; see note 2 under \"Geography - note\""
     ],
     "terrain": "mostly coastal lowlands; larger islands have interior mountains",
     "population_distribution": "major concentration on the island of Java, which is considered one of the most densely populated places on earth; of the outer islands (those surrounding Java and Bali), Sumatra contains some of the most significant clusters, particularly in the south near the Selat Sunda, and along the northeastern coast near Medan; the cities of Makasar (Sulawesi), Banjarmasin (Kalimantan) are also heavily populated",
@@ -44,7 +45,7 @@
         "Malay": "3.7%",
         "Batak": "3.6%",
         "Madurese": "3%",
-        "Betawi": "2.9%", 
+        "Betawi": "2.9%",
         "Minangkabau": "2.7%",
         "Buginese": "2.7%",
         "Bantenese": "2%",
@@ -57,18 +58,26 @@
         "other": "15%"
     },
     "languages": {
-        "Bahasa Indonesia  (official)": "",
+        "Bahasa Indonesia (official)": "",
         "English": "",
         "Dutch": "",
         "local dialects": ""
     },
     "religions": {
-        "Muslim": "87.2%", "Protestant": "7%", "Roman Catholic": "2.9%", 
-        "Hindu": "1.7%", "other": "0.9%", "unspecified": "0.4%"},
+        "Muslim": "87.2%",
+        "Protestant": "7%",
+        "Roman Catholic": "2.9%",
+        "Hindu": "1.7%",
+        "other": "0.9%",
+        "unspecified": "0.4%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "garuda (mythical bird)",
-    "national_colors": ["red", "white"],
-    "gdp": "$1,015 billion",
+    "national_colors": [
+        "red",
+        "white"
+    ],
+    "gdp": "$1,014 billion",
     "agriculture": [
         "rubber and similar products",
         "palm oil",
@@ -81,7 +90,7 @@
         "medicinal herbs",
         "essential oil",
         "fish and its similar products",
-        "spices"
+        "and spices"
     ],
     "industries": [
         "petroleum and natural gas",
@@ -112,7 +121,7 @@
         "mineral fuels",
         "boilers",
         "machinery",
-        "mechanical parts",
+        "and mechanical parts",
         "electric machinery",
         "iron and steel",
         "foodstuffs"
@@ -142,5 +151,6 @@
     },
     "waterways": "21,579 km",
     "number_of_airports": "673",
-    "international_disputes": "Indonesia has a stated foreign policy objective of establishing stable fixed land and maritime boundaries with all of its neighbors; three stretches of land borders with Timor-Leste have yet to be delimited, two of which are in the Oecussi exclave area, and no maritime or Exclusive Economic Zone (EEZ) boundaries have been established between the countries; all borders between Indonesia and Australia have been agreed upon bilaterally, but a 1997 treaty that would settle the last of their maritime and EEZ boundary has yet to be ratified by Indonesia's legislature; Indonesian groups challenge Australia's claim to Ashmore Reef; Australia has closed parts of the Ashmore and Cartier Reserve to Indonesian traditional fishing and placed restrictions on certain catches; land and maritime negotiations with Malaysia are ongoing, and disputed areas include the controversial Tanjung Datu and Camar Wulan border area in Borneo and the maritime boundary in the Ambalat oil block in the Celebes Sea; Indonesia and Singapore continue to work on finalizing their 1973 maritime boundary agreement by defining unresolved areas north of Indonesia's Batam Island; Indonesian secessionists, squatters, and illegal migrants create repatriation problems for Papua New Guinea; maritime delimitation talks continue with Palau; EEZ negotiations with Vietnam are ongoing, and the two countries in Fall 2011 agreed to work together to reduce illegal fishing along their maritime boundary"
+    "international_disputes": "Indonesia has a stated foreign policy objective of establishing stable fixed land and maritime boundaries with all of its neighbors; three stretches of land borders with Timor-Leste have yet to be delimited, two of which are in the Oecussi exclave area, and no maritime or Exclusive Economic Zone (EEZ) boundaries have been established between the countries; all borders between Indonesia and Australia have been agreed upon bilaterally, but a 1997 treaty that would settle the last of their maritime and EEZ boundary has yet to be ratified by Indonesia's legislature; Indonesian groups challenge Australia's claim to Ashmore Reef; Australia has closed parts of the Ashmore and Cartier Reserve to Indonesian traditional fishing and placed restrictions on certain catches; land and maritime negotiations with Malaysia are ongoing, and disputed areas include the controversial Tanjung Datu and Camar Wulan border area in Borneo and the maritime boundary in the Ambalat oil block in the Celebes Sea; Indonesia and Singapore continue to work on finalizing their 1973 maritime boundary agreement by defining unresolved areas north of Indonesia's Batam Island; Indonesian secessionists, squatters, and illegal migrants create repatriation problems for Papua New Guinea; maritime delimitation talks continue with Palau; EEZ negotiations with Vietnam are ongoing, and the two countries in Fall 2011 agreed to work together to reduce illegal fishing along their maritime boundary",
+    "terrorism": "Unknown"
 }

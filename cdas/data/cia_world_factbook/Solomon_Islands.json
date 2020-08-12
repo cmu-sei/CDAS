@@ -31,22 +31,31 @@
     "population": "685,097",
     "nationality": "Solomon Islander(s)",
     "ethnic_groups": {
-        "Melanesian": "95.3%", "Polynesian": "3.1%", "Micronesian": "1.2%", 
-        "other": "0.3%"},
+        "Melanesian": "95.3%",
+        "Polynesian": "3.1%",
+        "Micronesian": "1.2%",
+        "other": "0.3%"
+    },
     "languages": {
         "Melanesian pidgin": "",
         "English (official)": "",
         "120 indigenous languages": ""
     },
     "religions": {
-        "Protestant": "73.4%", 
-        "Roman Catholic": "19.6%", 
-        "other Christian": "2.9%", 
-        "other": "4%", 
-        "unspecified": "0.1%"},
+        "Protestant": "73.4%",
+        "Roman Catholic": "19.6%",
+        "other Christian": "2.9%",
+        "other": "4%",
+        "unspecified": "0.1%"
+    },
     "government_type": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
-    "national_symbols": "",
-    "national_colors": ["blue", "yellow", "green", "white"],
+    "national_symbols": "national colors: blue, yellow, green, whit",
+    "national_colors": [
+        "lue",
+        "yellow",
+        "green",
+        "white"
+    ],
     "gdp": "$1.298 billion",
     "agriculture": [
         "cocoa",
@@ -93,5 +102,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "36",
-    "international_disputes": "since 2003, the Regional Assistance Mission to Solomon Islands, consisting of police, military, and civilian advisors drawn from 15 countries, has assisted in reestablishing and maintaining civil and political order while reinforcing regional stability and security"
+    "international_disputes": "since 2003, the Regional Assistance Mission to Solomon Islands, consisting of police, military, and civilian advisors drawn from 15 countries, has assisted in reestablishing and maintaining civil and political order while reinforcing regional stability and security",
+    "terrorism": "Unknown"
 }

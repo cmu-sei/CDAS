@@ -24,10 +24,10 @@
     "population": "21,685",
     "nationality": "Palauan(s)",
     "ethnic_groups": {
-        "Palauan (Micronesian with Malayan and Melanesian admixtures)": "73%", 
-        "Carolinian": "2%", 
-        "Asian": "21.7%", 
-        "caucasian": "1.2%", 
+        "Palauan": "73%",
+        "Carolinian": "2%",
+        "Asian": "21.7%",
+        "caucasian": "1.2%",
         "other": "2.1%"
     },
     "languages": {
@@ -39,15 +39,19 @@
         "other": "2.8%"
     },
     "religions": {
-        "Roman Catholic": "45.3%", 
-        "Protestant": "34.9%", 
-        "Modekngei": "5.7%", 
-        "Muslim": "3%", 
-        "Mormon": "1.5%", 
-        "other": "9.7%"},
+        "Roman Catholic": "45.3%",
+        "Protestant": "34.9%",
+        "Modekngei": "5.7%",
+        "Muslim": "3%",
+        "Mormon": "1.5%",
+        "other": "9.7%"
+    },
     "government_type": "presidential republic in free association with the US",
     "national_symbols": "bai (native meeting house)",
-    "national_colors": ["blue", "yellow"],
+    "national_colors": [
+        "blue",
+        "yellow"
+    ],
     "gdp": "$0.292 billion",
     "agriculture": [
         "coconuts",
@@ -69,11 +73,11 @@
         "guava",
         "beans",
         "cucumbers",
-        "squash/pumpkins (various)",
+        "squash/pumpkins",
         "eggplant",
         "green onions",
-        "kangkong (watercress)",
-        "cabbages (various)",
+        "kangkong",
+        "cabbages",
         "radishes",
         "betel nuts",
         "melons",
@@ -111,5 +115,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "3",
-    "international_disputes": "maritime delineation negotiations continue with Philippines, Indonesia"
+    "international_disputes": "maritime delineation negotiations continue with Philippines, Indonesia",
+    "terrorism": "Unknown"
 }

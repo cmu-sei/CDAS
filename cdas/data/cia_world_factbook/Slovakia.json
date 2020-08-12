@@ -30,8 +30,12 @@
     "population": "5,440,602",
     "nationality": "Slovak(s)",
     "ethnic_groups": {
-        "Slovak": "80.7%", "Hungarian": "8.5%", "Romani": "2%", "other": "1.8%", 
-        "unspecified": "7%"},
+        "Slovak": "80.7%",
+        "Hungarian": "8.5%",
+        "Romani": "2%",
+        "other": "1.8%",
+        "unspecified": "7%"
+    },
     "languages": {
         "Slovak (official)": "78.6%",
         "Hungarian": "9.4%",
@@ -40,14 +44,19 @@
         "other or unspecified": "8.8%"
     },
     "religions": {
-        "Roman Catholic": "62%", 
-        "Protestant": "8.2%", 
-        "Greek Catholic": "3.8%", 
-        "other or unspecified": "12.5%", 
-        "none": "13.4%"},
+        "Roman Catholic": "62%",
+        "Protestant": "8.2%",
+        "Greek Catholic": "3.8%",
+        "other or unspecified": "12.5%",
+        "none": "13.4%"
+    },
     "government_type": "parliamentary republic",
     "national_symbols": "double-barred cross (Cross of St. Cyril and St. Methodius) surmounting three peaks",
-    "national_colors": ["white", "blue", "red"],
+    "national_colors": [
+        "white",
+        "blue",
+        "red"
+    ],
     "gdp": "$95.96 billion",
     "agriculture": [
         "grains",
@@ -87,17 +96,17 @@
         "mineral oils and fuels"
     ],
     "imports": [
-        "machinery and electrical equipment",
-        "vehicles and related parts",
-        "nuclear reactors and furnaces",
-        "fuel and mineral oils"
+        "machinery and electrical equipment 20%",
+        "vehicles and related parts 14%",
+        "nuclear reactors and furnaces 12%",
+        "fuel and mineral oils 9%"
     ],
     "broadband_subscriptions": "1,507,998",
     "internet_users": "4,382,558",
     "mobile_subscriptions": "7,241,702",
     "internet_country_code": ".sk",
     "military_and_security_forces": "Armed Forces of the Slovak Republic (Ozbrojene Sily Slovenskej Republiky): Land Forces, Air and Air Defense Forces, and a Joint Training and Support Command",
-    "percent_GDP_on_military": "1.7%",
+    "percent_GDP_on_military": "1.74%",
     "pipelines": [
         "2270 km gas transmission pipelines",
         "6278 km high-pressure gas distribution pipelines",
@@ -109,5 +118,6 @@
     },
     "waterways": "172 km",
     "number_of_airports": "35",
-    "international_disputes": "bilateral government, legal, technical and economic working group negotiations continued between Slovakia and Hungary over Hungary's completion of its portion of the Gabcikovo-Nagymaros hydroelectric dam project along the Danube; as a member state that forms part of the EU's external border, Slovakia has implemented strict Schengen border rules"
+    "international_disputes": "bilateral government, legal, technical and economic working group negotiations continued between Slovakia and Hungary over Hungary's completion of its portion of the Gabcikovo-Nagymaros hydroelectric dam project along the Danube; as a member state that forms part of the EU's external border, Slovakia has implemented strict Schengen border rules",
+    "terrorism": "Unknown"
 }

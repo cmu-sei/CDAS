@@ -34,10 +34,10 @@
     },
     "religions": {
         "Protestant": "46.2%",
-        "Roman Catholic": "14.5%", 
+        "Roman Catholic": "14.5%",
         "Jehovah's Witness": "1.3%",
         "other Christian": "9.1%",
-        "Muslim": "1%", 
+        "Muslim": "1%",
         "other": "3.9%",
         "none": "17.8%",
         "unspecified": "6.2%"
@@ -88,5 +88,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "1",
-    "international_disputes": "none"
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

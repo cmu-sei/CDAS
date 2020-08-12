@@ -27,12 +27,12 @@
     "population": "3,364,496",
     "nationality": "Moldovan(s)",
     "ethnic_groups": {
-        "Moldovan": "75.1%", 
-        "Romanian": "7%", 
-        "Ukrainian": "6.6%", 
-        "Gagauz": "4.6%", 
-        "Russian": "4.1%", 
-        "Bulgarian": "1.9%", 
+        "Moldovan": "75.1%",
+        "Romanian": "7%",
+        "Ukrainian": "6.6%",
+        "Gagauz": "4.6%",
+        "Russian": "4.1%",
+        "Bulgarian": "1.9%",
         "other": "0.8%"
     },
     "languages": {
@@ -45,13 +45,18 @@
         "other": "0.2%"
     },
     "religions": {
-        "Orthodox": "90.1%", 
-        "other Christian": "2.6%", 
-        "other": "0.1%", 
-        "agnostic":""},
+        "Orthodox": "90.1%",
+        "other Christian": "2.6%",
+        "other": "0.1%",
+        "agnostic": ""
+    },
     "government_type": "parliamentary republic",
     "national_symbols": "aurochs (a type of wild cattle)",
-    "national_colors": ["blue", "yellow", "red"],
+    "national_colors": [
+        "blue",
+        "yellow",
+        "red"
+    ],
     "gdp": "$9.556 billion",
     "agriculture": [
         "vegetables",
@@ -100,5 +105,6 @@
     "ports_and_terminals": "Unknown",
     "waterways": "558 km",
     "number_of_airports": "7",
-    "international_disputes": "Moldova and Ukraine operate joint customs posts to monitor the transit of people and commodities through Moldova's break-away Transnistria region, which remains under the auspices of an Organization for Security and Cooperation in Europe-mandated peacekeeping mission comprised of Moldovan, Transnistrian, Russian, and Ukrainian troops"
+    "international_disputes": "Moldova and Ukraine operate joint customs posts to monitor the transit of people and commodities through Moldova's break-away Transnistria region, which remains under the auspices of an Organization for Security and Cooperation in Europe-mandated peacekeeping mission comprised of Moldovan, Transnistrian, Russian, and Ukrainian troops",
+    "terrorism": "Unknown"
 }

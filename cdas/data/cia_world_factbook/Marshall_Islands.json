@@ -22,7 +22,11 @@
     ],
     "population": "77,917",
     "nationality": "Marshallese (singular and plural)",
-    "ethnic_groups": {"Marshallese": "92.1%", "mixed Marshallese": "5.9%", "other": "2%"},
+    "ethnic_groups": {
+        "Marshallese": "92.1%",
+        "mixed Marshallese": "5.9%",
+        "other": "2%"
+    },
     "languages": {
         "Marshallese (official)": "98.2%",
         "other languages": "1.8%"
@@ -33,10 +37,15 @@
         "Mormon": "7%",
         "Jehovah's Witness": "1.7%",
         "other": "1.2%",
-        "none": "1.1%"},
+        "none": "1.1%"
+    },
     "government_type": "mixed presidential-parliamentary system in free association with the US",
     "national_symbols": "a 24-rayed star",
-    "national_colors": ["blue", "white", "orange"],
+    "national_colors": [
+        "blue",
+        "white",
+        "orange"
+    ],
     "gdp": "$0.222 billion",
     "agriculture": [
         "coconuts",
@@ -52,7 +61,7 @@
         "copra",
         "tuna processing",
         "tourism",
-        "craft items (from seashells, wood and pearls)"
+        "craft items (from seashells, wood, and pearls)"
     ],
     "exports": [
         "copra cake",
@@ -81,5 +90,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "15",
-    "international_disputes": "claims US territory of Wake Island"
+    "international_disputes": "claims US territory of Wake Island",
+    "terrorism": "Unknown"
 }

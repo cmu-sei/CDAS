@@ -12,6 +12,7 @@
     "coastline": "2,528 km",
     "natural_hazards": [
         "tropical cyclones (January to April)",
+        "volcanic eruption on Aoba (Ambae) island began on 27 November 2005, volcanism also causes minor earthquakes",
         "tsunamis",
         "volcanism: significant volcanic activity with multiple eruptions in recent years; Yasur (361 m), one of the world's most active volcanoes, has experienced continuous activity in recent centuries; other historically active volcanoes include Aoba, Ambrym, Epi, Gaua, Kuwae, Lopevi, Suretamatai, and Traitor's Head"
     ],
@@ -24,7 +25,10 @@
     ],
     "population": "298,333",
     "nationality": "Ni-Vanuatu (singular and plural)",
-    "ethnic_groups": {"Melanesian": "99.2%", "non-Melanesian": "0.8%"},
+    "ethnic_groups": {
+        "Melanesian": "99.2%",
+        "non-Melanesian": "0.8%"
+    },
     "languages": {
         "local languages": "63.2%",
         "Bislama (official)": "33.7%",
@@ -33,16 +37,22 @@
         "other": "0.5%"
     },
     "religions": {
-        "Protestant": "70%", 
-        "Roman Catholic": "12.4%", 
-        "customary beliefs": "3.7%", 
-        "other": "12.6%", 
-        "none": "1.1%", 
-        "unspecified": "0.2%"},
+        "Protestant": "70%",
+        "Roman Catholic": "12.4%",
+        "customary beliefs": "3.7%",
+        "other": "12.6%",
+        "none": "1.1%",
+        "unspecified": "0.2%"
+    },
     "government_type": "parliamentary republic",
     "national_symbols": "boar's tusk with crossed fern fronds",
-    "national_colors": ["red", "black", "green", "yellow"],
-    "gdp": "$0.870 billion",
+    "national_colors": [
+        "red",
+        "black",
+        "green",
+        "yellow"
+    ],
+    "gdp": "$0.87 billion",
     "agriculture": [
         "copra",
         "coconuts",
@@ -92,5 +102,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "31",
-    "international_disputes": "Matthew and Hunter Islands east of New Caledonia claimed by Vanuatu and France"
+    "international_disputes": "Matthew and Hunter Islands east of New Caledonia claimed by Vanuatu and France",
+    "terrorism": "Unknown"
 }

@@ -22,11 +22,11 @@
     "population": "98,179",
     "nationality": "Antiguan(s), Barbudan(s)",
     "ethnic_groups": {
-        "African descent": "87.3%", 
-        "mixed": "4.7%", 
-        "hispanic": "2.7%", 
-        "white": "1.6%", 
-        "other": "2.7%", 
+        "African descent": "87.3%",
+        "mixed": "4.7%",
+        "hispanic": "2.7%",
+        "white": "1.6%",
+        "other": "2.7%",
         "unspecified": "0.9%"
     },
     "languages": {
@@ -95,5 +95,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "3",
-    "international_disputes": "none"
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

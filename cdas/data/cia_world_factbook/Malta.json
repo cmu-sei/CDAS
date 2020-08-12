@@ -1,6 +1,6 @@
 {
     "name": "Malta",
-    "background": "With a civilization that dates back thousands of years, Malta boasts some of the oldest megalithic sites in the world. Situated in the center of the Mediterranean, Malta’s islands have long served as a strategic military asset, with the islands at various times having come under control of the Phoenicians, Carthaginians, Greeks, Romans,\nByzantines, Moors, Normans, Sicilians, Spanish, Knights of St. John, and the French. Most recently a British colony (since 1814), Malta gained its independence in 1964 and declared itself a republic ten years later. While under British rule, the island staunchly supported the UK through both world wars. Since about the mid-1980s, the island has transformed itself into a freight transshipment point, a financial center, and a tourist destination while its key industries moved toward more service-oriented activities. Malta became an EU member in May 2004 and began using the euro as currency in 2008.",
+    "background": "With a civilization that dates back thousands of years, Malta boasts some of the oldest megalithic sites in the world. Situated in the center of the Mediterranean, Malta's islands have long served as a strategic military asset, with the islands at various times having come under control of the Phoenicians, Carthaginians, Greeks, Romans,\nByzantines, Moors, Normans, Sicilians, Spanish, Knights of St. John, and the French. Most recently a British colony (since 1814), Malta gained its independence in 1964 and declared itself a republic ten years later. While under British rule, the island staunchly supported the UK through both world wars. Since about the mid-1980s, the island has transformed itself into a freight transshipment point, a financial center, and a tourist destination while its key industries moved toward more service-oriented activities. Malta became an EU member in May 2004 and began using the euro as currency in 2008.",
     "coordinates": "35 50 N, 14 35 E",
     "region": "Europe",
     "total_area": "316 sq km",
@@ -23,17 +23,23 @@
     "population": "457,267",
     "nationality": "Maltese (singular and plural)",
     "ethnic_groups": {
-        "Maltese (descendants of ancient Carthaginians and Phoenicians with strong elements of Italian and other Mediterranean stock)":""},
+        "Maltese": ""
+    },
     "languages": {
         "Maltese (official)": "90.1%",
         "English (official)": "6%",
         "multilingual": "3%",
         "other": "0.9%"
     },
-    "religions": {"Roman Catholic (official)": "90%"},
+    "religions": {
+        "Roman Catholic  more than": "90%"
+    },
     "government_type": "parliamentary republic",
     "national_symbols": "Maltese eight-pointed cross",
-    "national_colors": ["red", "white"],
+    "national_colors": [
+        "red",
+        "white"
+    ],
     "gdp": "$12.58 billion",
     "agriculture": [
         "potatoes",
@@ -98,5 +104,7 @@
         "container port(s) (TEUs)": "Marsaxlokk (3,150,000)"
     },
     "waterways": "Unknown",
-    "number_of_airports": "1"
+    "number_of_airports": "1",
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

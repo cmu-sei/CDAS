@@ -38,7 +38,7 @@
         "other": "26%"
     },
     "religions": {
-        "Lamaistic Buddhist": "75.3%", 
+        "Lamaistic Buddhist": "75.3%",
         "Indian- and Nepali-influenced Hinduism": "22.1%",
         "other": "2.6%"
     },
@@ -94,5 +94,6 @@
     "ports_and_terminals": "Unknown",
     "waterways": "Unknown",
     "number_of_airports": "2",
-    "international_disputes": "lacking any treaty describing the boundary, Bhutan and China continue negotiations to establish a common boundary alignment to resolve territorial disputes arising from substantial cartographic discrepancies, the most contentious of which lie in Bhutan's west along China's Chumbi salient"
+    "international_disputes": "lacking any treaty describing the boundary, Bhutan and China continue negotiations to establish a common boundary alignment to resolve territorial disputes arising from substantial cartographic discrepancies, the most contentious of which lie in Bhutan's west along China's Chumbi salient",
+    "terrorism": "Unknown"
 }

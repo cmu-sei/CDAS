@@ -28,9 +28,10 @@
     "population": "1,383,723",
     "nationality": "Timorese",
     "ethnic_groups": {
-        "Austronesian (Malayo-Polynesian)":"", 
-        "Melanesian-Papuan (includes Bunak, Fataluku, Bakasai)":"", 
-        "small Chinese minority":""},
+        "Austronesian": "",
+        "Melanesian-Papuan": "",
+        "small Chinese minority": ""
+    },
     "languages": {
         "Tetun Prasa": "30.6%",
         "Mambai": "16.6%",
@@ -49,11 +50,20 @@
         "other": "4.5%"
     },
     "religions": {
-        "Roman Catholic": "97.6%", "Protestant/Evangelical": "2%", "Muslim": "0.2%", "other": "0.2%"},
+        "Roman Catholic": "97.6%",
+        "Protestant/Evangelical": "2%",
+        "Muslim": "0.2%",
+        "other": "0.2%"
+    },
     "government_type": "semi-presidential republic",
     "national_symbols": "Mount Ramelau",
-    "national_colors": ["red", "yellow", "black", "white"],
-    "gdp": "$2.775 billion",
+    "national_colors": [
+        "red",
+        "yellow",
+        "black",
+        "white"
+    ],
+    "gdp": "$2.775 billion\n\n\n\n\nnote: non-oil GDP",
     "agriculture": [
         "coffee",
         "rice",
@@ -98,5 +108,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "6",
-    "international_disputes": "three stretches of land borders with Indonesia have yet to be delimited, two of which are in the Oecussi exclave area, and no maritime or Economic Exclusion Zone boundaries have been established between the countries; maritime boundaries with Indonesia remain unresolved; Timor-Leste and Australia reached agreement on a treaty delimiting a permanent maritime boundary in March 2018; the treaty will enter into force once ratified by the two countries' parliaments"
+    "international_disputes": "three stretches of land borders with Indonesia have yet to be delimited, two of which are in the Oecussi exclave area, and no maritime or Economic Exclusion Zone boundaries have been established between the countries; maritime boundaries with Indonesia remain unresolved; Timor-Leste and Australia reached agreement on a treaty delimiting a permanent maritime boundary in March 2018; the treaty will enter into force once ratified by the two countries' parliaments",
+    "terrorism": "Unknown"
 }

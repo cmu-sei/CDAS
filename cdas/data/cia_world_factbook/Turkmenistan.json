@@ -1,6 +1,6 @@
 {
     "name": "Turkmenistan",
-    "background": "Present-day Turkmenistan covers territory that has been at the crossroads of civilizations for centuries. The area was ruled in antiquity by various Persian empires, and was conquered by Alexander the Great, Muslim armies, the Mongols, Turkic warriors, and eventually the Russians. In medieval times, Merv (located in present-day Mary province) was one of the great cities of the Islamic world and an important stop on the Silk Road. Annexed by Russia in the late 1800s, Turkmenistan later figured prominently in the anti-Bolshevik movement in Central Asia. In 1924, Turkmenistan became a Soviet republic; it achieved independence upon the dissolution of the USSR in 1991. President for Life Saparmyrat NYYAZOW died in December 2006, and Gurbanguly BERDIMUHAMEDOW, a deputy chairman under NYYAZOW, emerged as the country's new president. BERDIMUHAMEDOW won Turkmenistan's first multi-candidate presidential election in February 2007, and again in 2012 and in 2017 with over 97% of the vote in both instances, in elections widely regarded as undemocratic.Turkmenistan has sought new export markets for its extensive hydrocarbon/natural gas reserves, which have yet to be fully exploited. As of late 2019, Turkmenistan exported the majority of its gas to China and small levels of gas were also being sent to Russia. Turkmenistan's reliance on gas exports has made the economy vulnerable to fluctuations in the global energy market, and economic hardships since the drop in energy prices in 2014 have led many Turkmenistanis to emigrate, mostly to Turkey.",
+    "background": "Present-day Turkmenistan covers territory that has been at the crossroads of civilizations for centuries. The area was ruled in antiquity by various Persian empires, and was conquered by Alexander the Great, Muslim armies, the Mongols, Turkic warriors, and eventually the Russians. In medieval times, Merv (located in present-day Mary province) was one of the great cities of the Islamic world and an important stop on the Silk Road. Annexed by Russia in the late 1800s, Turkmenistan later figured prominently in the anti-Bolshevik movement in Central Asia. In 1924, Turkmenistan became a Soviet republic; it achieved independence upon the dissolution of the USSR in 1991. President for Life Saparmyrat NYYAZOW died in December 2006, and Gurbanguly BERDIMUHAMEDOW, a deputy chairman under NYYAZOW, emerged as the country's new president.\u00a0BERDIMUHAMEDOW won Turkmenistan's first multi-candidate presidential election in February 2007, and again in 2012 and in 2017 with over 97% of the vote in both instances, in elections widely regarded as undemocratic.Turkmenistan has sought new export markets for its extensive hydrocarbon/natural gas reserves, which have yet to be fully exploited. As of late 2019, Turkmenistan exported the majority of its gas to China and small levels of gas were also being sent to Russia. Turkmenistan's reliance on gas exports has made the economy vulnerable to fluctuations in the global energy market, and economic hardships since the drop in energy prices in 2014 have led many Turkmenistanis to emigrate, mostly to Turkey.",
     "coordinates": "40 00 N, 60 00 E",
     "region": "Asia",
     "total_area": "488,100 sq km",
@@ -31,7 +31,12 @@
     ],
     "population": "5,528,627",
     "nationality": "Turkmenistani(s)",
-    "ethnic_groups": {"Turkmen": "85%", "Uzbek": "5%", "Russian": "4%", "other": "6%"},
+    "ethnic_groups": {
+        "Turkmen": "85%",
+        "Uzbek": "5%",
+        "Russian": "4%",
+        "other": "6%"
+    },
     "languages": {
         "Turkmen (official)": "72%",
         "Russian": "12%",
@@ -39,10 +44,16 @@
         "other": "7%"
     },
     "religions": {
-        "Muslim": "89%", "Eastern Orthodox": "9%", "unknown": "2%"},
+        "Muslim": "89%",
+        "Eastern Orthodox": "9%",
+        "unknown": "2%"
+    },
     "government_type": "presidential republic; authoritarian",
     "national_symbols": "Akhal-Teke horse",
-    "national_colors": ["green", "white"],
+    "national_colors": [
+        "green",
+        "white"
+    ],
     "gdp": "$37.93 billion",
     "agriculture": [
         "cotton",
@@ -84,5 +95,6 @@
     },
     "waterways": "1,300 km",
     "number_of_airports": "26",
-    "international_disputes": "cotton monoculture in Uzbekistan and Turkmenistan creates water-sharing difficulties for Amu Darya river states; field demarcation of the boundaries with Kazakhstan commenced in 2005; bilateral talks continue with Azerbaijan on dividing the seabed and contested oilfields in the middle of the Caspian"
+    "international_disputes": "cotton monoculture in Uzbekistan and Turkmenistan creates water-sharing difficulties for Amu Darya river states; field demarcation of the boundaries with Kazakhstan commenced in 2005; bilateral talks continue with Azerbaijan on dividing the seabed and contested oilfields in the middle of the Caspian",
+    "terrorism": "Unknown"
 }

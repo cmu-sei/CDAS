@@ -15,6 +15,7 @@
     "natural_hazards": [
         "frequent earthquakes",
         "landslides",
+        "volcanic activity",
         "floods",
         "periodic droughts",
         "volcanism: volcanic activity concentrated along the Andes Mountains; Sangay (5,230 m), which erupted in 2010, is mainland Ecuador's most active volcano; other historically active volcanoes in the Andes include Antisana, Cayambe, Chacana, Cotopaxi, Guagua Pichincha, Reventador, Sumaco, and Tungurahua; Fernandina (1,476 m), a shield volcano that last erupted in 2009, is the most active of the many Galapagos volcanoes; other historically active Galapagos volcanoes include Wolf, Sierra Negra, Cerro Azul, Pinta, Marchena, and Santiago"
@@ -30,7 +31,7 @@
     "population": "16,904,867",
     "nationality": "Ecuadorian(s)",
     "ethnic_groups": {
-        "mestizo (mixed Amerindian and white)": "71.9%",
+        "mestizo": "71.9%",
         "Montubio": "7.4%",
         "Amerindian": "7%",
         "white": "6.1%",
@@ -46,11 +47,11 @@
         "foreign": "2.2%"
     },
     "religions": {
-        "Roman Catholic": "74%", 
-        "Evangelical": "10.4%", 
-        "Jehovah's Witness": "1.2%", 
-        "other": "6.4%", 
-        "atheist": "7.9%", 
+        "Roman Catholic": "74%",
+        "Evangelical": "10.4%",
+        "Jehovah's Witness": "1.2%",
+        "other": "6.4%",
+        "atheist": "7.9%",
         "agnostic": "0.1%"
     },
     "government_type": "presidential republic",
@@ -121,5 +122,6 @@
     },
     "waterways": "1,500 km",
     "number_of_airports": "432",
-    "international_disputes": "organized illegal narcotics operations in Colombia penetrate across Ecuador's shared border"
+    "international_disputes": "organized illegal narcotics operations in Colombia penetrate across Ecuador's shared border",
+    "terrorism": "Unknown"
 }

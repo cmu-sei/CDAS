@@ -34,7 +34,7 @@
     "population": "12,527,440",
     "nationality": "Guinean(s)",
     "ethnic_groups": {
-        "Fulani (Peuhl)": "33.4%", 
+        "Fulani": "33.4%",
         "Malinke": "29.4%",
         "Susu": "21.2%",
         "Guerze": "7.8%",
@@ -49,10 +49,20 @@
         "Susu": "",
         "other native languages": ""
     },
-    "religions": {"Muslim": "89.1%", "Christian": "6.8%", "animist": "1.6%", "other": ".1%", "none": "2.4%"},
+    "religions": {
+        "Muslim": "89.1%",
+        "Christian": "6.8%",
+        "animist": "1.6%",
+        "other": ".1%",
+        "none": "2.4%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "elephant",
-    "national_colors": ["red", "yellow", "green"],
+    "national_colors": [
+        "red",
+        "yellow",
+        "green"
+    ],
     "gdp": "$10.25 billion",
     "agriculture": [
         "rice",
@@ -98,7 +108,7 @@
     "internet_users": "1,185,148",
     "mobile_subscriptions": "12,013,000",
     "internet_country_code": ".gn",
-    "military_and_security_forces": "National Armed Forces: Army, Guinean Navy (Armee de Mer or Marine Guineenne, includes Marines), Guinean Air Force (Force Aerienne de Guinee), Republican Guard, Gendarmerie, People's Militia (Reserves)",
+    "military_and_security_forces": "National Armed Forces: Army, Guinean Navy (Armee de Mer or Marine Guineenne, includes Marines), Guinean Air Force (Force Aerienne de Guinee), Presidential Security Battalion (Battailon Autonome de la S\u00e9curit\u00e9 Presidentielle, BASP; aka \"Red Berets\"), Gendarmerie, People's Militia (Reserves)",
     "percent_GDP_on_military": "2%",
     "pipelines": [
         "Unknown"
@@ -108,5 +118,6 @@
     },
     "waterways": "1,300 km",
     "number_of_airports": "16",
-    "international_disputes": "Sierra Leone considers Guinea's definition of the flood plain limits to define the left bank boundary of the Makona and Moa Rivers excessive and protests Guinea's continued occupation of these lands, including the hamlet of Yenga, occupied since 1998"
+    "international_disputes": "Sierra Leone considers Guinea's definition of the flood plain limits to define the left bank boundary of the Makona and Moa Rivers excessive and protests Guinea's continued occupation of these lands, including the hamlet of Yenga, occupied since 1998",
+    "terrorism": "Unknown"
 }

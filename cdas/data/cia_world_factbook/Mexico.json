@@ -14,9 +14,8 @@
     "climate": "varies from tropical to desert",
     "coastline": "9,330 km",
     "natural_hazards": [
-        "tsunamis along the Pacific coast, volcanoes and destructive earthquakes in the center and south",
-        "hurricanes on the Pacific, Gulf of Mexico, and Caribbean coasts",
-        "volcanism: volcanic activity in the central-southern part of the country; the volcanoes in Baja California are mostly dormant; Colima (3,850 m), which erupted in 2010, is Mexico's most active volcano and is responsible for causing periodic evacuations of nearby villagers, it has been deemed a Decade Volcano by the International Association of Volcanology and Chemistry of the Earth's Interior, worthy of study due to its explosive history and close proximity to human populations; Popocatepetl (5,426 m) poses a threat to Mexico City; other historically active volcanoes include Barcena, Ceboruco, El Chichon, Michoacan-Guanajuato, Pico de Orizaba, San Martin, Socorro, and Tacana"
+        "tsunamis along the Pacific coast, volcanoes and destructive earthquakes in the center and south, and hurricanes on the Pacific, Gulf of Mexico, and Caribbean coasts",
+        "volcanism: volcanic activity in the central-southern part of the country; the volcanoes in Baja California are mostly dormant; Colima (3,850 m), which erupted in 2010, is Mexico's most active volcano and is responsible for causing periodic evacuations of nearby villagers; it has been deemed a Decade Volcano by the International Association of Volcanology and Chemistry of the Earth's Interior, worthy of study due to its explosive history and close proximity to human populations; Popocatepetl (5,426 m) poses a threat to Mexico City; other historically active volcanoes include Barcena, Ceboruco, El Chichon, Michoacan-Guanajuato, Pico de Orizaba, San Martin, Socorro, and Tacana; see note 2 under \"Geography - note\""
     ],
     "terrain": "high, rugged mountains; low coastal plains; high plateaus; desert",
     "population_distribution": "most of the population is found in the middle of the country between the states of Jalisco and Veracruz; approximately a quarter of the population lives in and around Mexico City",
@@ -34,9 +33,9 @@
     "population": "128,649,565",
     "nationality": "Mexican(s)",
     "ethnic_groups": {
-        "mestizo (Amerindian-Spanish)": "62%", 
-        "predominantly Amerindian": "21%", 
-        "Amerindian":"7%", 
+        "mestizo": "62%",
+        "predominantly Amerindian": "21%",
+        "Amerindian": "7%",
         "other": "10%"
     },
     "languages": {
@@ -46,16 +45,21 @@
         "unspecified": "0.8%"
     },
     "religions": {
-        "Roman Catholic": "82.7%", 
-        "Pentecostal": "1.6%", 
-        "Jehovah's Witness": "1.4%", 
-        "other Evangelical Churches": "5%", 
-        "other": "1.9%", 
-        "none": "4.7%", 
-        "unspecified": "2.7%"},
+        "Roman Catholic": "82.7%",
+        "Pentecostal": "1.6%",
+        "Jehovah's Witness": "1.4%",
+        "other Evangelical Churches": "5%",
+        "other": "1.9%",
+        "none": "4.7%",
+        "unspecified": "2.7%"
+    },
     "government_type": "federal presidential republic",
     "national_symbols": "golden eagle",
-    "national_colors": ["green", "white", "red"],
+    "national_colors": [
+        "green",
+        "white",
+        "red"
+    ],
     "gdp": "$1,151 billion",
     "agriculture": [
         "corn",
@@ -95,7 +99,8 @@
         "fruits",
         "vegetables",
         "coffee",
-        "cotton"
+        "cotton",
+        "Mexico is the world's leading producer of silver"
     ],
     "imports": [
         "metalworking machines",
@@ -115,9 +120,9 @@
     "military_and_security_forces": "Secretariat of National Defense (Secretaria de Defensa Nacional, Sedena): Army (Ejercito), Mexican Air Force (Fuerza Aerea Mexicana, FAM); Secretariat of the Navy (Secretaria de Marina, Semar): Mexican Navy (Armada de Mexico (ARM), includes Naval Air Force (FAN), Mexican Naval Infantry Corps (Cuerpo de Infanteria de Marina, Mexmar or CIM)); Ministry of Security and Citizen Protection: Federal Police (includes Gendarmerie), National Guard",
     "percent_GDP_on_military": "0.5%",
     "pipelines": [
-        "15986 km natural gas ",
-        "10365 km oil ",
-        "8946 km refined products"
+        "15,986 km natural gas ",
+        "10,365 km oil ",
+        "8,946 km refined products"
     ],
     "ports_and_terminals": {
         "major seaport(s)": "Altamira, Coatzacoalcos, Lazaro Cardenas, Manzanillo, Veracruz",
@@ -128,5 +133,6 @@
     },
     "waterways": "2,900 km",
     "number_of_airports": "1,714",
-    "international_disputes": "abundant rainfall in recent years along much of the Mexico-US border region has ameliorated periodically strained water-sharing arrangements; the US has intensified security measures to monitor and control legal and illegal personnel, transport, and commodities across its border with Mexico; Mexico must deal with thousands of impoverished Guatemalans and other Central Americans who cross the porous border looking for work in Mexico and the US; Belize and Mexico are working to solve minor border demarcation discrepancies arising from inaccuracies in the 1898 border treaty"
+    "international_disputes": "abundant rainfall in recent years along much of the Mexico-US border region has ameliorated periodically strained water-sharing arrangements; the US has intensified security measures to monitor and control legal and illegal personnel, transport, and commodities across its border with Mexico; Mexico must deal with thousands of impoverished Guatemalans and other Central Americans who cross the porous border looking for work in Mexico and the US; Belize and Mexico are working to solve minor border demarcation discrepancies arising from inaccuracies in the 1898 border treaty",
+    "terrorism": "Unknown"
 }

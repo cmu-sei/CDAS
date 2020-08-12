@@ -35,15 +35,15 @@
         "English (official)": ""
     },
     "religions": {
-        "Protestant": "70.2%", 
-        "Roman Catholic": "8.9%", 
-        "Jehovah's Witness": "2.5%", 
-        "Hindu": "1.9%", 
-        "other": "6.2%", 
-        "none": "7.9%", 
+        "Protestant": "70.2%",
+        "Roman Catholic": "8.9%",
+        "Jehovah's Witness": "2.5%",
+        "Hindu": "1.9%",
+        "other": "6.2%",
+        "none": "7.9%",
         "unspecified": "2.4%"
     },
-    "government_type": "parliamentary democracy; self-governing overseas territory of the UK",
+    "government_type": "parliamentary democracy; self-governing overseas territory of the UK",
     "national_symbols": "zenaida dove, white cedar flower",
     "national_colors": [
         "yellow",
@@ -96,5 +96,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "4",
-    "international_disputes": "none"
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

@@ -12,6 +12,7 @@
     "coastline": "84 km",
     "natural_hazards": [
         "hurricanes",
+        "La Soufriere volcano on the island of Saint Vincent is a constant threat",
         "volcanism: La Soufriere (1,234 m) on the island of Saint Vincent last erupted in 1979; the island of Saint Vincent is part of the volcanic island arc of the Lesser Antilles that extends from Saba in the north to Grenada in the south"
     ],
     "terrain": "volcanic, mountainous",
@@ -23,28 +24,34 @@
     "population": "101,390",
     "nationality": "Saint Vincentian(s) or Vincentian(s)",
     "ethnic_groups": {
-        "African descent": "71.2%", 
-        "mixed": "23%", 
-        "indigenous": "3%", 
-        "East Indian/Indian": "1.1%", 
-        "European": "1.5%", 
-        "other": ".2%"},
+        "African descent": "71.2%",
+        "mixed": "23%",
+        "indigenous": "3%",
+        "East Indian/Indian": "1.1%",
+        "European": "1.5%",
+        "other": ".2%"
+    },
     "languages": {
         "English": "",
         "Vincentian Creole English": "",
         "French patois": ""
     },
     "religions": {
-        "Protestant": "75%", 
+        "Protestant": "75%",
         "Roman Catholic": "6.3%",
-        "Rastafarian": "1.1%", 
-        "Jehovah's Witness": "0.8%", 
-        "other": "4.7%", 
-        "none": "7.5%", 
-        "unspecified": "4.7%"},
+        "Rastafarian": "1.1%",
+        "Jehovah's Witness": "0.8%",
+        "other": "4.7%",
+        "none": "7.5%",
+        "unspecified": "4.7%"
+    },
     "government_type": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
     "national_symbols": "Saint Vincent parrot",
-    "national_colors": ["blue", "gold", "green"],
+    "national_colors": [
+        "blue",
+        "gold",
+        "green"
+    ],
     "gdp": "$0.785 billion",
     "agriculture": [
         "bananas",
@@ -91,5 +98,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "6",
-    "international_disputes": "joins other Caribbean states to counter Venezuela's claim that Aves Island sustains human habitation, a criterion under UN Convention on the Law of the Sea, which permits Venezuela to extend its EEZ/continental shelf over a large portion of the eastern Caribbean Sea"
+    "international_disputes": "joins other Caribbean states to counter Venezuela's claim that Aves Island sustains human habitation, a criterion under UN Convention on the Law of the Sea, which permits Venezuela to extend its EEZ/continental shelf over a large portion of the eastern Caribbean Sea",
+    "terrorism": "Unknown"
 }

@@ -26,20 +26,21 @@
     "population": "3,894,082",
     "nationality": "Panamanian(s)",
     "ethnic_groups": {
-        "mestizo (mixed Amerindian and white)": "65%", 
-        "Native American": "12.3%", 
-        "black or African descent": "9.2%", 
-        "mulatto": "6.8%", 
+        "mestizo": "65%",
+        "Native American": "12.3%",
+        "black or African descent": "9.2%",
+        "mulatto": "6.8%",
         "white": "6.7%"
     },
     "languages": {
         "Spanish (official)": "",
+        "indigenous languages": "",
         "Buglere": "",
         "Kuna": "",
         "Embera": "",
         "Wounaan": "",
         "Naso": "",
-        "Bri Bri": "",
+        "and Bri Bri)": "",
         "Panamanian English Creole": "",
         "English": "",
         "Chinese": "",
@@ -47,10 +48,17 @@
         "French Creole": "",
         "other": ""
     },
-    "religions": {"Roman Catholic": "85%", "Protestant": "15%"},
+    "religions": {
+        "Roman Catholic": "85%",
+        "Protestant": "15%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "harpy eagle",
-    "national_colors": ["blue", "white", "red"],
+    "national_colors": [
+        "blue",
+        "white",
+        "red"
+    ],
     "gdp": "$61.84 billion",
     "agriculture": [
         "bananas",
@@ -96,5 +104,6 @@
     },
     "waterways": "800 km",
     "number_of_airports": "117",
-    "international_disputes": "organized illegal narcotics operations in Colombia operate within the remote border region with Panama"
+    "international_disputes": "organized illegal narcotics operations in Colombia operate within the remote border region with Panama",
+    "terrorism": "Unknown"
 }

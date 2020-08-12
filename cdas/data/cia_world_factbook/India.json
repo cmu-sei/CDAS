@@ -44,7 +44,11 @@
     ],
     "population": "1,326,093,247",
     "nationality": "Indian(s)",
-    "ethnic_groups": {"Indo-Aryan": "72%", "Dravidian": "25%", "Mongoloid and other": "3%"},
+    "ethnic_groups": {
+        "Indo-Aryan": "72%",
+        "Dravidian": "25%",
+        "Mongoloid and other": "3%"
+    },
     "languages": {
         "Hindi": "43.6%",
         "Bengali": "8%",
@@ -62,11 +66,19 @@
         "other": "5.6%"
     },
     "religions": {
-        "Hindu": "79.8%", "Muslim": "14.2%", "Christian": "2.3%", 
-        "Sikh": "1.7%", "other and unspecified": "2%"},
+        "Hindu": "79.8%",
+        "Muslim": "14.2%",
+        "Christian": "2.3%",
+        "Sikh": "1.7%",
+        "other and unspecified": "2%"
+    },
     "government_type": "federal parliamentary republic",
     "national_symbols": "the Lion Capital of Ashoka, which depicts four Asiatic lions standing back to back mounted on a circular abacus, is the official emblem; Bengal tiger; lotus flower",
-    "national_colors": ["saffron", "white", "green"],
+    "national_colors": [
+        "saffron",
+        "white",
+        "green"
+    ],
     "gdp": "$2,602 billion",
     "agriculture": [
         "rice",
@@ -134,10 +146,23 @@
     ],
     "ports_and_terminals": {
         "major seaport(s)": "Chennai, Jawaharal Nehru Port, Kandla, Kolkata (Calcutta), Mumbai (Bombay), Sikka, Vishakhapatnam",
-        "container port(s) (TEUs)": "Chennai (1,549,457), Jawaharal Nehru Port (4,833,397), Mundra (4,240,260)",
+        "container port(s) (TEUs)": "Chennai (1,549,457), Jawaharal Nehru Port (4,833,397), Mundra (4,240,260)",
         "LNG terminal(s) (import)": "Dabhol, Dahej, Hazira"
     },
     "waterways": "14,500 km",
     "number_of_airports": "346",
-    "international_disputes": "since China and India launched a security and foreign policy dialogue in 2005, consolidated discussions related to the dispute over most of their rugged, militarized boundary, regional nuclear proliferation, Indian claims that China transferred missiles to Pakistan, and other matters continue; Kashmir remains the site of the world's largest and most militarized territorial dispute with portions under the de facto administration of China (Aksai Chin), India (Jammu and Kashmir), and Pakistan (Azad Kashmir and Northern Areas); India and Pakistan resumed bilateral dialogue in February 2011 after a two-year hiatus, have maintained the 2003 cease-fire in Kashmir, and continue to have disputes over water sharing of the Indus River and its tributaries; UN Military Observer Group in India and Pakistan has maintained a small group of peacekeepers since 1949; India does not recognize Pakistan's ceding historic Kashmir lands to China in 1964; to defuse tensions and prepare for discussions on a maritime boundary, India and Pakistan seek technical resolution of the disputed boundary in Sir Creek estuary at the mouth of the Rann of Kutch in the Arabian Sea; Pakistani maps continue to show its Junagadh claim in Indian Gujarat State; Prime Minister Singh's September 2011 visit to Bangladesh resulted in the signing of a Protocol to the 1974 Land Boundary Agreement between India and Bangladesh, which had called for the settlement of longstanding boundary disputes over undemarcated areas and the exchange of territorial enclaves, but which had never been implemented; Bangladesh referred its maritime boundary claims with Burma and India to the International Tribunal on the Law of the Sea; Joint Border Committee with Nepal continues to examine contested boundary sections, including the 400 sq km dispute over the source of the Kalapani River; India maintains a strict border regime to keep out Maoist insurgents and control illegal cross-border activities from Nepal"
+    "international_disputes": "since China and India launched a security and foreign policy dialogue in 2005, consolidated discussions related to the dispute over most of their rugged, militarized boundary, regional nuclear proliferation, Indian claims that China transferred missiles to Pakistan, and other matters continue; Kashmir remains the site of the world's largest and most militarized territorial dispute with portions under the de facto administration of China (Aksai Chin), India (Jammu and Kashmir), and Pakistan (Azad Kashmir and Northern Areas); India and Pakistan resumed bilateral dialogue in February 2011 after a two-year hiatus, have maintained the 2003 cease-fire in Kashmir, and continue to have disputes over water sharing of the Indus River and its tributaries; UN Military Observer Group in India and Pakistan has maintained a small group of peacekeepers since 1949; India does not recognize Pakistan's ceding historic Kashmir lands to China in 1964; to defuse tensions and prepare for discussions on a maritime boundary, India and Pakistan seek technical resolution of the disputed boundary in Sir Creek estuary at the mouth of the Rann of Kutch in the Arabian Sea; Pakistani maps continue to show its Junagadh claim in Indian Gujarat State; Prime Minister Singh's September 2011 visit to Bangladesh resulted in the signing of a Protocol to the 1974 Land Boundary Agreement between India and Bangladesh, which had called for the settlement of longstanding boundary disputes over undemarcated areas and the exchange of territorial enclaves, but which had never been implemented; Bangladesh referred its maritime boundary claims with Burma and India to the International Tribunal on the Law of the Sea; Joint Border Committee with Nepal continues to examine contested boundary sections, including the 400 sq km dispute over the source of the Kalapani River; India maintains a strict border regime to keep out Maoist insurgents and control illegal cross-border activities from Nepal",
+    "terrorism": {
+        "Hizbul Mujahideen (HM)": "annex the state of Jammu and Kashmir to Pakistanarea(s) of operation",
+        "Indian Mujahedeen (IM)": "establish Islamic rule in India and, ultimately, convert all non-Muslims to Islam; stated goal is to carry out terrorist attacks against Indians for perceived atrocities against Indian Muslimsarea(s) of operation",
+        "al-Qa'ida (AQ)": "overthrow the Indian Government and, ultimately, establish a pan-Islamic caliphate under a strict Salafi Muslim interpretation of shariaarea(s) of operation",
+        "al-Qa'ida in the Indian Subcontinent (AQIS)": "establish an Islamic caliphate in the Indian subcontinentarea(s) of operation",
+        "Harakat ul-Mujahidin (HUM)": "enhance its networks and paramilitary training in India and, ultimately, annex Kashmir into Pakistan and establish an Islamic state in Kashmirarea(s) of operation",
+        "Harakat ul-Jihad-i-Islami (HUJI)": "enhance its networks and operational capabilities in Indiaarea(s) of operation",
+        "Harakat ul-Jihad-i-Islami/Bangladesh (HUJI-B)": "enhance its networks in India and, ultimately, install an Islamic state in Bangladesharea(s) of operation",
+        "Islamic State of Iraq and ash-Sham-Khorasan (ISIS-K)": " spread the ISIS caliphate by eliminating the Indian Government and, ultimately, unite Kashmir with Pakistanarea(s) of operation",
+        "Jaish-e-Mohammed (JEM)": "annex Jammu and Kashmir to Pakistanarea(s) of operation",
+        "Lashkar-e Tayyiba (LT)": "annex Jammu and Kashmir State to Pakistan and, ultimately, install Islamic rule throughout South Asiaarea(s) of operation",
+        "Liberation Tigers of Tamil Eelam (LTTE)": "enhance its networks in India and, ultimately, revive the movement to establish a Tamil homelandarea(s) of operation"
+    }
 }

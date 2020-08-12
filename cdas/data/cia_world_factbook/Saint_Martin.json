@@ -21,11 +21,12 @@
     "population": "32,556",
     "nationality": "Unknown",
     "ethnic_groups": {
-        "other Creole (mulatto)":"", 
-        "black":"", 
-        "Guadeloupe Mestizo (French-East Asia)":"", 
-        "white":"", 
-        "East Indian":""},
+        "other Creole": "",
+        "black": "",
+        "Guadeloupe Mestizo": "",
+        "white": "",
+        "East Indian": ""
+    },
     "languages": {
         "French (official)": "",
         "English": "",
@@ -35,11 +36,20 @@
         "Papiamento": ""
     },
     "religions": {
-        "Roman Catholic":"", "Jehovah's Witness":"", "Protestant":"", "Hindu":""},
+        "Roman Catholic": "",
+        "Jehovah's Witness": "",
+        "Protestant": "",
+        "Hindu": ""
+    },
     "government_type": "parliamentary democracy (Territorial Council); overseas collectivity of France",
     "national_symbols": "brown pelican",
-    "national_colors": [],
-    "gdp": "$0.562 billion",
+    "national_colors": [
+        "cerulean blue",
+        "gold",
+        "black",
+        "white"
+    ],
+    "gdp": "$0.5615 billion",
     "agriculture": "Unknown",
     "industries": [
         "tourism",
@@ -55,7 +65,7 @@
     "broadband_subscriptions": "Unknown",
     "internet_users": "1,100",
     "mobile_subscriptions": "Unknown",
-    "internet_country_code": ".mf",
+    "internet_country_code": ".mf; note - .gp, the Internet country code for Guadeloupe, and .fr, the Internet country code for France, might also be encountered",
     "military_and_security_forces": "Unknown",
     "percent_GDP_on_military": "Unknown",
     "pipelines": [
@@ -63,5 +73,7 @@
     ],
     "ports_and_terminals": "Unknown",
     "waterways": "Unknown",
-    "number_of_airports": "1"
+    "number_of_airports": "1",
+    "international_disputes": "Unknown",
+    "terrorism": "Unknown"
 }

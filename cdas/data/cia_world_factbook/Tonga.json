@@ -23,26 +23,36 @@
     ],
     "population": "106,095",
     "nationality": "Tongan(s)",
-    "ethnic_groups": {"Tongan": "97%", "part-Tongan": "0.8%", "other": "2.2%", "unspecified":""},
+    "ethnic_groups": {
+        "Tongan": "97%",
+        "part-Tongan": "0.8%",
+        "other": "2.2%",
+        "unspecified": ""
+    },
     "languages": {
         "Tongan and English": "76.8%",
         "Tongan": "",
-        "English and other language": "10.6%",
+        "English": "",
+        "and other language": "10.6%",
         "Tongan only (official)": "8.7%",
         "English only (official)": "0.7%",
         "other": "1.7%",
-        "none": "0.2%"
+        "none": "2.2%"
     },
     "religions": {
-        "Protestant": "64.1%", 
-        "Mormon": "18.6%", 
-        "Roman Catholic": "14.2%", 
-        "other": "2.4%", 
-        "none": "0.5%", 
-        "unspecified": "0.1%"},
+        "Protestant": "64.1%",
+        "Mormon": "18.6%",
+        "Roman Catholic": "14.2%",
+        "other": "2.4%",
+        "none": "0.5%",
+        "unspecified": "0.1%"
+    },
     "government_type": "constitutional monarchy",
     "national_symbols": "red cross on white field, arms equal length",
-    "national_colors": ["red", "white"],
+    "national_colors": [
+        "red",
+        "white"
+    ],
     "gdp": "$0.455 billion",
     "agriculture": [
         "squash",
@@ -55,7 +65,7 @@
         "sweet potatoes",
         "cassava",
         "taro",
-        "kava"
+        "and kava"
     ],
     "industries": [
         "tourism",
@@ -89,5 +99,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "6",
-    "international_disputes": "maritime boundary dispute with Fiji"
+    "international_disputes": "maritime boundary dispute with Fiji",
+    "terrorism": "Unknown"
 }

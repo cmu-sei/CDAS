@@ -1,6 +1,6 @@
 {
     "name": "Lesotho",
-    "background": "Basutoland was renamed the Kingdom of Lesotho upon independence from the UK in 1966. The Basotho National Party ruled the country during its first two decades. King MOSHOESHOE II was exiled in 1990, but returned to Lesotho in 1992 and was reinstated in 1995 and subsequently succeeded by his son, King LETSIE III, in 1996. Constitutional government was restored in 1993 after seven years of military rule. In 1998, violent protests and a military mutiny following a contentious election prompted a brief but bloody intervention by South African and Botswana military forces under the aegis of the Southern African Development Community. Subsequent constitutional reforms restored relative political stability. Peaceful parliamentary elections were held in 2002, but the National Assembly elections in 2007 were hotly contested and aggrieved parties disputed how the electoral law was applied to award proportional seats in the Assembly. In 2012, competitive elections involving 18 parties saw Prime Minister Motsoahae Thomas THABANE form a coalition government - the first in the country's history - that ousted the 14-year incumbent, Pakalitha MOSISILI, who peacefully transferred power the following month. MOSISILI returned to power in snap elections in February 2015 after the collapse of THABANE’s coalition government and an alleged attempted military coup. In June 2017, THABANE returned to become prime minister.",
+    "background": "Basutoland was renamed the Kingdom of Lesotho upon independence from the UK in 1966. The Basotho National Party ruled the country during its first two decades. King MOSHOESHOE II was exiled in 1990, but returned to Lesotho in 1992 and was reinstated in 1995 and subsequently succeeded by his son, King LETSIE III, in 1996. Constitutional government was restored in 1993 after seven years of military rule. In 1998, violent protests and a military mutiny following a contentious election prompted a brief but bloody intervention by South African and Botswana military forces under the aegis of the Southern African Development Community. Subsequent constitutional reforms restored relative political stability. Peaceful parliamentary elections were held in 2002, but the National Assembly elections in 2007 were hotly contested and aggrieved parties disputed how the electoral law was applied to award proportional seats in the Assembly. In 2012, competitive elections involving 18 parties saw Prime Minister Motsoahae Thomas THABANE form a coalition government - the first in the country's history - that ousted the 14-year incumbent, Pakalitha MOSISILI, who peacefully transferred power the following month. MOSISILI returned to power in snap elections in February 2015 after the collapse of THABANE's coalition government and an alleged attempted military coup. In June 2017, THABANE returned to become prime minister.",
     "coordinates": "29 30 S, 28 30 E",
     "region": "Africa",
     "total_area": "30,355 sq km",
@@ -25,19 +25,33 @@
     ],
     "population": "1,969,334",
     "nationality": "Mosotho (singular), Basotho (plural)",
-    "ethnic_groups": {"Sotho": "99.7%", "Europeans, Asians, and other": "0.3%"},
+    "ethnic_groups": {
+        "Sotho": "99.7%",
+        "Europeans": "",
+        "Asians": "",
+        "and other": "0.3%"
+    },
     "languages": {
         "Sesotho (official)": "",
-        "English  (official)": "",
+        "English (official)": "",
         "Zulu": "",
         "Xhosa": ""
     },
     "religions": {
-        "Protestant": "47.8%", "Roman Catholic": "39.3%", 
-        "other Christian": "9.1%", "non-Christian": "1.4%", "none": "2.3%"},
+        "Protestant": "47.8%",
+        "Roman Catholic": "39.3%",
+        "other Christian": "9.1%",
+        "non-Christian": "1.4%",
+        "none": "2.3%"
+    },
     "government_type": "parliamentary constitutional monarchy",
     "national_symbols": "mokorotio (Basotho hat)",
-    "national_colors": ["blue", "white", "green", "black"],
+    "national_colors": [
+        "blue",
+        "white",
+        "green",
+        "black"
+    ],
     "gdp": "$2.749 billion",
     "agriculture": [
         "corn",
@@ -57,8 +71,8 @@
         "tourism"
     ],
     "exports": [
-        "clothing",
-        "footwear",
+        "manufactures (clothing",
+        "footwear)",
         "wool and mohair",
         "food and live animals",
         "electricity",
@@ -85,5 +99,6 @@
     "ports_and_terminals": "Unknown",
     "waterways": "Unknown",
     "number_of_airports": "24",
-    "international_disputes": "South Africa has placed military units to assist police operations along the border of Lesotho, Zimbabwe, and Mozambique to control smuggling, poaching, and illegal migration"
+    "international_disputes": "South Africa has placed military units to assist police operations along the border of Lesotho, Zimbabwe, and Mozambique to control smuggling, poaching, and illegal migration",
+    "terrorism": "Unknown"
 }

@@ -36,17 +36,30 @@
     ],
     "population": "68,977,400",
     "nationality": "Thai (singular and plural)",
-    "ethnic_groups": {"Thai": "97.5%", "Burmese": "1.3%", "other": "1.1%", 
-        "unspecified": ".1%"},
+    "ethnic_groups": {
+        "Thai": "97.5%",
+        "Burmese": "1.3%",
+        "other": "1.1%",
+        "unspecified": "<.1%"
+    },
     "languages": {
-        "Thai (official)": "90.7%",
+        "Thai only (official)": "90.7%",
         "Thai and other languages": "6.4%",
         "only other languages": ""
     },
-    "religions": {"Buddhist": "94.6%", "Muslim": "4.3%", "Christian": "1%", "other":""},
+    "religions": {
+        "Buddhist": "94.6%",
+        "Muslim": "4.3%",
+        "Christian": "1%",
+        "other": ""
+    },
     "government_type": "constitutional monarchy",
     "national_symbols": "garuda (mythical half-man, half-bird figure), elephant",
-    "national_colors": ["red", "white", "blue"],
+    "national_colors": [
+        "red",
+        "white",
+        "blue"
+    ],
     "gdp": "$455.4 billion",
     "agriculture": [
         "rice",
@@ -119,7 +132,7 @@
         "chemicals",
         "iron & steel and product",
         "electronic integrated circuit",
-        "automobile’s parts",
+        "automobile\u2019s parts",
         "jewelry including silver bars and gold",
         "computers and parts",
         "electrical household appliances",
@@ -133,7 +146,7 @@
     "internet_users": "32,398,778",
     "mobile_subscriptions": "125,098,000",
     "internet_country_code": ".th",
-    "military_and_security_forces": "Royal Thai Armed Forces (Kongthap Thai, RTARF): Royal Thai Army (Kongthap Bok Thai, RTA, includes paramilitary Thai Rangers (Thahan Phrahan)), Royal Thai Navy (Kongthap Ruea Thai, RTN, includes Royal Thai Marine Corps), Royal Thai Air Force (Kongthap Akaat Thai, RTAF); Interior Ministry paramilitary forces: Volunteer Defense Corps",
+    "military_and_security_forces": "Royal Thai Armed Forces (Kongthap Thai, RTARF): Royal Thai Army (Kongthap Bok Thai, RTA; includes Thai Rangers (Thahan Phrahan)), Royal Thai Navy (Kongthap Ruea Thai, RTN; includes Royal Thai Marine Corps), Royal Thai Air Force (Kongthap Akaat Thai, RTAF); Interior Ministry paramilitary forces: Volunteer Defense Corps",
     "percent_GDP_on_military": "1.3%",
     "pipelines": [
         "2 km condensate",
@@ -149,5 +162,6 @@
     },
     "waterways": "4,000 km",
     "number_of_airports": "101",
-    "international_disputes": "separatist violence in Thailand's predominantly Malay-Muslim southern provinces prompt border closures and controls with Malaysia to stem insurgent activities; Southeast Asian states have enhanced border surveillance to check the spread of avian flu; talks continue on completion of demarcation with Laos but disputes remain over several islands in the Mekong River; despite continuing border committee talks, Thailand must deal with Karen and other ethnic rebels, refugees, and illegal cross-border activities; Cambodia and Thailand dispute sections of boundary; in 2011, Thailand and Cambodia resorted to arms in the dispute over the location of the boundary on the precipice surmounted by Preah Vihear temple ruins, awarded to Cambodia by ICJ decision in 1962 and part of a planned UN World Heritage site; Thailand is studying the feasibility of jointly constructing the Hatgyi Dam on the Salween river near the border with Burma; in 2004, international environmentalist pressure prompted China to halt construction of 13 dams on the Salween River that flows through China, Burma, and Thailand; approximately 100,000 mostly Karen refugees fleeing civil strife, political upheaval and economic stagnation in Burma live in remote camps in Thailand near the border"
+    "international_disputes": "separatist violence in Thailand's predominantly Malay-Muslim southern provinces prompt border closures and controls with Malaysia to stem insurgent activities; Southeast Asian states have enhanced border surveillance to check the spread of avian flu; talks continue on completion of demarcation with Laos but disputes remain over several islands in the Mekong River; despite continuing border committee talks, Thailand must deal with Karen and other ethnic rebels, refugees, and illegal cross-border activities; Cambodia and Thailand dispute sections of boundary; in 2011, Thailand and Cambodia resorted to arms in the dispute over the location of the boundary on the precipice surmounted by Preah Vihear temple ruins, awarded to Cambodia by ICJ decision in 1962 and part of a planned UN World Heritage site; Thailand is studying the feasibility of jointly constructing the Hatgyi Dam on the Salween river near the border with Burma; in 2004, international environmentalist pressure prompted China to halt construction of 13 dams on the Salween River that flows through China, Burma, and Thailand; approximately 100,000 mostly Karen refugees fleeing civil strife, political upheaval and economic stagnation in Burma live in remote camps in Thailand near the border",
+    "terrorism": "Unknown"
 }

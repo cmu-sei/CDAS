@@ -36,7 +36,7 @@
         "Bulgarian": "76.9%",
         "Turkish": "8%",
         "Romani": "4.4%",
-        "other": "10.7%"
+        "other": "10%"
     },
     "languages": {
         "Bulgarian (official)": "76.8%",
@@ -46,10 +46,10 @@
         "unspecified": "10.5%"
     },
     "religions": {
-        "Eastern Orthodox": "59.4%", 
-        "Muslim": "7.8%", 
-        "other": "1.7%", 
-        "none": "3.7%", 
+        "Eastern Orthodox": "59.4%",
+        "Muslim": "7.8%",
+        "other": "1.7%",
+        "none": "3.7%",
         "unspecified": "27.4%"
     },
     "government_type": "parliamentary republic",
@@ -103,14 +103,14 @@
         "chemicals and plastics",
         "fuels",
         "minerals",
-        "raw materials"
+        "and raw materials"
     ],
     "broadband_subscriptions": "1,903,946",
     "internet_users": "4,274,328",
     "mobile_subscriptions": "8,387,160",
     "internet_country_code": ".bg",
-    "military_and_security_forces": "Bulgarian Armed Forces: Land Forces (aka Army), Naval Forces, Bulgarian Air Forces (Voennovazdushni Sili, VVS)",
-    "percent_GDP_on_military": "3.3%",
+    "military_and_security_forces": "Bulgarian Armed Forces: Land Forces (aka Army), Naval Forces, Bulgarian Air Forces (Voennovazdushni Sili, VVS); Ministry of Interior: Border Guards",
+    "percent_GDP_on_military": "3.25%",
     "pipelines": [
         "2765 km gas",
         "346 km oil",
@@ -120,5 +120,7 @@
         "major seaport(s)": "Burgas, Varna (Black Sea)"
     },
     "waterways": "470 km",
-    "number_of_airports": "68"
+    "number_of_airports": "68",
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

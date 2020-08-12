@@ -16,7 +16,7 @@
     "climate": "tropical monsoon; rainy season (May to November); dry season (December to April)",
     "coastline": "0 km",
     "natural_hazards": [
-        "floods", "droughts"
+        "floods, droughts"
     ],
     "terrain": "mostly rugged mountains; some plains and plateaus",
     "population_distribution": "most densely populated area is in and around the capital city of Vientiane; large communities are primarily found along the Mekong River along the southwestern border; overall density is considered one of the lowest in Southeast Asia",
@@ -31,15 +31,15 @@
     "population": "7,447,396",
     "nationality": "Lao(s) or Laotian(s)",
     "ethnic_groups": {
-        "Lao": "53.2%", 
-        "Khmou": "11%", 
-        "Hmong": "9.2%", 
-        "Phouthay": "3.4%", 
-        "Tai": "3.1%", 
-        "Makong": "2.5%", 
-        "Katong": "2.2%", 
-        "Lue": "2%", 
-        "Akha": "1.8%", 
+        "Lao": "53.2%",
+        "Khmou": "11%",
+        "Hmong": "9.2%",
+        "Phouthay": "3.4%",
+        "Tai": "3.1%",
+        "Makong": "2.5%",
+        "Katong": "2.2%",
+        "Lue": "2%",
+        "Akha": "1.8%",
         "other": "11.6%"
     },
     "languages": {
@@ -49,11 +49,18 @@
         "various ethnic languages": ""
     },
     "religions": {
-        "Buddhist": "64.7%", "Christian": "1.7%", "none": "31.4%", 
-        "other/not stated": "2.1%"},
+        "Buddhist": "64.7%",
+        "Christian": "1.7%",
+        "none": "31.4%",
+        "other/not stated": "2.1%"
+    },
     "government_type": "communist state",
     "national_symbols": "elephant",
-    "national_colors": ["red", "white", "blue"],
+    "national_colors": [
+        "red",
+        "white",
+        "blue"
+    ],
     "gdp": "$16.97 billion",
     "agriculture": [
         "sweet potatoes",
@@ -99,16 +106,17 @@
         "consumer goods"
     ],
     "broadband_subscriptions": "45,379",
-    "internet_users": "1,258,000",
+    "internet_users": "1.258 million",
     "mobile_subscriptions": "3,662,336",
     "internet_country_code": ".la",
     "military_and_security_forces": "Lao People's Armed Forces (LPAF): Lao People's Army (LPA, includes Riverine Force), Air Force, Self-Defense Militia Forces",
-    "percent_GDP_on_military": "0.2%",
+    "percent_GDP_on_military": "0.19%",
     "pipelines": [
         "540 km refined products"
     ],
     "ports_and_terminals": "Unknown",
     "waterways": "4,600 km",
     "number_of_airports": "41",
-    "international_disputes": "southeast Asian states have enhanced border surveillance to check the spread of avian flu; talks continue on completion of demarcation with Thailand but disputes remain over islands in the Mekong River; Cambodia and Laos have a longstanding border demarcation dispute; concern among Mekong River Commission members that China's construction of eight dams on the Upper Mekong River and construction of more dams on its tributaries will affect water levels, sediment flows, and fisheries; Cambodia and Vietnam are concerned about Laos' extensive plans for upstream dam construction for the same reasons"
+    "international_disputes": "southeast Asian states have enhanced border surveillance to check the spread of avian flu; talks continue on completion of demarcation with Thailand but disputes remain over islands in the Mekong River; Cambodia and Laos have a longstanding border demarcation dispute; concern among Mekong River Commission members that China's construction of eight dams on the Upper Mekong River and construction of more dams on its tributaries will affect water levels, sediment flows, and fisheries; Cambodia and Vietnam are concerned about Laos' extensive plans for upstream dam construction for the same reasons",
+    "terrorism": "Unknown"
 }

@@ -44,7 +44,8 @@
         "cholo/chola": "2%",
         "black": "1%",
         "other": "1%",
-        "unspecified": "3%"
+        "nspecified 3% ; 44% of respondents indicated feeling part of some indigenous": "group",
+        "predominantly Quechua or Aymara": ""
     },
     "languages": {
         "Spanish (official)": "60.7%",
@@ -56,10 +57,10 @@
         "none": "0.1%"
     },
     "religions": {
-        "Roman Catholic": "76.8%", 
-        "Evangelical and Pentecostal": "8.1%", 
-        "Protestant": "7.9%", 
-        "other": "1.7%", 
+        "Roman Catholic": "76.8%",
+        "Evangelical and Pentecostal": "8.1%",
+        "Protestant": "7.9%",
+        "other": "1.7%",
         "none": "5.5%"
     },
     "government_type": "presidential republic",
@@ -126,5 +127,6 @@
     },
     "waterways": "10,000 km",
     "number_of_airports": "855",
-    "international_disputes": "Chile and Peru rebuff Bolivia's reactivated claim to restore the Atacama corridor, ceded to Chile in 1884, but Chile offers instead unrestricted but not sovereign maritime access through Chile for Bolivian products; contraband smuggling, human trafficking, and illegal narcotic trafficking are problems in the porous areas of its border regions with all of its neighbors (Argentina, Brazil, Chile, Paraguay, and Peru)"
+    "international_disputes": "Chile and Peru rebuff Bolivia's reactivated claim to restore the Atacama corridor, ceded to Chile in 1884, but Chile offers instead unrestricted but not sovereign maritime access through Chile for Bolivian products; contraband smuggling, human trafficking, and illegal narcotic trafficking are problems in the porous areas of its border regions with all of its neighbors (Argentina, Brazil, Chile, Paraguay, and Peru)",
+    "terrorism": "Unknown"
 }

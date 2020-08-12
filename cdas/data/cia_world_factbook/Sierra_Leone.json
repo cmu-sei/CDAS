@@ -29,10 +29,20 @@
     "population": "6,624,933",
     "nationality": "Sierra Leonean(s)",
     "ethnic_groups": {
-        "Temne": "35.5%", "Mende":"33.2%", "Limba": "6.4%", "Kono": "4.4%", 
-        "Fullah": "3.4%", "Loko": "2.9%", "Koranko": "2.8%", "Sherbro": "2.6%", 
-        "Mandingo": "2.4%", "Creole": "1.2%", "other Sierra Leone": "4.7%", 
-        "other foreign": "0.3%", "unspecified": "0.2%"},
+        "Temne": "35.5%",
+        "Mende": "33.2%",
+        "Limba": "6.4%",
+        "Kono": "4.4%",
+        "Fullah": "3.4%",
+        "Loko": "2.9%",
+        "Koranko": "2.8%",
+        "Sherbro": "2.6%",
+        "Mandingo": "2.4%",
+        "Creole": "1.2%",
+        "other Sierra Leone": "4.7%",
+        "other foreign": "0.3%",
+        "unspecified": "0.2%"
+    },
     "languages": {
         "English (official)": "",
         "Mende": "",
@@ -40,13 +50,18 @@
         "Krio": ""
     },
     "religions": {
-        "Muslim": "78.6%", 
-        "Christian": "20.8%", 
-        "other": "0.3%", 
-        "unspecified": "0.2%"},
+        "Muslim": "78.6%",
+        "Christian": "20.8%",
+        "other": "0.3%",
+        "unspecified": "0.2%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "lion",
-    "national_colors": ["green", "white", "blue"],
+    "national_colors": [
+        "green",
+        "white",
+        "blue"
+    ],
     "gdp": "$3.612 billion",
     "agriculture": [
         "rice",
@@ -96,5 +111,6 @@
     },
     "waterways": "800 km",
     "number_of_airports": "8",
-    "international_disputes": "Sierra Leone opposes Guinean troops' continued occupation of Yenga, a small village on the Makona River that serves as a border with Guinea; Guinea's forces came to Yenga in the mid-1990s to help the Sierra Leonean military to suppress rebels and to secure their common border but have remained there even after both countries signed a 2005 agreement acknowledging that Yenga belonged to Sierra Leone; in 2012, the two sides signed a declaration to demilitarize the area"
+    "international_disputes": "Sierra Leone opposes Guinean troops' continued occupation of Yenga, a small village on the Makona River that serves as a border with Guinea; Guinea's forces came to Yenga in the mid-1990s to help the Sierra Leonean military to suppress rebels and to secure their common border but have remained there even after both countries signed a 2005 agreement acknowledging that Yenga belonged to Sierra Leone; in 2012, the two sides signed a declaration to demilitarize the area",
+    "terrorism": "Unknown"
 }

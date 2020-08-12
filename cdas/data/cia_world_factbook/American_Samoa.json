@@ -23,9 +23,9 @@
     "population": "49,437",
     "nationality": "American Samoan(s) (US nationals)",
     "ethnic_groups": {
-        "Pacific Islander": "92.6%", 
-        "Asian": "3.6%", 
-        "mixed": "2.7%", 
+        "Pacific Islander": "92.6%",
+        "Asian": "3.6%",
+        "mixed": "2.7%",
         "other": "1.2%"
     },
     "languages": {
@@ -88,5 +88,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "3",
-    "international_disputes": "Tokelau included American Samoa's Swains Island (Olosega) in its 2006 draft independence constitution"
+    "international_disputes": "Tokelau included American Samoa's Swains Island (Olosega) in its 2006 draft independence constitution",
+    "terrorism": "Unknown"
 }

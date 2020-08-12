@@ -29,23 +29,30 @@
     "population": "7,191,685",
     "nationality": "Paraguayan(s)",
     "ethnic_groups": {
-        "mestizo (mixed Spanish and Amerindian)": "95%", "other": "5%"},
+        "mestizo": "95%",
+        "other": "5%"
+    },
     "languages": {
-        "Spanish (official) and Guarani (official)": "46.3%",
+        "Spanish and Guarani (official)": "46.3%",
         "only Guarani": "34%",
         "only Spanish": "15.2%",
-        "other": "4.1%",
-        "no response": "0.4%"
+        "other 4.1%": "",
+        "no response": ".4%"
     },
     "religions": {
-        "Roman Catholic": "89.6%", 
-        "Protestant": "6.2%", 
-        "other Christian": "1.1%", 
-        "other or unspecified": "1.9%", 
-        "none": "1.1%"},
+        "Roman Catholic": "89.6%",
+        "Protestant": "6.2%",
+        "other Christian": "1.1%",
+        "other or unspecified": "1.9%",
+        "none": "1.1%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "lion",
-    "national_colors": ["red", "white", "blue"],
+    "national_colors": [
+        "red",
+        "white",
+        "blue"
+    ],
     "gdp": "$38.94 billion",
     "agriculture": [
         "cotton",
@@ -107,5 +114,6 @@
     },
     "waterways": "3,100 km",
     "number_of_airports": "799",
-    "international_disputes": "unruly region at convergence of Argentina-Brazil-Paraguay borders is locus of money laundering, smuggling, arms and illegal narcotics trafficking, and fundraising for violent extremist organizations"
+    "international_disputes": "unruly region at convergence of Argentina-Brazil-Paraguay borders is locus of money laundering, smuggling, arms and illegal narcotics trafficking, and fundraising for violent extremist organizations",
+    "terrorism": "Unknown"
 }

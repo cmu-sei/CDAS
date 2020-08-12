@@ -40,7 +40,7 @@
     "languages": {
         "Czech (official)": "95.4%",
         "Slovak": "1.6%",
-        "other": "0.3%"
+        "other": "3%"
     },
     "religions": {
         "Roman Catholic": "10.4%",
@@ -88,9 +88,9 @@
     "mobile_subscriptions": "12,704,262",
     "internet_country_code": ".cz",
     "military_and_security_forces": "Ministry of Defense and Armed Forces: Czech Land Forces, Czech Air Force",
-    "percent_GDP_on_military": "1.2%",
+    "percent_GDP_on_military": "1.19%",
     "pipelines": [
-        "7160 km gas",
+        "7,160 km gas",
         "675 km oil",
         "94 km refined products"
     ],
@@ -98,5 +98,7 @@
         "river port(s)": "Prague (Vltava)"
     },
     "waterways": "664 km",
-    "number_of_airports": "128"
+    "number_of_airports": "128",
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

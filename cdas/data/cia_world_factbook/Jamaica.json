@@ -23,18 +23,33 @@
     ],
     "population": "2,808,570",
     "nationality": "Jamaican(s)",
-    "ethnic_groups": {"black": "92.1%", "mixed": "6.1%", "East Indian": "0.8%", "other": "0.4%", "unspecified": "0.7%"},
+    "ethnic_groups": {
+        "black": "92.1%",
+        "mixed": "6.1%",
+        "East Indian": "0.8%",
+        "other": "0.4%",
+        "unspecified": "0.7%"
+    },
     "languages": {
         "English": "",
         "English patois": ""
     },
     "religions": {
-        "Protestant": "64.8%", "Roman Catholic": "2.2%", 
-        "Jehovah's Witness": "1.9%", "Rastafarian": "1.1%", "other": "6.5%", 
-        "none": "21.3%", "unspecified": "2.3%"},
+        "Protestant": "64.8%",
+        "Roman Catholic": "2.2%",
+        "Jehovah's Witness": "1.9%",
+        "Rastafarian": "1.1%",
+        "other": "6.5%",
+        "none": "21.3%",
+        "unspecified": "2.3%"
+    },
     "government_type": "parliamentary democracy (Parliament) under a constitutional monarchy; a Commonwealth realm",
     "national_symbols": "green-and-black streamertail (bird), Guaiacum officinale (Guaiacwood)",
-    "national_colors": ["green", "yellow", "black"],
+    "national_colors": [
+        "green",
+        "yellow",
+        "black"
+    ],
     "gdp": "$14.77 billion",
     "agriculture": [
         "sugar cane",
@@ -90,5 +105,7 @@
         "container port(s) (TEUs)": "Kingston (1,681,706)"
     },
     "waterways": "Unknown",
-    "number_of_airports": "28"
+    "number_of_airports": "28",
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

@@ -36,10 +36,20 @@
     ],
     "population": "53,527,936",
     "nationality": "Kenyan(s)",
-    "ethnic_groups": {"Kikuyu": "17.1%","Luhya": "14.3%","Kalenjin": "13.4%",
-        "Luo": "10.7%","Kamba": "9.8%","Somali": "5.8%","Kisii": "5.7%",
-        "Mijikenda": "5.2%","Meru": "4.2%","Maasai": "2.5%","Turkana": "2.1%",
-        "non-Kenyan": "1%","other": "8.2%"
+    "ethnic_groups": {
+        "Kikuyu": "17.1%",
+        "Luhya": "14.3%",
+        "Kalenjin": "13.4%",
+        "Luo": "10.7%",
+        "Kamba": "9.8%",
+        "Somali": "5.8%",
+        "Kisii": "5.7%",
+        "Mijikenda": "5.2%",
+        "Meru": "4.2%",
+        "Maasai": "2.5%",
+        "Turkana": "2.1%",
+        "non-Kenyan": "1%",
+        "other": "8.2%"
     },
     "languages": {
         "English (official)": "",
@@ -51,11 +61,16 @@
         "Muslim": "10.9%",
         "other": "1.8%",
         "none": "1.6%",
-        "don't know/no answer":"0.2%"
+        "don't know/no answer": "0.2%"
     },
     "government_type": "presidential republic",
     "national_symbols": "lion",
-    "national_colors": ["black", "red", "green", "white"],
+    "national_colors": [
+        "black",
+        "red",
+        "green",
+        "white"
+    ],
     "gdp": "$79.22 billion",
     "agriculture": [
         "tea",
@@ -73,15 +88,7 @@
         "eggs"
     ],
     "industries": [
-        "small-scale consumer goods",
-        "plastic",
-        "furniture",
-        "batteries",
-        "textiles",
-        "clothing",
-        "soap",
-        "cigarettes",
-        "flour",
+        "small-scale consumer goods (plastic, furniture, batteries, textiles, clothing, soap, cigarettes, flour)",
         "agricultural products",
         "horticulture",
         "oil refining",
@@ -126,5 +133,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "197",
-    "international_disputes": "Kenya served as an important mediator in brokering Sudan's north-south separation in February 2005; as of March 2019, Kenya provides shelter to nearly 475,000 refugees and asylum seekers, including Ugandans who flee across the border periodically to seek protection from Lord's Resistance Army rebels; Kenya works hard to prevent the clan and militia fighting in Somalia from spreading across the border, which has long been open to nomadic pastoralists; the boundary that separates Kenya's and Sudan's sovereignty is unclear in the \"Ilemi Triangle,\" which Kenya has administered since colonial times"
+    "international_disputes": "Kenya served as an important mediator in brokering Sudan's north-south separation in February 2005; as of March 2019, Kenya provides shelter to nearly 475,000 refugees and asylum seekers, including Ugandans who flee across the border periodically to seek protection from Lord's Resistance Army rebels; Kenya works hard to prevent the clan and militia fighting in Somalia from spreading across the border, which has long been open to nomadic pastoralists; the boundary that separates Kenya's and Sudan's sovereignty is unclear in the \"Ilemi Triangle,\" which Kenya has administered since colonial times; in 2018, Kenya signed an MoU with Uganda and South Sudan to help demarcate their borders",
+    "terrorism": "Unknown"
 }

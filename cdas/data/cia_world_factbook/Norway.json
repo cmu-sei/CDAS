@@ -36,8 +36,8 @@
     "population": "5,467,439",
     "nationality": "Norwegian(s)",
     "ethnic_groups": {
-        "Norwegian": "83.2%", 
-        "other European": "8.3%", 
+        "Norwegian": "83.2%",
+        "other European": "8.3%",
         "other": "8.5%"
     },
     "languages": {
@@ -46,15 +46,20 @@
         "small Sami- and Finnish-speaking minorities": ""
     },
     "religions": {
-        "Church of Norway (Evangelical Lutheran - official)": "70.6%", 
-        "Muslim": "3.2%", 
-        "Roman Catholic": "3%", 
-        "other Christian": "3.7%", 
-        "other": "2.5%", 
-        "unspecified": "17%"},
+        "Church of Norway": "70.6%",
+        "Muslim": "3.2%",
+        "Roman Catholic": "3%",
+        "other Christian": "3.7%",
+        "other": "2.5%",
+        "unspecified": "17%"
+    },
     "government_type": "parliamentary constitutional monarchy",
     "national_symbols": "lion",
-    "national_colors": ["red", "white", "blue"],
+    "national_colors": [
+        "red",
+        "white",
+        "blue"
+    ],
     "gdp": "$398.8 billion",
     "agriculture": [
         "barley",
@@ -98,7 +103,7 @@
     "internet_users": "5,122,904",
     "mobile_subscriptions": "5,720,892",
     "internet_country_code": ".no",
-    "military_and_security_forces": "Norwegian Armed Forces:  Norwegian Army (Haeren), Royal Norwegian Navy (Kongelige Norske Sjoeforsvaret; includes Coastal Rangers and Coast Guard (Kystvakt)), Royal Norwegian Air Force (Kongelige Norske Luftforsvaret), Home Guard (Heimevernet, HV)",
+    "military_and_security_forces": "Norwegian Armed Forces:\u00a0 Norwegian Army (Haeren), Royal Norwegian Navy (Kongelige Norske Sjoeforsvaret; includes Coastal Rangers and Coast Guard (Kystvakt)), Royal Norwegian Air Force (Kongelige Norske Luftforsvaret), Home Guard (Heimevernet, HV)",
     "percent_GDP_on_military": "1.8%",
     "pipelines": [
         "8520 km gas",
@@ -111,5 +116,6 @@
     },
     "waterways": "1,577 km",
     "number_of_airports": "95",
-    "international_disputes": "Norway asserts a territorial claim in Antarctica (Queen Maud Land and its continental shelf); Denmark (Greenland) and Norway have made submissions to the Commission on the Limits of the Continental Shelf (CLCS) and Russia is collecting additional data to augment its 2001 CLCS submission; Norway and Russia signed a comprehensive maritime boundary agreement in 2010"
+    "international_disputes": "Norway asserts a territorial claim in Antarctica (Queen Maud Land and its continental shelf); Denmark (Greenland) and Norway have made submissions to the Commission on the Limits of the Continental Shelf (CLCS) and Russia is collecting additional data to augment its 2001 CLCS submission; Norway and Russia signed a comprehensive maritime boundary agreement in 2010",
+    "terrorism": "Unknown"
 }

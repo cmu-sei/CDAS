@@ -24,18 +24,32 @@
     ],
     "population": "111,796",
     "nationality": "I-Kiribati (singular and plural)",
-    "ethnic_groups": {"I-Kiribati": "96.2%", "I-Kiribati/mixed": "1.8%", "Tuvaluan": "0.2%", "other": "1.8%"},
+    "ethnic_groups": {
+        "I-Kiribati": "96.2%",
+        "I-Kiribati/mixed": "1.8%",
+        "Tuvaluan": "0.2%",
+        "other": "1.8%"
+    },
     "languages": {
         "I-Kiribati": "",
-        "English  (official)": ""
+        "English (official)": ""
     },
     "religions": {
-        "Roman Catholic": "57.3%", "Kiribati Uniting Church": "31.3%", 
-        "Mormon": "5.3%", "Baha'i": "2.1%", "Seventh Day Adventist": "1.9%", 
-        "other": "2.1%"},
+        "Roman Catholic": "57.3%",
+        "Kiribati Uniting Church": "31.3%",
+        "Mormon": "5.3%",
+        "Baha'i": "2.1%",
+        "Seventh Day Adventist": "1.9%",
+        "other": "2.1%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "frigatebird",
-    "national_colors": ["red", "white", "blue", "yellow"],
+    "national_colors": [
+        "red",
+        "white",
+        "blue",
+        "yellow"
+    ],
     "gdp": "$0.197 billion",
     "agriculture": [
         "copra",
@@ -69,5 +83,7 @@
         "major seaport(s)": "Betio (Tarawa Atoll), Canton Island, English Harbor"
     },
     "waterways": "5 km",
-    "number_of_airports": "19"
+    "number_of_airports": "19",
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

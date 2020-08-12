@@ -27,21 +27,30 @@
     "population": "3,387,605",
     "nationality": "Uruguayan(s)",
     "ethnic_groups": {
-        "white": "87.7%", "black": "4.6%", "indigenous": "2.4%", 
-        "other": "0.3%", "none or unspecified": "5%"},
+        "white": "87.7%",
+        "black": "4.6%",
+        "indigenous": "2.4%",
+        "other": "0.3%",
+        "none or unspecified": "5%"
+    },
     "languages": {
         "Spanish (official)": ""
     },
     "religions": {
-        "Roman Catholic": "47.1%", 
-        "non-Catholic Christians": "11.1%", 
-        "nondenominational": "23.2%", 
-        "Jewish": "0.3%", 
-        "atheist or agnostic": "17.2%", 
-        "other": "1.1%"},
+        "Roman Catholic": "47.1%",
+        "non-Catholic Christians": "11.1%",
+        "nondenominational": "23.2%",
+        "Jewish": "0.3%",
+        "atheist or agnostic": "17.2%",
+        "other": "1.1%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "Sun of May (a sun-with-face symbol)",
-    "national_colors": ["blue", "white", "yellow"],
+    "national_colors": [
+        "blue",
+        "white",
+        "yellow"
+    ],
     "gdp": "$59.18 billion",
     "agriculture": [
         "Cellulose",
@@ -96,5 +105,6 @@
     },
     "waterways": "1,600 km",
     "number_of_airports": "133",
-    "international_disputes": "in 2010, the ICJ ruled in favor of Uruguay's operation of two paper mills on the Uruguay River, which forms the border with Argentina; the two countries formed a joint pollution monitoring regime; uncontested boundary dispute between Brazil and Uruguay over Braziliera/Brasiliera Island in the Quarai/Cuareim River leaves the tripoint with Argentina in question; smuggling of firearms and narcotics continues to be an issue along the Uruguay-Brazil border"
+    "international_disputes": "in 2010, the ICJ ruled in favor of Uruguay's operation of two paper mills on the Uruguay River, which forms the border with Argentina; the two countries formed a joint pollution monitoring regime; uncontested boundary dispute between Brazil and Uruguay over Braziliera/Brasiliera Island in the Quarai/Cuareim River leaves the tripoint with Argentina in question; smuggling of firearms and narcotics continues to be an issue along the Uruguay-Brazil border",
+    "terrorism": "Unknown"
 }

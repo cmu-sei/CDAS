@@ -17,7 +17,8 @@
     "climate": "varies with terrain, from tropical along coast to semiarid and hot in north",
     "coastline": "402 km",
     "natural_hazards": [
-        "volcanic activity with periodic releases of poisonous gases from Lake Nyos and Lake Monoun volcanoes; volcanism: Mt. Cameroon (4,095 m), which last erupted in 2000, is the most frequently active volcano in West Africa, lakes in Oku volcanic field have released fatal levels of gas on occasion, killing some 1,700 people in 1986"
+        "volcanic activity with periodic releases of poisonous gases from Lake Nyos and Lake Monoun volcanoes",
+        "volcanism: Mt. Cameroon (4,095 m), which last erupted in 2000, is the most frequently active volcano in West Africa; lakes in Oku volcanic field have released fatal levels of gas on occasion, killing some 1,700 people in 1986"
     ],
     "terrain": "diverse, with coastal plain in southwest, dissected plateau in center, mountains in west, plains in north",
     "population_distribution": "population concentrated in the west and north, with the interior of the country sparsely populated",
@@ -31,14 +32,19 @@
     "population": "27,744,989",
     "nationality": "Cameroonian(s)",
     "ethnic_groups": {
-        "Cameroon Highlanders": "31%",
-        "Equatorial Bantu": "19%",
-        "Kirdi": "11%",
-        "Fulani": "10%",
-        "Northwestern Bantu": "8%",
-        "Eastern Nigritic": "7%",
-        "other African": "13%",
-        "non-African": "1%"
+        "Bamileke-Bamu": "24.3%",
+        "Beti/Bassa": "",
+        "Mbam": "21.6%",
+        "Biu-Mandara": "14.6%",
+        "Arab-Choa/Hausa/Kanuri": "11%",
+        "Adamawa-Ubangi": "",
+        "": "9.8%",
+        "Grassfields": "7.7%",
+        "Kako": "",
+        "Meka/Pygmy": "3.3%",
+        "Cotier/Ngoe/Oroko": "2.7%",
+        "Southwestern Bantu": "0.7%",
+        "foreign/other ethnic group": "4.5%"
     },
     "languages": {
         "24 major African language groups": "",
@@ -46,13 +52,13 @@
         "French (official)": ""
     },
     "religions": {
-        "Roman Catholic": "38.4%", 
-        "Protestant": "26.3%", 
-        "other Christian": "4.5%",
-        "Muslim": "20.9%",
-        "animist": "5.6%", 
-        "other": "1%",
-        "non-believer": "3.2%"
+        "Roman Catholic": "38.3%",
+        "Protestant": "25.5%",
+        "other Christian": "6.9%",
+        "Muslim": "24.4%",
+        "animist": "2.2%",
+        "other": "0.5%",
+        "none": "2.2%"
     },
     "government_type": "presidential republic",
     "national_symbols": "lion",
@@ -116,5 +122,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "33",
-    "international_disputes": "Joint Border Commission with Nigeria reviewed 2002 ICJ ruling on the entire boundary and bilaterally resolved differences, including June 2006 Greentree Agreement that immediately ceded sovereignty of the Bakassi Peninsula to Cameroon with a full phase-out of Nigerian control and patriation of residents in 2008; Cameroon and Nigeria agreed on maritime delimitation in March 2008; sovereignty dispute between Equatorial Guinea and Cameroon over an island at the mouth of the Ntem River; only Nigeria and Cameroon have heeded the Lake Chad Commission's admonition to ratify the delimitation treaty, which also includes the Chad-Niger and Niger-Nigeria boundaries"
+    "international_disputes": "Joint Border Commission with Nigeria reviewed 2002 ICJ ruling on the entire boundary and bilaterally resolved differences, including June 2006 Greentree Agreement that immediately ceded sovereignty of the Bakassi Peninsula to Cameroon with a full phase-out of Nigerian control and patriation of residents in 2008; Cameroon and Nigeria agreed on maritime delimitation in March 2008; sovereignty dispute between Equatorial Guinea and Cameroon over an island at the mouth of the Ntem River; only Nigeria and Cameroon have heeded the Lake Chad Commission's admonition to ratify the delimitation treaty, which also includes the Chad-Niger and Niger-Nigeria boundaries",
+    "terrorism": "Unknown"
 }

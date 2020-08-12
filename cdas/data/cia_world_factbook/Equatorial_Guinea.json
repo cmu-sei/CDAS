@@ -43,14 +43,14 @@
     "languages": {
         "Spanish (official)": "67.6%",
         "other": "",
-        "French (official)": "32.4%"
+        "French) (official)": "32.4%"
     },
     "religions": {
-        "nominally Christian and predominantly Roman Catholic":"", 
-        "Muslim":"", 
-        "Baha'i":"", 
-        "animist":"", 
-        "indigenous":""
+        "nominally Christian and predominantly Roman Catholic": "",
+        "Muslim": "",
+        "Baha'i": "",
+        "animist": "",
+        "indigenous": ""
     },
     "government_type": "presidential republic",
     "national_symbols": "silk cotton tree",
@@ -91,7 +91,7 @@
     "internet_users": "1,262,001",
     "mobile_subscriptions": "591,223",
     "internet_country_code": ".gq",
-    "military_and_security_forces": "Equatorial Guinea Armed Forces (FAGE): Equatorial Guinea National Guard (Guardia Nacional de Guinea Ecuatorial, GNGE (Army), Navy, Air Force",
+    "military_and_security_forces": "Equatorial Guinea Armed Forces (FAGE): Equatorial Guinea National Guard (Guardia Nacional de Guinea Ecuatorial, GNGE (Army), Navy, Air Force; Guardia Civil (paramilitary force for internal security)",
     "percent_GDP_on_military": "1.1%",
     "pipelines": [
         "42 km condensate",
@@ -105,5 +105,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "7",
-    "international_disputes": "in 2002, ICJ ruled on an equidistance settlement of Cameroon-Equatorial Guinea-Nigeria maritime boundary in the Gulf of Guinea, but a dispute between Equatorial Guinea and Cameroon over an island at the mouth of the Ntem River and imprecisely defined maritime coordinates in the ICJ decision delayed final delimitation; UN urged Equatorial Guinea and Gabon to resolve the sovereignty dispute over Gabon-occupied Mbane and lesser islands and to create a maritime boundary in the hydrocarbon-rich Corisco Bay"
+    "international_disputes": "in 2002, ICJ ruled on an equidistance settlement of Cameroon-Equatorial Guinea-Nigeria maritime boundary in the Gulf of Guinea, but a dispute between Equatorial Guinea and Cameroon over an island at the mouth of the Ntem River and imprecisely defined maritime coordinates in the ICJ decision delayed final delimitation; UN urged Equatorial Guinea and Gabon to resolve the sovereignty dispute over Gabon-occupied Mbane and lesser islands and to create a maritime boundary in the hydrocarbon-rich Corisco Bay",
+    "terrorism": "Unknown"
 }

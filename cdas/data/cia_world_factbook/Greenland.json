@@ -34,18 +34,27 @@
     ],
     "population": "57,616",
     "nationality": "Greenlander(s)",
-    "ethnic_groups": {"Greenlandic": "89.7%", "Danish": "7.8%", "other Nordic": "1.1%", "other": "1.4%"},
+    "ethnic_groups": {
+        "Greenlandic": "89.7%",
+        "Danish": "7.8%",
+        "other Nordic": "1.1%",
+        "and other": "1.4%"
+    },
     "languages": {
         "Greenlandic": "",
         "Danish": "",
         "English": ""
     },
     "religions": {
-        "Evangelical Lutheran":"", 
-        "traditional Inuit spiritual beliefs":""},
+        "Evangelical Lutheran": "",
+        "traditional Inuit spiritual beliefs": ""
+    },
     "government_type": "parliamentary democracy (Parliament of Greenland or Inatsisartut)",
     "national_symbols": "polar bear",
-    "national_colors": ["red", "white"],
+    "national_colors": [
+        "red",
+        "white"
+    ],
     "gdp": "$2.221 billion",
     "agriculture": [
         "sheep",
@@ -62,7 +71,7 @@
         "small shipyards"
     ],
     "exports": [
-        "fish and fish products 91%"
+        "fish and fish products"
     ],
     "imports": [
         "machinery and transport equipment",
@@ -84,5 +93,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "15",
-    "international_disputes": "managed dispute between Canada and Denmark over Hans Island in the Kennedy Channel between Canada's Ellesmere Island and Greenland; Denmark (Greenland) and Norway have made submissions to the Commission on the Limits of the Continental Shelf (CLCS) and Russia is collecting additional data to augment its 2001 CLCS submission"
+    "international_disputes": "managed dispute between Canada and Denmark over Hans Island in the Kennedy Channel between Canada's Ellesmere Island and Greenland; Denmark (Greenland) and Norway have made submissions to the Commission on the Limits of the Continental Shelf (CLCS) and Russia is collecting additional data to augment its 2001 CLCS submission",
+    "terrorism": "Unknown"
 }

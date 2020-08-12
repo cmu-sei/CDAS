@@ -39,9 +39,9 @@
     "population": "3,074,579",
     "nationality": "Albanian(s)",
     "ethnic_groups": {
-        "Albanian": "82.6%", 
-        "Greek": "0.9%", 
-        "other": "1%", 
+        "Albanian": "82.6%",
+        "Greek": "0.9%",
+        "other": "1%",
         "unspecified": "15.5%"
     },
     "languages": {
@@ -114,7 +114,7 @@
     "military_and_security_forces": "Land Forces Command, Navy Force Command (includes Coast Guard), Air Forces Command, Support Command, Training and Doctrination Command",
     "percent_GDP_on_military": "1.26%",
     "pipelines": [
-        "498 km gas (a majority of the network is in disrepair and parts of it are missing)",
+        "498 km gas ",
         "249 km oil"
     ],
     "ports_and_terminals": {
@@ -122,5 +122,6 @@
     },
     "waterways": "41 km",
     "number_of_airports": "3",
-    "international_disputes": "none"
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

@@ -34,17 +34,29 @@
     ],
     "population": "9,235,340",
     "nationality": "Honduran(s)",
-    "ethnic_groups": {"mestizo (mixed Amerindian and European)": "90%", "Amerindian": "7%", "black": "2%", "white": "1%"},
+    "ethnic_groups": {
+        "mestizo": "90%",
+        "Amerindian": "7%",
+        "black": "2%",
+        "white": "1%"
+    },
     "languages": {
         "Spanish (official)": "",
         "Amerindian dialects": ""
     },
     "religions": {
-        "Roman Catholic": "46%", "Protestant": "41%", "atheist": "1%", 
-        "other": "2%", "none": "9%"},
+        "Roman Catholic": "46%",
+        "Protestant": "41%",
+        "atheist": "1%",
+        "other": "2%",
+        "none": "9%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "scarlet macaw, white-tailed deer",
-    "national_colors": ["blue", "white"],
+    "national_colors": [
+        "blue",
+        "white"
+    ],
     "gdp": "$22.98 billion",
     "agriculture": [
         "bananas",
@@ -103,5 +115,6 @@
     },
     "waterways": "465 km",
     "number_of_airports": "103",
-    "international_disputes": "International Court of Justice (ICJ) ruled on the delimitation of \"bolsones\" (disputed areas) along the El Salvador-Honduras border in 1992 with final settlement by the parties in 2006 after an Organization of American States survey and a further ICJ ruling in 2003; the 1992 ICJ ruling advised a tripartite resolution to a maritime boundary in the Gulf of Fonseca with consideration of Honduran access to the Pacific; El Salvador continues to claim tiny Conejo Island, not mentioned in the ICJ ruling, off Honduras in the Gulf of Fonseca; Honduras claims the Belizean-administered Sapodilla Cays off the coast of Belize in its constitution, but agreed to a joint ecological park around the cays should Guatemala consent to a maritime corridor in the Caribbean under the OAS-sponsored 2002 Belize-Guatemala Differendum"
+    "international_disputes": "International Court of Justice (ICJ) ruled on the delimitation of \"bolsones\" (disputed areas) along the El Salvador-Honduras border in 1992 with final settlement by the parties in 2006 after an Organization of American States survey and a further ICJ ruling in 2003; the 1992 ICJ ruling advised a tripartite resolution to a maritime boundary in the Gulf of Fonseca with consideration of Honduran access to the Pacific; El Salvador continues to claim tiny Conejo Island, not mentioned in the ICJ ruling, off Honduras in the Gulf of Fonseca; Honduras claims the Belizean-administered Sapodilla Cays off the coast of Belize in its constitution, but agreed to a joint ecological park around the cays should Guatemala consent to a maritime corridor in the Caribbean under the OAS-sponsored 2002 Belize-Guatemala Differendum",
+    "terrorism": "Unknown"
 }

@@ -12,7 +12,8 @@
     "coastline": "15,134 km",
     "natural_hazards": [
         "earthquakes are common, though usually not severe",
-        "volcanism: significant volcanism on North Island; Ruapehu (2,797 m), which last erupted in 2007, has a history of large eruptions in the past century; Taranaki has the potential to produce dangerous avalanches and lahars; other historically active volcanoes include Okataina, Raoul Island, Tongariro, and White Island"
+        "volcanic activity",
+        "volcanism: significant volcanism on North Island; Ruapehu (2,797 m), which last erupted in 2007, has a history of large eruptions in the past century; Taranaki has the potential to produce dangerous avalanches and lahars; other historically active volcanoes include Okataina, Raoul Island, Tongariro, and White Island; see note 2 under \"Geography - note\""
     ],
     "terrain": "predominately mountainous with large coastal plains",
     "population_distribution": "over three-quarters of New Zealanders, including the indigenous Maori, live on the North Island, primarily in urban areas",
@@ -29,16 +30,16 @@
     "population": "4,925,477",
     "nationality": "New Zealander(s)",
     "ethnic_groups": {
-        "European": "64.1%", 
-        "Maori": "16.5%", 
-        "Chinese": "4.9%", 
-        "Indian": "4.7%", 
-        "Samoan": "3.9%", 
-        "Tongan": "1.8%", 
-        "Cook Islands Maori": "1.7%", 
-        "English": "1.5%", 
-        "Filipino": "1.5%", 
-        "New Zealander": "1%", 
+        "European": "64.1%",
+        "Maori": "16.5%",
+        "Chinese": "4.9%",
+        "Indian": "4.7%",
+        "Samoan": "3.9%",
+        "Tongan": "1.8%",
+        "Cook Islands Maori": "1.7%",
+        "English": "1.5%",
+        "Filipino": "1.5%",
+        "New Zealander": "1%",
         "other": "13.7%"
     },
     "languages": {
@@ -49,21 +50,27 @@
         "Hindi": "1.5%",
         "French": "1.2%",
         "Yue": "1.1%",
-        "New Zealand Sign Language": "0.5%",
+        "New Zealand Sign Language": ".5%",
         "other or not stated": "17.2%"
     },
     "religions": {
-        "Christian": "37.3%", 
-        "Hindu": "2.7%", 
-        "Maori": "1.3%", 
-        "Muslim": "1.3%", 
-        "Buddhist": "1.1%", 
-        "other religion": "1.6%", 
-        "no religion": "48.6%", 
-        "objected to answering": "6.7%"},
-    "government_type": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
+        "Christian": "37.3%",
+        "Hindu": "2.7%",
+        "Maori": "1.3%",
+        "Muslim": "",
+        "": "1.3%",
+        "Buddhist": "1.1%",
+        "other religion": "1.6%",
+        "no religion": "48.6%",
+        "objected to answering": "6.7%"
+    },
+    "government_type": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
     "national_symbols": "Southern Cross constellation (four, five-pointed stars), kiwi (bird), silver fern",
-    "national_colors": ["black", "white", "red (ochre)"],
+    "national_colors": [
+        "black",
+        "white",
+        "red (ochre)"
+    ],
     "gdp": "$201.4 billion",
     "agriculture": [
         "dairy products",
@@ -121,5 +128,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "123",
-    "international_disputes": "asserts a territorial claim in Antarctica (Ross Dependency)"
+    "international_disputes": "asserts a territorial claim in Antarctica (Ross Dependency)",
+    "terrorism": "Unknown"
 }

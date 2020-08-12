@@ -1,6 +1,6 @@
 {
     "name": "Greece",
-    "background": "Greece achieved independence from the Ottoman Empire in 1830. During the second half of the 19th century and the first half of the 20th century, it gradually added neighboring islands and territories, most with Greek-speaking populations. In World War II, Greece was first invaded by Italy (1940) and subsequently occupied by Germany (1941-44); fighting endured in a protracted civil war between supporters of the king and other anti-communist and communist rebels. Following the latter's defeat in 1949, Greece joined NATO in 1952. In 1967, a group of military officers seized power, establishing a military dictatorship that suspended many political liberties and forced the king to flee the country. In 1974 following the collapse of the dictatorship, democratic elections and a referendum created a parliamentary republic and abolished the monarchy. In 1981, Greece joined the EC (now the EU); it became the 12th member of the European Economic and Monetary Union (EMU) in 2001. Greece has suffered a severe economic crisis since late 2009, due to nearly a decade of chronic overspending and structural rigidities. Beginning in 2010, Greece entered three bailout agreements - with the European Commission, the European Central Bank (ECB), the IMF, and the third in 2015 with the European Stability Mechanism (ESM) - worth in total about $300 billion. The Greek Government formally exited the third bailout in August 2018.",
+    "background": "Greece achieved independence from the Ottoman Empire in 1830. During the second half of the 19th century and the first half of the 20th century, it gradually added neighboring islands and territories, most with Greek-speaking populations. In World War II, Greece was first invaded by Italy (1940) and subsequently occupied by Germany (1941-44); fighting endured in a protracted civil war between supporters of the king and other anti-communist and communist rebels. Following the latter's defeat in 1949, Greece joined NATO in 1952. In 1967, a group of military officers seized power, establishing a military dictatorship that suspended many political liberties and forced the king to flee the country. In 1974 following the collapse of the dictatorship, democratic elections and a referendum created a parliamentary republic and abolished the monarchy. In 1981, Greece joined the EC (now the EU); it became the 12th member of the European Economic and Monetary Union (EMU) in 2001. Greece has suffered a severe economic crisis since late 2009, due to nearly a decade of chronic overspending and structural rigidities.\u00a0Beginning in\u00a02010, Greece entered three bailout agreements - with the European Commission, the European Central Bank (ECB), the IMF, and\u00a0the third in 2015 with\u00a0the European Stability Mechanism (ESM) - worth in total about $300 billion. The Greek Government formally exited the third bailout in August 2018.",
     "coordinates": "39 00 N, 22 00 E",
     "region": "Europe",
     "total_area": "131,957 sq km",
@@ -35,20 +35,28 @@
     ],
     "population": "10,607,051",
     "nationality": "Greek(s)",
-    "ethnic_groups": {"Greek": "91.6%", "Albanian": "4.4%", "other": "4%"},
+    "ethnic_groups": {
+        "Greek": "91.6%",
+        "Albanian": "4.4%",
+        "other": "4%"
+    },
     "languages": {
         "Greek (official)": "99%",
         "other": "1%"
     },
     "religions": {
-        "Greek Orthodox (official)": "90%", 
-        "Muslim": "2%", 
-        "other": "3%", 
-        "none":  "4%", 
-        "unspecified": "1%"},
+        "Greek Orthodox": "81-90%",
+        "Muslim": "2%",
+        "other": "3%",
+        "none": "4-15%",
+        "unspecified": "1%"
+    },
     "government_type": "parliamentary republic",
     "national_symbols": "Greek cross (white cross on blue field, arms equal length)",
-    "national_colors": ["blue", "white"],
+    "national_colors": [
+        "blue",
+        "white"
+    ],
     "gdp": "$200.7 billion",
     "agriculture": [
         "wheat",
@@ -90,7 +98,7 @@
     "mobile_subscriptions": "12,170,757",
     "internet_country_code": ".gr",
     "military_and_security_forces": "Hellenic Armed Forces: Hellenic Army (Ellinikos Stratos, ES; includes National Guard reserves), Hellenic Navy (Elliniko Polemiko Navtiko, EPN), Hellenic Air Force (Elliniki Polemiki Aeroporia, EPA; includes air defense)",
-    "percent_GDP_on_military": "2.3%",
+    "percent_GDP_on_military": "2.28%",
     "pipelines": [
         "1329 km gas",
         "94 km oil"
@@ -103,5 +111,6 @@
     },
     "waterways": "6 km",
     "number_of_airports": "77",
-    "international_disputes": "Greece and Turkey continue discussions to resolve their complex maritime, air, territorial, and boundary disputes in the Aegean Sea; the mass migration of unemployed Albanians still remains a problem for developed countries, chiefly Greece and Italy"
+    "international_disputes": "Greece and Turkey continue discussions to resolve their complex maritime, air, territorial, and boundary disputes in the Aegean Sea; the mass migration of unemployed Albanians still remains a problem for developed countries, chiefly Greece and Italy",
+    "terrorism": "Unknown"
 }

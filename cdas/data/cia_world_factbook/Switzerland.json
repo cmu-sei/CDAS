@@ -28,9 +28,16 @@
     ],
     "population": "8,403,994",
     "nationality": "Swiss (singular and plural)",
-    "ethnic_groups": {"Swiss": "69.5%", "German": "4.2%", "Italian": "3.2%", 
-        "Portuguese": "2.6%", "French": "2%", "Kosovar": "1.1%", 
-        "other": "17.3%", "unspecified": ".1%"},
+    "ethnic_groups": {
+        "Swiss": "69.5%",
+        "German": "4.2%",
+        "Italian": "3.2%",
+        "Portuguese": "2.6%",
+        "French": "2%",
+        "Kosovar": "1.1%",
+        "other": "17.3%",
+        "unspecified": ".1%"
+    },
     "languages": {
         "German (official)": "62.6%",
         "French (official)": "22.9%",
@@ -44,17 +51,21 @@
         "other": "7.7%"
     },
     "religions": {
-        "Roman Catholic": "35.9%", 
-        "Protestant": "23.8%", 
-        "other Christian": "5.9%", 
-        "Muslim": "5.4%", 
-        "Jewish": "0.3%", 
-        "other": "1.4%", 
-        "none": "26%", 
-        "unspecified": "1.4%"},
+        "Roman Catholic": "35.9%",
+        "Protestant": "23.8%",
+        "other Christian": "5.9%",
+        "Muslim": "5.4%",
+        "Jewish": "0.3%",
+        "other": "1.4%",
+        "none": "26%",
+        "unspecified": "1.4%"
+    },
     "government_type": "federal republic (formally a confederation)",
     "national_symbols": "Swiss cross (white cross on red field, arms equal length)",
-    "national_colors": ["red", "white"],
+    "national_colors": [
+        "red",
+        "white"
+    ],
     "gdp": "$679 billion",
     "agriculture": [
         "grains",
@@ -97,13 +108,15 @@
     "military_and_security_forces": "Swiss Armed Forces: Land Forces, Swiss Air Force (Schweizer Luftwaffe)",
     "percent_GDP_on_military": "0.7%",
     "pipelines": [
-        "1800 km gas",
-        "94 km oil (of which 60 are inactive)",
+        "1,800 km gas",
+        "94 km oil ",
         "17 km refined products"
     ],
     "ports_and_terminals": {
         "river port(s)": "Basel (Rhine)"
     },
     "waterways": "1,292 km",
-    "number_of_airports": "63"
+    "number_of_airports": "63",
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

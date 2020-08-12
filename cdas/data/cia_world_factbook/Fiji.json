@@ -26,9 +26,9 @@
     "population": "935,974",
     "nationality": "Fijian(s)",
     "ethnic_groups": {
-        "iTaukei (predominantly Melanesian with a Polynesian admixture)": "56.8%",
+        "iTaukei": "56.8%",
         "Indo-Fijian": "37.5%",
-        "Rotuman":"1.2%",
+        "Rotuman": "1.2%",
         "other": "4.5%"
     },
     "languages": {
@@ -37,19 +37,21 @@
         "Hindustani": ""
     },
     "religions": {
-        "Protestant": "45%", 
-        "Hindu": "27.9%", 
-        "other Christian": "10.4%", 
-        "Roman Catholic": "9.1%", 
-        "Muslim": "6.3%", 
-        "Sikh": "0.3%", 
-        "other": "0.3%", 
+        "Protestant": "45%",
+        "Hindu": "27.9%",
+        "other Christian": "10.4%",
+        "Roman Catholic": "9.1%",
+        "Muslim": "6.3%",
+        "Sikh": "0.3%",
+        "other": "0.3%",
         "none": "0.8%"
     },
     "government_type": "parliamentary republic",
-    "national_symbols": "Fijian canoe",
+    "national_symbols": "Fijian canoe; national color: light blue",
     "national_colors": [
-        "light blue"
+        "red",
+        "white",
+        "blue"
     ],
     "gdp": "$4.891 billion",
     "agriculture": [
@@ -109,5 +111,6 @@
     },
     "waterways": "203 km",
     "number_of_airports": "28",
-    "international_disputes": "maritime boundary dispute with Tonga"
+    "international_disputes": "maritime boundary dispute with Tonga",
+    "terrorism": "Unknown"
 }

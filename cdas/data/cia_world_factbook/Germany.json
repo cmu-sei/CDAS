@@ -51,16 +51,21 @@
         "German (official)": ""
     },
     "religions": {
-        "Roman Catholic": "27.7%", 
-        "Protestant": "25.5%", 
-        "Muslim": "5.1%", 
-        "Orthodox": "1.9%", 
-        "other Christian": "1.1%", 
-        "other": ".9%", 
-        "none": "37.8%"},
+        "Roman Catholic": "27.7%",
+        "Protestant": "25.5%",
+        "Muslim": "5.1%",
+        "Orthodox": "1.9%",
+        "other Christian": "1.1%",
+        "other": ".9%",
+        "none": "37.8%"
+    },
     "government_type": "federal parliamentary republic",
     "national_symbols": "eagle",
-    "national_colors": ["black", "red", "yellow"],
+    "national_colors": [
+        "black",
+        "red",
+        "yellow"
+    ],
     "gdp": "$3,701 billion",
     "agriculture": [
         "potatoes",
@@ -75,7 +80,7 @@
         "poultry"
     ],
     "industries": [
-        "iron",
+        "among the world's largest and most technologically advanced producers of iron",
         "steel",
         "coal",
         "cement",
@@ -119,7 +124,7 @@
     "mobile_subscriptions": "107,500,000",
     "internet_country_code": ".de",
     "military_and_security_forces": "Federal Armed Forces (Bundeswehr): Army (Heer), Navy (Deutsche Marine, includes naval air arm), Air Force (Luftwaffe, includes air defense), Joint Support Service (Streitkraeftebasis, SKB), Central Medical Service (Zentraler Sanitaetsdienst, ZSanDstBw), Cyber and Information Space Command (Kommando Cyber- und Informationsraum, Kdo CIR)",
-    "percent_GDP_on_military": "1.4%",
+    "percent_GDP_on_military": "1.38%",
     "pipelines": [
         "37 km condensate",
         "26985 km gas",
@@ -135,5 +140,7 @@
         "river port(s)": "Bremen (Weser)"
     },
     "waterways": "7,467 km",
-    "number_of_airports": "539"
+    "number_of_airports": "539",
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

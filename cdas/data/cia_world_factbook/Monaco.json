@@ -21,17 +21,17 @@
     "population": "39,000",
     "nationality": "Monegasque(s) or Monacan(s)",
     "ethnic_groups": {
-        "Monegasque": "32.1%", 
-        "French": "19.9%", 
-        "Italian": "15.3%", 
-        "British": "5%", 
-        "Belgian": "2.3%", 
-        "Swiss": "2%", 
-        "German": "1.9%", 
-        "Russian": "1.8%", 
-        "American": "1.1%", 
-        "Dutch": "1.1%", 
-        "Moroccan": "1%", 
+        "Monegasque": "32.1%",
+        "French": "19.9%",
+        "Italian": "15.3%",
+        "British": "5%",
+        "Belgian": "2.3%",
+        "Swiss": "2%",
+        "German": "1.9%",
+        "Russian": "1.8%",
+        "American": "1.1%",
+        "Dutch": "1.1%",
+        "Moroccan": "1%",
         "other": "16.6%"
     },
     "languages": {
@@ -40,10 +40,16 @@
         "Italian": "",
         "Monegasque": ""
     },
-    "religions": {"Roman Catholic": "90%", "other": "10%"},
+    "religions": {
+        "Roman Catholic": "90%",
+        "other": "10%"
+    },
     "government_type": "constitutional monarchy",
     "national_symbols": "red and white lozenges (diamond shapes)",
-    "national_colors": ["red", "white"],
+    "national_colors": [
+        "red",
+        "white"
+    ],
     "gdp": "$6.006 billion",
     "agriculture": [
         "none"
@@ -61,7 +67,7 @@
     "internet_users": "29,116",
     "mobile_subscriptions": "32,689",
     "internet_country_code": ".mc",
-    "military_and_security_forces": "no regular military forces; Ministry of Interior: Compagnie des Carabiniers du Prince (Prince’s Company of Carabiniers (Palace Guard)), Corps des Sapeurs-pompiers de Monaco (Fire and Emergency), Police Department",
+    "military_and_security_forces": "no regular military forces; Ministry of Interior: Compagnie des Carabiniers du Prince (Prince\u2019s Company of Carabiniers (Palace Guard)), Corps des Sapeurs-pompiers de Monaco (Fire and Emergency), Police Department",
     "percent_GDP_on_military": "Unknown",
     "pipelines": [
         "Unknown"
@@ -70,5 +76,7 @@
         "major seaport(s)": "Hercules Port"
     },
     "waterways": "Unknown",
-    "number_of_airports": "Unknown"
+    "number_of_airports": "Unknown",
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

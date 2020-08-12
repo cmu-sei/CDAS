@@ -1,5 +1,5 @@
 {
-    "name": "Federated States of Micronesia",
+    "name": "Micronesia, Federated States of",
     "background": "The Caroline Islands are a widely scattered archipelago in the western Pacific Ocean; they became part of a UN Trust Territory under US administration following World War II. The eastern four island groups adopted a constitution in 1979 and chose to become the Federated States of Micronesia (FSM). (The westernmost island group became Palau.) Independence came in 1986 under a Compact of Free Association (COFA) with the US, which was amended in 2004. The COFA has been a force for stability and democracy in the FSM since it came into force in 1986. Present concerns include economic uncertainty after 2023 when direct US economic assistance is scheduled to end, large-scale unemployment, overfishing, overdependence on US foreign aid, and state perceptions of inequitable allocation of US aid.\r\nAs a signatory to the COFA with the US, eligible Micronesians can live, work, and study in any part of the US and its territories without a visa - this privilege reduces stresses on the island economy and the environment. Micronesians serve in the US armed forces and military recruiting from the Federated States of Micronesia, per capita, is higher than many US states.",
     "coordinates": "6 55 N, 158 15 E",
     "region": "Oceania",
@@ -24,13 +24,13 @@
     "population": "102,436",
     "nationality": "Micronesian(s)",
     "ethnic_groups": {
-        "Chuukese/Mortlockese": "49.3%", 
-        "Pohnpeian": "29.8%", 
-        "Kosraean": "6.3%", 
-        "Yapese": "5.7%", 
-        "Yap outer islanders": "5.1%", 
-        "Polynesian": "1.6%", 
-        "Asian": "1.4%", 
+        "Chuukese/Mortlockese": "49.3%",
+        "Pohnpeian": "29.8%",
+        "Kosraean": "6.3%",
+        "Yapese": "5.7%",
+        "Yap outer islanders": "5.1%",
+        "Polynesian": "1.6%",
+        "Asian": "1.4%",
         "other": "0.8%"
     },
     "languages": {
@@ -45,15 +45,19 @@
         "Kapingamarangi": ""
     },
     "religions": {
-        "Roman Catholic": "54.7%", 
-        "Protestant": "41.1%", 
-        "Mormon": "1.5%", 
-        "other": "1.9%", 
-        "none": "0.7%", 
-        "unspecified": "0.1%"},
+        "Roman Catholic": "54.7%",
+        "Protestant": "41.1%",
+        "Mormon": "1.5%",
+        "other": "1.9%",
+        "none": "0.7%",
+        "unspecified": "0.1%"
+    },
     "government_type": "federal republic in free association with the US",
     "national_symbols": "four, five-pointed, white stars on a light blue field, hibiscus flower",
-    "national_colors": ["light blue", "white"],
+    "national_colors": [
+        "light blue",
+        "white"
+    ],
     "gdp": "$0.328 billion",
     "agriculture": [
         "taro",
@@ -61,7 +65,7 @@
         "coconuts",
         "bananas",
         "cassava",
-        "sakau (kava)",
+        "sakau",
         "Kosraen citrus",
         "betel nuts",
         "black pepper",
@@ -107,5 +111,7 @@
         "major seaport(s)": "Colonia (Tamil Harbor), Molsron Lele Harbor, Pohnepi Harbor"
     },
     "waterways": "Unknown",
-    "number_of_airports": "6"
+    "number_of_airports": "6",
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

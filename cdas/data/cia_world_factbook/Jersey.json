@@ -21,21 +21,28 @@
     "population": "101,073",
     "nationality": "Channel Islander(s)",
     "ethnic_groups": {
-        "Jersey": "46.4%", 
-        "British": "32.7%", 
-        "Portuguese/Madeiran": "8.2%", 
-        "Polish": "3.3%", 
-        "Irish, French, and other white": "7.1%", 
+        "Jersey": "46.4%",
+        "British": "32.7%",
+        "Portuguese/Madeiran": "8.2%",
+        "Polish": "3.3%",
+        "Irish": "",
+        "French": "",
+        "and other white": "7.1%",
         "other": "2.4%"
     },
     "languages": {
         "": ""
     },
     "religions": {
-        "Protestant":"", "Roman Catholic":""},
+        "Protestant": "",
+        "Roman Catholic": ""
+    },
     "government_type": "parliamentary democracy (Assembly of the States of Jersey)",
     "national_symbols": "Jersey cow",
-    "national_colors": ["red", "white"],
+    "national_colors": [
+        "red",
+        "white"
+    ],
     "gdp": "$5.004 billion",
     "agriculture": [
         "potatoes",
@@ -77,5 +84,7 @@
         "major seaport(s)": "Gorey, Saint Aubin, Saint Helier"
     },
     "waterways": "Unknown",
-    "number_of_airports": "1"
+    "number_of_airports": "1",
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

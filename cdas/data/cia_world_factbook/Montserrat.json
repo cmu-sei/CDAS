@@ -17,33 +17,35 @@
     ],
     "terrain": "volcanic island, mostly mountainous, with small coastal lowland",
     "population_distribution": "only the northern half of the island is populated, the southern portion is uninhabitable due to volcanic activity",
-    "natural_resources": [
-        "NEGL"
-    ],
+    "natural_resources": [],
     "population": "5,373",
     "nationality": "Montserratian(s)",
     "ethnic_groups": {
-        "African/black": "88.4%", 
-        "mixed": "3.7%", 
-        "hispanic/Spanish": "3%", 
-        "caucasian/white": "2.7%", 
-        "East Indian/Indian": "1.5%", 
+        "African/black": "88.4%",
+        "mixed": "3.7%",
+        "hispanic/Spanish": "3%",
+        "caucasian/white": "2.7%",
+        "East Indian/Indian": "1.5%",
         "other": "0.7%"
     },
     "languages": {
         "English": ""
     },
     "religions": {
-        "Protestant": "67.1%", 
-        "Roman Catholic": "11.6%", 
-        "Rastafarian": "1.4%", 
-        "other": "6.5%", 
-        "none": "2.6%", 
-        "unspecified": "10.8%"},
+        "Protestant": "67.1%",
+        "Roman Catholic": "11.6%",
+        "Rastafarian": "1.4%",
+        "other": "6.5%",
+        "none": "2.6%",
+        "unspecified": "10.8%"
+    },
     "government_type": "parliamentary democracy; self-governing overseas territory of the UK",
     "national_symbols": "Unknown",
-    "national_colors": [],
-    "gdp": "$0.167 billion",
+    "national_colors": [
+        "red",
+        "gold"
+    ],
+    "gdp": "$0.16740000000000002 billion",
     "agriculture": [
         "cabbages",
         "carrots",
@@ -79,7 +81,7 @@
     "internet_users": "2,860",
     "mobile_subscriptions": "5,000",
     "internet_country_code": ".ms",
-    "military_and_security_forces": "no regular military forces; Royal Montserrat Defence Force (ceremonial, civil defense duties),  Montserrat Police Force",
+    "military_and_security_forces": "no regular military forces; Royal Montserrat Defence Force (ceremonial, civil defense duties),\u00a0 Montserrat Police Force",
     "percent_GDP_on_military": "Unknown",
     "pipelines": [
         "Unknown"
@@ -88,5 +90,7 @@
         "major seaport(s)": "Little Bay, Plymouth"
     },
     "waterways": "Unknown",
-    "number_of_airports": "1"
+    "number_of_airports": "1",
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

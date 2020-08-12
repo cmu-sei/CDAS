@@ -16,22 +16,28 @@
     ],
     "terrain": "volcanic origin; low hills",
     "population_distribution": "Unknown",
-    "natural_resources": [
-        "NEGL"
-    ],
+    "natural_resources": [],
     "population": "15,854",
     "nationality": "Wallisian(s), Futunan(s), or Wallis and Futuna Islanders",
-    "ethnic_groups": {"Polynesian":""},
+    "ethnic_groups": {
+        "Polynesian": ""
+    },
     "languages": {
         "Wallisian": "58.9%",
         "Futunian": "30.1%",
         "French (official)": "10.8%",
         "other": "0.2%"
     },
-    "religions": {"Roman Catholic": "99%", "other": "1%"},
+    "religions": {
+        "Roman Catholic": "99%",
+        "other": "1%"
+    },
     "government_type": "parliamentary democracy (Territorial Assembly); overseas collectivity of France",
     "national_symbols": "red saltire (Saint Andrew's Cross) on a white square on a red field",
-    "national_colors": ["red", "white"],
+    "national_colors": [
+        "red",
+        "white"
+    ],
     "gdp": "$0.195 billion",
     "agriculture": [
         "coconuts",
@@ -72,5 +78,7 @@
         "major seaport(s)": "Leava, Mata-Utu"
     },
     "waterways": "Unknown",
-    "number_of_airports": "2"
+    "number_of_airports": "2",
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

@@ -38,10 +38,27 @@
     "population": "10,561,244",
     "nationality": "South Sudanese (singular and plural)",
     "ethnic_groups": {
-        "Dinka (Jieng)": "35.8%", "Nuer (Naath)": "15.6%", "Shilluk (Chollo)":"", 
-        "Azande":"", "Bari":"", "Kakwa":"", "Kuku":"", "Murle":"", "Mandari":"", 
-        "Didinga":"", "Ndogo":"", "Bviri":"", "Lndi":"", "Anuak":"", "Bongo":"", 
-        "Lango":"", "Dungotona":"", "Acholi":"", "Baka":"", "Fertit":""},
+        "Dinka": "35.8%",
+        "Nuer": "15.6%",
+        "Shilluk": "",
+        "Azande": "",
+        "Bari": "",
+        "Kakwa": "",
+        "Kuku": "",
+        "Murle": "",
+        "Mandari": "",
+        "Didinga": "",
+        "Ndogo": "",
+        "Bviri": "",
+        "Lndi": "",
+        "Anuak": "",
+        "Bongo": "",
+        "Lango": "",
+        "Dungotona": "",
+        "Acholi": "",
+        "Baka": "",
+        "Fertit": ""
+    },
     "languages": {
         "English (official)": "",
         "Arabic": "",
@@ -51,10 +68,21 @@
         "Zande": "",
         "Shilluk": ""
     },
-        "religions": {"animist":"", "Christian":"", "Muslim":""},
+    "religions": {
+        "animist": "",
+        "Christian": "",
+        "Muslim": ""
+    },
     "government_type": "presidential republic",
     "national_symbols": "African fish eagle",
-    "national_colors": ["red", "green", "blue", "yellow", "black", "white"],
+    "national_colors": [
+        "red",
+        "green",
+        "blue",
+        "yellow",
+        "black",
+        "white"
+    ],
     "gdp": "$3.06 billion",
     "agriculture": [
         "sorghum",
@@ -84,7 +112,7 @@
     "internet_users": "Unknown",
     "mobile_subscriptions": "3,672,871",
     "internet_country_code": ".ss",
-    "military_and_security_forces": "South Sudan People’s Defence Force (SSPDF): Ground Force, Air Force, Air Defense Forces, Presidential Guard",
+    "military_and_security_forces": "South Sudan People\u2019s Defence Force (SSPDF): Ground Force, Air Force, Air Defense Forces, Presidential Guard",
     "percent_GDP_on_military": "3.4%",
     "pipelines": [
         "Unknown"
@@ -92,5 +120,6 @@
     "ports_and_terminals": "Unknown",
     "waterways": "Unknown",
     "number_of_airports": "89",
-    "international_disputes": "South Sudan-Sudan boundary represents 1 January 1956 alignment, final alignment pending negotiations and demarcation; final sovereignty status of Abyei Area pending negotiations between South Sudan and Sudan; periodic violent skirmishes with South Sudanese residents over water and grazing rights persist among related pastoral populations along the border with the Central African Republic; the boundary that separates Kenya and South Sudan's sovereignty is unclear in the \"Ilemi Triangle,\" which Kenya has administered since colonial times"
+    "international_disputes": "South Sudan-Sudan boundary represents 1 January 1956 alignment, final alignment pending negotiations and demarcation; final sovereignty status of Abyei Area pending negotiations between South Sudan and Sudan; periodic violent skirmishes with South Sudanese residents over water and grazing rights persist among related pastoral populations along the border with the Central African Republic; the boundary that separates Kenya and South Sudan's sovereignty is unclear in the \"Ilemi Triangle,\" which Kenya has administered since colonial times",
+    "terrorism": "Unknown"
 }

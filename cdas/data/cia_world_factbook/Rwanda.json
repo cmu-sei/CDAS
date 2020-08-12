@@ -16,7 +16,8 @@
     "coastline": "0 km",
     "natural_hazards": [
         "periodic droughts",
-        "the volcanic Virunga Mountains are in the northwest along the border with Democratic Republic of the Congovolcanism: Visoke (3,711 m), located on the border with the Democratic Republic of the Congo, is the country's only historically active volcano"
+        "the volcanic Virunga Mountains are in the northwest along the border with Democratic Republic of the Congo",
+        "volcanism: Visoke (3,711 m), located on the border with the Democratic Republic of the Congo, is the country's only historically active volcano"
     ],
     "terrain": "mostly grassy uplands and hills; relief is mountainous with altitude declining from west to east",
     "population_distribution": "one of Africa's most densely populated countries; large concentrations tend to be in the central regions and along the shore of Lake Kivu in the west",
@@ -30,31 +31,40 @@
     ],
     "population": "12,712,431",
     "nationality": "Rwandan(s)",
-    "ethnic_groups": {"Hutu":"", "Tutsi":"", "Twa (Pygmy)":""},
+    "ethnic_groups": {
+        "Hutu": "",
+        "Tutsi": "",
+        "Twa": ""
+    },
     "languages": {
         "Kinyarwanda (official)": "93.2%",
-        "French (official)": "0.1",
-        "English (official)": "0.1",
-        "Swahili/Kiswahili (official)": "0.1",
+        "French <.1 (official)": "",
+        "English <.1 (official)": "",
+        "Swahili/Kiswahili <.1 (official)": "",
         "more than one language": "",
         "other": "6.3%",
         "unspecified": "0.3%"
     },
     "religions": {
-        "Protestant": "49.5%", 
-        "Roman Catholic": "43.7%", 
-        "Muslim": "2%", 
-        "other": "0.9%", 
-        "none": "2.5%", 
-        "unspecified": "1.3%"},
+        "Protestant": "49.5%",
+        "Roman Catholic": "43.7%",
+        "Muslim": "2%",
+        "other": "0.9%",
+        "none": "2.5%",
+        "unspecified": "1.3%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "traditional woven basket with peaked lid",
-    "national_colors": ["blue", "yellow", "green"],
+    "national_colors": [
+        "blue",
+        "yellow",
+        "green"
+    ],
     "gdp": "$9.136 billion",
     "agriculture": [
         "coffee",
         "tea",
-        "pyrethrum (insecticide made from chrysanthemums)",
+        "pyrethrum",
         "bananas",
         "beans",
         "sorghum",
@@ -89,7 +99,7 @@
     "internet_users": "3,724,678",
     "mobile_subscriptions": "9,700,609",
     "internet_country_code": ".rw",
-    "military_and_security_forces": "Rwanda Defense Force (RDF): Rwanda Army (Rwanda Land Force), Rwanda Air Force (Force Aerienne Rwandaise, FAR), Rwanda Reserve Force",
+    "military_and_security_forces": "Rwanda Defense Force (RDF): Rwanda Army (Rwanda Land Force), Rwanda Air Force (Force Aerienne Rwandaise, FAR), Rwanda Reserve Force; District Administration Security Support Organization (DASSO; formerly known as the Local Defense Force)",
     "percent_GDP_on_military": "1.2%",
     "pipelines": [
         "Unknown"
@@ -99,5 +109,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "7",
-    "international_disputes": "Burundi and Rwanda dispute two sq km (0.8 sq mi) of Sabanerwa, a farmed area in the Rukurazi Valley where the Akanyaru/Kanyaru River shifted its course southward after heavy rains in 1965; fighting among ethnic groups - loosely associated political rebels, armed gangs, and various government forces in Great Lakes region transcending the boundaries of Burundi, Democratic Republic of the Congo (DROC), Rwanda, and Uganda - abated substantially from a decade ago due largely to UN peacekeeping, international mediation, and efforts by local governments to create civil societies; nonetheless, 57,000 Rwandan refugees still reside in 21 African states, including Zambia, Gabon, and 20,000 who fled to Burundi in 2005 and 2006 to escape drought and recriminations from traditional courts investigating the 1994 massacres; the 2005 DROC and Rwanda border verification mechanism to stem rebel actions on both sides of the border remains in place"
+    "international_disputes": "Burundi and Rwanda dispute two sq km (0.8 sq mi) of Sabanerwa, a farmed area in the Rukurazi Valley where the Akanyaru/Kanyaru River shifted its course southward after heavy rains in 1965; fighting among ethnic groups - loosely associated political rebels, armed gangs, and various government forces in Great Lakes region transcending the boundaries of Burundi, Democratic Republic of the Congo (DROC), Rwanda, and Uganda - abated substantially from a decade ago due largely to UN peacekeeping, international mediation, and efforts by local governments to create civil societies; nonetheless, 57,000 Rwandan refugees still reside in 21 African states, including Zambia, Gabon, and 20,000 who fled to Burundi in 2005 and 2006 to escape drought and recriminations from traditional courts investigating the 1994 massacres; the 2005 DROC and Rwanda border verification mechanism to stem rebel actions on both sides of the border remains in place",
+    "terrorism": "Unknown"
 }

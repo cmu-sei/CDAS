@@ -30,24 +30,35 @@
     "population": "10,820,644",
     "nationality": "Jordanian(s)",
     "ethnic_groups": {
-        "Jordanian": "69.3%", 
-        "Syrian": "13.3%", 
+        "Jordanian": "69.3%",
+        "Syrian": "13.3%",
         "Palestinian": "6.7%",
-        "Egyptian": "6.7%", 
+        "Egyptian": "6.7%",
         "Iraqi": "1.4%",
         "other": "2.6%"
     },
     "languages": {
-        "Arabic  (official)": "",
+        "Arabic (official)": "",
         "English": ""
     },
     "religions": {
-        "Muslim": "97.2%", "Christian": "2.2%", "Buddhist": "0.4%", 
-        "Hindu": "0.1%", "Jewish": "0.1", "folk": "0.1", "unaffiliated": "0.1", 
-        "other": "0.1"},
+        "Muslim": "97.2%",
+        "Christian": "2.2%",
+        "Buddhist": "0.4%",
+        "Hindu": "0.1%",
+        "Jewish": "0.1%",
+        "folk": "0.1%",
+        "unaffiliated": "0.1%",
+        "other": "0.1%"
+    },
     "government_type": "parliamentary constitutional monarchy",
     "national_symbols": "eagle",
-    "national_colors": ["black", "white", "green", "red"],
+    "national_colors": [
+        "black",
+        "white",
+        "green",
+        "red"
+    ],
     "gdp": "$40.13 billion",
     "agriculture": [
         "citrus",
@@ -104,5 +115,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "18",
-    "international_disputes": "2004 Agreement settles border dispute with Syria pending demarcation"
+    "international_disputes": "2004 Agreement settles border dispute with Syria pending demarcation",
+    "terrorism": "Unknown"
 }

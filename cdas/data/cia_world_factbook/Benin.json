@@ -47,9 +47,9 @@
     "religions": {
         "Muslim": "27.7%",
         "Roman Catholic": "25.5%",
-        "Protestant": "13.5%", 
+        "Protestant": "13.5%",
         "Vodoun": "11.6%",
-        "other Christian": "9.5%", 
+        "other Christian": "9.5%",
         "other traditional religions": "2.6%",
         "other": "2.6%",
         "none": "5.8%"
@@ -107,5 +107,6 @@
     },
     "waterways": "150 km",
     "number_of_airports": "6",
-    "international_disputes": "talks continue between Benin and Togo on funding the Adjrala hydroelectric dam on the Mona River; Benin retains a border dispute with Burkina Faso near the town of Koualou; location of Benin-Niger-Nigeria tripoint is unresolved"
+    "international_disputes": "talks continue between Benin and Togo on funding the Adjrala hydroelectric dam on the Mona River; Benin retains a border dispute with Burkina Faso near the town of Koualou; location of Benin-Niger-Nigeria tripoint is unresolved",
+    "terrorism": "Unknown"
 }

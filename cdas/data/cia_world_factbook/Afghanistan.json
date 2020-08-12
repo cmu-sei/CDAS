@@ -42,10 +42,10 @@
     "population": "36,643,815",
     "nationality": "Afghan(s)",
     "ethnic_groups": {
-        "Pashtun": "", 
-        "Tajik": "", 
-        "Hazara": "", 
-        "Uzbek": "", 
+        "Pashtun": "",
+        "Tajik": "",
+        "Hazara": "",
+        "Uzbek": "",
         "other": ""
     },
     "languages": {
@@ -130,5 +130,21 @@
     },
     "waterways": "1,200 km",
     "number_of_airports": "46",
-    "international_disputes": "Afghan, Coalition, and Pakistan military meet periodically to clarify the alignment of the boundary on the ground and on maps and since 2014 have met to discuss collaboration on the Taliban insurgency and counterterrorism efforts; Afghan and Iranian commissioners have discussed boundary monument densification and resurvey; Iran protests Afghanistan's restricting flow of dammed Helmand River tributaries during drought; Pakistan has sent troops across and built fences along some remote tribal areas of its treaty-defined Durand Line border with Afghanistan which serve as bases for foreign terrorists and other illegal activities; Russia remains concerned about the smuggling of poppy derivatives from Afghanistan through Central Asian countries"
+    "international_disputes": "Afghan, Coalition, and Pakistan military meet periodically to clarify the alignment of the boundary on the ground and on maps and since 2014 have met to discuss collaboration on the Taliban insurgency and counterterrorism efforts; Afghan and Iranian commissioners have discussed boundary monument densification and resurvey; Iran protests Afghanistan's restricting flow of dammed Helmand River tributaries during drought; Pakistan has sent troops across and built fences along some remote tribal areas of its treaty-defined Durand Line border with Afghanistan which serve as bases for foreign terrorists and other illegal activities; Russia remains concerned about the smuggling of poppy derivatives from Afghanistan through Central Asian countries",
+    "terrorism": {
+        "al-Qa'ida (AQ)": "eject Western influence from the Islamic world, unite the worldwide Muslim community, overthrow governments perceived as un-Islamic, and ultimately, establish a pan-Islamic caliphate under a strict Salafi Muslim interpretation of shariaarea(s) of operation",
+        "Islamic Jihad Union (IJU)": "drive NATO forces out of Afghanistan and destabilize the country; overthrow the Government of Uzbekistanarea(s) of operation",
+        "Islamic Movement of Uzbekistan (IMU)": "enhance its networks and secure territory in Afghanistan to establish a secure presence from which it can pursue its historic goal of establishing an Islamic state in the Fergana Valley, a fertile valley spread across eastern Uzbekistan, southern Kyrgyzstan, and northern Tajikistan area(s) of operation",
+        "Islamic State of Iraq and ash-Sham-Khorasan (ISIS-K)": "establish an Islamic caliphate in Afghanistan, Pakistan, and parts of Central Asia; counter Westerners and Shia Muslimsarea(s) of operation",
+        "Tehrik-e-Taliban Pakistan (TTP)": "drive foreign troops from Afghanistan; remove Pakistani forces from Pakistan's Federally Administered Tribal Areas (FATA) and, ultimately, overthrow the Pakistan Government to implement TTP's strict interpretation of shariaarea(s) of operation",
+        "al-Qa'ida in the Indian Subcontinent (AQIS)": " unite local jihadist movements in the Indian subcontinent, pursue the overthrow of local governments, exacerbate tensions between Hindus and Muslims, establish an Islamic caliphate in the Indian subcontinentarea(s) of operation",
+        "Haqqani Taliban Network (HQN)": "expel US and Coalition forces and replace the Afghan Government with an Islamic state operating according to a strict Salafi Muslim interpretation of sharia under the Afghan Talibanarea(s) of operation",
+        "Harakat ul-Mujahidin (HUM)": "enhance its networks and paramilitary training in Afghanistan and, ultimately, incorporate Kashmir into Pakistan; establish an Islamic state in Kashmirarea(s) of operation",
+        "Harakat ul-Jihad-i-Islami (HUJI)": "seeks the annexation of the state of Jammu and Kashmir and the expulsion of foreign forces from Afghanistan; implement sharia in Afghanistanarea(s) of operation",
+        "Islamic Revolutionary Guard Corps -- Qods Force (IRGC-QF)": " initially supported anti-Taliban initiatives that complemented US goals in 2001, however, it gradually adopted an anti-NATO/anti-Afghan government strategy and began supplying financial assistance, training, and weapons to the Talibanarea(s) of operations",
+        "Jaish-e-Mohammed (JEM)": "annex the state of Jammu and Kashmir to Pakistan and expel international forces from Afghanistan.area(s) of operation",
+        "Jaysh al Adl": "enhance its operational networks and capabilities for staging cross-border attacks into Iranarea(s) of operation",
+        "Lashkar i Jhangvi (LJ)": "enhance its networks and paramilitary training in Afghanistan; exterminate Shia Muslims, rid the Afghanistan-Pakistan region of Western influencearea(s) of operation",
+        "Lashkar-e Tayyiba (LT)": "annex the Indian state of Jammu and Kashmir to Pakistan and foment Islamic insurgency in India; attack Western, Indian, and Afghan interests in Afghanistan; support the Taliban's return to power; enhance its recruitment networks and paramilitary training in Afghanistan, and, ultimately, install Islamic rule throughout South Asiaarea(s) of operation"
+    }
 }

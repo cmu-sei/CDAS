@@ -21,7 +21,12 @@
     ],
     "population": "6,209,660",
     "nationality": "Singaporean(s)",
-    "ethnic_groups": {"Chinese": "74.3%", "Malay": "13.4%", "Indian": "9%", "other": "3.2%"},
+    "ethnic_groups": {
+        "Chinese": "74.3%",
+        "Malay": "13.4%",
+        "Indian": "9%",
+        "other": "3.2%"
+    },
     "languages": {
         "English (official)": "36.9%",
         "Mandarin (official)": "34.9%",
@@ -31,16 +36,20 @@
         "other": "2%"
     },
     "religions": {
-        "Buddhist": "33.2%", 
-        "Christian": "18.8%", 
-        "Muslim": "14%", 
-        "Taoist": "10%", 
-        "Hindu": "5%", 
-        "other": "0.6%", 
-        "none": "18.5%"},
+        "Buddhist": "33.2%",
+        "Christian": "18.8%",
+        "Muslim": "14%",
+        "Taoist": "10%",
+        "Hindu": "5%",
+        "other": "0.6%",
+        "none": "18.5%"
+    },
     "government_type": "parliamentary republic",
     "national_symbols": "lion, merlion (mythical half lion-half fish creature), orchid",
-    "national_colors": ["red", "white"],
+    "national_colors": [
+        "red",
+        "white"
+    ],
     "gdp": "$323.9 billion",
     "agriculture": [
         "vegetables",
@@ -81,7 +90,7 @@
     "internet_users": "4,683,200",
     "mobile_subscriptions": "8,568,400",
     "internet_country_code": ".sg",
-    "military_and_security_forces": "Singapore Armed Forces: Singapore Army, Republic of Singapore Navy, Republic of Singapore Air Force (includes air defense);  Police Coast Guard (subordinate to the Singapore Police Force)",
+    "military_and_security_forces": "Singapore Armed Forces: Singapore Army, Republic of Singapore Navy, Republic of Singapore Air Force (includes air defense);\u00a0 Police Coast Guard (subordinate to the Singapore Police Force)",
     "percent_GDP_on_military": "3.2%",
     "pipelines": [
         "3220 km domestic gas ",
@@ -95,5 +104,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "9",
-    "international_disputes": "disputes with Malaysia over territorial waters, airspace, the price of fresh water delivered to Singapore from Malaysia, Singapore's extensive land reclamation works, bridge construction, and maritime boundaries in the Johor and Singapore Straits; in 2008, ICJ awarded sovereignty of Pedra Branca (Pulau Batu Puteh/Horsburgh Island) to Singapore, and Middle Rocks to Malaysia, but did not rule on maritime regimes, boundaries, or disposition of South Ledge; Indonesia and Singapore continue to work on finalization of their 1973 maritime boundary agreement by defining unresolved areas north of Indonesia's Batam Island; piracy remains a problem in the Malacca Strait"
+    "international_disputes": "disputes with Malaysia over territorial waters, airspace, the price of fresh water delivered to Singapore from Malaysia, Singapore's extensive land reclamation works, bridge construction, and maritime boundaries in the Johor and Singapore Straits; in 2008, ICJ awarded sovereignty of Pedra Branca (Pulau Batu Puteh/Horsburgh Island) to Singapore, and Middle Rocks to Malaysia, but did not rule on maritime regimes, boundaries, or disposition of South Ledge; Indonesia and Singapore continue to work on finalization of their 1973 maritime boundary agreement by defining unresolved areas north of Indonesia's Batam Island; piracy remains a problem in the Malacca Strait",
+    "terrorism": "Unknown"
 }

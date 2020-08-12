@@ -1,6 +1,6 @@
 {
     "name": "Burundi",
-    "background": "Burundi is a small country in Central-East Africa bordered by Tanzania, Rwanda, the Democratic Republic of Congo, and Lake Tanganyika. Burundi gained its independence from Belgium in 1962 as the Kingdom of Burundi, but the monarchy was overthrown in 1966 and a republic established. Political violence and non-democratic transfers of power have marked much of its history; Burundi's first democratically elected president, a Hutu, was assassinated in October 1993 after only 100 days in office. The internationally brokered Arusha Agreement, signed in 2000, and subsequent ceasefire agreements with armed movements ended the 1993-2005 civil war. Burundi’s second democratic elections were held in 2005. Pierre NKURUNZIZA was elected president in 2005 and 2010, and again in a controversial election in 2015. Burundi continues to face many economic and political challenges.",
+    "background": "Burundi is a small country in Central-East Africa bordered by Tanzania, Rwanda, the Democratic Republic of Congo, and Lake Tanganyika. Burundi gained its independence from Belgium in 1962 as the Kingdom of Burundi, but the monarchy was overthrown in 1966 and a republic established. Political violence and non-democratic transfers of power have marked much of its history; Burundi's first democratically elected president, a Hutu, was assassinated in October 1993 after only 100 days in office. The internationally brokered Arusha Agreement, signed in 2000, and subsequent ceasefire agreements with armed movements ended the 1993-2005 civil war. Burundi's second democratic elections were held in 2005. Pierre NKURUNZIZA was elected president in 2005 and 2010, and again in a controversial election in 2015. Burundi continues to face many economic and political challenges.",
     "coordinates": "3 30 S, 30 00 E",
     "region": "Africa",
     "total_area": "27,830 sq km",
@@ -42,26 +42,22 @@
     "population": "11,865,821",
     "nationality": "Burundian(s)",
     "ethnic_groups": {
-        "Hutu":"", 
-        "Tutsi":"", 
-        "Twa (Pygmy)":""
+        "Hutu": "",
+        "Tutsi": "",
+        "Twa": ""
     },
     "languages": {
-        "Kirundi only (official)": "29.7%", 
-        "French only (official)": ".3%",
-        "Swahili only": "0.2%", 
-        "English only (official)": "0.1%", 
-        "Kirundi and French": "8.4%", 
-        "Kirundi": "7%",
-        "French and English": "2.4%",
+        "only 29.7%; French only .3%; Swahili only .2%; English only .1%; Kirundi and French 8.4%; (official)": "Kirundi",
+        "French": "",
+        "and English": "2.4%",
         "other language combinations": "2%",
         "unspecified": "56.9%"
     },
     "religions": {
-        "Roman Catholic": "62.1%", 
-        "Protestant": "23.9%", 
-        "Muslim": "2.5%", 
-        "other": "3.6%", 
+        "Roman Catholic": "62.1%",
+        "Protestant": "23.9%",
+        "Muslim": "2.5%",
+        "other": "3.6%",
         "unspecified": "7.9%"
     },
     "government_type": "presidential republic",
@@ -87,11 +83,7 @@
         "hides"
     ],
     "industries": [
-        "light consumer goods",
-        "sugar",
-        "shoes",
-        "soap",
-        "beer",
+        "light consumer goods (sugar, shoes, soap, beer)",
         "cement",
         "assembly of imported components",
         "public works construction",
@@ -123,5 +115,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "7",
-    "international_disputes": "Burundi and Rwanda dispute two sq km (0.8 sq mi) of Sabanerwa, a farmed area in the Rukurazi Valley where the Akanyaru/Kanyaru River shifted its course southward after heavy rains in 1965; cross-border conflicts persist among Tutsi, Hutu, other ethnic groups, associated political rebels, armed gangs, and various government forces in the Great Lakes region"
+    "international_disputes": "Burundi and Rwanda dispute two sq km (0.8 sq mi) of Sabanerwa, a farmed area in the Rukurazi Valley where the Akanyaru/Kanyaru River shifted its course southward after heavy rains in 1965; cross-border conflicts persist among Tutsi, Hutu, other ethnic groups, associated political rebels, armed gangs, and various government forces in the Great Lakes region",
+    "terrorism": "Unknown"
 }

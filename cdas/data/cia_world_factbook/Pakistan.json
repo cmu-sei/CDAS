@@ -33,12 +33,12 @@
     "population": "233,500,636",
     "nationality": "Pakistani(s)",
     "ethnic_groups": {
-        "Punjabi": "44.7%", 
-        "Pashtun (Pathan)": "15.4%", 
-        "Sindhi": "14.1%", 
-        "Saraiki": "8.4%", 
-        "Muhajirs": "7.6%", 
-        "Balochi": "3.6%", 
+        "Punjabi": "44.7%",
+        "Pashtun": "15.4%",
+        "Sindhi": "14.1%",
+        "Saraiki": "8.4%",
+        "Muhajirs": "7.6%",
+        "Balochi": "3.6%",
         "other": "6.3%"
     },
     "languages": {
@@ -55,11 +55,15 @@
         "and other": "8%"
     },
     "religions": {
-        "Muslim (official)": "96.4%", 
-        "other (includes Christian and Hindu)": "3.6%"},
+        "Muslim": "96.4%",
+        "other": "3.6%"
+    },
     "government_type": "federal parliamentary republic",
     "national_symbols": "five-pointed star between the horns of a waxing crescent moon, jasmine",
-    "national_colors": ["green", "white"],
+    "national_colors": [
+        "green",
+        "white"
+    ],
     "gdp": "$305 billion",
     "agriculture": [
         "cotton",
@@ -84,7 +88,10 @@
         "shrimp"
     ],
     "exports": [
-        "textiles (garments, bed linen, cotton cloth, yarn)",
+        "textiles (garments",
+        "bed linen",
+        "cotton cloth",
+        "yarn)",
         "rice",
         "leather goods",
         "sporting goods",
@@ -111,9 +118,9 @@
     "military_and_security_forces": "Pakistan Army (includes National Guard), Pakistan Navy (includes marines, Maritime Security Agency), Pakistan Air Force (Pakistan Fizaia); Ministry of Interior paramilitary forces: Frontier Corps, Pakistan Rangers",
     "percent_GDP_on_military": "4%",
     "pipelines": [
-        "12984 km gas",
-        "3470 km oil",
-        "1170 km refined products"
+        "12,984 km gas",
+        "3,470 km oil",
+        "1,170 km refined products"
     ],
     "ports_and_terminals": {
         "major seaport(s)": "Karachi, Port Muhammad Bin Qasim",
@@ -122,5 +129,19 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "151",
-    "international_disputes": "various talks and confidence-building measures cautiously have begun to defuse tensions over Kashmir, particularly since the October 2005 earthquake in the region; Kashmir nevertheless remains the site of the world's largest and most militarized territorial dispute with portions under the de facto administration of China (Aksai Chin), India (Jammu and Kashmir), and Pakistan (Azad Kashmir and Northern Areas); UN Military Observer Group in India and Pakistan has maintained a small group of peacekeepers since 1949; India does not recognize Pakistan's ceding historic Kashmir lands to China in 1964; India and Pakistan have maintained their 2004 cease-fire in Kashmir and initiated discussions on defusing the armed standoff in the Siachen glacier region; Pakistan protests India's fencing the highly militarized Line of Control and construction of the Baglihar Dam on the Chenab River in Jammu and Kashmir, which is part of the larger dispute on water sharing of the Indus River and its tributaries; to defuse tensions and prepare for discussions on a maritime boundary, India and Pakistan seek technical resolution of the disputed boundary in Sir Creek estuary at the mouth of the Rann of Kutch in the Arabian Sea; Pakistani maps continue to show the Junagadh claim in India's Gujarat State; since 2002, with UN assistance, Pakistan has repatriated 3.8 million Afghan refugees, leaving about 2.6 million; Pakistan has sent troops across and built fences along some remote tribal areas of its treaty-defined Durand Line border with Afghanistan, which serve as bases for foreign terrorists and other illegal activities; Afghan, Coalition, and Pakistan military meet periodically to clarify the alignment of the boundary on the ground and on maps"
+    "international_disputes": "various talks and confidence-building measures cautiously have begun to defuse tensions over Kashmir, particularly since the October 2005 earthquake in the region; Kashmir nevertheless remains the site of the world's largest and most militarized territorial dispute with portions under the de facto administration of China (Aksai Chin), India (Jammu and Kashmir), and Pakistan (Azad Kashmir and Northern Areas); UN Military Observer Group in India and Pakistan has maintained a small group of peacekeepers since 1949; India does not recognize Pakistan's ceding historic Kashmir lands to China in 1964; India and Pakistan have maintained their 2004 cease-fire in Kashmir and initiated discussions on defusing the armed standoff in the Siachen glacier region; Pakistan protests India's fencing the highly militarized Line of Control and construction of the Baglihar Dam on the Chenab River in Jammu and Kashmir, which is part of the larger dispute on water sharing of the Indus River and its tributaries; to defuse tensions and prepare for discussions on a maritime boundary, India and Pakistan seek technical resolution of the disputed boundary in Sir Creek estuary at the mouth of the Rann of Kutch in the Arabian Sea; Pakistani maps continue to show the Junagadh claim in India's Gujarat State; since 2002, with UN assistance, Pakistan has repatriated 3.8 million Afghan refugees, leaving about 2.6 million; Pakistan has sent troops across and built fences along some remote tribal areas of its treaty-defined Durand Line border with Afghanistan, which serve as bases for foreign terrorists and other illegal activities; Afghan, Coalition, and Pakistan military meet periodically to clarify the alignment of the boundary on the ground and on maps",
+    "terrorism": {
+        "al-Qa'ida (AQ)": "eject Western influence from the Islamic world, unite the worldwide Muslim community, overthrow governments perceived as un-Islamic and, ultimately, establish a pan-Islamic caliphate under a strict Salafi Muslim interpretation of shariaarea(s) of operation",
+        "al-Qa'ida in the Indian Subcontinent (AQIS)": "establish an Islamic caliphate in the Indian subcontinentarea(s) of operation",
+        "Haqqani Network (HQN)": "enhance its operational networks and capabilities for staging cross-border attacks in Afghanistan; replace the Afghan Government with an Islamic state operating according to a strict Salafi Muslim interpretation of shariaarea(s) of operation",
+        "Harakat ul-Jihad-i-Islami (HUJI)": "overthrow the Pakistan Government and implement sharia throughout the countryarea(s) of operation",
+        "Harakat ul-Mujahidin (HUM)": "annex Kashmir to Pakistan and establish an Islamic state in Kashmirarea(s) of operation",
+        "Jaish-e-Mohammed (JEM)": "unite Kashmir with Pakistan, install sharia in Pakistan, and drive foreign forces from Afghanistanarea(s) of operation",
+        "Jaysh al Adl": "seeks greater autonomy for Balochis in Pakistan and Iranarea(s) of operation",
+        "Lashkar i Jhangvi (LJ)": "exterminate Shia Muslims, rid the region of Western influence and, ultimately, establish an Islamic state in Pakistan under shariaarea(s) of operation",
+        "Lashkar-e Tayyiba (LT)": "return the Indian state of Jammu and Kashmir to Pakistan and foment Islamic insurgency in India; enhance its recruitment networks and paramilitary training in South Asia; and, ultimately, implement Islamic rule throughout South Asiaarea(s) of operation",
+        "Indian Mujahedeen (IM)": "stated goal is to carry out terrorist attacks against Indians for perceived atrocities against Indian Muslims following the 2002 Gujarat riotsarea(s) of operation",
+        "Islamic State of Iraq and ash-Sham-Khorasan (ISIS-K)": "establish an Islamic caliphate in the Afghanistan-Pakistan region; oppose Pakistan Government and Westerners; oppose Shia Muslim populationarea(s) of operation",
+        "Tehrik-e-Taliban Pakistan (TTP)": "remove Pakistani forces from the Federally Administered Tribal Areas (FATA) region; overthrow the Pakistan Government to implement TTP's strict interpretation of shariaarea(s) of operation"
+    }
 }

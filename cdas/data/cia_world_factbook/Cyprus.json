@@ -1,6 +1,6 @@
 {
     "name": "Cyprus",
-    "background": "A former British colony, Cyprus became independent in 1960 following years of resistance to British rule. Tensions between the Greek Cypriot majority and Turkish Cypriot minority communities came to a head in December 1963, when violence broke out in the capital of Nicosia. Despite the deployment of UN peacekeepers in 1964, sporadic intercommunal violence continued, forcing most Turkish Cypriots into enclaves throughout the island. In 1974, a Greek Government-sponsored attempt to overthrow the elected president of Cyprus was met by military intervention from Turkey, which soon controlled more than a third of the island. In 1983, the Turkish Cypriot administered area declared itself the \"Turkish Republic of Northern Cyprus\" (\"TRNC\"), but it is recognized only by Turkey. An UN-mediated agreement, the Annan Plan, failed to win approval by both communities in 2004. In February 2014, after a hiatus of nearly two years, the leaders of the two communities resumed formal discussions under UN auspices aimed at reuniting the divided island. The most recent round of negotiations to reunify the island were suspended in July 2017 after failure to achieve a breakthrough. The entire island entered the EU on 1 May 2004, although the EU acquis - the body of common rights and obligations - applies only to the areas under the internationally recognized government, and is suspended in the \"TRNC.\" However, individual Turkish Cypriots able to document their eligibility for Republic of Cyprus citizenship legally enjoy the same rights accorded to other citizens of EU states.",
+    "background": "A former British colony, Cyprus became independent in 1960 following years of resistance to British rule. Tensions between the Greek Cypriot majority and Turkish Cypriot minority communities came to a head in December 1963, when violence broke out in the capital of Nicosia. Despite the deployment of UN peacekeepers in 1964, sporadic intercommunal violence continued, forcing most Turkish Cypriots into enclaves throughout the island. In 1974, a Greek Government-sponsored attempt to overthrow the elected president of Cyprus was met by military intervention from Turkey, which soon controlled more than a third of the island. In 1983, the Turkish Cypriot administered area declared itself the \"Turkish Republic of Northern Cyprus\" (\"TRNC\"), but it is recognized only by Turkey. An UN-mediated agreement, the Annan Plan, failed to win approval by both communities in 2004. In February 2014, after a hiatus of nearly two years, the leaders of the two communities resumed formal discussions under UN auspices aimed at reuniting the divided island. The most recent round of negotiations to reunify the island were suspended in\u00a0July 2017 after failure to achieve a breakthrough. The entire island entered the EU on 1 May 2004, although the EU acquis - the body of common rights and obligations - applies only to the areas under the internationally recognized government, and is suspended in the \"TRNC.\" However, individual Turkish Cypriots able to document their eligibility for Republic of Cyprus citizenship legally enjoy the same rights accorded to other citizens of EU states.",
     "coordinates": "35 00 N, 33 00 E",
     "region": "Middle East",
     "total_area": "9,251 sq km",
@@ -49,15 +49,15 @@
     },
     "religions": {
         "Orthodox Christian": "89.1%",
-        "Roman Catholic": "2.9%", 
+        "Roman Catholic": "2.9%",
         "Protestant/Anglican": "2%",
         "Muslim": "1.8%",
-        "Buddhist": "1%", 
+        "Buddhist": "1%",
         "other": "1.4%",
         "unknown": "1.1%",
         "none/atheist": "0.6%"
     },
-    "government_type": "Republic of Cyprus - presidential republic; \"Turkish Republic of Northern Cyprus\" (self-declared) - parliamentary republic with enhanced presidency\n        \n      \n\nnote: a separation of the two main ethnic communities inhabiting the island began following the outbreak of communal strife in 1963; this separation was further solidified when a Greek military-junta-supported coup attempt prompted the Turkish military intervention in July 1974 that gave the Turkish Cypriots de facto control in the north; Greek Cypriots control the only internationally recognized government on the island; on 15 November 1983, then Turkish Cypriot \"President\" Rauf DENKTAS declared independence and the formation of the \"TRNC,” which is recognized only by Turkey",
+    "government_type": "Republic of Cyprus - presidential republic; \"Turkish Republic of Northern Cyprus\" (self-declared) - parliamentary republic with enhanced presidency\n        \n      \n\nnote: a separation of the two main ethnic communities inhabiting the island began following the outbreak of communal strife in 1963; this separation was further solidified when a Greek military-junta-supported coup attempt prompted the Turkish military intervention in July 1974 that gave the Turkish Cypriots de facto control in the north; Greek Cypriots control the only internationally recognized government on the island; on 15 November 1983, then Turkish Cypriot \"President\" Rauf DENKTAS declared independence and the formation of the \"TRNC,\u201d which is recognized only by Turkey",
     "national_symbols": "Cypriot mouflon (wild sheep), white dove",
     "national_colors": [
         "blue",
@@ -106,7 +106,7 @@
     "internet_users": "915,036",
     "mobile_subscriptions": "1,200,378",
     "internet_country_code": ".cy",
-    "military_and_security_forces": "Republic of Cyprus: Cypriot National Guard (Ethniki Froura, EF, includes ground, naval, and air elements); \"Turkish Republic of Northern Cyprus\": Turkish Cypriot Security Force (GKK)",
+    "military_and_security_forces": "Republic of Cyprus: Cypriot National Guard (Ethniki Froura, EF, includes ground, naval, and air elements)",
     "percent_GDP_on_military": "1.6%",
     "pipelines": [
         "0 km oil"
@@ -116,5 +116,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "15",
-    "international_disputes": "hostilities in 1974 divided the island into two de facto autonomous entities, the internationally recognized Cypriot Government and a Turkish-Cypriot community (north Cyprus); the 1,000-strong UN Peacekeeping Force in Cyprus (UNFICYP) has served in Cyprus since 1964 and maintains the buffer zone between north and south; on 1 May 2004, Cyprus entered the EU still divided, with the EU's body of legislation and standards (acquis communitaire) suspended in the north; Turkey protests Cypriot Government creating hydrocarbon blocks and maritime boundary with Lebanon in March 2007"
+    "international_disputes": "hostilities in 1974 divided the island into two de facto autonomous entities, the internationally recognized Cypriot Government and a Turkish-Cypriot community (north Cyprus); the 1,000-strong UN Peacekeeping Force in Cyprus (UNFICYP) has served in Cyprus since 1964 and maintains the buffer zone between north and south; on 1 May 2004, Cyprus entered the EU still divided, with the EU's body of legislation and standards (acquis communitaire) suspended in the north; Turkey protests Cypriot Government creating hydrocarbon blocks and maritime boundary with Lebanon in March 2007",
+    "terrorism": "Unknown"
 }

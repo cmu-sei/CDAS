@@ -1,6 +1,6 @@
 {
-    "name": "North Korea",
-    "background": "An independent kingdom for much of its long history, Korea was occupied by Japan beginning in 1905 following the Russo-Japanese War. Five years later, Japan formally annexed the entire peninsula. Following World War II, Korea was split with the northern half coming under Soviet-sponsored communist control. After failing in the Korean War (1950-53) to conquer the US-backed Republic of Korea (ROK) in the southern portion by force, North Korea (DPRK), under its founder President KIM Il Sung, adopted a policy of ostensible diplomatic and economic \"self-reliance\" as a check against outside influence. The DPRK demonized the US as the ultimate threat to its social system through state-funded propaganda, and molded political, economic, and military policies around the core ideological objective of eventual unification of Korea under Pyongyang's control. KIM Il Sung's son, KIM Jong Il, was officially designated as his father's successor in 1980, assuming a growing political and managerial role until the elder KIM's death in 1994. Under KIM Jong Il's rein, the DPRK continued developing nuclear weapons and ballistic missiles. KIM Jong Un was publicly unveiled as his father's successor in 2010. Following KIM Jong Il's death in 2011, KIM Jong Un quickly assumed power and has since occupied the regime's highest political and military posts. \nAfter decades of economic mismanagement and resource misallocation, the DPRK since the mid-1990s has faced chronic food shortages. In recent years, the North's domestic agricultural production has increased, but still falls far short of producing sufficient food to provide for its entire population. The DPRK began to ease restrictions to allow semi-private markets, starting in 2002, but has made few other efforts to meet its goal of improving the overall standard of living. North Korea's history of regional military provocations; proliferation of military-related items; long-range missile development; WMD programs including tests of nuclear devices in 2006, 2009, 2013, 2016, and 2017; and massive conventional armed forces are of major concern to the international community and have limited the DPRK's international engagement, particularly economically. In 2013, the DPRK declared a policy of simultaneous development of its nuclear weapons program and economy. In late 2017, KIM Jong Un declared the North's nuclear weapons development complete. In 2018, KIM announced a pivot towards diplomacy, including a re-prioritization of economic development, a pause in missile testing beginning in late 2017, and a refrain from anti-US rhetoric starting in June 2018. Since 2018, KIM has participated in four meetings with Chinese President XI Jinping, three with ROK President MOON Jae-in, and three with US President TRUMP. Since July 2019, North Korea has restarted its short-range missile tests and issued statements condemning the US.",
+    "name": "Korea, North",
+    "background": "An independent kingdom for much of its long history, Korea was occupied by Japan beginning in 1905 following the Russo-Japanese War. Five years later, Japan formally annexed the entire peninsula. Following World War II, Korea was split with the northern half coming under Soviet-sponsored communist control. After failing in the Korean War (1950-53) to conquer the US-backed Republic of Korea (ROK) in the southern portion by force, North Korea (DPRK), under its founder President KIM Il Sung, adopted a policy of ostensible diplomatic and economic \"self-reliance\" as a check against outside influence. The DPRK demonized the US as the ultimate threat to its social system through state-funded propaganda, and molded political, economic, and military policies around the core ideological objective of eventual unification of Korea under Pyongyang's control. KIM Il Sung's son, KIM Jong Il, was officially designated as his father's successor in 1980, assuming a growing political and managerial role until the elder KIM's death in 1994. Under KIM Jong Il's rein, the DPRK continued developing nuclear weapons and ballistic missiles. KIM Jong Un was publicly unveiled as his father's successor in 2010. Following KIM Jong Il's death in 2011, KIM Jong Un quickly assumed power and has since occupied the regime's highest political and military posts.\u00a0\nAfter decades of economic mismanagement and resource misallocation, the DPRK since the mid-1990s has faced chronic food shortages. In recent years, the North's domestic agricultural production has increased, but still falls far short of producing sufficient food to provide for its entire population. The DPRK began to ease restrictions to allow semi-private markets, starting in 2002, but has made few other efforts to meet its goal of improving the overall standard of living. North Korea's history of regional military provocations; proliferation of military-related items; long-range missile development; WMD programs including tests of nuclear devices in 2006, 2009, 2013, 2016, and 2017; and massive conventional armed forces are of major concern to the international community and have limited the DPRK's international engagement, particularly economically. In 2013, the DPRK declared a\u00a0policy of simultaneous development of its nuclear weapons program and economy. In late 2017, KIM Jong Un declared the North's nuclear weapons development complete. In 2018, KIM announced a pivot towards diplomacy, including a re-prioritization of economic development, a pause in missile testing beginning in late 2017, and a refrain from anti-US rhetoric starting in June 2018. Since 2018, KIM has participated in four meetings with Chinese President XI Jinping, three with ROK President MOON Jae-in, and three with US President TRUMP. Since July 2019, North Korea has restarted its short-range missile tests and issued statements condemning the US.",
     "coordinates": "40 00 N, 127 00 E",
     "region": "Asia",
     "total_area": "120,538 sq km",
@@ -34,15 +34,23 @@
     ],
     "population": "25,643,466",
     "nationality": "Korean(s)",
-    "ethnic_groups": {"racially homogeneous":""},
+    "ethnic_groups": {
+        "racially homogeneous; there is a small Chinese community and a few ethnic Japanese": ""
+    },
     "languages": {
         "Korean": ""
     },
-    "religions": {"traditionally Buddhist and Confucianist":"", 
-        "some Christian and syncretic Chondogyo (Religion of the Heavenly Way)":""},
+    "religions": {
+        "traditionally Buddhist and Confucianist": "",
+        "some Christian and syncretic Chondogyo": ""
+    },
     "government_type": "dictatorship, single-party state; official state ideology of \"Juche\" or \"national self-reliance\"",
     "national_symbols": "red star, chollima (winged horse)",
-    "national_colors": ["red", "white", "blue"],
+    "national_colors": [
+        "red",
+        "white",
+        "blue"
+    ],
     "gdp": "$28 billion",
     "agriculture": [
         "rice",
@@ -62,15 +70,7 @@
         "machine building",
         "electric power",
         "chemicals",
-        "coal",
-        "iron ore",
-        "limestone",
-        "magnesite",
-        "graphite",
-        "copper",
-        "zinc",
-        "lead",
-        "precious metals",
+        "mining (coal, iron ore, limestone, magnesite, graphite, copper, zinc, lead, and precious metals)",
         "metallurgy",
         "textiles",
         "food processing",
@@ -104,5 +104,6 @@
     },
     "waterways": "2,250 km",
     "number_of_airports": "82",
-    "international_disputes": "risking arrest, imprisonment, and deportation, tens of thousands of North Koreans cross into China to escape famine, economic privation, and political oppression; North Korea and China dispute the sovereignty of certain islands in Yalu and Tumen Rivers; Military Demarcation Line within the 4-km-wide Demilitarized Zone has separated North from South Korea since 1953; periodic incidents in the Yellow Sea with South Korea which claims the Northern Limiting Line as a maritime boundary; North Korea supports South Korea in rejecting Japan's claim to Liancourt Rocks (Tok-do/Take-shima)"
+    "international_disputes": "risking arrest, imprisonment, and deportation, tens of thousands of North Koreans cross into China to escape famine, economic privation, and political oppression; North Korea and China dispute the sovereignty of certain islands in Yalu and Tumen Rivers; Military Demarcation Line within the 4-km-wide Demilitarized Zone has separated North from South Korea since 1953; periodic incidents in the Yellow Sea with South Korea which claims the Northern Limiting Line as a maritime boundary; North Korea supports South Korea in rejecting Japan's claim to Liancourt Rocks (Tok-do/Take-shima)",
+    "terrorism": "Unknown"
 }

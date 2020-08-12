@@ -28,23 +28,23 @@
     "population": "5,073,296",
     "nationality": "Liberian(s)",
     "ethnic_groups": {
-        "Kpelle": "20.3%", 
-        "Bassa": "13.4%", 
-        "Grebo": "10%", 
-        "Gio": "8%", 
-        "Mano": "7.9%", 
-        "Kru": "6%", 
-        "Lorma": "5.1%", 
-        "Kissi": "4.8%", 
-        "Gola": "4.4%", 
-        "Krahn": "4%", 
-        "Vai": "4%", 
-        "Mandingo": "3.2%", 
-        "Gbandi": "3%", 
-        "Mende": "1.3%", 
-        "Sapo": "1.3%", 
-        "other Liberian": "1.7%", 
-        "other African": "1.4%", 
+        "Kpelle": "20.3%",
+        "Bassa": "13.4%",
+        "Grebo": "10%",
+        "Gio": "8%",
+        "Mano": "7.9%",
+        "Kru": "6%",
+        "Lorma": "5.1%",
+        "Kissi": "4.8%",
+        "Gola": "4.4%",
+        "Krahn": "4%",
+        "Vai": "4%",
+        "Mandingo": "3.2%",
+        "Gbandi": "3%",
+        "Mende": "1.3%",
+        "Sapo": "1.3%",
+        "other Liberian": "1.7%",
+        "other African": "1.4%",
         "non-African": ".1%"
     },
     "languages": {
@@ -52,11 +52,19 @@
         "some 20 ethnic group languages few of which can be written or used in correspondence": ""
     },
     "religions": {
-        "Christian": "85.6%", "Muslim": "12.2%", "Traditional": "0.6%", 
-        "other": "0.2%", "none": "1.5%"},
+        "Christian": "85.6%",
+        "Muslim": "12.2%",
+        "Traditional": "0.6%",
+        "other": "0.2%",
+        "none": "1.5%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "white star",
-    "national_colors": ["red", "white", "blue"],
+    "national_colors": [
+        "red",
+        "white",
+        "blue"
+    ],
     "gdp": "$3.285 billion",
     "agriculture": [
         "rubber",
@@ -107,5 +115,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "29",
-    "international_disputes": "as the UN Mission in Liberia (UNMIL) continues to drawdown prior to the 1 March 2018 closure date, the peacekeeping force is being reduced to 434 soldiers and two police units; some Liberian refugees still remain in Guinea, Cote d'Ivoire, Sierra Leone, and Ghana; Liberia shelters 8,804 Ivoirian refugees, as of 2019"
+    "international_disputes": "as the UN Mission in Liberia (UNMIL) continues to drawdown prior to the 1 March 2018 closure date, the peacekeeping force is being reduced to 434 soldiers and two police units; some Liberian refugees still remain in Guinea, Cote d'Ivoire, Sierra Leone, and Ghana; Liberia shelters 8,804 Ivoirian refugees, as of 2019",
+    "terrorism": "Unknown"
 }

@@ -1,6 +1,6 @@
 {
     "name": "Morocco",
-    "background": "In 788, about a century after the Arab conquest of North Africa, a series of Moroccan Muslim dynasties began to rule in Morocco. In the 16th century, the Sa'adi monarchy, particularly under Ahmad al-MANSUR (1578-1603), repelled foreign invaders and inaugurated a golden age. The Alaouite Dynasty, to which the current Moroccan royal family belongs, dates from the 17th century. In 1860, Spain occupied northern Morocco and ushered in a half-century of trade rivalry among European powers that saw Morocco's sovereignty steadily erode; in 1912, the French imposed a protectorate over the country. A protracted independence struggle with France ended successfully in 1956. The internationalized city of Tangier and most Spanish possessions were turned over to the new country that same year. Sultan MOHAMMED V, the current monarch's grandfather, organized the new state as a constitutional monarchy and in 1957 assumed the title of king. Since Spain's 1976 withdrawal from what is today called Western Sahara, Morocco has extended its de facto administrative control to roughly 75% of this territory; however, the UN does not recognize Morocco as the administering power for Western Sahara. The UN since 1991 has monitored a cease-fire between Morocco and the Polisario Front - an organization advocating the territory’s independence - and restarted negotiations over the status of the territory in December 2018.\nKing MOHAMMED VI in early 2011 responded to the spread of pro-democracy protests in the region by implementing a reform program that included a new constitution, passed by popular referendum in July 2011, under which some new powers were extended to parliament and the prime minister, but ultimate authority remains in the hands of the monarch. In November 2011, the Justice and Development Party (PJD) - a moderate Islamist party - won the largest number of seats in parliamentary elections, becoming the first Islamist party to lead the Moroccan Government. In September 2015, Morocco held its first direct elections for regional councils, one of the reforms included in the 2011 constitution. The PJD again won the largest number of seats in nationwide parliamentary elections in October 2016.",
+    "background": "In 788, about a century after the Arab conquest of North Africa, a series of Moroccan Muslim dynasties began to rule in Morocco. In the 16th century, the Sa'adi monarchy, particularly under Ahmad al-MANSUR (1578-1603), repelled foreign invaders and inaugurated a golden age. The Alaouite Dynasty, to which the current Moroccan royal family belongs, dates from the 17th century. In 1860, Spain occupied northern Morocco and ushered in a half-century of trade rivalry among European powers that saw Morocco's sovereignty steadily erode; in 1912, the French imposed a protectorate over the country. A protracted independence struggle with France ended successfully in 1956. The internationalized city of Tangier and most Spanish possessions were turned over to the new country that same year. Sultan MOHAMMED V, the current monarch's grandfather, organized the new state as a constitutional monarchy and in 1957 assumed the title of king. Since Spain's 1976 withdrawal from what is today called Western Sahara, Morocco has extended its de facto administrative control to roughly 75% of this territory; however, the UN does not recognize Morocco as the administering power for Western Sahara. The UN since 1991 has monitored a cease-fire between Morocco and the Polisario Front - an organization advocating the territory's independence - and restarted negotiations over the status of the territory in December 2018.\nKing MOHAMMED VI in early 2011 responded to the spread of pro-democracy protests in the region by implementing a reform program that included a new constitution, passed by popular referendum in July 2011, under which some new powers were extended to parliament and the prime minister, but ultimate authority remains in the hands of the monarch. In November 2011, the Justice and Development Party (PJD) - a moderate Islamist party - won the largest number of seats in parliamentary elections, becoming the first Islamist party to lead the Moroccan Government. In September 2015, Morocco held its first direct elections for regional councils, one of the reforms included in the 2011 constitution. The PJD again won the largest number of seats in nationwide parliamentary elections in October 2016.",
     "coordinates": "32 00 N, 5 00 W",
     "region": "Africa",
     "total_area": "446,550 sq km",
@@ -34,20 +34,27 @@
     ],
     "population": "35,561,654",
     "nationality": "Moroccan(s)",
-    "ethnic_groups": {"Arab-Berber": "99%", "other": "1%"},
+    "ethnic_groups": {
+        "Arab-Berber": "99%",
+        "other": "1%"
+    },
     "languages": {
         "Arabic (official)": "",
         "Berber languages": "",
         "Tachelhit": "",
-        "Tarifit": "",
+        "Tarifit)": "",
         "French": ""
     },
     "religions": {
-        "Muslim": "99%", 
-        "other": "1%"},
+        "Muslim": "99%",
+        "other 1%; note - Jewish about": "6,000"
+    },
     "government_type": "parliamentary constitutional monarchy",
     "national_symbols": "pentacle symbol, lion",
-    "national_colors": ["red", "green"],
+    "national_colors": [
+        "red",
+        "green"
+    ],
     "gdp": "$109.3 billion",
     "agriculture": [
         "barley",
@@ -110,5 +117,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "55",
-    "international_disputes": "claims and administers Western Sahara whose sovereignty remains unresolved; Morocco protests Spain's control over the coastal enclaves of Ceuta, Melilla, and Penon de Velez de la Gomera, the islands of Penon de Alhucemas and Islas Chafarinas, and surrounding waters; both countries claim Isla Perejil (Leila Island); discussions have not progressed on a comprehensive maritime delimitation, setting limits on resource exploration and refugee interdiction, since Morocco's 2002 rejection of Spain's unilateral designation of a median line from the Canary Islands; Morocco serves as one of the primary launching areas of illegal migration into Spain from North Africa; Algeria's border with Morocco remains an irritant to bilateral relations, each nation accusing the other of harboring militants and arms smuggling; the National Liberation Front's assertions of a claim to Chirac Pastures in southeastern Morocco is a dormant dispute"
+    "international_disputes": "claims and administers Western Sahara whose sovereignty remains unresolved; Morocco protests Spain's control over the coastal enclaves of Ceuta, Melilla, and Penon de Velez de la Gomera, the islands of Penon de Alhucemas and Islas Chafarinas, and surrounding waters; both countries claim Isla Perejil (Leila Island); discussions have not progressed on a comprehensive maritime delimitation, setting limits on resource exploration and refugee interdiction, since Morocco's 2002 rejection of Spain's unilateral designation of a median line from the Canary Islands; Morocco serves as one of the primary launching areas of illegal migration into Spain from North Africa; Algeria's border with Morocco remains an irritant to bilateral relations, each nation accusing the other of harboring militants and arms smuggling; the National Liberation Front's assertions of a claim to Chirac Pastures in southeastern Morocco is a dormant dispute",
+    "terrorism": "Unknown"
 }

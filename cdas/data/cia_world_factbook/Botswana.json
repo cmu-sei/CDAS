@@ -52,9 +52,9 @@
         "other": "2.8%"
     },
     "religions": {
-        "Christian": "79.1%", 
-        "Badimo": "4.1%", 
-        "other": "1.4%", 
+        "Christian": "79.1%",
+        "Badimo": "4.1%",
+        "other": "1.4%",
         "none": "15.2%",
         "unspecified": "0.3%"
     },
@@ -117,5 +117,7 @@
     ],
     "ports_and_terminals": "Unknown",
     "waterways": "Unknown",
-    "number_of_airports": "74"
+    "number_of_airports": "74",
+    "international_disputes": "none",
+    "terrorism": "Unknown"
 }

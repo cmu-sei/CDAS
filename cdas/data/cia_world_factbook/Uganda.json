@@ -1,6 +1,6 @@
 {
     "name": "Uganda",
-    "background": "The colonial boundaries created by Britain to delimit Uganda grouped together a wide range of ethnic groups with different political systems and cultures. These differences complicated the establishment of a working political community after independence was achieved in 1962. The dictatorial regime of Idi AMIN (1971-79) was responsible for the deaths of some 300,000 opponents; guerrilla war and human rights abuses under Milton OBOTE (1980-85) claimed at least another 100,000 lives. The rule of Yoweri MUSEVENI since 1986 has brought relative stability and economic growth to Uganda. In December 2017, parliament approved the removal of presidential age limits, thereby making it possible for MUSEVENI to continue standing for office. Uganda faces numerous challenges, however, that could affect future stability, including explosive population growth, power and infrastructure constraints, corruption, underdeveloped democratic institutions, and human rights deficits.",
+    "background": "British influence in Uganda began in the 1860s with explorers seeking the source of the Nile and expanded in subsequent decades with various trade agreements and the establishment of the Uganda Protectorate in 1894. The colonial boundaries created by Britain to delimit Uganda grouped together a wide range of ethnic groups with different political systems and cultures. These differences complicated the establishment of a working political community after independence was achieved in 1962. The dictatorial regime of Idi AMIN (1971-79) was responsible for the deaths of some 300,000 opponents; guerrilla war and human rights abuses under Milton OBOTE (1980-85) claimed at least another 100,000 lives. The rule of Yoweri MUSEVENI since 1986 has brought relative stability and economic growth to Uganda. In December 2017, parliament approved the removal of presidential age limits, thereby making it possible for MUSEVENI to continue standing for office. Uganda faces numerous challenges, however, that could affect future stability, including explosive population growth, power and infrastructure constraints, corruption, underdeveloped democratic institutions, and human rights deficits.",
     "coordinates": "1 00 N, 32 00 E",
     "region": "Africa",
     "total_area": "241,038 sq km",
@@ -36,9 +36,17 @@
     "population": "43,252,966",
     "nationality": "Ugandan(s)",
     "ethnic_groups": {
-        "Baganda": "16.5%", "Banyankole": "9.6%", "Basoga": "8.8%", 
-        "Bakiga": "7.1%", "Iteso": "7%", "Langi": "6.3%", "Bagisu": "4.9%", 
-        "Acholi": "4.4%", "Lugbara": "3.3%", "other": "32.1%"},
+        "Baganda": "16.5%",
+        "Banyankole": "9.6%",
+        "Basoga": "8.8%",
+        "Bakiga": "7.1%",
+        "Iteso": "7%",
+        "Langi": "6.3%",
+        "Bagisu": "4.9%",
+        "Acholi": "4.4%",
+        "Lugbara": "3.3%",
+        "other": "32.1%"
+    },
     "languages": {
         "English (official)": "",
         "Ganda or Luganda": "",
@@ -48,14 +56,19 @@
         "Arabic": ""
     },
     "religions": {
-        "Protestant": "45.1%", 
-        "Roman Catholic": "39.3%", 
-        "Muslim": "13.7%", 
-        "other": "1.6%", 
-        "none":"0.2%"},
+        "Protestant": "45.1%",
+        "Roman Catholic": "39.3%",
+        "Muslim": "13.7%",
+        "other": "1.6%",
+        "none": "0.2%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "grey crowned crane",
-    "national_colors": ["black","yellow", "red"],
+    "national_colors": [
+        "black",
+        "yellow",
+        "red"
+    ],
     "gdp": "$26.62 billion",
     "agriculture": [
         "coffee",
@@ -112,5 +125,6 @@
     },
     "waterways": "Unknown",
     "number_of_airports": "47",
-    "international_disputes": "Uganda is subject to armed fighting among hostile ethnic groups, rebels, armed gangs, militias, and various government forces that extend across its borders; Ugandan refugees as well as members of the Lord's Resistance Army (LRA) seek shelter in southern Sudan and the Democratic Republic of the Congo's Garamba National Park; LRA forces have also attacked Kenyan villages across the border"
+    "international_disputes": "Uganda is subject to armed fighting among hostile ethnic groups, rebels, armed gangs, militias, and various government forces that extend across its borders; Ugandan refugees as well as members of the Lord's Resistance Army (LRA) seek shelter in southern Sudan and the Democratic Republic of the Congo's Garamba National Park; LRA forces have also attacked Kenyan villages across the border",
+    "terrorism": "Unknown"
 }
