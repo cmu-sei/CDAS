@@ -59,12 +59,18 @@
         "other": "5.3%"
     },
     "religions": {
-        "Catholic": "57%","Eastern Orthodox": "8.7%","Muslim": "7.9%",
-        "Evangelical Christian":"3.3%","other/none/unspecified": "23.1%"
+        "Catholic": "57%",
+        "Eastern Orthodox": "8.7%",
+        "Muslim": "7.9%",
+        "Evangelical Christian": "3.3%",
+        "other/none/unspecified": "23.1%"
     },
     "government_type": "federal parliamentary republic",
     "national_symbols": "eagle, edelweiss, Alpine gentian",
-    "national_colors": ["red", "white"],
+    "national_colors": [
+        "red",
+        "white"
+    ],
     "gdp": "$417.4 billion",
     "agriculture": [
         "grains",
@@ -120,5 +126,6 @@
         "river port(s)": "Enns, Krems, Linz, Vienna (Danube)"
     },
     "waterways": "358 km",
-    "number_of_airports": "52"
+    "number_of_airports": "50",
+    "international_disputes": "none"
 }

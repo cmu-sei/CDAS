@@ -50,10 +50,15 @@
         "Roman Catholic": "79%", 
         "Protestant": "14%", 
         "other": "2%", 
-        "unspecified": "5%"},
+        "unspecified": "5%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "Andean condor",
-    "national_colors": ["yellow", "blue", "red"],
+    "national_colors": [
+        "yellow",
+        "blue",
+        "red"
+    ],
     "gdp": "$314.5 billion",
     "agriculture": [
         "coffee",

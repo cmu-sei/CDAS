@@ -48,10 +48,19 @@
         "other": "3.1%",
         "unspecified": "3.3%"
     },
-    "religions": {"Orthodox": "48.3%", "Catholic": "7.1%", "other": "3.5%", "non-believers": "41.1%"},
+    "religions": {
+        "Orthodox": "48.3%",
+        "Catholic": "7.1%",
+        "other": "3.5%",
+        "non-believers": "41.1%"
+    },
     "government_type": "presidential republic in name, although in fact a dictatorship",
     "national_symbols": "no clearly defined current national symbol, the mounted knight known as Pahonia (the Chaser) is the traditional Belarusian symbol",
-    "national_colors": ["green", "red", "white"],
+    "national_colors": [
+        "green",
+        "red",
+        "white"
+    ],
     "gdp": "$54.44 billion",
     "agriculture": [
         "grain",

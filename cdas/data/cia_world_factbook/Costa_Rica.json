@@ -43,10 +43,15 @@
         "other Protestant": "2.6%", 
         "Jehovah's Witness": "0.5%", 
         "other": "2.4%", 
-        "none": "10.4%"},
+        "none": "10.4%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "yiguirro (clay-colored robin)",
-    "national_colors": ["blue", "white", "red"],
+    "national_colors": [
+        "blue",
+        "white",
+        "red"
+    ],
     "gdp": "$58.27 billion",
     "agriculture": [
         "bananas",

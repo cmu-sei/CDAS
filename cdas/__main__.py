@@ -53,7 +53,16 @@ from . import context, agents, simulator
 
 
 def arguments():
-    # Add and parse command line arguments
+    """Add and parse command line arguments
+    
+    Returns
+    --------
+    args : list
+        Arguments passed through argparse
+    config : dict
+        The imported configuration file
+    """
+
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "-c", "--config", help="configuration file (json)")
@@ -118,6 +127,20 @@ def arguments():
 
 
 def main(args, config):
+    """
+    Wrapper to run all components of CDAS
+
+    Calls context, agents, and asset builders to create simulation componenets.
+    Passes resulting components to simulation module. Manages output.
+
+    Parameters
+    ----------
+    args : list
+        The arguments passed in from argparse or read from the configuration 
+        file in the arguments method
+    config : dict
+        The configuration file opened and loaded from json
+    """
 
     # Set up the Output directory
     if os.path.isdir(args.output):

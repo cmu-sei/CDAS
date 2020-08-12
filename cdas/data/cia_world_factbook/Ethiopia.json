@@ -73,10 +73,15 @@
         "Protestant": "18.5%", 
         "traditional": "2.7%", 
         "Catholic": "0.7%", 
-        "other": "0.6%"},
+        "other": "0.6%"
+    },
     "government_type": "federal parliamentary republic",
     "national_symbols": "Abyssinian lion (traditional), yellow pentagram with five rays of light on a blue field (promoted by current government)",
-    "national_colors": ["green", "yellow", "red"],
+    "national_colors": [
+        "green",
+        "yellow",
+        "red"
+    ],
     "gdp": "$80.87 billion",
     "agriculture": [
         "cereals",

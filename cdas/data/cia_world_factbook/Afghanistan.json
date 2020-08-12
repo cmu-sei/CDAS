@@ -42,11 +42,11 @@
     "population": "36,643,815",
     "nationality": "Afghan(s)",
     "ethnic_groups": {
-        "Pashtun":"", 
-        "Tajik":"", 
-        "Hazara":"", 
-        "Uzbek":"", 
-        "other (includes smaller numbers of Baloch, Turkmen, Nuristani, Pamiri, Arab, Gujar, Brahui, Qizilbash, Aimaq, Pashai, and Kyrghyz)":""
+        "Pashtun": "", 
+        "Tajik": "", 
+        "Hazara": "", 
+        "Uzbek": "", 
+        "other": ""
     },
     "languages": {
         "Afghan Persian or Dari (official)": "77%",
@@ -60,10 +60,17 @@
         "Arabic": "1%",
         "Balochi": "1%"
     },
-    "religions": {"Muslim": "99.7%", "other": "0.3%"},
+    "religions": {
+        "Muslim": "99.7%",
+        "other": "0.3%"
+    },
     "government_type": "presidential Islamic republic",
-    "national_symbol_animal": "lion",
-    "national_colors": ["red", "green", "black"],
+    "national_symbols": "lion",
+    "national_colors": [
+        "red",
+        "green",
+        "black"
+    ],
     "gdp": "$20.24 billion",
     "agriculture": [
         "opium",
@@ -122,6 +129,6 @@
         "river port(s)": "Kheyrabad, Shir Khan"
     },
     "waterways": "1,200 km",
-    "number_of_airports": "43",
+    "number_of_airports": "46",
     "international_disputes": "Afghan, Coalition, and Pakistan military meet periodically to clarify the alignment of the boundary on the ground and on maps and since 2014 have met to discuss collaboration on the Taliban insurgency and counterterrorism efforts; Afghan and Iranian commissioners have discussed boundary monument densification and resurvey; Iran protests Afghanistan's restricting flow of dammed Helmand River tributaries during drought; Pakistan has sent troops across and built fences along some remote tribal areas of its treaty-defined Durand Line border with Afghanistan which serve as bases for foreign terrorists and other illegal activities; Russia remains concerned about the smuggling of poppy derivatives from Afghanistan through Central Asian countries"
 }

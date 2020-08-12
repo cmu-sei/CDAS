@@ -17,7 +17,7 @@
     "coastline": "0 km",
     "natural_hazards": [
         "flooding in the northeast (March to April)",
-        "volcanism: volcanic activity in Andes Mountains on the border with Chile - historically active volcanoes in this region are Irruputuncu (5,163 m), which last erupted in 1995, and the Olca-Paruma volcanic complex (5,762 m to 5,167 m)"
+        "volcanism: volcanic activity in Andes Mountains on the border with Chile; historically active volcanoes in this region are Irruputuncu (5,163 m), which last erupted in 1995, and the Olca-Paruma volcanic complex (5,762 m to 5,167 m)"
     ],
     "terrain": "rugged Andes Mountains with a highland plateau (Altiplano), hills, lowland plains of the Amazon Basin",
     "population_distribution": "a high altitude plain in the west between two cordillera of the Andes, known as the Altiplano, is the focal area for most of the population; a dense settlement pattern is also found in and around the city of Santa Cruz, located on the eastern side of the Andes",
@@ -38,7 +38,7 @@
     "population": "11,639,909",
     "nationality": "Bolivian(s)",
     "ethnic_groups": {
-        "mestizo (mixed white and Amerindian ancestry)": "68%",
+        "mestizo": "68%",
         "indigenous": "20%",
         "white": "5%",
         "cholo/chola": "2%",
@@ -47,23 +47,28 @@
         "unspecified": "3%"
     },
     "languages": {
-        "Spanish (official) 60.": "7%",
-        "Quechua (official) 21.": "2%",
-        "Aymara (official) 14.": "6%",
-        "Guarani (official) 0.": "6%",
-        "other native languages 0.": "4%",
-        "foreign languages 2.": "4%",
-        "none 0.": "1%"
+        "Spanish (official)": "60.7%",
+        "Quechua (official)": "21.2%",
+        "Aymara (official)": "14.6%",
+        "Guarani (official)": "0.6%",
+        "other native languages": "0.4%",
+        "foreign languages": "2.4%",
+        "none": "0.1%"
     },
     "religions": {
         "Roman Catholic": "76.8%", 
         "Evangelical and Pentecostal": "8.1%", 
         "Protestant": "7.9%", 
         "other": "1.7%", 
-        "none": "5.5%"},
+        "none": "5.5%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "llama, Andean condor, two national flowers: the cantuta and the patuju",
-    "national_colors": ["red", "yellow", "green"],
+    "national_colors": [
+        "red",
+        "yellow",
+        "green"
+    ],
     "gdp": "$37.78 billion",
     "agriculture": [
         "soybeans",
@@ -108,7 +113,7 @@
     "internet_users": "4,354,678",
     "mobile_subscriptions": "11,445,830",
     "internet_country_code": ".bo",
-    "military_and_security_forces": "Bolivian Armed Forces: Bolivian Army (Ejercito Boliviano, EB), Bolivian Naval Force (Fuerza Naval Boliviana, FNB, includes Marines), Bolivian Air Force (Fuerza Aerea Boliviana, FAB); Ministry of Interior: National Police (Policía Nacional de Bolivia, PNB; includes Anti-Narcotics Special Forces (Fuerza Especial de Lucha Contra el Narcotráfico, FELCN) and other paramilitary units",
+    "military_and_security_forces": "Bolivian Armed Forces: Bolivian Army (Ejercito Boliviano, EB), Bolivian Naval Force (Fuerza Naval Boliviana, FNB, includes Marines), Bolivian Air Force (Fuerza Aerea Boliviana, FAB); Ministry of Interior: National Police (Polic\u00eda Nacional de Bolivia, PNB; includes Anti-Narcotics Special Forces (Fuerza Especial de Lucha Contra el Narcotr\u00e1fico, FELCN) and other paramilitary units",
     "percent_GDP_on_military": "1.4%",
     "pipelines": [
         "5457 km gas",

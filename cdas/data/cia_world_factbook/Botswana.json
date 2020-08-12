@@ -1,6 +1,6 @@
 {
     "name": "Botswana",
-    "background": "Formerly the British protectorate of Bechuanaland, Botswana adopted its new name at independence in 1966. More than five decades of uninterrupted civilian leadership, progressive social policies, and significant capital investment have created one of the most stable economies in Africa. The ruling Botswana Democratic Party has won every national election since independence; President Mokgweetsi Eric MASISI assumed the presidency in April 2018 following the retirement of former President Ian KHAMA due to constitutional term limits. MASISI won his first election as president in October 2019, and he is Botswana’s fifth president since independence. Mineral extraction, principally diamond mining, dominates economic activity, though tourism is a growing sector due to the country's conservation practices and extensive nature preserves. Botswana has one of the world's highest rates of HIV/AIDS infection, but also one of Africa's most progressive and comprehensive programs for dealing with the disease.",
+    "background": "Formerly the British protectorate of Bechuanaland, Botswana adopted its new name at independence in 1966. More than five decades of uninterrupted civilian leadership, progressive social policies, and significant capital investment have created one of the most stable economies in Africa. The ruling Botswana Democratic Party has won every national election since independence; President Mokgweetsi Eric MASISI assumed the presidency in April 2018 following the retirement of former President Ian KHAMA due to constitutional term limits. MASISI won his first election as president in October 2019, and he is Botswana's fifth president since independence. Mineral extraction, principally diamond mining, dominates economic activity, though tourism is a growing sector due to the country's conservation practices and extensive nature preserves. Botswana has one of the world's highest rates of HIV/AIDS infection, but also one of Africa's most progressive and comprehensive programs for dealing with the disease.",
     "coordinates": "22 00 S, 24 00 E",
     "region": "Africa",
     "total_area": "581,730 sq km",
@@ -34,10 +34,11 @@
     "population": "2,317,233",
     "nationality": "Motswana (singular), Batswana (plural)",
     "ethnic_groups": {
-        "Tswana (or Setswana)": "79%",
+        "Tswana": "79%",
         "Kalanga": "11%",
         "Basarwa": "3%",
-        "other": "7%"
+        "other": "",
+        "including Kgalagadi and people of European ancestry": "7%"
     },
     "languages": {
         "Setswana": "77.3%",
@@ -55,10 +56,15 @@
         "Badimo": "4.1%", 
         "other": "1.4%", 
         "none": "15.2%",
-        "unspecified": "0.3%"},
+        "unspecified": "0.3%"
+    },
     "government_type": "parliamentary republic",
     "national_symbols": "zebra",
-    "national_colors": ["blue", "white", "black"],
+    "national_colors": [
+        "blue",
+        "white",
+        "black"
+    ],
     "gdp": "$17.38 billion",
     "agriculture": [
         "livestock",

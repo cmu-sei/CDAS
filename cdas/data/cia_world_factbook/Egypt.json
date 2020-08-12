@@ -41,7 +41,10 @@
     ],
     "population": "104,124,440",
     "nationality": "Egyptian(s)",
-    "ethnic_groups": {"Egyptian": "99.7%", "other": "0.3%"},
+    "ethnic_groups": {
+        "Egyptian": "99.7%",
+        "other": "0.3%"
+    },
     "languages": {
         "Arabic (official)": "",
         "Arabic": "",
@@ -50,10 +53,15 @@
     },
     "religions": {
         "Muslim (predominantly Sunni)": "90%", 
-        "Christian":"10%"},
+        "Christian":"10%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "golden eagle, white lotus",
-    "national_colors": ["red", "white", "black"],
+    "national_colors": [
+        "red",
+        "white",
+        "black"
+    ],
     "gdp": "$236.5 billion",
     "agriculture": [
         "cotton",

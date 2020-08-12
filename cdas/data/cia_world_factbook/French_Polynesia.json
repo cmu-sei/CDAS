@@ -35,7 +35,11 @@
         "other": "1.8%"
     },
     "religions": {
-        "Protestant": "54%", "Roman Catholic": "30%", "other": "10%", "no religion": "6%"},
+        "Protestant": "54%",
+        "Roman Catholic": "30%",
+        "other": "10%",
+        "no religion": "6%"
+    },
     "government_type": "parliamentary democracy (Assembly of French Polynesia); an overseas collectivity of France",
     "national_symbols": "outrigger canoe, Tahitian gardenia (Gardenia taitensis) flower",
     "national_colors": ["red", "white"],

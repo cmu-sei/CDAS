@@ -28,17 +28,24 @@
     "population": "162,650,853",
     "nationality": "Bangladeshi(s)",
     "ethnic_groups": {
-        "Bengali": "98%",
-        "other indigenous ethnic groups": "1.1%"
+        "other indigenous ethnic groups": "1.1%",
+        "Bengali": "98%"
     },
     "languages": {
         "Bangla (official)": "98.8%",
         "other": "1.2%"
     },
-    "religions": {"Muslim": "89.1%", "Hindu": "10%", "other": "0.9%"},
+    "religions": {
+        "Muslim": "89.1%",
+        "Hindu": "10%",
+        "other": "0.9%"
+    },
     "government_type": "parliamentary republic",
     "national_symbols": "Bengal tiger, water lily",
-    "national_colors": ["green", "red"],
+    "national_colors": [
+        "green",
+        "red"
+    ],
     "gdp": "$261.5 billion",
     "agriculture": [
         "rice",

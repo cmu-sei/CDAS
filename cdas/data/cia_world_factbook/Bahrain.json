@@ -38,10 +38,18 @@
         "Farsi": "",
         "Urdu": ""
     },
-    "religions": {"Muslim": "73.7%", "Christian": "9.3%", "Jewish": "0.1%", "other": "16.9%"},
+    "religions": {
+        "Muslim": "73.7%",
+        "Christian": "9.3%",
+        "Jewish": "0.1%",
+        "other": "16.9%"
+    },
     "government_type": "constitutional monarchy",
     "national_symbols": "a red field surmounted by a white serrated band with five white points",
-    "national_colors": ["red", "white"],
+    "national_colors": [
+        "red",
+        "white"
+    ],
     "gdp": "$35.33 billion",
     "agriculture": [
         "fruit",
@@ -85,5 +93,6 @@
         "major seaport(s)": "Mina' Salman, Sitrah"
     },
     "waterways": "Unknown",
-    "number_of_airports": "4"
+    "number_of_airports": "4",
+    "international_disputes": "none"
 }

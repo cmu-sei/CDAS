@@ -36,10 +36,14 @@
         "Mormon": "4.4%", 
         "other": "8%", 
         "none": "5.6%", 
-        "no response": "2.2%"},
+        "no response": "2.2%"
+    },
     "government_type": "parliamentary democracy",
     "national_symbols": "a circle of 15, five-pointed, white stars on a blue field, Tiare maori (Gardenia taitensis) flower",
-    "national_colors": ["green", "white"],
+    "national_colors": [
+        "green",
+        "white"
+    ],
     "gdp": "$0.3 billion",
     "agriculture": [
         "copra",

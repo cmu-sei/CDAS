@@ -17,7 +17,7 @@
     "terrain": "mostly low-lying limestone and coral islands, with some higher volcanic areas",
     "population_distribution": "the island of Antigua is home to approximately 97% of the population; nearly the entire population of Barbuda lives in Codrington",
     "natural_resources": [
-        "NEGL; pleasant climate fosters tourism"
+        "pleasant climate fosters tourism"
     ],
     "population": "98,179",
     "nationality": "Antiguan(s), Barbudan(s)",
@@ -33,10 +33,22 @@
         "English (official)": "",
         "Antiguan creole": ""
     },
-    "religions": {"Protestant": "68.3%", "Roman Catholic": "8.2%", "other": "12.2%", "unspecified": "5.5%", "none": "5.9%"},
+    "religions": {
+        "Protestant": "68.3%",
+        "Roman Catholic": "8.2%",
+        "other": "12.2%",
+        "unspecified": "5.5%",
+        "none": "5.9%"
+    },
     "government_type": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
     "national_symbols": "fallow deer",
-    "national_colors": ["red", "white", "blue", "black", "yellow"],
+    "national_colors": [
+        "red",
+        "white",
+        "blue",
+        "black",
+        "yellow"
+    ],
     "gdp": "$1.524 billion",
     "agriculture": [
         "cotton",
@@ -52,10 +64,7 @@
     "industries": [
         "tourism",
         "construction",
-        "light manufacturing",
-        "clothing",
-        "alcohol",
-        "household appliances"
+        "light manufacturing (clothing, alcohol, household appliances)"
     ],
     "exports": [
         "petroleum products",
@@ -85,5 +94,6 @@
         "major seaport(s)": "Saint John's"
     },
     "waterways": "Unknown",
-    "number_of_airports": "3"
+    "number_of_airports": "3",
+    "international_disputes": "none"
 }

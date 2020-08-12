@@ -63,10 +63,15 @@
         "Muslim": "1.6%", 
         "Kimbanguiste": "1.5%", 
         "other": "8.1%", 
-        "none": "11.3%"},
+        "none": "11.3%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "lion, elephant",
-    "national_colors": ["green", "yellow", "red"],
+    "national_colors": [
+        "green",
+        "yellow",
+        "red"
+    ],
     "gdp": "$8.718 billion",
     "agriculture": [
         "cassava",

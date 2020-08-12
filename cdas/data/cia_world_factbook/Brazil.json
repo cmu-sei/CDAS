@@ -68,7 +68,11 @@
         "unspecified": "0.4%"},
     "government_type": "federal presidential republic",
     "national_symbols": "Southern Cross constellation",
-    "national_colors": ["green", "yellow", "blue"],
+    "national_colors": [
+        "green",
+        "yellow",
+        "blue"
+    ],
     "gdp": "$2,055 billion",
     "agriculture": [
         "coffee",

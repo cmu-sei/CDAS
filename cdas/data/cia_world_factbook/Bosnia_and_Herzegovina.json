@@ -60,10 +60,15 @@
         "atheist": "0.8%", 
         "agnostic": "0.3%", 
         "other": "1.2%", 
-        "undeclared/no answer": "1.1%"},
+        "undeclared/no answer": "1.1%"
+    },
     "government_type": "parliamentary republic",
     "national_symbols": "golden lily",
-    "national_colors": ["blue", "yellow", "white"],
+    "national_colors": [
+        "blue",
+        "yellow",
+        "white"
+    ],
     "gdp": "$18.17 billion",
     "agriculture": [
         "wheat",

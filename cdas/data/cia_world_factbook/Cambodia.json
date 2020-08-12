@@ -47,10 +47,14 @@
         "Buddhist (official)": "97.9%", 
         "Muslim": "1.1%", 
         "Christian": "0.5%", 
-        "other": "0.6%"},
+        "other": "0.6%"
+    },
     "government_type": "parliamentary constitutional monarchy",
     "national_symbols": "Angkor Wat temple, kouprey (wild ox)",
-    "national_colors": ["red", "blue"],
+    "national_colors": [
+        "red",
+        "blue"
+    ],
     "gdp": "$22.09 billion",
     "agriculture": [
         "rice",

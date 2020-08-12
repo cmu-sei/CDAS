@@ -54,10 +54,14 @@
         "Jehovah's Witness": "1.7%", 
         "other": "10.5%", 
         "unspecified": "0.6%", 
-        "none": "15.5%"},
+        "none": "15.5%"
+    },
     "government_type": "parliamentary democracy (National Assembly) under a constitutional monarchy; a Commonwealth realm",
     "national_symbols": "Baird's tapir (a large, browsing, forest-dwelling mammal), keel-billed toucan, Black Orchid",
-    "national_colors": ["red", "blue"],
+    "national_colors": [
+        "red",
+        "blue"
+    ],
     "gdp": "$1.854 billion",
     "agriculture": [
         "bananas",

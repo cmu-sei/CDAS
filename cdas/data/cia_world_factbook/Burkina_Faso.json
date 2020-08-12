@@ -58,10 +58,15 @@
         "traditional/animist": "7.8%", 
         "Protestant": "6.5%", 
         "other/no answer": "0.2%", 
-        "none": "0.7%"},
+        "none": "0.7%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "white stallion",
-    "national_colors": ["red", "yellow", "green"],
+    "national_colors": [
+        "red",
+        "yellow",
+        "green"
+    ],
     "gdp": "$12.57 billion",
     "agriculture": [
         "cotton",

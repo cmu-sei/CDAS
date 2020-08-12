@@ -54,10 +54,15 @@
         "Muslim": "1.5%",
         "other": "1.5%",
         "unspecified": "2.5%",
-        "not religious or atheist": "3.8%"},
+        "not religious or atheist": "3.8%"
+    },
     "government_type": "parliamentary republic",
     "national_symbols": "red-white checkerboard",
-    "national_colors": ["red", "white", "blue"],
+    "national_colors": [
+        "red",
+        "white",
+        "blue"
+    ],
     "gdp": "$54.76 billion",
     "agriculture": [
         "wheat",

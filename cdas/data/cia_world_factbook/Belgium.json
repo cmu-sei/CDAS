@@ -42,12 +42,21 @@
         "German (official)": "1%"
     },
     "religions": {
-        "Roman Catholic": "50%", "Protestant and other Christian": "2.5%", 
-        "Muslim": "5%", "Jewish": "0.4%", "Buddhist": "0.3%", "atheist": "9.2%", 
-        "none": "32.6%"},
+        "Roman Catholic": "50%",
+        "Protestant and other Christian": "2.5%", 
+        "Muslim": "5%",
+        "Jewish": "0.4%",
+        "Buddhist": "0.3%",
+        "atheist": "9.2%", 
+        "none": "32.6%"
+    },
     "government_type": "federal parliamentary democracy under a constitutional monarchy",
     "national_symbols": "golden rampant lion",
-    "national_colors": ["red", "black", "yellow"],
+    "national_colors": [
+        "red",
+        "black",
+        "yellow"
+    ],
     "gdp": "$493.7 billion",
     "agriculture": [
         "sugar beets",
@@ -94,7 +103,7 @@
     "internet_users": "9,870,734",
     "mobile_subscriptions": "11,447,351",
     "internet_country_code": ".be",
-    "military_and_security_forces": "Belgian Armed Forces: Land Component, Naval Component, Air Component",
+    "military_and_security_forces": "Belgian Armed Forces: Land Component, Naval Component, Air Component, Medical Service",
     "percent_GDP_on_military": "0.93%",
     "pipelines": [
         "3139 km gas",
@@ -108,5 +117,6 @@
         "river port(s)": "Antwerp, Gent (Schelde River)"
     },
     "waterways": "2,043 km",
-    "number_of_airports": "41"
+    "number_of_airports": "41",
+    "international_disputes": "none"
 }

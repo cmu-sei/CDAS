@@ -40,11 +40,16 @@
         "German": ""
     },
     "religions": {
-        "Evangelical Lutheran (official)": "74.7%", "Muslim": "5.5%", 
-        "other/none/unspecified":"19.8%"},
+        "Evangelical Lutheran (official)": "74.7%",
+        "Muslim": "5.5%", 
+        "other/none/unspecified":"19.8%"
+    },
     "government_type": "parliamentary constitutional monarchy",
     "national_symbols": "lion, mute swan",
-    "national_colors": ["red", "white"],
+    "national_colors": [
+        "red",
+        "white"
+    ],
     "gdp": "$325.6 billion",
     "agriculture": [
         "barley",

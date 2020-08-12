@@ -50,10 +50,16 @@
         "Muslim":"", 
         "Baha'i":"", 
         "animist":"", 
-        "indigenous":""},
+        "indigenous":""
+    },
     "government_type": "presidential republic",
     "national_symbols": "silk cotton tree",
-    "national_colors": ["green", "white", "red", "blue"],
+    "national_colors": [
+        "green",
+        "white",
+        "red",
+        "blue"
+    ],
     "gdp": "$12.49 billion",
     "agriculture": [
         "coffee",

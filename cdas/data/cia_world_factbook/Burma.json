@@ -61,10 +61,16 @@
         "Animist": "0.8%", 
         "Hindu": "0.5%", 
         "other": "0.2%", 
-        "none": "0.1%"},
+        "none": "0.1%"
+    },
     "government_type": "parliamentary republic",
     "national_symbols": "chinthe (mythical lion)",
-    "national_colors": ["yellow", "green", "red", "white"],
+    "national_colors": [
+        "yellow",
+        "green",
+        "red",
+        "white"
+    ],
     "gdp": "$67.28 billion",
     "agriculture": [
         "rice",

@@ -50,6 +50,23 @@ from stix2 import Filter
 
 
 def create_threatactor(stix, nouns, adjectives, countries, fs):
+    """
+    Create a  basic threat actor profile, including country attribution, and 
+    save to the given data store. 
+
+    Parameters
+    ----------
+    stix : dictionary
+        Seed vocabulary for APT profiles
+    nouns : list
+        Words available for first word in APT name
+    adjectives : list
+        Words avialables for second word in APT name
+    countries : list
+        List of country objects (for setting attribution)
+    fs : FileSystemStore object
+        Where to locate the APT data
+    """
 
     # Create the name, but don't reuse nouns/adjs already chosen
     actors = fs.query(Filter('type', '=', 'threat-actor'))
@@ -168,15 +185,16 @@ def save(actor, directory, filetype, fs_gen, fs_real):
 
     Parameters
     ----------
+    actor : stix2 ThreatActor object
+        the threat actor to save
     directory : str
         Path to save output
     filetype : str
         For output file with country data (json or pdf)
-
-    Raises
-    ------
-    NotImplementedError
-        If unsupported filetype is passed in.
+    fs_gen : FileSystemStore  object
+        Data store with info about threat actor
+    fs_real : FileSystemSource object
+        Data store with reference information about real world data
     """
 
     filename = directory + actor.name.replace(' ', '')
@@ -320,6 +338,22 @@ def save(actor, directory, filetype, fs_gen, fs_real):
 
 
 def create_organization(stix, fs, country, org_names, assessment):
+    """
+    Generate a company profile and save to the STIX data store
+
+    Parameters
+    ----------
+    stix : dictionary
+        Seed vocabulary for organization profiles
+    fs : FileSystemStore object
+        Data store to save organization information
+    country : string
+        Name of country with which to associate organization
+    org_names : list
+        organization names to choose from
+    assessment : dictionary
+        representation of NIST 800-171 assessment table
+    """
 
     name = np.random.choice(org_names)
     revenue = int(np.random.chisquare(1) * 10000)

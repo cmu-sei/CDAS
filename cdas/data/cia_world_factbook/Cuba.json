@@ -42,10 +42,15 @@
         "Christian": "59.2%",
         "folk": "17.4%",
         "other": ".4%",
-        "none": "23%"},
+        "none": "23%"
+    },
     "government_type": "communist state",
     "national_symbols": "royal palm",
-    "national_colors": ["red", "white", "blue"],
+    "national_colors": [
+        "red",
+        "white",
+        "blue"
+    ],
     "gdp": "$93.79 billion",
     "agriculture": [
         "sugar",

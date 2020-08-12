@@ -54,10 +54,15 @@
         "Sunni Muslim":"", 
         "Coptic Christian":"", 
         "Roman Catholic":"", 
-        "Protestant":""},
+        "Protestant":""
+    },
     "government_type": "presidential republic",
     "national_symbols": "camel",
-    "national_colors": ["green", "red", "blue"],
+    "national_colors": [
+        "green", 
+        "red",
+        "blue"
+    ],
     "gdp": "$5.813 billion",
     "agriculture": [
         "sorghum",

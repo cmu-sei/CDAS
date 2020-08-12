@@ -34,11 +34,23 @@
     "languages": {
         "English (official)": ""
     },
-    "religions": {"Protestant": "73.2%", "Roman Catholic": "6.8%", "Jehovah's Witness": "1.1%", "other Christian": "10.9%", "other": "3.2%", "unspecified": "0.3%", "none": "4.5%"},
+    "religions": {
+        "Protestant": "73.2%",
+        "Roman Catholic": "6.8%",
+        "Jehovah's Witness": "1.1%",
+        "other Christian": "10.9%",
+        "other": "3.2%",
+        "unspecified": "0.3%",
+        "none": "4.5%"
+    },
     "government_type": "parliamentary democracy (House of Assembly); self-governing overseas territory of the UK",
     "national_symbols": "dolphin",
-    "national_colors": [],
-    "gdp": "$0.175 billion",
+    "national_colors": [
+        "red",
+        "black",
+        "yellow"
+    ],
+    "gdp": "$0.1754 billion",
     "agriculture": [
         "small quantities of tobacco",
         "vegetables",
@@ -78,5 +90,6 @@
         "major seaport(s)": "Blowing Point, Road Bay"
     },
     "waterways": "Unknown",
-    "number_of_airports": "2"
+    "number_of_airports": "1",
+    "international_disputes": "none"
 }

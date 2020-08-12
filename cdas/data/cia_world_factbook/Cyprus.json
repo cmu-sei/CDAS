@@ -48,12 +48,21 @@
         "unspecified": "0.6%"
     },
     "religions": {
-        "Orthodox Christian": "89.1%", "Roman Catholic": "2.9%", 
-        "Protestant/Anglican": "2%", "Muslim": "1.8%", "Buddhist": "1%", 
-        "other": "1.4%", "unknown": "1.1%", "none/atheist": "0.6%"},
+        "Orthodox Christian": "89.1%",
+        "Roman Catholic": "2.9%", 
+        "Protestant/Anglican": "2%",
+        "Muslim": "1.8%",
+        "Buddhist": "1%", 
+        "other": "1.4%",
+        "unknown": "1.1%",
+        "none/atheist": "0.6%"
+    },
     "government_type": "Republic of Cyprus - presidential republic; \"Turkish Republic of Northern Cyprus\" (self-declared) - parliamentary republic with enhanced presidency\n        \n      \n\nnote: a separation of the two main ethnic communities inhabiting the island began following the outbreak of communal strife in 1963; this separation was further solidified when a Greek military-junta-supported coup attempt prompted the Turkish military intervention in July 1974 that gave the Turkish Cypriots de facto control in the north; Greek Cypriots control the only internationally recognized government on the island; on 15 November 1983, then Turkish Cypriot \"President\" Rauf DENKTAS declared independence and the formation of the \"TRNC,” which is recognized only by Turkey",
     "national_symbols": "Cypriot mouflon (wild sheep), white dove",
-    "national_colors": ["blue", "white"],
+    "national_colors": [
+        "blue",
+        "white"
+    ],
     "gdp": "$21.7 billion",
     "agriculture": [
         "citrus",

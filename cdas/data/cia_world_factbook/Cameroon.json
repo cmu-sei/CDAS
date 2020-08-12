@@ -52,10 +52,15 @@
         "Muslim": "20.9%",
         "animist": "5.6%", 
         "other": "1%",
-        "non-believer": "3.2%"},
+        "non-believer": "3.2%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "lion",
-    "national_colors": ["green", "red", "yellow"],
+    "national_colors": [
+        "green",
+        "red",
+        "yellow"
+    ],
     "gdp": "$34.99 billion",
     "agriculture": [
         "coffee",

@@ -16,7 +16,7 @@
     "terrain": "coral islands relatively flat; volcanic islands steep, hilly",
     "population_distribution": "a fairly even distribution throughout the inhabited islands, with the largest islands of Tortola, Anegada, Virgin Gorda, and Jost Van Dyke having the largest populations",
     "natural_resources": [
-        "NEGL; pleasant climate",
+        "pleasant climate",
         "beaches foster tourism"
     ],
     "population": "37,381",
@@ -41,10 +41,17 @@
         "Hindu": "1.9%", 
         "other": "6.2%", 
         "none": "7.9%", 
-        "unspecified": "2.4%"},
+        "unspecified": "2.4%"
+    },
     "government_type": "parliamentary democracy; self-governing overseas territory of the UK",
     "national_symbols": "zenaida dove, white cedar flower",
-    "national_colors": ["yellow", "green", "red", "white", "blue"],
+    "national_colors": [
+        "yellow",
+        "green",
+        "red",
+        "white",
+        "blue"
+    ],
     "gdp": "$1.028 billion",
     "agriculture": [
         "fruits",
@@ -88,5 +95,6 @@
         "major seaport(s)": "Road Harbor"
     },
     "waterways": "Unknown",
-    "number_of_airports": "4"
+    "number_of_airports": "4",
+    "international_disputes": "none"
 }

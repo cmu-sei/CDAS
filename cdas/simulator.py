@@ -50,6 +50,26 @@ from stix2.v21 import Sighting, Relationship
 
 
 def random_indicator(itype):
+    """
+    Generate a random indicator of the specified type
+
+    Parameters
+    ----------
+    itype : string
+        The type of indicator to be generated. Choose from ['IPv4 address',
+        'domain name']
+
+    Raises
+    -------
+    ValueError
+        if the itype given is not a known type
+
+    Returns
+    -------
+    indicator : string
+        A randomly generated indicator of the specified type
+    """
+
     if itype == 'IPv4 address':
         ipv4 = [str(quad) for quad in np.random.randint(0, 255, 4)]
         indicator = ".".join(ipv4)
@@ -58,11 +78,37 @@ def random_indicator(itype):
         name = np.random.choice(list(string.ascii_letters+string.digits), 10)
         indicator = ''.join(name) + np.random.choice(generic_tlds)
     else:
-        print(f"ERROR: {itype} is not an available type for random_indicator")
+        raise ValueError(
+            f"{itype} is not an available type for random_indicator")
     return indicator
 
 
 def simulate(actors, orgs, tools, malwares, fs, start_date, td):
+    """
+    Run one round of attacks and defenses with the given data set.
+
+    Each threat actor in the 'actors' parameter takes an opportunity to choose
+    and attack a target. The actor chooses a tool (and possibly malware) from
+    the specified STIX data sets, and generates a random indicator. The attack
+    is either successful or unsuccessful. 
+
+    Parameters
+    ----------
+    actors : list of ThreatActor objects
+
+    orgs : list of Identity objects
+        STIX formatted Identity set filtered for identity_class=organization
+    tools : list of Tool objects
+        STIX formatted tool set to choose from
+    malwares : list of Malware objects
+        STIX formatted malware set to choose from
+    fs : FileSystemStore
+        Data store to save events
+    start_date : datetime
+        Start date for the events in the current round of the simulation
+    td : time delta
+        Time between each cyber event
+    """
 
     # Reference to convert the agent's sophistication level to an integer
     skill_levels = {
@@ -130,6 +176,23 @@ def simulate(actors, orgs, tools, malwares, fs, start_date, td):
 
 
 def save(e, apt_store, vuln_store, filename, output_type):
+    """
+    Saves the event information to a specified file.
+
+    Parameters
+    ----------
+    e : stix2 Sighting object
+        The event to save
+    apt_store : FileSystemStore/Source object
+        STIX formatted threat actors
+    vuln_store : FileSystemSource object
+        STIX formatted vulnerabilities
+    filename : string
+        The path and name of the output file
+    output_type : str
+        For output file with country data (json or pdf)
+    """
+
     r_num = str(
         e.first_seen).replace('-', '').replace(' ', '_').replace(':', '')
 

@@ -50,10 +50,15 @@
         "Muslim": "7.8%", 
         "other": "1.7%", 
         "none": "3.7%", 
-        "unspecified": "27.4%"},
+        "unspecified": "27.4%"
+    },
     "government_type": "parliamentary republic",
     "national_symbols": "lion",
-    "national_colors": ["white", "green", "red"],
+    "national_colors": [
+        "white",
+        "green",
+        "red"
+    ],
     "gdp": "$56.94 billion",
     "agriculture": [
         "vegetables",

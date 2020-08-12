@@ -42,10 +42,17 @@
         "Jehovah's Witness": "1.2%", 
         "other": "0.3%", 
         "none": "6.1%", 
-        "unspecified": "1.1%"},
+        "unspecified": "1.1%"
+    },
     "government_type": "parliamentary republic",
     "national_symbols": "Sisserou parrot, Carib Wood flower",
-    "national_colors": ["green", "yellow", "black", "white", "red"],
+    "national_colors": [
+        "green",
+        "yellow",
+        "black",
+        "white",
+        "red"
+    ],
     "gdp": "$0.557 billion",
     "agriculture": [
         "bananas",

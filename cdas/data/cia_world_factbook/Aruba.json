@@ -11,12 +11,13 @@
     "climate": "tropical marine; little seasonal temperature variation",
     "coastline": "68.5 km",
     "natural_hazards": [
-        "hurricanes - lies outside the Caribbean hurricane belt and is rarely threatened"
+        "hurricanes",
+        "lies outside the Caribbean hurricane belt and is rarely threatened"
     ],
     "terrain": "flat with a few hills; scant vegetation",
     "population_distribution": "most residents live in or around Oranjestad and San Nicolaas; most settlments tend to be located on the less mountainous western side of the island",
     "natural_resources": [
-        "NEGL; white sandy beaches foster tourism"
+        "white sandy beaches foster tourism"
     ],
     "population": "119,428",
     "nationality": "Aruban(s)",
@@ -35,18 +36,29 @@
     },
     "languages": {
         "Papiamento (official)": "69.4%",
-        "Spanish": "14%",
-        "English": "7%",
-        "Dutch (official)": "6%",
+        "Spanish": "13.7%",
+        "English": "7.1%",
+        "Dutch (official)": "6.1%",
         "Chinese": "1.5%",
         "other": "1.7%",
         "unspecified": "0.4%"
     },
     "religions": {
-        "Roman Catholic": "75.3%", "Protestant": "4.9%", "Jehovah's Witness": "1.7%", "other": "12%", "none": "5.5%", "unspecified": "0.5%"},
+        "Roman Catholic": "75.3%",
+        "Protestant": "4.9%",
+        "Jehovah's Witness": "1.7%",
+        "other": "12%",
+        "none": "5.5%",
+        "unspecified": "0.5%"
+    },
     "government_type": "parliamentary democracy; part of the Kingdom of the Netherlands",
     "national_symbols": "Hooiberg (Haystack) Hill",
-    "national_colors": ["blue", "yellow", "red", "white"],
+    "national_colors": [
+        "blue",
+        "yellow",
+        "red",
+        "white"
+    ],
     "gdp": "$2.7 billion",
     "agriculture": [
         "aloes",
@@ -85,5 +97,6 @@
         "cruise port(s)": "Oranjestad"
     },
     "waterways": "Unknown",
-    "number_of_airports": "1"
+    "number_of_airports": "1",
+    "international_disputes": "none"
 }

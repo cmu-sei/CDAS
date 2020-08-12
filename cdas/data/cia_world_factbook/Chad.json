@@ -74,10 +74,15 @@
         "animist": "0.3%", 
         "other Christian": "0.2%", 
         "none": "2.8%", 
-        "unspecified": "0.7%"},
+        "unspecified": "0.7%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "goat (north), lion (south)",
-    "national_colors": ["blue", "yellow", "red"],
+    "national_colors": [
+        "blue",
+        "yellow",
+        "red"
+    ],
     "gdp": "$9.872 billion",
     "agriculture": [
         "cotton",

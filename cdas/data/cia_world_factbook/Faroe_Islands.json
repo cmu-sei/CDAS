@@ -38,10 +38,15 @@
         "Christian": "89.3%", 
         "other": "1%", 
         "none": "3.8%", 
-        "unspecified": "6%"},
+        "unspecified": "6%"
+    },
     "government_type": "parliamentary democracy (Faroese Parliament); part of the Kingdom of Denmark",
     "national_symbols": "ram",
-    "national_colors": ["red", "white", "blue"],
+    "national_colors": [
+        "red",
+        "white",
+        "blue"
+    ],
     "gdp": "$2.765 billion",
     "agriculture": [
         "milk",

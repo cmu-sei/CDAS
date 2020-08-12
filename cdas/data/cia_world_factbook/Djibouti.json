@@ -49,10 +49,16 @@
     },
     "religions": {
         "Sunni Muslim": "94%", 
-        "Christian": "6%"},
+        "Christian": "6%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "red star",
-    "national_colors": ["light blue", "green", "white", "red"],
+    "national_colors": [
+        "light blue",
+        "green",
+        "white",
+        "red"
+    ],
     "gdp": "$2.029 billion",
     "agriculture": [
         "fruits",

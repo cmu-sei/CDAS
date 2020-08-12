@@ -53,10 +53,15 @@
         "other Christian": "2.2%", 
         "other": "0.9%", 
         "none": "54.1%", 
-        "unspecified": "16.7%"},
+        "unspecified": "16.7%"
+    },
     "government_type": "parliamentary republic",
     "national_symbols": "barn swallow, cornflower",
-    "national_colors": ["blue", "black", "white"],
+    "national_colors": [
+        "blue",
+        "black",
+        "white"
+    ],
     "gdp": "$25.97 billion",
     "agriculture": [
         "grain",

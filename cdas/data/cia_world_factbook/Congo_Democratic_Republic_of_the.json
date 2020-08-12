@@ -45,7 +45,9 @@
     ],
     "population": "101,780,263",
     "nationality": "Congolese (singular and plural)",
-    "ethnic_groups": {"the four largest tribes - Mongo, Luba, Kongo (all Bantu), and the Mangbetu-Azande (Hamitic)":"45%"},
+    "ethnic_groups": {
+        "the four largest tribes - Mongo, Luba, Kongo (all Bantu), and the Mangbetu-Azande (Hamitic)":"45%"
+    },
     "languages": {
         "French (official)": "",
         "Lingala": "",
@@ -61,10 +63,15 @@
         "Muslim": "1.3%",
         "other": "1.2%", 
         "none": "1.3%", 
-        "unspecified": ".2%"},
+        "unspecified": ".2%"
+    },
     "government_type": "semi-presidential republic",
     "national_symbols": "leopard",
-    "national_colors": ["sky blue", "red", "yellow"],
+    "national_colors": [
+        "sky blue",
+        "red",
+        "yellow"
+    ],
     "gdp": "$41.44 billion",
     "agriculture": [
         "coffee",

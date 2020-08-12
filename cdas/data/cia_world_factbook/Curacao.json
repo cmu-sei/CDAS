@@ -47,12 +47,23 @@
         "unspecified": "0.3%"
     },
     "religions": {
-        "Roman Catholic": "72.8%", "Pentecostal": "6.6%", "Protestant": "3.2%", 
-        "Adventist": "3%", "Jehovah's Witness": "2%", "Evangelical": "1.9%", 
-        "other": "3.8%", "none": "6%", "unspecified": "0.6%"},
+        "Roman Catholic": "72.8%",
+        "Pentecostal": "6.6%",
+        "Protestant": "3.2%", 
+        "Adventist": "3%",
+        "Jehovah's Witness": "2%",
+        "Evangelical": "1.9%", 
+        "other": "3.8%",
+        "none": "6%",
+        "unspecified": "0.6%"
+    },
     "government_type": "parliamentary democracy",
     "national_symbols": "laraha (citrus tree)",
-    "national_colors": ["blue", "yellow", "white"],
+    "national_colors": [
+        "blue",
+        "yellow",
+        "white"
+    ],
     "gdp": "$5.6 billion",
     "agriculture": [
         "aloe",

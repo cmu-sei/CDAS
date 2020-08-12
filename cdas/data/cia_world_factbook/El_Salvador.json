@@ -38,10 +38,18 @@
         "Spanish (official)": "",
         "Nawat": ""
     },
-    "religions": {"Roman Catholic": "50%", "Protestant":"36%", "other": "2%", "none": "12%"},
+    "religions": {
+        "Roman Catholic": "50%",
+        "Protestant":"36%",
+        "other": "2%",
+        "none": "12%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "turquoise-browed motmot (bird)",
-    "national_colors": ["blue", "white"],
+    "national_colors": [
+        "blue",
+        "white"
+    ],
     "gdp": "$24.81 billion",
     "agriculture": [
         "coffee",

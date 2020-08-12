@@ -19,7 +19,7 @@
         "San Miguel de Tucuman and Mendoza areas in the Andes subject to earthquakes",
         "pamperos are violent windstorms that can strike the pampas and northeast",
         "heavy flooding in some areas",
-        "volcanism: volcanic activity in the Andes Mountains along the Chilean border, Copahue (2,997 m) last erupted in 2000, other historically active volcanoes include Llullaillaco, Maipo, Planchon-Peteroa, San Jose, Tromen, Tupungatito, and Viedma"
+        "volcanism: volcanic activity in the Andes Mountains along the Chilean border; Copahue (2,997 m) last erupted in 2000; other historically active volcanoes include Llullaillaco, Maipo, Planchon-Peteroa, San Jose, Tromen, Tupungatito, and Viedma"
     ],
     "terrain": "rich plains of the Pampas in northern half, flat to rolling plateau of Patagonia in south, rugged Andes along western border",
     "population_distribution": "one-third of the population lives in Buenos Aires; pockets of agglomeration occur throughout the northern and central parts of the country; Patagonia to the south remains sparsely populated",
@@ -50,10 +50,18 @@
         "French": "",
         "indigenous": ""
     },
-    "religions": {"Roman Catholic": "92%", "Protestant": "2%", "Jewish": "2%", "other": "4%"},
+    "religions": {
+        "nominally Roman Catholic": "92%",
+        "Protestant": "2%",
+        "Jewish": "2%",
+        "other": "4%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "Sun of May (a sun-with-face symbol)",
-    "national_colors": ["sky blue", "white"],
+    "national_colors": [
+        "sky blue",
+        "white"
+    ],
     "gdp": "$637.6 billion",
     "agriculture": [
         "sunflower seeds",
@@ -95,7 +103,7 @@
     "internet_users": "30,786,889",
     "mobile_subscriptions": "58,598,041",
     "internet_country_code": ".ar",
-    "military_and_security_forces": "Armed Forces of the Argentine Republic (Fuerzas Armadas de la República Argentina): Argentine Army (Ejercito Argentino), Navy of the Argentine Republic (Armada Republica; includes naval aviation and naval infantry), Argentine Air Force (Fuerza Aerea Argentina, FAA); Ministry of Security: Gendarmerie, Prefectura Naval (coast guard)",
+    "military_and_security_forces": "Armed Forces of the Argentine Republic (Fuerzas Armadas de la Rep\u00fablica Argentina): Argentine Army (Ejercito Argentino), Navy of the Argentine Republic (Armada Republica; includes naval aviation and naval infantry), Argentine Air Force (Fuerza Aerea Argentina, FAA); Ministry of Security: Gendarmerie, Prefectura Naval (coast guard)",
     "percent_GDP_on_military": "0.7%",
     "pipelines": [
         "29930 km gas",
@@ -110,6 +118,6 @@
         "river port(s)": "Arroyo Seco, Rosario, San Lorenzo-San Martin (Parana)"
     },
     "waterways": "11,000 km",
-    "number_of_airports": "1,138",
+    "number_of_airports": "916",
     "international_disputes": "Argentina continues to assert its claims to the UK-administered Falkland Islands (Islas Malvinas), South Georgia, and the South Sandwich Islands in its constitution, forcibly occupying the Falklands in 1982, but in 1995 agreed to no longer seek settlement by force; UK continues to reject Argentine requests for sovereignty talks; territorial claim in Antarctica partially overlaps UK and Chilean claims; uncontested dispute between Brazil and Uruguay over Braziliera/Brasiliera Island in the Quarai/Cuareim River leaves the tripoint with Argentina in question; in 2010, the ICJ ruled in favor of Uruguay's operation of two paper mills on the Uruguay River, which forms the border with Argentina; the two countries formed a joint pollution monitoring regime; the joint boundary commission, established by Chile and Argentina in 2001 has yet to map and demarcate the delimited boundary in the inhospitable Andean Southern Ice Field (Campo de Hielo Sur); contraband smuggling, human trafficking, and illegal narcotic trafficking are problems in the porous areas of the border with Bolivia"
 }

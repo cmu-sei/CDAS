@@ -47,10 +47,17 @@
         "other": "5.8%"
     },
     "religions": {
-        "Lutheran": "69.8%", "Greek Orthodox": "1.1%", "other": "1.7%", "unspecified": "27.4%"},
+        "Lutheran": "69.8%",
+        "Greek Orthodox": "1.1%",
+        "other": "1.7%",
+        "unspecified": "27.4%"
+    },
     "government_type": "parliamentary republic",
     "national_symbols": "lion",
-    "national_colors": ["blue", "white"],
+    "national_colors": [
+        "blue",
+        "white"
+    ],
     "gdp": "$252.8 billion",
     "agriculture": [
         "barley",

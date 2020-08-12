@@ -45,12 +45,22 @@
         "tribal languages": ""
     },
     "religions": {
-        "Muslim": "27.7%", "Roman Catholic": "25.5%", "Protestant": "13.5%", 
-        "Vodoun": "11.6%", "other Christian": "9.5%", 
-        "other traditional religions": "2.6%", "other": "2.6%", "none": "5.8%"},
+        "Muslim": "27.7%",
+        "Roman Catholic": "25.5%",
+        "Protestant": "13.5%", 
+        "Vodoun": "11.6%",
+        "other Christian": "9.5%", 
+        "other traditional religions": "2.6%",
+        "other": "2.6%",
+        "none": "5.8%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "leopard",
-    "national_colors": ["green", "yellow", "red"],
+    "national_colors": [
+        "green",
+        "yellow",
+        "red"
+    ],
     "gdp": "$9.246 billion",
     "agriculture": [
         "cotton",

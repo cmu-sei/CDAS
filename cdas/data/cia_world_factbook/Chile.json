@@ -51,10 +51,15 @@
         "Jehovah's Witness": "1%", 
         "other": "3.4%", 
         "none": "11.5%", 
-        "unspecified": "1.1%"},
+        "unspecified": "1.1%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "huemul (mountain deer), Andean condor",
-    "national_colors": ["red", "white", "blue"],
+    "national_colors": [
+        "red",
+        "white",
+        "blue"
+    ],
     "gdp": "$277 billion",
     "agriculture": [
         "grapes",

@@ -62,10 +62,15 @@
         "Protestant": "23.9%", 
         "Muslim": "2.5%", 
         "other": "3.6%", 
-        "unspecified": "7.9%"},
+        "unspecified": "7.9%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "lion",
-    "national_colors": ["red", "white", "green"],
+    "national_colors": [
+        "red",
+        "white",
+        "green"
+    ],
     "gdp": "$3.396 billion",
     "agriculture": [
         "coffee",

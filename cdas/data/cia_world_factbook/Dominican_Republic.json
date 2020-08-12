@@ -40,10 +40,15 @@
         "Protestant": "21.3%", 
         "other": "2.2%", 
         "none": "28%", 
-        "don't know/no response": ".7%"},
+        "don't know/no response": ".7%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "palmchat (bird)",
-    "national_colors": ["red", "white", "blue"],
+    "national_colors": [
+        "red",
+        "white",
+        "blue"
+    ],
     "gdp": "$76.09 billion",
     "agriculture": [
         "cocoa",

@@ -100,10 +100,14 @@
         "Hindu": "0.1%", 
         "Jewish": "0.1%", 
         "other": "0.7%", 
-        "unaffiliated": "52.2%"},
+        "unaffiliated": "52.2%"
+    },
     "government_type": "communist party-led state",
     "national_symbols": "dragon, giant panda",
-    "national_colors": ["red", "yellow"],
+    "national_colors": [
+        "red",
+        "yellow"
+    ],
     "gdp": "$12,001 billion",
     "agriculture": [
         "world leader in gross value of agricultural output",

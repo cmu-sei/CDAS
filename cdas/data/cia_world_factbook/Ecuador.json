@@ -51,10 +51,15 @@
         "Jehovah's Witness": "1.2%", 
         "other": "6.4%", 
         "atheist": "7.9%", 
-        "agnostic": "0.1%"},
+        "agnostic": "0.1%"
+    },
     "government_type": "presidential republic",
     "national_symbols": "Andean condor",
-    "national_colors": ["yellow", "blue", "red"],
+    "national_colors": [
+        "yellow",
+        "blue",
+        "red"
+    ],
     "gdp": "$104.3 billion",
     "agriculture": [
         "bananas",

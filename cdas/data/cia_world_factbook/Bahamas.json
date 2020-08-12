@@ -40,10 +40,15 @@
         "other Christian": "13%", 
         "other": "0.6%", 
         "none": "1.9%", 
-        "unspecified": "2.6%"},
-    "government_type": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
+        "unspecified": "2.6%"
+    },
+    "government_type": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
     "national_symbols": "blue marlin, flamingo, Yellow Elder flower",
-    "national_colors": ["aquamarine", "yellow", "black"],
+    "national_colors": [
+        "aquamarine",
+        "yellow",
+        "black"
+    ],
     "gdp": "$12.16 billion",
     "agriculture": [
         "citrus",
@@ -89,6 +94,6 @@
         "container port(s) (TEUs)": "Freeport (1,116,272)"
     },
     "waterways": "Unknown",
-    "number_of_airports": "61",
+    "number_of_airports": "54",
     "international_disputes": "disagrees with the US on the alignment of the northern axis of a potential maritime boundary"
 }

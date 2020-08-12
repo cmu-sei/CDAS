@@ -42,6 +42,6 @@
         "pdf",
         "stix"
     ],
-    "output_types": ["json"],
+    "output_types": ["pdf"],
     "temp_path": "cdas-temp"
 }

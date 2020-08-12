@@ -50,7 +50,13 @@
     "religions": {},
     "government_type": "presidential republic",
     "national_symbols": "elephant",
-    "national_colors": ["blue", "white", "green", "yellow", "red"],
+    "national_colors": [
+        "blue",
+        "white",
+        "green",
+        "yellow",
+        "red"
+    ],
     "gdp": "$1.937 billion",
     "agriculture": [
         "cotton",

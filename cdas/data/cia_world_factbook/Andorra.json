@@ -39,10 +39,16 @@
         "Castilian": "",
         "Portuguese": ""
     },
-    "religions": {"Roman Catholic": ""},
+    "religions": {
+        "Roman Catholic": ""
+    },
     "government_type": "parliamentary democracy (since March 1993) that retains its chiefs of state in the form of a co-principality; the two princes are the President of France and Bishop of Seu d'Urgell, Spain",
     "national_symbols": "red cow (breed unspecified)",
-    "national_colors": ["blue", "yellow", "red"],
+    "national_colors": [
+        "blue",
+        "yellow",
+        "red"
+    ],
     "gdp": "$2.712 billion",
     "agriculture": [
         "small quantities of rye",
@@ -81,5 +87,6 @@
     ],
     "ports_and_terminals": "Unknown",
     "waterways": "Unknown",
-    "number_of_airports": "Unknown"
+    "number_of_airports": "Unknown",
+    "international_disputes": "none"
 }

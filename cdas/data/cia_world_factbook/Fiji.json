@@ -44,10 +44,13 @@
         "Muslim": "6.3%", 
         "Sikh": "0.3%", 
         "other": "0.3%", 
-        "none": "0.8%"},
+        "none": "0.8%"
+    },
     "government_type": "parliamentary republic",
     "national_symbols": "Fijian canoe",
-    "national_colors": ["light blue"],
+    "national_colors": [
+        "light blue"
+    ],
     "gdp": "$4.891 billion",
     "agriculture": [
         "sugarcane",

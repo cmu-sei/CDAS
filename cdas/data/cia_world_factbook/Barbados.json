@@ -42,10 +42,15 @@
         "Rastafarian": "1%", 
         "other": "1.5%", 
         "none": "20.6%", 
-        "unspecified": "1.2%"},
-    "government_type": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
+        "unspecified": "1.2%"
+    },
+    "government_type": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
     "national_symbols": "Neptune's trident, pelican, Red Bird of Paradise flower (also known as Pride of Barbados)",
-    "national_colors": ["blue", "yellow", "black"],
+    "national_colors": [
+        "blue",
+        "yellow",
+        "black"
+    ],
     "gdp": "$4.99 billion",
     "agriculture": [
         "sugarcane",

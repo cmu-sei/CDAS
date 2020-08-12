@@ -43,10 +43,18 @@
         "other": "0.3%"
     },
     "religions": {
-        "Roman Catholic": "10.4%", "Protestant": "1.1%", "other and unspecified": "54%", "none": "34.5%"},
+        "Roman Catholic": "10.4%",
+        "Protestant": "1.1%",
+        "other and unspecified": "54%",
+        "none": "34.5%"
+    },
     "government_type": "parliamentary republic",
     "national_symbols": "silver (or white), double-tailed, rampant lion",
-    "national_colors": ["white", "red", "blue"],
+    "national_colors": [
+        "white",
+        "red",
+        "blue"
+    ],
     "gdp": "$215.8 billion",
     "agriculture": [
         "wheat",
