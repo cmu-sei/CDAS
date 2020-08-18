@@ -34,16 +34,16 @@
     ],
     "population": "25,643,466",
     "nationality": "Korean(s)",
-    "ethnic_groups": {
-        "racially homogeneous; there is a small Chinese community and a few ethnic Japanese": ""
-    },
-    "languages": {
-        "Korean": ""
-    },
-    "religions": {
-        "traditionally Buddhist and Confucianist": "",
-        "some Christian and syncretic Chondogyo": ""
-    },
+    "ethnic_groups": [
+        "racially homogeneous; there is a small Chinese community and a few ethnic Japanese"
+    ],
+    "languages": [
+        "Korean"
+    ],
+    "religions": [
+        "traditionally Buddhist and Confucianist",
+        "some Christian and syncretic Chondogyo"
+    ],
     "government_type": "dictatorship, single-party state; official state ideology of \"Juche\" or \"national self-reliance\"",
     "national_symbols": "red star, chollima (winged horse)",
     "national_colors": [
@@ -105,5 +105,5 @@
     "waterways": "2,250 km",
     "number_of_airports": "82",
     "international_disputes": "risking arrest, imprisonment, and deportation, tens of thousands of North Koreans cross into China to escape famine, economic privation, and political oppression; North Korea and China dispute the sovereignty of certain islands in Yalu and Tumen Rivers; Military Demarcation Line within the 4-km-wide Demilitarized Zone has separated North from South Korea since 1953; periodic incidents in the Yellow Sea with South Korea which claims the Northern Limiting Line as a maritime boundary; North Korea supports South Korea in rejecting Japan's claim to Liancourt Rocks (Tok-do/Take-shima)",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

@@ -33,11 +33,11 @@
         "Berber and Arab": "97%",
         "other": "3%"
     },
-    "languages": {
-        "Arabic (official)": "",
-        "Italian": "",
-        "English; Berber": ""
-    },
+    "languages": [
+        "Arabic (official)",
+        "Italian",
+        "English; Berber"
+    ],
     "religions": {
         "Muslim": "96.6%",
         "Christian": "2.7%",

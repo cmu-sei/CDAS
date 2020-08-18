@@ -42,13 +42,13 @@
         "Toma": "1.6%",
         "other/foreign": ".4%"
     },
-    "languages": {
-        "French (official)": "",
-        "Pular": "",
-        "Maninka": "",
-        "Susu": "",
-        "other native languages": ""
-    },
+    "languages": [
+        "French (official)",
+        "Pular",
+        "Maninka",
+        "Susu",
+        "other native languages"
+    ],
     "religions": {
         "Muslim": "89.1%",
         "Christian": "6.8%",
@@ -119,5 +119,5 @@
     "waterways": "1,300 km",
     "number_of_airports": "16",
     "international_disputes": "Sierra Leone considers Guinea's definition of the flood plain limits to define the left bank boundary of the Makona and Moa Rivers excessive and protests Guinea's continued occupation of these lands, including the hamlet of Yenga, occupied since 1998",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

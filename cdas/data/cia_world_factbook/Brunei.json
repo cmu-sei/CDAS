@@ -27,11 +27,11 @@
         "Chinese": "10.3%",
         "other": "24%"
     },
-    "languages": {
-        "Malay (official)": "",
-        "English": "",
-        "Chinese dialects": ""
-    },
+    "languages": [
+        "Malay (official)",
+        "English",
+        "Chinese dialects"
+    ],
     "religions": {
         "Muslim": "78.8%",
         "Christian": "8.7%",
@@ -95,5 +95,5 @@
     "waterways": "209 km",
     "number_of_airports": "1",
     "international_disputes": "per Letters of Exchange signed in 2009, Malaysia in 2010 ceded two hydrocarbon concession blocks to Brunei in exchange for Brunei's sultan dropping claims to the Limbang corridor, which divides Brunei; nonetheless, Brunei claims a maritime boundary extending as far as a median with Vietnam, thus asserting an implicit claim to Louisa Reef",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

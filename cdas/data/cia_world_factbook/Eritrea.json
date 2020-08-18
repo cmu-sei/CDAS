@@ -40,21 +40,21 @@
         "Bilen": "2%",
         "other": "5%"
     },
-    "languages": {
-        "Tigrinya (official)": "",
-        "Arabic (official)": "",
-        "English (official)": "",
-        "Tigre": "",
-        "Kunama": "",
-        "Afar": "",
-        "other Cushitic languages": ""
-    },
-    "religions": {
-        "Sunni Muslim": "",
-        "Coptic Christian": "",
-        "Roman Catholic": "",
-        "Protestant": ""
-    },
+    "languages": [
+        "Tigrinya (official)",
+        "Arabic (official)",
+        "English (official)",
+        "Tigre",
+        "Kunama",
+        "Afar",
+        "other Cushitic languages"
+    ],
+    "religions": [
+        "Sunni Muslim",
+        "Coptic Christian",
+        "Roman Catholic",
+        "Protestant"
+    ],
     "government_type": "presidential republic",
     "national_symbols": "camel",
     "national_colors": [
@@ -112,5 +112,5 @@
     "waterways": "Unknown",
     "number_of_airports": "13",
     "international_disputes": "Eritrea and Ethiopia agreed to abide by 2002 Ethiopia-Eritrea Boundary Commission's (EEBC) delimitation decision, but neither party responded to the revised line detailed in the November 2006 EEBC Demarcation Statement; Sudan accuses Eritrea of supporting eastern Sudanese rebel groups; in 2008, Eritrean troops moved across the border on Ras Doumera peninsula and occupied Doumera Island with undefined sovereignty in the Red Sea",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

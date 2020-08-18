@@ -42,9 +42,9 @@
         "Amerindian": "4.3%",
         "unspecified": "1.4%"
     },
-    "languages": {
-        "Spanish (official)": ""
-    },
+    "languages": [
+        "Spanish (official)"
+    ],
     "religions": {
         "Roman Catholic": "79%",
         "Protestant": "14%",
@@ -125,5 +125,5 @@
     "waterways": "24,725 km",
     "number_of_airports": "836",
     "international_disputes": "in December 2007, ICJ allocated San Andres, Providencia, and Santa Catalina islands to Colombia under 1928 Treaty but did not rule on 82 degrees W meridian as maritime boundary with Nicaragua; managed dispute with Venezuela over maritime boundary and Venezuelan-administered Los Monjes Islands near the Gulf of Venezuela; Colombian-organized illegal narcotics, guerrilla, and paramilitary activities penetrate all neighboring borders and have caused Colombian citizens to flee mostly into neighboring countries; Colombia, Honduras, Nicaragua, Jamaica, and the US assert various claims to Bajo Nuevo and Serranilla Bank",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

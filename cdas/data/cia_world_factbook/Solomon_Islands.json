@@ -36,11 +36,11 @@
         "Micronesian": "1.2%",
         "other": "0.3%"
     },
-    "languages": {
-        "Melanesian pidgin": "",
-        "English (official)": "",
-        "120 indigenous languages": ""
-    },
+    "languages": [
+        "Melanesian pidgin",
+        "English (official)",
+        "120 indigenous languages"
+    ],
     "religions": {
         "Protestant": "73.4%",
         "Roman Catholic": "19.6%",
@@ -103,5 +103,5 @@
     "waterways": "Unknown",
     "number_of_airports": "36",
     "international_disputes": "since 2003, the Regional Assistance Mission to Solomon Islands, consisting of police, military, and civilian advisors drawn from 15 countries, has assisted in reestablishing and maintaining civil and political order while reinforcing regional stability and security",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

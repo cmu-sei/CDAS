@@ -22,12 +22,12 @@
     ],
     "population": "1,379,365",
     "nationality": "Mauritian(s)",
-    "ethnic_groups": {
-        "Indo-Mauritian": "",
-        "Creole": "",
-        "Sino-Mauritian": "",
-        "Franco-Mauritian": ""
-    },
+    "ethnic_groups": [
+        "Indo-Mauritian",
+        "Creole",
+        "Sino-Mauritian",
+        "Franco-Mauritian"
+    ],
     "languages": {
         "Creole": "86.5%",
         "Bhojpuri": "5.3%",
@@ -106,5 +106,5 @@
     "waterways": "Unknown",
     "number_of_airports": "5",
     "international_disputes": "Mauritius and Seychelles claim the Chagos Islands; claims French-administered Tromelin Island",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

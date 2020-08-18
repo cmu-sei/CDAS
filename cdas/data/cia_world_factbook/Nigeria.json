@@ -45,14 +45,14 @@
         "Ijaw/Izon": "1.8%",
         "other": "24.7%"
     },
-    "languages": {
-        "English (official)": "",
-        "Hausa": "",
-        "Yoruba": "",
-        "Igbo": "",
-        "Fulani": "",
-        "over 500 additional indigenous languages": ""
-    },
+    "languages": [
+        "English (official)",
+        "Hausa",
+        "Yoruba",
+        "Igbo",
+        "Fulani",
+        "over 500 additional indigenous languages"
+    ],
     "religions": {
         "Muslim": "53.5%",
         "Roman Catholic": "10.6%",
@@ -135,5 +135,5 @@
     "waterways": "8,600 km",
     "number_of_airports": "54",
     "international_disputes": "Joint Border Commission with Cameroon reviewed 2002 ICJ ruling on the entire boundary and bilaterally resolved differences, including June 2006 Greentree Agreement that immediately cedes sovereignty of the Bakassi Peninsula to Cameroon with a phaseout of Nigerian control within two years while resolving patriation issues; the ICJ ruled on an equidistance settlement of Cameroon-Equatorial Guinea-Nigeria maritime boundary in the Gulf of Guinea, but imprecisely defined coordinates in the ICJ decision and a sovereignty dispute between Equatorial Guinea and Cameroon over an island at the mouth of the Ntem River all contribute to the delay in implementation; only Nigeria and Cameroon have heeded the Lake Chad Commission's admonition to ratify the delimitation treaty which also includes the Chad-Niger and Niger-Nigeria boundaries; location of Benin-Niger-Nigeria tripoint is unresolved",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

@@ -21,15 +21,15 @@
     ],
     "population": "211,122",
     "nationality": "Sao Tomean(s)",
-    "ethnic_groups": {
-        "mestico": "",
-        "angolares": "",
-        "forros": "",
-        "servicais": "",
-        "tongas": "",
-        "Europeans": "",
-        "Asians": ""
-    },
+    "ethnic_groups": [
+        "mestico",
+        "angolares",
+        "forros",
+        "servicais",
+        "tongas",
+        "Europeans",
+        "Asians"
+    ],
     "languages": {
         "Portuguese (official)": "98.4%",
         "Forro": "36.2%",
@@ -109,5 +109,5 @@
     "waterways": "Unknown",
     "number_of_airports": "2",
     "international_disputes": "none",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

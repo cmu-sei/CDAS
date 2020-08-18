@@ -41,12 +41,12 @@
         "Afar": "35%",
         "other": "5%"
     },
-    "languages": {
-        "French (official)": "",
-        "Arabic (official)": "",
-        "Somali": "",
-        "Afar": ""
-    },
+    "languages": [
+        "French (official)",
+        "Arabic (official)",
+        "Somali",
+        "Afar"
+    ],
     "religions": {
         "Sunni Muslim": "94%",
         "Christian": "6%"
@@ -101,5 +101,5 @@
     "waterways": "Unknown",
     "number_of_airports": "13",
     "international_disputes": "Djibouti maintains economic ties and border accords with \"Somaliland\" leadership while maintaining some political ties to various factions in Somalia; Kuwait is chief investor in the 2008 restoration and upgrade of the Ethiopian-Djibouti rail link; in 2008, Eritrean troops moved across the border on Ras Doumera peninsula and occupied Doumera Island with undefined sovereignty in the Red Sea",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

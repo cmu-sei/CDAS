@@ -30,13 +30,13 @@
     ],
     "population": "1,104,479",
     "nationality": "liSwati (singular), emaSwati (plural); note - former term, Swazi(s), still used among English speakers",
-    "ethnic_groups": {
-        "": ""
-    },
-    "languages": {
-        "English (official)": "",
-        "siSwati (official)": ""
-    },
+    "ethnic_groups": [
+        ""
+    ],
+    "languages": [
+        "English (official)",
+        "siSwati (official)"
+    ],
     "religions": {
         "Christian": "90%",
         "Muslim": "2%",
@@ -97,5 +97,5 @@
     "waterways": "Unknown",
     "number_of_airports": "14",
     "international_disputes": "in 2006, Swati king advocated resorting to ICJ to claim parts of Mpumalanga and KwaZulu-Natal from South Africa",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

@@ -23,12 +23,12 @@
     ],
     "population": "95,981",
     "nationality": "Seychellois (singular and plural)",
-    "ethnic_groups": {
-        "predominantly creole; also French": "",
-        "Indian": "",
-        "Chinese": "",
-        "and Arab populations": ""
-    },
+    "ethnic_groups": [
+        "predominantly creole; also French",
+        "Indian",
+        "Chinese",
+        "and Arab populations"
+    ],
     "languages": {
         "Seychellois Creole (official)": "89.1%",
         "English (official)": "5.1%",
@@ -98,5 +98,5 @@
     "waterways": "Unknown",
     "number_of_airports": "14",
     "international_disputes": "Mauritius and Seychelles claim the Chagos Islands (UK-administered British Indian Ocean Territory)",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

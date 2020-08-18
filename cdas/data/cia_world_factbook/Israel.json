@@ -40,11 +40,11 @@
         "Arab": "20.9%",
         "other": "4.7%"
     },
-    "languages": {
-        "Hebrew (official)": "",
-        "Arabic": "",
-        "English": ""
-    },
+    "languages": [
+        "Hebrew (official)",
+        "Arabic",
+        "English"
+    ],
     "religions": {
         "Jewish": "74.3%",
         "Muslim": "17.8%",

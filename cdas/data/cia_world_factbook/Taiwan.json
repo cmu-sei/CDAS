@@ -31,12 +31,12 @@
         "Han Chinese more than": "95%",
         "indigenous Malayo-Polynesian peoples": "2.3%"
     },
-    "languages": {
-        "Mandarin Chinese (official)": "",
-        "Taiwanese": "",
-        "Hakka dialects": "",
-        "approximately 16 indigenous languages": ""
-    },
+    "languages": [
+        "Mandarin Chinese (official)",
+        "Taiwanese",
+        "Hakka dialects",
+        "approximately 16 indigenous languages"
+    ],
     "religions": {
         "Buddhist": "35.3%",
         "Taoist": "33.2%",
@@ -119,5 +119,5 @@
     "waterways": "Unknown",
     "number_of_airports": "37",
     "international_disputes": "involved in complex dispute with Brunei, China, Malaysia, the Philippines, and Vietnam over the Spratly Islands, and with China and the Philippines over Scarborough Reef; the 2002 \"Declaration on the Conduct of Parties in the South China Sea\" has eased tensions but falls short of a legally binding \"code of conduct\" desired by several of the disputants; Paracel Islands are occupied by China, but claimed by Taiwan and Vietnam; in 2003, China and Taiwan became more vocal in rejecting both Japan's claims to the uninhabited islands of the Senkaku-shoto (Diaoyu Tai) and Japan's unilaterally declared exclusive economic zone in the East China Sea where all parties engage in hydrocarbon prospecting",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

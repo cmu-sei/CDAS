@@ -31,10 +31,10 @@
         "other": "1.3%",
         "unspecified": "0.2%"
     },
-    "languages": {
-        "English (official)": "",
-        "French patois": ""
-    },
+    "languages": [
+        "English (official)",
+        "French patois"
+    ],
     "religions": {
         "Roman Catholic": "61.4%",
         "Protestant": "28.6%",
@@ -100,5 +100,5 @@
     "waterways": "Unknown",
     "number_of_airports": "2",
     "international_disputes": "Dominica is the only Caribbean state to challenge Venezuela's sovereignty claim over Aves Island and joins the other island nations in challenging whether the feature sustains human habitation, a criterion under the UN Convention on the Law of the Sea, which permits Venezuela to extend its EEZ and continental shelf claims over a large portion of the eastern Caribbean Sea",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

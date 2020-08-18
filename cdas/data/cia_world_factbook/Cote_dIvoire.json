@@ -51,10 +51,10 @@
         "unspecified": "0.9%",
         "non-Ivoirian": "24.2%"
     },
-    "languages": {
-        "French (official)": "",
-        "60 native dialects of which  Dioula is the most widely spoken": ""
-    },
+    "languages": [
+        "French (official)",
+        "60 native dialects of which  Dioula is the most widely spoken"
+    ],
     "religions": {
         "Muslim": "42.9%",
         "Catholic": "17.2%",
@@ -135,5 +135,5 @@
     "waterways": "980 km",
     "number_of_airports": "27",
     "international_disputes": "disputed maritime border between Cote d'Ivoire and Ghana",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

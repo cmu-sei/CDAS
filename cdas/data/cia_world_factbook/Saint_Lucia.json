@@ -32,10 +32,10 @@
         "other": "1.6%",
         "unspecified": "0.1%"
     },
-    "languages": {
-        "English (official)": "",
-        "French patois": ""
-    },
+    "languages": [
+        "English (official)",
+        "French patois"
+    ],
     "religions": {
         "Roman Catholic": "61.5%",
         "Protestant": "25.5%",
@@ -101,5 +101,5 @@
     "waterways": "Unknown",
     "number_of_airports": "2",
     "international_disputes": "joins other Caribbean states to counter Venezuela's claim that Aves Island sustains human habitation, a criterion under UN Convention on the Law of the Sea, which permits Venezuela to extend its EEZ/continental shelf over a large portion of the eastern Caribbean Sea",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

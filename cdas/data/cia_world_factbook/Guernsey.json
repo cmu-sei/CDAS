@@ -28,15 +28,15 @@
         "other": "6.7%",
         "unspecified": "14.1%"
     },
-    "languages": {
-        "English": "",
-        "French": "",
-        "Norman-French dialect spoken in country districts": ""
-    },
-    "religions": {
-        "Protestant": "",
-        "Roman Catholic": ""
-    },
+    "languages": [
+        "English",
+        "French",
+        "Norman-French dialect spoken in country districts"
+    ],
+    "religions": [
+        "Protestant",
+        "Roman Catholic"
+    ],
     "government_type": "parliamentary democracy (States of Deliberation)",
     "national_symbols": "Guernsey cow, donkey",
     "national_colors": [
@@ -86,5 +86,5 @@
     "waterways": "Unknown",
     "number_of_airports": "2",
     "international_disputes": "none",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

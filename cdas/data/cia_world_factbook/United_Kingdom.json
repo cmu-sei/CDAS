@@ -45,9 +45,9 @@
         "mixed": "2%",
         "other": "3.7%"
     },
-    "languages": {
-        "English": ""
-    },
+    "languages": [
+        "English"
+    ],
     "religions": {
         "Christian": "59.5%",
         "Muslim": "4.4%",
@@ -138,5 +138,5 @@
     "waterways": "3,200 km",
     "number_of_airports": "460",
     "international_disputes": "in 2002, Gibraltar residents voted overwhelmingly by referendum to reject any \"shared sovereignty\" arrangement between the UK and Spain; the Government of Gibraltar insisted on equal participation in talks between the two countries; Spain disapproved of UK plans to grant Gibraltar greater autonomy; Mauritius and Seychelles claim the Chagos Archipelago (British Indian Ocean Territory); in 2001, the former inhabitants of the archipelago, evicted 1967 - 1973, were granted UK citizenship and the right of return, followed by Orders in Council in 2004 that banned rehabitation, a High Court ruling reversed the ban, a Court of Appeal refusal to hear the case, and a Law Lords' decision in 2008 denied the right of return; in addition, the UK created the world's largest marine protection area around the Chagos islands prohibiting the extraction of any natural resources therein; UK rejects sovereignty talks requested by Argentina, which still claims the Falkland Islands (Islas Malvinas) and South Georgia and the South Sandwich Islands; territorial claim in Antarctica (British Antarctic Territory) overlaps Argentine claim and partially overlaps Chilean claim; Iceland, the UK, and Ireland dispute Denmark's claim that the Faroe Islands' continental shelf extends beyond 200 nm",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

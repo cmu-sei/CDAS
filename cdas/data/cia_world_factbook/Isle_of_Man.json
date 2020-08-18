@@ -25,14 +25,14 @@
         "Asian/Asian British": "1.9%",
         "other": "1.5%"
     },
-    "languages": {
-        "English": "",
-        "Manx Gaelic": ""
-    },
-    "religions": {
-        "Protestant": "",
-        "Roman Catholic": ""
-    },
+    "languages": [
+        "English",
+        "Manx Gaelic"
+    ],
+    "religions": [
+        "Protestant",
+        "Roman Catholic"
+    ],
     "government_type": "parliamentary democracy (Tynwald)",
     "national_symbols": "triskelion (a motif of three legs)",
     "national_colors": [
@@ -80,5 +80,5 @@
     "waterways": "Unknown",
     "number_of_airports": "1",
     "international_disputes": "none",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

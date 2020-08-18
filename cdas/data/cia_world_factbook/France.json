@@ -56,13 +56,13 @@
     ],
     "population": "67,848,156",
     "nationality": "Frenchman(men), Frenchwoman(women)",
-    "ethnic_groups": {
-        "Celtic and Latin with Teutonic": "",
-        "Slavic": "",
-        "North African": "",
-        "Indochinese": "",
-        "Basque minorities": ""
-    },
+    "ethnic_groups": [
+        "Celtic and Latin with Teutonic",
+        "Slavic",
+        "North African",
+        "Indochinese",
+        "Basque minorities"
+    ],
     "languages": {
         "French (official)": "100%",
         "declining regional dialects and languages": ""
@@ -142,5 +142,5 @@
     "waterways": "Unknown",
     "number_of_airports": "464",
     "international_disputes": "Madagascar claims the French territories of Bassas da India, Europa Island, Glorioso Islands, and Juan de Nova Island; Comoros claims Mayotte; Mauritius claims Tromelin Island; territorial dispute between Suriname and the French overseas department of French Guiana; France asserts a territorial claim in Antarctica (Adelie Land); France and Vanuatu claim Matthew and Hunter Islands, east of New Caledonia",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

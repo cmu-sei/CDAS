@@ -31,20 +31,20 @@
     ],
     "population": "4,664,844",
     "nationality": "Omani(s)",
-    "ethnic_groups": {
-        "Arab": "",
-        "Baluchi": "",
-        "South Asian": "",
-        "African": ""
-    },
-    "languages": {
-        "Arabic (official)": "",
-        "English": "",
-        "Baluchi": "",
-        "Swahili": "",
-        "Urdu": "",
-        "Indian dialects": ""
-    },
+    "ethnic_groups": [
+        "Arab",
+        "Baluchi",
+        "South Asian",
+        "African"
+    ],
+    "languages": [
+        "Arabic (official)",
+        "English",
+        "Baluchi",
+        "Swahili",
+        "Urdu",
+        "Indian dialects"
+    ],
     "religions": {
         "Muslim": "85.9%",
         "Christian": "6.5%",
@@ -117,5 +117,5 @@
     "waterways": "Unknown",
     "number_of_airports": "132",
     "international_disputes": "boundary agreement reportedly signed and ratified with UAE in 2003 for entire border, including Oman's Musandam Peninsula and Al Madhah exclave, but details of the alignment have not been made public",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

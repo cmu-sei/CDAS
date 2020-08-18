@@ -30,16 +30,16 @@
         "Filipino": "6.1%",
         "other": "12.8%"
     },
-    "languages": {
-        "Arabic (official)": "",
-        "English": "",
-        "Hindi": "",
-        "Malayam": "",
-        "Urdu": "",
-        "Pashto": "",
-        "Tagalog": "",
-        "Persian": ""
-    },
+    "languages": [
+        "Arabic (official)",
+        "English",
+        "Hindi",
+        "Malayam",
+        "Urdu",
+        "Pashto",
+        "Tagalog",
+        "Persian"
+    ],
     "religions": {
         "Muslim": "76%",
         "Christian": "9%",
@@ -109,5 +109,5 @@
     "waterways": "Unknown",
     "number_of_airports": "43",
     "international_disputes": "boundary agreement was signed and ratified with Oman in 2003 for entire border, including Oman's Musandam Peninsula and Al Madhah enclaves, but contents of the agreement and detailed maps showing the alignment have not been published; Iran and UAE dispute Tunb Islands and Abu Musa Island, which Iran occupies",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

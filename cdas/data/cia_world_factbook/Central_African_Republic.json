@@ -45,11 +45,11 @@
         "other Central African Republic ethnic groups": "2%",
         "non-Central African Republic ethnic groups": ".1%"
     },
-    "languages": {
-        "French (official)": "",
-        "Sangho": "",
-        "tribal languages": ""
-    },
+    "languages": [
+        "French (official)",
+        "Sangho",
+        "tribal languages"
+    ],
     "religions": {
         "Christian": "89.5%",
         "Muslim": "8.5%",
@@ -114,5 +114,5 @@
     "waterways": "2,800 km",
     "number_of_airports": "39",
     "international_disputes": "periodic skirmishes persist over water and grazing rights among related pastoral populations along the border with southern Sudan",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

@@ -40,9 +40,9 @@
         "Polish": "1%",
         "other": "4.8%"
     },
-    "languages": {
-        "Dutch (official)": ""
-    },
+    "languages": [
+        "Dutch (official)"
+    ],
     "religions": {
         "Roman Catholic": "23.6%",
         "Protestant": "14.9%",
@@ -109,5 +109,5 @@
     "waterways": "6,237 km",
     "number_of_airports": "29",
     "international_disputes": "none",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

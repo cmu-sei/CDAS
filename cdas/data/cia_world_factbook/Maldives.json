@@ -21,20 +21,20 @@
     ],
     "population": "391,904",
     "nationality": "Maldivian(s)",
-    "ethnic_groups": {
-        "homogeneous mixture of Sinhalese": "",
-        "Dravidian": "",
-        "Arab": "",
-        "Australasian": "",
-        "and African resulting from historical changes in regional hegemony over marine trade routes": ""
-    },
-    "languages": {
-        "Dhivehi (official)": "",
-        "English": ""
-    },
-    "religions": {
-        "Sunni Muslim": ""
-    },
+    "ethnic_groups": [
+        "homogeneous mixture of Sinhalese",
+        "Dravidian",
+        "Arab",
+        "Australasian",
+        "and African resulting from historical changes in regional hegemony over marine trade routes"
+    ],
+    "languages": [
+        "Dhivehi (official)",
+        "English"
+    ],
+    "religions": [
+        "Sunni Muslim"
+    ],
     "government_type": "presidential republic",
     "national_symbols": "coconut palm, yellowfin tuna",
     "national_colors": [
@@ -83,5 +83,5 @@
     "waterways": "Unknown",
     "number_of_airports": "9",
     "international_disputes": "none",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

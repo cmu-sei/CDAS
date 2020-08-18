@@ -20,27 +20,27 @@
     ],
     "population": "32,556",
     "nationality": "Unknown",
-    "ethnic_groups": {
-        "other Creole": "",
-        "black": "",
-        "Guadeloupe Mestizo": "",
-        "white": "",
-        "East Indian": ""
-    },
-    "languages": {
-        "French (official)": "",
-        "English": "",
-        "Dutch": "",
-        "French Patois": "",
-        "Spanish": "",
-        "Papiamento": ""
-    },
-    "religions": {
-        "Roman Catholic": "",
-        "Jehovah's Witness": "",
-        "Protestant": "",
-        "Hindu": ""
-    },
+    "ethnic_groups": [
+        "other Creole",
+        "black",
+        "Guadeloupe Mestizo",
+        "white",
+        "East Indian"
+    ],
+    "languages": [
+        "French (official)",
+        "English",
+        "Dutch",
+        "French Patois",
+        "Spanish",
+        "Papiamento"
+    ],
+    "religions": [
+        "Roman Catholic",
+        "Jehovah's Witness",
+        "Protestant",
+        "Hindu"
+    ],
     "government_type": "parliamentary democracy (Territorial Council); overseas collectivity of France",
     "national_symbols": "brown pelican",
     "national_colors": [
@@ -75,5 +75,5 @@
     "waterways": "Unknown",
     "number_of_airports": "1",
     "international_disputes": "Unknown",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

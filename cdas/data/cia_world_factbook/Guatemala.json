@@ -44,11 +44,11 @@
         "Maya languages": "29.7%",
         "other": "0.4%"
     },
-    "religions": {
-        "Roman Catholic": "",
-        "Protestant": "",
-        "indigenous Maya": ""
-    },
+    "religions": [
+        "Roman Catholic",
+        "Protestant",
+        "indigenous Maya"
+    ],
     "government_type": "presidential republic",
     "national_symbols": "quetzal (bird)",
     "national_colors": [
@@ -116,5 +116,5 @@
     "waterways": "990 km",
     "number_of_airports": "291",
     "international_disputes": "annual ministerial meetings under the Organization of American States-initiated Agreement on the Framework for Negotiations and Confidence Building Measures continue to address Guatemalan land and maritime claims in Belize and the Caribbean Sea; Guatemala persists in its territorial claim to half of Belize, but agrees to Line of Adjacency to keep Guatemalan squatters out of Belize's forested interior; both countries agreed in April 2012 to hold simultaneous referenda, scheduled for 6 October 2013, to decide whether to refer the dispute to the ICJ for binding resolution, but this vote was suspended indefinitely; Mexico must deal with thousands of impoverished Guatemalans and other Central Americans who cross the porous border looking for work in Mexico and the US",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

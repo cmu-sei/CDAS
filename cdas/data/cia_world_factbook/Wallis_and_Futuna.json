@@ -19,9 +19,9 @@
     "natural_resources": [],
     "population": "15,854",
     "nationality": "Wallisian(s), Futunan(s), or Wallis and Futuna Islanders",
-    "ethnic_groups": {
-        "Polynesian": ""
-    },
+    "ethnic_groups": [
+        "Polynesian"
+    ],
     "languages": {
         "Wallisian": "58.9%",
         "Futunian": "30.1%",
@@ -80,5 +80,5 @@
     "waterways": "Unknown",
     "number_of_airports": "2",
     "international_disputes": "none",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

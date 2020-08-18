@@ -51,9 +51,9 @@
         "Mon": "2%",
         "other": "5%"
     },
-    "languages": {
-        "Burmese (official)": ""
-    },
+    "languages": [
+        "Burmese (official)"
+    ],
     "religions": {
         "Buddhist": "87.9%",
         "Christian": "6.2%",
@@ -135,5 +135,5 @@
     "waterways": "12,800 km",
     "number_of_airports": "64",
     "international_disputes": "over half of Burma's population consists of diverse ethnic groups who have substantial numbers of kin in neighboring countries; Bangladesh struggles to accommodate 912,000 Rohingya, Burmese Muslim minority from Rakhine State, living as refugees in Cox's Bazar; Burmese border authorities are constructing a 200 km (124 mi) wire fence designed to deter illegal cross-border transit and tensions from the military build-up along border with Bangladesh in 2010; Bangladesh referred its maritime boundary claims with Burma and India to the International Tribunal on the Law of the Sea; Burmese forces attempting to dig in to the largely autonomous Shan State to rout local militias tied to the drug trade, prompts local residents to periodically flee into neighboring Yunnan Province in China; fencing along the India-Burma international border at Manipur's Moreh town is in progress to check illegal drug trafficking and movement of militants; over 100,000 mostly Karen refugees and asylum seekers fleeing civil strife, political upheaval, and economic stagnation in Burma were living in remote camps in Thailand near the border as of May 2017",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

@@ -27,11 +27,11 @@
     ],
     "population": "1,383,723",
     "nationality": "Timorese",
-    "ethnic_groups": {
-        "Austronesian": "",
-        "Melanesian-Papuan": "",
-        "small Chinese minority": ""
-    },
+    "ethnic_groups": [
+        "Austronesian",
+        "Melanesian-Papuan",
+        "small Chinese minority"
+    ],
     "languages": {
         "Tetun Prasa": "30.6%",
         "Mambai": "16.6%",
@@ -109,5 +109,5 @@
     "waterways": "Unknown",
     "number_of_airports": "6",
     "international_disputes": "three stretches of land borders with Indonesia have yet to be delimited, two of which are in the Oecussi exclave area, and no maritime or Economic Exclusion Zone boundaries have been established between the countries; maritime boundaries with Indonesia remain unresolved; Timor-Leste and Australia reached agreement on a treaty delimiting a permanent maritime boundary in March 2018; the treaty will enter into force once ratified by the two countries' parliaments",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

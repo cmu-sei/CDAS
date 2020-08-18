@@ -35,9 +35,9 @@
         "Korean": "0.4%",
         "other": "1%"
     },
-    "languages": {
-        "Japanese": ""
-    },
+    "languages": [
+        "Japanese"
+    ],
     "religions": {
         "Shintoism": "70.4%",
         "Buddhism": "69.8%",
@@ -102,5 +102,5 @@
     "waterways": "1,770 km",
     "number_of_airports": "175",
     "international_disputes": "the sovereignty dispute over the islands of Etorofu, Kunashiri, and Shikotan, and the Habomai group, known in Japan as the \"Northern Territories\" and in Russia as the \"Southern Kuril Islands,\" occupied by the Soviet Union in 1945, now administered by Russia and claimed by Japan, remains the primary sticking point to signing a peace treaty formally ending World War II hostilities; Japan and South Korea claim Liancourt Rocks (Take-shima/Tok-do) occupied by South Korea since 1954; the Japanese-administered Senkaku Islands are also claimed by China and Taiwan",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

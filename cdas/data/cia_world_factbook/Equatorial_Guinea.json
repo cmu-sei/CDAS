@@ -45,13 +45,13 @@
         "other": "",
         "French) (official)": "32.4%"
     },
-    "religions": {
-        "nominally Christian and predominantly Roman Catholic": "",
-        "Muslim": "",
-        "Baha'i": "",
-        "animist": "",
-        "indigenous": ""
-    },
+    "religions": [
+        "nominally Christian and predominantly Roman Catholic",
+        "Muslim",
+        "Baha'i",
+        "animist",
+        "indigenous"
+    ],
     "government_type": "presidential republic",
     "national_symbols": "silk cotton tree",
     "national_colors": [
@@ -106,5 +106,5 @@
     "waterways": "Unknown",
     "number_of_airports": "7",
     "international_disputes": "in 2002, ICJ ruled on an equidistance settlement of Cameroon-Equatorial Guinea-Nigeria maritime boundary in the Gulf of Guinea, but a dispute between Equatorial Guinea and Cameroon over an island at the mouth of the Ntem River and imprecisely defined maritime coordinates in the ICJ decision delayed final delimitation; UN urged Equatorial Guinea and Gabon to resolve the sovereignty dispute over Gabon-occupied Mbane and lesser islands and to create a maritime boundary in the hydrocarbon-rich Corisco Bay",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

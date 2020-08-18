@@ -46,11 +46,11 @@
         "Southwestern Bantu": "0.7%",
         "foreign/other ethnic group": "4.5%"
     },
-    "languages": {
-        "24 major African language groups": "",
-        "English (official)": "",
-        "French (official)": ""
-    },
+    "languages": [
+        "24 major African language groups",
+        "English (official)",
+        "French (official)"
+    ],
     "religions": {
         "Roman Catholic": "38.3%",
         "Protestant": "25.5%",
@@ -123,5 +123,5 @@
     "waterways": "Unknown",
     "number_of_airports": "33",
     "international_disputes": "Joint Border Commission with Nigeria reviewed 2002 ICJ ruling on the entire boundary and bilaterally resolved differences, including June 2006 Greentree Agreement that immediately ceded sovereignty of the Bakassi Peninsula to Cameroon with a full phase-out of Nigerian control and patriation of residents in 2008; Cameroon and Nigeria agreed on maritime delimitation in March 2008; sovereignty dispute between Equatorial Guinea and Cameroon over an island at the mouth of the Ntem River; only Nigeria and Cameroon have heeded the Lake Chad Commission's admonition to ratify the delimitation treaty, which also includes the Chad-Niger and Niger-Nigeria boundaries",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

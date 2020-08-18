@@ -16,7 +16,7 @@
     },
     "context": {
        "countries": {
-           "randomize": true,
+           "randomize": false,
            "random_vars": {
                "num_countries": 50
            },
@@ -42,6 +42,6 @@
         "pdf",
         "stix"
     ],
-    "output_types": ["json"],
+    "output_types": ["pdf"],
     "temp_path": "cdas-temp"
 }

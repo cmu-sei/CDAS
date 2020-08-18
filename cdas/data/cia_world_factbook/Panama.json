@@ -32,22 +32,22 @@
         "mulatto": "6.8%",
         "white": "6.7%"
     },
-    "languages": {
-        "Spanish (official)": "",
-        "indigenous languages": "",
-        "Buglere": "",
-        "Kuna": "",
-        "Embera": "",
-        "Wounaan": "",
-        "Naso": "",
-        "and Bri Bri)": "",
-        "Panamanian English Creole": "",
-        "English": "",
-        "Chinese": "",
-        "Arabic": "",
-        "French Creole": "",
-        "other": ""
-    },
+    "languages": [
+        "Spanish (official)",
+        "indigenous languages",
+        "Buglere",
+        "Kuna",
+        "Embera",
+        "Wounaan",
+        "Naso",
+        "and Bri Bri)",
+        "Panamanian English Creole",
+        "English",
+        "Chinese",
+        "Arabic",
+        "French Creole",
+        "other"
+    ],
     "religions": {
         "Roman Catholic": "85%",
         "Protestant": "15%"
@@ -105,5 +105,5 @@
     "waterways": "800 km",
     "number_of_airports": "117",
     "international_disputes": "organized illegal narcotics operations in Colombia operate within the remote border region with Panama",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

@@ -22,18 +22,18 @@
     ],
     "population": "846,281",
     "nationality": "Comoran(s)",
-    "ethnic_groups": {
-        "Antalote": "",
-        "Cafre": "",
-        "Makoa": "",
-        "Oimatsaha": "",
-        "Sakalava": ""
-    },
-    "languages": {
-        "Arabic (official)": "",
-        "French (official)": "",
-        "Shikomoro (official)": ""
-    },
+    "ethnic_groups": [
+        "Antalote",
+        "Cafre",
+        "Makoa",
+        "Oimatsaha",
+        "Sakalava"
+    ],
+    "languages": [
+        "Arabic (official)",
+        "French (official)",
+        "Shikomoro (official)"
+    ],
     "religions": {
         "Sunni Muslim": "98%",
         "other": "2%"
@@ -85,5 +85,5 @@
     "waterways": "Unknown",
     "number_of_airports": "4",
     "international_disputes": "claims French-administered Mayotte and challenges France's and Madagascar's claims to Banc du Geyser, a drying reef in the Mozambique Channel; in May 2008, African Union forces assisted the Comoros military recapture Anjouan Island from rebels who seized it in 2001",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

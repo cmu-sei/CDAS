@@ -40,11 +40,11 @@
         "other European": "8.3%",
         "other": "8.5%"
     },
-    "languages": {
-        "Bokmal Norwegian (official)": "",
-        "Nynorsk Norwegian (official)": "",
-        "small Sami- and Finnish-speaking minorities": ""
-    },
+    "languages": [
+        "Bokmal Norwegian (official)",
+        "Nynorsk Norwegian (official)",
+        "small Sami- and Finnish-speaking minorities"
+    ],
     "religions": {
         "Church of Norway": "70.6%",
         "Muslim": "3.2%",
@@ -117,5 +117,5 @@
     "waterways": "1,577 km",
     "number_of_airports": "95",
     "international_disputes": "Norway asserts a territorial claim in Antarctica (Queen Maud Land and its continental shelf); Denmark (Greenland) and Norway have made submissions to the Commission on the Limits of the Continental Shelf (CLCS) and Russia is collecting additional data to augment its 2001 CLCS submission; Norway and Russia signed a comprehensive maritime boundary agreement in 2010",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

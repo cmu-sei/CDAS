@@ -36,24 +36,24 @@
     ],
     "population": "45,561,556",
     "nationality": "Sudanese (singular and plural)",
-    "ethnic_groups": {
-        "unspecified Sudanese Arab": "",
-        "Fur": "",
-        "Beja": "",
-        "Nuba": "",
-        "Fallata": ""
-    },
-    "languages": {
-        "Arabic (official)": "",
-        "English (official)": "",
-        "Nubian": "",
-        "Ta Bedawie": "",
-        "Fur": ""
-    },
-    "religions": {
-        "Sunni Muslim": "",
-        "small Christian minority": ""
-    },
+    "ethnic_groups": [
+        "unspecified Sudanese Arab",
+        "Fur",
+        "Beja",
+        "Nuba",
+        "Fallata"
+    ],
+    "languages": [
+        "Arabic (official)",
+        "English (official)",
+        "Nubian",
+        "Ta Bedawie",
+        "Fur"
+    ],
+    "religions": [
+        "Sunni Muslim",
+        "small Christian minority"
+    ],
     "government_type": "presidential republic",
     "national_symbols": "secretary bird",
     "national_colors": [
@@ -131,5 +131,5 @@
     "waterways": "4,068 km",
     "number_of_airports": "67",
     "international_disputes": "the effects of Sudan's ethnic and rebel militia fighting since the mid-20th century have penetrated all of the neighboring states; Chad wishes to be a helpful mediator in resolving the Darfur conflict, and in 2010 established a joint border monitoring force with Sudan, which has helped to reduce cross-border banditry and violence; as of early 2019, more than 590,000 Sudanese refugees are being hosted in the Central African Republic, Chad, Egypt, Ethiopia, Kenya, and South Sudan; Sudan, in turn, is hosting\u00a0more than\u00a0975,000 refugees and asylum seekers, including more than 845,000 from South Sudan; Sudan accuses South Sudan of supporting Sudanese rebel groups; Sudan claims but Egypt de facto administers security and economic development of the Halaib region north of the 22nd parallel boundary; periodic violent skirmishes with Sudanese residents over water and grazing rights persist among related pastoral populations along the border with the Central African Republic; South Sudan-Sudan boundary represents 1 January 1956 alignment, final alignment pending negotiations and demarcation; final sovereignty status of Abyei Area pending negotiations between South Sudan and Sudan",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

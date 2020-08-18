@@ -39,13 +39,13 @@
         "non-Gambian": "5.2%",
         "no answer": "0.6%"
     },
-    "languages": {
-        "English (official)": "",
-        "Mandinka": "",
-        "Wolof": "",
-        "Fula": "",
-        "other indigenous vernaculars": ""
-    },
+    "languages": [
+        "English (official)",
+        "Mandinka",
+        "Wolof",
+        "Fula",
+        "other indigenous vernaculars"
+    ],
     "religions": {
         "Muslim": "95.7%",
         "Christian": "4.2%",
@@ -112,5 +112,5 @@
     "waterways": "390 km",
     "number_of_airports": "1",
     "international_disputes": "attempts to stem refugees, cross-border raids, arms smuggling, and other illegal activities by separatists from southern Senegal's Casamance region, as well as from conflicts in other west African states",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

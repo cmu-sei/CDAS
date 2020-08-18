@@ -54,9 +54,9 @@
         "Asian": "1.1%",
         "indigenous": "0.4%"
     },
-    "languages": {
-        "Portuguese (official)": ""
-    },
+    "languages": [
+        "Portuguese (official)"
+    ],
     "religions": {
         "Roman Catholic": "64.6%",
         "other Catholic": "0.4%",
@@ -138,5 +138,5 @@
     "waterways": "50,000 km",
     "number_of_airports": "4,093",
     "international_disputes": "uncontested boundary dispute between Brazil and Uruguay over Braziliera/Brasiliera Island in the Quarai/Cuareim River leaves the tripoint with Argentina in question; smuggling of firearms and narcotics continues to be an issue along the Uruguay-Brazil border; Colombian-organized illegal narcotics and paramilitary activities penetrate Brazil's border region with Venezuela",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

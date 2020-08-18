@@ -60,14 +60,14 @@
         "Russian": "29.6%",
         "other": "2.9%"
     },
-    "religions": {
-        "Orthodox and the Ukrainian Orthodox - Moscow Patriarchate)": "",
-        "Ukrainian Greek Catholic": "",
-        "Roman Catholic": "",
-        "Protestant": "",
-        "Muslim": "",
-        "Jewish": ""
-    },
+    "religions": [
+        "Orthodox and the Ukrainian Orthodox - Moscow Patriarchate)",
+        "Ukrainian Greek Catholic",
+        "Roman Catholic",
+        "Protestant",
+        "Muslim",
+        "Jewish"
+    ],
     "government_type": "semi-presidential republic",
     "national_symbols": "tryzub (trident)",
     "national_colors": [
@@ -120,5 +120,5 @@
     "waterways": "1,672 km",
     "number_of_airports": "187",
     "international_disputes": "1997 boundary delimitation treaty with Belarus remains unratified due to unresolved financial claims, stalling demarcation and reducing border security; delimitation of land boundary with Russia is complete and demarcation began in 2012; the dispute over the boundary between Russia and Ukraine through the Kerch Strait and Sea of Azov is suspended due to the occupation of Crimea by Russia; Ukraine and Moldova signed an agreement officially delimiting their border in 1999, but the border has not been demarcated due to Moldova's difficulties with the break-away region of Transnistria; Moldova and Ukraine operate joint customs posts to monitor transit of people and commodities through Moldova's Transnistria Region, which remains under the auspices of an Organization for Security and Cooperation in Europe-mandated peacekeeping mission comprised of Moldovan, Transnistrian, Russian, and Ukrainian troops; the ICJ ruled largely in favor of Romania in its dispute submitted in 2004 over Ukrainian-administered Zmiyinyy/Serpilor (Snake) Island and Black Sea maritime boundary delimitation; Romania opposes Ukraine's reopening of a navigation canal from the Danube border through Ukraine to the Black Sea",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

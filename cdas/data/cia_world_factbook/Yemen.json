@@ -32,14 +32,14 @@
     ],
     "population": "29,884,405",
     "nationality": "Yemeni(s)",
-    "ethnic_groups": {
-        "predominantly Arab; but also Afro-Arab": "",
-        "South Asian": "",
-        "European": ""
-    },
-    "languages": {
-        "Arabic (official)": ""
-    },
+    "ethnic_groups": [
+        "predominantly Arab; but also Afro-Arab",
+        "South Asian",
+        "European"
+    ],
+    "languages": [
+        "Arabic (official)"
+    ],
     "religions": {
         "Muslim": "99.1%",
         "other": "0.9%"

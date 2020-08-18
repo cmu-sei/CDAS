@@ -41,13 +41,13 @@
     ],
     "population": "36,643,815",
     "nationality": "Afghan(s)",
-    "ethnic_groups": {
-        "Pashtun": "",
-        "Tajik": "",
-        "Hazara": "",
-        "Uzbek": "",
-        "other": ""
-    },
+    "ethnic_groups": [
+        "Pashtun",
+        "Tajik",
+        "Hazara",
+        "Uzbek",
+        "other"
+    ],
     "languages": {
         "Afghan Persian or Dari (official)": "77%",
         "Pashto (official)": "48%",

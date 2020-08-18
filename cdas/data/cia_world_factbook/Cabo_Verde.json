@@ -34,10 +34,10 @@
         "African": "28%",
         "European": "1%"
     },
-    "languages": {
-        "Portuguese (official)": "",
-        "Krioulo": ""
-    },
+    "languages": [
+        "Portuguese (official)",
+        "Krioulo"
+    ],
     "religions": {
         "Roman Catholic": "77.3%",
         "Protestant": "4.6%",
@@ -101,5 +101,5 @@
     "waterways": "Unknown",
     "number_of_airports": "9",
     "international_disputes": "none",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

@@ -45,12 +45,12 @@
         "other": "1.8%",
         "none": "2.2%"
     },
-    "languages": {
-        "Crioulo": "",
-        "Portuguese (official)": "",
-        "Pular": "",
-        "Mandingo": ""
-    },
+    "languages": [
+        "Crioulo",
+        "Portuguese (official)",
+        "Pular",
+        "Mandingo"
+    ],
     "religions": {
         "Muslim": "45.1%",
         "Christian": "22.1%",
@@ -112,5 +112,5 @@
     "waterways": "Unknown",
     "number_of_airports": "8",
     "international_disputes": "a longstanding low-grade conflict continues in parts of\nCasamance, in Senegal across the border; some rebels use Guinea-Bissau as a safe haven",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

@@ -61,12 +61,12 @@
         "foreign nationals": "0.3%",
         "unspecified": "1.7%"
     },
-    "languages": {
-        "French (official)": "",
-        "Arabic (official)": "",
-        "Sara": "",
-        "more than 120 different languages and dialects": ""
-    },
+    "languages": [
+        "French (official)",
+        "Arabic (official)",
+        "Sara",
+        "more than 120 different languages and dialects"
+    ],
     "religions": {
         "Muslim": "52.1%",
         "Protestant": "23.9%",
@@ -136,5 +136,5 @@
     "waterways": "Unknown",
     "number_of_airports": "59",
     "international_disputes": "since 2003, ad hoc armed militia groups and the Sudanese military have driven hundreds of thousands of Darfur residents into Chad; Chad wishes to be a helpful mediator in resolving the Darfur conflict, and in 2010 established a joint border monitoring force with Sudan, which has helped to reduce cross-border banditry and violence; only Nigeria and Cameroon have heeded the Lake Chad Commission's admonition to ratify the delimitation treaty, which also includes the Chad-Niger and Niger-Nigeria boundaries",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

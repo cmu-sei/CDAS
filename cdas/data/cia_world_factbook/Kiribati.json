@@ -30,10 +30,10 @@
         "Tuvaluan": "0.2%",
         "other": "1.8%"
     },
-    "languages": {
-        "I-Kiribati": "",
-        "English (official)": ""
-    },
+    "languages": [
+        "I-Kiribati",
+        "English (official)"
+    ],
     "religions": {
         "Roman Catholic": "57.3%",
         "Kiribati Uniting Church": "31.3%",
@@ -85,5 +85,5 @@
     "waterways": "5 km",
     "number_of_airports": "19",
     "international_disputes": "none",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

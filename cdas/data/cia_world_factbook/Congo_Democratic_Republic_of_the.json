@@ -52,13 +52,13 @@
         "Kongo": "",
         "d the Mangbetu-Azande - make up about 45% of the": "population"
     },
-    "languages": {
-        "French (official)": "",
-        "Lingala": "",
-        "Kingwana": "",
-        "Kikongo": "",
-        "Tshiluba": ""
-    },
+    "languages": [
+        "French (official)",
+        "Lingala",
+        "Kingwana",
+        "Kikongo",
+        "Tshiluba"
+    ],
     "religions": {
         "Roman Catholic": "29.9%",
         "Protestant": "26.7%",
@@ -138,5 +138,5 @@
     "waterways": "15,000 km",
     "number_of_airports": "198",
     "international_disputes": "heads of the Great Lakes states and UN pledged in 2004 to abate tribal, rebel, and militia fighting in the region, including northeast Congo, where the UN Organization Mission in the Democratic Republic of the Congo (MONUC), organized in 1999, maintains over 16,500 uniformed peacekeepers; members of Uganda's Lord's Resistance Army forces continue to seek refuge in Congo's Garamba National Park as peace talks with the Uganda Government evolve; the location of the boundary in the broad Congo River with the Republic of the Congo is indefinite except in the Pool Malebo/Stanley Pool area; Uganda and DRC dispute Rukwanzi Island in Lake Albert and other areas on the Semliki River with hydrocarbon potential; boundary commission continues discussions over Congolese-administered triangle of land on the right bank of the Lunkinda River claimed by Zambia near the DRC village of Pweto; DRC accuses Angola of shifting monuments",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

@@ -38,13 +38,13 @@
         "Arab-Berber": "99%",
         "other": "1%"
     },
-    "languages": {
-        "Arabic (official)": "",
-        "Berber languages": "",
-        "Tachelhit": "",
-        "Tarifit)": "",
-        "French": ""
-    },
+    "languages": [
+        "Arabic (official)",
+        "Berber languages",
+        "Tachelhit",
+        "Tarifit)",
+        "French"
+    ],
     "religions": {
         "Muslim": "99%",
         "other 1%; note - Jewish about": "6,000"
@@ -118,5 +118,5 @@
     "waterways": "Unknown",
     "number_of_airports": "55",
     "international_disputes": "claims and administers Western Sahara whose sovereignty remains unresolved; Morocco protests Spain's control over the coastal enclaves of Ceuta, Melilla, and Penon de Velez de la Gomera, the islands of Penon de Alhucemas and Islas Chafarinas, and surrounding waters; both countries claim Isla Perejil (Leila Island); discussions have not progressed on a comprehensive maritime delimitation, setting limits on resource exploration and refugee interdiction, since Morocco's 2002 rejection of Spain's unilateral designation of a median line from the Canary Islands; Morocco serves as one of the primary launching areas of illegal migration into Spain from North Africa; Algeria's border with Morocco remains an irritant to bilateral relations, each nation accusing the other of harboring militants and arms smuggling; the National Liberation Front's assertions of a claim to Chirac Pastures in southeastern Morocco is a dormant dispute",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

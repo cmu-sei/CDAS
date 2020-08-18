@@ -31,11 +31,11 @@
         "Rotuman": "1.2%",
         "other": "4.5%"
     },
-    "languages": {
-        "English (official)": "",
-        "Fijian (official)": "",
-        "Hindustani": ""
-    },
+    "languages": [
+        "English (official)",
+        "Fijian (official)",
+        "Hindustani"
+    ],
     "religions": {
         "Protestant": "45%",
         "Hindu": "27.9%",
@@ -112,5 +112,5 @@
     "waterways": "203 km",
     "number_of_airports": "28",
     "international_disputes": "maritime boundary dispute with Tonga",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

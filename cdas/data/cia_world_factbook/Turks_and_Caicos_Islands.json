@@ -28,9 +28,9 @@
         "East Indian": "1.3%",
         "other": "0.7%"
     },
-    "languages": {
-        "English (official)": ""
-    },
+    "languages": [
+        "English (official)"
+    ],
     "religions": {
         "Protestant": "72.8%",
         "Roman Catholic": "11.4%",
@@ -82,5 +82,5 @@
     "waterways": "Unknown",
     "number_of_airports": "8",
     "international_disputes": "have received Haitians fleeing economic and civil disorder",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

@@ -35,9 +35,9 @@
         "mulatto or mixed": "26.6%",
         "black": "9.3%"
     },
-    "languages": {
-        "Spanish (official)": ""
-    },
+    "languages": [
+        "Spanish (official)"
+    ],
     "religions": {
         "Christian": "59.2%",
         "folk": "17.4%",
@@ -106,5 +106,5 @@
     "waterways": "240 km",
     "number_of_airports": "133",
     "international_disputes": "US Naval Base at Guantanamo Bay is leased to US and only mutual agreement or US abandonment of the facility can terminate the lease",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

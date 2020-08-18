@@ -45,14 +45,14 @@
         "Equatorial Guinean": "",
         "Nigerian)": ""
     },
-    "languages": {
-        "French (official)": "",
-        "Fang": "",
-        "Myene": "",
-        "Nzebi": "",
-        "Bapounou/Eschira": "",
-        "Bandjabi": ""
-    },
+    "languages": [
+        "French (official)",
+        "Fang",
+        "Myene",
+        "Nzebi",
+        "Bapounou/Eschira",
+        "Bandjabi"
+    ],
     "religions": {
         "Roman Catholic": "42.3%",
         "Protestant": "12.3%",
@@ -121,5 +121,5 @@
     "waterways": "1,600 km",
     "number_of_airports": "44",
     "international_disputes": "UN urges Equatorial Guinea and Gabon to resolve the sovereignty dispute over Gabon-occupied Mbane Island and lesser islands and to establish a maritime boundary in hydrocarbon-rich Corisco Bay",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

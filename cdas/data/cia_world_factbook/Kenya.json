@@ -51,11 +51,11 @@
         "non-Kenyan": "1%",
         "other": "8.2%"
     },
-    "languages": {
-        "English (official)": "",
-        "Kiswahili (official)": "",
-        "numerous indigenous languages": ""
-    },
+    "languages": [
+        "English (official)",
+        "Kiswahili (official)",
+        "numerous indigenous languages"
+    ],
     "religions": {
         "Christian": "85.5%",
         "Muslim": "10.9%",
@@ -134,5 +134,5 @@
     "waterways": "Unknown",
     "number_of_airports": "197",
     "international_disputes": "Kenya served as an important mediator in brokering Sudan's north-south separation in February 2005; as of March 2019, Kenya provides shelter to nearly 475,000 refugees and asylum seekers, including Ugandans who flee across the border periodically to seek protection from Lord's Resistance Army rebels; Kenya works hard to prevent the clan and militia fighting in Somalia from spreading across the border, which has long been open to nomadic pastoralists; the boundary that separates Kenya's and Sudan's sovereignty is unclear in the \"Ilemi Triangle,\" which Kenya has administered since colonial times; in 2018, Kenya signed an MoU with Uganda and South Sudan to help demarcate their borders",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

@@ -32,12 +32,12 @@
         "Armenian": "4%",
         "other": "1%"
     },
-    "languages": {
-        "Arabic (official)": "",
-        "French": "",
-        "English": "",
-        "Armenian": ""
-    },
+    "languages": [
+        "Arabic (official)",
+        "French",
+        "English",
+        "Armenian"
+    ],
     "religions": {
         "Muslim": "61.1%",
         "Christian": "33.7%",

@@ -40,12 +40,12 @@
         "other": "0.4%",
         "unspecified": "0.2%"
     },
-    "languages": {
-        "Shona (official)": "",
-        "Ndebele (official)": "",
-        "English (official)": "",
-        "13 minority languages (official)": ""
-    },
+    "languages": [
+        "Shona (official)",
+        "Ndebele (official)",
+        "English (official)",
+        "13 minority languages (official)"
+    ],
     "religions": {
         "Protestant": "74.8%",
         "Roman Catholic": "7.3%",
@@ -118,5 +118,5 @@
     "waterways": "Unknown",
     "number_of_airports": "196",
     "international_disputes": "Namibia has supported, and in 2004 Zimbabwe dropped objections to, plans between Botswana and Zambia to build a bridge over the Zambezi River, thereby de facto recognizing a short, but not clearly delimited, Botswana-Zambia boundary in the river; South Africa has placed military units to assist police operations along the border of Lesotho, Zimbabwe, and Mozambique to control smuggling, poaching, and illegal migration",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

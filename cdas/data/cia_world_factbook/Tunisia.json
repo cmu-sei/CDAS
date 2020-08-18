@@ -34,11 +34,11 @@
         "European": "1%",
         "Jewish and other": "1%"
     },
-    "languages": {
-        "Arabic (official)": "",
-        "French": "",
-        "Berber": ""
-    },
+    "languages": [
+        "Arabic (official)",
+        "French",
+        "Berber"
+    ],
     "religions": {
         "Muslim": "99.1%",
         "other": "1%"
@@ -105,5 +105,5 @@
     "waterways": "Unknown",
     "number_of_airports": "29",
     "international_disputes": "none",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

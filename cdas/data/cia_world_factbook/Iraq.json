@@ -36,13 +36,13 @@
         "Kurdish": "15-20%",
         "other": "5%"
     },
-    "languages": {
-        "Arabic (official)": "",
-        "Kurdish (official)": "",
-        "Turkmen": "",
-        "Syriac": "",
-        "and Armenian are official in areas where native speakers of these languages constitute a majority of the population": ""
-    },
+    "languages": [
+        "Arabic (official)",
+        "Kurdish (official)",
+        "Turkmen",
+        "Syriac",
+        "and Armenian are official in areas where native speakers of these languages constitute a majority of the population"
+    ],
     "religions": {
         "Muslim": "95-98%",
         "Christian": "1%",

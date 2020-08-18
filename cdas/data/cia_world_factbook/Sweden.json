@@ -33,12 +33,12 @@
     ],
     "population": "10,202,491",
     "nationality": "Swede(s)",
-    "ethnic_groups": {
-        "": ""
-    },
-    "languages": {
-        "Swedish (official)": ""
-    },
+    "ethnic_groups": [
+        ""
+    ],
+    "languages": [
+        "Swedish (official)"
+    ],
     "religions": {
         "Church of Sweden": "60.2%",
         "other": "8.5%",
@@ -98,5 +98,5 @@
     "waterways": "2,052 km",
     "number_of_airports": "231",
     "international_disputes": "none",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

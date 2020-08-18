@@ -45,12 +45,12 @@
         "Egyptian": "99.7%",
         "other": "0.3%"
     },
-    "languages": {
-        "Arabic (official)": "",
-        "Arabic": "",
-        "English": "",
-        "and French widely understood by educated classes": ""
-    },
+    "languages": [
+        "Arabic (official)",
+        "Arabic",
+        "English",
+        "and French widely understood by educated classes"
+    ],
     "religions": {
         "Muslim": "90%",
         "Christian": "10%"

@@ -42,15 +42,15 @@
     ],
     "population": "62,402,659",
     "nationality": "Italian(s)",
-    "ethnic_groups": {
-        "Italian": ""
-    },
-    "languages": {
-        "Italian (official)": "",
-        "German": "",
-        "French": "",
-        "Slovene": ""
-    },
+    "ethnic_groups": [
+        "Italian"
+    ],
+    "languages": [
+        "Italian (official)",
+        "German",
+        "French",
+        "Slovene"
+    ],
     "religions": {
         "Christian": "83.3%",
         "Muslim": "3.7%",
@@ -134,5 +134,5 @@
     "waterways": "2,400 km",
     "number_of_airports": "129",
     "international_disputes": "Italy's long coastline and developed economy entices tens of thousands of illegal immigrants from southeastern Europe and northern Africa",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

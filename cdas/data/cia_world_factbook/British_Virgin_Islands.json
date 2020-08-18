@@ -31,9 +31,9 @@
         "other": "3%",
         "unspecified": "0.8%"
     },
-    "languages": {
-        "English (official)": ""
-    },
+    "languages": [
+        "English (official)"
+    ],
     "religions": {
         "Protestant": "70.2%",
         "Roman Catholic": "8.9%",
@@ -97,5 +97,5 @@
     "waterways": "Unknown",
     "number_of_airports": "4",
     "international_disputes": "none",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

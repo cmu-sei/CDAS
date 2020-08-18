@@ -30,19 +30,19 @@
     ],
     "population": "7,259,456",
     "nationality": "Papua New Guinean(s)",
-    "ethnic_groups": {
-        "Melanesian": "",
-        "Papuan": "",
-        "Negrito": "",
-        "Micronesian": "",
-        "Polynesian": ""
-    },
-    "languages": {
-        "Tok Pisin (official)": "",
-        "English (official)": "",
-        "Hiri Motu (official)": "",
-        "some 839 indigenous languages spoken; many languages have fewer than 1,000 speakers": ""
-    },
+    "ethnic_groups": [
+        "Melanesian",
+        "Papuan",
+        "Negrito",
+        "Micronesian",
+        "Polynesian"
+    ],
+    "languages": [
+        "Tok Pisin (official)",
+        "English (official)",
+        "Hiri Motu (official)",
+        "some 839 indigenous languages spoken; many languages have fewer than 1,000 speakers"
+    ],
     "religions": {
         "Protestant": "64.3%",
         "Roman Catholic": "26%",
@@ -130,5 +130,5 @@
     "waterways": "11,000 km",
     "number_of_airports": "561",
     "international_disputes": "relies on assistance from Australia to keep out illegal cross-border activities from primarily Indonesia, including goods smuggling, illegal narcotics trafficking, and squatters and secessionists",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

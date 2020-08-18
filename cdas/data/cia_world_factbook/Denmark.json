@@ -33,12 +33,12 @@
         "Turkish": "1.1%",
         "other": "12.6%"
     },
-    "languages": {
-        "Danish": "",
-        "Faroese": "",
-        "Greenlandic": "",
-        "German": ""
-    },
+    "languages": [
+        "Danish",
+        "Faroese",
+        "Greenlandic",
+        "German"
+    ],
     "religions": {
         "Evangelical Lutheran": "74.7%",
         "Muslim": "5.5%",
@@ -111,5 +111,5 @@
     "waterways": "400 km",
     "number_of_airports": "80",
     "international_disputes": "Iceland, the UK, and Ireland dispute Denmark's claim that the Faroe Islands' continental shelf extends beyond 200 nm; sovereignty dispute with Canada over Hans Island in the Kennedy Channel between Ellesmere Island and Greenland; Denmark (Greenland) and Norway have made submissions to the Commission on the Limits of the Continental Shelf (CLCS) and Russia is collecting additional data to augment its 2001 CLCS submission",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

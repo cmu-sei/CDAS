@@ -41,15 +41,15 @@
         "Levantine": "~10%",
         "other": "~15%"
     },
-    "languages": {
-        "Arabic (official)": "",
-        "Kurdish": "",
-        "Armenian": "",
-        "Aramaic": "",
-        "Circassian": "",
-        "French": "",
-        "English": ""
-    },
+    "languages": [
+        "Arabic (official)",
+        "Kurdish",
+        "Armenian",
+        "Aramaic",
+        "Circassian",
+        "French",
+        "English"
+    ],
     "religions": {
         "Muslim": "87%",
         "Christian": "10%",

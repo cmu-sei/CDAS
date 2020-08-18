@@ -32,10 +32,10 @@
         "black": "95%",
         "mixed and white": "5%"
     },
-    "languages": {
-        "French (official)": "",
-        "Creole (official)": ""
-    },
+    "languages": [
+        "French (official)",
+        "Creole (official)"
+    ],
     "religions": {
         "Roman Catholic": "54.7%",
         "Protestant": "28.5%",
@@ -98,5 +98,5 @@
     "waterways": "Unknown",
     "number_of_airports": "14",
     "international_disputes": "since 2004, peacekeepers from the UN Stabilization Mission in Haiti have assisted in maintaining civil order in Haiti; the mission currently includes 6,685 military, 2,607 police, and 443 civilian personnel; despite efforts to control illegal migration, Haitians cross into the Dominican Republic and sail to neighboring countries; Haiti claims US-administered Navassa Island",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

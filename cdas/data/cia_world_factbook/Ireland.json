@@ -38,10 +38,10 @@
         "other": "1.5%",
         "unspecified": "2.6%"
     },
-    "languages": {
-        "English (official)": "",
-        "Irish (official)": ""
-    },
+    "languages": [
+        "English (official)",
+        "Irish (official)"
+    ],
     "religions": {
         "Roman Catholic": "78.3%",
         "Church of Ireland": "2.7%",
@@ -109,5 +109,5 @@
     "waterways": "956 km",
     "number_of_airports": "40",
     "international_disputes": "Ireland, Iceland, and the UK dispute Denmark's claim that the Faroe Islands' continental shelf extends beyond 200 nm",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

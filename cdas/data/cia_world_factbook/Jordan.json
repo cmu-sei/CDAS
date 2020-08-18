@@ -37,10 +37,10 @@
         "Iraqi": "1.4%",
         "other": "2.6%"
     },
-    "languages": {
-        "Arabic (official)": "",
-        "English": ""
-    },
+    "languages": [
+        "Arabic (official)",
+        "English"
+    ],
     "religions": {
         "Muslim": "97.2%",
         "Christian": "2.2%",
@@ -116,5 +116,5 @@
     "waterways": "Unknown",
     "number_of_airports": "18",
     "international_disputes": "2004 Agreement settles border dispute with Syria pending demarcation",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

@@ -56,11 +56,11 @@
         "Kurdish": "19%",
         "other minorities": "7-12%"
     },
-    "languages": {
-        "Turkish (official)": "",
-        "Kurdish": "",
-        "other minority languages": ""
-    },
+    "languages": [
+        "Turkish (official)",
+        "Kurdish",
+        "other minority languages"
+    ],
     "religions": {
         "Muslim": "99.8%",
         "other": "0.2%"

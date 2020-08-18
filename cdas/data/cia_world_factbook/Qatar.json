@@ -26,10 +26,10 @@
         "non-Qatari": "88.4%",
         "Qatari": "11.6%"
     },
-    "languages": {
-        "Arabic (official)": "",
-        "English  commonly used as a second language": ""
-    },
+    "languages": [
+        "Arabic (official)",
+        "English  commonly used as a second language"
+    ],
     "religions": {
         "Muslim": "67.7%",
         "Christian": "13.8%",
@@ -97,5 +97,5 @@
     "waterways": "Unknown",
     "number_of_airports": "6",
     "international_disputes": "none",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

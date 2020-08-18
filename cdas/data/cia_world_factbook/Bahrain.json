@@ -32,12 +32,12 @@
         "European": "1%",
         "other": "1.2%"
     },
-    "languages": {
-        "Arabic (official)": "",
-        "English": "",
-        "Farsi": "",
-        "Urdu": ""
-    },
+    "languages": [
+        "Arabic (official)",
+        "English",
+        "Farsi",
+        "Urdu"
+    ],
     "religions": {
         "Muslim": "73.7%",
         "Christian": "9.3%",
@@ -95,5 +95,5 @@
     "waterways": "Unknown",
     "number_of_airports": "4",
     "international_disputes": "none",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

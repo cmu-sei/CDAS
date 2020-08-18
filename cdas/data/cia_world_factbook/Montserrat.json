@@ -28,9 +28,9 @@
         "East Indian/Indian": "1.5%",
         "other": "0.7%"
     },
-    "languages": {
-        "English": ""
-    },
+    "languages": [
+        "English"
+    ],
     "religions": {
         "Protestant": "67.1%",
         "Roman Catholic": "11.6%",
@@ -92,5 +92,5 @@
     "waterways": "Unknown",
     "number_of_airports": "1",
     "international_disputes": "none",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

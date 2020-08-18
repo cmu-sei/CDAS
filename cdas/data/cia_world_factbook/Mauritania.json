@@ -37,13 +37,13 @@
         "white Moors": "30%",
         "Sub-Saharan Mauritanians": "30%"
     },
-    "languages": {
-        "Arabic (official)": "",
-        "Pular": "",
-        "Soninke": "",
-        "Wolof": "",
-        "French": ""
-    },
+    "languages": [
+        "Arabic (official)",
+        "Pular",
+        "Soninke",
+        "Wolof",
+        "French"
+    ],
     "religions": {
         "Muslim": "100%"
     },
@@ -98,5 +98,5 @@
     "waterways": "Unknown",
     "number_of_airports": "30",
     "international_disputes": "Mauritanian claims to Western Sahara remain dormant",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

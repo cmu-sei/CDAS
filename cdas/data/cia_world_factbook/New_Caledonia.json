@@ -41,10 +41,10 @@
         "other": "17.7%",
         "unspecified": "2.5%"
     },
-    "languages": {
-        "French (official)": "",
-        "33 Melanesian-Polynesian dialects": ""
-    },
+    "languages": [
+        "French (official)",
+        "33 Melanesian-Polynesian dialects"
+    ],
     "religions": {
         "Roman Catholic": "60%",
         "Protestant": "30%",
@@ -93,5 +93,5 @@
     "waterways": "Unknown",
     "number_of_airports": "25",
     "international_disputes": "Matthew and Hunter Islands east of New Caledonia claimed by France and Vanuatu",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

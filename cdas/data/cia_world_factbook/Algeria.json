@@ -39,14 +39,14 @@
         "Arab-Berber": "99%",
         "European": "1%"
     },
-    "languages": {
-        "Arabic (official)": "",
-        "French": "",
-        "Berber or Tamazight; dialects include Kabyle Berber (official)": "",
-        "Shawiya Berber": "",
-        "Mzab Berber": "",
-        "Tuareg Berber": ""
-    },
+    "languages": [
+        "Arabic (official)",
+        "French",
+        "Berber or Tamazight; dialects include Kabyle Berber (official)",
+        "Shawiya Berber",
+        "Mzab Berber",
+        "Tuareg Berber"
+    ],
     "religions": {
         "Muslim": "99%",
         "other": "1%"

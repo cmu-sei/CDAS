@@ -28,12 +28,12 @@
         "Tuvaluan/other": "6.7%",
         "other": "0.9%"
     },
-    "languages": {
-        "Tuvaluan (official)": "",
-        "English (official)": "",
-        "Samoan": "",
-        "Kiribati": ""
-    },
+    "languages": [
+        "Tuvaluan (official)",
+        "English (official)",
+        "Samoan",
+        "Kiribati"
+    ],
     "religions": {
         "Protestant": "92.4%",
         "Baha'i": "2%",
@@ -82,5 +82,5 @@
     "waterways": "Unknown",
     "number_of_airports": "1",
     "international_disputes": "none",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

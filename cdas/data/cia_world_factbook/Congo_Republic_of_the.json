@@ -50,11 +50,11 @@
         "Makaa": "1.3%",
         "other and unspecified": "1%"
     },
-    "languages": {
-        "French (official)": "",
-        "French  Lingala and Monokutuba": "",
-        "many local languages and dialects": ""
-    },
+    "languages": [
+        "French (official)",
+        "French  Lingala and Monokutuba",
+        "many local languages and dialects"
+    ],
     "religions": {
         "Roman Catholic": "33.1%",
         "Awakening Churches/Christian Revival": "22.3%",
@@ -128,5 +128,5 @@
     "waterways": "1,120 km",
     "number_of_airports": "27",
     "international_disputes": "the location of the boundary in the broad Congo River with the Democratic Republic of the Congo is undefined except in the Pool Malebo/Stanley Pool area",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

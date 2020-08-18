@@ -22,16 +22,16 @@
     ],
     "population": "2,900,034",
     "nationality": "NA",
-    "ethnic_groups": {
-        "Palestinian Arab": "",
-        "Jewish": "",
-        "other": ""
-    },
-    "languages": {
-        "Arabic": "",
-        "Hebrew": "",
-        "English": ""
-    },
+    "ethnic_groups": [
+        "Palestinian Arab",
+        "Jewish",
+        "other"
+    ],
+    "languages": [
+        "Arabic",
+        "Hebrew",
+        "English"
+    ],
     "religions": {
         "Muslim": "80-85%",
         "Jewish": "12-14%",

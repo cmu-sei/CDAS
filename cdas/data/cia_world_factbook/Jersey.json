@@ -30,13 +30,13 @@
         "and other white": "7.1%",
         "other": "2.4%"
     },
-    "languages": {
-        "": ""
-    },
-    "religions": {
-        "Protestant": "",
-        "Roman Catholic": ""
-    },
+    "languages": [
+        ""
+    ],
+    "religions": [
+        "Protestant",
+        "Roman Catholic"
+    ],
     "government_type": "parliamentary democracy (Assembly of the States of Jersey)",
     "national_symbols": "Jersey cow",
     "national_colors": [
@@ -86,5 +86,5 @@
     "waterways": "Unknown",
     "number_of_airports": "1",
     "international_disputes": "none",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

@@ -28,10 +28,10 @@
         "other": "8.5%",
         "mixed": "3.3%"
     },
-    "languages": {
-        "Spanish": "",
-        "English": ""
-    },
+    "languages": [
+        "Spanish",
+        "English"
+    ],
     "religions": {
         "Roman Catholic": "85%",
         "Protestant and other": "15%"
@@ -94,5 +94,5 @@
     "waterways": "Unknown",
     "number_of_airports": "29",
     "international_disputes": "increasing numbers of illegal migrants from the Dominican Republic cross the Mona Passage to Puerto Rico each year looking for work",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

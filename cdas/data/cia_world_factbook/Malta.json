@@ -22,9 +22,9 @@
     ],
     "population": "457,267",
     "nationality": "Maltese (singular and plural)",
-    "ethnic_groups": {
-        "Maltese": ""
-    },
+    "ethnic_groups": [
+        "Maltese"
+    ],
     "languages": {
         "Maltese (official)": "90.1%",
         "English (official)": "6%",
@@ -106,5 +106,5 @@
     "waterways": "Unknown",
     "number_of_airports": "1",
     "international_disputes": "none",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

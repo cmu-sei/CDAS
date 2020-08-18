@@ -27,13 +27,13 @@
     ],
     "population": "51,835,110",
     "nationality": "Korean(s)",
-    "ethnic_groups": {
-        "homogeneous": ""
-    },
-    "languages": {
-        "Korean": "",
-        "English": ""
-    },
+    "ethnic_groups": [
+        "homogeneous"
+    ],
+    "languages": [
+        "Korean",
+        "English"
+    ],
     "religions": {
         "Protestant": "19.7%",
         "Buddhist": "15.5%",
@@ -113,5 +113,5 @@
     "waterways": "1,600 km",
     "number_of_airports": "111",
     "international_disputes": "Military Demarcation Line within the 4-km-wide Demilitarized Zone has separated North from South Korea since 1953; periodic incidents with North Korea in the Yellow Sea over the Northern Limit Line, which South Korea claims as a maritime boundary; South Korea and Japan claim Liancourt Rocks (Tok-do/Take-shima), occupied by South Korea since 1954",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

@@ -36,13 +36,13 @@
         "Arab": "90%",
         "Afro-Asian": "10%"
     },
-    "languages": {
-        "Arabic (official)": ""
-    },
-    "religions": {
-        "Muslim": "",
-        "other": ""
-    },
+    "languages": [
+        "Arabic (official)"
+    ],
+    "religions": [
+        "Muslim",
+        "other"
+    ],
     "government_type": "absolute monarchy",
     "national_symbols": "palm tree surmounting two crossed swords",
     "national_colors": [
@@ -107,5 +107,5 @@
     "waterways": "Unknown",
     "number_of_airports": "214",
     "international_disputes": "Saudi Arabia has reinforced its concrete-filled security barrier along sections of the now fully demarcated border with Yemen to stem illegal cross-border activities; Kuwait and Saudi Arabia continue discussions on a maritime boundary with Iran; Saudi Arabia claims Egyptian-administered islands of Tiran and Sanafir",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

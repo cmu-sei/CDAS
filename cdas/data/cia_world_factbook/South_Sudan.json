@@ -59,20 +59,20 @@
         "Baka": "",
         "Fertit": ""
     },
-    "languages": {
-        "English (official)": "",
-        "Arabic": "",
-        "regional languages include Dinka": "",
-        "Nuer": "",
-        "Bari": "",
-        "Zande": "",
-        "Shilluk": ""
-    },
-    "religions": {
-        "animist": "",
-        "Christian": "",
-        "Muslim": ""
-    },
+    "languages": [
+        "English (official)",
+        "Arabic",
+        "regional languages include Dinka",
+        "Nuer",
+        "Bari",
+        "Zande",
+        "Shilluk"
+    ],
+    "religions": [
+        "animist",
+        "Christian",
+        "Muslim"
+    ],
     "government_type": "presidential republic",
     "national_symbols": "African fish eagle",
     "national_colors": [
@@ -121,5 +121,5 @@
     "waterways": "Unknown",
     "number_of_airports": "89",
     "international_disputes": "South Sudan-Sudan boundary represents 1 January 1956 alignment, final alignment pending negotiations and demarcation; final sovereignty status of Abyei Area pending negotiations between South Sudan and Sudan; periodic violent skirmishes with South Sudanese residents over water and grazing rights persist among related pastoral populations along the border with the Central African Republic; the boundary that separates Kenya and South Sudan's sovereignty is unclear in the \"Ilemi Triangle,\" which Kenya has administered since colonial times",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

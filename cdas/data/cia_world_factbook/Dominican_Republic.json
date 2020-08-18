@@ -32,9 +32,9 @@
         "white": "13.5%",
         "other": "0.3%"
     },
-    "languages": {
-        "Spanish (official)": ""
-    },
+    "languages": [
+        "Spanish (official)"
+    ],
     "religions": {
         "Roman Catholic": "47.8%",
         "Protestant": "21.3%",
@@ -111,5 +111,5 @@
     "waterways": "Unknown",
     "number_of_airports": "36",
     "international_disputes": "Haitian migrants cross the porous border into the Dominican Republic to find work; illegal migrants from the Dominican Republic cross the Mona Passage each year to Puerto Rico to find better work",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

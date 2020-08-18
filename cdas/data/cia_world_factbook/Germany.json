@@ -47,9 +47,9 @@
         "Syrian": "1%",
         "other": "9%"
     },
-    "languages": {
-        "German (official)": ""
-    },
+    "languages": [
+        "German (official)"
+    ],
     "religions": {
         "Roman Catholic": "27.7%",
         "Protestant": "25.5%",
@@ -142,5 +142,5 @@
     "waterways": "7,467 km",
     "number_of_airports": "539",
     "international_disputes": "none",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

@@ -29,10 +29,10 @@
         "other": "2.7%",
         "unspecified": "0.9%"
     },
-    "languages": {
-        "English (official)": "",
-        "Antiguan creole": ""
-    },
+    "languages": [
+        "English (official)",
+        "Antiguan creole"
+    ],
     "religions": {
         "Protestant": "68.3%",
         "Roman Catholic": "8.2%",
@@ -96,5 +96,5 @@
     "waterways": "Unknown",
     "number_of_airports": "3",
     "international_disputes": "none",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

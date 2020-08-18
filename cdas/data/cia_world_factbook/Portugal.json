@@ -36,14 +36,14 @@
     ],
     "population": "10,302,674",
     "nationality": "Portuguese (singular and plural)",
-    "ethnic_groups": {
-        "Eastern Europeans have migrated to Portugal": "",
-        "white homogeneous Mediterranean population; citizens of black African descent who immigrated to mainland during decolonization number 100,000; since 1990": ""
-    },
-    "languages": {
-        "Portuguese (official)": "",
-        "Mirandese (official)": ""
-    },
+    "ethnic_groups": [
+        "Eastern Europeans have migrated to Portugal",
+        "white homogeneous Mediterranean population; citizens of black African descent who immigrated to mainland during decolonization number 100,000; since 1990"
+    ],
+    "languages": [
+        "Portuguese (official)",
+        "Mirandese (official)"
+    ],
     "religions": {
         "Roman Catholic": "81%",
         "other Christian": "3.3%",
@@ -144,5 +144,5 @@
     "waterways": "210 km",
     "number_of_airports": "64",
     "international_disputes": "Portugal does not recognize Spanish sovereignty over the territory of Olivenza based on a difference of interpretation of the 1815 Congress of Vienna and the 1801 Treaty of Badajoz",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

@@ -30,10 +30,10 @@
         "other": "1.9%",
         "unspecified": "0.7%"
     },
-    "languages": {
-        "English (official)": "",
-        "Creole": ""
-    },
+    "languages": [
+        "English (official)",
+        "Creole"
+    ],
     "religions": {
         "Protestant": "69.9%",
         "Roman Catholic": "12%",
@@ -96,5 +96,5 @@
     "waterways": "Unknown",
     "number_of_airports": "54",
     "international_disputes": "disagrees with the US on the alignment of the northern axis of a potential maritime boundary",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

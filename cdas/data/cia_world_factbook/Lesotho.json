@@ -31,12 +31,12 @@
         "Asians": "",
         "and other": "0.3%"
     },
-    "languages": {
-        "Sesotho (official)": "",
-        "English (official)": "",
-        "Zulu": "",
-        "Xhosa": ""
-    },
+    "languages": [
+        "Sesotho (official)",
+        "English (official)",
+        "Zulu",
+        "Xhosa"
+    ],
     "religions": {
         "Protestant": "47.8%",
         "Roman Catholic": "39.3%",
@@ -100,5 +100,5 @@
     "waterways": "Unknown",
     "number_of_airports": "24",
     "international_disputes": "South Africa has placed military units to assist police operations along the border of Lesotho, Zimbabwe, and Mozambique to control smuggling, poaching, and illegal migration",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

@@ -33,9 +33,9 @@
         "other": "0.3%",
         "none or unspecified": "5%"
     },
-    "languages": {
-        "Spanish (official)": ""
-    },
+    "languages": [
+        "Spanish (official)"
+    ],
     "religions": {
         "Roman Catholic": "47.1%",
         "non-Catholic Christians": "11.1%",
@@ -106,5 +106,5 @@
     "waterways": "1,600 km",
     "number_of_airports": "133",
     "international_disputes": "in 2010, the ICJ ruled in favor of Uruguay's operation of two paper mills on the Uruguay River, which forms the border with Argentina; the two countries formed a joint pollution monitoring regime; uncontested boundary dispute between Brazil and Uruguay over Braziliera/Brasiliera Island in the Quarai/Cuareim River leaves the tripoint with Argentina in question; smuggling of firearms and narcotics continues to be an issue along the Uruguay-Brazil border",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

@@ -37,11 +37,11 @@
         "foreigners": "5.2%",
         "no response": ".4%"
     },
-    "languages": {
-        "French (official)": "",
-        "Ewe and Mina": "",
-        "Kabye and Dagomba": ""
-    },
+    "languages": [
+        "French (official)",
+        "Ewe and Mina",
+        "Kabye and Dagomba"
+    ],
     "religions": {
         "Christian": "43.7%",
         "folk": "35.6%",
@@ -110,5 +110,5 @@
     "waterways": "50 km",
     "number_of_airports": "8",
     "international_disputes": "in 2001, Benin claimed Togo moved boundary monuments - joint commission continues to resurvey the boundary; talks continue between Benin and Togo on funding the Adjrala hydroelectric dam on the Mona River",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

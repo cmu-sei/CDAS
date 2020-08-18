@@ -32,14 +32,14 @@
     ],
     "population": "5,571,665",
     "nationality": "Finn(s)",
-    "ethnic_groups": {
-        "Finn": "",
-        "Swede": "",
-        "Russian": "",
-        "Estonian": "",
-        "Romani": "",
-        "Sami": ""
-    },
+    "ethnic_groups": [
+        "Finn",
+        "Swede",
+        "Russian",
+        "Estonian",
+        "Romani",
+        "Sami"
+    ],
     "languages": {
         "Finnish (official)": "87.6%",
         "Swedish (official)": "5.2%",
@@ -115,5 +115,5 @@
     "waterways": "8,000 km",
     "number_of_airports": "148",
     "international_disputes": "various groups in Finland advocate restoration of Karelia and other areas ceded to the former Soviet Union, but the Finnish Government asserts no territorial demands",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

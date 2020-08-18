@@ -35,13 +35,13 @@
         "Amerindian": "10.5%",
         "other": "0.5%"
     },
-    "languages": {
-        "English (official)": "",
-        "Guyanese Creole": "",
-        "Amerindian languages": "",
-        "Indian languages": "",
-        "Chinese": ""
-    },
+    "languages": [
+        "English (official)",
+        "Guyanese Creole",
+        "Amerindian languages",
+        "Indian languages",
+        "Chinese"
+    ],
     "religions": {
         "Protestant": "34.8%",
         "Hindu": "24.8%",
@@ -113,5 +113,5 @@
     "waterways": "330 km",
     "number_of_airports": "117",
     "international_disputes": "all of the area west of the Essequibo River is claimed by Venezuela preventing any discussion of a maritime boundary; Guyana has expressed its intention to join Barbados in asserting claims before UN Convention on the Law of the Sea (UNCLOS) that Trinidad and Tobago's maritime boundary with Venezuela extends into their waters; Suriname claims a triangle of land between the New and Kutari/Koetari Rivers in a historic dispute over the headwaters of the Courantyne",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

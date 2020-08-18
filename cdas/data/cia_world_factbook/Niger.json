@@ -47,11 +47,11 @@
         "Tubu": "0.4%",
         "other/unavailable": "0.9%"
     },
-    "languages": {
-        "French (official)": "",
-        "Hausa": "",
-        "Djerma": ""
-    },
+    "languages": [
+        "French (official)",
+        "Hausa",
+        "Djerma"
+    ],
     "religions": {
         "Muslim": "99.3%",
         "Christian": "0.3%",

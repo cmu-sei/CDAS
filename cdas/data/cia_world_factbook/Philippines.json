@@ -43,16 +43,16 @@
         "other local ethnicity": "26.1%",
         "other foreign ethnicity": ".1%"
     },
-    "languages": {
-        "unspecified  Filipino and English; eight major dialects - Tagalog (official)": "",
-        "Cebuano": "",
-        "Ilocano": "",
-        "Hiligaynon or Ilonggo": "",
-        "Bicol": "",
-        "Waray": "",
-        "Pampango": "",
-        "and Pangasinan": ""
-    },
+    "languages": [
+        "unspecified  Filipino and English; eight major dialects - Tagalog (official)",
+        "Cebuano",
+        "Ilocano",
+        "Hiligaynon or Ilonggo",
+        "Bicol",
+        "Waray",
+        "Pampango",
+        "and Pangasinan"
+    ],
     "religions": {
         "Roman Catholic": "80.6%",
         "Protestant": "8.2%",

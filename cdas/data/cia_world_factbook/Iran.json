@@ -38,24 +38,24 @@
     ],
     "population": "84,923,314",
     "nationality": "Iranian(s)",
-    "ethnic_groups": {
-        "Persian": "",
-        "Azeri": "",
-        "Kurd": "",
-        "Lur": "",
-        "Baloch": "",
-        "Arab": "",
-        "Turkmen and Turkic tribes": ""
-    },
-    "languages": {
-        "Persian Farsi (official)": "",
-        "Azeri and other Turkic dialects": "",
-        "Kurdish": "",
-        "Gilaki and Mazandarani": "",
-        "Luri": "",
-        "Balochi": "",
-        "Arabic": ""
-    },
+    "ethnic_groups": [
+        "Persian",
+        "Azeri",
+        "Kurd",
+        "Lur",
+        "Baloch",
+        "Arab",
+        "Turkmen and Turkic tribes"
+    ],
+    "languages": [
+        "Persian Farsi (official)",
+        "Azeri and other Turkic dialects",
+        "Kurdish",
+        "Gilaki and Mazandarani",
+        "Luri",
+        "Balochi",
+        "Arabic"
+    ],
     "religions": {
         "Muslim": "99.4%",
         "other": "0.3%",

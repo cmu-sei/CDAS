@@ -33,17 +33,17 @@
         "Asian": "1.4%",
         "other": "0.8%"
     },
-    "languages": {
-        "English (official)": "",
-        "Chuukese": "",
-        "Kosrean": "",
-        "Pohnpeian": "",
-        "Yapese": "",
-        "Ulithian": "",
-        "Woleaian": "",
-        "Nukuoro": "",
-        "Kapingamarangi": ""
-    },
+    "languages": [
+        "English (official)",
+        "Chuukese",
+        "Kosrean",
+        "Pohnpeian",
+        "Yapese",
+        "Ulithian",
+        "Woleaian",
+        "Nukuoro",
+        "Kapingamarangi"
+    ],
     "religions": {
         "Roman Catholic": "54.7%",
         "Protestant": "41.1%",
@@ -113,5 +113,5 @@
     "waterways": "Unknown",
     "number_of_airports": "6",
     "international_disputes": "none",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

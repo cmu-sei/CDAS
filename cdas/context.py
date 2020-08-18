@@ -611,7 +611,7 @@ class Country:
         if filetype == 'json':
             filename += ".json"
             with open(filename, 'w') as f:
-                json.dump(vars(self), f)
+                json.dump(vars(self), f, indent=4)
             f.close()
         elif filetype == 'pdf':
             ss = getSampleStyleSheet()

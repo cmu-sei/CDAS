@@ -33,10 +33,10 @@
         "African": "1%",
         "other": ".9%"
     },
-    "languages": {
-        "Arabic (official)": "",
-        "English  widely spoken": ""
-    },
+    "languages": [
+        "Arabic (official)",
+        "English  widely spoken"
+    ],
     "religions": {
         "Muslim": "74.6%",
         "Christian": "18.2%",
@@ -90,5 +90,5 @@
     "waterways": "Unknown",
     "number_of_airports": "7",
     "international_disputes": "Kuwait and Saudi Arabia continue negotiating a joint maritime boundary with Iran; no maritime boundary exists with Iraq in the Persian Gulf",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

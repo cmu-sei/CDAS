@@ -42,12 +42,12 @@
         "Akha": "1.8%",
         "other": "11.6%"
     },
-    "languages": {
-        "Lao (official)": "",
-        "French": "",
-        "English": "",
-        "various ethnic languages": ""
-    },
+    "languages": [
+        "Lao (official)",
+        "French",
+        "English",
+        "various ethnic languages"
+    ],
     "religions": {
         "Buddhist": "64.7%",
         "Christian": "1.7%",
@@ -118,5 +118,5 @@
     "waterways": "4,600 km",
     "number_of_airports": "41",
     "international_disputes": "southeast Asian states have enhanced border surveillance to check the spread of avian flu; talks continue on completion of demarcation with Thailand but disputes remain over islands in the Mekong River; Cambodia and Laos have a longstanding border demarcation dispute; concern among Mekong River Commission members that China's construction of eight dams on the Upper Mekong River and construction of more dams on its tributaries will affect water levels, sediment flows, and fisheries; Cambodia and Vietnam are concerned about Laos' extensive plans for upstream dam construction for the same reasons",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

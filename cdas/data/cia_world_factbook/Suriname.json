@@ -42,13 +42,13 @@
         "other": "7.6%",
         "unspecified": "0.6%"
     },
-    "languages": {
-        "Dutch (official)": "",
-        "English": "",
-        "Sranang Tongo": "",
-        "Caribbean Hindustani": "",
-        "Javanese": ""
-    },
+    "languages": [
+        "Dutch (official)",
+        "English",
+        "Sranang Tongo",
+        "Caribbean Hindustani",
+        "Javanese"
+    ],
     "religions": {
         "Protestant": "23.6%",
         "Hindu": "22.3%",
@@ -115,5 +115,5 @@
     "waterways": "1,200 km",
     "number_of_airports": "55",
     "international_disputes": "area claimed by French Guiana between Riviere Litani and Riviere Marouini (both headwaters of the Lawa); Suriname claims a triangle of land between the New and Kutari/Koetari rivers in a historic dispute over the headwaters of the Courantyne; Guyana seeks UN Convention on the Law of the Sea arbitration to resolve the longstanding dispute with Suriname over the axis of the territorial sea boundary in potentially oil-rich waters",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

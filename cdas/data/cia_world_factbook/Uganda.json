@@ -47,14 +47,14 @@
         "Lugbara": "3.3%",
         "other": "32.1%"
     },
-    "languages": {
-        "English (official)": "",
-        "Ganda or Luganda": "",
-        "other Niger-Congo languages": "",
-        "Nilo-Saharan languages": "",
-        "Swahili (official)": "",
-        "Arabic": ""
-    },
+    "languages": [
+        "English (official)",
+        "Ganda or Luganda",
+        "other Niger-Congo languages",
+        "Nilo-Saharan languages",
+        "Swahili (official)",
+        "Arabic"
+    ],
     "religions": {
         "Protestant": "45.1%",
         "Roman Catholic": "39.3%",
@@ -126,5 +126,5 @@
     "waterways": "Unknown",
     "number_of_airports": "47",
     "international_disputes": "Uganda is subject to armed fighting among hostile ethnic groups, rebels, armed gangs, militias, and various government forces that extend across its borders; Ugandan refugees as well as members of the Lord's Resistance Army (LRA) seek shelter in southern Sudan and the Democratic Republic of the Congo's Garamba National Park; LRA forces have also attacked Kenyan villages across the border",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

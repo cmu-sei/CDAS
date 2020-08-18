@@ -20,16 +20,16 @@
     ],
     "population": "34,232",
     "nationality": "Sammarinese (singular and plural)",
-    "ethnic_groups": {
-        "Sammarinese": "",
-        "Italian": ""
-    },
-    "languages": {
-        "Italian": ""
-    },
-    "religions": {
-        "Roman Catholic": ""
-    },
+    "ethnic_groups": [
+        "Sammarinese",
+        "Italian"
+    ],
+    "languages": [
+        "Italian"
+    ],
+    "religions": [
+        "Roman Catholic"
+    ],
     "government_type": "parliamentary republic",
     "national_symbols": "three peaks each displaying a tower",
     "national_colors": [
@@ -87,5 +87,5 @@
     "waterways": "Unknown",
     "number_of_airports": "Unknown",
     "international_disputes": "none",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

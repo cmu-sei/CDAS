@@ -34,12 +34,12 @@
         "Moroccan": "1%",
         "other": "16.6%"
     },
-    "languages": {
-        "French (official)": "",
-        "English": "",
-        "Italian": "",
-        "Monegasque": ""
-    },
+    "languages": [
+        "French (official)",
+        "English",
+        "Italian",
+        "Monegasque"
+    ],
     "religions": {
         "Roman Catholic": "90%",
         "other": "10%"
@@ -78,5 +78,5 @@
     "waterways": "Unknown",
     "number_of_airports": "Unknown",
     "international_disputes": "none",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

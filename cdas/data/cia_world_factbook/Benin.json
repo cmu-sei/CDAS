@@ -39,11 +39,11 @@
         "other": "0.9%",
         "foreigner": "1.9%"
     },
-    "languages": {
-        "French (official)": "",
-        "Fon and Yoruba": "",
-        "tribal languages": ""
-    },
+    "languages": [
+        "French (official)",
+        "Fon and Yoruba",
+        "tribal languages"
+    ],
     "religions": {
         "Muslim": "27.7%",
         "Roman Catholic": "25.5%",
@@ -108,5 +108,5 @@
     "waterways": "150 km",
     "number_of_airports": "6",
     "international_disputes": "talks continue between Benin and Togo on funding the Adjrala hydroelectric dam on the Mona River; Benin retains a border dispute with Burkina Faso near the town of Koualou; location of Benin-Niger-Nigeria tripoint is unresolved",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }

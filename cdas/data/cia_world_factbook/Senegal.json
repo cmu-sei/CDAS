@@ -37,15 +37,15 @@
         "Soninke": "1.4%",
         "other": "8.3%"
     },
-    "languages": {
-        "French (official)": "",
-        "Wolof": "",
-        "Pular": "",
-        "Jola": "",
-        "Mandinka": "",
-        "Serer": "",
-        "Soninke": ""
-    },
+    "languages": [
+        "French (official)",
+        "Wolof",
+        "Pular",
+        "Jola",
+        "Mandinka",
+        "Serer",
+        "Soninke"
+    ],
     "religions": {
         "Muslim": "95.9%",
         "Christian": "4.1%"
@@ -110,5 +110,5 @@
     "waterways": "1,000 km",
     "number_of_airports": "20",
     "international_disputes": "cross-border trafficking in persons, timber, wildlife, and cannabis; rebels from the Movement of Democratic Forces in the Casamance find refuge in Guinea-Bissau",
-    "terrorism": "Unknown"
+    "terrorism": "None/Unknown"
 }
