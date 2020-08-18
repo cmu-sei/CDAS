@@ -396,6 +396,7 @@ def main(args, config):
                 os.mkdir(args.output + '/countries/')
                 os.mkdir(args.output + '/actors/')
                 os.mkdir(args.output + '/reports/')
+                os.mkdir(args.output + '/organizations/')
             for country in countries:
                 country.save(args.output + '/countries/', ot)
             apts = apt_store.query(Filter("type", "=", "intrusion-set"))
@@ -405,6 +406,8 @@ def main(args, config):
             for e in events:
                 simulator.save(
                     e, apt_store, fs_real, args.output + '/reports/', ot)
+            for org in orgs:
+                agents.save_org(org, args.output + '/organizations/', ot)
 
     shutil.rmtree(temp_path)
 

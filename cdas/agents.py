@@ -403,3 +403,47 @@ def create_organization(stix, fs, country, org_names, assessment):
     country_id = fs.query([
         Filter('type', '=', 'location'), Filter("name", "=", country)])[0].id
     fs.add(Relationship(organization, 'located-at', country_id))
+
+
+def save_org(org, directory, filetype):
+    """
+    Saves information about the organization to a file.
+
+    Paramters
+    ---------
+    org : stix2 Identity object
+        the organization to save
+    directory : str
+        Path to save output
+    filetype : str
+        Type of output file (json or pdf)
+    """
+
+    filename = directory + org.name.replace(' ', '')
+    org_desc = json.loads(org.description)
+
+    if filetype == 'json':
+        org_dict = {
+            "name": org.name,
+            "background": org_desc['Background'],
+            "network_size": org_desc['Network']['size'],
+            "vulnerability_level": org_desc['Security Posture']['vulnerability'],
+            "NIST vulnerabilities": org_desc['Security Posture']['vulns'],
+            "sectors": org.sectors
+        }
+        with open(filename+".json", 'w') as f:
+            json.dump(org_dict, f)
+        f.close()
+    elif filetype == 'pdf':
+        ss = getSampleStyleSheet()
+        pdf = platy.SimpleDocTemplate(filename + ".pdf")
+        flowables = []
+        flowables.append(platy.Paragraph(org.name, ss['Heading1']))
+        p = (
+            f'{org.name} is headquartered in the country of '
+            f'{org_desc["Background"]["headquarters"]}. It has '
+            f'{org_desc["Background"]["number of employees"]} employees and an'
+            f'annual revenue of {org_desc["Background"]["annual revenue"]}.'
+        )
+        flowables.append(platy.Paragraph(p, ss['BodyText']))
+        pdf.build(flowables)
