@@ -405,7 +405,7 @@ def create_organization(stix, fs, country, org_names, assessment):
     fs.add(Relationship(organization, 'located-at', country_id))
 
 
-def save_org(org, directory, filetype):
+def save_org(org, directory, filetype, assessment):
     """
     Saves information about the organization to a file.
 
@@ -417,6 +417,8 @@ def save_org(org, directory, filetype):
         Path to save output
     filetype : str
         Type of output file (json or pdf)
+    assessment : dictionary
+        representation of NIST 800-171 assessment table
     """
 
     filename = directory + org.name.replace(' ', '')
@@ -439,11 +441,32 @@ def save_org(org, directory, filetype):
         pdf = platy.SimpleDocTemplate(filename + ".pdf")
         flowables = []
         flowables.append(platy.Paragraph(org.name, ss['Heading1']))
+        p = f'Sector: {", ".join(org.sectors)}'
+        flowables.append(platy.Paragraph(p, ss['BodyText']))
+        flowables.append(platy.Paragraph("Background", ss['Heading2']))
         p = (
             f'{org.name} is headquartered in the country of '
             f'{org_desc["Background"]["headquarters"]}. It has '
             f'{org_desc["Background"]["number of employees"]} employees and an'
-            f'annual revenue of {org_desc["Background"]["annual revenue"]}.'
+            f' annual revenue of {org_desc["Background"]["annual revenue"]}.'
         )
         flowables.append(platy.Paragraph(p, ss['BodyText']))
+        flowables.append(platy.Paragraph("Computer Network", ss['Heading2']))
+        p = f"Network size: {org_desc['Network']['size']} (on a scale of 100)"
+        flowables.append(platy.Paragraph(p, ss['BodyText']))
+        p = "NIST 800-171 Security Evaluation Results"
+        flowables.append(platy.Paragraph(p, ss['Heading2']))
+        p = f"Score: {org_desc['Security Posture']['vulnerability']}/100"
+        flowables.append(platy.Paragraph(p, ss['BodyText']))
+        p = "Vulnerabilities (failed requirements):"
+        flowables.append(platy.Paragraph(p, ss['BodyText']))
+        bullets = []
+        nist_reqs = {}
+        for cat in assessment:
+            for req in assessment[cat]:
+                nist_reqs[req["Requirement"]] = req["Description"]
+        for vuln in org_desc['Security Posture']['vulns']:
+            p = platy.Paragraph(f'({vuln}) {nist_reqs[vuln]}', ss['Normal'])
+            bullets.append(platy.ListItem(p, leftIndent=35))
+        flowables.append(platy.ListFlowable(bullets, bulletType='bullet'))
         pdf.build(flowables)

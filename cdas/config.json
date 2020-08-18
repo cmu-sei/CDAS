@@ -16,7 +16,7 @@
     },
     "context": {
        "countries": {
-           "randomize": false,
+           "randomize": true,
            "random_vars": {
                "num_countries": 50
            },

@@ -407,7 +407,8 @@ def main(args, config):
                 simulator.save(
                     e, apt_store, fs_real, args.output + '/reports/', ot)
             for org in orgs:
-                agents.save_org(org, args.output + '/organizations/', ot)
+                agents.save_org(
+                    org, args.output + '/organizations/', ot, assessment)
 
     shutil.rmtree(temp_path)
 
