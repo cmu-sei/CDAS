@@ -204,6 +204,13 @@ def save(e, apt_store, vuln_store, filename, output_type):
         p = "Possible attribution"
         p2 = apt_store.query(Filter("id", "=", e.sighting_of_ref))[0].name
 
+    event_dict = {
+        "report number": r_num[:15],
+        "date": str(e.first_seen)[:19],
+        "description": e.description,
+        p: p2
+    }
+
     if output_type == "pdf":
         ss = getSampleStyleSheet()
         flowables = []
@@ -219,12 +226,13 @@ def save(e, apt_store, vuln_store, filename, output_type):
         pdf = platy.SimpleDocTemplate(filename + r_num[:15] + '.pdf')
         pdf.build(flowables)
     elif output_type == "json":
-        event_dict = {
-            "report number": r_num[:15],
-            "date": str(e.first_seen)[:19],
-            "description": e.description,
-            p: p2
-        }
         with open(filename + r_num[:15] + ".json", 'w') as f:
             json.dump(event_dict, f)
         f.close()
+    elif output_type == 'html':
+        f = open(filename + r_num[:15] + ".json", 'w')
+        f.write("var data = " + str(event_dict))
+        f.close()
+    else:
+        raise NotImplementedError(
+            f"Output file type, {filetype}, not supported")

@@ -637,6 +637,12 @@ class Country:
                     table = platy.ListFlowable(bullets, bulletType='bullet')
                     flowables.append(table)
             pdf.build(flowables)
+        elif filetype == 'html':
+            filename += ".json"
+            json_string = json.dumps(vars(self),indent=4)
+            f = open(filename, 'w')
+            f.write("var data = " + json_string)
+            f.close()
         else:
             raise NotImplementedError(
                 f"Output file type, {filetype}, not supported")

@@ -7,7 +7,7 @@ LICENSE = (HERE / "LICENSE.md").read_text(encoding="utf8")
 
 setup(
     name="cdas",
-    version="0.0.1",
+    version="0.0.2",
     description="Cybersecurity Decision Analysis Simulator",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -24,6 +24,7 @@ setup(
             'data/*',
             'data/cia_world_factbook/*',
             'assets/*',
+            'assets/html_templates/*'
             'assets/mitre_cti/*',
             'assets/mitre_cti/attack-pattern/*',
             'assets/mitre_cti/course-of-action/*',

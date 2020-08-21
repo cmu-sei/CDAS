@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Country - COUNTRY</title>
+    <script src="COUNTRY.json" ></script>
+</head>
+
+<body>
+    <h1 id="cName"></h1>
+    <div id="countryData">
+    </div>
+    <script>
+        document.getElementById("cName").innerHTML = data.name;
+        var divContainer = document.getElementById("countryData");
+        for (var key of Object.keys(data)) {
+            var p = document.createElement("p");
+            p.innerHTML = key + " " + data[key];
+            divContainer.appendChild(p);
+        }
+    </script>
+</body>
+</html>

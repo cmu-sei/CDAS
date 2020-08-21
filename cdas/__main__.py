@@ -69,7 +69,7 @@ def arguments():
     parser.add_argument(
         "-o", "--output", help="directory for storing results")
     parser.add_argument("--output-types",
-        help="[\"pdf\", \"json\", \"stix\"]  ex. \"pdf,json\"")
+        help="[\"pdf\", \"json\", \"stix\", \"html\"]  ex. \"pdf,json\"")
     parser.add_argument(
         "--randomize-geopol", action='store_true',
         help="Generate random countries")
@@ -115,7 +115,7 @@ def arguments():
 
     # Validate arguments
     for ot in args.output_types:
-        if ot not in ['stix', 'pdf', 'json']:
+        if ot not in ['stix', 'pdf', 'json', 'html']:
             sys.exit(f"ERROR: {ot} is not a valid output type")
 
     print("Configuration\n_____________")
@@ -388,26 +388,41 @@ def main(args, config):
 
     for ot in args.output_types:
         print(f'\t{ot}')
+        path = args.output + "/" + ot
         if ot == "stix":
-            shutil.copytree(temp_path, args.output+"/stix")
+            shutil.copytree(temp_path, path)
         else:
-            if not os.path.isdir(args.output + '/countries/'):
-                os.mkdir(args.output + '/countries/')
-                os.mkdir(args.output + '/actors/')
-                os.mkdir(args.output + '/reports/')
-                os.mkdir(args.output + '/organizations/')
+            os.mkdir(path)
+            os.mkdir(path + '/countries/')
+            os.mkdir(path + '/actors/')
+            os.mkdir(path + '/reports/')
+            os.mkdir(path + '/organizations/')
             for country in countries:
-                country.save(args.output + '/countries/', ot)
+                country.save(path + '/countries/', ot)
             apts = apt_store.query(Filter("type", "=", "intrusion-set"))
             for apt in apts:
-                agents.save(apt, args.output + '/actors/', ot, fs_gen, fs_real)
+                agents.save(apt, path + '/actors/', ot, fs_gen, fs_real)
             events = fs_gen.query(Filter("type", "=", "sighting"))
             for e in events:
                 simulator.save(
-                    e, apt_store, fs_real, args.output + '/reports/', ot)
+                    e, apt_store, fs_real, path + '/reports/', ot)
             for org in orgs:
                 agents.save_org(
-                    org, args.output + '/organizations/', ot, assessment)
+                    org, path + '/organizations/', ot, assessment)
+        if ot == "html":
+            html_src = pkg_resources.resource_filename(
+                __name__, 'assets/html_templates')
+            html_templates = os.listdir(html_src)
+            for f in html_templates:
+                shutil.copy(html_src + '/' + f, path)
+            f = open(path+'/COUNTRY.html','r')
+            c_template = f.read()
+            f.close()
+            for country in countries:
+                f = open(path + '/countries/' + country.name + '.html','w')
+                f.write(c_template.replace('COUNTRY',country.name))
+                f.close()
+            os.remove(path+'/COUNTRY.html')
 
     shutil.rmtree(temp_path)
 

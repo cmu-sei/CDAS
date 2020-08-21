@@ -40,8 +40,9 @@
     "output_type_opts": [
         "json",
         "pdf",
-        "stix"
+        "stix",
+        "html"
     ],
-    "output_types": ["pdf"],
+    "output_types": ["html","pdf"],
     "temp_path": "cdas-temp"
 }

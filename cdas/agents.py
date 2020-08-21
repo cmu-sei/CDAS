@@ -220,22 +220,22 @@ def save(actor, directory, filetype, fs_gen, fs_real):
     m_s = [fs_real.query([
         Filter("type", "=", "malware"), Filter("id", "=", m)])[0].name
         for m in malwares]
+    actor_dict = {
+        "name": actor.name,
+        "aliases": actor.aliases,
+        "first_seen": actor.first_seen.strftime("%B %Y"),
+        "last_seen": actor.last_seen.strftime("%B %Y"),
+        "attribution": countries[0].name,
+        "resource_level": actor.resource_level,
+        "primary motivation": actor.primary_motivation,
+        "secondary motivations": actor.secondary_motivations,
+        "description": actor.description,
+        "ttps": ttps,
+        "tools": tool_names,
+        "malware": m_s
+    }
 
     if filetype == 'json':
-        actor_dict = {
-            "name": actor.name,
-            "aliases": actor.aliases,
-            "first_seen": actor.first_seen.strftime("%B %Y"),
-            "last_seen": actor.last_seen.strftime("%B %Y"),
-            "attribution": countries[0].name,
-            "resource_level": actor.resource_level,
-            "primary motivation": actor.primary_motivation,
-            "secondary motivations": actor.secondary_motivations,
-            "description": actor.description,
-            "ttps": ttps,
-            "tools": tool_names,
-            "malware": m_s
-        }
         with open(filename+".json", 'w') as f:
             json.dump(actor_dict, f)
         f.close()
@@ -335,6 +335,14 @@ def save(actor, directory, filetype, fs_gen, fs_real):
         flowables.append(platy.ListFlowable(bullets, bulletType='bullet'))
 
         pdf.build(flowables)
+    elif filetype == 'html':
+        filename += ".json"
+        f = open(filename, 'w')
+        f.write("var data = " + str(actor_dict))
+        f.close()
+    else:
+        raise NotImplementedError(
+            f"Output file type, {filetype}, not supported")
 
 
 def create_organization(stix, fs, country, org_names, assessment):
@@ -423,16 +431,16 @@ def save_org(org, directory, filetype, assessment):
 
     filename = directory + org.name.replace(' ', '')
     org_desc = json.loads(org.description)
+    org_dict = {
+        "name": org.name,
+        "background": org_desc['Background'],
+        "network_size": org_desc['Network']['size'],
+        "vulnerability_level": org_desc['Security Posture']['vulnerability'],
+        "NIST vulnerabilities": org_desc['Security Posture']['vulns'],
+        "sectors": org.sectors
+    }
 
     if filetype == 'json':
-        org_dict = {
-            "name": org.name,
-            "background": org_desc['Background'],
-            "network_size": org_desc['Network']['size'],
-            "vulnerability_level": org_desc['Security Posture']['vulnerability'],
-            "NIST vulnerabilities": org_desc['Security Posture']['vulns'],
-            "sectors": org.sectors
-        }
         with open(filename+".json", 'w') as f:
             json.dump(org_dict, f)
         f.close()
@@ -470,3 +478,11 @@ def save_org(org, directory, filetype, assessment):
             bullets.append(platy.ListItem(p, leftIndent=35))
         flowables.append(platy.ListFlowable(bullets, bulletType='bullet'))
         pdf.build(flowables)
+    elif filetype == 'html':
+        filename += ".json"
+        f = open(filename, 'w')
+        f.write("var data = " + str(org_dict))
+        f.close()
+    else:
+        raise NotImplementedError(
+            f"Output file type, {filetype}, not supported")
