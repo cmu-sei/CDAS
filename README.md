@@ -87,6 +87,7 @@ CDAS should finish with no errors (you will get warnings about libcairo2 if you 
     - 'actors' folder containing PDF files with threat actor descriptions
     - 'countries' folder containing PDF files with country attributes
     - 'reports' folder containing PDF files with event reports
+    - 'organizations' folder containing PDF files with organization descriptions
 
 ## Configuration
 
