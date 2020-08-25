@@ -83,9 +83,10 @@ Done
 
 CDAS should finish with no errors (you will get warnings about libcairo2 if you did not install that) and the results will be in a folder called cdas-output. Results will include
 - SVG map of countries
-- 'actors' folder containing PDF files with threat actor descriptions
-- 'countries' folder containing PDF files with country attributes
-- 'reports' folder containing PDF files with event reports
+- A "pdf" folder containing
+    - 'actors' folder containing PDF files with threat actor descriptions
+    - 'countries' folder containing PDF files with country attributes
+    - 'reports' folder containing PDF files with event reports
 
 ## Configuration
 
