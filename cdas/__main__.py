@@ -352,7 +352,7 @@ def main(args, config):
         orgs = 0
         while orgs < config['agents']['org_variables']["orgs_per_country"]:
             agents.create_organization(
-                stix_vocab, fs_gen, c.name, org_names, assessment)
+                stix_vocab, fs_gen, c, org_names, assessment)
             orgs += 1
 
     # Run simulation

@@ -371,7 +371,7 @@ def create_organization(stix, fs, country, org_names, assessment):
 
     description = {
         "Background": {
-            "headquarters": country,
+            "headquarters": country.name,
             "number of employees": "{:,}".format(
                 np.random.randint(500, 15000)),
             "annual revenue": "$"+"{:,}".format(revenue)+" million"
@@ -409,7 +409,7 @@ def create_organization(stix, fs, country, org_names, assessment):
 
     # Tie organization to country (headquarters)
     country_id = fs.query([
-        Filter('type', '=', 'location'), Filter("name", "=", country)])[0].id
+        Filter('type', '=', 'location'), Filter("name", "=", country.name)])[0].id
     fs.add(Relationship(organization, 'located-at', country_id))
 
 

@@ -43,6 +43,6 @@
         "stix",
         "html"
     ],
-    "output_types": ["html","pdf"],
+    "output_types": ["pdf"],
     "temp_path": "cdas-temp"
 }
