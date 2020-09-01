@@ -4,4 +4,4 @@ services:
     image: cdas
     container_name: cdas
     volumes:
-      - /Users/dustin/data/cdas:/app/cdas-output
+      - /opt/docker/cdas:/app/cdas-output
