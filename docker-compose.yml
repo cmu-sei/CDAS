@@ -1,0 +1,7 @@
+version: '3.2'
+services:
+  cdas:
+    image: cdas
+    container_name: cdas
+    volumes:
+      - /Users/dustin/data/cdas:/app/cdas-output
