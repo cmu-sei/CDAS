@@ -14,20 +14,20 @@
             "org_names": "data/organization_names.txt"
         }
     },
-    "context": {
-       "countries": {
-           "randomize": true,
-           "random_vars": {
-               "num_countries": 50
-           },
-           "non_random_vars": {
-                "country_data": "cia_world_factbook"
-           }
-       },
-       "data_choices": "data/geopol_data.json"
+    "countries": {
+        "randomize": true,
+        "random_vars": {
+            "num_countries": 50,
+            "seed_file": "data/geopol_data.json"
+        },
+        "non_random_vars": {
+            "country_data": "--default--",
+            "asn_data": "--default--"
+        }
     },
-    "assets": {
-
+    "defend": {
+        "network_range": ["1.2.3.0/24", "1.2.4.0/24"],
+        "topology": ""
     },
     "simulation": {
         "number_of_rounds": 5,

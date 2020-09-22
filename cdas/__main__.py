@@ -99,19 +99,19 @@ def arguments():
     else:
         args.output_types = args.output_types.split(',')
     if not args.randomize_geopol:
-        args.randomize_geopol = config["context"]['countries']['randomize']
+        args.randomize_geopol = config['countries']['randomize']
     if not args.num_countries:
-        args.num_countries = config["context"]['countries']['random_vars']['num_countries']
+        args.num_countries = config['countries']['random_vars']['num_countries']
     if not args.country_data and args.randomize_geopol is False:
-        c_d = config["context"]["countries"]["non_random_vars"]["country_data"] 
-        if c_d == "cia_world_factbook":
+        c_d = config["countries"]["non_random_vars"]["country_data"] 
+        if c_d == "--default--":
             args.country_data = pkg_resources.resource_filename(
-                __name__, 'data/' + c_d + '/')
+                __name__, 'data/cia_world_factbook/')
         else:
             args.country_data = c_d
 
     args.random_geodata = pkg_resources.resource_filename(
-        __name__, config["context"]["data_choices"])
+        __name__, config["countries"]["random_vars"]["seed_file"])
 
     # Validate arguments
     for ot in args.output_types:
@@ -296,6 +296,8 @@ def main(args, config):
                 except ValueError:
                     egs[eg] = c.languages[eg]
             c.languages = egs
+        # Create ASN to netblock mapping
+
     else:
         # Using country data files instead of random generation
         print("Loading countries...")

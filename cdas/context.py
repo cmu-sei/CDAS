@@ -453,6 +453,10 @@ class Country:
             self.internet_users = "{:,}".format(intnet)
             mob = int(population * (1 - np.random.gamma(5, .1)))
             self.mobile_subscriptions = "{:,}".format(mob)
+            asns = []
+            for asn in range(0, int(np.ceil(np.random.beta(2, 5) * 10))):
+                asns.append(str(self.id) + "0" + str(asn+1))
+            self.asns = asns
 
             # Set Internet country code
             codes = [x.internet_country_code for x in Country.getinstances()]
