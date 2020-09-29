@@ -52,62 +52,12 @@ from stix2.v21 import Relationship, Location
 class Country:
     """
     Used to represent a country and its attributes.
-
-    Attributes
-    ----------
-    id : int
-    name: str
-    coordinates : str
-        Lat/long coordinates calculated from the map matrix
-    total_area : str
-        Area within the country's borders in sq km
-    land_area : str
-    water_area : str
-    land_boundary : str
-    neighbors : dict
-        IDs of neighboring countries and their border in km
-    coastline : str
-    climate : str
-    terrain : str
-    natural_hazards : list
-    natural_resources : list
-    population : str
-    nationality : str
-    gdp : str
-    agriculture : list
-    industries : list
-    exports : list
-    imports : list
-    government_type : str
-    national_symbol : str
-    national_colors : list
-    ethnic_groups : dict
-        ethnic groups with their % of population
-    languages : dict
-        languages with their % of population
-    religions : dict
-        religions with their % of population
-    broadband_subscriptions : str
-    internet_users : str
-    mobile_subscriptions : str
-    internet_country_code : str
-    military_and_security_forces : str
-    waterways : str
-    pipelines : list
-    ports_and_terminals : dict
-    number_of_airports : str
-    international_disputes : str
-
-    Methods
-    -------
-    save(directory, filetype)
-        Saves the country attributes to a file of [filetype] in [directory].
     """
 
     __instances = set()
     countryCount = -1  # track the number of countries created starting at 0
 
-    def __init__(self, fs, choices=None, map_matrix=None, **kwargs):
+    def __init__(self, choices=None, map_matrix=None, **kwargs):
         """
         Parameters
         ----------
@@ -179,7 +129,7 @@ class Country:
             neighbors = {}
             coastline = 0
             for n in neighbor_spaces:
-                neighbor = map_matrix[n[0], n[1]]
+                neighbor = int(map_matrix[n[0], n[1]])
                 if neighbor == -1:
                     coastline += 1
                 elif neighbor != self.id:
@@ -578,12 +528,6 @@ class Country:
 
         self.__instances.add(weakref.ref(self))
 
-        location = Location(
-            name=self.name,
-            description="country",
-            country=self.internet_country_code.upper()[1:])
-        fs.add(location)
-
     @classmethod
     def getinstances(cls):
         dead = set()
@@ -650,6 +594,91 @@ class Country:
         else:
             raise NotImplementedError(
                 f"Output file type, {filetype}, not supported")
+
+    def _serialize(self):
+        serialized = {}
+        for key, value in self.__dict__.items():
+            serialized[key] = value
+        return serialized
+
+    def update(self, id_to_name):
+        # Convert the neighbors listed by id# to neighbor country names
+        neighbors = {}
+        for n in self.neighbors:
+            neighbors[id_to_name[n]] = self.neighbors[n]
+        self.neighbors = neighbors
+        if len(self.neighbors) == 0:
+            self.neighbors = "None (island nation)"
+
+        # if country is a terrority, find its owner
+        if self.government_type == "non-self-governing territory":
+            gdps = [
+                (int(gdp.gdp[1:].replace(',', '')), gdp.name)
+                for gdp in Country.getinstances()]
+            gdps.sort()
+            # Territory owners are most likely to be high GDP countries
+            # pick a random one from the top three GDP
+            owner_name = np.random.choice([gdp[1] for gdp in gdps][-3:])
+            if self.name in [gdp[1] for gdp in gdps][-3:]:
+                # if the territory itself is in the top three GDP, change
+                # its gov type to a republic instead of a territory
+                self.government_type = "federal parliamentary republic"
+            else:
+                self.government_type += f" of {str(owner_name)}"
+                # update ethnic groups to include owner instead of random
+                owner = id_to_name[owner_name]
+                if str(owner) not in self.ethnic_groups:
+                    egs = {}
+                    for eg in self.ethnic_groups:
+                        try:
+                            int(eg)
+                            if str(owner) not in egs:
+                                egs[str(owner)] = self.ethnic_groups[eg]
+                            else:
+                                egs[eg] = self.ethnic_groups[eg]
+                        except ValueError:
+                            egs[eg] = self.ethnic_groups[eg]
+                    self.ethnic_groups = egs
+                # update forces to include owner name if necessary
+                msf = self.military_and_security_forces
+                self.military_and_security_forces = msf.replace(
+                    "[COUNTRY]", owner_name)
+                # update languages to include owner instead of random
+                if str(owner) not in self.languages:
+                    langs = {}
+                    for eg in self.languages:
+                        try:
+                            int(eg)
+                            if str(owner) not in langs:
+                                langs[str(owner)] = self.languages[eg]
+                            else:
+                                langs[eg] = self.languages[eg]
+                        except ValueError:
+                            langs[eg] = self.languages[eg]
+                    self.languages = langs
+
+        # Apply nationalities to ethnic groups listed by id#
+        egs = {}
+        for eg in self.ethnic_groups:
+            try:
+                egs[id_to_name[eg]] = self.ethnic_groups[eg]
+            except KeyError:
+                egs[eg] = self.ethnic_groups[eg]
+        self.ethnic_groups = egs
+
+        # Convert languges listed by id# to country names
+        langs = {}
+        for eg in self.languages:
+            try:
+                eg_name = id_to_name[eg]
+                if eg_name.endswith(('a', 'e', 'i', 'o', 'u')):
+                    eg_name += "nese"
+                else:
+                    eg_name += 'ish'
+                langs[eg_name] = self.languages[eg]
+            except KeyError:
+                langs[eg] = self.languages[eg]
+        self.languages = langs
 
 
 class Map:

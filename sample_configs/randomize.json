@@ -17,12 +17,7 @@
     "countries": {
         "randomize": true,
         "random_vars": {
-            "num_countries": 50,
-            "seed_file": "data/geopol_data.json"
-        },
-        "non_random_vars": {
-            "country_data": "--default--",
-            "asn_data": "--default--"
+            "num_countries": 5
         }
     },
     "defend": {
@@ -36,13 +31,16 @@
             "2020-08-01"
         ]
     },
-    "output_path": "cdas-output",
-    "output_type_opts": [
-        "json",
-        "pdf",
-        "stix",
-        "html"
-    ],
-    "output_types": ["pdf"],
-    "temp_path": "cdas-temp"
+    "output": {
+        "input_directory": "",
+        "output_directory": "cdas-output",
+        "output_type_opts": [
+            "json",
+            "pdf",
+            "stix",
+            "html"
+        ],
+        "output_types": ["pdf"],
+        "temp_directory": "cdas-temp"
+    }
 }

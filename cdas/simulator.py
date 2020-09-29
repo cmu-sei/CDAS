@@ -172,8 +172,6 @@ def simulate(actors, orgs, tools, malwares, fs, start_date, td):
             sighting_of_ref=agent.id))
         start_date += timedelta(td)
 
-# @TODO add "defense" option back in as closure of vulnerabilities
-
 
 def save(e, apt_store, vuln_store, filename, output_type):
     """

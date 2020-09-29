@@ -21,7 +21,6 @@ setup(
     include_package_data=True,
     package_data={
         'cdas': [
-            'config.json',
             'data/*',
             'data/cia_world_factbook/*',
             'assets/*',

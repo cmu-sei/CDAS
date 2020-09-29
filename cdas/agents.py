@@ -43,142 +43,114 @@ import weakref
 import numpy as np
 import json
 from datetime import date
+import uuid
 import reportlab.platypus as platy
 from reportlab.lib.styles import getSampleStyleSheet
-from stix2.v21 import Relationship, IntrusionSet, Identity
+from stix2.v21 import Relationship, Identity
 from stix2 import Filter
 
 
-def create_threatactor(stix, nouns, adjectives, countries, fs):
-    """
-    Create a  basic threat actor profile, including country attribution, and 
-    save to the given data store. 
+class ThreatActor():
 
-    Parameters
-    ----------
-    stix : dictionary
-        Seed vocabulary for APT profiles
-    nouns : list
-        Words available for first word in APT name
-    adjectives : list
-        Words avialables for second word in APT name
-    countries : list
-        List of country objects (for setting attribution)
-    fs : FileSystemStore object
-        Where to locate the APT data
-    """
+    def __init__(self, stix=None, actor_name_1=None, actor_name_2=None, countries_fs=None, fs=None, **kwargs):
 
-    # Create the name, but don't reuse nouns/adjs already chosen
-    actors = fs.query(Filter('type', '=', 'threat-actor'))
-    names_taken = [ta.name for ta in actors]
-    adj = np.random.choice(adjectives)
-    while adj in [name.split(' ')[0] for name in names_taken]:
-        adj = np.random.choice(adjectives)
-    noun = np.random.choice(nouns)
-    while noun in [name.split(' ')[1] for name in names_taken]:
-        noun = np.random.choice(nouns)
-    agent_name = adj + " " + noun
+        if len(kwargs) > 0:
+            self.__dict__.update(kwargs)
+        else:
+            self.id = str(uuid.uuid4())
 
-    sophistication = str(np.random.choice(stix['threat-actor-sophistication']))
-    actor_type = np.random.choice(
-        list(stix["threat-actor-type"].keys()),
-        p=list(stix["threat-actor-type"].values()))
+            # Create the name, but don't reuse names already taken
+            actors = fs.query("SELECT name,aliases,attribution")
+            names_taken = [ta[0] for ta in actors]
+            adj = np.random.choice(actor_name_1)
+            while adj in [name.split(' ')[0] for name in names_taken]:
+                adj = np.random.choice(actor_name_1)
+            noun = np.random.choice(actor_name_2)
+            while noun in [name.split(' ')[1] for name in names_taken]:
+                noun = np.random.choice(actor_name_2)
+            self.name = adj + " " + noun
 
-    # target sectors
-    sectors = list(np.random.choice(
-        stix['sectors'], np.random.randint(2, 4), False))
-    
-    description = {
-        'sophistication': sophistication,
-        'actor_type': actor_type,
-        'target_sectors': sectors
-    }
+            self.sophistication = str(np.random.choice(stix['threat-actor-sophistication']))
+            self.actor_type = np.random.choice(
+                list(stix["threat-actor-type"].keys()),
+                p=list(stix["threat-actor-type"].values()))
 
-    aliases = [f"APT {1000+(len(actors))}"]
-    aliases_taken = []
-    for ta in actors:
-        aliases_taken.extend(ta.aliases)
-    alias = (
-        f"{np.random.choice(stix['colors'])} "
-        f"{np.random.choice(stix['animals'])}")
-    while alias in aliases_taken:
-        alias = (
-            f'{np.random.choice(stix["colors"])} '
-            f'{np.random.choice(stix["animals"])}')
-    aliases.append(alias)
+            # target sectors
+            self.sectors = list(np.random.choice(
+                stix['sectors'], np.random.randint(2, 4), False))
 
-    first_seen = date.fromordinal(np.random.randint(
-        date.today().replace(year=date.today().year-10).toordinal(),
-        date.today().toordinal()))
+            aliases = [f"APT {1000+(len(actors))}"]
+            aliases_taken = [ta[1] for ta in actors]
+            alias = (
+                f"{np.random.choice(stix['colors'])} "
+                f"{np.random.choice(stix['animals'])}")
+            while alias in aliases_taken:
+                alias = (
+                    f'{np.random.choice(stix["colors"])} '
+                    f'{np.random.choice(stix["animals"])}')
+            aliases.append(alias)
+            self.aliases = aliases
 
-    last_seen = date.fromordinal(np.random.randint(
-        date.today().replace(year=date.today().year-1).toordinal(),
-        date.today().toordinal()))
-    while last_seen < first_seen:
-        last_seen = date.fromordinal(np.random.randint(
-            date.today().replace(year=date.today().year-1).toordinal(),
-            date.today().toordinal()))
+            self.first_seen = date.fromordinal(np.random.randint(
+                date.today().replace(year=date.today().year-10).toordinal(),
+                date.today().toordinal()))
 
-    resource_level = "government"
+            last_seen = date.fromordinal(np.random.randint(
+                date.today().replace(year=date.today().year-1).toordinal(),
+                date.today().toordinal()))
+            while last_seen < self.first_seen:
+                last_seen = date.fromordinal(np.random.randint(
+                    date.today().replace(year=date.today().year-1).toordinal(),
+                    date.today().toordinal()))
+            self.last_seen = last_seen
 
-    motivations = list(np.random.choice(
-        stix['attack-motivation'], np.random.randint(2, 4), replace=False))
-    primary_motivation = str(motivations[0])
-    secondary_motivations = motivations[1:]
-    goals = list(
-        np.random.choice(stix['goals'], np.random.randint(2, 4), False))
+            motivations = list(np.random.choice(
+                stix['attack-motivation'], np.random.randint(2, 4), replace=False))
+            self.primary_motivation = str(motivations[0])
+            self.secondary_motivations = motivations[1:]
+            self.goals = list(
+                np.random.choice(stix['goals'], np.random.randint(2, 4), False))
 
-    apt = IntrusionSet(
-        name=agent_name,
-        aliases=aliases,
-        first_seen=first_seen,
-        last_seen=last_seen,
-        resource_level=resource_level,
-        description=json.dumps(description),
-        primary_motivation=primary_motivation,
-        secondary_motivations=secondary_motivations,
-        goals=goals
-    )
-    fs.add(apt)
+            # Find countries most likely to host threat actors
+            have_actors = [ta[2] for ta in actors]
+            countries = countries_fs.query(
+                "SELECT name,terrorism,international_disputes,percent_GDP_on_military")
+            if self.actor_type == "terrorist":
+                attr_countries = [
+                    country[0] for country in countries
+                    if country[1] is not None and
+                    country[0] not in have_actors]
+            elif self.actor_type == "nation-state":
+                attr_countries = [
+                    (country[0], country[3])
+                    for country in countries
+                    if country[2] is not None and
+                    country[0] not in have_actors]
+                attr_countries.sort(key=lambda x: x[1])
+                attr_countries = [country[0] for country in attr_countries]
+            else:
+                attr_countries = [
+                    country[0] for country in countries
+                    if country[0] not in have_actors]
+            if len(attr_countries) == 0:
+                attr_countries = [
+                    country[0] for country in countries
+                    if country[0] not in have_actors]
+                if len(attr_countries) == 0:
+                    # all of the countries already have at least one actor
+                    attr_countries = [country[0] for country in countries]
+            # Set attribution
+            self.attribution = attr_countries.pop()
 
-    # Find countries most likely to host threat actors
-    relationships = fs.query([
-        Filter("type", "=", "relationship"),
-        Filter("relationship_type", "=", "located-at"),
-        Filter("source_ref", "contains", "intrusion-set")])
-    have_actors = [country.name for country in fs.query([
-        Filter("type", "=", "location"),
-        Filter("id", "in", [r.target_ref for r in relationships])])]
-    if actor_type == "terrorist":
-        attr_countries = [
-            country.name for country in countries
-            if hasattr(country, 'terrorism') and
-            country.name not in have_actors]
-    elif actor_type == "nation-state":
-        attr_countries = [
-            (country.name, country.percent_GDP_on_military)
-            for country in countries
-            if hasattr(country, 'international_disputes') and
-            country.name not in have_actors]
-        attr_countries.sort(key=lambda x: x[1])
-        attr_countries = [country[0] for country in attr_countries]
-    else:
-        attr_countries = [
-            country.name for country in countries
-            if country.name not in have_actors]
-    if len(attr_countries) == 0:
-        attr_countries = [
-            country.name for country in countries
-            if country.name not in have_actors]
-        if len(attr_countries) == 0:
-            # all of the countries already have at least one actor
-            attr_countries = [country.name for country in countries]
-    # Set attribution
-    country = fs.query([
-        Filter("type", "=", "location"),
-        Filter("name", "=", attr_countries.pop())])
-    fs.add(Relationship(apt, 'located-at', country[0]))
-
+    def _serialize(self):
+        serialized = {}
+        for key, value in self.__dict__.items():
+            if isinstance(value, date):
+                s_value = str(value)
+            else:
+                s_value = value
+            serialized[key] = s_value
+        return serialized
 
 def save(actor, directory, filetype, fs_gen, fs_real):
     """Saves the attributes of the Threat Actor to a specified file.
@@ -345,73 +317,44 @@ def save(actor, directory, filetype, fs_gen, fs_real):
             f"Output file type, {filetype}, not supported")
 
 
-def create_organization(stix, fs, country, org_names, assessment):
-    """
-    Generate a company profile and save to the STIX data store
+class Organization():
+    
+    def __init__(self, stix=None, country=None, org_names=None, assessment=None, **kwargs):
 
-    Parameters
-    ----------
-    stix : dictionary
-        Seed vocabulary for organization profiles
-    fs : FileSystemStore object
-        Data store to save organization information
-    country : string
-        Name of country with which to associate organization
-    org_names : list
-        organization names to choose from
-    assessment : dictionary
-        representation of NIST 800-171 assessment table
-    """
+        if len(kwargs) > 0:
+            self.__dict__.update(kwargs)
+        else:
+            self.name = np.random.choice(org_names)
+            revenue = int(np.random.chisquare(1) * 10000)
+            while revenue == 0:
+                revenue = int(np.random.chisquare(1) * 10000)
+            self.revenue = "$"+"{:,}".format(revenue)+" million"
+            self.sector = np.random.choice(stix['sectors'])
+            self.background = "TODO"
+            self.headquarters = country
+            self.number_of_employees = "{:,}".format(np.random.randint(500, 15000))
+            self.network_size = np.random.randint(1, 100)
 
-    name = np.random.choice(org_names)
-    revenue = int(np.random.chisquare(1) * 10000)
-    while revenue == 0:
-        revenue = int(np.random.chisquare(1) * 10000)
-    sector = np.random.choice(stix['sectors'])
+            score = 0
+            vulns = []
+            dist = np.random.beta(2, 2)  # overall scoring distribution
+            while dist == 0:
+                dist = np.random.beta(2, 2)
+            for cat in assessment:
+                for r in assessment[cat]:
+                    pf = np.random.choice(a=['Yes', 'No'], p=[dist, 1-dist])
+                    if pf == 'Yes':
+                        score += r['Value']
+                    else:
+                        vulns.append(r['Requirement'])
+            self.vulnerability_score = int(score/313 * 100)
+            self.vulns = vulns
 
-    description = {
-        "Background": {
-            "headquarters": country.name,
-            "number of employees": "{:,}".format(
-                np.random.randint(500, 15000)),
-            "annual revenue": "$"+"{:,}".format(revenue)+" million"
-        },
-        "Network": {
-            "size": np.random.randint(1, 100)
-        }
-    }
-
-    score = 0
-    vulns = []
-    dist = np.random.beta(2, 2)  # overall scoring distribution
-    while dist == 0:
-        dist = np.random.beta(2, 2)
-    for cat in assessment:
-        for r in assessment[cat]:
-            pf = np.random.choice(a=['Yes', 'No'], p=[dist, 1-dist])
-            if pf == 'Yes':
-                score += r['Value']
-            else:
-                vulns.append(r['Requirement'])
-    description["Security Posture"] = {
-        "vulnerability": int(score/313 * 100),
-        "vulns": vulns
-    }
-
-    # Add asset to the STIX data store
-    organization = Identity(
-        name=name,
-        identity_class='organization',
-        sectors=sector,
-        description=json.dumps(description)
-    )
-    fs.add(organization)
-
-    # Tie organization to country (headquarters)
-    country_id = fs.query([
-        Filter('type', '=', 'location'), Filter("name", "=", country.name)])[0].id
-    fs.add(Relationship(organization, 'located-at', country_id))
-
+    def _serialize(self):
+        serialized = {}
+        for key, value in self.__dict__.items():
+            serialized[key] = value
+        return serialized
 
 def save_org(org, directory, filetype, assessment):
     """
