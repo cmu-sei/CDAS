@@ -1,0 +1,41 @@
+{
+    "id": "attack-pattern--cde2cb84-455e-410c-8aa9-086f2788bcd2",
+    "name": "Install Insecure or Malicious Configuration",
+    "description": "An adversary could attempt to install insecure or malicious configuration settings on the mobile device, through means such as phishing emails or text messages either directly containing the configuration settings as an attachment, or containing a web link to the configuration settings. The device user may be tricked into installing the configuration settings through social engineering techniques (Citation: Symantec-iOSProfile).\n\nFor example, an unwanted Certification Authority (CA) certificate could be placed in the device's trusted certificate store, increasing the device's susceptibility to man-in-the-middle network attacks seeking to eavesdrop on or manipulate the device's network communication ([Eavesdrop on Insecure Network Communication](https://attack.mitre.org/techniques/T1439) and [Manipulate Device Communication](https://attack.mitre.org/techniques/T1463)).\n\nOn iOS, malicious Configuration Profiles could contain unwanted Certification Authority (CA) certificates or other insecure settings such as unwanted proxy server or VPN settings to route the device's network traffic through an adversary's system. The device could also potentially be enrolled into a malicious Mobile Device Management (MDM) system (Citation: Talos-MDM).",
+    "references": [
+        {
+            "source_name": "mitre-mobile-attack",
+            "url": "https://attack.mitre.org/techniques/T1478",
+            "external_id": "T1478"
+        },
+        {
+            "source_name": "NIST Mobile Threat Catalogue",
+            "url": "https://pages.nist.gov/mobile-threat-catalogue/stack-threats/STA-7.html",
+            "external_id": "STA-7"
+        },
+        {
+            "source_name": "Symantec-iOSProfile",
+            "description": "Yair Amit. (2013, March 12). Malicious Profiles \u2013 The Sleeping Giant of iOS Security. Retrieved September 24, 2018.",
+            "url": "https://www.symantec.com/connect/blogs/malicious-profiles-sleeping-giant-ios-security"
+        },
+        {
+            "source_name": "Talos-MDM",
+            "description": "Warren Mercer, Paul Rascagneres, Andrew Williams. (2018, July 12). Advanced Mobile Malware Campaign in India uses Malicious MDM. Retrieved September 24, 2018.",
+            "url": "https://blog.talosintelligence.com/2018/07/Mobile-Malware-Campaign-uses-Malicious-MDM.html"
+        }
+    ],
+    "platforms": [
+        "Android",
+        "iOS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "defense-evasion"
+        },
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "initial-access"
+        }
+    ]
+}

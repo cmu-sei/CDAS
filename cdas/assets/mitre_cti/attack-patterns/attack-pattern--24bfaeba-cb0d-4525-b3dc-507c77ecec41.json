@@ -1,0 +1,28 @@
+{
+    "id": "attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41",
+    "name": "Symmetric Cryptography",
+    "description": "Adversaries may employ a known symmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. Symmetric encryption algorithms use the same key for plaintext encryption and ciphertext decryption. Common symmetric encryption algorithms include AES, DES, 3DES, Blowfish, and RC4.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1573.001",
+            "url": "https://attack.mitre.org/techniques/T1573/001"
+        },
+        {
+            "url": "https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf",
+            "description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved April 20, 2016.",
+            "source_name": "University of Birmingham C2"
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "command-and-control"
+        }
+    ]
+}

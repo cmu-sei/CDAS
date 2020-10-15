@@ -1,0 +1,37 @@
+{
+    "id": "attack-pattern--15dbf668-795c-41e6-8219-f0447c0e64ce",
+    "name": "Permission Groups Discovery",
+    "description": "Adversaries may attempt to find group and permission settings. This information can help adversaries determine which user accounts and groups are available, the membership of users in particular groups, and which users and groups have elevated permissions.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1069",
+            "url": "https://attack.mitre.org/techniques/T1069"
+        },
+        {
+            "external_id": "CAPEC-576",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/576.html"
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Office 365",
+        "Azure AD",
+        "AWS",
+        "GCP",
+        "Azure",
+        "SaaS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "discovery"
+        }
+    ],
+    "permissions": [
+        "User"
+    ]
+}

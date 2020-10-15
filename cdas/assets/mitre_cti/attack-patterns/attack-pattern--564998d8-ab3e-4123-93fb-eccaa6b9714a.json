@@ -1,0 +1,49 @@
+{
+    "id": "attack-pattern--564998d8-ab3e-4123-93fb-eccaa6b9714a",
+    "name": "Rogue Domain Controller",
+    "description": "Adversaries may register a rogue Domain Controller to enable manipulation of Active Directory data. DCShadow may be used to create a rogue Domain Controller (DC). DCShadow is a method of manipulating Active Directory (AD) data, including objects and schemas, by registering (or reusing an inactive registration) and simulating the behavior of a DC. (Citation: DCShadow Blog) Once registered, a rogue DC may be able to inject and replicate changes into AD infrastructure for any domain object, including credentials and keys.\n\nRegistering a rogue DC involves creating a new server and nTDSDSA objects in the Configuration partition of the AD schema, which requires Administrator privileges (either Domain or local to the DC) or the KRBTGT hash. (Citation: Adsecurity Mimikatz Guide)\n\nThis technique may bypass system logging and security monitors such as security information and event management (SIEM) products (since actions taken on a rogue DC may not be reported to these sensors). (Citation: DCShadow Blog) The technique may also be used to alter and delete replication and other associated metadata to obstruct forensic analysis. Adversaries may also utilize this technique to perform [SID-History Injection](https://attack.mitre.org/techniques/T1178) and/or manipulate AD objects (such as accounts, access control lists, schemas) to establish backdoors for Persistence. (Citation: DCShadow Blog)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1207",
+            "url": "https://attack.mitre.org/techniques/T1207"
+        },
+        {
+            "url": "https://www.dcshadow.com/",
+            "description": "Delpy, B. & LE TOUX, V. (n.d.). DCShadow. Retrieved March 20, 2018.",
+            "source_name": "DCShadow Blog"
+        },
+        {
+            "url": "https://adsecurity.org/?page_id=1821",
+            "description": "Metcalf, S. (2015, November 13). Unofficial Guide to Mimikatz & Command Reference. Retrieved December 23, 2015.",
+            "source_name": "Adsecurity Mimikatz Guide"
+        },
+        {
+            "url": "https://github.com/shellster/DCSYNCMonitor",
+            "description": "Spencer S. (2018, February 22). DCSYNCMonitor. Retrieved March 30, 2018.",
+            "source_name": "GitHub DCSYNCMonitor"
+        },
+        {
+            "url": "https://msdn.microsoft.com/en-us/library/ms677626.aspx",
+            "description": "Microsoft. (n.d.). Polling for Changes Using the DirSync Control. Retrieved March 30, 2018.",
+            "source_name": "Microsoft DirSync"
+        },
+        {
+            "url": "https://adds-security.blogspot.fr/2018/02/detecter-dcshadow-impossible.html",
+            "description": "Lucand,G. (2018, February 18). Detect DCShadow, impossible?. Retrieved March 30, 2018.",
+            "source_name": "ADDSecurity DCShadow Feb 2018"
+        }
+    ],
+    "platforms": [
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        }
+    ],
+    "permissions": [
+        "Administrator"
+    ]
+}

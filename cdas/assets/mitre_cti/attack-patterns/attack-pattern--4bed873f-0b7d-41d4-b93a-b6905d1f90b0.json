@@ -1,0 +1,27 @@
+{
+    "id": "attack-pattern--4bed873f-0b7d-41d4-b93a-b6905d1f90b0",
+    "name": "Time Based Evasion",
+    "description": "Adversaries may employ various time-based methods to detect and avoid virtualization and analysis environments. This may include timers or other triggers to avoid a virtual machine environment (VME) or sandbox, specifically those that are automated or only operate for a limited amount of time.\n\nAdversaries may employ various time-based evasions, such as delaying malware functionality upon initial execution using programmatic sleep commands or native system scheduling functionality (ex: [Scheduled Task/Job](https://attack.mitre.org/techniques/T1053)). Delays may also be based on waiting for specific victim conditions to be met (ex: system time, events, etc.) or employ scheduled [Multi-Stage Channels](https://attack.mitre.org/techniques/T1104) to avoid analysis and scrutiny. ",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1497.003",
+            "url": "https://attack.mitre.org/techniques/T1497/003"
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        },
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "discovery"
+        }
+    ]
+}

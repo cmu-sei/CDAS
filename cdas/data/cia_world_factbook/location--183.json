@@ -1,0 +1,108 @@
+{
+    "id": "location--183",
+    "name": "Somalia",
+    "background": "Several powerful Somali states dominated the Indian Ocean trade from the 13th century onward. In the late 19th century, the area that would become Somalia was colonized by Britain in the north and Italy in the south. Britain withdrew from British Somaliland in 1960 to allow its protectorate to join with Italian Somaliland and form the new nation of Somalia. In 1969, a coup headed by Mohamed SIAD Barre ushered in an authoritarian socialist rule characterized by the persecution, jailing, and torture of political opponents and dissidents. After the regime's collapse early in 1991, Somalia descended into turmoil, factional fighting, and anarchy. In May 1991, northern clans declared an independent Republic of Somaliland that now includes the administrative regions of Awdal, Woqooyi Galbeed, Togdheer, Sanaag, and Sool. Although not recognized by any government, this entity has maintained a stable existence and continues efforts to establish a constitutional democracy, including holding municipal, parliamentary, and presidential elections. The regions of Bari, Nugaal, and northern Mudug comprise a neighboring semi-autonomous state of Puntland, which has been self-governing since 1998 but does not aim at independence; it has also made strides toward reconstructing a legitimate, representative government but has suffered some civil strife. Puntland disputes its border with Somaliland as it also claims the regions of Sool and Sanaag, and portions of Togdheer. Beginning in 1993, a two-year UN humanitarian effort (primarily in south-central Somalia) was able to alleviate famine conditions, but when the UN withdrew in 1995, having suffered significant casualties, order still had not been restored.\nIn 2000, the Somalia National Peace Conference (SNPC) held in Djibouti resulted in the formation of an interim government, known as the Transitional National Government (TNG). When the TNG failed to establish adequate security or governing institutions, the Government of Kenya, under the auspices of the Intergovernmental Authority on Development (IGAD), led a subsequent peace process that concluded in October 2004 with the election of Abdullahi YUSUF Ahmed as President of a second interim government, known as the Transitional Federal Government (TFG) of the Somali Republic. The TFG included a 275-member parliamentary body, known as the Transitional Federal Parliament (TFP). President YUSUF resigned late in 2008 while UN-sponsored talks between the TFG and the opposition Alliance for the Re-Liberation of Somalia (ARS) were underway in Djibouti. In January 2009, following the creation of a TFG-ARS unity government, Ethiopian military forces, which had entered Somalia in December 2006 to support the TFG in the face of advances by the opposition Islamic Courts Union (ICU), withdrew from the country. The TFP was doubled in size to 550 seats with the addition of 200 ARS and 75 civil society members of parliament. The expanded parliament elected Sheikh SHARIF Sheikh Ahmed, the former ICU and ARS chairman as president in January 2009. The creation of the TFG was based on the Transitional Federal Charter (TFC), which outlined a five-year mandate leading to the establishment of a new Somali constitution and a transition to a representative government following national elections. In 2009, the TFP amended the TFC to extend TFG's mandate until 2011 and in 2011 Somali principals agreed to institute political transition by August 2012. The transition process ended in September 2012 when clan elders replaced the TFP by appointing 275 members to a new parliament who subsequently elected a new president.",
+    "coordinates": "10 00 N, 49 00 E",
+    "region": "Africa",
+    "total_area": "637,657 sq km",
+    "land_area": "627,337 sq km",
+    "water_area": "10,320 sq km",
+    "land_boundary": "2,385 km",
+    "neighbors": {
+        "Ethiopia": "1640 km",
+        "Kenya": "684 km"
+    },
+    "climate": "principally desert; northeast monsoon (December to February), moderate temperatures in north and hot in south; southwest monsoon (May to October), torrid in the north and hot in the south, irregular rainfall, hot and humid periods (tangambili) between monsoons",
+    "coastline": "3,025 km",
+    "natural_hazards": [
+        "recurring droughts",
+        "frequent dust storms over eastern plains in summer",
+        "floods during rainy season"
+    ],
+    "terrain": "mostly flat to undulating plateau rising to hills in north",
+    "population_distribution": "distribution varies greatly throughout the country; least densely populated areas are in the northeast and central regions, as well as areas along the Kenyan border; most populated areas are in and around the cities of Mogadishu, Marka, Boorama, Hargeysa, and Baidoa as shown on this population distribution map",
+    "natural_resources": [
+        "uranium and largely unexploited reserves of iron ore",
+        "tin",
+        "gypsum",
+        "bauxite",
+        "copper",
+        "salt",
+        "natural gas",
+        "likely oil reserves"
+    ],
+    "population": "11,757,124",
+    "nationality": "Somali(s)",
+    "ethnic_groups": {
+        "Somali": "85%",
+        "Bantu and other non-Somali": "15%"
+    },
+    "languages": [
+        "Somali (official)",
+        "Arabic (official)",
+        "Italian",
+        "English"
+    ],
+    "religions": [
+        "Sunni Muslim"
+    ],
+    "government_type": "federal parliamentary republic",
+    "national_symbols": "leopard",
+    "national_colors": [
+        "blue",
+        "white"
+    ],
+    "gdp": "$7.052 billion",
+    "agriculture": [
+        "bananas",
+        "sorghum",
+        "corn",
+        "coconuts",
+        "rice",
+        "sugarcane",
+        "mangoes",
+        "sesame seeds",
+        "beans",
+        "cattle",
+        "sheep",
+        "goats",
+        "fish"
+    ],
+    "industries": [
+        "light industries",
+        "including sugar refining",
+        "textiles",
+        "wireless communication"
+    ],
+    "exports": [
+        "livestock",
+        "bananas",
+        "hides",
+        "fish",
+        "charcoal",
+        "scrap metal"
+    ],
+    "imports": [
+        "manufactures",
+        "petroleum products",
+        "foodstuffs",
+        "construction materials",
+        "qat"
+    ],
+    "broadband_subscriptions": "92,000",
+    "internet_users": "225,181",
+    "mobile_subscriptions": "7,653,040",
+    "internet_country_code": ".so",
+    "military_and_security_forces": "Somali National Security Forces: Somali National Army (SNA), Somali National Police (SNP, includes a maritime unit), National Intelligence and Security Agency (NISA)",
+    "percent_GDP_on_military": "Unknown",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Berbera, Kismaayo"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "52",
+    "international_disputes": "Ethiopian forces invaded southern Somalia and routed Islamist Courts from Mogadishu in January 2007; \"Somaliland\" secessionists provide port facilities in Berbera to landlocked Ethiopia and have established commercial ties with other regional states; \"Puntland\" and \"Somaliland\" \"governments\" seek international support in their secessionist aspirations and overlapping border claims; the undemarcated former British administrative line has little meaning as a political separation to rival clans within Ethiopia's Ogaden and southern Somalia's Oromo region; Kenya works hard to prevent the clan and militia fighting in Somalia from spreading south across the border, which has long been open to nomadic pastoralists",
+    "terrorism": "None/Unknown"
+}

@@ -1,0 +1,27 @@
+{
+    "id": "attack-pattern--6683aa0c-d98a-4f5b-ac57-ca7e9934a760",
+    "name": "Capture Audio",
+    "description": "Adversaries may capture audio to collect information on a user of a mobile device using standard operating system APIs. Adversaries may target audio information such as user conversations, surroundings, phone calls, or other sensitive information.\n\nAndroid and iOS, by default, requires that an application request access to microphone devices from the user. In Android, applications must hold the <code>android.permission.RECORD_AUDIO</code> permission to access the microphone and the <code>android.permission.CAPTURE_AUDIO_OUTPUT</code> permission to access audio output such as speakers. Android does not allow third-party applications to hold <code>android.permission.CAPTURE_AUDIO_OUTPUT</code>, so audio output can only be obtained by privileged applications (distributed by Google or the device vendor) or after a successful privilege escalation attack. In iOS, applications must include the `NSMicrophoneUsageDescription` key in their `Info.plist` file.",
+    "references": [
+        {
+            "source_name": "mitre-mobile-attack",
+            "url": "https://attack.mitre.org/techniques/T1429",
+            "external_id": "T1429"
+        },
+        {
+            "external_id": "APP-19",
+            "source_name": "NIST Mobile Threat Catalogue",
+            "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-19.html"
+        }
+    ],
+    "platforms": [
+        "Android",
+        "iOS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "collection"
+        }
+    ]
+}

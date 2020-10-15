@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--b79e8a3f-a109-47c2-a0e3-564955590a3d",
+    "name": "Non-traditional or less attributable payment options",
+    "description": "Using alternative payment options allows an adversary to hide their activities. Options include crypto currencies, barter systems, pre-paid cards or shell accounts. (Citation: Goodin300InBitcoins)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1316",
+            "external_id": "T1316"
+        },
+        {
+            "source_name": "Goodin300InBitcoins",
+            "description": "Dan Goodin. (2013, October 17). You\u2019re infected\u2014if you want to see your data again, pay us $300 in Bitcoins. Retrieved March 6, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "adversary-opsec"
+        }
+    ]
+}

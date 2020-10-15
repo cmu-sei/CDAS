@@ -1,0 +1,116 @@
+{
+    "id": "location--58",
+    "name": "Dominican Republic",
+    "background": "The Taino - indigenous inhabitants of Hispaniola prior to the arrival of the Europeans - divided the island into five chiefdoms and territories. Christopher COLUMBUS explored and claimed the island on his first voyage in 1492; it became a springboard for Spanish conquest of the Caribbean and the American mainland. In 1697, Spain recognized French dominion over the western third of the island, which in 1804 became Haiti. The remainder of the island, by then known as Santo Domingo, sought to gain its own independence in 1821 but was conquered and ruled by the Haitians for 22 years; it finally attained independence as the Dominican Republic in 1844. In 1861, the Dominicans voluntarily returned to the Spanish Empire, but two years later they launched a war that restored independence in 1865. A legacy of unsettled, mostly non-representative rule followed, capped by the dictatorship of Rafael Leonidas TRUJILLO from 1930 to 1961. Juan BOSCH was elected president in 1962 but was deposed in a military coup in 1963. In 1965, the US led an intervention in the midst of a civil war sparked by an uprising to restore BOSCH. In 1966, Joaquin BALAGUER defeated BOSCH in the presidential election. BALAGUER maintained a tight grip on power for most of the next 30 years when international reaction to flawed elections forced him to curtail his term in 1996. Since then, regular competitive elections have been held in which opposition candidates have won the presidency. Former President Leonel FERNANDEZ Reyna (first term 1996-2000) won election to a new term in 2004 following a constitutional amendment allowing presidents to serve more than one term, and was later reelected to a second consecutive term. In 2012, Danilo MEDINA Sanchez became president; he was reelected in 2016.",
+    "coordinates": "19 00 N, 70 40 W",
+    "region": "Central America and the Caribbean",
+    "total_area": "48,670 sq km",
+    "land_area": "48,320 sq km",
+    "water_area": "350 sq km",
+    "land_boundary": "376 km",
+    "neighbors": {},
+    "climate": "tropical maritime; little seasonal temperature variation; seasonal variation in rainfall",
+    "coastline": "1,288 km",
+    "natural_hazards": [
+        "lies in the middle of the hurricane belt and subject to severe storms from June to October",
+        "occasional flooding",
+        "periodic droughts"
+    ],
+    "terrain": "rugged highlands and mountains interspersed with fertile valleys",
+    "population_distribution": "coastal development is significant, especially in the southern coastal plains and the Cibao Valley, where population density is highest; smaller population clusters exist in the interior mountains (Cordillera Central)",
+    "natural_resources": [
+        "nickel",
+        "bauxite",
+        "gold",
+        "silver",
+        "arable land"
+    ],
+    "population": "10,499,707",
+    "nationality": "Dominican(s)",
+    "ethnic_groups": {
+        "mixed": "70.4%",
+        "black": "15.8%",
+        "white": "13.5%",
+        "other": "0.3%"
+    },
+    "languages": [
+        "Spanish (official)"
+    ],
+    "religions": {
+        "Roman Catholic": "47.8%",
+        "Protestant": "21.3%",
+        "other": "2.2%",
+        "none": "28%",
+        "don't know/no response": ".7%"
+    },
+    "government_type": "presidential republic",
+    "national_symbols": "palmchat (bird)",
+    "national_colors": [
+        "red",
+        "white",
+        "blue"
+    ],
+    "gdp": "$76.09 billion",
+    "agriculture": [
+        "cocoa",
+        "tobacco",
+        "sugarcane",
+        "coffee",
+        "cotton",
+        "rice",
+        "beans",
+        "potatoes",
+        "corn",
+        "bananas",
+        "cattle",
+        "pigs",
+        "dairy products",
+        "beef",
+        "eggs"
+    ],
+    "industries": [
+        "tourism",
+        "sugar processing",
+        "gold mining",
+        "textiles",
+        "cement",
+        "tobacco",
+        "electrical components",
+        "medical devices"
+    ],
+    "exports": [
+        "gold",
+        "silver",
+        "cocoa",
+        "sugar",
+        "coffee",
+        "tobacco",
+        "meats",
+        "consumer goods"
+    ],
+    "imports": [
+        "petroleum",
+        "foodstuffs",
+        "cotton and fabrics",
+        "chemicals and pharmaceuticals"
+    ],
+    "broadband_subscriptions": "794,788",
+    "internet_users": "7,705,529",
+    "mobile_subscriptions": "8,937,647",
+    "internet_country_code": ".do",
+    "military_and_security_forces": "Armed Forces of the Dominican Republic: Army (Ejercito Nacional, EN), Navy (Marina de Guerra, MdG, includes naval infantry), Dominican Air Force (Fuerza Aerea Dominicana, FAD)",
+    "percent_GDP_on_military": "0.7%",
+    "pipelines": [
+        "27 km gas",
+        "103 km oil"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Puerto Haina, Puerto Plata, Santo Domingo",
+        "oil terminal(s)": "Punta Nizao oil terminal",
+        "LNG terminal(s) (import)": "Andres LNG terminal (Boca Chica)"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "36",
+    "international_disputes": "Haitian migrants cross the porous border into the Dominican Republic to find work; illegal migrants from the Dominican Republic cross the Mona Passage each year to Puerto Rico to find better work",
+    "terrorism": "None/Unknown"
+}

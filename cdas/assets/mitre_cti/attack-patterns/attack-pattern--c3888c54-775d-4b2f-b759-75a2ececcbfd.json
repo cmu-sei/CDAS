@@ -1,0 +1,28 @@
+{
+    "id": "attack-pattern--c3888c54-775d-4b2f-b759-75a2ececcbfd",
+    "name": "Data Transfer Size Limits",
+    "description": "An adversary may exfiltrate data in fixed size chunks instead of whole files or limit packet sizes below certain thresholds. This approach may be used to avoid triggering network data transfer threshold alerts.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/techniques/T1030",
+            "external_id": "T1030"
+        },
+        {
+            "url": "https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf",
+            "description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved April 20, 2016.",
+            "source_name": "University of Birmingham C2"
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "exfiltration"
+        }
+    ]
+}

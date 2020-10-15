@@ -1,0 +1,121 @@
+{
+    "id": "location--83",
+    "name": "Guatemala",
+    "background": "The Maya civilization flourished in Guatemala and surrounding regions during the first millennium A.D. After almost three centuries as a Spanish colony, Guatemala won its independence in 1821. During the second half of the 20th century, it experienced a variety of military and civilian governments, as well as a 36-year guerrilla war. In 1996, the government signed a peace agreement formally ending the internal conflict.",
+    "coordinates": "15 30 N, 90 15 W",
+    "region": "Central America and the Caribbean",
+    "total_area": "108,889 sq km",
+    "land_area": "107,159 sq km",
+    "water_area": "1,730 sq km",
+    "land_boundary": "1,667 km",
+    "neighbors": {
+        "El Salvador": "199 km",
+        "Honduras": "244 km",
+        "Mexico": "958 km"
+    },
+    "climate": "tropical; hot, humid in lowlands; cooler in highlands",
+    "coastline": "400 km",
+    "natural_hazards": [
+        "numerous volcanoes in mountains, with occasional violent earthquakes",
+        "Caribbean coast extremely susceptible to hurricanes and other tropical storms",
+        "volcanism: significant volcanic activity in the Sierra Madre range; Santa Maria (3,772 m) has been deemed a Decade Volcano by the International Association of Volcanology and Chemistry of the Earth's Interior, worthy of study due to its explosive history and close proximity to human populations; Pacaya (2,552 m), which erupted in May 2010 causing an ashfall on Guatemala City and prompting evacuations, is one of the country's most active volcanoes with frequent eruptions since 1965; other historically active volcanoes include Acatenango, Almolonga, Atitlan, Fuego, and Tacana; see note 2 under \"Geography - note\""
+    ],
+    "terrain": "two east-west trending mountain chains divide the country into three regions: the mountainous highlands, the Pacific coast south of mountains, and the vast northern Peten lowlands",
+    "population_distribution": "the vast majority of the populace resides in the southern half of the country, particularly in the mountainous regions; more than half of the population lives in rural areas",
+    "natural_resources": [
+        "petroleum",
+        "nickel",
+        "rare woods",
+        "fish",
+        "chicle",
+        "hydropower"
+    ],
+    "population": "17,153,288",
+    "nationality": "Guatemalan(s)",
+    "ethnic_groups": {
+        "mestizo": "56%",
+        "Maya": "41.7%",
+        "Xinca": "1.8%",
+        "African descent": ".2%",
+        "Garifuna": ".1%",
+        "foreign": ".2%"
+    },
+    "languages": {
+        "Spanish (official)": "69.9%",
+        "Maya languages": "29.7%",
+        "other": "0.4%"
+    },
+    "religions": [
+        "Roman Catholic",
+        "Protestant",
+        "indigenous Maya"
+    ],
+    "government_type": "presidential republic",
+    "national_symbols": "quetzal (bird)",
+    "national_colors": [
+        "blue",
+        "white"
+    ],
+    "gdp": "$75.62 billion",
+    "agriculture": [
+        "sugarcane",
+        "corn",
+        "bananas",
+        "coffee",
+        "beans",
+        "cardamom",
+        "cattle",
+        "sheep",
+        "pigs",
+        "chickens"
+    ],
+    "industries": [
+        "sugar",
+        "textiles and clothing",
+        "furniture",
+        "chemicals",
+        "petroleum",
+        "metals",
+        "rubber",
+        "tourism"
+    ],
+    "exports": [
+        "sugar",
+        "coffee",
+        "petroleum",
+        "apparel",
+        "bananas",
+        "fruits and vegetables",
+        "cardamom",
+        "manufacturing products",
+        "precious stones and metals",
+        "electricity"
+    ],
+    "imports": [
+        "fuels",
+        "machinery and transport equipment",
+        "construction materials",
+        "grain",
+        "fertilizers",
+        "electricity",
+        "mineral products",
+        "chemical products",
+        "plastic materials and products"
+    ],
+    "broadband_subscriptions": "506,000",
+    "internet_users": "10,777,827",
+    "mobile_subscriptions": "20,467,520",
+    "internet_country_code": ".gt",
+    "military_and_security_forces": "Army of Guatemala (Ejercito de Guatemala): Land Forces (Fuerzas de Tierra), Naval Forces (Fuerza de Mar), and Air Force (Fuerza de Aire); Ministry of Interior: National Civil Police (Policia Nacional Civil; includes paramilitary units)",
+    "percent_GDP_on_military": "0.4%",
+    "pipelines": [
+        "480 km oil"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Puerto Quetzal, Santo Tomas de Castilla"
+    },
+    "waterways": "990 km",
+    "number_of_airports": "291",
+    "international_disputes": "annual ministerial meetings under the Organization of American States-initiated Agreement on the Framework for Negotiations and Confidence Building Measures continue to address Guatemalan land and maritime claims in Belize and the Caribbean Sea; Guatemala persists in its territorial claim to half of Belize, but agrees to Line of Adjacency to keep Guatemalan squatters out of Belize's forested interior; both countries agreed in April 2012 to hold simultaneous referenda, scheduled for 6 October 2013, to decide whether to refer the dispute to the ICJ for binding resolution, but this vote was suspended indefinitely; Mexico must deal with thousands of impoverished Guatemalans and other Central Americans who cross the porous border looking for work in Mexico and the US",
+    "terrorism": "None/Unknown"
+}

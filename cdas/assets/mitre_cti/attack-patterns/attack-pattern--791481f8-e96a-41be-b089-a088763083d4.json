@@ -1,0 +1,42 @@
+{
+    "id": "attack-pattern--791481f8-e96a-41be-b089-a088763083d4",
+    "name": "Component Firmware",
+    "description": "Adversaries may modify component firmware to persist on systems. Some adversaries may employ sophisticated means to compromise computer components and install malicious firmware that will execute adversary code outside of the operating system and main system firmware or BIOS. This technique may be similar to [System Firmware](https://attack.mitre.org/techniques/T1542/001) but conducted upon other system components/devices that may not have the same capability or level of integrity checking.\n\nMalicious component firmware could provide both a persistent level of access to systems despite potential typical failures to maintain access and hard disk re-images, as well as a way to evade host software-based defenses and integrity checks.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1542.002",
+            "url": "https://attack.mitre.org/techniques/T1542/002"
+        },
+        {
+            "description": "SanDisk. (n.d.). Self-Monitoring, Analysis and Reporting Technology (S.M.A.R.T.). Retrieved October 2, 2018.",
+            "source_name": "SanDisk SMART"
+        },
+        {
+            "url": "https://www.smartmontools.org/",
+            "description": "smartmontools. (n.d.). smartmontools. Retrieved October 2, 2018.",
+            "source_name": "SmartMontools"
+        },
+        {
+            "url": "https://www.itworld.com/article/2853992/3-tools-to-check-your-hard-drives-health-and-make-sure-its-not-already-dying-on-you.html",
+            "description": "Pinola, M. (2014, December 14). 3 tools to check your hard drive's health and make sure it's not already dying on you. Retrieved October 2, 2018.",
+            "source_name": "ITWorld Hard Disk Health Dec 2014"
+        }
+    ],
+    "platforms": [
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "persistence"
+        },
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        }
+    ],
+    "permissions": [
+        "SYSTEM"
+    ]
+}

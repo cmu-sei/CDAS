@@ -1,0 +1,40 @@
+{
+    "id": "attack-pattern--60d0c01d-e2bf-49dd-a453-f8a9c9fa6f65",
+    "name": "Windows Remote Management",
+    "description": "Adversaries may use [Valid Accounts](https://attack.mitre.org/techniques/T1078) to interact with remote systems using Windows Remote Management (WinRM). The adversary may then perform actions as the logged-on user.\n\nWinRM is the name of both a Windows service and a protocol that allows a user to interact with a remote system (e.g., run an executable, modify the Registry, modify services).(Citation: Microsoft WinRM) It may be called with the `winrm` command or by any number of programs such as PowerShell.(Citation: Jacobsen 2014)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1021.006",
+            "url": "https://attack.mitre.org/techniques/T1021/006"
+        },
+        {
+            "url": "http://msdn.microsoft.com/en-us/library/aa384426",
+            "description": "Microsoft. (n.d.). Windows Remote Management. Retrieved November 12, 2014.",
+            "source_name": "Microsoft WinRM"
+        },
+        {
+            "url": "https://www.slideshare.net/kieranjacobsen/lateral-movement-with-power-shell-2",
+            "description": "Jacobsen, K. (2014, May 16). Lateral Movement with PowerShell&#91;slides&#93;. Retrieved November 12, 2014.",
+            "source_name": "Jacobsen 2014"
+        },
+        {
+            "source_name": "Medium Detecting Lateral Movement",
+            "url": "https://medium.com/threatpunter/detecting-lateral-movement-using-sysmon-and-splunk-318d3be141bc",
+            "description": "French, D. (2018, September 30). Detecting Lateral Movement Using Sysmon and Splunk. Retrieved October 11, 2019."
+        }
+    ],
+    "platforms": [
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "lateral-movement"
+        }
+    ],
+    "permissions": [
+        "User",
+        "Administrator"
+    ]
+}

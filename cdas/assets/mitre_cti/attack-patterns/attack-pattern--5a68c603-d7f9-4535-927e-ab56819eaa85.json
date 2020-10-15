@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--5a68c603-d7f9-4535-927e-ab56819eaa85",
+    "name": "Compromise 3rd party or closed-source vulnerability/exploit information",
+    "description": "There is usually a delay between when a vulnerability or exploit is discovered and when it is made public. An adversary may target the systems of those known to research vulnerabilities in order to gain that knowledge for use during a different attack. (Citation: TempertonDarkHotel)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1354",
+            "external_id": "T1354"
+        },
+        {
+            "source_name": "TempertonDarkHotel",
+            "description": "JAMES TEMPERTON. (2015, August 10). Hacking Team zero-day used in new Darkhotel attacks. Retrieved March 9, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "build-capabilities"
+        }
+    ]
+}

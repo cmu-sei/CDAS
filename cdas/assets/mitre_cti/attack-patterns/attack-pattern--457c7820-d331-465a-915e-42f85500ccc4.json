@@ -1,0 +1,25 @@
+{
+    "id": "attack-pattern--457c7820-d331-465a-915e-42f85500ccc4",
+    "name": "Signed Binary Proxy Execution",
+    "description": "Adversaries may bypass process and/or signature-based defenses by proxying execution of malicious content with signed binaries. Binaries signed with trusted digital certificates can execute on Windows systems protected by digital signature validation. Several Microsoft signed binaries that are default on Windows installations can be used to proxy execution of other files.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1218",
+            "url": "https://attack.mitre.org/techniques/T1218"
+        }
+    ],
+    "platforms": [
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        }
+    ],
+    "permissions": [
+        "User",
+        "Administrator"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--ef0f816a-d561-4953-84c6-2a2936c96957",
+    "name": "Discover target logon/email address format",
+    "description": "Email addresses, logon credentials, and other forms of online identification typically share a common format. This makes guessing other credentials within the same domain easier. For example if a known email address is first.last@company.com it is likely that others in the company will have an email in the same format. (Citation: RSA-APTRecon)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1255",
+            "external_id": "T1255"
+        },
+        {
+            "source_name": "RSA-APTRecon",
+            "description": "Rotem Kerner. (2015, October). RECONNAISSANCE: A Walkthrough of the \u201cAPT\u201d Intelligence Gathering Process. Retrieved March 1, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "technical-information-gathering"
+        }
+    ]
+}

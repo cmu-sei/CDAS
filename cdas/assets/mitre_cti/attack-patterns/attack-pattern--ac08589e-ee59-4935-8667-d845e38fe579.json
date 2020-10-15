@@ -1,0 +1,32 @@
+{
+    "id": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579",
+    "name": "Disable or Modify Tools",
+    "description": "Adversaries may disable security tools to avoid possible detection of their tools and activities. This can take the form of killing security software or event logging processes, deleting Registry keys so that tools do not start at run time, or other methods to interfere with security tools scanning or reporting information.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1562.001",
+            "url": "https://attack.mitre.org/techniques/T1562/001"
+        },
+        {
+            "external_id": "CAPEC-578",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/578.html"
+        }
+    ],
+    "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        }
+    ],
+    "permissions": [
+        "User",
+        "Administrator"
+    ]
+}

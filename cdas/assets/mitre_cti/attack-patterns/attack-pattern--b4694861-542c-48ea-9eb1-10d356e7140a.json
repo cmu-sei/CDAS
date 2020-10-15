@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--b4694861-542c-48ea-9eb1-10d356e7140a",
+    "name": "Remote Email Collection",
+    "description": "Adversaries may target an Exchange server or Office 365 to collect sensitive information. Adversaries may leverage a user's credentials and interact directly with the Exchange server to acquire information from within a network. Adversaries may also access externally facing Exchange services or Office 365 to access email using credentials or access tokens. Tools such as [MailSniper](https://attack.mitre.org/software/S0413) can be used to automate searches for specific keywords.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1114.002",
+            "url": "https://attack.mitre.org/techniques/T1114/002"
+        }
+    ],
+    "platforms": [
+        "Office 365",
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "collection"
+        }
+    ]
+}

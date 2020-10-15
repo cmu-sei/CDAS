@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--88932a8c-3a17-406f-9431-1da3ff19f6d6",
+    "name": "Modify Cached Executable Code",
+    "description": "ART (the Android Runtime) compiles optimized code on the device itself to improve performance. An adversary may be able to use escalated privileges to modify the cached code in order to hide malicious behavior. Since the code is compiled on the device, it may not receive the same level of integrity checks that are provided to code running in the system partition.(Citation: Sabanal-ART)",
+    "references": [
+        {
+            "source_name": "mitre-mobile-attack",
+            "url": "https://attack.mitre.org/techniques/T1403",
+            "external_id": "T1403"
+        },
+        {
+            "url": "https://www.blackhat.com/docs/asia-15/materials/asia-15-Sabanal-Hiding-Behind-ART-wp.pdf",
+            "description": "Paul Sabanal. (2015). Hiding Behind ART. Retrieved December 21, 2016.",
+            "source_name": "Sabanal-ART"
+        }
+    ],
+    "platforms": [
+        "Android"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "persistence"
+        }
+    ]
+}

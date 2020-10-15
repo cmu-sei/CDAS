@@ -1,0 +1,140 @@
+{
+    "id": "location--49",
+    "name": "Cote d'Ivoire",
+    "background": "Close ties to France following independence in 1960, the development of cocoa production for export, and foreign investment all made Cote d'Ivoire one of the most prosperous of the West African states but did not protect it from political turmoil. In December 1999, a military coup - the first ever in Cote d'Ivoire's history - overthrew the government. Junta leader Robert GUEI attempted to rig the elections held in late 2000 and declared himself the winner. Popular protest forced him to step aside and an election brought Laurent GBAGBO into power. Ivoirian dissidents and disaffected members of the military launched a failed coup attempt in September 2002 that developed into a rebellion and then a civil war. In 2003, a cease-fire resulted in the country being divided with the rebels holding the north, the government the south, and peacekeeping forces a buffer zone between the two. In March 2007, President GBAGBO and former New Forces rebel leader Guillaume SORO signed an agreement in which SORO joined GBAGBO's government as prime minister and the two agreed to reunite the country by dismantling the buffer zone, integrating rebel forces into the national armed forces, and holding elections. Difficulties in preparing electoral registers delayed balloting until 2010. In November 2010, Alassane Dramane OUATTARA won the presidential election over GBAGBO, but GBAGBO refused to hand over power, resulting in a five-month resumption of violent conflict. In April 2011, after widespread fighting, GBAGBO was formally forced from office by armed OUATTARA supporters with the help of UN and French forces. OUATTARA won a second term in 2015 and is focused on rebuilding the country's economy and infrastructure while reforming the security forces. The UN peacekeeping mission departed in June 2017. GBAGBO was in The Hague on trial for crimes against humanity, but was acquitted in January 2019. C\u00f4te d'Ivoire is scheduled to hold presidential elections in November 2020.",
+    "coordinates": "8 00 N, 5 00 W",
+    "region": "Africa",
+    "total_area": "322,463 sq km",
+    "land_area": "318,003 sq km",
+    "water_area": "4,460 sq km",
+    "land_boundary": "3,458 km",
+    "neighbors": {
+        "Ghana": "720 km",
+        "Guinea": "816 km",
+        "Liberia": "778 km",
+        "Mali": "599 km"
+    },
+    "climate": "tropical along coast, semiarid in far north; three seasons - warm and dry (November to March), hot and dry (March to May), hot and wet (June to October)",
+    "coastline": "515 km",
+    "natural_hazards": [
+        "coast has heavy surf and no natural harbors",
+        "during the rainy season torrential flooding is possible"
+    ],
+    "terrain": "mostly flat to undulating plains; mountains in northwest",
+    "population_distribution": "the population is primarily located in the forested south, with the highest concentration of people residing in and around the cities on the Atlantic coast; most of the northern savanna remains sparsely populated with higher concentrations located along transportation corridors as shown in this population distribution map",
+    "natural_resources": [
+        "petroleum",
+        "natural gas",
+        "diamonds",
+        "manganese",
+        "iron ore",
+        "cobalt",
+        "bauxite",
+        "copper",
+        "gold",
+        "nickel",
+        "tantalum",
+        "silica sand",
+        "clay",
+        "cocoa beans",
+        "coffee",
+        "palm oil",
+        "hydropower"
+    ],
+    "population": "27,481,086",
+    "nationality": "Ivoirian(s)",
+    "ethnic_groups": {
+        "Akan": "28.9%",
+        "Voltaique or Gur": "16.1%",
+        "Northern Mande": "14.5%",
+        "Kru": "8.5%",
+        "Southern Mande": "6.9%",
+        "unspecified": "0.9%",
+        "non-Ivoirian": "24.2%"
+    },
+    "languages": [
+        "French (official)",
+        "60 native dialects of which  Dioula is the most widely spoken"
+    ],
+    "religions": {
+        "Muslim": "42.9%",
+        "Catholic": "17.2%",
+        "Evangelical": "11.8%",
+        "Methodist": "1.7%",
+        "other Christian": "3.2%",
+        "animist": "3.6%",
+        "other religion": "0.5%",
+        "none": "19.1%"
+    },
+    "government_type": "presidential republic",
+    "national_symbols": "elephant",
+    "national_colors": [
+        "orange",
+        "white",
+        "green"
+    ],
+    "gdp": "$40.47 billion",
+    "agriculture": [
+        "coffee",
+        "cocoa beans",
+        "bananas",
+        "palm kernels",
+        "corn",
+        "rice",
+        "cassava",
+        "sweet potatoes",
+        "sugar",
+        "cotton",
+        "rubber",
+        "timber"
+    ],
+    "industries": [
+        "foodstuffs",
+        "beverages",
+        "wood products",
+        "oil refining",
+        "gold mining",
+        "truck and bus assembly",
+        "textiles",
+        "fertilizer",
+        "building materials",
+        "electricity"
+    ],
+    "exports": [
+        "cocoa",
+        "coffee",
+        "timber",
+        "petroleum",
+        "cotton",
+        "bananas",
+        "pineapples",
+        "palm oil",
+        "fish"
+    ],
+    "imports": [
+        "fuel",
+        "capital equipment",
+        "foodstuffs"
+    ],
+    "broadband_subscriptions": "175,918",
+    "internet_users": "12,295,204",
+    "mobile_subscriptions": "33,807,850",
+    "internet_country_code": ".ci",
+    "military_and_security_forces": "Armed Forces of Cote d'Ivoire (Forces Armees de Cote d'Ivoire, FACI; aka Republican Forces of Ivory Coast, FRCI): Army (Armee de Terre), Navy (Marine Nationale), Cote Air Force (Force Aerienne Cote), Special Forces (Forces Speciale)other security services include the National Gendarmerie (under the Ministry of Defense), the National Police (under the Ministry of Security and Civil Protection), and the Coordination Center for Operational Decisions (a mix of police, gendarmerie, and FACI personnel for assisting police in providing security in some large cities)",
+    "percent_GDP_on_military": "1.1%",
+    "pipelines": [
+        "101 km condensate",
+        "256 km gas",
+        "118 km oil",
+        "5 km oil/gas/water",
+        "7 km water"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Abidjan, San-Pedro",
+        "oil terminal(s)": "Espoir Offshore Terminal"
+    },
+    "waterways": "980 km",
+    "number_of_airports": "27",
+    "international_disputes": "disputed maritime border between Cote d'Ivoire and Ghana",
+    "terrorism": "None/Unknown"
+}

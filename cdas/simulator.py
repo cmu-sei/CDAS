@@ -41,12 +41,12 @@ DM20-0573
 
 import json
 import numpy as np
+import uuid
 import string
 from datetime import datetime, timedelta
 import reportlab.platypus as platy
 from reportlab.lib.styles import getSampleStyleSheet
-from stix2 import FileSystemStore, FileSystemSource, Filter
-from stix2.v21 import Sighting, Relationship
+from . import context
 
 
 def random_indicator(itype):
@@ -83,7 +83,7 @@ def random_indicator(itype):
     return indicator
 
 
-def simulate(actors, orgs, tools, malwares, fs, start_date, td):
+def simulate(actors, orgs, tools, malwares, events_fs, relationships, start_date, td):
     """
     Run one round of attacks and defenses with the given data set.
 
@@ -122,28 +122,18 @@ def simulate(actors, orgs, tools, malwares, fs, start_date, td):
 
     for agent in actors:
         # Pick a random target  @TODO - make this more logical later
-        target_id = np.random.choice([org.id for org in orgs])
-        target = [org for org in orgs if org['id'] == target_id][0]
+        target = np.random.choice(orgs)
 
         success = np.random.choice([True, False])
-        tool = tools[np.random.randint(0,len(tools))]
-        tool_rels = fs.query([
-            Filter('type', '=', 'relationship'),
-            Filter('source_ref', '=', agent.id),
-            Filter('target_ref', '=', tool.id)])
-        if len(tool_rels) == 0:
-            fs.add(Relationship(agent, 'uses', tool))
+        tool = np.random.choice(tools)
+        if (agent.id,'relationship',tool.id) not in relationships:
+            relationships.append((agent.id, 'uses', tool.id))
         indicator_type = np.random.choice(['IPv4 address', 'domain name'])
         used_malware = np.random.choice(['yes', 'no'], p=[.25, .75])
         if used_malware == 'yes':
             malware = malwares[np.random.randint(0,len(malwares))]
-            mw_rels = fs.query([
-                Filter('type', '=', 'relationship'),
-                Filter('source_ref', '=', agent.id),
-                Filter('target_ref', '=', malware.id)])
-            if len(mw_rels) == 0:
-                fs.add(Relationship(agent, 'uses', malware.id))
-        target_description = json.loads(target.description)
+            if (agent.id, 'uses', malware.id) not in relationships:
+                relationships.append((agent.id, 'uses', malware.id))
 
         description = f'On {str(start_date)[:10]}, '
         if success is True:
@@ -152,7 +142,7 @@ def simulate(actors, orgs, tools, malwares, fs, start_date, td):
             description += 'an attack was attempted against a company named '
         description += (
             f'{target.name.upper()} located in the country of '
-            f'{target_description["Background"]["headquarters"]}. The '
+            f'{target.headquarters}. The '
             f'attacker used the tool, {tool.name}, during its attack. ') 
         if hasattr(agent,'goals'):
             description += (
@@ -166,71 +156,12 @@ def simulate(actors, orgs, tools, malwares, fs, start_date, td):
                 f' The attacker also attempted to use the malware '
                 f'{malware.name}.')
 
-        fs.add(Sighting(
+        r_num = str(
+            start_date).replace('-', '').replace(' ', '_').replace(':', '')
+        events_fs.save(context.Event(
+            id='event--'+str(uuid.uuid4()),
+            name=f"Report #{r_num[:15]}",
             description=description,
             first_seen=start_date,
             sighting_of_ref=agent.id))
         start_date += timedelta(td)
-
-
-def save(e, apt_store, vuln_store, filename, output_type):
-    """
-    Saves the event information to a specified file.
-
-    Parameters
-    ----------
-    e : stix2 Sighting object
-        The event to save
-    apt_store : FileSystemStore/Source object
-        STIX formatted threat actors
-    vuln_store : FileSystemSource object
-        STIX formatted vulnerabilities
-    filename : string
-        The path and name of the output file
-    output_type : str
-        For output file with country data (json or pdf)
-    """
-
-    r_num = str(
-        e.first_seen).replace('-', '').replace(' ', '_').replace(':', '')
-
-    if 'vulnerability' in e.sighting_of_ref:
-        p = "References"
-        vuln = vuln_store.query(Filter("id", "=", e.sighting_of_ref))[0]
-        p2 = vuln.name + ": " + vuln.description
-    else:
-        p = "Possible attribution"
-        p2 = apt_store.query(Filter("id", "=", e.sighting_of_ref))[0].name
-
-    event_dict = {
-        "report number": r_num[:15],
-        "date": str(e.first_seen)[:19],
-        "description": e.description,
-        p: p2
-    }
-
-    if output_type == "pdf":
-        ss = getSampleStyleSheet()
-        flowables = []
-        flowables.append(
-            platy.Paragraph(f"Report #{r_num[:15]}", ss['Heading1']))
-        flowables.append(platy.Paragraph("Date:", ss['Italic']))
-        flowables.append(
-            platy.Paragraph(str(e.first_seen)[:19], ss['BodyText']))
-        flowables.append(platy.Paragraph("Description:", ss['Italic']))
-        flowables.append(platy.Paragraph(e.description, ss['BodyText']))
-        flowables.append(platy.Paragraph(p, ss['Italic']))
-        flowables.append(platy.Paragraph(p2, ss['BodyText']))
-        pdf = platy.SimpleDocTemplate(filename + r_num[:15] + '.pdf')
-        pdf.build(flowables)
-    elif output_type == "json":
-        with open(filename + r_num[:15] + ".json", 'w') as f:
-            json.dump(event_dict, f)
-        f.close()
-    elif output_type == 'html':
-        f = open(filename + r_num[:15] + ".json", 'w')
-        f.write("var data = " + str(event_dict))
-        f.close()
-    else:
-        raise NotImplementedError(
-            f"Output file type, {filetype}, not supported")

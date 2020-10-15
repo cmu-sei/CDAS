@@ -1,0 +1,90 @@
+{
+    "id": "location--216",
+    "name": "Virgin Islands",
+    "background": "The Danes secured control over the southern Virgin Islands of Saint Thomas, Saint John, and Saint Croix during the 17th and early 18th centuries. Sugarcane, produced by African slave labor, drove the islands' economy during the 18th and early 19th centuries. In 1917, the US purchased the Danish holdings, which had been in economic decline since the abolition of slavery in 1848. On 6 September 2017, Hurricane Irma passed over the northern Virgin Islands of Saint Thomas and Saint John and inflicted severe damage to structures, roads, the airport on Saint Thomas, communications, and electricity. Less than two weeks later, Hurricane Maria passed over the island of Saint Croix in the southern Virgin Islands, inflicting considerable damage with heavy winds and flooding rains.",
+    "coordinates": "18 20 N, 64 50 W",
+    "region": "Central America and the Caribbean",
+    "total_area": "1,910 sq km",
+    "land_area": "346 sq km",
+    "water_area": "1,564 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "subtropical, tempered by easterly trade winds, relatively low humidity, little seasonal temperature variation; rainy season September to November",
+    "coastline": "188 km",
+    "natural_hazards": [
+        "several hurricanes in recent years",
+        "frequent and severe droughts and floods",
+        "occasional earthquakes"
+    ],
+    "terrain": "mostly hilly to rugged and mountainous with little flat land",
+    "population_distribution": "while overall population density throughout the islands is relatively low, concentrations appear around Charlotte Amalie on St. Thomas and Christiansted on St. Croix",
+    "natural_resources": [
+        "pleasant climate",
+        "beaches foster tourism"
+    ],
+    "population": "106,235",
+    "nationality": "Virgin Islander(s) (US citizens)",
+    "ethnic_groups": {
+        "black": "76%",
+        "white": "15.6%",
+        "Asian": "1.4%",
+        "other": "4.9%",
+        "mixed": "2.1%"
+    },
+    "languages": {
+        "English": "71.6%",
+        "Spanish or Spanish Creole": "17.2%",
+        "French or French Creole": "8.6%",
+        "other": "2.5%"
+    },
+    "religions": {
+        "Protestant": "59%",
+        "Roman Catholic": "34%",
+        "other": "7%"
+    },
+    "government_type": "republican form of government with separate executive, legislative, and judicial branches; unincorporated organized territory of the US with local self-government",
+    "national_symbols": "Unknown",
+    "national_colors": [
+        "red",
+        "yellow"
+    ],
+    "gdp": "$5.182 billion",
+    "agriculture": [
+        "fruit",
+        "vegetables",
+        "sorghum",
+        "Senepol cattle"
+    ],
+    "industries": [
+        "tourism",
+        "watch assembly",
+        "rum distilling",
+        "construction",
+        "pharmaceuticals",
+        "electronics"
+    ],
+    "exports": [
+        "rum"
+    ],
+    "imports": [
+        "foodstuffs",
+        "consumer goods",
+        "building materials"
+    ],
+    "broadband_subscriptions": "Unknown",
+    "internet_users": "68,872",
+    "mobile_subscriptions": "Unknown",
+    "internet_country_code": ".vi",
+    "military_and_security_forces": "Unknown",
+    "percent_GDP_on_military": "Unknown",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Charlotte Amalie, Christiansted, Cruz Bay, Frederiksted, Limetree Bay"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "2",
+    "international_disputes": "none",
+    "terrorism": "None/Unknown"
+}

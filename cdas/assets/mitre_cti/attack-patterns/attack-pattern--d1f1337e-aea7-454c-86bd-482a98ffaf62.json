@@ -1,0 +1,40 @@
+{
+    "id": "attack-pattern--d1f1337e-aea7-454c-86bd-482a98ffaf62",
+    "name": "Input Injection",
+    "description": "A malicious application can inject input to the user interface to mimic user interaction through the abuse of Android's accessibility APIs.\n\n[Input Injection](https://attack.mitre.org/techniques/T1516) can be achieved using any of the following methods:\n\n* Mimicking user clicks on the screen, for example to steal money from a user's PayPal account.(Citation: android-trojan-steals-paypal-2fa)\n* Injecting global actions, such as `GLOBAL_ACTION_BACK` (programatically mimicking a physical back button press), to trigger actions on behalf of the user.(Citation: Talos Gustuff Apr 2019)\n* Inserting input into text fields on behalf of the user. This method is used legitimately to auto-fill text fields by applications such as password managers.(Citation: bitwarden autofill logins)",
+    "references": [
+        {
+            "url": "https://attack.mitre.org/techniques/T1516",
+            "source_name": "mitre-mobile-attack",
+            "external_id": "T1516"
+        },
+        {
+            "description": "Luk\u00e1\u0161 \u0160tefanko. (2018, December 11). Android Trojan steals money from PayPal accounts even with 2FA on. Retrieved July 11, 2019.",
+            "url": "https://www.welivesecurity.com/2018/12/11/android-trojan-steals-money-paypal-accounts-2fa/",
+            "source_name": "android-trojan-steals-paypal-2fa"
+        },
+        {
+            "description": "Vitor Ventura. (2019, April 9).  Gustuff banking botnet targets Australia . Retrieved September 3, 2019.",
+            "url": "https://blog.talosintelligence.com/2019/04/gustuff-targets-australia.html",
+            "source_name": "Talos Gustuff Apr 2019"
+        },
+        {
+            "description": "Bitwarden. (n.d.).  Auto-fill logins on Android . Retrieved September 15, 2019.",
+            "url": "https://help.bitwarden.com/article/auto-fill-android/",
+            "source_name": "bitwarden autofill logins"
+        }
+    ],
+    "platforms": [
+        "Android"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "defense-evasion"
+        },
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "impact"
+        }
+    ]
+}

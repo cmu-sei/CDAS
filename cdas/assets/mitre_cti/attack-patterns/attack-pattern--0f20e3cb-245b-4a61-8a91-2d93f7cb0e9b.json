@@ -1,0 +1,53 @@
+{
+    "id": "attack-pattern--0f20e3cb-245b-4a61-8a91-2d93f7cb0e9b",
+    "name": "Rootkit",
+    "description": "Adversaries may use rootkits to hide the presence of programs, files, network connections, services, drivers, and other system components. Rootkits are programs that hide the existence of malware by intercepting/hooking and modifying operating system API calls that supply system information. (Citation: Symantec Windows Rootkits) \n\nRootkits or rootkit enabling functionality may reside at the user or kernel level in the operating system or lower, to include a hypervisor, Master Boot Record, or [System Firmware](https://attack.mitre.org/techniques/T1542/001). (Citation: Wikipedia Rootkit) Rootkits have been seen for Windows, Linux, and Mac OS X systems. (Citation: CrowdStrike Linux Rootkit) (Citation: BlackHat Mac OSX Rootkit)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1014",
+            "url": "https://attack.mitre.org/techniques/T1014"
+        },
+        {
+            "external_id": "CAPEC-552",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/552.html"
+        },
+        {
+            "url": "https://www.symantec.com/avcenter/reference/windows.rootkit.overview.pdf",
+            "description": "Symantec. (n.d.). Windows Rootkit Overview. Retrieved December 21, 2017.",
+            "source_name": "Symantec Windows Rootkits"
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/Rootkit",
+            "description": "Wikipedia. (2016, June 1). Rootkit. Retrieved June 2, 2016.",
+            "source_name": "Wikipedia Rootkit"
+        },
+        {
+            "url": "https://www.crowdstrike.com/blog/http-iframe-injecting-linux-rootkit/",
+            "description": "Kurtz, G. (2012, November 19). HTTP iframe Injecting Linux Rootkit. Retrieved December 21, 2017.",
+            "source_name": "CrowdStrike Linux Rootkit"
+        },
+        {
+            "url": "http://www.blackhat.com/docs/asia-14/materials/Tsai/WP-Asia-14-Tsai-You-Cant-See-Me-A-Mac-OS-X-Rootkit-Uses-The-Tricks-You-Havent-Known-Yet.pdf",
+            "description": "Pan, M., Tsai, S. (2014). You can\u2019t see me: A Mac OS X Rootkit uses the tricks you haven't known yet. Retrieved December 21, 2017.",
+            "source_name": "BlackHat Mac OSX Rootkit"
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        }
+    ],
+    "permissions": [
+        "Administrator",
+        "SYSTEM",
+        "root"
+    ]
+}

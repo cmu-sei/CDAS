@@ -1,0 +1,34 @@
+{
+    "id": "attack-pattern--d58f3996-e293-4f69-a2c8-0e1851cb8297",
+    "name": "Obtain Apple iOS enterprise distribution key pair and certificate",
+    "description": "The adversary can obtain an Apple iOS enterprise distribution key pair and certificate and use it to distribute malicious apps directly to Apple iOS devices without the need to publish the apps to the Apple App Store (where the apps could potentially be detected). (Citation: Apple Developer Enterprise Porgram Apps) (Citation: Fruit vs Zombies) (Citation: WIRELURKER) (Citation: Sideloading Change)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1392",
+            "external_id": "T1392"
+        },
+        {
+            "source_name": "Apple Developer Enterprise Porgram Apps",
+            "description": "Apple Inc.. (2016). Distributing Apple Developer Enterprise Program Apps. Retrieved April 12, 2017."
+        },
+        {
+            "source_name": "Fruit vs Zombies",
+            "description": "Claud Xiao. (2016). Fruit vs Zombies: Defeat Non-jailbroken iOS Malware. Retrieved April 12, 2017."
+        },
+        {
+            "source_name": "WIRELURKER",
+            "description": "Claud Xiao. (2014). WIRELURKER:  A New Era in iOS and OS X Malware. Retrieved April 12, 2017."
+        },
+        {
+            "source_name": "Sideloading Change",
+            "description": "David Richardson. (2015, September 10). Change to sideloading apps in iOS 9 is a security win. Retrieved April 12, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "persona-development"
+        }
+    ]
+}

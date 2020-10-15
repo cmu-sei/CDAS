@@ -1,0 +1,34 @@
+{
+    "id": "attack-pattern--0c8ab3eb-df48-4b9c-ace7-beacaac81cc5",
+    "name": "Direct Volume Access",
+    "description": "Adversaries may directly access a volume to bypass file access controls and file system monitoring. Windows allows programs to have direct access to logical volumes. Programs with direct access may read and write files directly from the drive by analyzing file system data structures. This technique bypasses Windows file access controls as well as file system monitoring tools. (Citation: Hakobyan 2009)\n\nUtilities, such as NinjaCopy, exist to perform these actions in PowerShell. (Citation: Github PowerSploit Ninjacopy)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1006",
+            "url": "https://attack.mitre.org/techniques/T1006"
+        },
+        {
+            "url": "http://www.codeproject.com/Articles/32169/FDump-Dumping-File-Sectors-Directly-from-Disk-usin",
+            "description": "Hakobyan, A. (2009, January 8). FDump - Dumping File Sectors Directly from Disk using Logical Offsets. Retrieved November 12, 2014.",
+            "source_name": "Hakobyan 2009"
+        },
+        {
+            "url": "https://github.com/PowerShellMafia/PowerSploit/blob/master/Exfiltration/Invoke-NinjaCopy.ps1",
+            "description": "Bialek, J. (2015, December 16). Invoke-NinjaCopy.ps1. Retrieved June 2, 2016.",
+            "source_name": "Github PowerSploit Ninjacopy"
+        }
+    ],
+    "platforms": [
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        }
+    ],
+    "permissions": [
+        "Administrator"
+    ]
+}

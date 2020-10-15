@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--fb39384c-00e4-414a-88af-e80c4904e0b8",
+    "name": "Human performs requested action of physical nature",
+    "description": "**This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.**\n\nThrough social engineering or other methods, an adversary can get users to perform physical actions that provide access to an adversary.  This could include providing a password over the phone or inserting a 'found' CD or USB into a system. (Citation: AnonHBGary) (Citation: CSOInsideOutside)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "external_id": "T1385",
+            "url": "https://attack.mitre.org/techniques/T1385"
+        },
+        {
+            "description": "PETER BRIGHT. (2011, February 15). Anonymous speaks: the inside story of the HBGary hack. Retrieved March 9, 2017.",
+            "source_name": "AnonHBGary"
+        },
+        {
+            "description": "Taylor Armerding. (2012, October 25). Line blurs between insider, outsider attacks. Retrieved March 9, 2017.",
+            "source_name": "CSOInsideOutside"
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "compromise"
+        }
+    ]
+}

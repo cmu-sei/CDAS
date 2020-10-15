@@ -1,0 +1,111 @@
+{
+    "id": "location--51",
+    "name": "Cuba",
+    "background": "The native Amerindian population of Cuba began to decline after the European discovery of the island by Christopher COLUMBUS in 1492 and following its development as a Spanish colony during the next several centuries. Large numbers of African slaves were imported to work the coffee and sugar plantations, and Havana became the launching point for the annual treasure fleets bound for Spain from Mexico and Peru. Spanish rule eventually provoked an independence movement and occasional rebellions were harshly suppressed. US intervention during the Spanish-American War in 1898 assisted the Cubans in overthrowing Spanish rule. The Treaty of Paris established Cuban independence from Spain in 1898 and, following three-and-a-half years of subsequent US military rule, Cuba became an independent republic in 1902 after which the island experienced a string of governments mostly dominated by the military and corrupt politicians. Fidel CASTRO led a rebel army to victory in 1959; his authoritarian rule held the subsequent regime together for nearly five decades. He stepped down as president in February 2008 in favor of his younger brother Raul CASTRO. Cuba's communist revolution, with Soviet support, was exported throughout Latin America and Africa during the 1960s, 1970s, and 1980s. Miguel DIAZ-CANEL Bermudez, hand-picked by Raul CASTRO to succeed him, was approved as president by the National Assembly and took office on 19 April 2018.\nThe country faced a severe economic downturn in 1990 following the withdrawal of former Soviet subsidies worth $4-6 billion annually. Cuba traditionally and consistently portrays the US embargo, in place since 1961, as the source of its difficulties. As a result of efforts begun in December 2014 to re-establish diplomatic relations with the Cuban Government, which were severed in January 1961, the US and Cuba reopened embassies in their respective countries in July 2015. The embargo remains in place, and the relationship between the US and Cuba remains tense.\u00a0\nIllicit migration of Cuban nationals to the US via maritime and overland routes has been a longstanding challenge. On 12 January 2017, the US and Cuba signed a Joint Statement ending the so-called \"wet-foot, dry-foot\" policy \u2013 by which Cuban nationals who reached US soil were permitted to stay. Illicit Cuban migration by sea has since dropped significantly, but land border crossings continue. In FY 2018, the US Coast Guard interdicted 312 Cuban nationals at sea. Also in FY 2018, 7,249 Cuban migrants presented themselves at various land border ports of entry throughout the US.",
+    "coordinates": "21 30 N, 80 00 W",
+    "region": "Central America and the Caribbean",
+    "total_area": "110,860 sq km",
+    "land_area": "109,820 sq km",
+    "water_area": "1,040 sq km",
+    "land_boundary": "28.5 km",
+    "neighbors": {},
+    "climate": "tropical; moderated by trade winds; dry season (November to April); rainy season (May to October)",
+    "coastline": "3,735 km",
+    "natural_hazards": [
+        "the east coast is subject to hurricanes from August to November (in general, the country averages about one hurricane every other year)",
+        "droughts are common"
+    ],
+    "terrain": "mostly flat to rolling plains, with rugged hills and mountains in the southeast",
+    "population_distribution": "large population clusters found throughout the country, the more significant ones being in the larger towns and cities, particularly the capital of Havana",
+    "natural_resources": [
+        "cobalt",
+        "nickel",
+        "iron ore",
+        "chromium",
+        "copper",
+        "salt",
+        "timber",
+        "silica",
+        "petroleum",
+        "arable land"
+    ],
+    "population": "11,059,062",
+    "nationality": "Cuban(s)",
+    "ethnic_groups": {
+        "white": "64.1%",
+        "mulatto or mixed": "26.6%",
+        "black": "9.3%"
+    },
+    "languages": [
+        "Spanish (official)"
+    ],
+    "religions": {
+        "Christian": "59.2%",
+        "folk": "17.4%",
+        "other": ".4%",
+        "none": "23%"
+    },
+    "government_type": "communist state",
+    "national_symbols": "royal palm",
+    "national_colors": [
+        "red",
+        "white",
+        "blue"
+    ],
+    "gdp": "$93.79 billion\n\n\n\n\nnote: data are in Cuban Pesos at 1 CUP = 1 US$; official exchange rate",
+    "agriculture": [
+        "sugar",
+        "tobacco",
+        "citrus",
+        "coffee",
+        "rice",
+        "potatoes",
+        "beans",
+        "livestock"
+    ],
+    "industries": [
+        "petroleum",
+        "nickel",
+        "cobalt",
+        "pharmaceuticals",
+        "tobacco",
+        "construction",
+        "steel",
+        "cement",
+        "agricultural machinery",
+        "sugar"
+    ],
+    "exports": [
+        "petroleum",
+        "nickel",
+        "medical products",
+        "sugar",
+        "tobacco",
+        "fish",
+        "citrus",
+        "coffee"
+    ],
+    "imports": [
+        "petroleum",
+        "food",
+        "machinery and equipment",
+        "chemicals"
+    ],
+    "broadband_subscriptions": "98,838",
+    "internet_users": "6,353,020",
+    "mobile_subscriptions": "5,373,316",
+    "internet_country_code": ".cu",
+    "military_and_security_forces": "Revolutionary Armed Forces (Fuerzas Armadas Revolucionarias, FAR): Revolutionary Army (Ejercito Revolucionario, ER), Revolutionary Navy (Marina de Guerra Revolucionaria, MGR, includes Marine Corps), Revolutionary Air and Air Defense Forces (Defensas Anti-Aereas y Fuerza Aerea Revolucionaria, DAAFAR); Paramilitary forces: Youth Labor Army (Ejercito Juvenil del Trabajo, EJT), Territorial Militia Troops (Milicia de Tropas de Territoriales, MTT), Civil Defense Force; Ministry of Interior: Border Guards, State Security",
+    "percent_GDP_on_military": "2.9%",
+    "pipelines": [
+        "41 km gas",
+        "230 km oil"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Antilla, Cienfuegos, Guantanamo, Havana, Matanzas, Mariel, Nuevitas Bay, Santiago de Cuba"
+    },
+    "waterways": "240 km",
+    "number_of_airports": "133",
+    "international_disputes": "US Naval Base at Guantanamo Bay is leased to US and only mutual agreement or US abandonment of the facility can terminate the lease",
+    "terrorism": "None/Unknown"
+}

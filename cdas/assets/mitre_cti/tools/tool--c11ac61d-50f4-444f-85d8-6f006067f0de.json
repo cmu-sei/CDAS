@@ -1,0 +1,26 @@
+{
+    "id": "tool--c11ac61d-50f4-444f-85d8-6f006067f0de",
+    "name": "route",
+    "description": "[route](https://attack.mitre.org/software/S0103) can be used to find or change information within the local system IP routing table. (Citation: TechNet Route)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/software/S0103",
+            "external_id": "S0103"
+        },
+        {
+            "source_name": "TechNet Route",
+            "description": "Microsoft. (n.d.). Route. Retrieved April 17, 2016.",
+            "url": "https://technet.microsoft.com/en-us/library/bb490991.aspx"
+        }
+    ],
+    "aliases": [
+        "route",
+        "route.exe"
+    ],
+    "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+    ]
+}

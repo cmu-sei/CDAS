@@ -1,0 +1,33 @@
+{
+    "id": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
+    "name": "File and Directory Discovery",
+    "description": "Adversaries may enumerate files and directories or may search in specific locations of a host or network share for certain information within a file system. Adversaries may use the information from [File and Directory Discovery](https://attack.mitre.org/techniques/T1083) during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.\n\nMany command shell utilities can be used to obtain this information. Examples include <code>dir</code>, <code>tree</code>, <code>ls</code>, <code>find</code>, and <code>locate</code>. (Citation: Windows Commands JPCERT) Custom tools may also be used to gather file and directory information and interact with the [Native API](https://attack.mitre.org/techniques/T1106).",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1083",
+            "url": "https://attack.mitre.org/techniques/T1083"
+        },
+        {
+            "url": "http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html",
+            "description": "Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.",
+            "source_name": "Windows Commands JPCERT"
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "discovery"
+        }
+    ],
+    "permissions": [
+        "User",
+        "Administrator",
+        "SYSTEM"
+    ]
+}

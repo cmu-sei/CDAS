@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--d69c3e06-8311-4093-8e3e-0a8e06b15d92",
+    "name": "Assess targeting options",
+    "description": "An adversary may assess a target's operational security (OPSEC) practices in order to identify targeting options. A target may share different information in different settings or be more of less cautious in different environments. (Citation: Scasny2015) (Citation: EverstineAirStrikes)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1296",
+            "external_id": "T1296"
+        },
+        {
+            "source_name": "Scasny2015",
+            "description": "Gregory Scasny. (2015, September 14). Understanding Open Source Intelligence (OSINT) and its relationship to Identity Theft. Retrieved March 1, 2017."
+        },
+        {
+            "source_name": "EverstineAirStrikes",
+            "description": "Brian Everstine. (2015, June 04). Carlisle: Air Force intel uses ISIS 'moron's' social media posts to target airstrikes. Retrieved March 9, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "people-weakness-identification"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "id": "attack-pattern--702055ac-4e54-4ae9-9527-e23a38e0b160",
+    "name": "Access Stored Application Data",
+    "description": "Adversaries may access and collect application data resident on the device. Adversaries often target popular applications such as Facebook, WeChat, and Gmail.(Citation: SWB Exodus March 2019)\n\nThis technique requires either escalated privileges or for the targeted app to have stored the data in an insecure manner (e.g., with insecure file permissions or in an insecure location such as an external storage directory).",
+    "references": [
+        {
+            "source_name": "mitre-mobile-attack",
+            "url": "https://attack.mitre.org/techniques/T1409",
+            "external_id": "T1409"
+        },
+        {
+            "external_id": "AUT-0",
+            "source_name": "NIST Mobile Threat Catalogue",
+            "url": "https://pages.nist.gov/mobile-threat-catalogue/authentication-threats/AUT-0.html"
+        },
+        {
+            "description": "Security Without Borders. (2019, March 29). Exodus: New Android Spyware Made in Italy. Retrieved September 3, 2019.",
+            "url": "https://securitywithoutborders.org/blog/2019/03/29/exodus.html",
+            "source_name": "SWB Exodus March 2019"
+        }
+    ],
+    "platforms": [
+        "Android",
+        "iOS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "collection"
+        },
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "credential-access"
+        }
+    ]
+}

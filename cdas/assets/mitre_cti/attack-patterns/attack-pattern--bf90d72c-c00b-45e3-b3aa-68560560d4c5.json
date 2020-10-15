@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--bf90d72c-c00b-45e3-b3aa-68560560d4c5",
+    "name": "Lateral Tool Transfer",
+    "description": "Adversaries may transfer tools or other files between systems in a compromised environment. Files may be copied from one system to another to stage adversary tools or other files over the course of an operation. Adversaries may copy files laterally between internal victim systems to support lateral movement using inherent file sharing protocols such as file sharing over SMB to connected network shares or with authenticated connections with [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002) or [Remote Desktop Protocol](https://attack.mitre.org/techniques/T1021/001). Files can also be copied over on Mac and Linux with native tools like scp, rsync, and sftp.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1570",
+            "url": "https://attack.mitre.org/techniques/T1570"
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "lateral-movement"
+        }
+    ],
+    "permissions": [
+        "User"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--15d5eaa4-597a-47fd-a692-f2bed434d904",
+    "name": "Derive intelligence requirements",
+    "description": "Leadership or key decision makers may derive specific intelligence requirements from Key Intelligence Topics (KITs) or Key Intelligence Questions (KIQs).  Specific intelligence requirements assist analysts in gathering information to establish a baseline of information about a topic or question and collection managers to clarify the types of information that should be collected to satisfy the requirement. (Citation: LowenthalCh4) (Citation: Heffter)",
+    "references": [
+        {
+            "external_id": "T1230",
+            "url": "https://attack.mitre.org/techniques/T1230",
+            "source_name": "mitre-pre-attack"
+        },
+        {
+            "description": "Mark M. Lowenthal. (n.d.). Ch 4: The Intelligence Process--A Macro Look; Who Does What for Whome?, Intelligence: From Secrets to Policy. Retrieved March 2, 2017.",
+            "source_name": "LowenthalCh4"
+        },
+        {
+            "description": "Clyde R. Heffter. (2011, August 4). A Fresh Look at Collection Requirements. Retrieved March 2, 2017.",
+            "source_name": "Heffter"
+        }
+    ],
+    "kill_chain": [
+        {
+            "phase_name": "priority-definition-planning",
+            "kill_chain_name": "mitre-pre-attack"
+        }
+    ]
+}

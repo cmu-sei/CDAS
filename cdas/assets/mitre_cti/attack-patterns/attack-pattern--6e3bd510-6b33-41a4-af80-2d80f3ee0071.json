@@ -1,0 +1,44 @@
+{
+    "id": "attack-pattern--6e3bd510-6b33-41a4-af80-2d80f3ee0071",
+    "name": "Odbcconf",
+    "description": "Adversaries may abuse odbcconf.exe to proxy execution of malicious payloads. Odbcconf.exe is a Windows utility that allows you to configure Open Database Connectivity (ODBC) drivers and data source names.(Citation: Microsoft odbcconf.exe) Odbcconf.exe is digitally signed by Microsoft.\n\nAdversaries may abuse odbcconf.exe to bypass application control solutions that do not account for its potential abuse. Similar to [Regsvr32](https://attack.mitre.org/techniques/T1218/010), odbcconf.exe has a <code>REGSVR</code> flag that can be misused to execute DLLs (ex: <code>odbcconf.exe /S /A &lbrace;REGSVR \"C:\\Users\\Public\\file.dll\"&rbrace;</code>). (Citation: LOLBAS Odbcconf)(Citation: TrendMicro Squiblydoo Aug 2017)(Citation: TrendMicro Cobalt Group Nov 2017) \n",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1218.008",
+            "url": "https://attack.mitre.org/techniques/T1218/008"
+        },
+        {
+            "source_name": "Microsoft odbcconf.exe",
+            "url": "https://docs.microsoft.com/en-us/sql/odbc/odbcconf-exe?view=sql-server-2017",
+            "description": "Microsoft. (2017, January 18). ODBCCONF.EXE. Retrieved March 7, 2019."
+        },
+        {
+            "source_name": "LOLBAS Odbcconf",
+            "url": "https://lolbas-project.github.io/lolbas/Binaries/Odbcconf/",
+            "description": "LOLBAS. (n.d.). Odbcconf.exe. Retrieved March 7, 2019."
+        },
+        {
+            "source_name": "TrendMicro Squiblydoo Aug 2017",
+            "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/backdoor-carrying-emails-set-sights-on-russian-speaking-businesses/",
+            "description": "Bermejo, L., Giagone, R., Wu, R., and Yarochkin, F. (2017, August 7). Backdoor-carrying Emails Set Sights on Russian-speaking Businesses. Retrieved March 7, 2019."
+        },
+        {
+            "source_name": "TrendMicro Cobalt Group Nov 2017",
+            "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/cobalt-spam-runs-use-macros-cve-2017-8759-exploit/",
+            "description": "Giagone, R., Bermejo, L., and Yarochkin, F. (2017, November 20). Cobalt Strikes Again: Spam Runs Use Macros and CVE-2017-8759 Exploit Against Russian Banks. Retrieved March 7, 2019."
+        }
+    ],
+    "platforms": [
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        }
+    ],
+    "permissions": [
+        "User"
+    ]
+}

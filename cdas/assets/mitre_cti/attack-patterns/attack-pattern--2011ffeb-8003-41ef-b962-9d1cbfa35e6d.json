@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--2011ffeb-8003-41ef-b962-9d1cbfa35e6d",
+    "name": "Determine physical locations",
+    "description": "Physical locality information may be used by an adversary to shape social engineering attempts (language, culture, events, weather, etc.) or to plan for physical actions such as dumpster diving or attempting to access a facility. (Citation: RSA-APTRecon)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1282",
+            "external_id": "T1282"
+        },
+        {
+            "source_name": "RSA-APTRecon",
+            "description": "Rotem Kerner. (2015, October). RECONNAISSANCE: A Walkthrough of the \u201cAPT\u201d Intelligence Gathering Process. Retrieved March 1, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "organizational-information-gathering"
+        }
+    ]
+}

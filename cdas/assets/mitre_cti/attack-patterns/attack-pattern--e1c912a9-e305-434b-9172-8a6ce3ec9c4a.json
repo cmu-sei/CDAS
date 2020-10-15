@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--e1c912a9-e305-434b-9172-8a6ce3ec9c4a",
+    "name": "Data from Local System",
+    "description": "Sensitive data can be collected from local system sources, such as the file system or databases of information residing on the system.\n\nLocal system data includes information stored by the operating system. Access to local system data often requires escalated privileges (e.g. root access). Examples of local system data include authentication tokens, the device keyboard cache, Wi-Fi passwords, and photos.",
+    "references": [
+        {
+            "external_id": "T1533",
+            "source_name": "mitre-mobile-attack",
+            "url": "https://attack.mitre.org/techniques/T1533"
+        }
+    ],
+    "platforms": [
+        "Android",
+        "iOS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "collection"
+        }
+    ]
+}

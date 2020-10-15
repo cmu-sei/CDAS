@@ -1,0 +1,99 @@
+{
+    "id": "location--137",
+    "name": "Montenegro",
+    "background": "The use of the name Crna Gora or Black Mountain (Montenegro) began in the 13th century in reference to a highland region in the Serbian province of Zeta. The later medieval state of Zeta maintained its existence until 1496 when Montenegro finally fell under Ottoman rule. Over subsequent centuries, Montenegro managed to maintain a level of autonomy within the Ottoman Empire. From the 16th to 19th centuries, Montenegro was a theocracy ruled by a series of bishop princes; in 1852, it transformed into a secular principality. Montenegro was recognized as an independent sovereign principality at the Congress of Berlin in 1878. After World War I, during which Montenegro fought on the side of the Allies, Montenegro was absorbed by the Kingdom of Serbs, Croats, and Slovenes, which became the Kingdom of Yugoslavia in 1929. At the conclusion of World War II, it became a constituent republic of the Socialist Federal Republic of Yugoslavia. When the latter dissolved in 1992, Montenegro joined with Serbia, creating the Federal Republic of Yugoslavia and, after 2003, shifting to a looser State Union of Serbia and Montenegro. In May 2006, Montenegro invoked its right under the Constitutional Charter of Serbia and Montenegro to hold a referendum on independence from the two-state union. The vote for severing ties with Serbia barely exceeded 55% - the threshold set by the EU - allowing Montenegro to formally restore its independence on 3 June 2006. In 2017, Montenegro joined NATO and is currently completing its EU accession process, having officially applied to join the EU in December 2008.",
+    "coordinates": "42 30 N, 19 18 E",
+    "region": "Europe",
+    "total_area": "13,812 sq km",
+    "land_area": "13,452 sq km",
+    "water_area": "360 sq km",
+    "land_boundary": "680 km",
+    "neighbors": {
+        "Bosnia and Herzegovina": "242 km",
+        "Croatia": "19 km",
+        "Kosovo": "76 km",
+        "Serbia": "157 km"
+    },
+    "climate": "Mediterranean climate, hot dry summers and autumns and relatively cold winters with heavy snowfalls inland",
+    "coastline": "293.5 km",
+    "natural_hazards": [
+        "destructive earthquakes"
+    ],
+    "terrain": "highly indented coastline with narrow coastal plain backed by rugged high limestone mountains and plateaus",
+    "population_distribution": "highest population density is concentrated in the south, southwest; the extreme eastern border is the least populated area",
+    "natural_resources": [
+        "bauxite",
+        "hydroelectricity"
+    ],
+    "population": "609,859",
+    "nationality": "Montenegrin(s)",
+    "ethnic_groups": {
+        "Montenegrin": "45%",
+        "Serbian": "28.7%",
+        "Bosniak": "8.7%",
+        "Albanian": "4.9%",
+        "Muslim": "3.3%",
+        "Romani": "1%",
+        "Croat": "1%",
+        "other": "2.6%",
+        "unspecified": "4.9%"
+    },
+    "languages": {
+        "Serbian": "42.9%",
+        "Montenegrin (official)": "37%",
+        "Bosnian": "5.3%",
+        "Albanian": "5.3%",
+        "Serbo-Croat": "2%",
+        "other": "3.5%",
+        "unspecified": "4%"
+    },
+    "religions": {
+        "Orthodox": "72.1%",
+        "Muslim": "19.1%",
+        "Catholic": "3.4%",
+        "atheist": "1.2%",
+        "other": "1.5%",
+        "unspecified": "2.6%"
+    },
+    "government_type": "parliamentary republic",
+    "national_symbols": "double-headed eagle",
+    "national_colors": [
+        "red",
+        "gold"
+    ],
+    "gdp": "$4.784 billion",
+    "agriculture": [
+        "tobacco",
+        "potatoes",
+        "citrus fruits",
+        "olives and related products",
+        "grapes",
+        "sheep",
+        "wine"
+    ],
+    "industries": [
+        "steelmaking",
+        "aluminum",
+        "agricultural processing",
+        "consumer goods",
+        "tourism"
+    ],
+    "exports": "Unknown",
+    "imports": "Unknown",
+    "broadband_subscriptions": "159,029",
+    "internet_users": "439,311",
+    "mobile_subscriptions": "1,134,412",
+    "internet_country_code": ".me",
+    "military_and_security_forces": "Armed Forces of the Republic of Montenegro: Army of Montenegro (includes Ground Troops (Kopnena Vojska), Montenegrin Navy (Mornarica Crne Gore, MCG)), Air Force",
+    "percent_GDP_on_military": "1.66%",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Bar"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "5",
+    "international_disputes": "Kosovo ratified the border demarcation agreement with Montenegro in March 2018, but the actual demarcation has not been completed",
+    "terrorism": "None/Unknown"
+}

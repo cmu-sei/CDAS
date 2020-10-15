@@ -1,0 +1,27 @@
+{
+    "id": "attack-pattern--351c0927-2fc1-4a2c-ad84-cbbee7eb8172",
+    "name": "Exploit OS Vulnerability",
+    "description": "A malicious app can exploit unpatched vulnerabilities in the operating system to obtain escalated privileges.",
+    "references": [
+        {
+            "source_name": "mitre-mobile-attack",
+            "url": "https://attack.mitre.org/techniques/T1404",
+            "external_id": "T1404"
+        },
+        {
+            "source_name": "NIST Mobile Threat Catalogue",
+            "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-26.html",
+            "external_id": "APP-26"
+        }
+    ],
+    "platforms": [
+        "Android",
+        "iOS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "privilege-escalation"
+        }
+    ]
+}

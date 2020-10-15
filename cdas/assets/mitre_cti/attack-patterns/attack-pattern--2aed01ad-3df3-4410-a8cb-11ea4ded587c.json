@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--2aed01ad-3df3-4410-a8cb-11ea4ded587c",
+    "name": "Domain Groups",
+    "description": "Adversaries may attempt to find domain-level groups and permission settings. The knowledge of domain-level permission groups can help adversaries determine which groups exist and which users belong to a particular group. Adversaries may use this information to determine which users have elevated permissions, such as domain administrators.\n\nCommands such as <code>net group /domain</code> of the [Net](https://attack.mitre.org/software/S0039) utility,  <code>dscacheutil -q group</code> on macOS, and <code>ldapsearch</code> on Linux can list domain-level groups.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1069.002",
+            "url": "https://attack.mitre.org/techniques/T1069/002"
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "discovery"
+        }
+    ],
+    "permissions": [
+        "User"
+    ]
+}

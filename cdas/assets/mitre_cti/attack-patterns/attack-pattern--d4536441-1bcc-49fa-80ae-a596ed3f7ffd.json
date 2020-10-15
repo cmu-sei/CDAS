@@ -1,0 +1,32 @@
+{
+    "id": "attack-pattern--d4536441-1bcc-49fa-80ae-a596ed3f7ffd",
+    "name": "System Network Configuration Discovery",
+    "description": "On Android, details of onboard network interfaces are accessible to apps through the `java.net.NetworkInterface` class.(Citation: NetworkInterface) The Android `TelephonyManager` class can be used to gather related information such as the IMSI, IMEI, and phone number.(Citation: TelephonyManager)\n\nOn iOS, gathering network configuration information is not possible without root access.",
+    "references": [
+        {
+            "source_name": "mitre-mobile-attack",
+            "external_id": "T1422",
+            "url": "https://attack.mitre.org/techniques/T1422"
+        },
+        {
+            "url": "https://developer.android.com/reference/java/net/NetworkInterface.html",
+            "description": "Android. (n.d.). NetworkInterface. Retrieved December 21, 2016.",
+            "source_name": "NetworkInterface"
+        },
+        {
+            "url": "https://developer.android.com/reference/android/telephony/TelephonyManager.html",
+            "description": "Android. (n.d.). TelephonyManager. Retrieved December 21, 2016.",
+            "source_name": "TelephonyManager"
+        }
+    ],
+    "platforms": [
+        "Android",
+        "iOS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "discovery"
+        }
+    ]
+}

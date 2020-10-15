@@ -1,0 +1,94 @@
+{
+    "id": "location--3",
+    "name": "American Samoa",
+    "background": "Settled as early as 1000 B.C., Samoa was not reached by European explorers until the 18th century. International rivalries in the latter half of the 19th century were settled by an 1899 treaty in which Germany and the US divided the Samoan archipelago. The US formally occupied its portion - a smaller group of eastern islands with the excellent harbor of Pago Pago - the following year.",
+    "coordinates": "14 20 S, 170 00 W",
+    "region": "Oceania",
+    "total_area": "224 sq km",
+    "land_area": "224 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "tropical marine, moderated by southeast trade winds; annual rainfall averages about 3 m; rainy season (November to April), dry season (May to October); little seasonal temperature variation",
+    "coastline": "116 km",
+    "natural_hazards": [
+        "cyclones common from December to March",
+        "volcanism: limited volcanic activity on the Ofu and Olosega Islands; neither has erupted since the 19th century"
+    ],
+    "terrain": "five volcanic islands with rugged peaks and limited coastal plains, two coral atolls (Rose Island, Swains Island)",
+    "population_distribution": "Unknown",
+    "natural_resources": [
+        "pumice",
+        "pumicite"
+    ],
+    "population": "49,437",
+    "nationality": "American Samoan(s) (US nationals)",
+    "ethnic_groups": {
+        "Pacific Islander": "92.6%",
+        "Asian": "3.6%",
+        "mixed": "2.7%",
+        "other": "1.2%"
+    },
+    "languages": {
+        "Samoan": "88.6%",
+        "English": "3.9%",
+        "Tongan": "2.7%",
+        "other Pacific islander": "3%",
+        "other": "1.8%"
+    },
+    "religions": {
+        "Christian": "98.3%",
+        "other": "1%",
+        "unaffiliated": "0.7%"
+    },
+    "government_type": "republican form of government with separate executive, legislative, and judicial branches; unincorporated unorganized territory of the US with local self-government",
+    "national_symbols": "a fue (coconut fiber fly whisk; representing wisdom) crossed with a to'oto'o (staff; representing authority)",
+    "national_colors": [
+        "red",
+        "white",
+        "blue"
+    ],
+    "gdp": "$0.658 billion",
+    "agriculture": [
+        "bananas",
+        "coconuts",
+        "vegetables",
+        "taro",
+        "breadfruit",
+        "yams",
+        "copra",
+        "pineapples",
+        "papayas",
+        "dairy products",
+        "livestock"
+    ],
+    "industries": [
+        "tuna canneries (largely supplied by foreign fishing vessels)",
+        "handicrafts"
+    ],
+    "exports": [
+        "canned tuna"
+    ],
+    "imports": [
+        "raw materials for canneries",
+        "food",
+        "petroleum products",
+        "machinery and parts"
+    ],
+    "broadband_subscriptions": "Unknown",
+    "internet_users": "17,000",
+    "mobile_subscriptions": "Unknown",
+    "internet_country_code": ".as",
+    "military_and_security_forces": "Unknown",
+    "percent_GDP_on_military": "Unknown",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Pago Pago"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "3",
+    "international_disputes": "Tokelau included American Samoa's Swains Island (Olosega) in its 2006 draft independence constitution",
+    "terrorism": "None/Unknown"
+}

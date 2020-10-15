@@ -1,0 +1,38 @@
+{
+    "id": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
+    "name": "Match Legitimate Name or Location",
+    "description": "Adversaries may match or approximate the name or location of legitimate files when naming/placing their files. This is done for the sake of evading defenses and observation. This may be done by placing an executable in a commonly trusted directory (ex: under System32) or giving it the name of a legitimate, trusted program (ex: svchost.exe). Alternatively, the filename given may be a close approximation of legitimate programs or something innocuous.\n\nAdversaries may also use the same icon of the file they are trying to mimic.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1036.005",
+            "url": "https://attack.mitre.org/techniques/T1036/005"
+        },
+        {
+            "external_id": "CAPEC-177",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/177.html"
+        },
+        {
+            "source_name": "Endgame Masquerade Ball",
+            "description": "Ewing, P. (2016, October 31). How to Hunt: The Masquerade Ball. Retrieved October 31, 2016.",
+            "url": "http://pages.endgame.com/rs/627-YBU-612/images/EndgameJournal_The%20Masquerade%20Ball_Pages_R2.pdf"
+        },
+        {
+            "source_name": "Twitter ItsReallyNick Masquerading Update",
+            "url": "https://twitter.com/ItsReallyNick/status/1055321652777619457",
+            "description": "Carr, N.. (2018, October 25). Nick Carr Status Update Masquerading. Retrieved April 22, 2019."
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        }
+    ]
+}

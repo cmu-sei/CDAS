@@ -1,0 +1,129 @@
+{
+    "id": "location--164",
+    "name": "Romania",
+    "background": "The principalities of Wallachia and Moldavia - for centuries under the suzerainty of the Turkish Ottoman Empire - secured their autonomy in 1856; they were de facto linked in 1859 and formally united in 1862 under the new name of Romania. The country gained recognition of its independence in 1878. It joined the Allied Powers in World War I and acquired new territories - most notably Transylvania - following the conflict. In 1940, Romania allied with the Axis powers and participated in the 1941 German invasion of the USSR. Three years later, overrun by the Soviets, Romania signed an armistice. The post-war Soviet occupation led to the formation of a communist \"people's republic\" in 1947 and the abdication of the king. The decades-long rule of dictator Nicolae CEAUSESCU, who took power in 1965, and his Securitate police state became increasingly oppressive and draconian through the 1980s. CEAUSESCU was overthrown and executed in late 1989. Former communists dominated the government until 1996 when they were swept from power. Romania joined NATO in 2004 and the EU in 2007.",
+    "coordinates": "46 00 N, 25 00 E",
+    "region": "Europe",
+    "total_area": "238,391 sq km",
+    "land_area": "229,891 sq km",
+    "water_area": "8,500 sq km",
+    "land_boundary": "2,844 km",
+    "neighbors": {
+        "Hungary": "424 km",
+        "Moldova": "683 km",
+        "Serbia": "531 km",
+        "Ukraine": "601 km"
+    },
+    "climate": "temperate; cold, cloudy winters with frequent snow and fog; sunny summers with frequent showers and thunderstorms",
+    "coastline": "225 km",
+    "natural_hazards": [
+        "earthquakes, most severe in south and southwest",
+        "geologic structure and climate promote landslides"
+    ],
+    "terrain": "central Transylvanian Basin is separated from the Moldavian Plateau on the east by the Eastern Carpathian Mountains and separated from the Walachian Plain on the south by the Transylvanian Alps",
+    "population_distribution": "urbanization is not particularly high, and a fairly even population distribution can be found throughout most of the country, with urban areas attracting larger and denser populations; Hungarians, the country's largest minority, have a particularly strong presence in eastern Transylvania",
+    "natural_resources": [
+        "petroleum (reserves declining)",
+        "timber",
+        "natural gas",
+        "coal",
+        "iron ore",
+        "salt",
+        "arable land",
+        "hydropower"
+    ],
+    "population": "21,302,893",
+    "nationality": "Romanian(s)",
+    "ethnic_groups": {
+        "Romanian": "83.4%",
+        "Hungarian": "6.1%",
+        "Romani": "3.1%",
+        "Ukrainian": "0.3%",
+        "German": "0.2%",
+        "other": "0.7%",
+        "unspecified": "6.1%"
+    },
+    "languages": {
+        "Romanian (official)": "85.4%",
+        "Hungarian": "6.3%",
+        "Romani": "1.2%",
+        "other": "1%",
+        "unspecified": "6.1%"
+    },
+    "religions": {
+        "Eastern Orthodox": "81.9%",
+        "Protestant": "6.4%",
+        "Roman Catholic": "4.3%",
+        "other": "0.9%",
+        "none or atheist": "0.2%",
+        "unspecified": "6.3%"
+    },
+    "government_type": "semi-presidential republic",
+    "national_symbols": "golden eagle",
+    "national_colors": [
+        "blue",
+        "yellow",
+        "red"
+    ],
+    "gdp": "$211.9 billion",
+    "agriculture": [
+        "wheat",
+        "corn",
+        "barley",
+        "sugar beets",
+        "sunflower seed",
+        "potatoes",
+        "grapes",
+        "eggs",
+        "sheep"
+    ],
+    "industries": [
+        "electric machinery and equipment",
+        "auto assembly",
+        "textiles and footwear",
+        "light machinery",
+        "metallurgy",
+        "chemicals",
+        "food processing",
+        "petroleum refining",
+        "mining",
+        "timber",
+        "construction materials"
+    ],
+    "exports": [
+        "machinery and equipment",
+        "other manufactured goods",
+        "agricultural products and foodstuffs",
+        "metals and metal products",
+        "chemicals",
+        "minerals and fuels",
+        "raw materials"
+    ],
+    "imports": [
+        "machinery and equipment",
+        "other manufactured goods",
+        "chemicals",
+        "agricultural products and foodstuffs",
+        "fuels and minerals",
+        "metals and metal products",
+        "raw materials"
+    ],
+    "broadband_subscriptions": "5,083,000",
+    "internet_users": "15,165,890",
+    "mobile_subscriptions": "22,675,000",
+    "internet_country_code": ".ro",
+    "military_and_security_forces": "Romanian Armed Forces: Land Forces, Naval Forces, Air Force; Ministry of Internal Affairs: Romanian Gendarmerie",
+    "percent_GDP_on_military": "2.04%",
+    "pipelines": [
+        "3726 km gas",
+        "2451 km oil"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Constanta, Midia",
+        "river port(s)": "Braila, Galati (Galatz), Mancanului (Giurgiu), Tulcea (Danube River)"
+    },
+    "waterways": "1,731 km",
+    "number_of_airports": "45",
+    "international_disputes": "the ICJ ruled largely in favor of Romania in its dispute submitted in 2004 over Ukrainian-administered Zmiyinyy/Serpilor (Snake) Island and Black Sea maritime boundary delimitation; Romania opposes Ukraine's reopening of a navigation canal from the Danube border through Ukraine to the Black Sea",
+    "terrorism": "None/Unknown"
+}

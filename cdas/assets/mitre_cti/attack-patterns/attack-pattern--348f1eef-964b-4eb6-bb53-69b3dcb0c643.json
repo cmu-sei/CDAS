@@ -1,0 +1,32 @@
+{
+    "id": "attack-pattern--348f1eef-964b-4eb6-bb53-69b3dcb0c643",
+    "name": "Peripheral Device Discovery",
+    "description": "Adversaries may attempt to gather information about attached peripheral devices and components connected to a computer system. Peripheral devices could include auxiliary resources that support a variety of functionalities such as keyboards, printers, cameras, smart card readers, or removable storage. The information may be used to enhance their awareness of the system and network environment or may be used for further actions.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/techniques/T1120",
+            "external_id": "T1120"
+        },
+        {
+            "external_id": "CAPEC-646",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/646.html"
+        }
+    ],
+    "platforms": [
+        "Windows",
+        "macOS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "discovery"
+        }
+    ],
+    "permissions": [
+        "User",
+        "Administrator",
+        "SYSTEM"
+    ]
+}

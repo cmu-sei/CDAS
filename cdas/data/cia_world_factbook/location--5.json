@@ -1,0 +1,144 @@
+{
+    "id": "location--5",
+    "name": "Angola",
+    "background": "From the late 14th to the mid 19th century a Kingdom of Kongo stretched across central Africa from present-day northern Angola into the current Congo republics. It traded heavily with the Portuguese who, beginning in the 16th century, established coastal colonies and trading posts and introduced Christianity. By the 19th century, Portuguese settlement had spread to the interior; in 1914, Portugal abolished the last vestiges of the Kongo Kingdom and Angola became a Portuguese colony. Angola scores low on human development indexes despite using its large oil reserves to rebuild since the end of a 27-year civil war in 2002. Fighting between the Popular Movement for the Liberation of Angola (MPLA), led by Jose Eduardo DOS SANTOS, and the National Union for the Total Independence of Angola (UNITA), led by Jonas SAVIMBI, followed independence from Portugal in 1975. Peace seemed imminent in 1992 when Angola held national elections, but fighting picked up again in 1993. Up to 1.5 million lives may have been lost - and 4 million people displaced - during the more than a quarter century of fighting. SAVIMBI's death in 2002 ended UNITA's insurgency and cemented the MPLA's hold on power. DOS SANTOS stepped down from the presidency in 2017, having led the country since 1979. He pushed through a new constitution in 2010. Joao LOURENCO was elected president in August 2017 and became president of the MPLA in September 2018.",
+    "coordinates": "12 30 S, 18 30 E",
+    "region": "Africa",
+    "total_area": "1,246,700 sq km",
+    "land_area": "1,246,700 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "5,369 km",
+    "neighbors": {
+        "Republic of the Congo": "231 km",
+        "Namibia": "1427 km",
+        "Zambia": "1065 km"
+    },
+    "climate": "semiarid in south and along coast to Luanda; north has cool, dry season (May to October) and hot, rainy season (November to April)",
+    "coastline": "1,600 km",
+    "natural_hazards": [
+        "locally heavy rainfall causes periodic flooding on the plateau"
+    ],
+    "terrain": "narrow coastal plain rises abruptly to vast interior plateau",
+    "population_distribution": "most people live in the western half of the country; urban areas account for the highest concentrations of people, particularly the capital of Luanda as shown in this population distribution map",
+    "natural_resources": [
+        "petroleum",
+        "diamonds",
+        "iron ore",
+        "phosphates",
+        "copper",
+        "feldspar",
+        "gold",
+        "bauxite",
+        "uranium"
+    ],
+    "population": "32,522,339",
+    "nationality": "Angolan(s)",
+    "ethnic_groups": {
+        "Ovimbundu": "37%",
+        "Kimbundu": "25%",
+        "Bakongo": "13%",
+        "mestico": "2%",
+        "European": "1%",
+        "other": "22%"
+    },
+    "languages": {
+        "Portuguese (official)": "71.2%",
+        "Umbundu": "23%",
+        "Kikongo": "8.2%",
+        "Kimbundu": "7.8%",
+        "Chokwe": "6.5%",
+        "Nhaneca": "3.4%",
+        "Nganguela": "3.1%",
+        "Fiote": "2.4%",
+        "Kwanhama": "2.3%",
+        "Muhumbi": "2.1%",
+        "Luvale": "1%",
+        "other": "3.6%"
+    },
+    "religions": {
+        "Roman Catholic": "41.1%",
+        "Protestant": "38.1%",
+        "other": "8.6%",
+        "none": "12.3%"
+    },
+    "government_type": "presidential republic",
+    "national_symbols": "Palanca Negra Gigante (giant black sable antelope)",
+    "national_colors": [
+        "red",
+        "black",
+        "yellow"
+    ],
+    "gdp": "$126.5 billion",
+    "agriculture": [
+        "bananas",
+        "sugarcane",
+        "coffee",
+        "sisal",
+        "corn",
+        "cotton",
+        "cassava",
+        "tobacco",
+        "vegetables",
+        "plantains",
+        "livestock",
+        "forest products",
+        "fish"
+    ],
+    "industries": [
+        "petroleum",
+        "diamonds",
+        "iron ore",
+        "phosphates",
+        "feldspar",
+        "bauxite",
+        "uranium",
+        "gold",
+        "cement",
+        "basic metal products",
+        "fish processing",
+        "food processing",
+        "brewing",
+        "tobacco products",
+        "sugar",
+        "textiles",
+        "ship repair"
+    ],
+    "exports": [
+        "crude oil",
+        "diamonds",
+        "refined petroleum products",
+        "coffee",
+        "sisal",
+        "fish and fish products",
+        "timber",
+        "cotton"
+    ],
+    "imports": [
+        "machinery and electrical equipment",
+        "vehicles and spare parts",
+        "medicines",
+        "food",
+        "textiles",
+        "military goods"
+    ],
+    "broadband_subscriptions": "109,561",
+    "internet_users": "4,353,033",
+    "mobile_subscriptions": "13,288,421",
+    "internet_country_code": ".ao",
+    "military_and_security_forces": "Angolan Armed Forces (Forcas Armadas Angolanas, FAA): Army, Navy (Marinha de Guerra Angola, MGA), Angolan National Air Force (Forca Aerea Nacional Angolana, FANA; under operational control of the Army); Rapid Reaction Police (paramilitary)",
+    "percent_GDP_on_military": "1.6%",
+    "pipelines": [
+        "352 km gas",
+        "85 km liquid petroleum gas",
+        "1065 km oil",
+        "5 km oil/gas/water"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Cabinda, Lobito, Luanda, Namibe",
+        "LNG terminal(s) (export)": "Angola Soyo"
+    },
+    "waterways": "1,300 km",
+    "number_of_airports": "102",
+    "international_disputes": "Democratic Republic of Congo accuses Angola of shifting monuments",
+    "terrorism": "None/Unknown"
+}

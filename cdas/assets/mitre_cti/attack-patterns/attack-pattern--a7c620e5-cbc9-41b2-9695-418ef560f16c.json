@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--a7c620e5-cbc9-41b2-9695-418ef560f16c",
+    "name": "Conduct passive scanning",
+    "description": "Passive scanning is the act of looking at existing network traffic in order to identify information about the communications system. (Citation: SurveyDetectionStrategies) (Citation: CyberReconPaper)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1253",
+            "external_id": "T1253"
+        },
+        {
+            "source_name": "SurveyDetectionStrategies",
+            "description": "Jamal Raiyn. (2014). A survey of Cyber Attack Detection Strategies. Retrieved March 5, 2017."
+        },
+        {
+            "source_name": "CyberReconPaper",
+            "description": "H. P. Sanghvi and M. S. Dahiya. (2013, February). Cyber Reconnaissance: An Alarm before Cyber Attack. Retrieved March 5, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "technical-information-gathering"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--a757670d-d600-48d9-8ae9-601d42c184a5",
+    "name": "Conduct social engineering",
+    "description": "Social Engineering is the practice of manipulating people in order to get them to divulge information or take an action. (Citation: SEAttackVectors) (Citation: BeachSE2003)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1279",
+            "external_id": "T1279"
+        },
+        {
+            "source_name": "SEAttackVectors",
+            "description": "Mathew J. Schwartz. (2011, September 14). Social Engineering Leads APT Attack Vectors. Retrieved March 5, 2017."
+        },
+        {
+            "source_name": "BeachSE2003",
+            "description": "Gary Beach. (2003, October 1). Kevin Mitnick on Social Engineering Hackers. Retrieved March 5, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "organizational-information-gathering"
+        }
+    ]
+}

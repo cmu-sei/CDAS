@@ -1,0 +1,45 @@
+{
+    "id": "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
+    "name": "Windows Service",
+    "description": "Adversaries may create or modify Windows services to repeatedly execute malicious payloads as part of persistence. When Windows boots up, it starts programs or applications called services that perform background system functions.(Citation: TechNet Services) Windows service configuration information, including the file path to the service's executable or recovery programs/commands, is stored in the Windows Registry. Service configurations can be modified using utilities such as sc.exe and [Reg](https://attack.mitre.org/software/S0075). \n\nAdversaries may install a new service or modify an existing service by using system utilities to interact with services, by directly modifying the Registry, or by using custom tools to interact with the Windows API. Adversaries may configure services to execute at startup in order to persist on a system.\n\nAn adversary may also incorporate [Masquerading](https://attack.mitre.org/techniques/T1036) by using a service name from a related operating system or benign software, or by modifying existing services to make detection analysis more challenging. Modifying existing services may interrupt their functionality or may enable services that are disabled or otherwise not commonly used. \n\nServices may be created with administrator privileges but are executed under SYSTEM privileges, so an adversary may also use a service to escalate privileges from administrator to SYSTEM. Adversaries may also directly start services through [Service Execution](https://attack.mitre.org/techniques/T1569/002). ",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1543.003",
+            "url": "https://attack.mitre.org/techniques/T1543/003"
+        },
+        {
+            "url": "https://technet.microsoft.com/en-us/library/cc772408.aspx",
+            "description": "Microsoft. (n.d.). Services. Retrieved June 7, 2016.",
+            "source_name": "TechNet Services"
+        },
+        {
+            "url": "https://technet.microsoft.com/en-us/sysinternals/bb963902",
+            "description": "Russinovich, M. (2016, January 4). Autoruns for Windows v13.51. Retrieved June 6, 2016.",
+            "source_name": "TechNet Autoruns"
+        },
+        {
+            "url": "https://docs.microsoft.com/windows/security/threat-protection/auditing/event-4697",
+            "description": "Miroshnikov, A. & Hall, J. (2017, April 18). 4697(S): A service was installed in the system. Retrieved August 7, 2018.",
+            "source_name": "Microsoft 4697 APR 2017"
+        },
+        {
+            "url": "https://docs.microsoft.com/windows/security/threat-protection/use-windows-event-forwarding-to-assist-in-intrusion-detection",
+            "description": "Hardy, T. & Hall, J. (2018, February 15). Use Windows Event Forwarding to help with intrusion detection. Retrieved August 7, 2018.",
+            "source_name": "Microsoft Windows Event Forwarding FEB 2018"
+        }
+    ],
+    "platforms": [
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "persistence"
+        },
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "privilege-escalation"
+        }
+    ]
+}

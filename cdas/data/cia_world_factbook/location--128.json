@@ -1,0 +1,111 @@
+{
+    "id": "location--128",
+    "name": "Malta",
+    "background": "With a civilization that dates back thousands of years, Malta boasts some of the oldest megalithic sites in the world. Situated in the center of the Mediterranean, Malta's islands have long served as a strategic military asset, with the islands at various times having come under control of the Phoenicians, Carthaginians, Greeks, Romans,\nByzantines, Moors, Normans, Sicilians, Spanish, Knights of St. John, and the French. Most recently a British colony (since 1814), Malta gained its independence in 1964 and declared itself a republic ten years later. While under British rule, the island staunchly supported the UK through both world wars. Since about the mid-1980s, the island has transformed itself into a freight transshipment point, a financial center, and a tourist destination while its key industries moved toward more service-oriented activities. Malta became an EU member in May 2004 and began using the euro as currency in 2008.",
+    "coordinates": "35 50 N, 14 35 E",
+    "region": "Europe",
+    "total_area": "316 sq km",
+    "land_area": "316 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "Mediterranean; mild, rainy winters; hot, dry summers",
+    "coastline": "196.8 km",
+    "natural_hazards": [
+        "occasional droughts"
+    ],
+    "terrain": "mostly low, rocky, flat to dissected plains; many coastal cliffs",
+    "population_distribution": "most of the population lives on the eastern half of Malta, the largest of the three inhabited islands",
+    "natural_resources": [
+        "limestone",
+        "salt",
+        "arable land"
+    ],
+    "population": "457,267",
+    "nationality": "Maltese (singular and plural)",
+    "ethnic_groups": [
+        "Maltese"
+    ],
+    "languages": {
+        "Maltese (official)": "90.1%",
+        "English (official)": "6%",
+        "multilingual": "3%",
+        "other": "0.9%"
+    },
+    "religions": {
+        "Roman Catholic  more than": "90%"
+    },
+    "government_type": "parliamentary republic",
+    "national_symbols": "Maltese eight-pointed cross",
+    "national_colors": [
+        "red",
+        "white"
+    ],
+    "gdp": "$12.58 billion",
+    "agriculture": [
+        "potatoes",
+        "cauliflower",
+        "grapes",
+        "wheat",
+        "barley",
+        "tomatoes",
+        "citrus",
+        "cut flowers",
+        "green peppers",
+        "pork",
+        "milk",
+        "poultry",
+        "eggs"
+    ],
+    "industries": [
+        "tourism",
+        "electronics",
+        "ship building and repair",
+        "construction",
+        "food and beverages",
+        "pharmaceuticals",
+        "footwear",
+        "clothing",
+        "tobacco",
+        "aviation services",
+        "financial services",
+        "information technology services"
+    ],
+    "exports": [
+        "machinery and mechanical appliances",
+        "mineral fuels",
+        "oils and petroleum products",
+        "pharmaceutical products",
+        "books and newspapers",
+        "aircraft/spacecraft and parts",
+        "toys",
+        "games",
+        "sports equipment"
+    ],
+    "imports": [
+        "mineral fuels",
+        "oils and products",
+        "electrical machinery",
+        "aircraft/spacecraft and parts thereof",
+        "machinery and mechanical appliances",
+        "plastic and other semi-manufactured goods",
+        "vehicles and parts"
+    ],
+    "broadband_subscriptions": "191,833",
+    "internet_users": "365,521",
+    "mobile_subscriptions": "615,843",
+    "internet_country_code": ".mt",
+    "military_and_security_forces": "Armed Forces of Malta (AFM, includes land, maritime, and air elements, plus a Volunteer Reserve Force)",
+    "percent_GDP_on_military": "0.6%",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Marsaxlokk (Malta Freeport), Valletta",
+        "container port(s) (TEUs)": "Marsaxlokk (3,150,000)"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "1",
+    "international_disputes": "none",
+    "terrorism": "None/Unknown"
+}

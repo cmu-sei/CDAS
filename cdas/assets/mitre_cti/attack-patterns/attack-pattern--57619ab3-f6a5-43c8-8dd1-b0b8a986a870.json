@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--57619ab3-f6a5-43c8-8dd1-b0b8a986a870",
+    "name": "Analyze business processes",
+    "description": "Business processes, such as who typically communicates with who, or what the supply chain is for a particular part, provide opportunities for social engineering or other  (Citation: Warwick2015)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1301",
+            "external_id": "T1301"
+        },
+        {
+            "source_name": "Warwick2015",
+            "description": "Warwick Ashford. (2015, March). Cyber crime: What every business needs to know. Retrieved March 6, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "organizational-weakness-identification"
+        }
+    ]
+}

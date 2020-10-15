@@ -1,0 +1,26 @@
+{
+    "id": "tool--30489451-5886-4c46-90c9-0dff9adc5252",
+    "name": "Arp",
+    "description": "[Arp](https://attack.mitre.org/software/S0099) displays information about a system's Address Resolution Protocol (ARP) cache. (Citation: TechNet Arp)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/software/S0099",
+            "external_id": "S0099"
+        },
+        {
+            "source_name": "TechNet Arp",
+            "description": "Microsoft. (n.d.). Arp. Retrieved April 17, 2016.",
+            "url": "https://technet.microsoft.com/en-us/library/bb490864.aspx"
+        }
+    ],
+    "aliases": [
+        "Arp",
+        "arp.exe"
+    ],
+    "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+    ]
+}

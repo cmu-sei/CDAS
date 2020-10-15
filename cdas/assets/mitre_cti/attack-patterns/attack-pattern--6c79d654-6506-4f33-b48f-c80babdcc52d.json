@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--6c79d654-6506-4f33-b48f-c80babdcc52d",
+    "name": "Dumpster dive",
+    "description": "Dumpster diving is looking through waste for information on technology, people, and/or organizational items of interest. (Citation: FriedDumpsters)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1286",
+            "external_id": "T1286"
+        },
+        {
+            "source_name": "FriedDumpsters",
+            "description": "Robert B. Fried. (n.d.). Dumpsters: Beware of Treasures. Retrieved March 5, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "organizational-information-gathering"
+        }
+    ]
+}

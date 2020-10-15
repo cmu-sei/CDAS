@@ -1,0 +1,140 @@
+{
+    "id": "location--95",
+    "name": "Iran",
+    "background": "Known as Persia until 1935, Iran became an Islamic republic in 1979 after the ruling monarchy was overthrown and Shah Mohammad Reza PAHLAVI was forced into exile. Conservative clerical forces led by Ayatollah Ruhollah KHOMEINI established a theocratic system of government with ultimate political authority vested in a learned religious scholar referred to commonly as the Supreme Leader who, according to the constitution, is accountable only to the Assembly of Experts (AOE) - a popularly elected 88-member body of clerics. US-Iranian relations became strained when a group of Iranian students seized the US Embassy in Tehran in November 1979 and held embassy personnel hostages until mid-January 1981. The US cut off diplomatic relations with Iran in April 1980. During the period 1980-88, Iran fought a bloody, indecisive war with Iraq that eventually expanded into the Persian Gulf and led to clashes between US Navy and Iranian military forces. Iran has been designated a state sponsor of terrorism and was subject to US, UN, and EU economic sanctions and export controls because of its continued involvement in terrorism and concerns over possible military dimensions of its nuclear program until Joint Comprehensive Plan of Action (JCPOA) Implementation Day in 2016. The US began gradually re-imposing sanctions on Iran after the US withdrawal from JCPOA in May 2018. \nFollowing the election of reformer Hojjat ol-Eslam Mohammad KHATAMI as president in 1997 and a reformist Majles (legislature) in 2000, a campaign to foster political reform in response to popular dissatisfaction was initiated. The movement floundered as conservative politicians, supported by the Supreme Leader, unelected institutions of authority like the Council of Guardians, and the security services reversed and blocked reform measures while increasing security repression. Starting with nationwide municipal elections in 2003 and continuing through Majles elections in 2004, conservatives reestablished control over Iran's elected government institutions, which culminated with the August 2005 inauguration of hardliner Mahmud AHMADI-NEJAD as president. His controversial reelection in June 2009 sparked nationwide protests over allegations of electoral fraud, but the protests were quickly suppressed. Deteriorating economic conditions due primarily to government mismanagement and international sanctions prompted at least two major economically based protests in July and October 2012, but Iran's internal security situation remained stable. President AHMADI-NEJAD's independent streak angered regime establishment figures, including the Supreme Leader, leading to conservative opposition to his agenda for the last year of his presidency, and an alienation of his political supporters. In June 2013 Iranians elected a centrist cleric Dr. Hasan Fereidun ROHANI to the presidency. He is a longtime senior member in the regime, but has made promises of reforming society and Iran's foreign policy. The UN Security Council has passed a number of resolutions calling for Iran to suspend its uranium enrichment and reprocessing activities and comply with its IAEA obligations and responsibilities, and in July 2015 Iran and the five permanent members, plus Germany (P5+1) signed the JCPOA under which Iran agreed to restrictions on its nuclear program in exchange for sanctions relief. Iran held elections in 2016 for the AOE and Majles, resulting in a conservative-controlled AOE and a Majles that many Iranians perceive as more supportive of the ROHANI administration than the previous, conservative-dominated body. ROHANI was reelected president in May 2017. Economic concerns once again led to nationwide protests in December 2017 and January 2018 but they were contained by Iran's security services. Additional widespread economic protests broke out in November 2019 in response to the raised price of subsidized gasoline.",
+    "coordinates": "32 00 N, 53 00 E",
+    "region": "Middle East",
+    "total_area": "1,648,195 sq km",
+    "land_area": "1,531,595 sq km",
+    "water_area": "116,600 sq km",
+    "land_boundary": "5,894 km",
+    "neighbors": {
+        "Armenia": "44 km",
+        "Azerbaijan": "689 km",
+        "Iraq": "1599 km",
+        "Pakistan": "959 km",
+        "Turkey": "534 km",
+        "Turkmenistan": "1148 km"
+    },
+    "climate": "mostly arid or semiarid, subtropical along Caspian coast",
+    "coastline": "2,440 km",
+    "natural_hazards": [
+        "periodic droughts, floods",
+        "dust storms, sandstorms",
+        "earthquakes"
+    ],
+    "terrain": "rugged, mountainous rim; high, central basin with deserts, mountains; small, discontinuous plains along both coasts",
+    "population_distribution": "population is concentrated in the north, northwest, and west, reflecting the position of the Zagros and Elburz Mountains; the vast dry areas in the center and eastern parts of the country, around the deserts of the Dasht-e Kavir and Dasht-e Lut, have a much lower population density",
+    "natural_resources": [
+        "petroleum",
+        "natural gas",
+        "coal",
+        "chromium",
+        "copper",
+        "iron ore",
+        "lead",
+        "manganese",
+        "zinc",
+        "sulfur"
+    ],
+    "population": "84,923,314",
+    "nationality": "Iranian(s)",
+    "ethnic_groups": [
+        "Persian",
+        "Azeri",
+        "Kurd",
+        "Lur",
+        "Baloch",
+        "Arab",
+        "Turkmen and Turkic tribes"
+    ],
+    "languages": [
+        "Persian Farsi (official)",
+        "Azeri and other Turkic dialects",
+        "Kurdish",
+        "Gilaki and Mazandarani",
+        "Luri",
+        "Balochi",
+        "Arabic"
+    ],
+    "religions": {
+        "Muslim": "99.4%",
+        "other": "0.3%",
+        "unspecified": "0.4%"
+    },
+    "government_type": "theocratic republic",
+    "national_symbols": "lion",
+    "national_colors": [
+        "green",
+        "white",
+        "red"
+    ],
+    "gdp": "$430.7 billion",
+    "agriculture": [
+        "wheat",
+        "rice",
+        "other grains",
+        "sugar beets",
+        "sugarcane",
+        "fruits",
+        "nuts",
+        "cotton",
+        "dairy products",
+        "wool",
+        "caviar"
+    ],
+    "industries": [
+        "petroleum",
+        "petrochemicals",
+        "gas",
+        "fertilizer",
+        "caustic soda",
+        "textiles",
+        "cement and other construction materials",
+        "food processing (particularly sugar refining and vegetable oil production)",
+        "ferrous and nonferrous metal fabrication",
+        "armaments"
+    ],
+    "exports": [
+        "petroleum",
+        "chemical and petrochemical products",
+        "fruits and nuts",
+        "carpets",
+        "cement",
+        "ore"
+    ],
+    "imports": [
+        "industrial supplies",
+        "capital goods",
+        "foodstuffs and other consumer goods",
+        "technical services"
+    ],
+    "broadband_subscriptions": "9,806,123",
+    "internet_users": "58,117,322",
+    "mobile_subscriptions": "88,722,442",
+    "internet_country_code": ".ir",
+    "military_and_security_forces": "Islamic Republic of Iran Regular Forces (Artesh): Ground Forces, Navy (includes marines), Air Force, Air Defense Forces; Islamic Revolutionary Guard Corps (Sepah, IRGC): Ground Forces, Navy (includes marines), Aerospace Force (controls strategic missile force), Qods Force (special operations), Cyber Command, Basij Paramilitary Forces (Popular Mobilization Army); Law Enforcement Forces (border and security troops, assigned to the armed forces in wartime)",
+    "percent_GDP_on_military": "3.8%",
+    "pipelines": [
+        "7 km condensate",
+        "973 km condensate/gas",
+        "20794 km gas",
+        "570 km liquid petroleum gas",
+        "8625 km oil",
+        "7937 km refined products"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Bandar-e Asaluyeh, Bandar Abbas, Bandar Emam",
+        "container port(s) (TEUs)": "Bandar Abbas (2,607,000)"
+    },
+    "waterways": "850 km",
+    "number_of_airports": "319",
+    "international_disputes": "Iran protests Afghanistan's limiting flow of dammed Helmand River tributaries during drought; Iraq's lack of a maritime boundary with Iran prompts jurisdiction disputes beyond the mouth of the Shatt al Arab in the Persian Gulf; Iran and UAE dispute Tunb Islands and Abu Musa Island, which are occupied by Iran; Azerbaijan, Kazakhstan, and Russia ratified Caspian seabed delimitation treaties based on equidistance, while Iran continues to insist on a one-fifth slice of the sea; Afghan and Iranian commissioners have discussed boundary monument densification and resurvey",
+    "terrorism": {
+        "Islamic Revolutionary Guard Corps (IRGC)": " protect Iran\u2019s Islamic Revolution; spread Shia influence; internal security, including border control, law enforcement, and suppressing domestic opposition; controls country\u2019s missiles and rockets; influence Iran\u2019s politics and economyarea of operation(s)",
+        "Islamic Revolutionary Guard Corps - Qods Force (IRGC-QF)": "protect Iran\u2019s Islamic Revolution; spread Shia influence; conduct clandestine overseas operations, often supporting other terrorist organizations (including Sunni groups like the Taliban when their goals align) with significant funding, logistics, training, or weaponry to commit terror attacks, either directly or through proxies; recruit, train, and equip foreign Islamic revolutionary groups throughout the Middle Eastarea(s) of operations",
+        "Jaysh al Adl": "formerly known as Jundallah\n",
+        "al-Qa'ida (AQ)": "unite the worldwide Muslim community, overthrow governments perceived as un-Islamic, and, ultimately, establish a pan-Islamic caliphate under a strict Salafi Muslim interpretation of sharia\n        (2018)\n",
+        "Kurdistan Workers' Party (PKK)": "advance Kurdish autonomy, political, and cultural rights in Iran, Turkey, Iraq, and Syriaarea(s) of operation"
+    }
+}

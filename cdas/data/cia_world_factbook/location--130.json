@@ -1,0 +1,103 @@
+{
+    "id": "location--130",
+    "name": "Mauritania",
+    "background": "Berbers moved south into the area of today's Mauritania beginning in the 3rd century. Beginning in the 8th century, Mauritania experienced a slow but constant infiltration of Arabs and Arab influence from the north, pressing the Berbers, who resisted assimilation, to move farther south. One particular Arab group, the Bani Hassan, continued to migrate southward until, by the end of the 17th century, they dominated the entire country. Having finally been defeated, Berber groups turned to clericalism to regain a degree of ascendancy. At the bottom of the social structure were the slaves, subservient to both the Arabic warriors and Islamic Berber holy men. All of the social rivalries were fully exploited by the French as they colonized Mauritania in the late 19th century. Independent from France in 1960, Mauritania annexed the southern third of the former Spanish Sahara (now Western Sahara) in 1976 but relinquished it after three years of raids by the Polisario guerrilla front seeking independence for the territory. Maaouya Ould Sid Ahmed TAYA seized power in a coup in 1984 and ruled Mauritania with a heavy hand for more than two decades. A series of presidential elections that he held were widely seen as flawed. A bloodless coup in August 2005 deposed President TAYA and ushered in a military council that oversaw a transition to democratic rule. Independent candidate Sidi Ould Cheikh ABDALLAHI was inaugurated in April 2007 as Mauritania's first freely and fairly elected president. His term ended prematurely in August 2008 when a military junta led by General Mohamed Ould Abdel AZIZ deposed him and installed a military council government. AZIZ was subsequently elected president in 2009 and reelected in 2014 to a second and final term. He was replaced in 2019 by Mohamed Cheikh El GHAZOUANI. The country continues to experience ethnic tensions among three major groups: Arabic-speaking descendants of slaves (Haratines), Arabic-speaking \"White Moors\" (Beydane), and members of Sub-Saharan ethnic groups mostly originating in the Senegal River valley (Halpulaar, Soninke, and Wolof).\nAl-Qaeda in the Islamic Maghreb (AQIM) launched a series of attacks in Mauritania between 2005 and 2011, murdering American and foreign tourists and aid workers, attacking diplomatic and government facilities, and ambushing Mauritanian soldiers and gendarmes. A successful strategy against terrorism that combines dialogue with the terrorists and military actions has prevented the country from further terrorist attacks since 2011. However, AQIM and similar groups remain active in neighboring Mali and elsewhere in the Sahel region and continue to pose a threat to Mauritanians and foreign visitors.",
+    "coordinates": "20 00 N, 12 00 W",
+    "region": "Africa",
+    "total_area": "1,030,700 sq km",
+    "land_area": "1,030,700 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "5,002 km",
+    "neighbors": {
+        "Mali": "2236 km",
+        "Senegal": "742 km",
+        "Western Sahara": "1564 km"
+    },
+    "climate": "desert; constantly hot, dry, dusty",
+    "coastline": "754 km",
+    "natural_hazards": [
+        "hot, dry, dust/sand-laden sirocco wind primarily in March and April",
+        "periodic droughts"
+    ],
+    "terrain": "mostly barren, flat plains of the Sahara; some central hills",
+    "population_distribution": "with most of the country being a desert, vast areas of the country, particularly in the central, northern, and eastern areas, are without sizeable population clusters; half the population lives in or around the coastal capital of Nouakchott; smaller clusters are found near the southern border with Mali and Senegal as shown in this population distribution map",
+    "natural_resources": [
+        "iron ore",
+        "gypsum",
+        "copper",
+        "phosphate",
+        "diamonds",
+        "gold",
+        "oil",
+        "fish"
+    ],
+    "population": "4,005,475",
+    "nationality": "Mauritanian(s)",
+    "ethnic_groups": {
+        "black Moors": "40%",
+        "white Moors": "30%",
+        "Sub-Saharan Mauritanians": "30%"
+    },
+    "languages": [
+        "Arabic (official)",
+        "Pular",
+        "Soninke",
+        "Wolof",
+        "French"
+    ],
+    "religions": {
+        "Muslim": "100%"
+    },
+    "government_type": "presidential republic",
+    "national_symbols": "five-pointed star between the horns of a horizontal crescent moon",
+    "national_colors": [
+        "green",
+        "yellow"
+    ],
+    "gdp": "$4.935 billion",
+    "agriculture": [
+        "dates",
+        "millet",
+        "sorghum",
+        "rice",
+        "corn",
+        "cattle",
+        "camel and sheep"
+    ],
+    "industries": [
+        "fish processing",
+        "oil production",
+        "mining (iron ore, gold, copper)"
+    ],
+    "exports": [
+        "iron ore",
+        "fish and fish products",
+        "livestock",
+        "gold",
+        "copper",
+        "crude oil"
+    ],
+    "imports": [
+        "machinery and equipment",
+        "petroleum products",
+        "capital goods",
+        "foodstuffs",
+        "consumer goods"
+    ],
+    "broadband_subscriptions": "13,222",
+    "internet_users": "798,809",
+    "mobile_subscriptions": "4,566,502",
+    "internet_country_code": ".mr",
+    "military_and_security_forces": "Mauritanian Armed Forces: Army, Mauritanian Navy (Marine Mauritanienne), Islamic Republic of Mauritania Air Group (Groupement Aerienne Islamique de Mauritanie, GAIM); Ministry of Interior: Gendarmerie, National Guard",
+    "percent_GDP_on_military": "2.8%",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Nouadhibou, Nouakchott"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "30",
+    "international_disputes": "Mauritanian claims to Western Sahara remain dormant",
+    "terrorism": "None/Unknown"
+}

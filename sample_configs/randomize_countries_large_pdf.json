@@ -1,0 +1,45 @@
+{
+    "agents": {
+        "randomize_threat_actors": false,
+        "random_variables": {
+            "actor_name_1": "data/personality_traits.txt",
+            "actor_name_2": "data/disney_names.txt",
+            "num_agents": 5
+        },
+        "non_random_vars": {
+            "apt_data": "mitre_cti"
+        },
+        "org_variables": {
+            "orgs_per_country": 1,
+            "org_names": "data/organization_names.txt"
+        }
+    },
+    "countries": {
+        "randomize": true,
+        "random_vars": {
+            "num_countries": 200
+        }
+    },
+    "defend": {
+        "network_range": ["1.2.3.0/24", "1.2.4.0/24"],
+        "topology": ""
+    },
+    "simulation": {
+        "number_of_rounds": 5,
+        "time_range": [
+            "2017-08-01",
+            "2020-08-01"
+        ]
+    },
+    "output": {
+        "input_directory": "",
+        "output_directory": "cdas-output",
+        "output_type_opts": [
+            "json",
+            "pdf",
+            "html"
+        ],
+        "output_types": ["pdf"],
+        "temp_directory": "cdas-temp"
+    }
+}

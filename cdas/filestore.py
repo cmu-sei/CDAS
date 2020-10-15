@@ -43,7 +43,10 @@ DM20-0573
 
 import json
 import os
+import re
 import shutil
+import reportlab.platypus as platy
+from reportlab.lib.styles import getSampleStyleSheet
 from . import context
 
 class FileStore():
@@ -82,8 +85,10 @@ class FileStore():
 
         found_objects = []
         for i in names:
-            print(i)
-            with open(os.path.join(self.path, i.replace(' ','_')) + '.json') as j_file:
+            filename = os.path.join(self.path, i)
+            if not filename.endswith('.json'):
+                filename += '.json'
+            with open(filename) as j_file:
                 obj = json.load(j_file)
             j_file.close()
             found_objects.append(self._type(**obj))
@@ -94,6 +99,49 @@ class FileStore():
         else:
             return found_objects
 
+    def list_files(self):
+        
+        filenames = []
+        for f in os.listdir(self.path):
+            filenames.append(f)
+        return filenames
+
+    def output(self, subfolder, obj_to_output, filetype):
+        filepath = os.path.join(
+            self.path, subfolder, obj_to_output.name.replace(' ','')+'.'+filetype)
+        if filetype == 'json':
+            with open(filepath, 'w') as outfile:
+                json.dump(obj_to_output._serialize(), outfile, indent=4)
+            outfile.close()
+        elif filetype == 'html':
+            f = open(filepath, 'w')
+            f.write("var data = " + obj_to_output._serialize())
+            f.close()
+        elif filetype == 'pdf':
+            ss = getSampleStyleSheet()
+            pdf = platy.SimpleDocTemplate(filepath)
+            flowables = []
+            flowables.append(platy.Paragraph(obj_to_output.name, ss['Heading1']))
+            for k in vars(obj_to_output):
+                if k == 'id' or k == 'name':
+                    continue
+                if type(vars(obj_to_output)[k]) is str or type(vars(obj_to_output)[k]) is int:
+                    p = f"{k.replace('_',' ').title()}: {str(vars(obj_to_output)[k])}"
+                    flowables.append(platy.Paragraph(p, ss['BodyText']))
+                else:
+                    p = f"{k.replace('_',' ').title()}:"
+                    flowables.append(platy.Paragraph(p, ss['BodyText']))
+                    bullets = []
+                    for v in vars(obj_to_output)[k]:
+                        p = v
+                        if type(vars(obj_to_output)[k]) is not list:
+                            p += ": "+vars(obj_to_output)[k][v]
+                        b = platy.Paragraph(p, ss['Normal'])
+                        bullets.append(platy.ListItem(b, leftIndent=35))
+                    table = platy.ListFlowable(bullets, bulletType='bullet')
+                    flowables.append(table)
+            pdf.build(flowables)
+
     def query(self, query_string, headers=False):
 
         # split the query string into the key components
@@ -103,7 +151,6 @@ class FileStore():
         if " WHERE " in query_string.upper():
             get_attrs = query_string[7:query_string.find(" WHERE ")].split(',')
             q_where = query_string[query_string.find(" WHERE ")+7:]
-            q_from = q_from[:q_from.find(" WHERE ")]
             q_where = q_where.replace('AND', 'and').replace('OR', 'or')
             q_where = q_where.replace('=', '==').replace('<>', '!=')
             q_where = q_where.replace(';', '')
@@ -138,8 +185,11 @@ class FileStore():
         selected = []
         for f in os.listdir(self.path):
             with open(os.path.join(self.path, f)) as json_file:
-                obj_dict = json.load(json_file)
-            json_file.close()
+                try:
+                    obj_dict = json.load(json_file)
+                    json_file.close()
+                except:
+                    print(sys.exc_info()[0],f)            
 
             # check for filtering criteria
             where_check = q_where
@@ -177,7 +227,7 @@ class FileStore():
         if not isinstance(objects, list):
             objects = [objects]
         for obj in objects:
-            filepath = os.path.join(self.path, obj.name.replace(' ','_'))
+            filepath = os.path.join(self.path, obj.id)
 
             if os.path.isfile(filepath + '.json') and not overwrite:
                 raise Exception(

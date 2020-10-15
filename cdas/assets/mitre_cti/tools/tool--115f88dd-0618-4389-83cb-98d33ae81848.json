@@ -1,0 +1,23 @@
+{
+    "id": "tool--115f88dd-0618-4389-83cb-98d33ae81848",
+    "name": "ShimRatReporter",
+    "description": "[ShimRatReporter](https://attack.mitre.org/software/S0445) is a tool used by suspected Chinese adversary [Mofang](https://attack.mitre.org/groups/G0103) to automatically conduct initial discovery. The details from this discovery are used to customize follow-on payloads (such as [ShimRat](https://attack.mitre.org/software/S0444)) as well as set up faux infrastructure which mimics the adversary's targets. [ShimRatReporter](https://attack.mitre.org/software/S0445) has been used in campaigns targeting multiple countries and sectors including government, military, critical infrastructure, automobile, and weapons development.(Citation: FOX-IT May 2016 Mofang)",
+    "references": [
+        {
+            "external_id": "S0445",
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/software/S0445"
+        },
+        {
+            "source_name": "FOX-IT May 2016 Mofang",
+            "url": "https://foxitsecurity.files.wordpress.com/2016/06/fox-it_mofang_threatreport_tlp-white.pdf",
+            "description": "Yonathan Klijnsma. (2016, May 17). Mofang: A politically motivated information stealing adversary. Retrieved May 12, 2020."
+        }
+    ],
+    "aliases": [
+        "ShimRatReporter"
+    ],
+    "platforms": [
+        "Windows"
+    ]
+}

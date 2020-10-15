@@ -1,0 +1,31 @@
+{
+    "id": "attack-pattern--67720091-eee3-4d2d-ae16-8264567f6f5b",
+    "name": "Abuse Elevation Control Mechanism",
+    "description": "Adversaries may circumvent mechanisms designed to control elevate privileges to gain higher-level permissions. Most modern systems contain native elevation control mechanisms that are intended to limit privileges that a user can perform on a machine. Authorization has to be granted to specific users in order to perform tasks that can be considered of higher risk. An adversary can perform several methods to take advantage of built-in control mechanisms in order to escalate privileges on a system.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1548",
+            "url": "https://attack.mitre.org/techniques/T1548"
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "privilege-escalation"
+        },
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        }
+    ],
+    "permissions": [
+        "Administrator",
+        "User"
+    ]
+}

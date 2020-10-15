@@ -1,0 +1,56 @@
+{
+    "id": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
+    "name": "APT1",
+    "description": "[APT1](https://attack.mitre.org/groups/G0006) is a Chinese threat group that has been attributed to the 2nd Bureau of the People\u2019s Liberation Army (PLA) General Staff Department\u2019s (GSD) 3rd Department, commonly known by its Military Unit Cover Designator (MUCD) as Unit 61398. (Citation: Mandiant APT1)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/groups/G0006",
+            "external_id": "G0006"
+        },
+        {
+            "source_name": "APT1",
+            "description": "(Citation: Mandiant APT1)"
+        },
+        {
+            "source_name": "Comment Crew",
+            "description": "(Citation: Mandiant APT1)"
+        },
+        {
+            "source_name": "Comment Group",
+            "description": "(Citation: Mandiant APT1)"
+        },
+        {
+            "source_name": "Comment Panda",
+            "description": "(Citation: CrowdStrike Putter Panda)"
+        },
+        {
+            "source_name": "Mandiant APT1",
+            "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
+            "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
+        },
+        {
+            "url": "http://cdn0.vox-cdn.com/assets/4589853/crowdstrike-intelligence-report-putter-panda.original.pdf",
+            "description": "Crowdstrike Global Intelligence Team. (2014, June 9). CrowdStrike Intelligence Report: Putter Panda. Retrieved January 22, 2016.",
+            "source_name": "CrowdStrike Putter Panda"
+        }
+    ],
+    "aliases": [
+        "APT1",
+        "Comment Crew",
+        "Comment Group",
+        "Comment Panda"
+    ],
+    "sophistication": "",
+    "actor_type": "",
+    "sectors": [
+        ""
+    ],
+    "primary_motivation": "",
+    "secondary_motivations": [],
+    "goals": [
+        ""
+    ],
+    "attribution": "",
+    "first_seen": ""
+}

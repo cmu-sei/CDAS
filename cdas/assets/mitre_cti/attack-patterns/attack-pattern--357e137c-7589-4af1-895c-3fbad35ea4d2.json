@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--357e137c-7589-4af1-895c-3fbad35ea4d2",
+    "name": "Obfuscate or encrypt code",
+    "description": "Obfuscation is the act of creating code that is more difficult to understand. Encoding transforms the code using a publicly available format. Encryption transforms the code such that it requires a key to reverse the encryption. (Citation: CylanceOpCleaver)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1319",
+            "external_id": "T1319"
+        },
+        {
+            "source_name": "CylanceOpCleaver",
+            "description": "CYLANCE. (n.d.). Operation Cleaver. Retrieved March 6, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "adversary-opsec"
+        }
+    ]
+}

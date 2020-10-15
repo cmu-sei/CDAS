@@ -1,0 +1,121 @@
+{
+    "id": "location--121",
+    "name": "Luxembourg",
+    "background": "Founded in 963, Luxembourg became a grand duchy in 1815 and an independent state under the Netherlands. It lost more than half of its territory to Belgium in 1839 but gained a larger measure of autonomy. In 1867, Luxembourg attained full independence under the condition that it promise perpetual neutrality. Overrun by Germany in both world wars, it ended its neutrality in 1948 when it entered into the Benelux Customs Union and when it joined NATO the following year. In 1957, Luxembourg became one of the six founding countries of the EEC (later the EU), and in 1999 it joined the euro currency zone.",
+    "coordinates": "49 45 N, 6 10 E",
+    "region": "Europe",
+    "total_area": "2,586 sq km",
+    "land_area": "2,586 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "327 km",
+    "neighbors": {
+        "France": "69 km",
+        "Germany": "128 km"
+    },
+    "climate": "modified continental with mild winters, cool summers",
+    "coastline": "0 km",
+    "natural_hazards": [
+        "occasional flooding"
+    ],
+    "terrain": "mostly gently rolling uplands with broad, shallow valleys; uplands to slightly mountainous in the north; steep slope down to Moselle flood plain in the southeast",
+    "population_distribution": "most people live in the south, on or near the border with France",
+    "natural_resources": [
+        "iron ore (no longer exploited)",
+        "arable land"
+    ],
+    "population": "628,381",
+    "nationality": "Luxembourger(s)",
+    "ethnic_groups": {
+        "Luxembourger": "51.1%",
+        "Portuguese": "15.7%",
+        "French": "7.5%",
+        "Italian": "3.6%",
+        "Belgian": "3.3%",
+        "German": "2.1%",
+        "Spanish": "1.1%",
+        "British": "1%",
+        "other": "14.6%"
+    },
+    "languages": {
+        "Luxembourgish (official)": "55.8%",
+        "Portuguese": "15.7%",
+        "French (official)": "12.1%",
+        "German (official)": "3.1%",
+        "Italian": "2.9%",
+        "English": "2.1%",
+        "other": "8.4%"
+    },
+    "religions": {
+        "Christian": "70.4%",
+        "Muslim": "2.3%",
+        "other": "0.5%",
+        "none": "26.8%"
+    },
+    "government_type": "constitutional monarchy",
+    "national_symbols": "red, rampant lion",
+    "national_colors": [
+        "red",
+        "white",
+        "light blue"
+    ],
+    "gdp": "$62.53 billion",
+    "agriculture": [
+        "grapes",
+        "barley",
+        "oats",
+        "potatoes",
+        "wheat",
+        "fruits",
+        "dairy and livestock products"
+    ],
+    "industries": [
+        "banking and financial services",
+        "construction",
+        "real estate services",
+        "iron",
+        "metals",
+        "steel",
+        "information technology",
+        "telecommunications",
+        "cargo transportation and logistics",
+        "chemicals",
+        "engineering",
+        "tires",
+        "glass",
+        "aluminum",
+        "tourism",
+        "biotechnology"
+    ],
+    "exports": [
+        "machinery and equipment",
+        "steel products",
+        "chemicals",
+        "rubber products",
+        "glass"
+    ],
+    "imports": [
+        "commercial aircraft",
+        "minerals",
+        "chemicals",
+        "metals",
+        "foodstuffs",
+        "luxury consumer goods"
+    ],
+    "broadband_subscriptions": "224,300",
+    "internet_users": "587,955",
+    "mobile_subscriptions": "798,600",
+    "internet_country_code": ".lu",
+    "military_and_security_forces": "Luxembourg Army (l'Arm\u00e9e Luxembourgeoise)",
+    "percent_GDP_on_military": "0.56%",
+    "pipelines": [
+        "142 km gas",
+        "27 km refined products"
+    ],
+    "ports_and_terminals": {
+        "river port(s)": "Mertert (Moselle)"
+    },
+    "waterways": "37 km",
+    "number_of_airports": "2",
+    "international_disputes": "none",
+    "terrorism": "None/Unknown"
+}

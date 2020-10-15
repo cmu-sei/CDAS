@@ -1,0 +1,21 @@
+{
+    "id": "attack-pattern--e4c347e9-fb91-4bc5-83b8-391e389131e2",
+    "name": "Network Information Discovery",
+    "description": "Adversaries may use device sensors to collect information about nearby networks, such as Wi-Fi and Bluetooth.",
+    "references": [
+        {
+            "external_id": "T1507",
+            "source_name": "mitre-mobile-attack",
+            "url": "https://attack.mitre.org/techniques/T1507"
+        }
+    ],
+    "platforms": [
+        "Android"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "collection"
+        }
+    ]
+}

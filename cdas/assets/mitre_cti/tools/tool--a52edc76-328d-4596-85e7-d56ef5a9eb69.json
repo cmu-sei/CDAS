@@ -1,0 +1,25 @@
+{
+    "id": "tool--a52edc76-328d-4596-85e7-d56ef5a9eb69",
+    "name": "Pass-The-Hash Toolkit",
+    "description": "[Pass-The-Hash Toolkit](https://attack.mitre.org/software/S0122) is a toolkit that allows an adversary to \"pass\" a password hash (without knowing the original password) to log in to systems. (Citation: Mandiant APT1)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/software/S0122",
+            "external_id": "S0122"
+        },
+        {
+            "source_name": "Mandiant APT1",
+            "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
+            "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
+        }
+    ],
+    "aliases": [
+        "Pass-The-Hash Toolkit"
+    ],
+    "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+    ]
+}

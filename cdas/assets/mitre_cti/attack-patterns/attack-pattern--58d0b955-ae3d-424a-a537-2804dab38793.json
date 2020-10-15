@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--58d0b955-ae3d-424a-a537-2804dab38793",
+    "name": "Unconditional client-side exploitation/Injected Website/Driveby",
+    "description": "**This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.**\n\nA technique used to compromise victims wherein the victims visit a compromised website that redirects their browser to a malicious web site, such as an exploit kit's landing page.  The exploit kit landing page will probe the victim's operating system, web browser, or other software to find an exploitable vulnerability to infect the victim. (Citation: GeorgeDriveBy) (Citation: BellDriveBy)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "external_id": "T1372",
+            "url": "https://attack.mitre.org/techniques/T1372"
+        },
+        {
+            "description": "Torsten George. (2014, October 15). The Internet's Big Threat: Drive-by Attacks. Retrieved March 7, 2017.",
+            "source_name": "GeorgeDriveBy"
+        },
+        {
+            "description": "Lee Bell. (2013, January 8). Drive-by exploits are the top web security threat, says ENISA. Retrieved March 7, 2017.",
+            "source_name": "BellDriveBy"
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "launch"
+        }
+    ]
+}

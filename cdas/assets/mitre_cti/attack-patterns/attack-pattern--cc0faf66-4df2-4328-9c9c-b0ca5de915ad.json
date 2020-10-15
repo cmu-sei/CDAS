@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--cc0faf66-4df2-4328-9c9c-b0ca5de915ad",
+    "name": "Secure and protect infrastructure",
+    "description": "An adversary may secure and protect their infrastructure just as defenders do. This could include the use of VPNs, security software, logging and monitoring, passwords, or other defensive measures. (Citation: KrebsTerracottaVPN)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1317",
+            "external_id": "T1317"
+        },
+        {
+            "source_name": "KrebsTerracottaVPN",
+            "description": "Brian Krebs. (2014, August 4). Chinese VPN Service as Attack Platform?. Retrieved March 6, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "adversary-opsec"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "id": "attack-pattern--54a649ff-439a-41a4-9856-8d144a2551ba",
+    "name": "Remote Services",
+    "description": "Adversaries may use [Valid Accounts](https://attack.mitre.org/techniques/T1078) to log into a service specifically designed to accept remote connections, such as telnet, SSH, and VNC. The adversary may then perform actions as the logged-on user.\n\nIn an enterprise environment, servers and workstations can be organized into domains. Domains provide centralized identity management, allowing users to login using one set of credentials across the entire network. If an adversary is able to obtain a set of valid domain credentials, they could login to many different machines using remote access protocols such as secure shell (SSH) or remote desktop protocol (RDP).(Citation: SSH Secure Shell)(Citation: TechNet Remote Desktop Services)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1021",
+            "url": "https://attack.mitre.org/techniques/T1021"
+        },
+        {
+            "external_id": "CAPEC-555",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/555.html"
+        },
+        {
+            "source_name": "SSH Secure Shell",
+            "url": "https://www.ssh.com/ssh",
+            "description": "SSH.COM. (n.d.). SSH (Secure Shell). Retrieved March 23, 2020."
+        },
+        {
+            "url": "https://technet.microsoft.com/en-us/windowsserver/ee236407.aspx",
+            "description": "Microsoft. (n.d.). Remote Desktop Services. Retrieved June 1, 2016.",
+            "source_name": "TechNet Remote Desktop Services"
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "lateral-movement"
+        }
+    ]
+}

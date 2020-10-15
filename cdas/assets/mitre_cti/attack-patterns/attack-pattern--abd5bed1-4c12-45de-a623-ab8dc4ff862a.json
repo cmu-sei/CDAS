@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--abd5bed1-4c12-45de-a623-ab8dc4ff862a",
+    "name": "Research relevant vulnerabilities/CVEs",
+    "description": "Common Vulnerability Enumeration (CVE) is a dictionary of publicly known information about security vulnerabilities and exposures. An adversary can use this information to target specific software that may be vulnerable. (Citation: WeaponsVulnerable) (Citation: KasperskyCarbanak)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1291",
+            "external_id": "T1291"
+        },
+        {
+            "source_name": "WeaponsVulnerable",
+            "description": "Jack Smith IV. (2015, January 22). Pentagon Chief Weapons Tester: Almost All Military Programs Vulnerable to Cyber-Attacks. Retrieved March 5, 2017."
+        },
+        {
+            "source_name": "KasperskyCarbanak",
+            "description": "Kaspersky Lab's Global Research & Analysis Team. (2015, February). CARBANAK APT THE GREAT BANK ROBBERY. Retrieved March 27, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "technical-weakness-identification"
+        }
+    ]
+}

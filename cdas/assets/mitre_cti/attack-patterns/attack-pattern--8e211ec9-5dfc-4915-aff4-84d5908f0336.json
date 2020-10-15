@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--8e211ec9-5dfc-4915-aff4-84d5908f0336",
+    "name": "C2 protocol development",
+    "description": "Command and Control (C2 or C&C) is a method by which the adversary communicates with malware. An adversary may use a variety of protocols and methods to execute C2 such as a centralized server, peer to peer, IRC, compromised web sites, or even social media. (Citation: HAMMERTOSS2015)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1352",
+            "external_id": "T1352"
+        },
+        {
+            "source_name": "HAMMERTOSS2015",
+            "description": "FireEye. (2015, July). HAMMERTOSS: Stealthy Tactics Define a Russian Cyber Threat Group. Retrieved March 6, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "build-capabilities"
+        }
+    ]
+}

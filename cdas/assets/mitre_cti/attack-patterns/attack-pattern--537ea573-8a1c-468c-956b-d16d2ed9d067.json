@@ -1,0 +1,37 @@
+{
+    "id": "attack-pattern--537ea573-8a1c-468c-956b-d16d2ed9d067",
+    "name": "Remotely Wipe Data Without Authorization",
+    "description": "An adversary who is able to obtain unauthorized access to or misuse authorized access to cloud services (e.g. Google's Android Device Manager or Apple iCloud's Find my iPhone) or to an EMM console could use that access to wipe enrolled devices (Citation: Honan-Hacking).",
+    "references": [
+        {
+            "source_name": "mitre-mobile-attack",
+            "url": "https://attack.mitre.org/techniques/T1469",
+            "external_id": "T1469"
+        },
+        {
+            "source_name": "NIST Mobile Threat Catalogue",
+            "url": "https://pages.nist.gov/mobile-threat-catalogue/ecosystem-threats/ECO-5.html",
+            "external_id": "ECO-5"
+        },
+        {
+            "source_name": "NIST Mobile Threat Catalogue",
+            "url": "https://pages.nist.gov/mobile-threat-catalogue/emm-threats/EMM-7.html",
+            "external_id": "EMM-7"
+        },
+        {
+            "source_name": "Honan-Hacking",
+            "description": "Mat Honan. (2012, August 6). How Apple and Amazon Security Flaws Led to My Epic Hacking. Retrieved December 29, 2016.",
+            "url": "https://www.wired.com/2012/08/apple-amazon-mat-honan-hacking/"
+        }
+    ],
+    "platforms": [
+        "Android",
+        "iOS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "remote-service-effects"
+        }
+    ]
+}

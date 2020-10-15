@@ -1,0 +1,31 @@
+{
+    "id": "attack-pattern--f7827069-0bf2-4764-af4f-23fae0d181b7",
+    "name": "Dead Drop Resolver",
+    "description": "Adversaries may use an existing, legitimate external Web service to host information that points to additional command and control (C2) infrastructure. Adversaries may post content, known as a dead drop resolver, on Web services with embedded (and often obfuscated/encoded) domains or IP addresses. Once infected, victims will reach out to and be redirected by these resolvers.\n\nPopular websites and social media acting as a mechanism for C2 may give a significant amount of cover due to the likelihood that hosts within a network are already communicating with them prior to a compromise. Using common services, such as those offered by Google or Twitter, makes it easier for adversaries to hide in expected noise. Web service providers commonly use SSL/TLS encryption, giving adversaries an added level of protection.\n\nUse of a dead drop resolver may also protect back-end C2 infrastructure from discovery through malware binary analysis while also enabling operational resiliency (since this infrastructure may be dynamically changed).",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1102.001",
+            "url": "https://attack.mitre.org/techniques/T1102/001"
+        },
+        {
+            "url": "https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf",
+            "description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved April 20, 2016.",
+            "source_name": "University of Birmingham C2"
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "command-and-control"
+        }
+    ],
+    "permissions": [
+        "User"
+    ]
+}

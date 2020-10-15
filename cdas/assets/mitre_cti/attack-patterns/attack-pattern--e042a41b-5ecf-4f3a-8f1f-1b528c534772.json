@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--e042a41b-5ecf-4f3a-8f1f-1b528c534772",
+    "name": "Test malware in various execution environments",
+    "description": "Malware may perform differently on different platforms (computer vs handheld) and different operating systems ([Ubuntu](http://www.ubuntu.com) vs [OS X](http://www.apple.com/osx)), and versions ([Windows](http://windows.microsoft.com) 7 vs 10) so malicious actors will test their malware in the environment(s) where they most expect it to be executed. (Citation: BypassMalwareDefense)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1357",
+            "external_id": "T1357"
+        },
+        {
+            "source_name": "BypassMalwareDefense",
+            "description": "Morton Christiansen. (2010, May 7). Bypassing Malware Defenses. Retrieved March 9, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "test-capabilities"
+        }
+    ]
+}

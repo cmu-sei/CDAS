@@ -1,0 +1,45 @@
+{
+    "id": "attack-pattern--16e94db9-b5b1-4cd0-b851-f38fbd0a70f2",
+    "name": "Cloud Groups",
+    "description": "Adversaries may attempt to find cloud groups and permission settings. The knowledge of cloud permission groups can help adversaries determine the particular roles of users and groups within an environment, as well as which users are associated with a particular group.\n\nWith authenticated access there are several tools that can be used to find permissions groups. The <code>Get-MsolRole</code> PowerShell cmdlet can be used to obtain roles and permissions groups for Exchange and Office 365 accounts.(Citation: Microsoft Msolrole)(Citation: GitHub Raindance)\n\nAzure CLI (AZ CLI) also provides an interface to obtain permissions groups with authenticated access to a domain. The command <code>az ad user get-member-groups</code> will list groups associated to a user account.(Citation: Microsoft AZ CLI)(Citation: Black Hills Red Teaming MS AD Azure, 2018)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1069.003",
+            "url": "https://attack.mitre.org/techniques/T1069/003"
+        },
+        {
+            "source_name": "Microsoft Msolrole",
+            "url": "https://docs.microsoft.com/en-us/powershell/module/msonline/get-msolrole?view=azureadps-1.0",
+            "description": "Microsoft. (n.d.). Get-MsolRole. Retrieved October 6, 2019."
+        },
+        {
+            "description": "Stringer, M.. (2018, November 21). RainDance. Retrieved October 6, 2019.",
+            "url": "https://github.com/True-Demon/raindance",
+            "source_name": "GitHub Raindance"
+        },
+        {
+            "description": "Microsoft. (n.d.). az ad user. Retrieved October 6, 2019.",
+            "url": "https://docs.microsoft.com/en-us/cli/azure/ad/user?view=azure-cli-latest",
+            "source_name": "Microsoft AZ CLI"
+        },
+        {
+            "description": "Felch, M.. (2018, August 31). Red Teaming Microsoft Part 1 Active Directory Leaks via Azure. Retrieved October 6, 2019.",
+            "url": "https://www.blackhillsinfosec.com/red-teaming-microsoft-part-1-active-directory-leaks-via-azure/",
+            "source_name": "Black Hills Red Teaming MS AD Azure, 2018"
+        }
+    ],
+    "platforms": [
+        "Office 365",
+        "Azure AD"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "discovery"
+        }
+    ],
+    "permissions": [
+        "User"
+    ]
+}

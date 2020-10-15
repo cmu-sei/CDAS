@@ -1,0 +1,20 @@
+{
+    "id": "tool--65370d0b-3bd4-4653-8cf9-daf56f6be830",
+    "name": "meek",
+    "description": "[meek](https://attack.mitre.org/software/S0175) is an open-source Tor plugin that tunnels Tor traffic through HTTPS connections.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/software/S0175",
+            "external_id": "S0175"
+        }
+    ],
+    "aliases": [
+        "meek"
+    ],
+    "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+    ]
+}

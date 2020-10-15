@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--3fc9b85a-2862-4363-a64d-d692e3ffbee0",
+    "name": "Credentials from Password Stores",
+    "description": "Adversaries may search for common password storage locations to obtain user credentials. Passwords are stored in several places on a system, depending on the operating system or application holding the credentials. There are also specific applications that store passwords to make it easier for users manage and maintain. Once credentials are obtained, they can be used to perform lateral movement and access restricted information.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1555",
+            "url": "https://attack.mitre.org/techniques/T1555"
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "credential-access"
+        }
+    ],
+    "permissions": [
+        "Administrator"
+    ]
+}

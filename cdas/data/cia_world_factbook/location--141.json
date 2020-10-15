@@ -1,0 +1,132 @@
+{
+    "id": "location--141",
+    "name": "Namibia",
+    "background": "Various ethnic groups occupied south western Africa prior to Germany establishing a colony over most of the territory in 1884. South Africa occupied the colony, then known as German South West Africa, in 1915 during World War I and administered it as a mandate until after World War II, when it annexed the territory.\u00a0 In 1966, the Marxist South-West Africa People's Organization (SWAPO) guerrilla group launched a war of independence for the area that became Namibia, but it was not until 1988 that South Africa agreed to end its administration in accordance with a UN peace plan for the entire region. Namibia gained independence in 1990 and has been governed by SWAPO since, though the party has dropped much of its Marxist ideology. President Hage GEINGOB was elected in 2014 in a landslide victory, replacing Hifikepunye POHAMBA who stepped down after serving two terms. SWAPO retained its parliamentary super majority in the 2014 elections. In 2019 elections, GEINGOB was reelected but by a substantially reduced majority and SWAPO narrowly lost its super majority in parliament. Namibia gained independence in 1990.",
+    "coordinates": "22 00 S, 17 00 E",
+    "region": "Africa",
+    "total_area": "824,292 sq km",
+    "land_area": "823,290 sq km",
+    "water_area": "1,002 sq km",
+    "land_boundary": "4,220 km",
+    "neighbors": {
+        "Botswana": "1544 km",
+        "South Africa": "1005 km",
+        "Zambia": "244 km"
+    },
+    "climate": "desert; hot, dry; rainfall sparse and erratic",
+    "coastline": "1,572 km",
+    "natural_hazards": [
+        "prolonged periods of drought"
+    ],
+    "terrain": "mostly high plateau; Namib Desert along coast; Kalahari Desert in east",
+    "population_distribution": "population density is very low, with the largest clustering found in the extreme north-central area along the border with Angola as shown in this population distribution map",
+    "natural_resources": [
+        "diamonds",
+        "copper",
+        "uranium",
+        "gold",
+        "silver",
+        "lead",
+        "tin",
+        "lithium",
+        "cadmium",
+        "tungsten",
+        "zinc",
+        "salt",
+        "hydropower",
+        "fish",
+        "note",
+        "suspected deposits of oil",
+        "coal",
+        "and iron ore"
+    ],
+    "population": "2,630,073",
+    "nationality": "Namibian(s)",
+    "ethnic_groups": {
+        "Ovambo": "50%",
+        "Kavangos": "9%",
+        "Herero": "7%",
+        "Damara": "7%",
+        "mixed European and African ancestry": "6.5%",
+        "European": "6%",
+        "Nama": "5%",
+        "Caprivian": "4%",
+        "San": "3%",
+        "Baster": "2%",
+        "Tswana": ".5%"
+    },
+    "languages": {
+        "Oshiwambo languages": "49.7%",
+        "Nama/Damara": "11%",
+        "Kavango languages": "10.4%",
+        "Afrikaans": "9.4%",
+        "Herero languages": "9.2%",
+        "Zambezi languages": "4.9%",
+        "English (official)": "2.3%",
+        "other African languages": "1.5%",
+        "other European languages": ".7%",
+        "other": "1%"
+    },
+    "religions": {
+        "Christian  80% to": "90%",
+        "indigenous beliefs  10% to": "20%"
+    },
+    "government_type": "presidential republic",
+    "national_symbols": "oryx (antelope)",
+    "national_colors": [
+        "blue",
+        "red",
+        "green",
+        "white",
+        "yellow"
+    ],
+    "gdp": "$13.24 billion",
+    "agriculture": [
+        "millet",
+        "sorghum",
+        "peanuts",
+        "grapes",
+        "livestock",
+        "fish"
+    ],
+    "industries": [
+        "meatpacking",
+        "fish processing",
+        "dairy products",
+        "pasta",
+        "beverages",
+        "mining (diamonds, lead, zinc, tin, silver, tungsten, uranium, copper)"
+    ],
+    "exports": [
+        "diamonds",
+        "copper",
+        "gold",
+        "zinc",
+        "lead",
+        "uranium",
+        "cattle",
+        "white fish and mollusks"
+    ],
+    "imports": [
+        "foodstuffs",
+        "petroleum products and fuel",
+        "machinery and equipment",
+        "chemicals"
+    ],
+    "broadband_subscriptions": "61,968",
+    "internet_users": "1,291,944",
+    "mobile_subscriptions": "2,759,293",
+    "internet_country_code": ".na",
+    "military_and_security_forces": "Namibian Defense Force (NDF): Army, Navy, Air Force; Namibian Police Force: Special Field Force (paramilitary unit responsible for protecting borders and government installations)",
+    "percent_GDP_on_military": "3%",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Luderitz, Walvis Bay"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "112",
+    "international_disputes": "concerns from international experts and local populations over the Okavango Delta ecology in Botswana and human displacement scuttled Namibian plans to construct a hydroelectric dam on Popa Falls along the Angola-Namibia border; the governments of South Africa and Namibia have not signed or ratified the text of the 1994 Surveyor's General agreement placing the boundary in the middle of the Orange River; Namibia has supported, and in 2004 Zimbabwe dropped objections to, plans between Botswana and Zambia to build a bridge over the Zambezi River, thereby de facto recognizing a short, but not clearly delimited, Botswana-Zambia boundary in the river",
+    "terrorism": "None/Unknown"
+}

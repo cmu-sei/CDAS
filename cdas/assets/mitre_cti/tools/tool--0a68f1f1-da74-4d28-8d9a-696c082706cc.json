@@ -1,0 +1,24 @@
+{
+    "id": "tool--0a68f1f1-da74-4d28-8d9a-696c082706cc",
+    "name": "certutil",
+    "description": "[certutil](https://attack.mitre.org/software/S0160) is a command-line utility that can be used to obtain certificate authority information and configure Certificate Services. (Citation: TechNet Certutil)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/software/S0160",
+            "external_id": "S0160"
+        },
+        {
+            "url": "https://technet.microsoft.com/library/cc732443.aspx",
+            "description": "Microsoft. (2012, November 14). Certutil. Retrieved July 3, 2017.",
+            "source_name": "TechNet Certutil"
+        }
+    ],
+    "aliases": [
+        "certutil",
+        "certutil.exe"
+    ],
+    "platforms": [
+        "Windows"
+    ]
+}

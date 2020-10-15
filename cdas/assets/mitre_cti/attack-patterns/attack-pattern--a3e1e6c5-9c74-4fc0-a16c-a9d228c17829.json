@@ -1,0 +1,23 @@
+{
+    "id": "attack-pattern--a3e1e6c5-9c74-4fc0-a16c-a9d228c17829",
+    "name": "Exfiltration over USB",
+    "description": "Adversaries may attempt to exfiltrate data over a USB connected physical device. In certain circumstances, such as an air-gapped network compromise, exfiltration could occur via a USB device introduced by a user. The USB device could be used as the final exfiltration point or to hop between otherwise disconnected systems.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1052.001",
+            "url": "https://attack.mitre.org/techniques/T1052/001"
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "exfiltration"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "id": "attack-pattern--fc742192-19e3-466c-9eb5-964a97b29490",
+    "name": "Dylib Hijacking",
+    "description": "Adversaries may execute their own malicious payloads by hijacking ambiguous paths  used to load libraries. Adversaries may plant trojan dynamic libraries, in a directory that will be searched by the operating system before the legitimate library specified by the victim program, so that their malicious library will be loaded into the victim program instead.  MacOS and OS X use a common method to look for required dynamic libraries (dylib) to load into a program based on search paths.\n\nA common method is to see what dylibs an application uses, then plant a malicious version with the same name higher up in the search path. This typically results in the dylib being in the same folder as the application itself. (Citation: Writing Bad Malware for OSX) (Citation: Malware Persistence on OS X)\n\nIf the program is configured to run at a higher privilege level than the current user, then when the dylib is loaded into the application, the dylib will also run at that elevated level.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1574.004",
+            "url": "https://attack.mitre.org/techniques/T1574/004"
+        },
+        {
+            "external_id": "CAPEC-CAPEC",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/CAPEC.html"
+        },
+        {
+            "url": "https://www.blackhat.com/docs/us-15/materials/us-15-Wardle-Writing-Bad-A-Malware-For-OS-X.pdf",
+            "description": "Patrick Wardle. (2015). Writing Bad @$$ Malware for OS X. Retrieved July 10, 2017.",
+            "source_name": "Writing Bad Malware for OSX"
+        },
+        {
+            "url": "https://www.rsaconference.com/writable/presentations/file_upload/ht-r03-malware-persistence-on-os-x-yosemite_final.pdf",
+            "description": "Patrick Wardle. (2015). Malware Persistence on OS X Yosemite. Retrieved July 10, 2017.",
+            "source_name": "Malware Persistence on OS X"
+        }
+    ],
+    "platforms": [
+        "macOS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "persistence"
+        },
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "privilege-escalation"
+        },
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        }
+    ]
+}

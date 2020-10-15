@@ -1,0 +1,60 @@
+{
+    "id": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
+    "name": "Valid Accounts",
+    "description": "Adversaries may obtain and abuse credentials of existing accounts as a means of gaining Initial Access, Persistence, Privilege Escalation, or Defense Evasion. Compromised credentials may be used to bypass access controls placed on various resources on systems within the network and may even be used for persistent access to remote systems and externally available services, such as VPNs, Outlook Web Access and remote desktop. Compromised credentials may also grant an adversary increased privilege to specific systems or access to restricted areas of the network. Adversaries may choose not to use malware or tools in conjunction with the legitimate access those credentials provide to make it harder to detect their presence.\n\nThe overlap of permissions for local, domain, and cloud accounts across a network of systems is of concern because the adversary may be able to pivot across accounts and systems to reach a high level of access (i.e., domain or enterprise administrator) to bypass access controls set within the enterprise. (Citation: TechNet Credential Theft)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1078",
+            "url": "https://attack.mitre.org/techniques/T1078"
+        },
+        {
+            "external_id": "CAPEC-560",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/560.html"
+        },
+        {
+            "url": "https://technet.microsoft.com/en-us/library/dn535501.aspx",
+            "description": "Microsoft. (2016, April 15). Attractive Accounts for Credential Theft. Retrieved June 3, 2016.",
+            "source_name": "TechNet Credential Theft"
+        },
+        {
+            "url": "https://technet.microsoft.com/en-us/library/dn487457.aspx",
+            "description": "Microsoft. (2016, April 15). Audit Policy Recommendations. Retrieved June 3, 2016.",
+            "source_name": "TechNet Audit Policy"
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "AWS",
+        "GCP",
+        "Azure",
+        "SaaS",
+        "Office 365",
+        "Azure AD"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        },
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "persistence"
+        },
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "privilege-escalation"
+        },
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "initial-access"
+        }
+    ],
+    "permissions": [
+        "User",
+        "Administrator"
+    ]
+}

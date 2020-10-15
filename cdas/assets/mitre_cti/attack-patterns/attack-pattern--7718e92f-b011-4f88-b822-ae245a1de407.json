@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--7718e92f-b011-4f88-b822-ae245a1de407",
+    "name": "Identify job postings and needs/gaps",
+    "description": "Job postings, on either company sites, or in other forums, provide information on organizational structure, needs, and gaps in an organization. This may give an adversary an indication of weakness in an organization (such as under-resourced IT shop). Job postings can also provide information on an organizations structure which could be valuable in social engineering attempts. (Citation: JobPostingThreat) (Citation: RSA-APTRecon)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1278",
+            "external_id": "T1278"
+        },
+        {
+            "source_name": "JobPostingThreat",
+            "description": "Jay D. Krasnow. (2000, October). The Competitive Intelligence and National Security Threat from Website Job Listings. Retrieved March 16, 2017."
+        },
+        {
+            "source_name": "RSA-APTRecon",
+            "description": "Rotem Kerner. (2015, October). RECONNAISSANCE: A Walkthrough of the \u201cAPT\u201d Intelligence Gathering Process. Retrieved March 1, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "organizational-information-gathering"
+        }
+    ]
+}

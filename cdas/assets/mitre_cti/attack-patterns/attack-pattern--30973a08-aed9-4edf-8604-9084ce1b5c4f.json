@@ -1,0 +1,38 @@
+{
+    "id": "attack-pattern--30973a08-aed9-4edf-8604-9084ce1b5c4f",
+    "name": "Clipboard Data",
+    "description": "Adversaries may collect data stored in the clipboard from users copying information within or between applications. \n\nIn Windows, Applications can access clipboard data by using the Windows API.(Citation: MSDN Clipboard) OSX provides a native command, <code>pbpaste</code>, to grab clipboard contents.(Citation: Operating with EmPyre)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1115",
+            "url": "https://attack.mitre.org/techniques/T1115"
+        },
+        {
+            "external_id": "CAPEC-637",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/637.html"
+        },
+        {
+            "url": "https://msdn.microsoft.com/en-us/library/ms649012",
+            "description": "Microsoft. (n.d.). About the Clipboard. Retrieved March 29, 2016.",
+            "source_name": "MSDN Clipboard"
+        },
+        {
+            "url": "https://medium.com/rvrsh3ll/operating-with-empyre-ea764eda3363",
+            "description": "rvrsh3ll. (2016, May 18). Operating with EmPyre. Retrieved July 12, 2017.",
+            "source_name": "Operating with EmPyre"
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "collection"
+        }
+    ]
+}

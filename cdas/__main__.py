@@ -77,20 +77,22 @@ def main():
         'threat-actors': '',
         'malware': '',
         'geoseed.json': '',
-        'tools': ''}
+        'tools': '',
+        'ttps': ''
+        }
 
     # Set up the Output directory
     if not args.output_directory:
         args.output_directory = config['output']['output_directory']
     if args.output_directory == "":
         raise Exception(f'No output directory specified')
-    output_dir = filestore.FileStore(args.output_directory, "output", write=True)
+    output_dir = filestore.FileStore(
+        args.output_directory, "output", write=True)
 
     # Set up the temp directory
     if config['output']['temp_directory'] == "":
         raise Exception(f'No temporary directory specified')
-    temp_dir = filestore.FileStore(
-        config['output']['temp_directory'], "temp", write=True)
+    temp_dir = filestore.FileStore(config['output']['temp_directory'],"temp",write=True)
 
     # Check the input folder if provided
     if not args.input_directory:
@@ -104,18 +106,38 @@ def main():
                     f'input. These are allowed: {datastore.keys()}')
             else:
                 datastore[f.lower()] = os.path.join(args.input_directory, f)
+        if 'relationships.json' in input_fs:
+            with open(os.path.join(args.input_directory, 'relationships.json')) as json_file:
+                relationships = json.load(json_file)
+            json_file.close()
+        else:
+            with open(pkg_resources.resource_filename(
+                    __name__, 'assets/mitre_cti/relationships.json')) as json_file:
+                relationships = json.load(json_file)
+            json_file.close()
+    else:
+        with open(pkg_resources.resource_filename(
+                __name__, 'assets/mitre_cti/relationships.json')) as json_file:
+            relationships = json.load(json_file)
+        json_file.close()
 
-    # Set the file stores for malware and tools
+    # Set the file stores for malware, tools, and TTPs
     if datastore['malware'] == '':
         malware_fs = filestore.FileStore(pkg_resources.resource_filename(
-                __name__, "assets/mitre_cti/malware"), 'malware')
+                __name__, "assets/mitre_cti/malware"), context.Malware)
     else:
-        malware_fs = filestore.FileStore(datastore['malware'], 'malware')
+        malware_fs = filestore.FileStore(datastore['malware'], context.Malware)
     if datastore['tools'] == '':
         tools_fs = filestore.FileStore(pkg_resources.resource_filename(
-                __name__, "assets/mitre_cti/tool"), 'tools')
+                __name__, "assets/mitre_cti/tools"), context.Tool)
     else:
-        tools_fs = filestore.FileStore(datastore['tools'], 'tools')
+        tools_fs = filestore.FileStore(datastore['tools'], context.Tool)
+    if datastore['ttps'] == '':
+        ttp_fs = filestore.FileStore(pkg_resources.resource_filename(
+                __name__, "assets/mitre_cti/attack-patterns"), context.Ttp)
+    else:
+        ttp_fs = filestore.FileStore(datastore['ttps'], context.Ttp)
+
 
     # Load or create country data
     if datastore['countries'] != '':
@@ -142,14 +164,15 @@ def main():
         for c in range(0, config['countries']['random_vars']['num_countries']):
             country = context.Country(context_options, map_matrix.map)
             countries_fs.save(country)
-            country_names[str(country.id)] = country.name
+            country_names[country.id] = country.name
+
         for c in country_names:
-            country = countries_fs.get(country_names[c])
+            country = countries_fs.get(c)
             country.update(country_names)
             countries_fs.save(country, overwrite=True)
     else:
         # Using country data files instead of random generation
-        countries_fs = filestore(
+        countries_fs = filestore.FileStore(
             pkg_resources.resource_filename(
                 __name__, 'data/cia_world_factbook/'), context.Country)
 
@@ -190,9 +213,9 @@ def main():
             actors += 1
     else:
         # no randomization - use default set
-        threat_actor_fs = filestore(
+        threat_actor_fs = filestore.FileStore(
             pkg_resources.resource_filename(
-                __name__, 'assets/mitre_cti/intrusion-set/'), agents.ThreatActor)
+                __name__, 'assets/mitre_cti/threat-actors/'), agents.ThreatActor)
 
     # Create organizations
     print('Creating organizations...')
@@ -211,7 +234,7 @@ def main():
     for c in countries_fs.query("SELECT name"):
         orgs = 0
         while orgs < config['agents']['org_variables']["orgs_per_country"]:
-            org = agents.Organization(stix_vocab, c, org_names, assessment)
+            org = agents.Organization(stix_vocab, c[0], org_names, assessment)
             organizations_fs.save(org)
             orgs += 1
 
@@ -219,22 +242,23 @@ def main():
     print('Running simulation...')
     events_fs = filestore.FileStore(
             os.path.join(config['output']['temp_directory'],'events'),
-            'events', write=True)
+            context.Event, write=True)
     start = datetime.strptime(
         config["simulation"]['time_range'][0], '%Y-%m-%d')
     end = datetime.strptime(config["simulation"]['time_range'][1], '%Y-%m-%d')
     td = end - start
     actors = threat_actor_fs.get(
-        [name[0] for name in threat_actor_fs.query("SELECT name")])
+        [name[0] for name in threat_actor_fs.query("SELECT id")])
     orgs = organizations_fs.get(
-        [name[0] for name in organizations_fs.query("SELECT name")])
+        [name[0] for name in organizations_fs.query("SELECT id")])
     tools = tools_fs.get(
-        [name[0] for name in tools_fs.query("SELECT name")])
-    malwares = malware_fs.get(malware_fs.query("SELECT name"))
+        [name[0] for name in tools_fs.query("SELECT id")])
+    malwares = malware_fs.get(
+        [name[0] for name in malware_fs.query("SELECT id")])
     for r in range(1, int(config["simulation"]['number_of_rounds'])+1):
         print(f'\tRound {r}')
         simulator.simulate(
-            actors, orgs, tools, malwares, events_fs, start,
+            actors, orgs, tools, malwares, events_fs, relationships, start,
             td.days/(config["simulation"]['number_of_rounds']*len(actors)))
         start += timedelta(
             days=td.days/config["simulation"]['number_of_rounds'])
@@ -243,33 +267,27 @@ def main():
     print('Saving output...')
     # Map
     try:
-        map_matrix.plot_map(args.output, **country_names)
+        map_matrix.plot_map(args.output_directory, **country_names)
     except NameError:
         pass
 
     for ot in config['output']['output_types']:
         print(f'\t{ot}')
-        path = args.output + "/" + ot
-        if ot == "stix":
-            shutil.copytree(temp_path, path)
-        else:
-            os.mkdir(path)
-            os.mkdir(path + '/countries/')
-            os.mkdir(path + '/actors/')
-            os.mkdir(path + '/reports/')
-            os.mkdir(path + '/organizations/')
-            for country in countries:
-                country.save(path + '/countries/', ot)
-            apts = threat_actor_fs.query(Filter("type", "=", "intrusion-set"))
-            for apt in apts:
-                agents.save(apt, path + '/actors/', ot, fs_gen, fs_real)
-            events = fs_gen.query(Filter("type", "=", "sighting"))
-            for e in events:
-                simulator.save(
-                    e, threat_actor_fs, fs_real, path + '/reports/', ot)
-            for org in orgs:
-                agents.save_org(
-                    org, path + '/organizations/', ot, assessment)
+        path = args.output_directory + "/" + ot
+        os.mkdir(path)
+        os.mkdir(path + '/countries/')
+        os.mkdir(path + '/actors/')
+        os.mkdir(path + '/reports/')
+        os.mkdir(path + '/organizations/')
+        for country in countries_fs.get([i[0] for i in countries_fs.query("SELECT id")]):
+            output_dir.output(ot+'/countries', country, ot)
+        for apt in actors:
+            apt.save(relationships, path + '/actors/', ot, tools_fs, malware_fs, events_fs, ttp_fs)
+        for e in events_fs.get([i[0] for i in events_fs.query("SELECT id")]):
+            output_dir.output(ot+'/reports', e, ot)
+        for org in orgs:
+            agents.save_org(
+                org, path + '/organizations/', ot, assessment)
         if ot == "html":
             html_src = pkg_resources.resource_filename(
                 __name__, 'assets/html_templates')
@@ -285,7 +303,7 @@ def main():
                 f.close()
             os.remove(path+'/COUNTRY.html')
 
-    shutil.rmtree(temp_path)
+    shutil.rmtree(config['output']['temp_directory'])
 
     print('Done')
 

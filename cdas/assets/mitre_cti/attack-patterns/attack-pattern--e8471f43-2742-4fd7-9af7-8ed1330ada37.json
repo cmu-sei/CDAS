@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--e8471f43-2742-4fd7-9af7-8ed1330ada37",
+    "name": "Upload, install, and configure software/tools",
+    "description": "An adversary may stage software and tools for use during later stages of an attack. The software and tools may be placed on systems legitimately in use by the adversary or may be placed on previously compromised infrastructure. (Citation: APT1) (Citation: RedOctober)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1362",
+            "external_id": "T1362"
+        },
+        {
+            "source_name": "APT1",
+            "description": "Mandiant. (n.d.). APT1: Exposing One of China\u2019s Cyber Espionage Units. Retrieved March 5, 2017."
+        },
+        {
+            "source_name": "RedOctober",
+            "description": "GReAT. (2013, January 17). \u201cRed October\u201d. Detailed Malware Description 4. Second Stage of Attack. Retrieved March 7, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "stage-capabilities"
+        }
+    ]
+}

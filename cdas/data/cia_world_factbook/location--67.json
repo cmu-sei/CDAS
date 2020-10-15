@@ -1,0 +1,94 @@
+{
+    "id": "location--67",
+    "name": "Faroe Islands",
+    "background": "The population of the Faroe Islands is largely descended from Viking settlers who arrived in the 9th century. The islands have been connected politically to Denmark since the 14th century. A high degree of self-government was granted the Faroese in 1948, who have autonomy over most internal affairs while Denmark is responsible for justice, defense, and foreign affairs. The Faroe Islands are not part of the European Union.",
+    "coordinates": "62 00 N, 7 00 W",
+    "region": "Europe",
+    "total_area": "1,393 sq km",
+    "land_area": "1,393 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "mild winters, cool summers; usually overcast; foggy, windy",
+    "coastline": "1,117 km",
+    "natural_hazards": [
+        "strong winds and heavy rains can occur throughout the year"
+    ],
+    "terrain": "rugged, rocky, some low peaks; cliffs along most of coast",
+    "population_distribution": "the island of Streymoy is by far the most populous with over 40% of the population; it has approximately twice as many inhabitants as Eysturoy, the second most populous island; seven of the inhabited islands have fewer than 100 people",
+    "natural_resources": [
+        "fish",
+        "whales",
+        "hydropower",
+        "possible oil and gas"
+    ],
+    "population": "51,628",
+    "nationality": "Faroese (singular and plural)",
+    "ethnic_groups": {
+        "Faroese": "87.6%",
+        "Danish": "7.8%",
+        "other Nordic": "1.4%",
+        "other": "3.2%"
+    },
+    "languages": {
+        "Faroese": "93.8%",
+        "Danish": "3.2%",
+        "other": "3%"
+    },
+    "religions": {
+        "Christian": "89.3%",
+        "other": "1%",
+        "none": "3.8%",
+        "unspecified": "6%"
+    },
+    "government_type": "parliamentary democracy (Faroese Parliament); part of the Kingdom of Denmark",
+    "national_symbols": "ram",
+    "national_colors": [
+        "red",
+        "white",
+        "blue"
+    ],
+    "gdp": "$2.765 billion",
+    "agriculture": [
+        "milk",
+        "potatoes",
+        "vegetables",
+        "sheep",
+        "salmon",
+        "herring",
+        "mackerel and other fish"
+    ],
+    "industries": [
+        "fishing",
+        "fish processing",
+        "tourism",
+        "small ship repair and refurbishment",
+        "handicrafts"
+    ],
+    "exports": [
+        "fish and fish products"
+    ],
+    "imports": [
+        "goods for household consumption",
+        "machinery and transport equipment",
+        "fuels",
+        "raw materials and semi-manufactures",
+        "cars"
+    ],
+    "broadband_subscriptions": "18,181",
+    "internet_users": "49,783",
+    "mobile_subscriptions": "56,792",
+    "internet_country_code": ".fo",
+    "military_and_security_forces": "no regular military forces or conscription; the Government of Denmark has responsibility for defense; as such, the Danish military\u2019s Joint Arctic Command in Nuuk, Greenland is responsible for territorial defense of the Faroe Islands; the Joint Arctic Command has a contact element in the capital of Torshavn",
+    "percent_GDP_on_military": "Unknown",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Fuglafjordur, Torshavn, Vagur"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "1",
+    "international_disputes": "because anticipated offshore hydrocarbon resources have not been realized, earlier Faroese proposals for full independence have been deferred; Iceland, the UK, and Ireland dispute Denmark's claim to UNCLOS that the Faroe Islands' continental shelf extends beyond 200 nm",
+    "terrorism": "None/Unknown"
+}

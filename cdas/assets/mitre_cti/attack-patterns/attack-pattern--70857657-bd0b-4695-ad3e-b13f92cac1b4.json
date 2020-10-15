@@ -1,0 +1,46 @@
+{
+    "id": "attack-pattern--70857657-bd0b-4695-ad3e-b13f92cac1b4",
+    "name": "Delete Cloud Instance",
+    "description": "An adversary may delete a cloud instance after they have performed malicious activities in an attempt to evade detection and remove evidence of their presence.  Deleting an instance or virtual machine can remove valuable forensic artifacts and other evidence of suspicious behavior if the instance is not recoverable.\n\nAn adversary may also [Create Cloud Instance](https://attack.mitre.org/techniques/T1578/002) and later terminate the instance after achieving their objectives.(Citation: Mandiant M-Trends 2020)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1578.003",
+            "url": "https://attack.mitre.org/techniques/T1578/003"
+        },
+        {
+            "source_name": "Mandiant M-Trends 2020",
+            "url": "https://content.fireeye.com/m-trends/rpt-m-trends-2020",
+            "description": "FireEye / Mandiant. (2020, February). M-Trends 2020. Retrieved April 24, 2020."
+        },
+        {
+            "source_name": "AWS CloudTrail Search",
+            "url": "https://aws.amazon.com/premiumsupport/knowledge-center/cloudtrail-search-api-calls/",
+            "description": "Amazon. (n.d.). Search CloudTrail logs for API calls to EC2 Instances. Retrieved June 17, 2020."
+        },
+        {
+            "source_name": "Azure Activity Logs",
+            "url": "https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/view-activity-logs",
+            "description": "Microsoft. (n.d.). View Azure activity logs. Retrieved June 17, 2020."
+        },
+        {
+            "source_name": "Cloud Audit Logs",
+            "url": "https://cloud.google.com/logging/docs/audit#admin-activity",
+            "description": "Google. (n.d.). Audit Logs. Retrieved June 1, 2020."
+        }
+    ],
+    "platforms": [
+        "AWS",
+        "GCP",
+        "Azure"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        }
+    ],
+    "permissions": [
+        "User"
+    ]
+}

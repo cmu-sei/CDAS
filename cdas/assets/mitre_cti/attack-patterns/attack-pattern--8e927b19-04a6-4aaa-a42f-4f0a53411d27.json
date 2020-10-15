@@ -1,0 +1,34 @@
+{
+    "id": "attack-pattern--8e927b19-04a6-4aaa-a42f-4f0a53411d27",
+    "name": "Assess current holdings, needs, and wants",
+    "description": "Analysts assess current information available against requirements that outline needs and wants as part of the research baselining process to begin satisfying a requirement. (Citation: CyberAdvertisingChar) (Citation: CIATradecraft) (Citation: ForensicAdversaryModeling) (Citation: CyberAdversaryBehavior)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1236",
+            "external_id": "T1236"
+        },
+        {
+            "source_name": "CyberAdvertisingChar",
+            "description": "Tom Parker, Matt Devost, Marcus Sachs, and Toby Miller. (2003). Cyber Adversary Characterization. Retrieved March 5, 2017."
+        },
+        {
+            "source_name": "CIATradecraft",
+            "description": "Central Intelligence Agency. (2009). A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis. Retrieved March 5, 2017."
+        },
+        {
+            "source_name": "ForensicAdversaryModeling",
+            "description": "John Lowry, Rico Valdez, Brad Wood. (n.d.). Adversary Modeling to Develop Forensic Observables. Retrieved March 5, 2017."
+        },
+        {
+            "source_name": "CyberAdversaryBehavior",
+            "description": "Elizabeth Van Ruitenbeek, Ken Keefe, William H. Sanders, and Carol Muehrcke. (2010). Characterizing the Behavior of Cyber Adversaries: The Means, Motive, and Opportunity of Cyberattacks. Retrieved March 5, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "priority-definition-planning"
+        }
+    ]
+}

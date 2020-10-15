@@ -1,0 +1,110 @@
+{
+    "id": "location--179",
+    "name": "Singapore",
+    "background": "A Malay trading port known as Temasek existed on the island of Singapore by the 14th century. The settlement changed hands several times in the ensuing centuries and was eventually burned in the 17th century and fell into obscurity. The British founded modern Singapore as a trading colony on the site in 1819. It joined the Malaysian Federation in 1963 but was ousted two years later and became independent. Singapore subsequently became one of the world's most prosperous countries with strong international trading links (its port is one of the world's busiest in terms of tonnage handled) and with per capita GDP equal to that of the leading nations of Western Europe.",
+    "coordinates": "1 22 N, 103 48 E",
+    "region": "Southeast Asia",
+    "total_area": "719.2 sq km",
+    "land_area": "709.2 sq km",
+    "water_area": "10 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "tropical; hot, humid, rainy; two distinct monsoon seasons - northeastern monsoon (December to March) and southwestern monsoon (June to September); inter-monsoon - frequent afternoon and early evening thunderstorms",
+    "coastline": "193 km",
+    "natural_hazards": [
+        "flash floods"
+    ],
+    "terrain": "lowlying, gently undulating central plateau",
+    "population_distribution": "most of the urbanization is along the southern coast, with relatively dense population clusters found in the central areas",
+    "natural_resources": [
+        "fish",
+        "deepwater ports"
+    ],
+    "population": "6,209,660",
+    "nationality": "Singaporean(s)",
+    "ethnic_groups": {
+        "Chinese": "74.3%",
+        "Malay": "13.4%",
+        "Indian": "9%",
+        "other": "3.2%"
+    },
+    "languages": {
+        "English (official)": "36.9%",
+        "Mandarin (official)": "34.9%",
+        "other Chinese dialects": "12.2%",
+        "Malay (official)": "10.7%",
+        "Tamil (official)": "3.3%",
+        "other": "2%"
+    },
+    "religions": {
+        "Buddhist": "33.2%",
+        "Christian": "18.8%",
+        "Muslim": "14%",
+        "Taoist": "10%",
+        "Hindu": "5%",
+        "other": "0.6%",
+        "none": "18.5%"
+    },
+    "government_type": "parliamentary republic",
+    "national_symbols": "lion, merlion (mythical half lion-half fish creature), orchid",
+    "national_colors": [
+        "red",
+        "white"
+    ],
+    "gdp": "$323.9 billion",
+    "agriculture": [
+        "vegetables",
+        "poultry",
+        "eggs",
+        "fish",
+        "ornamental fish",
+        "orchids"
+    ],
+    "industries": [
+        "electronics",
+        "chemicals",
+        "financial services",
+        "oil drilling equipment",
+        "petroleum refining",
+        "biomedical products",
+        "scientific instruments",
+        "telecommunication equipment",
+        "processed food and beverages",
+        "ship repair",
+        "offshore platform construction",
+        "entrepot trade"
+    ],
+    "exports": [
+        "machinery and equipment (including electronics and telecommunications)",
+        "pharmaceuticals and other chemicals",
+        "refined petroleum products",
+        "foodstuffs and beverages"
+    ],
+    "imports": [
+        "machinery and equipment",
+        "mineral fuels",
+        "chemicals",
+        "foodstuffs",
+        "consumer goods"
+    ],
+    "broadband_subscriptions": "1,610,500",
+    "internet_users": "5,286,665",
+    "mobile_subscriptions": "8,568,400",
+    "internet_country_code": ".sg",
+    "military_and_security_forces": "Singapore Armed Forces: Singapore Army, Republic of Singapore Navy, Republic of Singapore Air Force (includes air defense);\u00a0 Police Coast Guard (subordinate to the Singapore Police Force)",
+    "percent_GDP_on_military": "3.2%",
+    "pipelines": [
+        "3220 km domestic gas ",
+        "1122 km cross-border pipelines ",
+        "8 km refined products"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Singapore",
+        "container port(s) (TEUs)": "Singapore (33,666,000)",
+        "LNG terminal(s) (import)": "Singapore"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "9",
+    "international_disputes": "disputes with Malaysia over territorial waters, airspace, the price of fresh water delivered to Singapore from Malaysia, Singapore's extensive land reclamation works, bridge construction, and maritime boundaries in the Johor and Singapore Straits; in 2008, ICJ awarded sovereignty of Pedra Branca (Pulau Batu Puteh/Horsburgh Island) to Singapore, and Middle Rocks to Malaysia, but did not rule on maritime regimes, boundaries, or disposition of South Ledge; Indonesia and Singapore continue to work on finalization of their 1973 maritime boundary agreement by defining unresolved areas north of Indonesia's Batam Island; piracy remains a problem in the Malacca Strait",
+    "terrorism": "None/Unknown"
+}

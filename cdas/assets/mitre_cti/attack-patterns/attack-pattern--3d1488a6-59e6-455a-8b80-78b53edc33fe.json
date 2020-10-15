@@ -1,0 +1,30 @@
+{
+    "id": "attack-pattern--3d1488a6-59e6-455a-8b80-78b53edc33fe",
+    "name": "Obtain booter/stressor subscription",
+    "description": "Configure and setup booter/stressor services, often intended for server stress testing, to enable denial of service attacks. (Citation: Krebs-Anna) (Citation: Krebs-Booter) (Citation: Krebs-Bazaar)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1396",
+            "external_id": "T1396"
+        },
+        {
+            "source_name": "Krebs-Anna",
+            "description": "Brian Krebs. (2017, January 18). Who is Anna-Senpai, the Mirai Worm Author?. Retrieved May 15, 2017."
+        },
+        {
+            "source_name": "Krebs-Booter",
+            "description": "Brian Krebs. (2016, October 27). Are the Days of \u201cBooter\u201d Services Numbered?. Retrieved May 15, 2017."
+        },
+        {
+            "source_name": "Krebs-Bazaar",
+            "description": "Brian Krebs. (2016, October 31). Hackforums Shutters Booter Service Bazaar. Retrieved May 15, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "establish-&-maintain-infrastructure"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--cdfdb0cd-a839-403c-9dd6-8a85d8c5c73d",
+    "name": "Map network topology",
+    "description": "A network topology is the arrangement of the various elements of a network (e.g., servers, workstations, printers, routers, firewalls, etc.). Mapping a network allows an adversary to understand how the elements are connected or related. (Citation: man traceroute) (Citation: Shodan Tutorial)",
+    "references": [
+        {
+            "external_id": "T1252",
+            "url": "https://attack.mitre.org/techniques/T1252",
+            "source_name": "mitre-pre-attack"
+        },
+        {
+            "description": "Linux Man Page. (n.d.). traceroute(8) - Linux man page. Retrieved April 2, 2017.",
+            "source_name": "man traceroute"
+        },
+        {
+            "description": "A Shodan Tutorial and Primer Daniel Miessler. (n.d.). A Shodan Tutorial and Primer. Retrieved April 2, 2017.",
+            "source_name": "Shodan Tutorial"
+        }
+    ],
+    "kill_chain": [
+        {
+            "phase_name": "technical-information-gathering",
+            "kill_chain_name": "mitre-pre-attack"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--7f2d3da6-7e34-44a3-9e7f-905455339726",
+    "name": "Conduct active scanning",
+    "description": "Active scanning is the act of sending transmissions to end nodes, and analyzing the responses, in order to identify information about the communications system. (Citation: RSA-APTRecon)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1254",
+            "external_id": "T1254"
+        },
+        {
+            "source_name": "RSA-APTRecon",
+            "description": "Rotem Kerner. (2015, October). RECONNAISSANCE: A Walkthrough of the \u201cAPT\u201d Intelligence Gathering Process. Retrieved March 1, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "technical-information-gathering"
+        }
+    ]
+}

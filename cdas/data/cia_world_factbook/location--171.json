@@ -1,0 +1,102 @@
+{
+    "id": "location--171",
+    "name": "Samoa",
+    "background": "New Zealand occupied the German protectorate of Western Samoa at the outbreak of World War I in 1914. It continued to administer the islands as a mandate and then as a trust territory until 1962, when the islands became the first Polynesian nation to reestablish independence in the 20th century. The country dropped the \"Western\" from its name in 1997.In the late 2000s, Samoa began making efforts to more closely align with Australia and New Zealand. In 2009, Samoa changed its driving orientation to the left side of the road, in line with other Commonwealth countries. In 2011, Samoa jumped forward one day - skipping December 30 - by moving to the west of the International Date Line so that it was one hour ahead of New Zealand and three hours ahead of the east coast of Australia, rather than 23 and 21 hours behind, respectively.",
+    "coordinates": "13 35 S, 172 20 W",
+    "region": "Oceania",
+    "total_area": "2,831 sq km",
+    "land_area": "2,821 sq km",
+    "water_area": "10 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "tropical; rainy season (November to April), dry season (May to October)",
+    "coastline": "403 km",
+    "natural_hazards": [
+        "occasional cyclones",
+        "active volcanism",
+        "volcanism: Savai'I Island (1,858 m), which last erupted in 1911, is historically active"
+    ],
+    "terrain": "two main islands (Savaii, Upolu) and several smaller islands and uninhabited islets; narrow coastal plain with volcanic, rugged mountains in interior",
+    "population_distribution": "about three-quarters of the population lives on the island of Upolu",
+    "natural_resources": [
+        "hardwood forests",
+        "fish",
+        "hydropower"
+    ],
+    "population": "203,774",
+    "nationality": "Samoan(s)",
+    "ethnic_groups": {
+        "Samoan": "96%",
+        "Samoan/New Zealander": "2%",
+        "other": "1.9%"
+    },
+    "languages": {
+        "Samoan (official)": "91.1%",
+        "Somoan/English": "6.7%",
+        "English (official)": "0.5%",
+        "other": "0.2%",
+        "unspecified": "1.6%"
+    },
+    "religions": {
+        "Protestant": "54.9%",
+        "Roman Catholic": "18.8%",
+        "Mormon": "16.9%",
+        "Worship Centre": "2.8%",
+        "other Christian": "3.6%",
+        "other": "2.9%",
+        "none": "0.2%"
+    },
+    "government_type": "parliamentary republic",
+    "national_symbols": "Southern Cross constellation (five, five-pointed stars)",
+    "national_colors": [
+        "red",
+        "white",
+        "blue"
+    ],
+    "gdp": "$0.841 billion",
+    "agriculture": [
+        "coconuts",
+        "nonu",
+        "bananas",
+        "taro",
+        "yams",
+        "coffee",
+        "cocoa"
+    ],
+    "industries": [
+        "food processing",
+        "building materials",
+        "auto parts"
+    ],
+    "exports": [
+        "fish",
+        "coconut oil and cream",
+        "nonu",
+        "copra",
+        "taro",
+        "automotive parts",
+        "garments",
+        "beer"
+    ],
+    "imports": [
+        "machinery and equipment",
+        "industrial supplies",
+        "foodstuffs"
+    ],
+    "broadband_subscriptions": "1,692",
+    "internet_users": "67,662",
+    "mobile_subscriptions": "124,211",
+    "internet_country_code": ".ws",
+    "military_and_security_forces": "no regular military forces; Samoa Police Force",
+    "percent_GDP_on_military": "Unknown",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Apia"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "4",
+    "international_disputes": "none",
+    "terrorism": "None/Unknown"
+}

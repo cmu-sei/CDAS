@@ -1,0 +1,37 @@
+{
+    "id": "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384",
+    "name": "Security Software Discovery",
+    "description": "Adversaries may attempt to get a listing of security software, configurations, defensive tools, and sensors that are installed on a system or in a cloud environment. This may include things such as firewall rules and anti-virus. Adversaries may use the information from [Security Software Discovery](https://attack.mitre.org/techniques/T1518/001) during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.\n\nExample commands that can be used to obtain security software information are [netsh](https://attack.mitre.org/software/S0108), <code>reg query</code> with [Reg](https://attack.mitre.org/software/S0075), <code>dir</code> with [cmd](https://attack.mitre.org/software/S0106), and [Tasklist](https://attack.mitre.org/software/S0057), but other indicators of discovery behavior may be more specific to the type of software or security system the adversary is looking for. It is becoming more common to see macOS malware perform checks for LittleSnitch and KnockKnock software.\n\nAdversaries may also utilize cloud APIs to discover the configurations of firewall rules within an environment.(Citation: Expel IO Evil in AWS)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1518.001",
+            "url": "https://attack.mitre.org/techniques/T1518/001"
+        },
+        {
+            "source_name": "Expel IO Evil in AWS",
+            "url": "https://expel.io/blog/finding-evil-in-aws/",
+            "description": "Anthony Randazzo, Britton Manahan and Sam Lipton. (2020, April 28). Finding Evil in AWS. Retrieved June 25, 2020."
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "AWS",
+        "GCP",
+        "Azure",
+        "Office 365",
+        "Azure AD",
+        "SaaS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "discovery"
+        }
+    ],
+    "permissions": [
+        "User"
+    ]
+}

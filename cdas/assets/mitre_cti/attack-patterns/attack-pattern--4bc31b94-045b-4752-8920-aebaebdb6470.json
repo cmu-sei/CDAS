@@ -1,0 +1,40 @@
+{
+    "id": "attack-pattern--4bc31b94-045b-4752-8920-aebaebdb6470",
+    "name": "Email Account",
+    "description": "Adversaries may attempt to get a listing of email addresses and accounts. Adversaries may try to dump Exchange address lists such as global address lists (GALs).(Citation: Microsoft Exchange Address Lists)\n\nIn on-premises Exchange and Exchange Online, the<code>Get-GlobalAddressList</code> PowerShell cmdlet can be used to obtain email addresses and accounts from a domain using an authenticated session.(Citation: Microsoft getglobaladdresslist)(Citation: Black Hills Attacking Exchange MailSniper, 2016)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1087.003",
+            "url": "https://attack.mitre.org/techniques/T1087/003"
+        },
+        {
+            "source_name": "Microsoft Exchange Address Lists",
+            "url": "https://docs.microsoft.com/en-us/exchange/email-addresses-and-address-books/address-lists/address-lists?view=exchserver-2019",
+            "description": "Microsoft. (2020, February 7). Address lists in Exchange Server. Retrieved March 26, 2020."
+        },
+        {
+            "source_name": "Microsoft getglobaladdresslist",
+            "url": "https://docs.microsoft.com/en-us/powershell/module/exchange/email-addresses-and-address-books/get-globaladdresslist",
+            "description": "Microsoft. (n.d.). Get-GlobalAddressList. Retrieved October 6, 2019."
+        },
+        {
+            "source_name": "Black Hills Attacking Exchange MailSniper, 2016",
+            "url": "https://www.blackhillsinfosec.com/attacking-exchange-with-mailsniper/",
+            "description": "Bullock, B.. (2016, October 3). Attacking Exchange with MailSniper. Retrieved October 6, 2019."
+        }
+    ],
+    "platforms": [
+        "Windows",
+        "Office 365"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "discovery"
+        }
+    ],
+    "permissions": [
+        "User"
+    ]
+}

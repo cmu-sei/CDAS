@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--2bb20118-e6c0-41dc-a07c-283ea4dd0fb8",
+    "name": "Remote File Copy",
+    "description": "Files may be copied from one system to another to stage adversary tools or other files over the course of an operation. Files may be copied from an external adversary-controlled system through the Command and Control channel to bring tools into the victim network or onto the victim\u2019s device.",
+    "references": [
+        {
+            "source_name": "mitre-mobile-attack",
+            "external_id": "T1544",
+            "url": "https://attack.mitre.org/techniques/T1544"
+        }
+    ],
+    "platforms": [
+        "Android",
+        "iOS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "command-and-control"
+        }
+    ]
+}

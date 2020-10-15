@@ -1,0 +1,25 @@
+{
+    "id": "tool--4b57c098-f043-4da2-83ef-7588a6d426bc",
+    "name": "PoshC2",
+    "description": "[PoshC2](https://attack.mitre.org/software/S0378) is an open source remote administration and post-exploitation framework that is publicly available on GitHub. The server-side components of the tool are primarily written in Python, while the implants are written in [PowerShell](https://attack.mitre.org/techniques/T1086). Although [PoshC2](https://attack.mitre.org/software/S0378) is primarily focused on Windows implantation, it does contain a basic Python dropper for Linux/macOS.(Citation: GitHub PoshC2)",
+    "references": [
+        {
+            "url": "https://attack.mitre.org/software/S0378",
+            "source_name": "mitre-attack",
+            "external_id": "S0378"
+        },
+        {
+            "source_name": "GitHub PoshC2",
+            "url": "https://github.com/nettitude/PoshC2_Python",
+            "description": "Nettitude. (2018, July 23). Python Server for PoshC2. Retrieved April 23, 2019."
+        }
+    ],
+    "aliases": [
+        "PoshC2"
+    ],
+    "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+    ]
+}

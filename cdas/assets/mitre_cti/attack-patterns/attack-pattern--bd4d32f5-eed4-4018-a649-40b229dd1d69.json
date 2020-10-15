@@ -1,0 +1,30 @@
+{
+    "id": "attack-pattern--bd4d32f5-eed4-4018-a649-40b229dd1d69",
+    "name": "Broadcast Receivers",
+    "description": "An intent is a message passed between Android application or system components. Applications can register to receive broadcast intents at runtime, which are system-wide intents delivered to each app when certain events happen on the device, such as network changes or the user unlocking the screen. Malicious applications can then trigger certain actions within the app based on which broadcast intent was received.\n\nFurther, malicious applications can register for intents broadcasted by other applications in addition to the Android system itself. This allows the malware to respond based on actions in other applications. This behavior typically indicates a more intimate knowledge, or potentially the targeting of specific devices, users, or applications.\n\nIn Android 8 (API level 26), broadcast intent behavior was changed, limiting the implicit intents that applications can register for in the manifest. In most cases, applications that register through the manifest will no longer receive the broadcasts. Now, applications must register context-specific broadcast receivers while the user is actively using the app.(Citation: Android Changes to System Broadcasts)",
+    "references": [
+        {
+            "source_name": "mitre-mobile-attack",
+            "external_id": "T1402",
+            "url": "https://attack.mitre.org/techniques/T1402"
+        },
+        {
+            "source_name": "Android Changes to System Broadcasts",
+            "url": "https://developer.android.com/guide/components/broadcasts#changes-system-broadcasts",
+            "description": "Google. (2019, December 27). Broadcasts Overview. Retrieved January 27, 2020."
+        }
+    ],
+    "platforms": [
+        "Android"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "persistence"
+        },
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "execution"
+        }
+    ]
+}

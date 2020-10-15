@@ -1,0 +1,30 @@
+{
+    "id": "attack-pattern--86850eff-2729-40c3-b85e-c4af26da4a2d",
+    "name": "Token Impersonation/Theft",
+    "description": "Adversaries may duplicate then impersonate another user's token to escalate privileges and bypass access controls. An adversary can create a new access token that duplicates an existing token using <code>DuplicateToken(Ex)</code>. The token can then be used with <code>ImpersonateLoggedOnUser</code> to allow the calling thread to impersonate a logged on user's security context, or with <code>SetThreadToken</code> to assign the impersonated token to a thread.\n\nAn adversary may do this when they have a specific, existing process they want to assign the new token to. For example, this may be useful for when the target user has a non-network logon session on the system.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1134.001",
+            "url": "https://attack.mitre.org/techniques/T1134/001"
+        },
+        {
+            "url": "https://technet.microsoft.com/en-us/windows-server-docs/identity/ad-ds/manage/component-updates/command-line-process-auditing",
+            "description": "Mathers, B. (2017, March 7). Command line process auditing. Retrieved April 21, 2017.",
+            "source_name": "Microsoft Command-line Logging"
+        }
+    ],
+    "platforms": [
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        },
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "privilege-escalation"
+        }
+    ]
+}

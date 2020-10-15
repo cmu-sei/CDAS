@@ -1,0 +1,36 @@
+{
+    "id": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
+    "name": "Network Service Scanning",
+    "description": "Adversaries may attempt to get a listing of services running on remote hosts, including those that may be vulnerable to remote software exploitation. Methods to acquire this information include port scans and vulnerability scans using tools that are brought onto a system. \n\nWithin cloud environments, adversaries may attempt to discover services running on other cloud hosts. Additionally, if the cloud environment is connected to a on-premises environment, adversaries may be able to identify services running on non-cloud systems as well.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/techniques/T1046",
+            "external_id": "T1046"
+        },
+        {
+            "external_id": "CAPEC-300",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/300.html"
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "AWS",
+        "GCP",
+        "Azure"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "discovery"
+        }
+    ],
+    "permissions": [
+        "Administrator",
+        "SYSTEM",
+        "User"
+    ]
+}

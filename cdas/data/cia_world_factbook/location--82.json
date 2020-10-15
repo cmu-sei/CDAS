@@ -1,0 +1,106 @@
+{
+    "id": "location--82",
+    "name": "Guam",
+    "background": "Spain ceded Guam to the US in 1898. Captured by the Japanese in 1941, it was retaken by the US three years later. The military installations on the island are some of the most strategically important US bases in the Pacific; they also constitute the island's most important source of income and economic stability.",
+    "coordinates": "13 28 N, 144 47 E",
+    "region": "Oceania",
+    "total_area": "544 sq km",
+    "land_area": "544 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "tropical marine; generally warm and humid, moderated by northeast trade winds; dry season (January to June), rainy season (July to December); little seasonal temperature variation",
+    "coastline": "125.5 km",
+    "natural_hazards": [
+        "frequent squalls during rainy season",
+        "relatively rare but potentially destructive typhoons (June to December)"
+    ],
+    "terrain": "volcanic origin, surrounded by coral reefs; relatively flat coralline limestone plateau (source of most fresh water), with steep coastal cliffs and narrow coastal plains in north, low hills in center, mountains in south",
+    "population_distribution": "no large cities exist on the island, though large villages (municipalities) attract much of the population; the largest of these is Dededo",
+    "natural_resources": [
+        "aquatic wildlife (supporting tourism)",
+        "fishing (largely undeveloped)"
+    ],
+    "population": "168,485",
+    "nationality": "Guamanian(s) (US citizens)",
+    "ethnic_groups": {
+        "Chamorro": "37.3%",
+        "Filipino": "26.3%",
+        "white": "7.1%",
+        "Chuukese": "7%",
+        "Korean": "2.2%",
+        "other Pacific Islander": "2%",
+        "other Asian": "2%",
+        "Chinese": "1.6%",
+        "Palauan": "1.6%",
+        "Japanese": "1.5%",
+        "Pohnpeian": "1.4%",
+        "mixed": "9.4%",
+        "other": "0.6%"
+    },
+    "languages": {
+        "English": "43.6%",
+        "Filipino": "21.2%",
+        "Chamorro": "17.8%",
+        "other Pacific island languages": "10%",
+        "Asian languages": "6.3%",
+        "other": "1.1%"
+    },
+    "religions": {
+        "Roman Catholic": "85%",
+        "other": "15%"
+    },
+    "government_type": "republican form of government with separate executive, legislative, and judicial branches; unincorporated organized territory of the US with local self-government",
+    "national_symbols": "coconut tree",
+    "national_colors": [
+        "deep blue",
+        "red"
+    ],
+    "gdp": "$5.793 billion",
+    "agriculture": [
+        "fruits",
+        "copra",
+        "vegetables",
+        "eggs",
+        "pork",
+        "poultry",
+        "beef"
+    ],
+    "industries": [
+        "national defense",
+        "tourism",
+        "construction",
+        "transshipment services",
+        "concrete products",
+        "printing and publishing",
+        "food processing",
+        "textiles"
+    ],
+    "exports": [
+        "transshipments of refined petroleum products",
+        "construction materials",
+        "fish",
+        "foodstuffs and beverages"
+    ],
+    "imports": [
+        "petroleum and petroleum products",
+        "food",
+        "manufactured goods"
+    ],
+    "broadband_subscriptions": "Unknown",
+    "internet_users": "135,073",
+    "mobile_subscriptions": "181,000",
+    "internet_country_code": ".gu",
+    "military_and_security_forces": "Unknown",
+    "percent_GDP_on_military": "Unknown",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Apra Harbor"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "5",
+    "international_disputes": "none",
+    "terrorism": "None/Unknown"
+}

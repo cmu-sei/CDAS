@@ -1,0 +1,114 @@
+{
+    "id": "location--173",
+    "name": "Sao Tome and Principe",
+    "background": "Portugal discovered and colonized the uninhabited islands in the late 15th century, setting up a sugar-based economy that gave way to coffee and cocoa in the 19th century - all grown with African plantation slave labor, a form of which lingered into the 20th century. While independence was achieved in 1975, democratic reforms were not instituted until the late 1980s. The country held its first free elections in 1991, but frequent internal wrangling between the various political parties precipitated repeated changes in leadership and four failed, non-violent coup attempts in 1995, 1998, 2003, and 2009. In 2012, three opposition parties combined in a no confidence vote to bring down the majority government of former Prime Minister Patrice TROVOADA, but in 2014, legislative elections returned him to the office. President Evaristo CARVALHO, of the same political party as Prime Minister TROVOADA, was elected in September 2016, marking a rare instance in which the positions of president and prime minister are held by the same party. Prime Minister TROVOADA resigned at the end of 2018 and was replaced by Jorge BOM JESUS. New oil discoveries in the Gulf of Guinea may attract increased attention to the small island nation.",
+    "coordinates": "1 00 N, 7 00 E",
+    "region": "Africa",
+    "total_area": "964 sq km",
+    "land_area": "964 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "tropical; hot, humid; one rainy season (October to May)",
+    "coastline": "209 km",
+    "natural_hazards": [
+        "flooding"
+    ],
+    "terrain": "volcanic, mountainous",
+    "population_distribution": "Sao Tome, the capital city, has roughly a quarter of the nation's population; Santo Antonio is the largest town on Principe; the northern areas of both islands have the highest population densities as shown in this population distribution map",
+    "natural_resources": [
+        "fish",
+        "hydropower"
+    ],
+    "population": "211,122",
+    "nationality": "Sao Tomean(s)",
+    "ethnic_groups": [
+        "mestico",
+        "angolares",
+        "forros",
+        "servicais",
+        "tongas",
+        "Europeans",
+        "Asians"
+    ],
+    "languages": {
+        "Portuguese (official)": "98.4%",
+        "Forro": "36.2%",
+        "Cabo Verdian": "8.5%",
+        "French": "6.8%",
+        "Angolar": "6.6%",
+        "English": "4.9%",
+        "Lunguie": "1%",
+        "other": "2.4%"
+    },
+    "religions": {
+        "Catholic": "55.7%",
+        "Adventist": "4.1%",
+        "Assembly of God": "3.4%",
+        "New Apostolic": "2.9%",
+        "Mana": "2.3%",
+        "Universal Kingdom of God": "2%",
+        "Jehovah's Witness": "1.2%",
+        "other": "6.2%",
+        "none": "21.2%",
+        "unspecified": "1%"
+    },
+    "government_type": "semi-presidential republic",
+    "national_symbols": "palm tree",
+    "national_colors": [
+        "green",
+        "yellow",
+        "red",
+        "black"
+    ],
+    "gdp": "$0.393 billion",
+    "agriculture": [
+        "cocoa",
+        "coconuts",
+        "palm kernels",
+        "copra",
+        "cinnamon",
+        "pepper",
+        "coffee",
+        "bananas",
+        "papayas",
+        "beans",
+        "poultry",
+        "fish"
+    ],
+    "industries": [
+        "light construction",
+        "textiles",
+        "soap",
+        "beer",
+        "fish processing",
+        "timber"
+    ],
+    "exports": [
+        "cocoa",
+        "copra",
+        "coffee",
+        "palm oil"
+    ],
+    "imports": [
+        "machinery and electrical equipment",
+        "food products",
+        "petroleum products"
+    ],
+    "broadband_subscriptions": "1,557",
+    "internet_users": "61,193",
+    "mobile_subscriptions": "162,610",
+    "internet_country_code": ".st",
+    "military_and_security_forces": "Armed Forces of Sao Tome and Principe (Forcas Armadas de Sao Tome e Principe, FASTP): Army, Coast Guard of Sao Tome e Principe (Guarda Costeira de Sao Tome e Principe, GCSTP; also called \"Navy\"), Presidential Guard, National Guard",
+    "percent_GDP_on_military": "Unknown",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Sao Tome"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "2",
+    "international_disputes": "none",
+    "terrorism": "None/Unknown"
+}

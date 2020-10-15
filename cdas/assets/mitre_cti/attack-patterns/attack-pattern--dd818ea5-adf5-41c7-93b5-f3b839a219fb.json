@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--dd818ea5-adf5-41c7-93b5-f3b839a219fb",
+    "name": "System Network Connections Discovery",
+    "description": "On Android, applications can use standard APIs to gather a list of network connections to and from the device. For example, the Network Connections app available in the Google Play Store (Citation: ConnMonitor) advertises this functionality.",
+    "references": [
+        {
+            "source_name": "mitre-mobile-attack",
+            "url": "https://attack.mitre.org/techniques/T1421",
+            "external_id": "T1421"
+        },
+        {
+            "source_name": "ConnMonitor",
+            "description": "Anti Spy Mobile. (2016, March 14). Network Connections. Retrieved December 21, 2016.",
+            "url": "https://play.google.com/store/apps/details?id=com.antispycell.connmonitor&hl=en"
+        }
+    ],
+    "platforms": [
+        "Android"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "discovery"
+        }
+    ]
+}

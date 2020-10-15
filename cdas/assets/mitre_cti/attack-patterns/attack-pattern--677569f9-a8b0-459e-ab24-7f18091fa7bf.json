@@ -1,0 +1,30 @@
+{
+    "id": "attack-pattern--677569f9-a8b0-459e-ab24-7f18091fa7bf",
+    "name": "Create Process with Token",
+    "description": "Adversaries may create a new process with a duplicated token to escalate privileges and bypass access controls. An adversary can duplicate a desired access token with <code>DuplicateToken(Ex)</code> and use it with <code>CreateProcessWithTokenW</code> to create a new process running under the security context of the impersonated user. This is useful for creating a new process under the security context of a different user.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1134.002",
+            "url": "https://attack.mitre.org/techniques/T1134/002"
+        },
+        {
+            "url": "https://technet.microsoft.com/en-us/windows-server-docs/identity/ad-ds/manage/component-updates/command-line-process-auditing",
+            "description": "Mathers, B. (2017, March 7). Command line process auditing. Retrieved April 21, 2017.",
+            "source_name": "Microsoft Command-line Logging"
+        }
+    ],
+    "platforms": [
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        },
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "privilege-escalation"
+        }
+    ]
+}

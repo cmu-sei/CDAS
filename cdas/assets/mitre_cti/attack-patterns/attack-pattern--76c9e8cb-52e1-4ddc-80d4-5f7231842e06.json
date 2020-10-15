@@ -1,0 +1,30 @@
+{
+    "id": "attack-pattern--76c9e8cb-52e1-4ddc-80d4-5f7231842e06",
+    "name": "DNS poisoning",
+    "description": "**This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.**\n\nDNS (cache) poisoning is the corruption of an Internet server's domain name system table by replacing an Internet address with that of another, rogue address. When a Web user seeks the page with that address, the request is redirected by the rogue entry in the table to a different address. (Citation: Google DNS Poisoning) (Citation: DNS Poisoning China) (Citation: Mexico Modem DNS Poison)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "external_id": "T1382",
+            "url": "https://attack.mitre.org/techniques/T1382"
+        },
+        {
+            "description": "Cindy Liu. (2016, March 30). Google DNS Poisoning Follows Brief Unblocking. Retrieved March 31, 2017.",
+            "source_name": "Google DNS Poisoning"
+        },
+        {
+            "description": "John Leyden. (2014, January 21). DNS poisoning slams web traffic from millions in China into the wrong hole. Retrieved March 31, 2017.",
+            "source_name": "DNS Poisoning China"
+        },
+        {
+            "description": "Paul Oliveria. (2008, January 11). Targeted Attack in Mexico: DNS Poisoning via Modems. Retrieved April 1, 2017.",
+            "source_name": "Mexico Modem DNS Poison"
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "launch"
+        }
+    ]
+}

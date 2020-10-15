@@ -1,0 +1,36 @@
+{
+    "id": "attack-pattern--6a3f6490-9c44-40de-b059-e5940f246673",
+    "name": "Standard Application Layer Protocol",
+    "description": "Adversaries may communicate using a common, standardized application layer protocol such as HTTP, HTTPS, SMTP, or DNS to avoid detection by blending in with existing traffic.\n\nIn the mobile environment, the Google Cloud Messaging (GCM; two-way) and Apple Push Notification Service (APNS; one-way server-to-device) are commonly used protocols on Android and iOS respectively that would blend in with routine device traffic and are difficult for enterprises to inspect. Google reportedly responds to reports of abuse by blocking access to GCM.(Citation: Kaspersky-MobileMalware)",
+    "references": [
+        {
+            "source_name": "mitre-mobile-attack",
+            "url": "https://attack.mitre.org/techniques/T1437",
+            "external_id": "T1437"
+        },
+        {
+            "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-29.html",
+            "source_name": "NIST Mobile Threat Catalogue",
+            "external_id": "APP-29"
+        },
+        {
+            "source_name": "Kaspersky-MobileMalware",
+            "description": "Roman Unuchek and Victor Chebyshev. (2014, February 24). Mobile Malware Evolution: 2013. Retrieved December 22, 2016.",
+            "url": "https://securelist.com/mobile-malware-evolution-2013/58335/"
+        }
+    ],
+    "platforms": [
+        "Android",
+        "iOS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "command-and-control"
+        },
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "exfiltration"
+        }
+    ]
+}

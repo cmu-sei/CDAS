@@ -1,0 +1,30 @@
+{
+    "id": "attack-pattern--271e6d40-e191-421a-8f87-a8102452c201",
+    "name": "Develop social network persona digital footprint",
+    "description": "Both newly built personas and pre-compromised personas may require development of additional documentation to make them seem real. This could include filling out profile information, developing social networks, or incorporating photos. (Citation: NEWSCASTER2014) (Citation: BlackHatRobinSage) (Citation: RobinSageInterview)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1342",
+            "external_id": "T1342"
+        },
+        {
+            "source_name": "NEWSCASTER2014",
+            "description": "Mike Lennon. (2014, May 29). Iranian Hackers Targeted US Officials in Elaborate Social Media Attack Operation. Retrieved March 1, 2017."
+        },
+        {
+            "source_name": "BlackHatRobinSage",
+            "description": "Thomas Ryan. (2010). \u201cGetting In Bed with Robin Sage.\u201d. Retrieved March 6, 2017."
+        },
+        {
+            "source_name": "RobinSageInterview",
+            "description": "Joan Goodchild. (2010, July 8). The Robin Sage experiment: Fake profile fools security pros. Retrieved March 6, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "persona-development"
+        }
+    ]
+}

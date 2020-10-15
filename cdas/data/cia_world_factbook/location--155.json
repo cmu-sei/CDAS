@@ -1,0 +1,110 @@
+{
+    "id": "location--155",
+    "name": "Panama",
+    "background": "Explored and settled by the Spanish in the 16th century, Panama broke with Spain in 1821 and joined a union of Colombia, Ecuador, and Venezuela - named the Republic of Gran Colombia. When the latter dissolved in 1830, Panama remained part of Colombia. With US backing, Panama seceded from Colombia in 1903 and promptly signed a treaty with the US allowing for the construction of a canal and US sovereignty over a strip of land on either side of the structure (the Panama Canal Zone). The Panama Canal was built by the US Army Corps of Engineers between 1904 and 1914. In 1977, an agreement was signed for the complete transfer of the Canal from the US to Panama by the end of the century. Certain portions of the Zone and increasing responsibility over the Canal were turned over in the subsequent decades. With US help, dictator Manuel NORIEGA was deposed in 1989. The entire Panama Canal, the area supporting the Canal, and remaining US military bases were transferred to Panama by the end of 1999. An ambitious expansion project to more than double the Canal's capacity - by allowing for more Canal transits and larger ships - was carried out between 2007 and 2016.",
+    "coordinates": "9 00 N, 80 00 W",
+    "region": "Central America and the Caribbean",
+    "total_area": "75,420 sq km",
+    "land_area": "74,340 sq km",
+    "water_area": "1,080 sq km",
+    "land_boundary": "687 km",
+    "neighbors": {
+        "Costa Rica": "348 km"
+    },
+    "climate": "tropical maritime; hot, humid, cloudy; prolonged rainy season (May to January), short dry season (January to May)",
+    "coastline": "2,490 km",
+    "natural_hazards": [
+        "occasional severe storms and forest fires in the Darien area"
+    ],
+    "terrain": "interior mostly steep, rugged mountains with dissected, upland plains; coastal plains with rolling hills",
+    "population_distribution": "population is concentrated towards the center of the country, particularly around the Canal, but a sizeable segment of the populace also lives in the far west around David; the eastern third of the country is sparsely inhabited",
+    "natural_resources": [
+        "copper",
+        "mahogany forests",
+        "shrimp",
+        "hydropower"
+    ],
+    "population": "3,894,082",
+    "nationality": "Panamanian(s)",
+    "ethnic_groups": {
+        "mestizo": "65%",
+        "Native American": "12.3%",
+        "black or African descent": "9.2%",
+        "mulatto": "6.8%",
+        "white": "6.7%"
+    },
+    "languages": [
+        "Spanish (official)",
+        "indigenous languages",
+        "Buglere",
+        "Kuna",
+        "Embera",
+        "Wounaan",
+        "Naso",
+        "and Bri Bri)",
+        "Panamanian English Creole",
+        "English",
+        "Chinese",
+        "Arabic",
+        "French Creole",
+        "other"
+    ],
+    "religions": {
+        "Roman Catholic": "85%",
+        "Protestant": "15%"
+    },
+    "government_type": "presidential republic",
+    "national_symbols": "harpy eagle",
+    "national_colors": [
+        "blue",
+        "white",
+        "red"
+    ],
+    "gdp": "$61.84 billion",
+    "agriculture": [
+        "bananas",
+        "rice",
+        "corn",
+        "coffee",
+        "sugarcane",
+        "vegetables",
+        "livestock",
+        "shrimp"
+    ],
+    "industries": [
+        "construction",
+        "brewing",
+        "cement and other construction materials",
+        "sugar milling"
+    ],
+    "exports": [
+        "fruit and nuts",
+        "fish",
+        "iron and steel waste",
+        "wood"
+    ],
+    "imports": [
+        "fuels",
+        "machinery",
+        "vehicles",
+        "iron and steel rods",
+        "pharmaceuticals"
+    ],
+    "broadband_subscriptions": "540,220",
+    "internet_users": "2,199,433",
+    "mobile_subscriptions": "5,722,370",
+    "internet_country_code": ".pa",
+    "military_and_security_forces": "no regular military forces; Panamanian Public Security Forces (subordinate to the Ministry of Public Security), comprising the National Police (PNP), National Air-Naval Service (SENAN), National Border Service (SENAFRONT)",
+    "percent_GDP_on_military": "Unknown",
+    "pipelines": [
+        "128 km oil"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Balboa, Colon, Cristobal",
+        "container port(s) (TEUs)": "Balboa (2,905,049), Colon (3,891,209)"
+    },
+    "waterways": "800 km",
+    "number_of_airports": "117",
+    "international_disputes": "organized illegal narcotics operations in Colombia operate within the remote border region with Panama",
+    "terrorism": "None/Unknown"
+}

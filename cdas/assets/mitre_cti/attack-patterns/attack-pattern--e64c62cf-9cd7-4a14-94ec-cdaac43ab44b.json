@@ -1,0 +1,44 @@
+{
+    "id": "attack-pattern--e64c62cf-9cd7-4a14-94ec-cdaac43ab44b",
+    "name": "DLL Side-Loading",
+    "description": "Adversaries may execute their own malicious payloads by hijacking the library manifest used to load DLLs. Adversaries may take advantage of vague references in the library manifest of a program by replacing a legitimate library with a malicious one, causing the operating system to load their malicious library when it is called for by the victim program.\n\nPrograms may specify DLLs that are loaded at runtime. Programs that improperly or vaguely specify a required DLL may be open to a vulnerability in which an unintended DLL is loaded. Side-loading vulnerabilities specifically occur when Windows Side-by-Side (WinSxS) manifests (Citation: About Side by Side Assemblies) are not explicit enough about characteristics of the DLL to be loaded. Adversaries may take advantage of a legitimate program that is vulnerable by replacing the legitimate DLL with a malicious one.  (Citation: FireEye DLL Side-Loading)\n\nAdversaries likely use this technique as a means of masking actions they perform under a legitimate, trusted system or software process.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1574.002",
+            "url": "https://attack.mitre.org/techniques/T1574/002"
+        },
+        {
+            "external_id": "CAPEC-capec",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/capec.html"
+        },
+        {
+            "source_name": "About Side by Side Assemblies",
+            "url": "https://docs.microsoft.com/en-us/windows/win32/sbscs/about-side-by-side-assemblies-",
+            "description": "Microsoft. (2018, May 31). About Side-by-Side Assemblies. Retrieved March 13, 2020."
+        },
+        {
+            "source_name": "FireEye DLL Side-Loading",
+            "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-dll-sideloading.pdf",
+            "description": "Amanda Steward. (2014). FireEye DLL Side-Loading: A Thorn in the Side of the Anti-Virus Industry. Retrieved March 13, 2020."
+        }
+    ],
+    "platforms": [
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "persistence"
+        },
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "privilege-escalation"
+        },
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        }
+    ]
+}

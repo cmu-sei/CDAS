@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--2fc04aa5-48c1-49ec-919a-b88241ef1d17",
+    "name": "Spear phishing messages with text only",
+    "description": "**This technique has been deprecated. Please use [Phishing](https://attack.mitre.org/techniques/T1566) where appropriate.**\n\nEmails with text only phishing messages do not contain any attachments or links to websites. They are designed to get a user to take a follow on action such as calling a phone number or wiring money. They can also be used to elicit an email response to confirm existence of an account or user. (Citation: Paypal Phone Scam)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "external_id": "T1368",
+            "url": "https://attack.mitre.org/techniques/T1368"
+        },
+        {
+            "description": "Sophos Labs. (2006, July 7). PayPal phone phish scam uses voice recording to steal money. Retrieved March 29, 2017.",
+            "source_name": "Paypal Phone Scam"
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "launch"
+        }
+    ]
+}

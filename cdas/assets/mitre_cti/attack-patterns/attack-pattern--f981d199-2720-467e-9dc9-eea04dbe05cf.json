@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--f981d199-2720-467e-9dc9-eea04dbe05cf",
+    "name": "Generate Fraudulent Advertising Revenue",
+    "description": "An adversary could seek to generate fraudulent advertising revenue from mobile devices, for example by triggering automatic clicks of advertising links without user involvement.",
+    "references": [
+        {
+            "source_name": "mitre-mobile-attack",
+            "url": "https://attack.mitre.org/techniques/T1472",
+            "external_id": "T1472"
+        }
+    ],
+    "platforms": [
+        "Android",
+        "iOS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "impact"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "id": "tool--9de2308e-7bed-43a3-8e58-f194b3586700",
+    "name": "pwdump",
+    "description": "[pwdump](https://attack.mitre.org/software/S0006) is a credential dumper. (Citation: Wikipedia pwdump)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/software/S0006",
+            "external_id": "S0006"
+        },
+        {
+            "source_name": "Wikipedia pwdump",
+            "description": "Wikipedia. (1985, June 22). pwdump. Retrieved June 22, 2016.",
+            "url": "https://en.wikipedia.org/wiki/Pwdump"
+        }
+    ],
+    "aliases": [
+        "pwdump"
+    ],
+    "platforms": [
+        "Windows"
+    ]
+}

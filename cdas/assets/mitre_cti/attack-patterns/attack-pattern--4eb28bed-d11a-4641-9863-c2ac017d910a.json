@@ -1,0 +1,29 @@
+{
+    "id": "attack-pattern--4eb28bed-d11a-4641-9863-c2ac017d910a",
+    "name": "Disable Windows Event Logging",
+    "description": "Adversaries may disable Windows event logging to limit data that can be leveraged for detections and audits. Windows event logs record user and system activity such as login attempts, process creation, and much more.(Citation: Windows Log Events) This data is used by security tools and analysts to generate detections.\n\nAdversaries may targeting system-wide logging or just that of a particular application. By disabling Windows event logging, adversaries can operate while leaving less evidence of a compromise behind.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1562.002",
+            "url": "https://attack.mitre.org/techniques/T1562/002"
+        },
+        {
+            "source_name": "Windows Log Events",
+            "url": "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/",
+            "description": "Franklin Smith. (n.d.). Windows Security Log Events. Retrieved February 21, 2020."
+        }
+    ],
+    "platforms": [
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        }
+    ],
+    "permissions": [
+        "Administrator"
+    ]
+}

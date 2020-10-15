@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--1f82ef59-b7da-4cd3-a41c-2e80f80f084f",
+    "name": "Identify business processes/tempo",
+    "description": "Understanding an organizations business processes and tempo may allow an adversary to more effectively craft social engineering attempts or to better hide technical actions, such as those that generate network traffic. (Citation: Scasny2015) (Citation: Infosec-osint)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1280",
+            "external_id": "T1280"
+        },
+        {
+            "source_name": "Scasny2015",
+            "description": "Gregory Scasny. (2015, September 14). Understanding Open Source Intelligence (OSINT) and its relationship to Identity Theft. Retrieved March 1, 2017."
+        },
+        {
+            "source_name": "Infosec-osint",
+            "description": "InfoSec Institute. (2013, September 11). OSINT (Open-Source Intelligence). Retrieved May 9, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "organizational-information-gathering"
+        }
+    ]
+}

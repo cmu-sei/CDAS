@@ -1,0 +1,46 @@
+{
+    "id": "attack-pattern--0cfe31a7-81fc-472c-bc45-e2808d1066a3",
+    "name": "External Defacement",
+    "description": "An adversary may deface systems external to an organization in an attempt to deliver messaging, intimidate, or otherwise mislead an organization or users. Externally-facing websites are a common victim of defacement; often targeted by adversary and hacktivist groups in order to push a political message or spread propaganda.(Citation: FireEye Cyber Threats to Media Industries)(Citation: Kevin Mandia Statement to US Senate Committee on Intelligence)(Citation: Anonymous Hackers Deface Russian Govt Site) [External Defacement](https://attack.mitre.org/techniques/T1491/002) may be used as a catalyst to trigger events, or as a response to actions taken by an organization or government. Similarly, website defacement may also be used as setup, or a precursor, for future attacks such as [Drive-by Compromise](https://attack.mitre.org/techniques/T1189).(Citation: Trend Micro Deep Dive Into Defacement)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1491.002",
+            "url": "https://attack.mitre.org/techniques/T1491/002"
+        },
+        {
+            "source_name": "FireEye Cyber Threats to Media Industries",
+            "url": "https://www.fireeye.com/content/dam/fireeye-www/current-threats/pdfs/ib-entertainment.pdf",
+            "description": "FireEye. (n.d.). Retrieved April 19, 2019."
+        },
+        {
+            "source_name": "Kevin Mandia Statement to US Senate Committee on Intelligence",
+            "url": "https://www.intelligence.senate.gov/sites/default/files/documents/os-kmandia-033017.pdf",
+            "description": "Kevin Mandia. (2017, March 30). Prepared Statement of Kevin Mandia, CEO of FireEye, Inc. before the United States Senate Select Committee on Intelligence. Retrieved April 19, 2019."
+        },
+        {
+            "source_name": "Anonymous Hackers Deface Russian Govt Site",
+            "url": "https://torrentfreak.com/anonymous-hackers-deface-russian-govt-site-to-protest-web-blocking-nsfw-180512/",
+            "description": "Andy. (2018, May 12). \u2018Anonymous\u2019 Hackers Deface Russian Govt. Site to Protest Web-Blocking (NSFW). Retrieved April 19, 2019."
+        },
+        {
+            "source_name": "Trend Micro Deep Dive Into Defacement",
+            "url": "https://documents.trendmicro.com/assets/white_papers/wp-a-deep-dive-into-defacement.pdf",
+            "description": "Marco Balduzzi, Ryan Flores, Lion Gu, Federico Maggi, Vincenzo Ciancaglini, Roel Reyes, Akira Urano. (n.d.). A Deep Dive into Defacement: How Geopolitical Events Trigger Web Attacks. Retrieved April 19, 2019."
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "AWS",
+        "GCP",
+        "Azure"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "impact"
+        }
+    ]
+}

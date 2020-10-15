@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--82f04b1e-5371-4a6f-be06-411f0f43b483",
+    "name": "Abuse Device Administrator Access to Prevent Removal",
+    "description": "A malicious application can request Device Administrator privileges. If the user grants the privileges, the application can take steps to make its removal more difficult.",
+    "references": [
+        {
+            "source_name": "mitre-mobile-attack",
+            "url": "https://attack.mitre.org/techniques/T1401",
+            "external_id": "T1401"
+        },
+        {
+            "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-22.html",
+            "source_name": "NIST Mobile Threat Catalogue",
+            "external_id": "APP-22"
+        }
+    ],
+    "platforms": [
+        "Android"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "persistence"
+        }
+    ]
+}

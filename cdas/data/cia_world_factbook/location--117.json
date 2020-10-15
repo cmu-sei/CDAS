@@ -1,0 +1,121 @@
+{
+    "id": "location--117",
+    "name": "Liberia",
+    "background": "Settlement of freed slaves from the US in what is today Liberia began in 1822; by 1847, the Americo-Liberians were able to establish a republic. William TUBMAN, president from 1944-71, did much to promote foreign investment and to bridge the economic, social, and political gaps between the descendants of the original settlers and the inhabitants of the interior. In 1980, a military coup led by Samuel DOE ushered in a decade of authoritarian rule. In December 1989, Charles TAYLOR launched a rebellion against DOE's regime that led to a prolonged civil war in which DOE was killed. A period of relative peace in 1997 allowed for an election that brought TAYLOR to power, but major fighting resumed in 2000. An August 2003 peace agreement ended the war and prompted the resignation of former president Charles TAYLOR, who was convicted by the UN-backed Special Court for Sierra Leone in The Hague for his involvement in Sierra Leone's civil war. After two years of rule by a transitional government, democratic elections in late 2005 brought President Ellen JOHNSON SIRLEAF to power. She subsequently won reelection in 2011 but was challenged to rebuild Liberia's economy, particularly following the 2014-15 Ebola epidemic, and to reconcile a nation still recovering from 14 years of fighting. Constitutional term limits barred President JOHNSON SIRLEAF from running for re-election. Legal challenges delayed the 2017 presidential runoff election, which was eventually won by George WEAH. In March 2018, the UN completed its 15-year peacekeeping mission in Liberia.",
+    "coordinates": "6 30 N, 9 30 W",
+    "region": "Africa",
+    "total_area": "111,369 sq km",
+    "land_area": "96,320 sq km",
+    "water_area": "15,049 sq km",
+    "land_boundary": "1,667 km",
+    "neighbors": {
+        "Cote d'Ivoire": "778 km",
+        "Sierra Leone": "299 km"
+    },
+    "climate": "tropical; hot, humid; dry winters with hot days and cool to cold nights; wet, cloudy summers with frequent heavy showers",
+    "coastline": "579 km",
+    "natural_hazards": [
+        "dust-laden harmattan winds blow from the Sahara (December to March)"
+    ],
+    "terrain": "mostly flat to rolling coastal plains rising to rolling plateau and low mountains in northeast",
+    "population_distribution": "more than half of the population lives in urban areas, with approximately one-third living within an 80-km radius of Monrovia as shown in this population distribution map",
+    "natural_resources": [
+        "iron ore",
+        "timber",
+        "diamonds",
+        "gold",
+        "hydropower"
+    ],
+    "population": "5,073,296",
+    "nationality": "Liberian(s)",
+    "ethnic_groups": {
+        "Kpelle": "20.3%",
+        "Bassa": "13.4%",
+        "Grebo": "10%",
+        "Gio": "8%",
+        "Mano": "7.9%",
+        "Kru": "6%",
+        "Lorma": "5.1%",
+        "Kissi": "4.8%",
+        "Gola": "4.4%",
+        "Krahn": "4%",
+        "Vai": "4%",
+        "Mandingo": "3.2%",
+        "Gbandi": "3%",
+        "Mende": "1.3%",
+        "Sapo": "1.3%",
+        "other Liberian": "1.7%",
+        "other African": "1.4%",
+        "non-African": ".1%"
+    },
+    "languages": {
+        "English (official)": "20%",
+        "some 20 ethnic group languages few of which can be written or used in correspondence": ""
+    },
+    "religions": {
+        "Christian": "85.6%",
+        "Muslim": "12.2%",
+        "Traditional": "0.6%",
+        "other": "0.2%",
+        "none": "1.5%"
+    },
+    "government_type": "presidential republic",
+    "national_symbols": "white star",
+    "national_colors": [
+        "red",
+        "white",
+        "blue"
+    ],
+    "gdp": "$3.285 billion",
+    "agriculture": [
+        "rubber",
+        "coffee",
+        "cocoa",
+        "rice",
+        "cassava",
+        "palm oil",
+        "sugarcane",
+        "bananas",
+        "sheep",
+        "goats",
+        "timber"
+    ],
+    "industries": [
+        "mining (iron ore and gold)",
+        "rubber processing",
+        "palm oil processing",
+        "diamonds"
+    ],
+    "exports": [
+        "rubber",
+        "timber",
+        "iron",
+        "diamonds",
+        "cocoa",
+        "coffee"
+    ],
+    "imports": [
+        "fuels",
+        "chemicals",
+        "machinery",
+        "transportation equipment",
+        "manufactured goods",
+        "foodstuffs"
+    ],
+    "broadband_subscriptions": "8,000",
+    "internet_users": "383,819",
+    "mobile_subscriptions": "3,117,002",
+    "internet_country_code": ".lr",
+    "military_and_security_forces": "Armed Forces of Liberia (AFL): Army, Liberia Air Wing, Liberian Coast Guard",
+    "percent_GDP_on_military": "0.5%",
+    "pipelines": [
+        "4 km oil"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Buchanan, Monrovia"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "29",
+    "international_disputes": "as the UN Mission in Liberia (UNMIL) continues to drawdown prior to the 1 March 2018 closure date, the peacekeeping force is being reduced to 434 soldiers and two police units; some Liberian refugees still remain in Guinea, Cote d'Ivoire, Sierra Leone, and Ghana; Liberia shelters 8,804 Ivoirian refugees, as of 2019",
+    "terrorism": "None/Unknown"
+}

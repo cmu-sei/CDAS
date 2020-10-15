@@ -1,0 +1,114 @@
+{
+    "id": "location--208",
+    "name": "United Arab Emirates",
+    "background": "The Trucial States of the Persian Gulf coast granted the UK control of their defense and foreign affairs in 19th century treaties. In 1971, six of these states - Abu Dhabi, 'Ajman, Al Fujayrah, Ash Shariqah, Dubayy, and Umm al Qaywayn - merged to form the United Arab Emirates (UAE). They were joined in 1972 by Ra's al Khaymah. The UAE's per capita GDP is on par with those of leading West European nations. For more than three decades, oil and global finance drove the UAE's economy. In 2008-09, the confluence of falling oil prices, collapsing real estate prices, and the international banking crisis hit the UAE especially hard. The UAE did not experience the \"Arab Spring\" unrest seen elsewhere in the Middle East in 2010-11, partly because of the government's multi-year, $1.6-billion infrastructure investment plan for the poorer northern emirates, and its aggressive pursuit of advocates of political reform. The UAE in recent years has played a growing role in regional affairs. In addition to donating billions of dollars in economic aid to help stabilize Egypt, the UAE was one of the first countries to join the Defeat-ISIS coalition, and to participate as a key partner in a Saudi-led military campaign in Yemen. On 15 September 2020, the United Arab Emirates and Bahrain signed a peace accord with Israel \u2013 brokered by the US \u2013 in Washington DC. Referred to as the Abraham Accords, the United Arab Emirates and Bahrain are the two latest Middle Eastern countries, along with Egypt and Jordan, to recognize Israel.",
+    "coordinates": "24 00 N, 54 00 E",
+    "region": "Middle East",
+    "total_area": "83,600 sq km",
+    "land_area": "83,600 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "1,066 km",
+    "neighbors": {
+        "Saudi Arabia": "457 km"
+    },
+    "climate": "desert; cooler in eastern mountains",
+    "coastline": "1,318 km",
+    "natural_hazards": [
+        "frequent sand and dust storms"
+    ],
+    "terrain": "flat, barren coastal plain merging into rolling sand dunes of vast desert; mountains in east",
+    "population_distribution": "population is heavily concentrated to the northeast on the Musandam Peninsula; the three largest emirates - Abu Dhabi, Dubai, and Sharjah - are home to nearly 85% of the population",
+    "natural_resources": [
+        "petroleum",
+        "natural gas"
+    ],
+    "population": "9,992,083",
+    "nationality": "Emirati(s)",
+    "ethnic_groups": {
+        "Emirati": "11.6%",
+        "South Asian": "59.4%",
+        "Egyptian": "10.2%",
+        "Filipino": "6.1%",
+        "other": "12.8%"
+    },
+    "languages": [
+        "Arabic (official)",
+        "English",
+        "Hindi",
+        "Malayam",
+        "Urdu",
+        "Pashto",
+        "Tagalog",
+        "Persian"
+    ],
+    "religions": {
+        "Muslim": "76%",
+        "Christian": "9%",
+        "other": "15%"
+    },
+    "government_type": "federation of monarchies",
+    "national_symbols": "golden falcon",
+    "national_colors": [
+        "green",
+        "white",
+        "black",
+        "red"
+    ],
+    "gdp": "$382.6 billion",
+    "agriculture": [
+        "dates",
+        "vegetables",
+        "watermelons",
+        "poultry",
+        "eggs",
+        "dairy products",
+        "fish"
+    ],
+    "industries": [
+        "petroleum and petrochemicals",
+        "fishing",
+        "aluminum",
+        "cement",
+        "fertilizer",
+        "commercial ship repair",
+        "construction materials",
+        "handicrafts",
+        "textiles"
+    ],
+    "exports": [
+        "crude oil",
+        "natural gas",
+        "reexports",
+        "dried fish",
+        "dates"
+    ],
+    "imports": [
+        "machinery and transport equipment",
+        "chemicals",
+        "food"
+    ],
+    "broadband_subscriptions": "3,024,565",
+    "internet_users": "9,550,945",
+    "mobile_subscriptions": "20,081,015",
+    "internet_country_code": ".ae",
+    "military_and_security_forces": "United Arab Emirates Armed Forces: Land Forces, Navy, Air Force, Presidential Guard, Joint Aviation Command; Ministry of Interior: Critical Infrastructure Coastal Patrol Agency (CICPA)",
+    "percent_GDP_on_military": "5.7%",
+    "pipelines": [
+        "533 km condensate",
+        "3277 km gas",
+        "300 km liquid petroleum gas",
+        "3287 km oil",
+        "24 km oil/gas/water",
+        "218 km refined products",
+        "99 km water"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Al Fujayrah, Mina' Jabal 'Ali (Dubai), Khor Fakkan (Khawr Fakkan) (Sharjah), Mubarraz Island (Abu Dhabi), Mina' Rashid (Dubai), Mina' Saqr (Ra's al Khaymah)",
+        "container port(s) (TEUs)": "Dubai Port (15,368,000), Khor Fakkan (Khawr Fakkan) (Sharjah) (2,321,000)",
+        "LNG terminal(s) (export)": "Das Island"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "43",
+    "international_disputes": "boundary agreement was signed and ratified with Oman in 2003 for entire border, including Oman's Musandam Peninsula and Al Madhah enclaves, but contents of the agreement and detailed maps showing the alignment have not been published; Iran and UAE dispute Tunb Islands and Abu Musa Island, which Iran occupies",
+    "terrorism": "None/Unknown"
+}

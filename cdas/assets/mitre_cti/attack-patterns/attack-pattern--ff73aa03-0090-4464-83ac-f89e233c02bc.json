@@ -1,0 +1,44 @@
+{
+    "id": "attack-pattern--ff73aa03-0090-4464-83ac-f89e233c02bc",
+    "name": "System Shutdown/Reboot",
+    "description": "Adversaries may shutdown/reboot systems to interrupt access to, or aid in the destruction of, those systems. Operating systems may contain commands to initiate a shutdown/reboot of a machine. In some cases, these commands may also be used to initiate a shutdown/reboot of a remote computer.(Citation: Microsoft Shutdown Oct 2017) Shutting down or rebooting systems may disrupt access to computer resources for legitimate users.\n\nAdversaries may attempt to shutdown/reboot a system after impacting it in other ways, such as [Disk Structure Wipe](https://attack.mitre.org/techniques/T1561/002) or [Inhibit System Recovery](https://attack.mitre.org/techniques/T1490), to hasten the intended effects on system availability.(Citation: Talos Nyetya June 2017)(Citation: Talos Olympic Destroyer 2018)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1529",
+            "url": "https://attack.mitre.org/techniques/T1529"
+        },
+        {
+            "source_name": "Microsoft Shutdown Oct 2017",
+            "url": "https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/shutdown",
+            "description": "Microsoft. (2017, October 15). Shutdown. Retrieved October 4, 2019."
+        },
+        {
+            "source_name": "Talos Nyetya June 2017",
+            "url": "https://blog.talosintelligence.com/2017/06/worldwide-ransomware-variant.html",
+            "description": "Chiu, A. (2016, June 27). New Ransomware Variant \"Nyetya\" Compromises Systems Worldwide. Retrieved March 26, 2019."
+        },
+        {
+            "source_name": "Talos Olympic Destroyer 2018",
+            "url": "https://blog.talosintelligence.com/2018/02/olympic-destroyer.html",
+            "description": "Mercer, W. and Rascagneres, P. (2018, February 12). Olympic Destroyer Takes Aim At Winter Olympics. Retrieved March 14, 2019."
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "impact"
+        }
+    ],
+    "permissions": [
+        "User",
+        "Administrator",
+        "root",
+        "SYSTEM"
+    ]
+}

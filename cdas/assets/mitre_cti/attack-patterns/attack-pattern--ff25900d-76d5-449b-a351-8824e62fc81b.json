@@ -1,0 +1,44 @@
+{
+    "id": "attack-pattern--ff25900d-76d5-449b-a351-8824e62fc81b",
+    "name": "Trusted Developer Utilities Proxy Execution",
+    "description": "Adversaries may take advantage of trusted developer utilities to proxy execution of malicious payloads. There are many utilities used for software development related tasks that can be used to execute code in various forms to assist in development, debugging, and reverse engineering.(Citation: engima0x3 DNX Bypass)(Citation: engima0x3 RCSI Bypass)(Citation: Exploit Monday WinDbg)(Citation: LOLBAS Tracker) These utilities may often be signed with legitimate certificates that allow them to execute on a system and proxy execution of malicious code through a trusted process that effectively bypasses application control solutions.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1127",
+            "url": "https://attack.mitre.org/techniques/T1127"
+        },
+        {
+            "url": "https://enigma0x3.net/2016/11/17/bypassing-application-whitelisting-by-using-dnx-exe/",
+            "description": "Nelson, M. (2017, November 17). Bypassing Application Whitelisting By Using dnx.exe. Retrieved May 25, 2017.",
+            "source_name": "engima0x3 DNX Bypass"
+        },
+        {
+            "url": "https://enigma0x3.net/2016/11/21/bypassing-application-whitelisting-by-using-rcsi-exe/",
+            "description": "Nelson, M. (2016, November 21). Bypassing Application Whitelisting By Using rcsi.exe. Retrieved May 26, 2017.",
+            "source_name": "engima0x3 RCSI Bypass"
+        },
+        {
+            "url": "http://www.exploit-monday.com/2016/08/windbg-cdb-shellcode-runner.html",
+            "description": "Graeber, M. (2016, August 15). Bypassing Application Whitelisting by using WinDbg/CDB as a Shellcode Runner. Retrieved May 26, 2017.",
+            "source_name": "Exploit Monday WinDbg"
+        },
+        {
+            "source_name": "LOLBAS Tracker",
+            "url": "https://lolbas-project.github.io/lolbas/OtherMSBinaries/Tracker/",
+            "description": "LOLBAS. (n.d.). Tracker.exe. Retrieved July 31, 2019."
+        }
+    ],
+    "platforms": [
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "phase_name": "defense-evasion",
+            "kill_chain_name": "mitre-attack"
+        }
+    ],
+    "permissions": [
+        "User"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--948a447c-d783-4ba0-8516-a64140fcacd5",
+    "name": "Uncommonly Used Port",
+    "description": "Adversaries may use non-standard ports to exfiltrate information.",
+    "references": [
+        {
+            "external_id": "T1509",
+            "source_name": "mitre-mobile-attack",
+            "url": "https://attack.mitre.org/techniques/T1509"
+        }
+    ],
+    "platforms": [
+        "Android",
+        "iOS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "command-and-control"
+        }
+    ]
+}

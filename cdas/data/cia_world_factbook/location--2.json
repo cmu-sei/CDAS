@@ -1,0 +1,118 @@
+{
+    "id": "location--2",
+    "name": "Algeria",
+    "background": "Algeria has known many empires and dynasties starting with the ancient Numidians (3rd century B.C.), Phoenicians, Carthaginians, Romans, Vandals, Byzantines, over a dozen different Arab and Berber dynasties, Spaniards, and Ottoman Turks. It was under the latter that the Barbary pirates operated from North Africa and preyed on shipping beginning in roughly 1500, peaking in the early to mid-17th century, until finally subdued by the French capture of Algiers in 1830. The French southward conquest of the entirety of Algeria proceeded throughout the 19th century and was marked by many atrocities. The country was heavily colonized by the French in the late 19th and early 20th centuries. A bloody eight-year struggle culminated in Algerian independence in 1962. Algeria's primary political party, the National Liberation Front (FLN), was established in 1954 as part of the struggle for independence and has since largely dominated politics. The Government of Algeria in 1988 instituted a multi-party system in response to public unrest, but the surprising first round success of the Islamic Salvation Front (FIS) in the December 1991 legislative elections led the Algerian army to intervene and postpone the second round of elections to prevent what the secular elite feared would be an extremist-led government from assuming power. The army began a crackdown on the FIS that spurred FIS supporters to begin attacking government targets. Fighting escalated into an insurgency, which saw intense violence from 1992-98, resulting in over 100,000 deaths - many attributed to indiscriminate massacres of villagers by extremists. The government gained the upper hand by the late-1990s, and FIS's armed wing, the Islamic Salvation Army, disbanded in January 2000.\nAbdelaziz BOUTEFLIKA, with the backing of the military, won the presidency in 1999 in an election that was boycotted by several candidates protesting alleged fraud, and won subsequent elections in 2004, 2009, and 2014. The government in 2011 introduced some political reforms in response to the Arab Spring, including lifting the 19-year-old state of emergency restrictions and increasing women's quotas for elected assemblies, while also increasing subsidies to the populace. Since 2014, Algeria's reliance on hydrocarbon revenues to fund the government and finance the large subsidies for the population has fallen under stress because of declining oil prices. Protests broke out across the country in late February 2019 against President BOUTEFLIKA's decision to seek a fifth term. BOUTEFLIKA resigned on 2 April 2019, and the speaker of the upper house of parliament, Abdelkader BENSALAH, became interim head of state on 9 April. BENSALAH remained in office beyond the 90-day constitutional limit until Algerians elected former Prime Minister Abdelmadjid TEBBOUNE as the country's new president in December 2019.",
+    "coordinates": "28 00 N, 3 00 E",
+    "region": "Africa",
+    "total_area": "2,381,740 sq km",
+    "land_area": "2,381,740 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "6,734 km",
+    "neighbors": {
+        "Mali": "1359 km",
+        "Mauritania": "460 km",
+        "Morocco": "1900 km",
+        "Niger": "951 km",
+        "Tunisia": "1034 km",
+        "Western Sahara": "41 km"
+    },
+    "climate": "arid to semiarid; mild, wet winters with hot, dry summers along coast; drier with cold winters and hot summers on high plateau; sirocco is a hot, dust/sand-laden wind especially common in summer",
+    "coastline": "998 km",
+    "natural_hazards": [
+        "mountainous areas subject to severe earthquakes",
+        "mudslides and floods in rainy season",
+        "droughts"
+    ],
+    "terrain": "mostly high plateau and desert; Atlas Mountains in the far north and Hoggar Mountains in the south; narrow, discontinuous coastal plain",
+    "population_distribution": "the vast majority of the populace is found in the extreme northern part of the country along the Mediterranean Coast as shown in this population distribution map",
+    "natural_resources": [
+        "petroleum",
+        "natural gas",
+        "iron ore",
+        "phosphates",
+        "uranium",
+        "lead",
+        "zinc"
+    ],
+    "population": "42,972,878",
+    "nationality": "Algerian(s)",
+    "ethnic_groups": {
+        "Arab-Berber": "99%",
+        "European": "1%"
+    },
+    "languages": [
+        "Arabic (official)",
+        "French",
+        "Berber or Tamazight; dialects include Kabyle Berber (official)",
+        "Shawiya Berber",
+        "Mzab Berber",
+        "Tuareg Berber"
+    ],
+    "religions": {
+        "Muslim": "99%",
+        "other": "1%"
+    },
+    "government_type": "presidential republic",
+    "national_symbols": "five-pointed star between the extended horns of a crescent moon, fennec fox",
+    "national_colors": [
+        "green",
+        "white",
+        "red"
+    ],
+    "gdp": "$167.6 billion",
+    "agriculture": [
+        "wheat",
+        "barley",
+        "oats",
+        "grapes",
+        "olives",
+        "citrus",
+        "fruits",
+        "sheep",
+        "cattle"
+    ],
+    "industries": [
+        "petroleum",
+        "natural gas",
+        "light industries",
+        "mining",
+        "electrical",
+        "petrochemical",
+        "food processing"
+    ],
+    "exports": [
+        "petroleum",
+        "natural gas",
+        "petroleum products"
+    ],
+    "imports": [
+        "capital goods",
+        "foodstuffs",
+        "consumer goods"
+    ],
+    "broadband_subscriptions": "3,067,022",
+    "internet_users": "24,819,531",
+    "mobile_subscriptions": "47,154,264",
+    "internet_country_code": ".dz",
+    "military_and_security_forces": "Algerian People's National Army (ANP): Land Forces, Naval Forces (includes coast guard), Air Forces, Territorial Air Defense Forces, Republican Guard; National Gendarmerie (subordinate to the Ministry of National Defense); Ministry of Interior: General Directorate of National Security",
+    "percent_GDP_on_military": "6%",
+    "pipelines": [
+        "2600 km condensate",
+        "16415 km gas",
+        "3447 km liquid petroleum gas",
+        "7036 km oil",
+        "144 km refined products"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Algiers, Annaba, Arzew, Bejaia, Djendjene, Jijel, Mostaganem, Oran, Skikda",
+        "LNG terminal(s) (export)": "Arzew, Bethioua, Skikda"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "149",
+    "international_disputes": "Algeria and many other states reject Moroccan administration of Western Sahara; the Polisario Front, exiled in Algeria, represents the \"Sahrawi Arab Democratic Republic\" which Algeria recognizes; the Algerian-Moroccan land border remains closed; dormant disputes include Libyan claims of about 32,000 sq km of southeastern Algeria and the National Liberation Front's (FLN) assertions of a claim to Chirac Pastures in southeastern Morocco.",
+    "terrorism": {
+        "al-Qa'ida in the Islamic Maghreb (AQIM)": "overthrow various African regimes and replace them with one ruled by sharia; establish a regional Islamic caliphate across all of North and West Africaarea(s) of operation",
+        "Islamic State of Iraq and ash-Sham (ISIS)-Algeria": "replace the Algerian Government with an Islamic state and implement ISIS's strict interpretation of sharia;\u00a0 attack Algerian security services, local government targets, and Western interestsarea(s) of operation",
+        "al-Mulathamun Battalion": " expel Westerners from North and West Africa; create Islamic statearea(s) of operation"
+    }
+}

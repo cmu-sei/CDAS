@@ -1,0 +1,28 @@
+{
+    "id": "attack-pattern--fb8d023d-45be-47e9-bc51-f56bcae6435b",
+    "name": "Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol",
+    "description": "Adversaries may steal data by exfiltrating it over an un-encrypted network protocol other than that of the existing command and control channel. The data may also be sent to an alternate network location from the main command and control server. \n\nAdversaries may opt to obfuscate this data, without the use of encryption, within network protocols that are natively unencrypted (such as HTTP, FTP, or DNS). This may include custom or publicly available encoding/compression algorithms (such as base64) as well as embedding data within protocol headers and fields. ",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1048.003",
+            "url": "https://attack.mitre.org/techniques/T1048/003"
+        },
+        {
+            "url": "https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf",
+            "description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved April 20, 2016.",
+            "source_name": "University of Birmingham C2"
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "exfiltration"
+        }
+    ]
+}

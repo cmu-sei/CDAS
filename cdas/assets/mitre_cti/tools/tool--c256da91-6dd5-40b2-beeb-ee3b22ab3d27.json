@@ -1,0 +1,24 @@
+{
+    "id": "tool--c256da91-6dd5-40b2-beeb-ee3b22ab3d27",
+    "name": "esentutl",
+    "description": "[esentutl](https://attack.mitre.org/software/S0404) is a command-line tool that provides database utilities for the Windows Extensible Storage Engine.(Citation: Microsoft Esentutl)",
+    "references": [
+        {
+            "external_id": "S0404",
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/software/S0404"
+        },
+        {
+            "description": "Microsoft. (2016, August 30). Esentutl. Retrieved September 3, 2019.",
+            "url": "https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh875546(v=ws.11)",
+            "source_name": "Microsoft Esentutl"
+        }
+    ],
+    "aliases": [
+        "esentutl",
+        "esentutl.exe"
+    ],
+    "platforms": [
+        "Windows"
+    ]
+}

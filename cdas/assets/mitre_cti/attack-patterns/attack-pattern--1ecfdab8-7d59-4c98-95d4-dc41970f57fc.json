@@ -1,0 +1,49 @@
+{
+    "id": "attack-pattern--1ecfdab8-7d59-4c98-95d4-dc41970f57fc",
+    "name": "LSA Secrets",
+    "description": "Adversaries with SYSTEM access to a host may attempt to access Local Security Authority (LSA) secrets, which can contain a variety of different credential materials, such as credentials for service accounts.(Citation: Passcape LSA Secrets)(Citation: Microsoft AD Admin Tier Model)(Citation: Tilbury Windows Credentials) LSA secrets are stored in the registry at <code>HKEY_LOCAL_MACHINE\\SECURITY\\Policy\\Secrets</code>. LSA secrets can also be dumped from memory.(Citation: ired Dumping LSA Secrets)\n\n[Reg](https://attack.mitre.org/software/S0075) can be used to extract from the Registry. [Mimikatz](https://attack.mitre.org/software/S0002) can be used to extract secrets from memory.(Citation: ired Dumping LSA Secrets)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1003.004",
+            "url": "https://attack.mitre.org/techniques/T1003/004"
+        },
+        {
+            "source_name": "Passcape LSA Secrets",
+            "url": "https://www.passcape.com/index.php?section=docsys&cmd=details&id=23",
+            "description": "Passcape. (n.d.). Windows LSA secrets. Retrieved February 21, 2020."
+        },
+        {
+            "source_name": "Microsoft AD Admin Tier Model",
+            "url": "https://docs.microsoft.com/en-us/windows-server/identity/securing-privileged-access/securing-privileged-access-reference-material?redirectedfrom=MSDN",
+            "description": "Microsoft. (2019, February 14). Active Directory administrative tier model. Retrieved February 21, 2020."
+        },
+        {
+            "source_name": "Tilbury Windows Credentials",
+            "url": "https://www.first.org/resources/papers/conf2017/Windows-Credentials-Attacks-and-Mitigation-Techniques.pdf",
+            "description": "Chad Tilbury. (2017, August 8). 1Windows Credentials: Attack, Mitigation, Defense. Retrieved February 21, 2020."
+        },
+        {
+            "source_name": "ired Dumping LSA Secrets",
+            "url": "ttps://ired.team/offensive-security/credential-access-and-credential-dumping/dumping-lsa-secrets",
+            "description": "Mantvydas Baranauskas. (2019, November 16). Dumping LSA Secrets. Retrieved February 21, 2020."
+        },
+        {
+            "url": "https://github.com/mattifestation/PowerSploit",
+            "description": "PowerSploit. (n.d.). Retrieved December 4, 2014.",
+            "source_name": "Powersploit"
+        }
+    ],
+    "platforms": [
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "credential-access"
+        }
+    ],
+    "permissions": [
+        "SYSTEM"
+    ]
+}

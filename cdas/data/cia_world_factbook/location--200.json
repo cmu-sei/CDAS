@@ -1,0 +1,133 @@
+{
+    "id": "location--200",
+    "name": "Trinidad and Tobago",
+    "background": "First colonized by the Spanish, the islands came under British control in the early 19th century. The islands' sugar industry was hurt by the emancipation of the slaves in 1834. Manpower was replaced with the importation of contract laborers from India between 1845 and 1917, which boosted sugar production as well as the cocoa industry. The discovery of oil on Trinidad in 1910 added another important export. Independence was attained in 1962. The country is one of the most prosperous in the Caribbean thanks largely to petroleum and natural gas production and processing. Tourism, mostly in Tobago, is targeted for expansion and is growing. The government is struggling to reverse a surge in violent crime.",
+    "coordinates": "11 00 N, 61 00 W",
+    "region": "Central America and the Caribbean",
+    "total_area": "5,128 sq km",
+    "land_area": "5,128 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "tropical; rainy season (June to December)",
+    "coastline": "362 km",
+    "natural_hazards": [
+        "outside usual path of hurricanes and other tropical storms"
+    ],
+    "terrain": "mostly plains with some hills and low mountains",
+    "population_distribution": "population on Trinidad is concentrated in the western half of the island, on Tobago in the southern half",
+    "natural_resources": [
+        "petroleum",
+        "natural gas",
+        "asphalt"
+    ],
+    "population": "1,208,789",
+    "nationality": "Trinidadian(s), Tobagonian(s)",
+    "ethnic_groups": {
+        "East Indian": "35.4%",
+        "African descent": "34.2%",
+        "mixed - other": "15.3%",
+        "mixed - African/East Indian": "7.7%",
+        "other": "1.3%",
+        "unspecified": "6.2%"
+    },
+    "languages": [
+        "English (official)",
+        "Trinidadian Creole English",
+        "Tobagonian Creole English",
+        "Caribbean Hindustani",
+        "Trinidadian Creole French",
+        "Spanish",
+        "Chinese"
+    ],
+    "religions": {
+        "Protestant": "32.1%",
+        "Roman Catholic": "21.6%",
+        "Hindu": "18.2%",
+        "Muslim": "5%",
+        "Jehovah's Witness": "1.5%",
+        "other": "8.4%",
+        "none": "2.2%",
+        "unspecified": "11.1%"
+    },
+    "government_type": "parliamentary republic",
+    "national_symbols": "scarlet ibis (bird of Trinidad), cocrico (bird of Tobago), Chaconia flower",
+    "national_colors": [
+        "red",
+        "white",
+        "black"
+    ],
+    "gdp": "$22.78 billion",
+    "agriculture": [
+        "cocoa",
+        "dasheen",
+        "pumpkin",
+        "cassava",
+        "tomatoes",
+        "cucumbers",
+        "eggplant",
+        "hot pepper",
+        "pommecythere",
+        "coconut water",
+        "poultry"
+    ],
+    "industries": [
+        "petroleum and petroleum products",
+        "liquefied natural gas",
+        "methanol",
+        "ammonia",
+        "urea",
+        "steel products",
+        "beverages",
+        "food processing",
+        "cement",
+        "cotton textiles"
+    ],
+    "exports": [
+        "petroleum and petroleum products",
+        "liquefied natural gas",
+        "methanol",
+        "ammonia",
+        "urea",
+        "steel products",
+        "beverages",
+        "cereal and cereal products",
+        "cocoa",
+        "fish",
+        "preserved fruits",
+        "cosmetics",
+        "household cleaners",
+        "plastic packaging"
+    ],
+    "imports": [
+        "mineral fuels",
+        "lubricants",
+        "machinery",
+        "transportation equipment",
+        "manufactured goods",
+        "food",
+        "chemicals",
+        "live animals"
+    ],
+    "broadband_subscriptions": "341,045",
+    "internet_users": "939,967",
+    "mobile_subscriptions": "1,972,595",
+    "internet_country_code": ".tt",
+    "military_and_security_forces": "Trinidad and Tobago Defense Force (TTDF): Trinidad and Tobago Regiment (Land Forces), Coast Guard, Air Guard, Defense Force Reserves",
+    "percent_GDP_on_military": "0.7%",
+    "pipelines": [
+        "257 km condensate",
+        "11 km condensate/gas",
+        "1567 km gas",
+        "587 km oil"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Point Fortin, Point Lisas, Port of Spain, Scarborough",
+        "oil terminal(s)": "Galeota Point terminal",
+        "LNG terminal(s) (export)": "Port Fortin"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "4",
+    "international_disputes": "Barbados and Trinidad and Tobago abide by the April 2006 Permanent Court of Arbitration decision delimiting a maritime boundary and limiting catches of flying fish in Trinidad and Tobago's EEZ; in 2005, Barbados and Trinidad and Tobago agreed to compulsory international arbitration under UN Convention on the Law of the Sea challenging whether the northern limit of Trinidad and Tobago's and Venezuela's maritime boundary extends into Barbadian waters; Guyana has expressed its intention to include itself in the arbitration, as the Trinidad and Tobago-Venezuela maritime boundary may also extend into its waters",
+    "terrorism": "None/Unknown"
+}

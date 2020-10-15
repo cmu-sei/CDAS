@@ -46,7 +46,6 @@ import pkg_resources
 import reportlab.platypus as platy
 from reportlab.lib.styles import getSampleStyleSheet
 import weakref
-from stix2.v21 import Relationship, Location
 
 
 class Country:
@@ -134,9 +133,9 @@ class Country:
                     coastline += 1
                 elif neighbor != self.id:
                     try:
-                        neighbors[neighbor] += 1
+                        neighbors["location--"+str(neighbor)] += 1
                     except KeyError:
-                        neighbors[neighbor] = 1
+                        neighbors["location--"+str(neighbor)] = 1
             coastline = coastline * np.sqrt(area_multiple)
             l_bound = 0
             for n in neighbors:
@@ -526,6 +525,9 @@ class Country:
             if np.random.choice([True, False]):
                 self.terrorism = "TODO"
 
+            # convert the ID to a string
+            self.id = "location--" + str(self.id)
+
         self.__instances.add(weakref.ref(self))
 
     @classmethod
@@ -538,62 +540,6 @@ class Country:
             else:
                 dead.add(ref)
         cls.__instances -= dead
-
-    def save(self, directory, filetype):
-        """Saves the attributes of the Country to a specified file.
-
-        Parameters
-        ----------
-        directory : str
-            Path to save output
-        filetype : str
-            For output file with country data (json or pdf)
-
-        Raises
-        ------
-        NotImplementedError
-            If unsupported filetype is passed in.
-        """
-
-        filename = directory + self.name.replace(' ', '_')
-        if filetype == 'json':
-            filename += ".json"
-            with open(filename, 'w') as f:
-                json.dump(vars(self), f, indent=4)
-            f.close()
-        elif filetype == 'pdf':
-            ss = getSampleStyleSheet()
-            pdf = platy.SimpleDocTemplate(filename + ".pdf")
-            flowables = []
-            flowables.append(platy.Paragraph(self.name, ss['Heading1']))
-            for k in vars(self):
-                if k == 'id' or k == 'name':
-                    continue
-                if type(vars(self)[k]) is str or type(vars(self)[k]) is int:
-                    p = f"{k.replace('_',' ').title()}: {str(vars(self)[k])}"
-                    flowables.append(platy.Paragraph(p, ss['BodyText']))
-                else:
-                    p = f"{k.replace('_',' ').title()}:"
-                    flowables.append(platy.Paragraph(p, ss['BodyText']))
-                    bullets = []
-                    for v in vars(self)[k]:
-                        p = v
-                        if type(vars(self)[k]) is not list:
-                            p += ": "+vars(self)[k][v]
-                        b = platy.Paragraph(p, ss['Normal'])
-                        bullets.append(platy.ListItem(b, leftIndent=35))
-                    table = platy.ListFlowable(bullets, bulletType='bullet')
-                    flowables.append(table)
-            pdf.build(flowables)
-        elif filetype == 'html':
-            filename += ".json"
-            json_string = json.dumps(vars(self),indent=4)
-            f = open(filename, 'w')
-            f.write("var data = " + json_string)
-            f.close()
-        else:
-            raise NotImplementedError(
-                f"Output file type, {filetype}, not supported")
 
     def _serialize(self):
         serialized = {}
@@ -663,7 +609,10 @@ class Country:
             try:
                 egs[id_to_name[eg]] = self.ethnic_groups[eg]
             except KeyError:
-                egs[eg] = self.ethnic_groups[eg]
+                try:
+                    egs[id_to_name['location--'+eg]] = self.ethnic_groups[eg]
+                except KeyError:
+                    egs[eg] = self.ethnic_groups[eg]
         self.ethnic_groups = egs
 
         # Convert languges listed by id# to country names
@@ -677,7 +626,15 @@ class Country:
                     eg_name += 'ish'
                 langs[eg_name] = self.languages[eg]
             except KeyError:
-                langs[eg] = self.languages[eg]
+                try:
+                    eg_name = id_to_name['location--'+eg]
+                    if eg_name.endswith(('a', 'e', 'i', 'o', 'u')):
+                        eg_name += "nese"
+                    else:
+                        eg_name += 'ish'
+                    langs[eg_name] = self.languages[eg]
+                except KeyError:
+                    langs[eg] = self.languages[eg]
         self.languages = langs
 
 
@@ -848,7 +805,7 @@ class Map:
         for country_id in range(0, self.map.max()+1):
             location = np.transpose(np.where(self.map == country_id))
             d.append(draw.Text(
-                country_names[str(country_id)], 0.3, location[0][1],
+                country_names["location--"+str(country_id)], 0.3, location[0][1],
                 -1*(location[0][0]+1), fill='white'))
 
         d.setPixelScale(200)  # Set number of pixels per geometry unit
@@ -911,3 +868,29 @@ def markov_name(nationality=False):
             word = word+"ian"
 
     return word.title()
+
+class Tool():
+
+    def __init__(self, **kwargs):
+        self.__dict__.update(kwargs)
+
+class Ttp():
+
+    def __init__(self, **kwargs):
+        self.__dict__.update(kwargs)
+
+class Malware():
+
+    def __init__(self, **kwargs):
+        self.__dict__.update(kwargs)
+
+class Event():
+
+    def __init__(self, **kwargs):
+        self.__dict__.update(kwargs)
+
+    def _serialize(self):
+        serialized = {}
+        for key, value in self.__dict__.items():
+            serialized[key] = str(value)
+        return serialized

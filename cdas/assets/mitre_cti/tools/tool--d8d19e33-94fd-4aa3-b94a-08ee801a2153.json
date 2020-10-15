@@ -1,0 +1,27 @@
+{
+    "id": "tool--d8d19e33-94fd-4aa3-b94a-08ee801a2153",
+    "name": "SDelete",
+    "description": "[SDelete](https://attack.mitre.org/software/S0195) is an application that securely deletes data in a way that makes it unrecoverable. It is part of the Microsoft Sysinternals suite of tools. (Citation: Microsoft SDelete July 2016)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/software/S0195",
+            "external_id": "S0195"
+        },
+        {
+            "source_name": "SDelete",
+            "description": "(Citation: Microsoft SDelete July 2016)"
+        },
+        {
+            "source_name": "Microsoft SDelete July 2016",
+            "description": "Russinovich, M. (2016, July 4). SDelete v2.0. Retrieved February 8, 2018.",
+            "url": "https://docs.microsoft.com/en-us/sysinternals/downloads/sdelete"
+        }
+    ],
+    "aliases": [
+        "SDelete"
+    ],
+    "platforms": [
+        "Windows"
+    ]
+}

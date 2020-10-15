@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--a86a21a4-6304-4df3-aa6d-08114c47d48f",
+    "name": "Assign KITs/KIQs into categories",
+    "description": "Leadership organizes Key Intelligence Topics (KITs) and Key Intelligence Questions (KIQs) into three types of categories and creates more if necessary.  An example of a description of key players KIT would be when an adversary assesses the cyber defensive capabilities of a nation-state threat actor. (Citation: Herring1999)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1228",
+            "external_id": "T1228"
+        },
+        {
+            "source_name": "Herring1999",
+            "description": "Jan P. Herring. (1999). Key Intelligence Topics: A Process to Identify and Define Intelligence Needs. Retrieved March 2, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "priority-definition-planning"
+        }
+    ]
+}

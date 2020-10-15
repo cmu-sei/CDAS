@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--4886e3c2-468b-4e26-b7e5-2031d995d13a",
+    "name": "Build or acquire exploits",
+    "description": "An exploit takes advantage of a bug or vulnerability in order to cause unintended or unanticipated behavior to occur on computer hardware or software. The adversary may use or modify existing exploits when those exploits are still relevant to the environment they are trying to compromise. (Citation: NYTStuxnet) (Citation: NationsBuying)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1349",
+            "external_id": "T1349"
+        },
+        {
+            "source_name": "NYTStuxnet",
+            "description": "William J. Broad, John Markoff, and David E. Sanger. (2011, January 15). Israeli Test on Worm Called Crucial in Iran Nuclear Delay. Retrieved March 1, 2017."
+        },
+        {
+            "source_name": "NationsBuying",
+            "description": "Nicole Perlroth and David E. Sanger. (2013, July 12). Nations Buying as Hackers Sell Flaws in Computer Code. Retrieved March 9, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "build-capabilities"
+        }
+    ]
+}

@@ -1,0 +1,133 @@
+{
+    "id": "location--46",
+    "name": "Republic of the Congo",
+    "background": "Upon independence in 1960, the former French region of Middle Congo became the Republic of the Congo. A quarter century of experimentation with Marxism was abandoned in 1990 and a democratically elected government took office in 1992. A two-year civil war that ended in 1999 restored former Marxist President Denis SASSOU-Nguesso, who had ruled from 1979 to 1992, and sparked a short period of ethnic and political unrest that was resolved by a peace agreement in late 1999. A new constitution adopted three years later provided for a multi-party system and a seven-year presidential term, and elections arranged shortly thereafter installed SASSOU-Nguesso. Following a year of renewed fighting, President SASSOU-Nguesso and southern-based rebel groups agreed to a final peace accord in March 2003. SASSOU-Nguesso was reeelected in 2009 and, after passing a referendum allowing him to run for a third term, was reelected again in 2016. The Republic of Congo is one of Africa's largest petroleum producers, but with declining production it will need new offshore oil finds to sustain its oil earnings over the long term.",
+    "coordinates": "1 00 S, 15 00 E",
+    "region": "Africa",
+    "total_area": "342,000 sq km",
+    "land_area": "341,500 sq km",
+    "water_area": "500 sq km",
+    "land_boundary": "5,008 km",
+    "neighbors": {
+        "Cameroon": "494 km",
+        "Central African Republic": "487 km",
+        "Democratic Republic of the Congo": "1229 km",
+        "Gabon": "2567 km"
+    },
+    "climate": "tropical; rainy season (March to June); dry season (June to October); persistent high temperatures and humidity; particularly enervating climate astride the Equator",
+    "coastline": "169 km",
+    "natural_hazards": [
+        "seasonal flooding"
+    ],
+    "terrain": "coastal plain, southern basin, central plateau, northern basin",
+    "population_distribution": "the population is primarily located in the south, in and around the capital of Brazzaville as shown in this population distribution map",
+    "natural_resources": [
+        "petroleum",
+        "timber",
+        "potash",
+        "lead",
+        "zinc",
+        "uranium",
+        "copper",
+        "phosphates",
+        "gold",
+        "magnesium",
+        "natural gas",
+        "hydropower"
+    ],
+    "population": "5,293,070",
+    "nationality": "Congolese (singular and plural)",
+    "ethnic_groups": {
+        "Kongo": "40.5%",
+        "Teke": "16.9%",
+        "Mbochi": "13.1%",
+        "foreigner": "8.2%",
+        "Sangha": "5.6%",
+        "Mbere/Mbeti/Kele": "4.4%",
+        "Punu": "4.3%",
+        "Pygmy": "1.6%",
+        "Oubanguiens": "1.6%",
+        "Duma": "1.5%",
+        "Makaa": "1.3%",
+        "other and unspecified": "1%"
+    },
+    "languages": [
+        "French (official)",
+        "French  Lingala and Monokutuba",
+        "many local languages and dialects"
+    ],
+    "religions": {
+        "Roman Catholic": "33.1%",
+        "Awakening Churches/Christian Revival": "22.3%",
+        "Protestant": "19.9%",
+        "Salutiste": "2.2%",
+        "Muslim": "1.6%",
+        "Kimbanguiste": "1.5%",
+        "other": "8.1%",
+        "none": "11.3%"
+    },
+    "government_type": "presidential republic",
+    "national_symbols": "lion, elephant",
+    "national_colors": [
+        "green",
+        "yellow",
+        "red"
+    ],
+    "gdp": "$8.718 billion",
+    "agriculture": [
+        "cassava",
+        "sugar",
+        "rice",
+        "corn",
+        "peanuts",
+        "vegetables",
+        "coffee",
+        "cocoa",
+        "forest products"
+    ],
+    "industries": [
+        "petroleum extraction",
+        "cement",
+        "lumber",
+        "brewing",
+        "sugar",
+        "palm oil",
+        "soap",
+        "flour",
+        "cigarettes"
+    ],
+    "exports": [
+        "petroleum",
+        "lumber",
+        "plywood",
+        "sugar",
+        "cocoa",
+        "coffee",
+        "diamonds"
+    ],
+    "imports": [
+        "capital equipment",
+        "construction materials",
+        "foodstuffs"
+    ],
+    "broadband_subscriptions": "Unknown",
+    "internet_users": "437,865",
+    "mobile_subscriptions": "5,000,000",
+    "internet_country_code": ".cg",
+    "military_and_security_forces": "Congolese Armed Forces (Forces Armees Congolaises, FAC): Army (Armee de Terre), Navy, Congolese Air Force (Armee de l'Air Congolaise); Gendarmerie; Presidential Guard",
+    "percent_GDP_on_military": "2.7%",
+    "pipelines": [
+        "232 km gas",
+        "4 km liquid petroleum gas",
+        "982 km oil"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Pointe-Noire",
+        "oil terminal(s)": "Djeno",
+        "river port(s)": "Brazzaville (Congo)"
+    },
+    "waterways": "1,120 km",
+    "number_of_airports": "27",
+    "international_disputes": "the location of the boundary in the broad Congo River with the Democratic Republic of the Congo is undefined except in the Pool Malebo/Stanley Pool area",
+    "terrorism": "None/Unknown"
+}

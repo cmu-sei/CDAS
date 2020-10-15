@@ -1,0 +1,73 @@
+{
+    "id": "attack-pattern--0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22",
+    "name": "OS Credential Dumping",
+    "description": "Adversaries may attempt to dump credentials to obtain account login and credential material, normally in the form of a hash or a clear text password, from the operating system and software. Credentials can then be used to perform [Lateral Movement](https://attack.mitre.org/tactics/TA0008) and access restricted information.\n\nSeveral of the tools mentioned in associated sub-techniques may be used by both adversaries and professional security testers. Additional custom tools likely exist as well.\n",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1003",
+            "url": "https://attack.mitre.org/techniques/T1003"
+        },
+        {
+            "description": "French, D. (2018, October 2). Detecting Attempts to Steal Passwords from Memory. Retrieved October 11, 2019.",
+            "url": "https://medium.com/threatpunter/detecting-attempts-to-steal-passwords-from-memory-558f16dce4ea",
+            "source_name": "Medium Detecting Attempts to Steal Passwords from Memory"
+        },
+        {
+            "url": "https://github.com/mattifestation/PowerSploit",
+            "description": "PowerSploit. (n.d.). Retrieved December 4, 2014.",
+            "source_name": "Powersploit"
+        },
+        {
+            "url": "https://msdn.microsoft.com/library/cc228086.aspx",
+            "description": "Microsoft. (2017, December 1). MS-DRSR Directory Replication Service (DRS) Remote Protocol. Retrieved December 4, 2017.",
+            "source_name": "Microsoft DRSR Dec 2017"
+        },
+        {
+            "url": "https://msdn.microsoft.com/library/dd207691.aspx",
+            "description": "Microsoft. (n.d.). IDL_DRSGetNCChanges (Opnum 3). Retrieved December 4, 2017.",
+            "source_name": "Microsoft GetNCCChanges"
+        },
+        {
+            "url": "https://wiki.samba.org/index.php/DRSUAPI",
+            "description": "SambaWiki. (n.d.). DRSUAPI. Retrieved December 4, 2017.",
+            "source_name": "Samba DRSUAPI"
+        },
+        {
+            "url": "http://www.harmj0y.net/blog/redteaming/mimikatz-and-dcsync-and-extrasids-oh-my/",
+            "description": "Schroeder, W. (2015, September 22). Mimikatz and DCSync and ExtraSids, Oh My. Retrieved December 4, 2017.",
+            "source_name": "Harmj0y DCSync Sept 2015"
+        },
+        {
+            "url": "https://msdn.microsoft.com/library/cc237008.aspx",
+            "description": "Microsoft. (2017, December 1). MS-NRPC - Netlogon Remote Protocol. Retrieved December 6, 2017.",
+            "source_name": "Microsoft NRPC Dec 2017"
+        },
+        {
+            "url": "https://msdn.microsoft.com/library/cc245496.aspx",
+            "description": "Microsoft. (n.d.). MS-SAMR Security Account Manager (SAM) Remote Protocol (Client-to-Server) - Transport. Retrieved December 4, 2017.",
+            "source_name": "Microsoft SAMR"
+        },
+        {
+            "url": "https://adsecurity.org/?p=1729",
+            "description": "Metcalf, S. (2015, September 25). Mimikatz DCSync Usage, Exploitation, and Detection. Retrieved December 4, 2017.",
+            "source_name": "AdSecurity DCSync Sept 2015"
+        }
+    ],
+    "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "credential-access"
+        }
+    ],
+    "permissions": [
+        "Administrator",
+        "SYSTEM",
+        "root"
+    ]
+}

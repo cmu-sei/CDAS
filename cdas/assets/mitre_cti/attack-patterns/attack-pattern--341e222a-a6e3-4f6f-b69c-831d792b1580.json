@@ -1,0 +1,30 @@
+{
+    "id": "attack-pattern--341e222a-a6e3-4f6f-b69c-831d792b1580",
+    "name": "Credentials in Registry",
+    "description": "Adversaries may search the Registry on compromised systems for insecurely stored credentials. The Windows Registry stores configuration information that can be used by the system or other programs. Adversaries may query the Registry looking for credentials and passwords that have been stored for use by other programs or services. Sometimes these credentials are used for automatic logons.\n\nExample commands to find Registry keys related to password information: (Citation: Pentestlab Stored Credentials)\n\n* Local Machine Hive: <code>reg query HKLM /f password /t REG_SZ /s</code>\n* Current User Hive: <code>reg query HKCU /f password /t REG_SZ /s</code>",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1552.002",
+            "url": "https://attack.mitre.org/techniques/T1552/002"
+        },
+        {
+            "url": "https://pentestlab.blog/2017/04/19/stored-credentials/",
+            "description": "netbiosX. (2017, April 19). Stored Credentials. Retrieved April 6, 2018.",
+            "source_name": "Pentestlab Stored Credentials"
+        }
+    ],
+    "platforms": [
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "credential-access"
+        }
+    ],
+    "permissions": [
+        "Administrator",
+        "User"
+    ]
+}

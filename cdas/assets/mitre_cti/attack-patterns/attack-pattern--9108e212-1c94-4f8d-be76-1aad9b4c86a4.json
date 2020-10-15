@@ -1,0 +1,30 @@
+{
+    "id": "attack-pattern--9108e212-1c94-4f8d-be76-1aad9b4c86a4",
+    "name": "Build social network persona",
+    "description": "For attacks incorporating social engineering the utilization of an on-line persona is important. These personas may be fictitious or impersonate real people. The persona may exist on a single site or across multiple sites ([Facebook](https://www.facebook.com), [LinkedIn](https://www.linkedin.com), [Twitter](https://twitter.com), [Google+](https://plus.google.com), etc.). (Citation: NEWSCASTER2014) (Citation: BlackHatRobinSage) (Citation: RobinSageInterview)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1341",
+            "external_id": "T1341"
+        },
+        {
+            "source_name": "NEWSCASTER2014",
+            "description": "Mike Lennon. (2014, May 29). Iranian Hackers Targeted US Officials in Elaborate Social Media Attack Operation. Retrieved March 1, 2017."
+        },
+        {
+            "source_name": "BlackHatRobinSage",
+            "description": "Thomas Ryan. (2010). \u201cGetting In Bed with Robin Sage.\u201d. Retrieved March 6, 2017."
+        },
+        {
+            "source_name": "RobinSageInterview",
+            "description": "Joan Goodchild. (2010, July 8). The Robin Sage experiment: Fake profile fools security pros. Retrieved March 6, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "persona-development"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--194bff4f-c218-40df-bea3-1ace715de8dd",
+    "name": "Identify technology usage patterns",
+    "description": "Technology usage patterns include identifying if users work offsite, connect remotely, or other possibly less restricted/secured access techniques. (Citation: SANSRemoteAccess)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1264",
+            "external_id": "T1264"
+        },
+        {
+            "source_name": "SANSRemoteAccess",
+            "description": "Jason Ragland. (2010, January 18). Remotely Accessing Sensitive Resources. Retrieved March 5, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "technical-information-gathering"
+        }
+    ]
+}

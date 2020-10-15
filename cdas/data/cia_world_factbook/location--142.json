@@ -1,0 +1,85 @@
+{
+    "id": "location--142",
+    "name": "Nauru",
+    "background": "The exact origins of the Nauruans are unclear since their language does not resemble any other in the Pacific region. Germany annexed the island in 1888. A German-British consortium began mining the island's phosphate deposits early in the 20th century. Australian forces occupied Nauru in World War I; it subsequently became a League of Nations mandate. After the Second World War - and a brutal occupation by Japan - Nauru became a UN trust territory. It achieved independence in 1968 and became one of the richest countries in the world because of its extensive phosphate stocks; however, the phosphate was depleted in the early 1980s and the quality of life began to decline. In 2001, an Australian offshore refugee processing center was opened in Nauru, providing an economic lifeline. Nauru is one of Taiwan's few remaining diplomatic partners, and in 2008, Nauru recognized the breakaway Georgian republics of Abkhazia and South Ossetia.",
+    "coordinates": "0 32 S, 166 55 E",
+    "region": "Oceania",
+    "total_area": "21 sq km",
+    "land_area": "21 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "tropical with a monsoonal pattern; rainy season (November to February)",
+    "coastline": "30 km",
+    "natural_hazards": [
+        "periodic droughts"
+    ],
+    "terrain": "sandy beach rises to fertile ring around raised coral reefs with phosphate plateau in center",
+    "population_distribution": "extensive phosphate mining made approximately 90% of the island unsuitable for farming; most people live in the fertile coastal areas, especially along the southwest coast",
+    "natural_resources": [
+        "phosphates",
+        "fish"
+    ],
+    "population": "11,000",
+    "nationality": "Nauruan(s)",
+    "ethnic_groups": {
+        "Nauruan": "88.9%",
+        "part Nauruan": "6.6%",
+        "I-Kiribati": "2%",
+        "other": "2.5%"
+    },
+    "languages": {
+        "Nauruan (official)": "93%",
+        "English": "2%",
+        "other": "5%"
+    },
+    "religions": {
+        "Protestant": "60.4%",
+        "Roman Catholic": "33%",
+        "other": "3.7%",
+        "none": "1.8%",
+        "unspecified": "1.1%"
+    },
+    "government_type": "parliamentary republic",
+    "national_symbols": "frigatebird, calophyllum flower",
+    "national_colors": [
+        "blue",
+        "yellow",
+        "white"
+    ],
+    "gdp": "$0.114 billion",
+    "agriculture": [
+        "coconuts"
+    ],
+    "industries": [
+        "phosphate mining",
+        "offshore banking",
+        "coconut products"
+    ],
+    "exports": [
+        "phosphates"
+    ],
+    "imports": [
+        "food",
+        "fuel",
+        "manufactures",
+        "building materials",
+        "machinery"
+    ],
+    "broadband_subscriptions": "Unknown",
+    "internet_users": "5,524",
+    "mobile_subscriptions": "9,900",
+    "internet_country_code": ".nr",
+    "military_and_security_forces": "no regular military forces",
+    "percent_GDP_on_military": "Unknown",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Nauru"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "1",
+    "international_disputes": "none",
+    "terrorism": "None/Unknown"
+}

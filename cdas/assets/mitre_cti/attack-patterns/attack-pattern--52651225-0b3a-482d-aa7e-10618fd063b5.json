@@ -1,0 +1,56 @@
+{
+    "id": "attack-pattern--52651225-0b3a-482d-aa7e-10618fd063b5",
+    "name": "Exploit SS7 to Track Device Location",
+    "description": "An adversary could exploit signaling system vulnerabilities to track the location of mobile devices. (Citation: Engel-SS7) (Citation: Engel-SS7-2008) (Citation: 3GPP-Security) (Citation: Positive-SS7) (Citation: CSRIC5-WG10-FinalReport)",
+    "references": [
+        {
+            "source_name": "mitre-mobile-attack",
+            "url": "https://attack.mitre.org/techniques/T1450",
+            "external_id": "T1450"
+        },
+        {
+            "url": "https://pages.nist.gov/mobile-threat-catalogue/cellular-threats/CEL-38.html",
+            "source_name": "NIST Mobile Threat Catalogue",
+            "external_id": "CEL-38"
+        },
+        {
+            "source_name": "Engel-SS7",
+            "description": "Tobias Engel. (2014, December). SS7: Locate. Track. Manipulate.. Retrieved December 19, 2016.",
+            "url": "https://berlin.ccc.de/~tobias/31c3-ss7-locate-track-manipulate.pdf"
+        },
+        {
+            "source_name": "Engel-SS7-2008",
+            "description": "Tobias Engel. (2008, December). Locating Mobile Phones using SS7. Retrieved December 19, 2016.",
+            "url": "https://www.youtube.com/watch?v=q0n5ySqbfdI"
+        },
+        {
+            "source_name": "3GPP-Security",
+            "description": "3GPP. (2000, January). A Guide to 3rd Generation Security. Retrieved December 19, 2016.",
+            "url": "http://www.3gpp.org/ftp/tsg_sa/wg3_security/_specs/33900-120.pdf"
+        },
+        {
+            "source_name": "Positive-SS7",
+            "description": "Positive Technologies. (n.d.). SS7 Attack Discovery. Retrieved December 19, 2016.",
+            "url": "https://www.ptsecurity.com/upload/ptcom/PT-SS7-AD-Data-Sheet-eng.pdf"
+        },
+        {
+            "source_name": "CSRIC5-WG10-FinalReport",
+            "description": "Communications Security, Reliability, Interoperability Council (CSRIC). (2017, March). Working Group 10 Legacy Systems Risk Reductions Final Report. Retrieved May 24, 2017.",
+            "url": "https://www.fcc.gov/files/csric5-wg10-finalreport031517pdf"
+        },
+        {
+            "source_name": "CSRIC-WG1-FinalReport",
+            "description": "CSRIC-WG1-FinalReport"
+        }
+    ],
+    "platforms": [
+        "Android",
+        "iOS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "network-effects"
+        }
+    ]
+}

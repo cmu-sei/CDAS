@@ -1,0 +1,37 @@
+{
+    "id": "attack-pattern--5b0ad6f8-6a16-4966-a4ef-d09ea6e2a9f5",
+    "name": "Remote Service Session Hijacking",
+    "description": "Adversaries may take control of preexisting sessions with remote services to move laterally in an environment. Users may use valid credentials to log into a service specifically designed to accept remote connections, such as telnet, SSH, and RDP. When a user logs into a service, a session will be established that will allow them to maintain a continuous interaction with that service.\n\nAdversaries may commandeer these sessions to carry out actions on remote systems. [Remote Service Session Hijacking](https://attack.mitre.org/techniques/T1563) differs from use of [Remote Services](https://attack.mitre.org/techniques/T1021) because it hijacks an existing session rather than creating a new session using [Valid Accounts](https://attack.mitre.org/techniques/T1078).(Citation: RDP Hijacking Medium)(Citation: Breach Post-mortem SSH Hijack)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1563",
+            "url": "https://attack.mitre.org/techniques/T1563"
+        },
+        {
+            "url": "https://medium.com/@networksecurity/rdp-hijacking-how-to-hijack-rds-and-remoteapp-sessions-transparently-to-move-through-an-da2a1e73a5f6",
+            "description": "Beaumont, K. (2017, March 19). RDP hijacking\u200a\u2014\u200ahow to hijack RDS and RemoteApp sessions transparently to move through an organisation. Retrieved December 11, 2017.",
+            "source_name": "RDP Hijacking Medium"
+        },
+        {
+            "source_name": "Breach Post-mortem SSH Hijack",
+            "url": "https://matrix.org/blog/2019/05/08/post-mortem-and-remediations-for-apr-11-security-incident",
+            "description": "Hodgson, M. (2019, May 8). Post-mortem and remediations for Apr 11 security incident. Retrieved February 17, 2020."
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "lateral-movement"
+        }
+    ],
+    "permissions": [
+        "SYSTEM",
+        "root"
+    ]
+}

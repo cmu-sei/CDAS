@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--ee40d054-6e83-4302-88dc-a3af98821d8d",
+    "name": "Analyze social and business relationships, interests, and affiliations",
+    "description": "Social media provides insight into the target's affiliations with groups and organizations.  Certification information can explain their technical associations and professional associations. Personal information can provide data for exploitation or even blackmail. (Citation: Scasny2015)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1295",
+            "external_id": "T1295"
+        },
+        {
+            "source_name": "Scasny2015",
+            "description": "Gregory Scasny. (2015, September 14). Understanding Open Source Intelligence (OSINT) and its relationship to Identity Theft. Retrieved March 1, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "people-weakness-identification"
+        }
+    ]
+}

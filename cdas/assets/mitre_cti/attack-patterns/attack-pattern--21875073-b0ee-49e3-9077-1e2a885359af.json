@@ -1,0 +1,31 @@
+{
+    "id": "attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
+    "name": "Domain Account",
+    "description": "Adversaries may attempt to get a listing of domain accounts. This information can help adversaries determine which domain accounts exist to aid in follow-on behavior.\n\nCommands such as <code>net user /domain</code> and <code>net group /domain</code> of the [Net](https://attack.mitre.org/software/S0039) utility, <code>dscacheutil -q group</code>on macOS, and <code>ldapsearch</code> on Linux can list domain users and groups.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1087.002",
+            "url": "https://attack.mitre.org/techniques/T1087/002"
+        },
+        {
+            "external_id": "CAPEC-575",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/575.html"
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "discovery"
+        }
+    ],
+    "permissions": [
+        "User"
+    ]
+}

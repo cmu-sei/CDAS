@@ -1,0 +1,23 @@
+{
+    "id": "tool--5a33468d-844d-4b1f-98c9-0e786c556b27",
+    "name": "MimiPenguin",
+    "description": "[MimiPenguin](https://attack.mitre.org/software/S0179) is a credential dumper, similar to [Mimikatz](https://attack.mitre.org/software/S0002), designed specifically for Linux platforms. (Citation: MimiPenguin GitHub May 2017)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/software/S0179",
+            "external_id": "S0179"
+        },
+        {
+            "source_name": "MimiPenguin GitHub May 2017",
+            "description": "Gregal, H. (2017, May 12). MimiPenguin. Retrieved December 5, 2017.",
+            "url": "https://github.com/huntergregal/mimipenguin"
+        }
+    ],
+    "aliases": [
+        "MimiPenguin"
+    ],
+    "platforms": [
+        "Linux"
+    ]
+}

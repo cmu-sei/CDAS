@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--2c8a9df4-52a9-4770-94b3-5e95ab7d59f9",
+    "name": "Leverage compromised 3rd party resources",
+    "description": "**This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.**\n\nThe utilization of resources not owned by the adversary to launch exploits or operations. This includes utilizing equipment that was previously compromised or leveraging access  gained by other methods (such as compromising an employee at a business partner location). (Citation: CitizenLabGreatCannon)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "external_id": "T1375",
+            "url": "https://attack.mitre.org/techniques/T1375"
+        },
+        {
+            "description": "Bill Marczak, Jakub Dalek, John Scott-Railton, Ron Deibert, Sarah McKune. (2015, April 10). China\u2019s Great Cannon. Retrieved March 9, 2017.",
+            "source_name": "CitizenLabGreatCannon"
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "launch"
+        }
+    ]
+}

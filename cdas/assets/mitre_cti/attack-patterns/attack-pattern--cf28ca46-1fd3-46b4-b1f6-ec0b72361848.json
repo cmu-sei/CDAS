@@ -1,0 +1,21 @@
+{
+    "id": "attack-pattern--cf28ca46-1fd3-46b4-b1f6-ec0b72361848",
+    "name": "File and Directory Discovery",
+    "description": "On Android, command line tools or the Java file APIs can be used to enumerate file system contents. However, Linux file permissions and SELinux policies generally strongly restrict what can be accessed by apps (without taking advantage of a privilege escalation exploit). The contents of the external storage directory are generally visible, which could present concern if sensitive data is inappropriately stored there.\n\niOS's security architecture generally restricts the ability to perform file and directory discovery without use of escalated privileges.",
+    "references": [
+        {
+            "source_name": "mitre-mobile-attack",
+            "url": "https://attack.mitre.org/techniques/T1420",
+            "external_id": "T1420"
+        }
+    ],
+    "platforms": [
+        "Android"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "discovery"
+        }
+    ]
+}

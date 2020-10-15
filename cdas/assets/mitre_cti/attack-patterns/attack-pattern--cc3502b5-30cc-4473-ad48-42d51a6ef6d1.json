@@ -1,0 +1,28 @@
+{
+    "id": "attack-pattern--cc3502b5-30cc-4473-ad48-42d51a6ef6d1",
+    "name": "Python",
+    "description": "Adversaries may abuse Python commands and scripts for execution. Python is a very popular scripting/programming language, with capabilities to perform many functions. Python can be executed interactively from the command-line (via the <code>python.exe</code> interpreter) or via scripts (.py) that can be written and distributed to different systems. Python code can also be compiled into binary executables.\n\nPython comes with many built-in packages to interact with the underlying system, such as file operations and device I/O. Adversaries can use these libraries to download and execute commands or other scripts as well as perform various malicious behaviors.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1059.006",
+            "url": "https://attack.mitre.org/techniques/T1059/006"
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "execution"
+        }
+    ],
+    "permissions": [
+        "Administrator",
+        "SYSTEM",
+        "root"
+    ]
+}

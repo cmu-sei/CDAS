@@ -1,0 +1,27 @@
+{
+    "id": "attack-pattern--d8940e76-f9c1-4912-bea6-e21c251370b6",
+    "name": "Capture Camera",
+    "description": "Adversaries may utilize the camera to capture information about the user, their surroundings, or other physical identifiers. Adversaries may use the physical camera devices on a mobile device to capture images or video. By default, in Android and iOS, an application must request permission to access a camera device which is granted by the user through a request prompt. In Android, applications must hold the `android.permission.CAMERA` permission to access the camera. In iOS, applications must include the `NSCameraUsageDescription` key in the `Info.plist` file, and must request access to the camera at runtime.",
+    "references": [
+        {
+            "external_id": "T1512",
+            "source_name": "mitre-mobile-attack",
+            "url": "https://attack.mitre.org/techniques/T1512"
+        },
+        {
+            "external_id": "APP-19",
+            "source_name": "NIST Mobile Threat Catalogue",
+            "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-19.html"
+        }
+    ],
+    "platforms": [
+        "Android",
+        "iOS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "collection"
+        }
+    ]
+}

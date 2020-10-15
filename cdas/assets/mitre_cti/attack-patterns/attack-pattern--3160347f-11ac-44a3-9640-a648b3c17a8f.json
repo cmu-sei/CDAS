@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--3160347f-11ac-44a3-9640-a648b3c17a8f",
+    "name": "Private whois services",
+    "description": "Every domain registrar maintains a publicly viewable database that displays contact information for every registered domain. Private 'whois' services display alternative information, such as their own company data, rather than the owner of the domain. (Citation: APT1)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1305",
+            "external_id": "T1305"
+        },
+        {
+            "source_name": "APT1",
+            "description": "Mandiant. (n.d.). APT1: Exposing One of China\u2019s Cyber Espionage Units. Retrieved March 5, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "adversary-opsec"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "id": "attack-pattern--c48a67ee-b657-45c1-91bf-6cdbe27205f8",
+    "name": "Regsvcs/Regasm",
+    "description": "Adversaries may abuse Regsvcs and Regasm to proxy execution of code through a trusted Windows utility. Regsvcs and Regasm are Windows command-line utilities that are used to register .NET [Component Object Model](https://attack.mitre.org/techniques/T1559/001) (COM) assemblies. Both are digitally signed by Microsoft. (Citation: MSDN Regsvcs) (Citation: MSDN Regasm)\n\nBoth utilities may be used to bypass application control through use of attributes within the binary to specify code that should be run before registration or unregistration: <code>[ComRegisterFunction]</code> or <code>[ComUnregisterFunction]</code> respectively. The code with the registration and unregistration attributes will be executed even if the process is run under insufficient privileges and fails to execute. (Citation: LOLBAS Regsvcs)(Citation: LOLBAS Regasm)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1218.009",
+            "url": "https://attack.mitre.org/techniques/T1218/009"
+        },
+        {
+            "source_name": "MSDN Regsvcs",
+            "description": "Microsoft. (n.d.). Regsvcs.exe (.NET Services Installation Tool). Retrieved July 1, 2016.",
+            "url": "https://msdn.microsoft.com/en-us/library/04za0hca.aspx"
+        },
+        {
+            "source_name": "MSDN Regasm",
+            "description": "Microsoft. (n.d.). Regasm.exe (Assembly Registration Tool). Retrieved July 1, 2016.",
+            "url": "https://msdn.microsoft.com/en-us/library/tzat5yw6.aspx"
+        },
+        {
+            "source_name": "LOLBAS Regsvcs",
+            "url": "https://lolbas-project.github.io/lolbas/Binaries/Regsvcs/",
+            "description": "LOLBAS. (n.d.). Regsvcs.exe. Retrieved July 31, 2019."
+        },
+        {
+            "source_name": "LOLBAS Regasm",
+            "url": "https://lolbas-project.github.io/lolbas/Binaries/Regasm/",
+            "description": "LOLBAS. (n.d.). Regasm.exe. Retrieved July 31, 2019."
+        }
+    ],
+    "platforms": [
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        }
+    ],
+    "permissions": [
+        "User",
+        "Administrator"
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "id": "attack-pattern--fd658820-cbba-4c95-8ac9-0fac6b1099e2",
+    "name": "Suppress Application Icon",
+    "description": "A malicious application could suppress its icon from being displayed to the user in the application launcher to hide the fact that it is installed, and to make it more difficult for the user to uninstall the application. Hiding the application's icon programmatically does not require any special permissions.\n\nThis behavior has been seen in the BankBot/Spy Banker family of malware.(Citation: android-trojan-steals-paypal-2fa)(Citation: sunny-stolen-credentials)(Citation: bankbot-spybanker)",
+    "references": [
+        {
+            "source_name": "mitre-mobile-attack",
+            "external_id": "T1508",
+            "url": "https://attack.mitre.org/techniques/T1508"
+        },
+        {
+            "description": "Luk\u00e1\u0161 \u0160tefanko. (2018, December 11). Android Trojan steals money from PayPal accounts even with 2FA on. Retrieved July 11, 2019.",
+            "url": "https://www.welivesecurity.com/2018/12/11/android-trojan-steals-money-paypal-accounts-2fa/",
+            "source_name": "android-trojan-steals-paypal-2fa"
+        },
+        {
+            "source_name": "sunny-stolen-credentials",
+            "url": "https://www.welivesecurity.com/2017/02/22/sunny-chance-stolen-credentials-malicious-weather-app-found-google-play/",
+            "description": "Luk\u00e1\u0161 \u0160tefanko. (2017, February 22). Sunny with a chance of stolen credentials: Malicious weather app found on Google Play. Retrieved July 11, 2019."
+        },
+        {
+            "source_name": "bankbot-spybanker",
+            "url": "https://www.cyber.nj.gov/threat-profiles/android-malware-variants/bankbot-spybanker",
+            "description": "NJCCIC. (2017, March 2). BankBot/Spy Banker. Retrieved July 11, 2019."
+        }
+    ],
+    "platforms": [
+        "Android"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "defense-evasion"
+        }
+    ]
+}

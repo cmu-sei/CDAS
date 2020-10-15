@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--e3b936a4-6321-4172-9114-038a866362ec",
+    "name": "Data Encrypted",
+    "description": "Data is encrypted before being exfiltrated in order to hide the information that is being exfiltrated from detection or to make the exfiltration less conspicuous upon inspection by a defender. The encryption is performed by a utility, programming library, or custom algorithm on the data itself and is considered separate from any encryption performed by the command and control or file transfer protocol. Common file formats that can encrypt files are RAR and zip.",
+    "references": [
+        {
+            "external_id": "T1532",
+            "source_name": "mitre-mobile-attack",
+            "url": "https://attack.mitre.org/techniques/T1532"
+        }
+    ],
+    "platforms": [
+        "Android",
+        "iOS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "exfiltration"
+        }
+    ]
+}

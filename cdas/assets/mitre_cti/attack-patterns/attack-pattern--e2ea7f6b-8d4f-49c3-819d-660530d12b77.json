@@ -1,0 +1,32 @@
+{
+    "id": "attack-pattern--e2ea7f6b-8d4f-49c3-819d-660530d12b77",
+    "name": "System Information Discovery",
+    "description": "An adversary may attempt to get detailed information about the operating system and hardware, including version, patches, and architecture.\n\nOn Android, much of this information is programmatically accessible to applications through the android.os.Build class.(Citation: Android-Build)\n\nOn iOS, techniques exist for applications to programmatically access this information.(Citation: StackOverflow-iOSVersion)",
+    "references": [
+        {
+            "source_name": "mitre-mobile-attack",
+            "external_id": "T1426",
+            "url": "https://attack.mitre.org/techniques/T1426"
+        },
+        {
+            "url": "https://developer.android.com/reference/android/os/Build",
+            "description": "Android. (n.d.). Build. Retrieved December 21, 2016.",
+            "source_name": "Android-Build"
+        },
+        {
+            "url": "http://stackoverflow.com/questions/7848766/how-can-we-programmatically-detect-which-ios-version-is-device-running-on",
+            "description": "Stack Overflow. (n.d.). How can we programmatically detect which iOS version is device running on?. Retrieved December 21, 2016.",
+            "source_name": "StackOverflow-iOSVersion"
+        }
+    ],
+    "platforms": [
+        "Android",
+        "iOS"
+    ],
+    "kill_chain": [
+        {
+            "phase_name": "discovery",
+            "kill_chain_name": "mitre-mobile-attack"
+        }
+    ]
+}

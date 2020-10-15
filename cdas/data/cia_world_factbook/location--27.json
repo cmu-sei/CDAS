@@ -1,0 +1,143 @@
+{
+    "id": "location--27",
+    "name": "Brazil",
+    "background": "Following more than three centuries under Portuguese rule, Brazil gained its independence in 1822, maintaining a monarchical system of government until the abolition of slavery in 1888 and the subsequent proclamation of a republic by the military in 1889. Brazilian coffee exporters politically dominated the country until populist leader Getulio VARGAS rose to power in 1930. By far the largest and most populous country in South America, Brazil underwent more than a half century of populist and military government until 1985, when the military regime peacefully ceded power to civilian rulers. Brazil continues to pursue industrial and agricultural growth and development of its interior. Having successfully weathered a period of global financial difficulty in the late 20th century, Brazil was seen as one of the world's strongest emerging markets and a contributor to global growth. The awarding of the 2014 FIFA World Cup and 2016 Summer Olympic Games, the first ever to be held in South America, was seen as symbolic of the country's rise. However, from about 2013 to 2016, Brazil was plagued by a sagging economy, high unemployment, and high inflation, only emerging from recession in 2017. Former President Dilma ROUSSEFF (2011-2016) was removed from office in 2016 by Congress for having committed impeachable acts against Brazil's budgetary laws, and her vice president, Michel TEMER, served the remainder of her second term. In October 2018, Jair BOLSONARO won the presidency with 55 percent of the vote and assumed office on 1 January 2019.",
+    "coordinates": "10 00 S, 55 00 W",
+    "region": "South America",
+    "total_area": "8,515,770 sq km",
+    "land_area": "8,358,140 sq km",
+    "water_area": "157,630 sq km",
+    "land_boundary": "16,145 km",
+    "neighbors": {
+        "Bolivia": "3403 km",
+        "Colombia": "1790 km",
+        "French Guiana": "649 km",
+        "Guyana": "1308 km",
+        "Paraguay": "1371 km",
+        "Peru": "2659 km",
+        "Suriname": "515 km",
+        "Uruguay": "1050 km",
+        "Venezuela": "2137 km"
+    },
+    "climate": "mostly tropical, but temperate in south",
+    "coastline": "7,491 km",
+    "natural_hazards": [
+        "recurring droughts in northeast",
+        "floods and occasional frost in south"
+    ],
+    "terrain": "mostly flat to rolling lowlands in north; some plains, hills, mountains, and narrow coastal belt",
+    "population_distribution": "the vast majority of people live along, or relatively near, the Atlantic coast in the east; the population core is in the southeast, anchored by the cities of Sao Paolo, Brasilia, and Rio de Janeiro",
+    "natural_resources": [
+        "alumina",
+        "bauxite",
+        "beryllium",
+        "gold",
+        "iron ore",
+        "manganese",
+        "nickel",
+        "niobium",
+        "phosphates",
+        "platinum",
+        "tantalum",
+        "tin",
+        "rare earth elements",
+        "uranium",
+        "petroleum",
+        "hydropower",
+        "timber"
+    ],
+    "population": "211,715,973",
+    "nationality": "Brazilian(s)",
+    "ethnic_groups": {
+        "white": "47.7%",
+        "mulatto": "43.1%",
+        "black": "7.6%",
+        "Asian": "1.1%",
+        "indigenous": "0.4%"
+    },
+    "languages": [
+        "Portuguese (official)"
+    ],
+    "religions": {
+        "Roman Catholic": "64.6%",
+        "other Catholic": "0.4%",
+        "Protestant": "22.2%",
+        "other Christian": "0.7%",
+        "Spiritist": "2.2%",
+        "other": "1.4%",
+        "none": "8%",
+        "unspecified": "0.4%"
+    },
+    "government_type": "federal presidential republic",
+    "national_symbols": "Southern Cross constellation",
+    "national_colors": [
+        "green",
+        "yellow",
+        "blue"
+    ],
+    "gdp": "$2,055 billion",
+    "agriculture": [
+        "coffee",
+        "soybeans",
+        "wheat",
+        "rice",
+        "corn",
+        "sugarcane",
+        "cocoa",
+        "citrus",
+        "beef"
+    ],
+    "industries": [
+        "textiles",
+        "shoes",
+        "chemicals",
+        "cement",
+        "lumber",
+        "iron ore",
+        "tin",
+        "steel",
+        "aircraft",
+        "motor vehicles and parts",
+        "other machinery and equipment"
+    ],
+    "exports": [
+        "transport equipment",
+        "iron ore",
+        "soybeans",
+        "footwear",
+        "coffee",
+        "automobiles"
+    ],
+    "imports": [
+        "machinery",
+        "electrical and transport equipment",
+        "chemical products",
+        "oil",
+        "automotive parts",
+        "electronics"
+    ],
+    "broadband_subscriptions": "31,233,004",
+    "internet_users": "140,908,998",
+    "mobile_subscriptions": "207,046,810",
+    "internet_country_code": ".br",
+    "military_and_security_forces": "Brazilian Armed Forces: Brazilian Army (Exercito Brasileiro, EB), Brazilian Navy (Marinha do Brasil, MB, includes Naval Aviation and Marine Corps (Corpo de Fuzileiros Navais)), Brazilian Air Force (Forca Aerea Brasileira, FAB); Public Security Forces",
+    "percent_GDP_on_military": "1.5%",
+    "pipelines": [
+        "5959 km refined petroleum product ",
+        "11696 km natural gas ",
+        "1985 km crude oil ",
+        "77 km ethanol/petrochemical"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Belem, Paranagua, Rio Grande, Rio de Janeiro, Santos, Sao Sebastiao, Tubarao",
+        "oil terminal(s)": "DTSE/Gegua oil terminal, Ilha Grande (Gebig), Guaiba Island terminal, Guamare oil terminal",
+        "container port(s) (TEUs)": "Santos (3,853,719)",
+        "LNG terminal(s) (import)": "Pecem, Rio de Janiero",
+        "river port(s)": "Manaus (Amazon)",
+        "dry bulk cargo port(s)": "Sepetiba ore terminal, Tubarao"
+    },
+    "waterways": "50,000 km",
+    "number_of_airports": "4,093",
+    "international_disputes": "uncontested boundary dispute between Brazil and Uruguay over Braziliera/Brasiliera Island in the Quarai/Cuareim River leaves the tripoint with Argentina in question; smuggling of firearms and narcotics continues to be an issue along the Uruguay-Brazil border; Colombian-organized illegal narcotics and paramilitary activities penetrate Brazil's border region with Venezuela",
+    "terrorism": "None/Unknown"
+}

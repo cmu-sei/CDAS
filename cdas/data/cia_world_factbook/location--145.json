@@ -1,0 +1,98 @@
+{
+    "id": "location--145",
+    "name": "New Caledonia",
+    "background": "Settled by both Britain and France during the first half of the 19th century, the island became a French possession in 1853. It served as a penal colony for four decades after 1864. Agitation for independence during the 1980s and early 1990s ended in the 1998 Noumea Accord, which over two decades transferred an increasing amount of governing responsibility from France to New Caledonia. In a referendum held in November 2018, residents rejected independence and decided to retain their territorial status, although two additional referendums may occur in 2020 and 2022, per the Noumea\u00a0Accord.",
+    "coordinates": "21 30 S, 165 30 E",
+    "region": "Oceania",
+    "total_area": "18,575 sq km",
+    "land_area": "18,275 sq km",
+    "water_area": "300 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "tropical; modified by southeast trade winds; hot, humid",
+    "coastline": "2,254 km",
+    "natural_hazards": [
+        "cyclones, most frequent from November to March",
+        "volcanism: Matthew and Hunter Islands are historically active"
+    ],
+    "terrain": "coastal plains with interior mountains",
+    "population_distribution": "most of the populace lives in the southern part of the main island, in and around the capital of Noumea",
+    "natural_resources": [
+        "nickel",
+        "chrome",
+        "iron",
+        "cobalt",
+        "manganese",
+        "silver",
+        "gold",
+        "lead",
+        "copper"
+    ],
+    "population": "290,009",
+    "nationality": "New Caledonian(s)",
+    "ethnic_groups": {
+        "Kanak": "39.1%",
+        "European": "27.1%",
+        "Wallisian": "",
+        "Futunian": "8.2%",
+        "Tahitian": "2.1%",
+        "Indonesian": "1.4%",
+        "Ni-Vanuatu": "1%",
+        "Vietnamese": "0.9%",
+        "other": "17.7%",
+        "unspecified": "2.5%"
+    },
+    "languages": [
+        "French (official)",
+        "33 Melanesian-Polynesian dialects"
+    ],
+    "religions": {
+        "Roman Catholic": "60%",
+        "Protestant": "30%",
+        "other": "10%"
+    },
+    "government_type": "parliamentary democracy (Territorial Congress); an overseas collectivity of France",
+    "national_symbols": "fleche faitiere (native rooftop adornment), kagu bird",
+    "national_colors": [
+        "gray",
+        "red"
+    ],
+    "gdp": "$9.77 billion",
+    "agriculture": [
+        "vegetables",
+        "beef",
+        "venison",
+        "other livestock products",
+        "fish"
+    ],
+    "industries": [
+        "nickel mining and smelting"
+    ],
+    "exports": [
+        "ferronickels",
+        "nickel ore",
+        "fish"
+    ],
+    "imports": [
+        "machinery and equipment",
+        "fuels",
+        "chemicals",
+        "foodstuffs"
+    ],
+    "broadband_subscriptions": "Unknown",
+    "internet_users": "231,887",
+    "mobile_subscriptions": "246,000",
+    "internet_country_code": ".nc",
+    "military_and_security_forces": "no regular military forces; France bases land, air, and naval forces on New Caledonia (Forces Arm\u00e9es de la Nouvelle-Cal\u00e9donie, FANC)",
+    "percent_GDP_on_military": "Unknown",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Noumea"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "25",
+    "international_disputes": "Matthew and Hunter Islands east of New Caledonia claimed by France and Vanuatu",
+    "terrorism": "None/Unknown"
+}

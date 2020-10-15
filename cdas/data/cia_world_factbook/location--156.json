@@ -1,0 +1,135 @@
+{
+    "id": "location--156",
+    "name": "Papua New Guinea",
+    "background": "The eastern half of the island of New Guinea - second largest in the world - was divided between Germany (north) and the UK (south) in 1885. The latter area was transferred to Australia in 1902, which occupied the northern portion during World War I and continued to administer the combined areas until independence in 1975. A nine-year secessionist revolt on the island of Bougainville ended in 1997 after claiming some 20,000 lives. Since 2001, Bougainville has experienced autonomy; a referendum asking the population if they would like independence or greater\u00a0self rule occurred in November 2019, with almost 98% of voters choosing independence.",
+    "coordinates": "6 00 S, 147 00 E",
+    "region": "Oceania",
+    "total_area": "462,840 sq km",
+    "land_area": "452,860 sq km",
+    "water_area": "9,980 sq km",
+    "land_boundary": "824 km",
+    "neighbors": {},
+    "climate": "tropical; northwest monsoon (December to March), southeast monsoon (May to October); slight seasonal temperature variation",
+    "coastline": "5,152 km",
+    "natural_hazards": [
+        "active volcanism",
+        "the country is subject to frequent and sometimes severe earthquakes",
+        "mud slides",
+        "tsunamis",
+        "volcanism: severe volcanic activity; Ulawun (2,334 m), one of Papua New Guinea's potentially most dangerous volcanoes, has been deemed a Decade Volcano by the International Association of Volcanology and Chemistry of the Earth's Interior, worthy of study due to its explosive history and close proximity to human populations; Rabaul (688 m) destroyed the city of Rabaul in 1937 and 1994; Lamington erupted in 1951 killing 3,000 people; Manam's 2004 eruption forced the island's abandonment; other historically active volcanoes include Bam, Bagana, Garbuna, Karkar, Langila, Lolobau, Long Island, Pago, St. Andrew Strait, Victory, and Waiowa; see note 2 under \"Geography - note\""
+    ],
+    "terrain": "mostly mountains with coastal lowlands and rolling foothills",
+    "population_distribution": "population concentrated in the highlands and eastern coastal areas on the island of New Guinea; predominantly a rural distribution with only about one-fifth of the population residing in urban areas",
+    "natural_resources": [
+        "gold",
+        "copper",
+        "silver",
+        "natural gas",
+        "timber",
+        "oil",
+        "fisheries"
+    ],
+    "population": "7,259,456",
+    "nationality": "Papua New Guinean(s)",
+    "ethnic_groups": [
+        "Melanesian",
+        "Papuan",
+        "Negrito",
+        "Micronesian",
+        "Polynesian"
+    ],
+    "languages": [
+        "Tok Pisin (official)",
+        "English (official)",
+        "Hiri Motu (official)",
+        "some 839 indigenous languages spoken; many languages have fewer than 1,000 speakers"
+    ],
+    "religions": {
+        "Protestant": "64.3%",
+        "Roman Catholic": "26%",
+        "other Christian": "5.3%",
+        "non-Christian": "1.4%",
+        "unspecified": "3.1%"
+    },
+    "government_type": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
+    "national_symbols": "bird of paradise",
+    "national_colors": [
+        "red",
+        "black"
+    ],
+    "gdp": "$19.82 billion",
+    "agriculture": [
+        "coffee",
+        "cocoa",
+        "copra",
+        "palm kernels",
+        "tea",
+        "sugar",
+        "rubber",
+        "sweet potatoes",
+        "fruit",
+        "vegetables",
+        "vanilla",
+        "poultry",
+        "pork",
+        "shellfish"
+    ],
+    "industries": [
+        "copra crushing",
+        "palm oil processing",
+        "plywood production",
+        "wood chip production",
+        "mining (gold, silver, copper)",
+        "crude oil and petroleum products",
+        "construction",
+        "tourism",
+        "livestock (pork, poultry, cattle)",
+        "dairy products",
+        "spice products (turmeric, vanilla, ginger, cardamom, chili, pepper, citronella, and nutmeg)",
+        "fisheries products"
+    ],
+    "exports": [
+        "liquefied natural gas",
+        "oil",
+        "gold",
+        "copper ore",
+        "nickel",
+        "cobalt logs",
+        "palm oil",
+        "coffee",
+        "cocoa",
+        "copra",
+        "spice (turmeric",
+        "vanilla",
+        "ginger",
+        "cardamom)",
+        "crayfish",
+        "prawns",
+        "tuna",
+        "sea cucumber"
+    ],
+    "imports": [
+        "machinery and transport equipment",
+        "manufactured goods",
+        "food",
+        "fuels",
+        "chemicals"
+    ],
+    "broadband_subscriptions": "17,000",
+    "internet_users": "787,764",
+    "mobile_subscriptions": "3,782,000",
+    "internet_country_code": ".pg",
+    "military_and_security_forces": "Papua New Guinea Defense Force (PNGDF, includes land, maritime, and air elements)",
+    "percent_GDP_on_military": "0.27%",
+    "pipelines": [
+        "264 km oil"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Kimbe, Lae, Madang, Rabaul, Wewak",
+        "LNG terminal(s) (export)": "Port Moresby"
+    },
+    "waterways": "11,000 km",
+    "number_of_airports": "561",
+    "international_disputes": "relies on assistance from Australia to keep out illegal cross-border activities from primarily Indonesia, including goods smuggling, illegal narcotics trafficking, and squatters and secessionists",
+    "terrorism": "None/Unknown"
+}

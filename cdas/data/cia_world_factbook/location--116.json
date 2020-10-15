@@ -1,0 +1,105 @@
+{
+    "id": "location--116",
+    "name": "Lesotho",
+    "background": "Paramount chief MOSHOESHOE I consolidated what would become Basutoland in the early 19th century and made himself king in 1822. Continuing encroachments by Dutch settlers from the neighboring Orange Free State caused the king to enter into an 1868 agreement with the UK by which Basutoland became a British protectorate, and after 1884, a crown colony. Upon independence in 1966, the country was renamed the Kingdom of Lesotho. The Basotho National Party ruled the country during its first two decades. King MOSHOESHOE II was exiled in 1990, but returned to Lesotho in 1992 and was reinstated in 1995 and subsequently succeeded by his son, King LETSIE III, in 1996. Constitutional government was restored in 1993 after seven years of military rule. In 1998, violent protests and a military mutiny following a contentious election prompted a brief but bloody intervention by South African and Botswana military forces under the aegis of the Southern African Development Community. Subsequent constitutional reforms restored relative political stability. Peaceful parliamentary elections were held in 2002, but the National Assembly elections in 2007 were hotly contested and aggrieved parties disputed how the electoral law was applied to award proportional seats in the Assembly. In 2012, competitive elections involving 18 parties saw Prime Minister Motsoahae Thomas THABANE form a coalition government - the first in the country's history - that ousted the 14-year incumbent, Pakalitha MOSISILI, who peacefully transferred power the following month. MOSISILI returned to power in snap elections in February 2015 after the collapse of THABANE's coalition government and an alleged attempted military coup. In June 2017, THABANE returned to become prime minister.",
+    "coordinates": "29 30 S, 28 30 E",
+    "region": "Africa",
+    "total_area": "30,355 sq km",
+    "land_area": "30,355 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "1,106 km",
+    "neighbors": {},
+    "climate": "temperate; cool to cold, dry winters; hot, wet summers",
+    "coastline": "0 km",
+    "natural_hazards": [
+        "periodic droughts"
+    ],
+    "terrain": "mostly highland with plateaus, hills, and mountains",
+    "population_distribution": "relatively higher population density in the western half of the nation, with the capital of Maseru, and the smaller cities of Mafeteng, Teyateyaneng, and Leribe attracting the most people as shown in this population distribution map",
+    "natural_resources": [
+        "water",
+        "agricultural and grazing land",
+        "diamonds",
+        "sand",
+        "clay",
+        "building stone"
+    ],
+    "population": "1,969,334",
+    "nationality": "Mosotho (singular), Basotho (plural)",
+    "ethnic_groups": {
+        "Sotho": "99.7%",
+        "Europeans": "",
+        "Asians": "",
+        "and other": "0.3%"
+    },
+    "languages": [
+        "Sesotho (official)",
+        "English (official)",
+        "Zulu",
+        "Xhosa"
+    ],
+    "religions": {
+        "Protestant": "47.8%",
+        "Roman Catholic": "39.3%",
+        "other Christian": "9.1%",
+        "non-Christian": "1.4%",
+        "none": "2.3%"
+    },
+    "government_type": "parliamentary constitutional monarchy",
+    "national_symbols": "mokorotio (Basotho hat)",
+    "national_colors": [
+        "blue",
+        "white",
+        "green",
+        "black"
+    ],
+    "gdp": "$2.749 billion",
+    "agriculture": [
+        "corn",
+        "wheat",
+        "pulses",
+        "sorghum",
+        "barley",
+        "livestock"
+    ],
+    "industries": [
+        "food",
+        "beverages",
+        "textiles",
+        "apparel assembly",
+        "handicrafts",
+        "construction",
+        "tourism"
+    ],
+    "exports": [
+        "manufactures (clothing",
+        "footwear)",
+        "wool and mohair",
+        "food and live animals",
+        "electricity",
+        "water",
+        "diamonds"
+    ],
+    "imports": [
+        "food",
+        "building materials",
+        "vehicles",
+        "machinery",
+        "medicines",
+        "petroleum products"
+    ],
+    "broadband_subscriptions": "5,763",
+    "internet_users": "569,114",
+    "mobile_subscriptions": "2,380,804",
+    "internet_country_code": ".ls",
+    "military_and_security_forces": "Lesotho Defense Force (LDF): Army (includes Air Wing)",
+    "percent_GDP_on_military": "1.5%",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": "Unknown",
+    "waterways": "Unknown",
+    "number_of_airports": "24",
+    "international_disputes": "South Africa has placed military units to assist police operations along the border of Lesotho, Zimbabwe, and Mozambique to control smuggling, poaching, and illegal migration",
+    "terrorism": "None/Unknown"
+}

@@ -1,0 +1,36 @@
+{
+    "id": "attack-pattern--0708ae90-d0eb-4938-9a76-d0fc94f6eec1",
+    "name": "Revert Cloud Instance",
+    "description": "An adversary may revert changes made to a cloud instance after they have performed malicious activities in attempt to evade detection and remove evidence of their presence. In highly virtualized environments, such as cloud-based infrastructure, this may be accomplished by restoring virtual machine (VM) or data storage snapshots through the cloud management dashboard or cloud APIs.\n\nAnother variation of this technique is to utilize temporary storage attached to the compute instance. Most cloud providers provide various types of storage including persistent, local, and/or ephemeral, with the ephemeral types often reset upon stop/restart of the VM.(Citation: Tech Republic - Restore AWS Snapshots)(Citation: Google - Restore Cloud Snapshot)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1578.004",
+            "url": "https://attack.mitre.org/techniques/T1578/004"
+        },
+        {
+            "source_name": "Tech Republic - Restore AWS Snapshots",
+            "url": "https://www.techrepublic.com/blog/the-enterprise-cloud/backing-up-and-restoring-snapshots-on-amazon-ec2-machines/",
+            "description": "Hardiman, N.. (2012, March 20). Backing up and restoring snapshots on Amazon EC2 machines. Retrieved October 8, 2019."
+        },
+        {
+            "source_name": "Google - Restore Cloud Snapshot",
+            "url": "https://cloud.google.com/compute/docs/disks/restore-and-delete-snapshots",
+            "description": "Google. (2019, October 7). Restoring and deleting persistent disk snapshots. Retrieved October 8, 2019."
+        }
+    ],
+    "platforms": [
+        "AWS",
+        "GCP",
+        "Azure"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        }
+    ],
+    "permissions": [
+        "User"
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "id": "location--168",
+    "name": "Saint Lucia",
+    "background": "The island, with its fine natural harbor at Castries and burgeoning sugar industry, was contested between England and France throughout the 17th and early 18th centuries (changing possession 14 times); it was finally ceded to the UK in 1814 and became part of the British Windward Islands colony. Even after the abolition of slavery on its plantations in 1834, Saint Lucia remained an agricultural island, dedicated to producing tropical commodity crops. In the mid-20th century, Saint Lucia joined the West Indies Federation (1958\u20131962) and in 1967 became one of the six members of the West Indies Associated States, with internal self-government. In 1979, Saint Lucia gained full independence.",
+    "coordinates": "13 53 N, 60 58 W",
+    "region": "Central America and the Caribbean",
+    "total_area": "616 sq km",
+    "land_area": "606 sq km",
+    "water_area": "10 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "tropical, moderated by northeast trade winds; dry season January to April, rainy season May to August",
+    "coastline": "158 km",
+    "natural_hazards": [
+        "hurricanes",
+        "volcanism: Mount Gimie (948 m), also known as Qualibou, is a caldera on the west of the island; the iconic twin pyramidal peaks of Gros Piton (771 m) and Petit Piton (743 m) are lava dome remnants associated with the Soufriere volcano; there have been no historical magmatic eruptions, but a minor steam eruption in 1766 spread a thin layer of ash over a wide area; Saint Lucia is part of the volcanic island arc of the Lesser Antilles that extends from Saba in the north to Grenada in the south"
+    ],
+    "terrain": "volcanic and mountainous with broad, fertile valleys",
+    "population_distribution": "most of the population is found on the periphery of the island, with a larger concentration in the north around the capital of Castries",
+    "natural_resources": [
+        "forests",
+        "sandy beaches",
+        "minerals (pumice)",
+        "mineral springs",
+        "geothermal potential"
+    ],
+    "population": "166,487",
+    "nationality": "Saint Lucian(s)",
+    "ethnic_groups": {
+        "black/African descent": "85.3%",
+        "mixed": "10.9%",
+        "East Indian": "2.2%",
+        "other": "1.6%",
+        "unspecified": "0.1%"
+    },
+    "languages": [
+        "English (official)",
+        "French patois"
+    ],
+    "religions": {
+        "Roman Catholic": "61.5%",
+        "Protestant": "25.5%",
+        "other Christian": "3.4%",
+        "Rastafarian": "1.9%",
+        "other": "0.4%",
+        "none": "5.9%",
+        "unspecified": "1.4%"
+    },
+    "government_type": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
+    "national_symbols": "twin pitons (volcanic peaks), Saint Lucia parrot",
+    "national_colors": [
+        "cerulean blue",
+        "gold",
+        "black",
+        "white"
+    ],
+    "gdp": "$1.686 billion",
+    "agriculture": [
+        "bananas",
+        "coconuts",
+        "vegetables",
+        "citrus",
+        "root crops",
+        "cocoa"
+    ],
+    "industries": [
+        "tourism",
+        "clothing",
+        "assembly of electronic components",
+        "beverages",
+        "corrugated cardboard boxes",
+        "lime processing",
+        "coconut processing"
+    ],
+    "exports": [
+        "bananas",
+        "clothing",
+        "cocoa",
+        "avocados",
+        "mangoes",
+        "coconut oil"
+    ],
+    "imports": [
+        "food",
+        "manufactured goods",
+        "machinery and transportation equipment",
+        "chemicals",
+        "fuels"
+    ],
+    "broadband_subscriptions": "32,265",
+    "internet_users": "84,112",
+    "mobile_subscriptions": "184,944",
+    "internet_country_code": ".lc",
+    "military_and_security_forces": "no regular military forces; Royal Saint Lucia Police Force (includes Special Service Unit, Marine Unit)",
+    "percent_GDP_on_military": "Unknown",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Castries, Cul-de-Sac, Vieux-Fort"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "2",
+    "international_disputes": "joins other Caribbean states to counter Venezuela's claim that Aves Island sustains human habitation, a criterion under UN Convention on the Law of the Sea, which permits Venezuela to extend its EEZ/continental shelf over a large portion of the eastern Caribbean Sea",
+    "terrorism": "None/Unknown"
+}

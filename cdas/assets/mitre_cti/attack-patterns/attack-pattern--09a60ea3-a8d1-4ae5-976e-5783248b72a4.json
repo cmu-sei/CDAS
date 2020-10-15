@@ -1,0 +1,43 @@
+{
+    "id": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
+    "name": "Keylogging",
+    "description": "Adversaries may log user keystrokes to intercept credentials as the user types them. Keylogging is likely to be used to acquire credentials for new access opportunities when [OS Credential Dumping](https://attack.mitre.org/techniques/T1003) efforts are not effective, and may require an adversary to intercept keystrokes on a system for a substantial period of time before credentials can be successfully captured.\n\nKeylogging is the most prevalent type of input capture, with many different ways of intercepting keystrokes.(Citation: Adventures of a Keystroke) Some methods include:\n\n* Hooking API callbacks used for processing keystrokes. Unlike [Credential API Hooking](https://attack.mitre.org/techniques/T1056/004), this focuses solely on API functions intended for processing keystroke data.\n* Reading raw keystroke data from the hardware buffer.\n* Windows Registry modifications.\n* Custom drivers.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1056.001",
+            "url": "https://attack.mitre.org/techniques/T1056/001"
+        },
+        {
+            "external_id": "CAPEC-568",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/568.html"
+        },
+        {
+            "url": "http://opensecuritytraining.info/Keylogging_files/The%20Adventures%20of%20a%20Keystroke.pdf",
+            "description": "Tinaztepe,  E. (n.d.). The Adventures of a Keystroke:  An in-depth look into keyloggers on Windows. Retrieved April 27, 2016.",
+            "source_name": "Adventures of a Keystroke"
+        }
+    ],
+    "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "collection"
+        },
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "credential-access"
+        }
+    ],
+    "permissions": [
+        "Administrator",
+        "root",
+        "SYSTEM",
+        "User"
+    ]
+}

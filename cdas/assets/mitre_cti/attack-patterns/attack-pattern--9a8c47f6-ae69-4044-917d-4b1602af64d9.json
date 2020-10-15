@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--9a8c47f6-ae69-4044-917d-4b1602af64d9",
+    "name": "Choose pre-compromised persona and affiliated accounts",
+    "description": "For attacks incorporating social engineering the utilization of an on-line persona is important. Utilizing an existing persona with compromised accounts may engender a level of trust in a potential victim if they have a relationship, or knowledge of, the compromised persona. (Citation: AnonHBGary) (Citation: Hacked Social Media Accounts)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1343",
+            "external_id": "T1343"
+        },
+        {
+            "source_name": "AnonHBGary",
+            "description": "PETER BRIGHT. (2011, February 15). Anonymous speaks: the inside story of the HBGary hack. Retrieved March 9, 2017."
+        },
+        {
+            "source_name": "Hacked Social Media Accounts",
+            "description": "Marcus Habert. (2015, November 8). What Happens to Hacked Social Media Accounts. Retrieved March 28, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "persona-development"
+        }
+    ]
+}

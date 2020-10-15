@@ -1,0 +1,34 @@
+{
+    "id": "attack-pattern--4ab929c6-ee2d-4fb5-aab4-b14be2ed7179",
+    "name": "Shortcut Modification",
+    "description": "Adversaries may create or edit shortcuts to run a program during system boot or user login. Shortcuts or symbolic links are ways of referencing other files or programs that will be opened or executed when the shortcut is clicked or executed by a system startup process.\n\nAdversaries could use shortcuts to execute their tools for persistence. They may create a new shortcut as a means of indirection that may use [Masquerading](https://attack.mitre.org/techniques/T1036) to look like a legitimate program. Adversaries could also edit the target path or entirely replace an existing shortcut so their tools will be executed instead of the intended legitimate program.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1547.009",
+            "url": "https://attack.mitre.org/techniques/T1547/009"
+        },
+        {
+            "external_id": "CAPEC-132",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/132.html"
+        }
+    ],
+    "platforms": [
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "persistence"
+        },
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "privilege-escalation"
+        }
+    ],
+    "permissions": [
+        "Administrator",
+        "User"
+    ]
+}

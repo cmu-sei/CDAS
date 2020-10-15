@@ -1,0 +1,92 @@
+{
+    "id": "location--38",
+    "name": "Cayman Islands",
+    "background": "The Cayman Islands were colonized from Jamaica by the British during the 18th and 19th centuries and were administered by Jamaica after 1863. In 1959, the islands became a territory within the Federation of the West Indies. When the Federation dissolved in 1962, the Cayman Islands chose to remain a British dependency. The territory has transformed itself into a significant offshore financial center.",
+    "coordinates": "19 30 N, 80 30 W",
+    "region": "Central America and the Caribbean",
+    "total_area": "264 sq km",
+    "land_area": "264 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "tropical marine; warm, rainy summers (May to October) and cool, relatively dry winters (November to April)",
+    "coastline": "160 km",
+    "natural_hazards": [
+        "hurricanes (July to November)"
+    ],
+    "terrain": "low-lying limestone base surrounded by coral reefs",
+    "population_distribution": "majority of the population resides on Grand Cayman",
+    "natural_resources": [
+        "fish",
+        "climate and beaches that foster tourism"
+    ],
+    "population": "61,944",
+    "nationality": "Caymanian(s)",
+    "ethnic_groups": {
+        "mixed": "40%",
+        "white": "20%",
+        "black": "20%",
+        "expatriates of various ethnic groups": "20%"
+    },
+    "languages": {
+        "English (official)": "90.9%",
+        "Spanish": "4%",
+        "Filipino": "3.3%",
+        "other": "1.7%",
+        "unspecified": "0.1%"
+    },
+    "religions": {
+        "Protestant": "67.8%",
+        "Roman Catholic": "14.1%",
+        "Jehovah's Witness": "1.1%",
+        "other": "7%",
+        "none": "9.3%",
+        "unspecified": "0.7%"
+    },
+    "government_type": "parliamentary democracy; self-governing overseas territory of the UK",
+    "national_symbols": "green sea turtle",
+    "national_colors": [
+        "red",
+        "white"
+    ],
+    "gdp": "$2.25 billion",
+    "agriculture": [
+        "vegetables",
+        "fruit",
+        "livestock",
+        "turtle farming"
+    ],
+    "industries": [
+        "tourism",
+        "banking",
+        "insurance and finance",
+        "construction",
+        "construction materials",
+        "furniture"
+    ],
+    "exports": [
+        "turtle products",
+        "manufactured consumer goods"
+    ],
+    "imports": [
+        "foodstuffs",
+        "manufactured goods",
+        "fuels"
+    ],
+    "broadband_subscriptions": "24,535",
+    "internet_users": "48,328",
+    "mobile_subscriptions": "95,656",
+    "internet_country_code": ".ky",
+    "military_and_security_forces": "no regular military forces; Royal Cayman Islands Police Service",
+    "percent_GDP_on_military": "Unknown",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Cayman Brac, George Town"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "3",
+    "international_disputes": "none",
+    "terrorism": "None/Unknown"
+}

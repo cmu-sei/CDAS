@@ -1,0 +1,44 @@
+{
+    "id": "attack-pattern--f3c544dc-673c-4ef3-accb-53229f1ae077",
+    "name": "System Time Discovery",
+    "description": "An adversary may gather the system time and/or time zone from a local or remote system. The system time is set and stored by the Windows Time Service within a domain to maintain time synchronization between systems and services in an enterprise network. (Citation: MSDN System Time) (Citation: Technet Windows Time Service)\n\nSystem time information may be gathered in a number of ways, such as with [Net](https://attack.mitre.org/software/S0039) on Windows by performing <code>net time \\\\hostname</code> to gather the system time on a remote system. The victim's time zone may also be inferred from the current system time or gathered by using <code>w32tm /tz</code>. (Citation: Technet Windows Time Service) The information could be useful for performing other techniques, such as executing a file with a [Scheduled Task/Job](https://attack.mitre.org/techniques/T1053) (Citation: RSA EU12 They're Inside), or to discover locality information based on time zone to assist in victim targeting.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1124",
+            "url": "https://attack.mitre.org/techniques/T1124"
+        },
+        {
+            "external_id": "CAPEC-295",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/295.html"
+        },
+        {
+            "url": "https://msdn.microsoft.com/ms724961.aspx",
+            "description": "Microsoft. (n.d.). System Time. Retrieved November 25, 2016.",
+            "source_name": "MSDN System Time"
+        },
+        {
+            "url": "https://technet.microsoft.com/windows-server-docs/identity/ad-ds/get-started/windows-time-service/windows-time-service-tools-and-settings",
+            "description": "Mathers, B. (2016, September 30). Windows Time Service Tools and Settings. Retrieved November 25, 2016.",
+            "source_name": "Technet Windows Time Service"
+        },
+        {
+            "url": "https://www.rsaconference.com/writable/presentations/file_upload/ht-209_rivner_schwartz.pdf",
+            "description": "Rivner, U., Schwartz, E. (2012). They\u2019re Inside\u2026 Now What?. Retrieved November 25, 2016.",
+            "source_name": "RSA EU12 They're Inside"
+        }
+    ],
+    "platforms": [
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "discovery"
+        }
+    ],
+    "permissions": [
+        "User"
+    ]
+}

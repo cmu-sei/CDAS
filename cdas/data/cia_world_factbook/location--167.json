@@ -1,0 +1,101 @@
+{
+    "id": "location--167",
+    "name": "Saint Kitts and Nevis",
+    "background": "Carib Indians occupied the islands of the West Indies for hundreds of years before the British and French began settlement in 1623. During the course of 17th century, Saint Kitts became the premier base for English and French expansion into the Caribbean. The French ceded the territory to the UK in 1713. At the turn of the 18th century, Saint Kitts was the richest British Crown Colony per capita in the Caribbean, a result of the sugar trade. Although small in size and separated by only 3 km (2 mi) of water, Saint Kitts and Nevis were viewed and governed as different states until the late-19th century, when the British forcibly unified them along with the island of Anguilla. In 1967, the island territory of Saint Christopher-Nevis-Anguilla became an associated state of the UK with full internal autonomy. The island of Anguilla rebelled and was allowed to secede in 1971. The remaining islands achieved independence in 1983 as Saint Kitts and Nevis. In 1998, a referendum on Nevis to separate from Saint Kitts fell short of the two-thirds majority vote needed.",
+    "coordinates": "17 20 N, 62 45 W",
+    "region": "Central America and the Caribbean",
+    "total_area": "261 sq km",
+    "land_area": "261 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "tropical, tempered by constant sea breezes; little seasonal temperature variation; rainy season (May to November)",
+    "coastline": "135 km",
+    "natural_hazards": [
+        "hurricanes (July to October)",
+        "volcanism: Mount Liamuiga (1,156 m) on Saint Kitts, and Nevis Peak (985 m) on Nevis, are both volcanoes that are part of the volcanic island arc of the Lesser Antilles, which extends from Saba in the north to Grenada in the south"
+    ],
+    "terrain": "volcanic with mountainous interiors",
+    "population_distribution": "population clusters are found in the small towns located on the periphery of both islands",
+    "natural_resources": [
+        "arable land"
+    ],
+    "population": "53,821",
+    "nationality": "Kittitian(s), Nevisian(s)",
+    "ethnic_groups": {
+        "African descent": "92.5%",
+        "mixed": "3%",
+        "white": "2.1%",
+        "East Indian": "1.5%",
+        "other": ".6%",
+        "unspecified": ".3%"
+    },
+    "languages": [
+        "English (official)"
+    ],
+    "religions": {
+        "Protestant": "74.4%",
+        "Roman Catholic": "6.7%",
+        "Rastafarian": "1.7%",
+        "Jehovah's Witness": "1.3%",
+        "other": "7.6%",
+        "none": "5.2%",
+        "unspecified": "3.2%"
+    },
+    "government_type": "federal parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
+    "national_symbols": "brown pelican, royal poinciana (flamboyant) tree",
+    "national_colors": [
+        "green",
+        "yellow",
+        "red",
+        "black",
+        "white"
+    ],
+    "gdp": "$0.964 billion",
+    "agriculture": [
+        "sugarcane",
+        "rice",
+        "yams",
+        "vegetables",
+        "bananas",
+        "fish"
+    ],
+    "industries": [
+        "tourism",
+        "cotton",
+        "salt",
+        "copra",
+        "clothing",
+        "footwear",
+        "beverages"
+    ],
+    "exports": [
+        "machinery",
+        "food",
+        "electronics",
+        "beverages",
+        "tobacco"
+    ],
+    "imports": [
+        "machinery",
+        "manufactures",
+        "food",
+        "fuels"
+    ],
+    "broadband_subscriptions": "16,400",
+    "internet_users": "42,852",
+    "mobile_subscriptions": "76,878",
+    "internet_country_code": ".kn",
+    "military_and_security_forces": "Ministry of Foreign Affairs, National Security, Labour, Immigration, and Social Security: Royal Saint Kitts and Nevis Defense Force (includes Coast Guard), Royal Saint Kitts and Nevis Police Force",
+    "percent_GDP_on_military": "Unknown",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Basseterre, Charlestown"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "2",
+    "international_disputes": "joins other Caribbean states to counter Venezuela's claim that Aves Island sustains human habitation, a criterion under UN Convention on the Law of the Sea, which permits Venezuela to extend its EEZ/continental shelf over a large portion of the eastern Caribbean Sea",
+    "terrorism": "None/Unknown"
+}

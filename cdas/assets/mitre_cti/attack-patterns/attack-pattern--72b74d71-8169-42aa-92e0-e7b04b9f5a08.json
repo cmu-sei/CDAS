@@ -1,0 +1,32 @@
+{
+    "id": "attack-pattern--72b74d71-8169-42aa-92e0-e7b04b9f5a08",
+    "name": "Account Discovery",
+    "description": "Adversaries may attempt to get a listing of accounts on a system or within an environment. This information can help adversaries determine which accounts exist to aid in follow-on behavior.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1087",
+            "url": "https://attack.mitre.org/techniques/T1087"
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Office 365",
+        "Azure AD",
+        "AWS",
+        "GCP",
+        "Azure",
+        "SaaS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "discovery"
+        }
+    ],
+    "permissions": [
+        "User"
+    ]
+}

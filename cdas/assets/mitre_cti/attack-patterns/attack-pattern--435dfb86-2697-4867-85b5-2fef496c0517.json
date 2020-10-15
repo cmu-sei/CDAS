@@ -1,0 +1,34 @@
+{
+    "id": "attack-pattern--435dfb86-2697-4867-85b5-2fef496c0517",
+    "name": "Unsecured Credentials",
+    "description": "Adversaries may search compromised systems to find and obtain insecurely stored credentials. These credentials can be stored and/or misplaced in many locations on a system, including plaintext files (e.g. [Bash History](https://attack.mitre.org/techniques/T1552/003)), operating system or application-specific repositories (e.g. [Credentials in Registry](https://attack.mitre.org/techniques/T1552/002)), or other specialized files/artifacts (e.g. [Private Keys](https://attack.mitre.org/techniques/T1552/004)).",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1552",
+            "url": "https://attack.mitre.org/techniques/T1552"
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "AWS",
+        "GCP",
+        "Azure",
+        "Office 365",
+        "Azure AD",
+        "SaaS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "credential-access"
+        }
+    ],
+    "permissions": [
+        "User",
+        "Administrator",
+        "SYSTEM"
+    ]
+}

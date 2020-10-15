@@ -1,0 +1,32 @@
+{
+    "id": "attack-pattern--60623164-ccd8-4508-a141-b5a34820b3de",
+    "name": "Domain Generation Algorithms",
+    "description": "Adversaries may use [Domain Generation Algorithms](https://attack.mitre.org/techniques/T1520) (DGAs) to procedurally generate domain names for command and control communication, and other uses such as malicious application distribution.(Citation: securelist rotexy 2018)\n\nDGAs increase the difficulty for defenders to block, track, or take over the command and control channel, as there potentially could be thousands of domains that malware can check for instructions.",
+    "references": [
+        {
+            "external_id": "T1520",
+            "source_name": "mitre-mobile-attack",
+            "url": "https://attack.mitre.org/techniques/T1520"
+        },
+        {
+            "source_name": "securelist rotexy 2018",
+            "url": "https://securelist.com/the-rotexy-mobile-trojan-banker-and-ransomware/88893/",
+            "description": "T. Shishkova, L. Pikman. (2018, November 22).  The Rotexy mobile Trojan \u2013 banker and ransomware. Retrieved September 23, 2019."
+        },
+        {
+            "source_name": "Data Driven Security DGA",
+            "url": "https://datadrivensecurity.info/blog/posts/2014/Oct/dga-part2/",
+            "description": "Jacobs, J. (2014, October 2). Building a DGA Classifier: Part 2, Feature Engineering. Retrieved February 18, 2019."
+        }
+    ],
+    "platforms": [
+        "Android",
+        "iOS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "command-and-control"
+        }
+    ]
+}

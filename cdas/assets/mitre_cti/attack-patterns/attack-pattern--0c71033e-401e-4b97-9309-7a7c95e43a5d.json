@@ -1,0 +1,42 @@
+{
+    "id": "attack-pattern--0c71033e-401e-4b97-9309-7a7c95e43a5d",
+    "name": "Obtain Device Cloud Backups",
+    "description": "An adversary who is able to obtain unauthorized access to or misuse authorized access to cloud backup services (e.g. Google's Android backup service or Apple's iCloud) could use that access to obtain sensitive data stored in device backups. For example, the Elcomsoft Phone Breaker product advertises the ability to retrieve iOS backup data from Apple's iCloud (Citation: Elcomsoft-EPPB). Elcomsoft also describes (Citation: Elcomsoft-WhatsApp) obtaining WhatsApp communication histories from backups stored in iCloud.",
+    "references": [
+        {
+            "source_name": "mitre-mobile-attack",
+            "url": "https://attack.mitre.org/techniques/T1470",
+            "external_id": "T1470"
+        },
+        {
+            "source_name": "NIST Mobile Threat Catalogue",
+            "url": "https://pages.nist.gov/mobile-threat-catalogue/ecosystem-threats/ECO-0.html",
+            "external_id": "ECO-0"
+        },
+        {
+            "source_name": "NIST Mobile Threat Catalogue",
+            "url": "https://pages.nist.gov/mobile-threat-catalogue/ecosystem-threats/ECO-1.html",
+            "external_id": "ECO-1"
+        },
+        {
+            "source_name": "Elcomsoft-EPPB",
+            "description": "Elcomsoft. (n.d.). Elcomsoft Phone Breaker. Retrieved December 29, 2016.",
+            "url": "https://www.elcomsoft.com/eppb.html"
+        },
+        {
+            "source_name": "Elcomsoft-WhatsApp",
+            "description": "Oleg Afonin. (2017, July 20). Extract and Decrypt WhatsApp Backups from iCloud. Retrieved July 6, 2018.",
+            "url": "https://blog.elcomsoft.com/2017/07/extract-and-decrypt-whatsapp-backups-from-icloud/"
+        }
+    ],
+    "platforms": [
+        "Android",
+        "iOS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "remote-service-effects"
+        }
+    ]
+}

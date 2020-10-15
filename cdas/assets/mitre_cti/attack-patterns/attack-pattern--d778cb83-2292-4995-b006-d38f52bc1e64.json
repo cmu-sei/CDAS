@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--d778cb83-2292-4995-b006-d38f52bc1e64",
+    "name": "Identify gap areas",
+    "description": "Leadership identifies gap areas that generate a compelling need to generate a Key Intelligence Topic (KIT) or Key Intelligence Question (KIQ). (Citation: ODNIIntegration) (Citation: ICD115)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1225",
+            "external_id": "T1225"
+        },
+        {
+            "source_name": "ODNIIntegration",
+            "description": "Office of the Director of National Intelligence. (n.d.). Intelligence Integration - Who Are We. Retrieved March 2, 2017."
+        },
+        {
+            "source_name": "ICD115",
+            "description": "Office of the Director of National Intelligence. (2012, December 21). ICD 115: Intelligence Community Capability Requirements Process. Retrieved March 2, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "priority-definition-planning"
+        }
+    ]
+}

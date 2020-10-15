@@ -1,0 +1,36 @@
+{
+    "id": "intrusion-set--fbe9387f-34e6-4828-ac28-3080020c597b",
+    "name": "FIN10",
+    "description": "[FIN10](https://attack.mitre.org/groups/G0051) is a financially motivated threat group that has targeted organizations in North America since at least 2013 through 2016. The group uses stolen data exfiltrated from victims to extort organizations. (Citation: FireEye FIN10 June 2017)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/groups/G0051",
+            "external_id": "G0051"
+        },
+        {
+            "source_name": "FIN10",
+            "description": "(Citation: FireEye FIN10 June 2017)"
+        },
+        {
+            "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin10.pdf",
+            "description": "FireEye iSIGHT Intelligence. (2017, June 16). FIN10: Anatomy of a Cyber Extortion Operation. Retrieved June 25, 2017.",
+            "source_name": "FireEye FIN10 June 2017"
+        }
+    ],
+    "aliases": [
+        "FIN10"
+    ],
+    "sophistication": "",
+    "actor_type": "",
+    "sectors": [
+        ""
+    ],
+    "primary_motivation": "",
+    "secondary_motivations": [],
+    "goals": [
+        ""
+    ],
+    "attribution": "Unknown",
+    "first_seen": ""
+}

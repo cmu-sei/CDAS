@@ -1,0 +1,118 @@
+{
+    "id": "location--181",
+    "name": "Slovenia",
+    "background": "The Slovene lands were part of the Austro-Hungarian Empire until the latter's dissolution at the end of World War I. In 1918, the Slovenes joined the Serbs and Croats in forming a new multinational state, which was named Yugoslavia in 1929. After World War II, Slovenia was one of the republics in the restored Yugoslavia, which, though communist, soon distanced itself from the Soviet Union and spearheaded the Non-Aligned Movement. Dissatisfied with the exercise of power by the majority Serbs, the Slovenes succeeded in establishing their independence in 1991 after a short 10-day war. Historical ties to Western Europe, a growing economy, and a stable democracy have assisted in Slovenia's postcommunist transition. Slovenia acceded to both NATO and the EU in the spring of 2004; it joined the euro zone and the Schengen zone in 2007.",
+    "coordinates": "46 07 N, 14 49 E",
+    "region": "Europe",
+    "total_area": "20,273 sq km",
+    "land_area": "20,151 sq km",
+    "water_area": "122 sq km",
+    "land_boundary": "1,211 km",
+    "neighbors": {
+        "Croatia": "600 km",
+        "Hungary": "94 km",
+        "Italy": "218 km"
+    },
+    "climate": "Mediterranean climate on the coast, continental climate with mild to hot summers and cold winters in the plateaus and valleys to the east",
+    "coastline": "46.6 km",
+    "natural_hazards": [
+        "flooding",
+        "earthquakes"
+    ],
+    "terrain": "a short southwestern coastal strip of Karst topography on the Adriatic; an alpine mountain region lies adjacent to Italy and Austria in the north; mixed mountains and valleys with numerous rivers to the east",
+    "population_distribution": "a fairly even distribution throughout most of the country, with urban areas attracting larger and denser populations; pockets in the mountainous northwest exhibit less density than elsewhere",
+    "natural_resources": [
+        "lignite",
+        "lead",
+        "zinc",
+        "building stone",
+        "hydropower",
+        "forests"
+    ],
+    "population": "2,102,678",
+    "nationality": "Slovene(s)",
+    "ethnic_groups": {
+        "Slovene": "83.1%",
+        "Serb": "2%",
+        "Croat": "1.8%",
+        "Bosniak": "1.1%",
+        "other or unspecified": "12%"
+    },
+    "languages": {
+        "Slovene (official)": "91.1%",
+        "Serbo-Croatian": "4.5%",
+        "other or unspecified": "4.4%",
+        "Italian (official)": "",
+        "Hungarian (official)": ""
+    },
+    "religions": {
+        "Catholic": "57.8%",
+        "Muslim": "2.4%",
+        "Orthodox": "2.3%",
+        "other Christian": "0.9%",
+        "unaffiliated": "3.5%",
+        "other or unspecified": "23%",
+        "none": "10.1%"
+    },
+    "government_type": "parliamentary republic",
+    "national_symbols": "Mount Triglav",
+    "national_colors": [
+        "white",
+        "blue",
+        "red"
+    ],
+    "gdp": "$48.87 billion",
+    "agriculture": [
+        "hops",
+        "wheat",
+        "coffee",
+        "corn",
+        "apples",
+        "pears",
+        "cattle",
+        "sheep",
+        "poultry"
+    ],
+    "industries": [
+        "ferrous metallurgy and aluminum products",
+        "lead and zinc smelting",
+        "electronics (including military electronics)",
+        "trucks",
+        "automobiles",
+        "electric power equipment",
+        "wood products",
+        "textiles",
+        "chemicals",
+        "machine tools"
+    ],
+    "exports": [
+        "manufactured goods",
+        "machinery and transport equipment",
+        "chemicals",
+        "food"
+    ],
+    "imports": [
+        "machinery and transport equipment",
+        "manufactured goods",
+        "chemicals",
+        "fuels and lubricants",
+        "food"
+    ],
+    "broadband_subscriptions": "612,737",
+    "internet_users": "1,676,445",
+    "mobile_subscriptions": "2,465,857",
+    "internet_country_code": ".si",
+    "military_and_security_forces": "Slovenian Armed Forces (Slovenska Vojska, SV): structured as a combined Force Command with air, land, logistical, maritime, support, and training components",
+    "percent_GDP_on_military": "1.04%",
+    "pipelines": [
+        "1155 km gas",
+        "5 km oil"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Koper"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "16",
+    "international_disputes": "since the breakup of Yugoslavia in the early 1990s, Croatia and Slovenia have each claimed sovereignty over Piran Bay and four villages, and Slovenia has objected to Croatia's claim of an exclusive economic zone in the Adriatic Sea; in 2009, however Croatia and Slovenia signed a binding international arbitration agreement to define their disputed land and maritime borders, which led Slovenia to lift its objections to Croatia joining the EU; in June 2017 the arbitration panel issued a ruling on the border that Croatia has not implemented; as a member state that forms part of the EU's external border, Slovenia has implemented the strict Schengen border rules to curb illegal migration and commerce through southeastern Europe while encouraging close cross-border ties with Croatia; Slovenia continues to impose a hard border Schengen regime with Croatia, which joined the EU in 2013 but has not yet fulfilled Schengen requirements",
+    "terrorism": "None/Unknown"
+}

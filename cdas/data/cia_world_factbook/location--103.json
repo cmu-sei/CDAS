@@ -1,0 +1,91 @@
+{
+    "id": "location--103",
+    "name": "Jersey",
+    "background": "Jersey and the other Channel Islands represent the last remnants of the medieval Duchy of Normandy that held sway in both France and England. These islands were the only British soil occupied by German troops in World War II. The Bailiwick of Jersey is a British Crown dependency, which means that it is not part of the UK but is rather a self-governing possession of the British Crown. However, the UK Government is constitutionally responsible for its defense and international representation.",
+    "coordinates": "49 15 N, 2 10 W",
+    "region": "Europe",
+    "total_area": "116 sq km",
+    "land_area": "116 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "temperate; mild winters and cool summers",
+    "coastline": "70 km",
+    "natural_hazards": [
+        "very large tidal variation can be hazardous to navigation"
+    ],
+    "terrain": "gently rolling plain with low, rugged hills along north coast",
+    "population_distribution": "fairly even distribution; no notable trends",
+    "natural_resources": [
+        "arable land"
+    ],
+    "population": "101,073",
+    "nationality": "Channel Islander(s)",
+    "ethnic_groups": {
+        "Jersey": "46.4%",
+        "British": "32.7%",
+        "Portuguese/Madeiran": "8.2%",
+        "Polish": "3.3%",
+        "Irish": "",
+        "French": "",
+        "and other white": "7.1%",
+        "other": "2.4%"
+    },
+    "languages": [
+        ""
+    ],
+    "religions": [
+        "Protestant",
+        "Roman Catholic"
+    ],
+    "government_type": "parliamentary democracy (Assembly of the States of Jersey)",
+    "national_symbols": "Jersey cow",
+    "national_colors": [
+        "red",
+        "white"
+    ],
+    "gdp": "$5.004 billion",
+    "agriculture": [
+        "potatoes",
+        "cauliflower",
+        "tomatoes",
+        "beef",
+        "dairy products"
+    ],
+    "industries": [
+        "tourism",
+        "banking and finance",
+        "dairy",
+        "electronics"
+    ],
+    "exports": [
+        "light industrial and electrical goods",
+        "dairy cattle",
+        "foodstuffs",
+        "textiles",
+        "flowers"
+    ],
+    "imports": [
+        "machinery and transport equipment",
+        "manufactured goods",
+        "foodstuffs",
+        "mineral fuels",
+        "chemicals"
+    ],
+    "broadband_subscriptions": "Unknown",
+    "internet_users": "58,000",
+    "mobile_subscriptions": "122,668",
+    "internet_country_code": ".je",
+    "military_and_security_forces": "Unknown",
+    "percent_GDP_on_military": "Unknown",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Gorey, Saint Aubin, Saint Helier"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "1",
+    "international_disputes": "none",
+    "terrorism": "None/Unknown"
+}

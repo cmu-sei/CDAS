@@ -1,0 +1,31 @@
+{
+    "id": "attack-pattern--99e6295e-741b-4857-b6e5-64989eb039b4",
+    "name": "Location Tracking",
+    "description": "An adversary could use a malicious or exploited application to surreptitiously track the device's physical location through use of standard operating system APIs.",
+    "references": [
+        {
+            "source_name": "mitre-mobile-attack",
+            "url": "https://attack.mitre.org/techniques/T1430",
+            "external_id": "T1430"
+        },
+        {
+            "external_id": "APP-24",
+            "source_name": "NIST Mobile Threat Catalogue",
+            "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-24.html"
+        }
+    ],
+    "platforms": [
+        "Android",
+        "iOS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "collection"
+        },
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "discovery"
+        }
+    ]
+}

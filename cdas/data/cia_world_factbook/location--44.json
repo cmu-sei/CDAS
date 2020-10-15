@@ -1,0 +1,90 @@
+{
+    "id": "location--44",
+    "name": "Comoros",
+    "background": "The archipelago of the Comoros in the Indian Ocean, composed of the islands of Mayotte, Anjouan, Moheli, and Grande Comore declared independence from France on 6 July 1975. Residents of Mayotte voted to remain in France, and France now has classified it as a department of France. Since independence, Comoros has endured political instability through realized and attempted coups. In 1997, the islands of Anjouan and Moheli declared independence from Comoros. In 1999, military chief Col. AZALI Assoumani seized power of the entire government in a bloodless coup; he initiated the 2000 Fomboni Accords, a power-sharing agreement in which the federal presidency rotates among the three islands, and each island maintains its local government. AZALI won the 2002 federal presidential election as president of the Union of the Comoros from Grande Comore Island, which held the first four-year term. AZALI stepped down in 2006 and President Ahmed Abdallah Mohamed SAMBI was elected to office as president from Anjouan. In 2007, Mohamed BACAR effected Anjouan's de-facto secession from the Union of the Comoros, refusing to step down when Comoros' other islands held legitimate elections in July. The African Union (AU) initially attempted to resolve the political crisis by applying sanctions and a naval blockade to Anjouan, but in March 2008 the AU and Comoran soldiers seized the island. The island's inhabitants generally welcomed the move. In 2009, the Comorian population approved a constitutional referendum extending the term of the president from four years to five years. In May 2011, Ikililou DHOININE won the presidency in peaceful elections widely deemed to be free and fair. In closely contested elections in 2016, former President AZALI Assoumani won a second term, when the rotating presidency returned to Grande Comore. A new July 2018 constitution removed the presidential term limits and the requirement for the presidency to rotate between the three main islands. In August 2018, President AZALI formed a new government and subsequently ran and was elected president in March 2019.",
+    "coordinates": "12 10 S, 44 15 E",
+    "region": "Africa",
+    "total_area": "2,235 sq km",
+    "land_area": "2,235 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "tropical marine; rainy season (November to May)",
+    "coastline": "340 km",
+    "natural_hazards": [
+        "cyclones possible during rainy season (December to April)",
+        "volcanic activity on Grand Comore",
+        "volcanism: Karthala (2,361 m) on Grand Comore Island last erupted in 2007; a 2005 eruption forced thousands of people to be evacuated and produced a large ash cloud"
+    ],
+    "terrain": "volcanic islands, interiors vary from steep mountains to low hills",
+    "population_distribution": "the capital city of Maroni, located on the western side of the island of Grande Comore, is the country's largest city; however, of the three islands that comprise Comoros, it is Anjouan that is the most densely populated as shown in this population distribution map",
+    "natural_resources": [
+        "fish"
+    ],
+    "population": "846,281",
+    "nationality": "Comoran(s)",
+    "ethnic_groups": [
+        "Antalote",
+        "Cafre",
+        "Makoa",
+        "Oimatsaha",
+        "Sakalava"
+    ],
+    "languages": [
+        "Arabic (official)",
+        "French (official)",
+        "Shikomoro (official)"
+    ],
+    "religions": {
+        "Sunni Muslim": "98%",
+        "other": "2%"
+    },
+    "government_type": "federal presidential republic",
+    "national_symbols": "four five-pointed stars and crescent moon",
+    "national_colors": [
+        "green",
+        "white"
+    ],
+    "gdp": "$0.652 billion",
+    "agriculture": [
+        "vanilla",
+        "cloves",
+        "ylang-ylang",
+        "coconuts",
+        "bananas",
+        "cassava"
+    ],
+    "industries": [
+        "fishing",
+        "tourism",
+        "perfume distillation"
+    ],
+    "exports": [
+        "vanilla",
+        "ylang-ylang (perfume essence)",
+        "cloves"
+    ],
+    "imports": [
+        "rice and other foodstuffs",
+        "consumer goods",
+        "petroleum products",
+        "cement and construction materials",
+        "transport equipment"
+    ],
+    "broadband_subscriptions": "1,531",
+    "internet_users": "69,635",
+    "mobile_subscriptions": "498,903",
+    "internet_country_code": ".km",
+    "military_and_security_forces": "National Army for Development (l'Armee Nationale de Developpement, AND): Comoran Security Force (also called Comoran Defense Force (Force Comorienne de Defense, FCD), includes Gendarmerie), Comoran Coast Guard, Comoran Federal Police",
+    "percent_GDP_on_military": "Unknown",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Moroni, Moutsamoudou"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "4",
+    "international_disputes": "claims French-administered Mayotte and challenges France's and Madagascar's claims to Banc du Geyser, a drying reef in the Mozambique Channel; in May 2008, African Union forces assisted the Comoros military recapture Anjouan Island from rebels who seized it in 2001",
+    "terrorism": "None/Unknown"
+}

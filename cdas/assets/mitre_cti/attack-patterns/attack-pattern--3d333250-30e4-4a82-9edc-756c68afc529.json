@@ -1,0 +1,30 @@
+{
+    "id": "attack-pattern--3d333250-30e4-4a82-9edc-756c68afc529",
+    "name": "Impair Defenses",
+    "description": "Adversaries may maliciously modify components of a victim environment in order to hinder or disable defensive mechanisms. This not only involves impairing preventative defenses, such as firewalls and anti-virus, but also detection capabilities that defenders can use to audit activity and identify malicious behavior. This may also span both native defenses as well as supplemental capabilities installed by users and administrators.\n\nAdversaries could also target event aggregation and analysis mechanisms, or otherwise disrupt these procedures by altering other system components.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1562",
+            "url": "https://attack.mitre.org/techniques/T1562"
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "AWS",
+        "GCP",
+        "Azure"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        }
+    ],
+    "permissions": [
+        "Administrator",
+        "User"
+    ]
+}

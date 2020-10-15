@@ -1,0 +1,33 @@
+{
+    "id": "attack-pattern--d456de47-a16f-4e46-8980-e67478a12dcb",
+    "name": "Server Software Component",
+    "description": "Adversaries may abuse legitimate extensible development features of servers to establish persistent access to systems. Enterprise server applications may include features that allow developers to write and install software or scripts to extend the functionality of the main application. Adversaries may install malicious components to extend and abuse server applications.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1505",
+            "url": "https://attack.mitre.org/techniques/T1505"
+        },
+        {
+            "url": "https://www.us-cert.gov/ncas/alerts/TA15-314A",
+            "description": "US-CERT. (2015, November 13). Compromised Web Servers and Web Shells - Threat Awareness and Guidance. Retrieved June 8, 2016.",
+            "source_name": "US-CERT Alert TA15-314A Web Shells"
+        }
+    ],
+    "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "persistence"
+        }
+    ],
+    "permissions": [
+        "Administrator",
+        "SYSTEM",
+        "root"
+    ]
+}

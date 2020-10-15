@@ -1,0 +1,30 @@
+{
+    "id": "attack-pattern--8c4aef43-48d5-49aa-b2af-c0cd58d30c3d",
+    "name": "Hidden Users",
+    "description": "Adversaries may use hidden users to mask the presence of user accounts they create. Every user account in macOS has a userID associated with it. When creating a user, you can specify the userID for that account.\n\nThere is a property value in <code>/Library/Preferences/com.apple.loginwindow</code> called <code>Hide500Users</code> that prevents users with userIDs 500 and lower from appearing at the login screen. When using the [Create Account](https://attack.mitre.org/techniques/T1136) technique with a userID under 500 (ex: <code>sudo dscl . -create /Users/username UniqueID 401</code>) and enabling this property (setting it to Yes), an adversary can conceal user accounts. (Citation: Cybereason OSX Pirrit).",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1564.002",
+            "url": "https://attack.mitre.org/techniques/T1564/002"
+        },
+        {
+            "url": "https://www2.cybereason.com/research-osx-pirrit-mac-os-x-secuirty",
+            "description": "Amit Serper. (2016). Cybereason Lab Analysis OSX.Pirrit. Retrieved July 8, 2017.",
+            "source_name": "Cybereason OSX Pirrit"
+        }
+    ],
+    "platforms": [
+        "macOS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        }
+    ],
+    "permissions": [
+        "root",
+        "Administrator"
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "id": "attack-pattern--4ff5d6a8-c062-4c68-a778-36fc5edd564f",
+    "name": "Control Panel",
+    "description": "Adversaries may abuse control.exe to proxy execution of malicious payloads. The Windows Control Panel process binary (control.exe) handles execution of Control Panel items, which are utilities that allow users to view and adjust computer settings. Control Panel items are registered executable (.exe) or Control Panel (.cpl) files, the latter are actually renamed dynamic-link library (.dll) files that export a <code>CPlApplet</code> function. (Citation: Microsoft Implementing CPL) (Citation: TrendMicro CPL Malware Jan 2014) Control Panel items can be executed directly from the command line, programmatically via an application programming interface (API) call, or by simply double-clicking the file. (Citation: Microsoft Implementing CPL) (Citation: TrendMicro CPL Malware Jan 2014) (Citation: TrendMicro CPL Malware Dec 2013)\n\nFor ease of use, Control Panel items typically include graphical menus available to users after being registered and loaded into the Control Panel. (Citation: Microsoft Implementing CPL)\n\nMalicious Control Panel items can be delivered via [Phishing](https://attack.mitre.org/techniques/T1566) campaigns (Citation: TrendMicro CPL Malware Jan 2014) (Citation: TrendMicro CPL Malware Dec 2013) or executed as part of multi-stage malware. (Citation: Palo Alto Reaver Nov 2017) Control Panel items, specifically CPL files, may also bypass application and/or file extension allow lists.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1218.002",
+            "url": "https://attack.mitre.org/techniques/T1218/002"
+        },
+        {
+            "url": "https://msdn.microsoft.com/library/windows/desktop/cc144185.aspx",
+            "description": "M. (n.d.). Implementing Control Panel Items. Retrieved January 18, 2018.",
+            "source_name": "Microsoft Implementing CPL"
+        },
+        {
+            "url": "https://www.trendmicro.de/cloud-content/us/pdfs/security-intelligence/white-papers/wp-cpl-malware.pdf",
+            "description": "Merc\u00eas, F. (2014, January 27). CPL Malware - Malicious Control Panel Items. Retrieved January 18, 2018.",
+            "source_name": "TrendMicro CPL Malware Jan 2014"
+        },
+        {
+            "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/control-panel-files-used-as-malicious-attachments/",
+            "description": "Bernardino, J. (2013, December 17). Control Panel Files Used As Malicious Attachments. Retrieved January 18, 2018.",
+            "source_name": "TrendMicro CPL Malware Dec 2013"
+        },
+        {
+            "url": "https://researchcenter.paloaltonetworks.com/2017/11/unit42-new-malware-with-ties-to-sunorcal-discovered/",
+            "description": "Grunzweig, J. and Miller-Osborn, J. (2017, November 10). New Malware with Ties to SunOrcal Discovered. Retrieved November 16, 2017.",
+            "source_name": "Palo Alto Reaver Nov 2017"
+        }
+    ],
+    "platforms": [
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        }
+    ],
+    "permissions": [
+        "User",
+        "Administrator",
+        "SYSTEM"
+    ]
+}

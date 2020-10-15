@@ -1,0 +1,121 @@
+{
+    "id": "location--33",
+    "name": "Burundi",
+    "background": "Burundi is a small country in Central-East Africa bordered by Tanzania, Rwanda, the Democratic Republic of Congo, and Lake Tanganyika. Created in the 17th century, a Burundi Kingdom was preserved under German colonial rule in the late 19th and early 20th century, and then by Belgium after World War I. Burundi gained its independence from Belgium in 1962 as the Kingdom of Burundi, but the monarchy was overthrown in 1966 and a republic established. Political violence and non-democratic transfers of power have marked much of its history; Burundi's first democratically elected president, a Hutu, was assassinated in October 1993 after only 100 days in office. The internationally brokered Arusha Agreement, signed in 2000, and subsequent ceasefire agreements with armed movements ended the 1993-2005 civil war. Burundi's second democratic elections were held in 2005. Pierre NKURUNZIZA was elected president in 2005 and 2010, and again in a controversial election in 2015. Burundi continues to face many economic and political challenges.",
+    "coordinates": "3 30 S, 30 00 E",
+    "region": "Africa",
+    "total_area": "27,830 sq km",
+    "land_area": "25,680 sq km",
+    "water_area": "2,150 sq km",
+    "land_boundary": "1,140 km",
+    "neighbors": {
+        "Rwanda": "315 km",
+        "Tanzania": "589 km"
+    },
+    "climate": "equatorial; high plateau with considerable altitude variation (772 m to 2,670 m above sea level); average annual temperature varies with altitude from 23 to 17 degrees Celsius but is generally moderate as the average altitude is about 1,700 m; average annual rainfall is about 150 cm; two wet seasons (February to May and September to November), and two dry seasons (June to August and December to January)",
+    "coastline": "0 km",
+    "natural_hazards": [
+        "flooding",
+        "landslides",
+        "drought"
+    ],
+    "terrain": "hilly and mountainous, dropping to a plateau in east, some plains",
+    "population_distribution": "one of Africa's most densely populated countries; concentrations tend to be in the north and along the northern shore of Lake Tanganyika in the west; most people live on farms near areas of fertile volcanic soil as shown in this population distribution map",
+    "natural_resources": [
+        "nickel",
+        "uranium",
+        "rare earth oxides",
+        "peat",
+        "cobalt",
+        "copper",
+        "platinum",
+        "vanadium",
+        "arable land",
+        "hydropower",
+        "niobium",
+        "tantalum",
+        "gold",
+        "tin",
+        "tungsten",
+        "kaolin",
+        "limestone"
+    ],
+    "population": "11,865,821",
+    "nationality": "Burundian(s)",
+    "ethnic_groups": [
+        "Hutu",
+        "Tutsi",
+        "Twa"
+    ],
+    "languages": {
+        "only 29.7%; French only .3%; Swahili only .2%; English only .1%; Kirundi and French 8.4%; (official)": "Kirundi",
+        "French": "",
+        "and English": "2.4%",
+        "other language combinations": "2%",
+        "unspecified": "56.9%"
+    },
+    "religions": {
+        "Roman Catholic": "62.1%",
+        "Protestant": "23.9%",
+        "Muslim": "2.5%",
+        "other": "3.6%",
+        "unspecified": "7.9%"
+    },
+    "government_type": "presidential republic",
+    "national_symbols": "lion",
+    "national_colors": [
+        "red",
+        "white",
+        "green"
+    ],
+    "gdp": "$3.396 billion",
+    "agriculture": [
+        "coffee",
+        "cotton",
+        "tea",
+        "corn",
+        "beans",
+        "sorghum",
+        "sweet potatoes",
+        "bananas",
+        "cassava",
+        "beef",
+        "milk",
+        "hides"
+    ],
+    "industries": [
+        "light consumer goods (sugar, shoes, soap, beer)",
+        "cement",
+        "assembly of imported components",
+        "public works construction",
+        "food processing (fruits)"
+    ],
+    "exports": [
+        "coffee",
+        "tea",
+        "sugar",
+        "cotton",
+        "hides"
+    ],
+    "imports": [
+        "capital goods",
+        "petroleum products",
+        "foodstuffs"
+    ],
+    "broadband_subscriptions": "3,935",
+    "internet_users": "298,684",
+    "mobile_subscriptions": "6,317,965",
+    "internet_country_code": ".bi",
+    "military_and_security_forces": "National Defense Forces (Forces de Defense Nationale, FDN): Army (includes maritime wing, air wing), National Police (Police Nationale du Burundi)",
+    "percent_GDP_on_military": "1.8%",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "lake port(s)": "Bujumbura (Lake Tanganyika)"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "7",
+    "international_disputes": "Burundi and Rwanda dispute two sq km (0.8 sq mi) of Sabanerwa, a farmed area in the Rukurazi Valley where the Akanyaru/Kanyaru River shifted its course southward after heavy rains in 1965; cross-border conflicts persist among Tutsi, Hutu, other ethnic groups, associated political rebels, armed gangs, and various government forces in the Great Lakes region",
+    "terrorism": "None/Unknown"
+}

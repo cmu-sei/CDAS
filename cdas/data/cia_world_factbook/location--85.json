@@ -1,0 +1,124 @@
+{
+    "id": "location--85",
+    "name": "Guinea",
+    "background": "Guinea is at a turning point after decades of authoritarian rule since gaining its independence from France in 1958. Sekou TOURE ruled the country as president from independence to his death in 1984. Lansana CONTE came to power in 1984 when the military seized the government after TOURE's death. Gen. CONTE organized and won presidential elections in 1993, 1998, and 2003, though results were questionable due to a lack in transparency and neutrality in the electoral process. Upon CONTE's death in December 2008, Capt. Moussa Dadis CAMARA led a military coup, seizing power and suspending the constitution. His unwillingness to yield to domestic and international pressure to step down led to heightened political tensions that peaked in September 2009 when presidential guards opened fire on an opposition rally killing more than 150 people. In early December 2009, CAMARA was wounded in an assassination attempt and exiled to Burkina Faso. A transitional government led by Gen. Sekouba KONATE paved the way for Guinea's transition to a fledgling democracy. The country held its first free and competitive democratic presidential and legislative elections in 2010 and 2013 respectively, and in October 2015 held a second consecutive presidential election. Alpha CONDE was reelected to a second five-year term as president in 2015, and the National Assembly was seated in January 2014. CONDE's first cabinet is the first all-civilian government in Guinea. The country held a successful political dialogue in August and September 2016 that brought together the government and opposition to address long-standing tensions. Local elections were held in February 2018, and disputed results in some of the races resulted in ongoing protests against CONDE's government.",
+    "coordinates": "11 00 N, 10 00 W",
+    "region": "Africa",
+    "total_area": "245,857 sq km",
+    "land_area": "245,717 sq km",
+    "water_area": "140 sq km",
+    "land_boundary": "4,046 km",
+    "neighbors": {
+        "Guinea-Bissau": "421 km",
+        "Liberia": "590 km",
+        "Mali": "1062 km",
+        "Senegal": "363 km",
+        "Sierra Leone": "794 km"
+    },
+    "climate": "generally hot and humid; monsoonal-type rainy season (June to November) with southwesterly winds; dry season (December to May) with northeasterly harmattan winds",
+    "coastline": "320 km",
+    "natural_hazards": [
+        "hot, dry, dusty harmattan haze may reduce visibility during dry season"
+    ],
+    "terrain": "generally flat coastal plain, hilly to mountainous interior",
+    "population_distribution": "areas of highest density are in the west and south; interior is sparsely populated as shown in this population distribution map",
+    "natural_resources": [
+        "bauxite",
+        "iron ore",
+        "diamonds",
+        "gold",
+        "uranium",
+        "hydropower",
+        "fish",
+        "salt"
+    ],
+    "population": "12,527,440",
+    "nationality": "Guinean(s)",
+    "ethnic_groups": {
+        "Fulani": "33.4%",
+        "Malinke": "29.4%",
+        "Susu": "21.2%",
+        "Guerze": "7.8%",
+        "Kissi": "6.2%",
+        "Toma": "1.6%",
+        "other/foreign": ".4%"
+    },
+    "languages": [
+        "French (official)",
+        "Pular",
+        "Maninka",
+        "Susu",
+        "other native languages"
+    ],
+    "religions": {
+        "Muslim": "89.1%",
+        "Christian": "6.8%",
+        "animist": "1.6%",
+        "other": ".1%",
+        "none": "2.4%"
+    },
+    "government_type": "presidential republic",
+    "national_symbols": "elephant",
+    "national_colors": [
+        "red",
+        "yellow",
+        "green"
+    ],
+    "gdp": "$10.25 billion",
+    "agriculture": [
+        "rice",
+        "coffee",
+        "pineapples",
+        "mangoes",
+        "palm kernels",
+        "cocoa",
+        "cassava",
+        "bananas",
+        "potatoes",
+        "sweet potatoes",
+        "cattle",
+        "sheep",
+        "goats",
+        "timber"
+    ],
+    "industries": [
+        "bauxite",
+        "gold",
+        "diamonds",
+        "iron ore",
+        "light manufacturing",
+        "agricultural processing"
+    ],
+    "exports": [
+        "bauxite",
+        "gold",
+        "diamonds",
+        "coffee",
+        "fish",
+        "agricultural products"
+    ],
+    "imports": [
+        "petroleum products",
+        "metals",
+        "machinery",
+        "transport equipment",
+        "textiles",
+        "grain and other foodstuffs"
+    ],
+    "broadband_subscriptions": "1,213",
+    "internet_users": "2,133,974",
+    "mobile_subscriptions": "12,013,000",
+    "internet_country_code": ".gn",
+    "military_and_security_forces": "National Armed Forces: Army, Guinean Navy (Armee de Mer or Marine Guineenne, includes Marines), Guinean Air Force (Force Aerienne de Guinee), Presidential Security Battalion (Battailon Autonome de la S\u00e9curit\u00e9 Presidentielle, BASP), Gendarmerie, People's Militia (Reserves)",
+    "percent_GDP_on_military": "2%",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Conakry, Kamsar"
+    },
+    "waterways": "1,300 km",
+    "number_of_airports": "16",
+    "international_disputes": "Sierra Leone considers Guinea's definition of the flood plain limits to define the left bank boundary of the Makona and Moa Rivers excessive and protests Guinea's continued occupation of these lands, including the hamlet of Yenga, occupied since 1998",
+    "terrorism": "None/Unknown"
+}

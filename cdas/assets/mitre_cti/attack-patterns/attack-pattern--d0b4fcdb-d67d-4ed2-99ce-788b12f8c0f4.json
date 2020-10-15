@@ -1,0 +1,34 @@
+{
+    "id": "attack-pattern--d0b4fcdb-d67d-4ed2-99ce-788b12f8c0f4",
+    "name": "/etc/passwd and /etc/shadow",
+    "description": "Adversaries may attempt to dump the contents of <code>/etc/passwd</code> and <code>/etc/shadow</code> to enable offline password cracking. Most modern Linux operating systems use a combination of <code>/etc/passwd</code> and <code>/etc/shadow</code> to store user account information including password hashes in <code>/etc/shadow</code>. By default, <code>/etc/shadow</code> is only readable by the root user.(Citation: Linux Password and Shadow File Formats)\n\nThe Linux utility, unshadow, can be used to combine the two files in a format suited for password cracking utilities such as John the Ripper:(Citation: nixCraft - John the Ripper) <code># /usr/bin/unshadow /etc/passwd /etc/shadow > /tmp/crack.password.db</code>\n",
+    "references": [
+        {
+            "url": "https://attack.mitre.org/techniques/T1003/008",
+            "external_id": "T1003.008",
+            "source_name": "mitre-attack"
+        },
+        {
+            "description": "The Linux Documentation Project. (n.d.). Linux Password and Shadow File Formats. Retrieved February 19, 2020.",
+            "url": "https://www.tldp.org/LDP/lame/LAME/linux-admin-made-easy/shadow-file-formats.html",
+            "source_name": "Linux Password and Shadow File Formats"
+        },
+        {
+            "description": "Vivek Gite. (2014, September 17). Linux Password Cracking: Explain unshadow and john Commands (John the Ripper Tool). Retrieved February 19, 2020.",
+            "url": "https://www.cyberciti.biz/faq/unix-linux-password-cracking-john-the-ripper/",
+            "source_name": "nixCraft - John the Ripper"
+        }
+    ],
+    "platforms": [
+        "Linux"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "credential-access"
+        }
+    ],
+    "permissions": [
+        "root"
+    ]
+}

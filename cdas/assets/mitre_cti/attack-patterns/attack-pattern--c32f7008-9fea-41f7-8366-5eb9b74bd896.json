@@ -1,0 +1,36 @@
+{
+    "id": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
+    "name": "Query Registry",
+    "description": "Adversaries may interact with the Windows Registry to gather information about the system, configuration, and installed software.\n\nThe Registry contains a significant amount of information about the operating system, configuration, software, and security.(Citation: Wikipedia Windows Registry) Information can easily be queried using the [Reg](https://attack.mitre.org/software/S0075) utility, though other means to access the Registry exist. Some of the information may help adversaries to further their operation within a network. Adversaries may use the information from [Query Registry](https://attack.mitre.org/techniques/T1012) during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1012",
+            "url": "https://attack.mitre.org/techniques/T1012"
+        },
+        {
+            "external_id": "CAPEC-647",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/647.html"
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/Windows_Registry",
+            "description": "Wikipedia. (n.d.). Windows Registry. Retrieved February 2, 2015.",
+            "source_name": "Wikipedia Windows Registry"
+        }
+    ],
+    "platforms": [
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "discovery"
+        }
+    ],
+    "permissions": [
+        "User",
+        "Administrator",
+        "SYSTEM"
+    ]
+}

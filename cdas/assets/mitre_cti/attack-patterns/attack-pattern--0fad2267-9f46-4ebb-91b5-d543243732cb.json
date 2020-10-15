@@ -1,0 +1,30 @@
+{
+    "id": "attack-pattern--0fad2267-9f46-4ebb-91b5-d543243732cb",
+    "name": "Identify analyst level gaps",
+    "description": "Analysts identify gap areas that generate a compelling need to generate a Key Intelligence Topic (KIT) or Key Intelligence Question (KIQ). (Citation: BrighthubGapAnalysis) (Citation: ICD115) (Citation: JP2-01)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1233",
+            "external_id": "T1233"
+        },
+        {
+            "source_name": "BrighthubGapAnalysis",
+            "description": "Ronda Bowen. (2014, March 26). Performing a Gap Analysis: Where Do You Begin?. Retrieved March 14, 2017."
+        },
+        {
+            "source_name": "ICD115",
+            "description": "Office of the Director of National Intelligence. (2012, December 21). ICD 115: Intelligence Community Capability Requirements Process. Retrieved March 2, 2017."
+        },
+        {
+            "source_name": "JP2-01",
+            "description": "Joint Chiefs of Staff. (2012, January 05). Joint and National Intelligence Support to Military Operations. Retrieved March 2, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "priority-definition-planning"
+        }
+    ]
+}

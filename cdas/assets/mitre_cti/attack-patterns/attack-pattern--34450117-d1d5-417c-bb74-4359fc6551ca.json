@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--34450117-d1d5-417c-bb74-4359fc6551ca",
+    "name": "Analyze presence of outsourced capabilities",
+    "description": "Outsourcing, the arrangement of one company providing goods or services to another company for something that could be done in-house, provides another avenue for an adversary to target. Businesses often have networks, portals, or other technical connections between themselves and their outsourced/partner organizations that could be exploited. Additionally, outsourced/partner organization information could provide opportunities for phishing. (Citation: Scasny2015) (Citation: OPM Breach)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1303",
+            "external_id": "T1303"
+        },
+        {
+            "source_name": "Scasny2015",
+            "description": "Gregory Scasny. (2015, September 14). Understanding Open Source Intelligence (OSINT) and its relationship to Identity Theft. Retrieved March 1, 2017."
+        },
+        {
+            "source_name": "OPM Breach",
+            "description": "Hon. Jason Chaffetz, Hon. Mark Meadows, Hon. Will Hurd. (2016, September 7). The OPM Data Breach: How the Government Jeopardized Our National Security for More than a Generation. Retrieved March 28, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "organizational-weakness-identification"
+        }
+    ]
+}

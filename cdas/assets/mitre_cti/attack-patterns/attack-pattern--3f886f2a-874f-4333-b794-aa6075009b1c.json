@@ -1,0 +1,51 @@
+{
+    "id": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+    "name": "Exploit Public-Facing Application",
+    "description": "Adversaries may attempt to take advantage of a weakness in an Internet-facing computer or program using software, data, or commands in order to cause unintended or unanticipated behavior. The weakness in the system can be a bug, a glitch, or a design vulnerability. These applications are often websites, but can include databases (like SQL)(Citation: NVD CVE-2016-6662), standard services (like SMB(Citation: CIS Multiple SMB Vulnerabilities) or SSH), and any other applications with Internet accessible open sockets, such as web servers and related services.(Citation: NVD CVE-2014-7169) Depending on the flaw being exploited this may include [Exploitation for Defense Evasion](https://attack.mitre.org/techniques/T1211).\n\nIf an application is hosted on cloud-based infrastructure, then exploiting it may lead to compromise of the underlying instance. This can allow an adversary a path to access the cloud APIs or to take advantage of weak identity and access management policies.\n\nFor websites and databases, the OWASP top 10 and CWE top 25 highlight the most common web-based vulnerabilities.(Citation: OWASP Top 10)(Citation: CWE top 25)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1190",
+            "url": "https://attack.mitre.org/techniques/T1190"
+        },
+        {
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-6662",
+            "description": "National Vulnerability Database. (2017, February 2). CVE-2016-6662 Detail. Retrieved April 3, 2018.",
+            "source_name": "NVD CVE-2016-6662"
+        },
+        {
+            "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-microsoft-windows-smb-server-could-allow-for-remote-code-execution/",
+            "description": "CIS. (2017, May 15). Multiple Vulnerabilities in Microsoft Windows SMB Server Could Allow for Remote Code Execution. Retrieved April 3, 2018.",
+            "source_name": "CIS Multiple SMB Vulnerabilities"
+        },
+        {
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2014-7169",
+            "description": "National Vulnerability Database. (2017, September 24). CVE-2014-7169 Detail. Retrieved April 3, 2018.",
+            "source_name": "NVD CVE-2014-7169"
+        },
+        {
+            "url": "https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project",
+            "description": "OWASP. (2018, February 23). OWASP Top Ten Project. Retrieved April 3, 2018.",
+            "source_name": "OWASP Top 10"
+        },
+        {
+            "source_name": "CWE top 25",
+            "url": "https://cwe.mitre.org/top25/index.html",
+            "description": "Christey, S., Brown, M., Kirby, D., Martin, B., Paller, A.. (2011, September 13). 2011 CWE/SANS Top 25 Most Dangerous Software Errors. Retrieved April 10, 2019."
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "AWS",
+        "GCP",
+        "Azure"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "initial-access"
+        }
+    ]
+}

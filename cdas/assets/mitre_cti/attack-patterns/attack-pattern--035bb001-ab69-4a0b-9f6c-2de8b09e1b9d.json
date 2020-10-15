@@ -1,0 +1,40 @@
+{
+    "id": "attack-pattern--035bb001-ab69-4a0b-9f6c-2de8b09e1b9d",
+    "name": "Man-in-the-Middle",
+    "description": "Adversaries may attempt to position themselves between two or more networked devices using a man-in-the-middle (MiTM) technique to support follow-on behaviors such as [Network Sniffing](https://attack.mitre.org/techniques/T1040) or [Transmitted Data Manipulation](https://attack.mitre.org/techniques/T1565/002). By abusing features of common networking protocols that can determine the flow of network traffic (e.g. ARP, DNS, LLMNR, etc.), adversaries may force a device to communicate through an adversary controlled system so they can collect information or perform additional actions.(Citation: Rapid7 MiTM Basics)\n\nAdversaries may leverage the MiTM position to attempt to modify traffic, such as in [Transmitted Data Manipulation](https://attack.mitre.org/techniques/T1565/002). Adversaries can also stop traffic from flowing to the appropriate destination, causing denial of service.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1557",
+            "url": "https://attack.mitre.org/techniques/T1557"
+        },
+        {
+            "external_id": "CAPEC-94",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/94.html"
+        },
+        {
+            "source_name": "Rapid7 MiTM Basics",
+            "url": "https://www.rapid7.com/fundamentals/man-in-the-middle-attacks/",
+            "description": "Rapid7. (n.d.). Man-in-the-Middle (MITM) Attacks. Retrieved March 2, 2020."
+        }
+    ],
+    "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "credential-access"
+        },
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "collection"
+        }
+    ],
+    "permissions": [
+        "User"
+    ]
+}

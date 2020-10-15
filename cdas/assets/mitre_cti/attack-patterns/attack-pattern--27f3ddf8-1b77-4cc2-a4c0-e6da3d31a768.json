@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--27f3ddf8-1b77-4cc2-a4c0-e6da3d31a768",
+    "name": "Obtain/re-use payloads",
+    "description": "A payload is the part of the malware which performs a malicious action. The adversary may re-use payloads when the needed capability is already available. (Citation: SonyDestover)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1346",
+            "external_id": "T1346"
+        },
+        {
+            "source_name": "SonyDestover",
+            "description": "Kurt Baumgartner. (2014, December 4). Sony/Destover: mystery North Korean actor\u2019s destructive and past network activity. Retrieved March 9, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "build-capabilities"
+        }
+    ]
+}

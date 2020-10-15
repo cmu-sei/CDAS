@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--489a7797-01c3-4706-8cd1-ec56a9db3adc",
+    "name": "Spear phishing messages with malicious links",
+    "description": "**This technique has been deprecated. Please use [Spearphishing Link](https://attack.mitre.org/techniques/T1566/002).**\n\nEmails with malicious links are designed to get a user to click on the link in order to deliver malware payloads. (Citation: GoogleDrive Phishing) (Citation: RSASEThreat)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "external_id": "T1369",
+            "url": "https://attack.mitre.org/techniques/T1369"
+        },
+        {
+            "description": "Nick Johnston. (2014, March 13). Google Docs Users Targeted by Sophisticated Phishing Scam. Retrieved March 29, 2017.",
+            "source_name": "GoogleDrive Phishing"
+        },
+        {
+            "description": "Bob Griffin. (2015, May 16). THE ON-GOING THREAT OF SOCIAL ENGINEERING. Retrieved March 9, 2017.",
+            "source_name": "RSASEThreat"
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "launch"
+        }
+    ]
+}

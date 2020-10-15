@@ -1,0 +1,102 @@
+{
+    "id": "location--163",
+    "name": "Qatar",
+    "background": "Ruled by the Al Thani family since the mid-1800s, Qatar within the last 60 years transformed itself from a poor British protectorate noted mainly for pearling into an independent state with significant oil and natural gas revenues. Former Amir HAMAD bin Khalifa Al Thani, who overthrew his father in a bloodless coup in 1995, ushered in wide-sweeping political and media reforms, unprecedented economic investment, and a growing Qatari regional leadership role, in part through the creation of the pan-Arab satellite news network Al-Jazeera and Qatar's mediation of some regional conflicts. In the 2000s, Qatar resolved its longstanding border disputes with both Bahrain and Saudi Arabia and by 2007 had attained the highest per capita income in the world. Qatar did not experience domestic unrest or violence like that seen in other Near Eastern and North African countries in 2011, due in part to its immense wealth and patronage network. In mid-2013, HAMAD peacefully abdicated, transferring power to his son, the current Amir TAMIM bin Hamad. TAMIM is popular with the Qatari public, for his role in shepherding the country through an economic embargo by some other regional countries, for his efforts to improve the country's healthcare and education systems, and for his expansion of the country's infrastructure in anticipation of Doha's hosting of the 2022 World Cup.\r\nRecently, Qatar's relationships with its neighbors have been tense, although since the fall of 2019 there have been signs of improved prospects for a thaw. Following the outbreak of regional unrest in 2011, Doha prided itself on its support for many popular revolutions, particularly in Libya and Syria. This stance was to the detriment of Qatar's relations with Bahrain, Egypt, Saudi Arabia, and the United Arab Emirates (UAE), which temporarily recalled their respective ambassadors from Doha in March 2014. TAMIM later oversaw a warming of Qatar's relations with Bahrain, Egypt, Saudi Arabia, and the UAE in November 2014 following Kuwaiti mediation and signing of the Riyadh Agreement. This reconciliation, however, was short-lived. In June 2017, Bahrain, Egypt, Saudi Arabia, and the UAE (the \"Quartet\") cut diplomatic and economic ties with Qatar in response to alleged violations of the agreement, among other complaints.",
+    "coordinates": "25 30 N, 51 15 E",
+    "region": "Middle East",
+    "total_area": "11,586 sq km",
+    "land_area": "11,586 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "87 km",
+    "neighbors": {},
+    "climate": "arid; mild, pleasant winters; very hot, humid summers",
+    "coastline": "563 km",
+    "natural_hazards": [
+        "haze, dust storms, sandstorms common"
+    ],
+    "terrain": "mostly flat and barren desert",
+    "population_distribution": "most of the population is clustered in or around the capital of Doha on the eastern side of the peninsula",
+    "natural_resources": [
+        "petroleum",
+        "fish",
+        "natural gas"
+    ],
+    "population": "2,444,174",
+    "nationality": "Qatari(s)",
+    "ethnic_groups": {
+        "non-Qatari": "88.4%",
+        "Qatari": "11.6%"
+    },
+    "languages": [
+        "Arabic (official)",
+        "English  commonly used as a second language"
+    ],
+    "religions": {
+        "Muslim": "67.7%",
+        "Christian": "13.8%",
+        "Hindu": "13.8%",
+        "Buddhist": "3.1%",
+        "folk religion": ".1%",
+        "Jewish": ".1%",
+        "other": "0.7%",
+        "unaffiliated": "0.9%"
+    },
+    "government_type": "absolute monarchy",
+    "national_symbols": "a maroon field surmounted by a white serrated band with nine white points",
+    "national_colors": [
+        "maroon",
+        "white"
+    ],
+    "gdp": "$166.9 billion",
+    "agriculture": [
+        "fruits",
+        "vegetables",
+        "poultry",
+        "dairy products",
+        "beef",
+        "fish"
+    ],
+    "industries": [
+        "liquefied natural gas",
+        "crude oil production and refining",
+        "ammonia",
+        "fertilizer",
+        "petrochemicals",
+        "steel reinforcing bars",
+        "cement",
+        "commercial ship repair"
+    ],
+    "exports": [
+        "liquefied natural gas (LNG)",
+        "petroleum products",
+        "fertilizers",
+        "steel"
+    ],
+    "imports": [
+        "machinery and transport equipment",
+        "food",
+        "chemicals"
+    ],
+    "broadband_subscriptions": "267,906",
+    "internet_users": "2,355,297",
+    "mobile_subscriptions": "3,945,978",
+    "internet_country_code": ".qa",
+    "military_and_security_forces": "Qatari Amiri Land Force (QALF, includes Emiri Guard), Qatari Amiri Navy (QAN, includes Coast Guard), Qatari Amiri Air Force (QAAF); Internal Security Forces: Mobile Gendarmerie",
+    "percent_GDP_on_military": "Unknown",
+    "pipelines": [
+        "288 km condensate",
+        "221 km condensate/gas",
+        "2383 km gas",
+        "90 km liquid petroleum gas",
+        "745 km oil",
+        "103 km refined products"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Doha, Musay'id, Ra's Laffan",
+        "LNG terminal(s) (export)": "Ras Laffan"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "6",
+    "international_disputes": "none",
+    "terrorism": "None/Unknown"
+}

@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--d72c0bc0-3007-418c-842c-328027ebdbc1",
+    "name": "Deploy exploit using advertising",
+    "description": "**This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.**\n\nExploits spread through advertising (malvertising) involve injecting malicious or malware-laden advertisements into legitimate online advertising networks and webpages. (Citation: TPMalvertising)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "external_id": "T1380",
+            "url": "https://attack.mitre.org/techniques/T1380"
+        },
+        {
+            "description": "Michael Mimoso. (2015, March 30). AD NETWORKS RIPE FOR ABUSE VIA MALVERTISING. Retrieved March 9, 2017.",
+            "source_name": "TPMalvertising"
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "launch"
+        }
+    ]
+}

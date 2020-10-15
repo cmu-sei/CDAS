@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--b355817c-cf63-43b4-94a4-05e9645fa910",
+    "name": "Create implementation plan",
+    "description": "Implementation plans specify how the goals of the strategic plan will be executed. (Citation: ChinaCollectionPlan) (Citation: OrderOfBattle)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1232",
+            "external_id": "T1232"
+        },
+        {
+            "source_name": "ChinaCollectionPlan",
+            "description": "Thomas B Inglis. (1946, December 31). COLLECTION PLAN TO IMPLEMENT NATIONAL INTELLIGENCE REQUIREMENTS FOR CHINA. Retrieved March 2, 2017."
+        },
+        {
+            "source_name": "OrderOfBattle",
+            "description": "Wikipedia contributors. (2016, November 20). Order of battle. Retrieved March 2, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "priority-definition-planning"
+        }
+    ]
+}

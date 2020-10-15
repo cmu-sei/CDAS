@@ -1,0 +1,34 @@
+{
+    "id": "attack-pattern--8cdeb020-e31e-4f88-a582-f53dcfbda819",
+    "name": "Make and Impersonate Token",
+    "description": "Adversaries may make and impersonate tokens to escalate privileges and bypass access controls. If an adversary has a username and password but the user is not logged onto the system, the adversary can then create a logon session for the user using the <code>LogonUser</code> function. The function will return a copy of the new session's access token and the adversary can use <code>SetThreadToken</code> to assign the token to a thread.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1134.003",
+            "url": "https://attack.mitre.org/techniques/T1134/003"
+        },
+        {
+            "url": "https://technet.microsoft.com/en-us/windows-server-docs/identity/ad-ds/manage/component-updates/command-line-process-auditing",
+            "description": "Mathers, B. (2017, March 7). Command line process auditing. Retrieved April 21, 2017.",
+            "source_name": "Microsoft Command-line Logging"
+        }
+    ],
+    "platforms": [
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        },
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "privilege-escalation"
+        }
+    ],
+    "permissions": [
+        "Administrator",
+        "User"
+    ]
+}

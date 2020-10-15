@@ -1,0 +1,25 @@
+{
+    "id": "tool--fbd727ea-c0dc-42a9-8448-9e12962d1ab5",
+    "name": "Havij",
+    "description": "[Havij](https://attack.mitre.org/software/S0224) is an automatic SQL Injection tool distributed by the Iranian ITSecTeam security company. Havij has been used by penetration testers and adversaries. (Citation: Check Point Havij Analysis)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/software/S0224",
+            "external_id": "S0224"
+        },
+        {
+            "source_name": "Check Point Havij Analysis",
+            "description": "Ganani, M. (2015, May 14). Analysis of the Havij SQL Injection tool. Retrieved March 19, 2018.",
+            "url": "https://blog.checkpoint.com/2015/05/14/analysis-havij-sql-injection-tool/"
+        }
+    ],
+    "aliases": [
+        "Havij"
+    ],
+    "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+    ]
+}

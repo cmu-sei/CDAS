@@ -1,0 +1,34 @@
+{
+    "id": "attack-pattern--91a3735f-817a-4450-8ed4-f05a0f5c3877",
+    "name": "Determine strategic target",
+    "description": "An adversary undergoes an iterative target selection process that may begin either broadly and narrow down into specifics (strategic to tactical) or narrowly and expand outward (tactical to strategic).  As part of this process, an adversary may determine a high level target they wish to attack. One example of this may be a particular country, government, or commercial sector. (Citation: CyberAdversaryBehavior) (Citation: JP3-60) (Citation: JP3-12R) (Citation: DoD Cyber 2015)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1241",
+            "external_id": "T1241"
+        },
+        {
+            "source_name": "CyberAdversaryBehavior",
+            "description": "Elizabeth Van Ruitenbeek, Ken Keefe, William H. Sanders, and Carol Muehrcke. (2010). Characterizing the Behavior of Cyber Adversaries: The Means, Motive, and Opportunity of Cyberattacks. Retrieved March 5, 2017."
+        },
+        {
+            "source_name": "JP3-60",
+            "description": "Joint Chiefs of Staff. (2013, January 31). Joint Targeting. Retrieved May 19, 2017."
+        },
+        {
+            "source_name": "JP3-12R",
+            "description": "Joint Chiefs of Staff. (2013, February 5). Cyberspace Operations. Retrieved May 19, 2017."
+        },
+        {
+            "source_name": "DoD Cyber 2015",
+            "description": "Department of Defense. (2015, April). The Department of Defense Cyber Strategy. Retrieved May 19, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "target-selection"
+        }
+    ]
+}

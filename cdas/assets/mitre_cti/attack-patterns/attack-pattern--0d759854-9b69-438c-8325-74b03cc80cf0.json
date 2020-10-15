@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--0d759854-9b69-438c-8325-74b03cc80cf0",
+    "name": "Replace legitimate binary with malware",
+    "description": "**This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.**\n\nReplacing a legitimate binary with malware can be accomplished either by replacing a binary on a legitimate download site or standing up a fake or alternative site with the malicious binary. The intent is to have a user download and run the malicious binary thereby executing malware. (Citation: FSecureICS)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "external_id": "T1378",
+            "url": "https://attack.mitre.org/techniques/T1378"
+        },
+        {
+            "description": "Daavid and Antti. (2014, June 23). Havex Hunts For ICS/SCADA Systems. Retrieved March 9, 2017.",
+            "source_name": "FSecureICS"
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "launch"
+        }
+    ]
+}

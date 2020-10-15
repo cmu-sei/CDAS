@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--eacd1efe-ee30-4b03-b58f-5b3b1adfe45d",
+    "name": "Friend/Follow/Connect to targets of interest",
+    "description": "A form of social engineering designed build trust and to lay the foundation for future interactions or attacks. (Citation: BlackHatRobinSage)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1364",
+            "external_id": "T1364"
+        },
+        {
+            "source_name": "BlackHatRobinSage",
+            "description": "Thomas Ryan. (2010). \u201cGetting In Bed with Robin Sage.\u201d. Retrieved March 6, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "stage-capabilities"
+        }
+    ]
+}

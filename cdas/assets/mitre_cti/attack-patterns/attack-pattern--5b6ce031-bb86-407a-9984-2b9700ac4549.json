@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--5b6ce031-bb86-407a-9984-2b9700ac4549",
+    "name": "Identify business relationships",
+    "description": "Business relationship information includes the associates of a target and may be discovered via social media sites such as [LinkedIn](https://www.linkedin.com) or public press releases announcing new partnerships between organizations or people (such as key hire announcements in industry articles).  This information may be used by an adversary to shape social engineering attempts (exploiting who a target expects to hear from) or to plan for technical actions such as exploiting network trust relationship. (Citation: RSA-APTRecon) (Citation: Scasny2015)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1272",
+            "external_id": "T1272"
+        },
+        {
+            "source_name": "RSA-APTRecon",
+            "description": "Rotem Kerner. (2015, October). RECONNAISSANCE: A Walkthrough of the \u201cAPT\u201d Intelligence Gathering Process. Retrieved March 1, 2017."
+        },
+        {
+            "source_name": "Scasny2015",
+            "description": "Gregory Scasny. (2015, September 14). Understanding Open Source Intelligence (OSINT) and its relationship to Identity Theft. Retrieved March 1, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "people-information-gathering"
+        }
+    ]
+}

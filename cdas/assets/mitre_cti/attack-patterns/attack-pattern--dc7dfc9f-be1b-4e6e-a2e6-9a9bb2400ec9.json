@@ -1,0 +1,34 @@
+{
+    "id": "attack-pattern--dc7dfc9f-be1b-4e6e-a2e6-9a9bb2400ec9",
+    "name": "Determine highest level tactical element",
+    "description": "From a tactical viewpoint, an adversary could potentially have a primary and secondary level target.  The primary target represents the highest level tactical element the adversary wishes to attack.  For example, the corporate network within a corporation or the division within an agency. (Citation: CyberAdversaryBehavior) (Citation: JP3-60) (Citation: JP3-12R) (Citation: DoD Cyber 2015)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1243",
+            "external_id": "T1243"
+        },
+        {
+            "source_name": "CyberAdversaryBehavior",
+            "description": "Elizabeth Van Ruitenbeek, Ken Keefe, William H. Sanders, and Carol Muehrcke. (2010). Characterizing the Behavior of Cyber Adversaries: The Means, Motive, and Opportunity of Cyberattacks. Retrieved March 5, 2017."
+        },
+        {
+            "source_name": "JP3-60",
+            "description": "Joint Chiefs of Staff. (2013, January 31). Joint Targeting. Retrieved May 19, 2017."
+        },
+        {
+            "source_name": "JP3-12R",
+            "description": "Joint Chiefs of Staff. (2013, February 5). Cyberspace Operations. Retrieved May 19, 2017."
+        },
+        {
+            "source_name": "DoD Cyber 2015",
+            "description": "Department of Defense. (2015, April). The Department of Defense Cyber Strategy. Retrieved May 19, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "target-selection"
+        }
+    ]
+}

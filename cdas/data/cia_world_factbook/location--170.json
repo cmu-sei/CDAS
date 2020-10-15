@@ -1,0 +1,104 @@
+{
+    "id": "location--170",
+    "name": "Saint Vincent and the Grenadines",
+    "background": "Resistance by native Caribs prevented colonization on Saint Vincent until 1719. Disputed between France and the UK for most of the 18th century, the island was ceded to the latter in 1783. The British prized Saint Vincent due to its fertile soil, which allowed for thriving slave-run plantations of sugar, coffee, indigo, tobacco, cotton, and cocoa. In 1834, the British abolished slavery. Immigration of indentured servants eased the ensuing labor shortage, as did subsequent Portuguese immigrants from Madeira and East Indian laborers. Conditions remained harsh for both former slaves and immigrant agricultural workers, however, as depressed world sugar prices kept the economy stagnant until the early 1900s. The economy then went into a period of decline with many landowners abandoning their estates and leaving the land to be cultivated by liberated slaves. Between 1960 and 1962, Saint Vincent and the Grenadines was a separate administrative unit of the Federation of the West Indies. Autonomy was granted in 1969 and independence in 1979.",
+    "coordinates": "13 15 N, 61 12 W",
+    "region": "Central America and the Caribbean",
+    "total_area": "389 sq km",
+    "land_area": "389 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "tropical; little seasonal temperature variation; rainy season (May to November)",
+    "coastline": "84 km",
+    "natural_hazards": [
+        "hurricanes",
+        "La Soufriere volcano on the island of Saint Vincent is a constant threat",
+        "volcanism: La Soufriere (1,234 m) on the island of Saint Vincent last erupted in 1979; the island of Saint Vincent is part of the volcanic island arc of the Lesser Antilles that extends from Saba in the north to Grenada in the south"
+    ],
+    "terrain": "volcanic, mountainous",
+    "population_distribution": "most of the population is concentrated in and around the capital of Kingstown",
+    "natural_resources": [
+        "hydropower",
+        "arable land"
+    ],
+    "population": "101,390",
+    "nationality": "Saint Vincentian(s) or Vincentian(s)",
+    "ethnic_groups": {
+        "African descent": "71.2%",
+        "mixed": "23%",
+        "indigenous": "3%",
+        "East Indian/Indian": "1.1%",
+        "European": "1.5%",
+        "other": ".2%"
+    },
+    "languages": [
+        "English",
+        "Vincentian Creole English",
+        "French patois"
+    ],
+    "religions": {
+        "Protestant": "75%",
+        "Roman Catholic": "6.3%",
+        "Rastafarian": "1.1%",
+        "Jehovah's Witness": "0.8%",
+        "other": "4.7%",
+        "none": "7.5%",
+        "unspecified": "4.7%"
+    },
+    "government_type": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
+    "national_symbols": "Saint Vincent parrot",
+    "national_colors": [
+        "blue",
+        "gold",
+        "green"
+    ],
+    "gdp": "$0.785 billion",
+    "agriculture": [
+        "bananas",
+        "coconuts",
+        "sweet potatoes",
+        "spices",
+        "small numbers of cattle",
+        "sheep",
+        "pigs",
+        "goats",
+        "fish"
+    ],
+    "industries": [
+        "tourism",
+        "food processing",
+        "cement",
+        "furniture",
+        "clothing",
+        "starch"
+    ],
+    "exports": [
+        "bananas",
+        "eddoes and dasheen (taro)",
+        "arrowroot starch",
+        "tennis racquets"
+    ],
+    "imports": [
+        "foodstuffs",
+        "machinery and equipment",
+        "chemicals and fertilizers",
+        "minerals and fuels"
+    ],
+    "broadband_subscriptions": "24,613",
+    "internet_users": "22,803",
+    "mobile_subscriptions": "105,875",
+    "internet_country_code": ".vc",
+    "military_and_security_forces": "no regular military forces; the Special Services Unit (SSU) is the paramilitary arm of the Royal Saint Vincent and the Grenadines Police Force (RSVPF)",
+    "percent_GDP_on_military": "Unknown",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Kingstown"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "6",
+    "international_disputes": "joins other Caribbean states to counter Venezuela's claim that Aves Island sustains human habitation, a criterion under UN Convention on the Law of the Sea, which permits Venezuela to extend its EEZ/continental shelf over a large portion of the eastern Caribbean Sea",
+    "terrorism": "None/Unknown"
+}

@@ -1,0 +1,31 @@
+{
+    "id": "attack-pattern--8f0e39c6-82c9-41ec-9f93-5696c0f2e274",
+    "name": "Carrier Billing Fraud",
+    "description": "A malicious app may trigger fraudulent charges on a victim\u2019s carrier billing statement in several different ways, including SMS toll fraud and SMS shortcodes that make purchases.\n\nPerforming SMS fraud relies heavily upon the fact that, when making SMS purchases, the carriers perform device verification but not user verification. This allows adversaries to make purchases on behalf of the user, with little or no user interaction.(Citation: Google Bread)\n\nMalicious applications may also perform toll billing, which occurs when carriers provide payment endpoints over a web page. The application connects to the web page over cellular data so the carrier can directly verify the number, or the application must retrieve a code sent via SMS and enter it into the web page.(Citation: Google Bread)\n\nOn iOS, apps cannot send SMS messages.\n\nOn Android, apps must hold the `SEND_SMS` permission to send SMS messages. Additionally, Android version 4.2 and above has mitigations against this threat by requiring user consent before allowing SMS messages to be sent to premium numbers (Citation: AndroidSecurity2014).",
+    "references": [
+        {
+            "source_name": "mitre-mobile-attack",
+            "external_id": "T1448",
+            "url": "https://attack.mitre.org/techniques/T1448"
+        },
+        {
+            "source_name": "Google Bread",
+            "url": "https://security.googleblog.com/2020/01/pha-family-highlights-bread-and-friends.html",
+            "description": "A. Guertin, V. Kotov, Android Security & Privacy Team. (2020, January 9). PHA Family Highlights: Bread (and Friends) . Retrieved April 27, 2020."
+        },
+        {
+            "url": "https://static.googleusercontent.com/media/source.android.com/en//security/reports/Google_Android_Security_2014_Report_Final.pdf",
+            "description": "Google. (2014). Android Security 2014 Year in Review. Retrieved December 12, 2016.",
+            "source_name": "AndroidSecurity2014"
+        }
+    ],
+    "platforms": [
+        "Android"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "impact"
+        }
+    ]
+}

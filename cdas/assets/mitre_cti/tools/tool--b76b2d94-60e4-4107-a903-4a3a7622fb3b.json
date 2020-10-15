@@ -1,0 +1,29 @@
+{
+    "id": "tool--b76b2d94-60e4-4107-a903-4a3a7622fb3b",
+    "name": "LaZagne",
+    "description": "[LaZagne](https://attack.mitre.org/software/S0349) is a post-exploitation, open-source tool used to recover stored passwords on a system. It has modules for Windows, Linux, and OSX, but is mainly focused on Windows systems. [LaZagne](https://attack.mitre.org/software/S0349) is publicly available on GitHub.(Citation: GitHub LaZagne Dec 2018)",
+    "references": [
+        {
+            "url": "https://attack.mitre.org/software/S0349",
+            "source_name": "mitre-attack",
+            "external_id": "S0349"
+        },
+        {
+            "source_name": "LaZagne",
+            "description": "(Citation: GitHub LaZange Dec 2018)"
+        },
+        {
+            "description": "Zanni, A. (n.d.). The LaZagne Project !!!. Retrieved December 14, 2018.",
+            "url": "https://github.com/AlessandroZ/LaZagne",
+            "source_name": "GitHub LaZagne Dec 2018"
+        }
+    ],
+    "aliases": [
+        "LaZagne"
+    ],
+    "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+    ]
+}

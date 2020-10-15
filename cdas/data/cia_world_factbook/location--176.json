@@ -1,0 +1,142 @@
+{
+    "id": "location--176",
+    "name": "Serbia",
+    "background": "The Kingdom of Serbs, Croats, and Slovenes was formed in 1918; its name was changed to Yugoslavia in 1929. Communist Partisans resisted the Axis occupation and division of Yugoslavia from 1941 to 1945 and fought nationalist opponents and collaborators as well. The military and political movement headed by Josip Broz \"TITO\" (Partisans) took full control of Yugoslavia when their domestic rivals and the occupiers were defeated in 1945. Although communists, TITO and his successors (Tito died in 1980) managed to steer their own path between the Warsaw Pact nations and the West for the next four and a half decades. In 1989, Slobodan MILOSEVIC became president of the Republic of Serbia and his ultranationalist calls for Serbian domination led to the violent breakup of Yugoslavia along ethnic lines. In 1991, Croatia, Slovenia, and Macedonia declared independence, followed by Bosnia in 1992. The remaining republics of Serbia and Montenegro declared a new Federal Republic of Yugoslavia (FRY) in April 1992 and under MILOSEVIC's leadership, Serbia led various military campaigns to unite ethnic Serbs in neighboring republics into a \"Greater Serbia.\" These actions ultimately failed and, after international intervention, led to the signing of the Dayton Peace Accords in 1995.\nMILOSEVIC retained control over Serbia and eventually became president of the FRY in 1997. In 1998, an ethnic Albanian insurgency in the formerly autonomous Serbian province of Kosovo provoked a Serbian counterinsurgency campaign that resulted in massacres and massive expulsions of ethnic Albanians living in Kosovo. The MILOSEVIC government's rejection of a proposed international settlement led to NATO's bombing of Serbia in the spring of 1999. Serbian military and police forces withdrew from Kosovo in June 1999, and the UN Security Council authorized an interim UN administration and a NATO-led security force in Kosovo. FRY elections in late 2000 led to the ouster of MILOSEVIC and the installation of democratic government. In 2003, the FRY became the State Union of Serbia and Montenegro, a loose federation of the two republics. Widespread violence predominantly targeting ethnic Serbs in Kosovo in March 2004 led to more intense calls to address Kosovo's status, and the UN began facilitating status talks in 2006. In June 2006, Montenegro seceded from the federation and declared itself an independent nation. Serbia subsequently gave notice that it was the successor state to the union of Serbia and Montenegro.\nIn February 2008, after nearly two years of inconclusive negotiations, Kosovo declared itself independent of Serbia - an action Serbia refuses to recognize. At Serbia's request, the UN General Assembly (UNGA) in October 2008 sought an advisory opinion from the International Court of Justice (ICJ) on whether Kosovo's unilateral declaration of independence was in accordance with international law. In a ruling considered unfavorable to Serbia, the ICJ issued an advisory opinion in July 2010 stating that international law did not prohibit declarations of independence. In late 2010, Serbia agreed to an EU-drafted UNGA Resolution acknowledging the ICJ's decision and calling for a new round of talks between Serbia and Kosovo, this time on practical issues rather than Kosovo's status. Serbia and Kosovo signed the first agreement of principles governing the normalization of relations between the two countries in April 2013 and are in the process of implementing its provisions. In 2015, Serbia and Kosovo reached four additional agreements within the EU-led Brussels Dialogue framework. These included agreements on the Community of Serb-Majority Municipalities; telecommunications; energy production and distribution; and freedom of movement. President Aleksandar VUCIC has promoted an ambitious goal of Serbia joining the EU by 2025. Under his leadership as prime minister, in 2014 Serbia opened formal negotiations for accession.",
+    "coordinates": "44 00 N, 21 00 E",
+    "region": "Europe",
+    "total_area": "77,474 sq km",
+    "land_area": "77,474 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "2,322 km",
+    "neighbors": {
+        "Bulgaria": "344 km",
+        "Croatia": "314 km",
+        "Hungary": "164 km",
+        "Kosovo": "366 km",
+        "Macedonia": "101 km",
+        "Montenegro": "157 km",
+        "Romania": "531 km"
+    },
+    "climate": "in the north, continental climate (cold winters and hot, humid summers with well-distributed rainfall); in other parts, continental and Mediterranean climate (relatively cold winters with heavy snowfall and hot, dry summers and autumns)",
+    "coastline": "0 km",
+    "natural_hazards": [
+        "destructive earthquakes"
+    ],
+    "terrain": "extremely varied; to the north, rich fertile plains; to the east, limestone ranges and basins; to the southeast, ancient mountains and hills",
+    "population_distribution": "a fairly even distribution throughout most of the country, with urban areas attracting larger and denser populations",
+    "natural_resources": [
+        "oil",
+        "gas",
+        "coal",
+        "iron ore",
+        "copper",
+        "zinc",
+        "antimony",
+        "chromite",
+        "gold",
+        "silver",
+        "magnesium",
+        "pyrite",
+        "limestone",
+        "marble",
+        "salt",
+        "arable land"
+    ],
+    "population": "7,012,165",
+    "nationality": "Serb(s)",
+    "ethnic_groups": {
+        "Serb": "83.3%",
+        "Hungarian": "3.5%",
+        "Romani": "2.1%",
+        "Bosniak": "2%",
+        "other": "5.7%",
+        "undeclared or unknown": "3.4%"
+    },
+    "languages": {
+        "Serbian (official)": "88.1%",
+        "Hungarian": "3.4%",
+        "Bosnian": "1.9%",
+        "Romani": "1.4%",
+        "other": "3.4%",
+        "undeclared or unknown": "1.8%"
+    },
+    "religions": {
+        "Orthodox": "84.6%",
+        "Catholic": "5%",
+        "Muslim": "3.1%",
+        "Protestant": "1%",
+        "atheist": "1.1%",
+        "other": "0.8%",
+        "undeclared or unknown": "4.5%"
+    },
+    "government_type": "parliamentary republic",
+    "national_symbols": "white double-headed eagle",
+    "national_colors": [
+        "red",
+        "blue",
+        "white"
+    ],
+    "gdp": "$41.43 billion",
+    "agriculture": [
+        "wheat",
+        "maize",
+        "sunflower",
+        "sugar beets",
+        "grapes/wine",
+        "fruits",
+        "vegetables",
+        "beef",
+        "pork",
+        "and meat products",
+        "milk and dairy products"
+    ],
+    "industries": [
+        "automobiles",
+        "base metals",
+        "furniture",
+        "food processing",
+        "machinery",
+        "chemicals",
+        "sugar",
+        "tires",
+        "clothes",
+        "pharmaceuticals"
+    ],
+    "exports": [
+        "automobiles",
+        "iron and steel",
+        "rubber",
+        "clothes",
+        "wheat",
+        "fruit and vegetables",
+        "nonferrous metals",
+        "electric appliances",
+        "metal products",
+        "weapons and ammunition"
+    ],
+    "imports": [
+        "machinery and transport equipment",
+        "fuels and lubricants",
+        "manufactured goods",
+        "chemicals",
+        "food and live animals",
+        "raw materials"
+    ],
+    "broadband_subscriptions": "1,552,160",
+    "internet_users": "5,192,501",
+    "mobile_subscriptions": "8,431,365",
+    "internet_country_code": ".rs",
+    "military_and_security_forces": "Serbian Armed Forces (Vojska Srbije, VS): Land Forces (includes Riverine Component, consisting of a river flotilla on the Danube), Air and Air Defense Forces, Serbian Guard; Ministry of Interior: Gendarmerie",
+    "percent_GDP_on_military": "2.2%",
+    "pipelines": [
+        "1936 km gas",
+        "413 km oil"
+    ],
+    "ports_and_terminals": {
+        "river port(s)": "Belgrade (Danube)"
+    },
+    "waterways": "587 km",
+    "number_of_airports": "26",
+    "international_disputes": "Serbia with several other states protest the US and other states' recognition of Kosovo's declaration of its status as a sovereign and independent state in February 2008; ethnic Serbian municipalities along Kosovo's northern border challenge final status of Kosovo-Serbia boundary; several thousand NATO-led Kosovo Force peacekeepers under UN Interim Administration Mission in Kosovo authority continue to keep the peace within Kosovo between the ethnic Albanian majority and the Serb minority in Kosovo; Serbia delimited about half of the boundary with Bosnia and Herzegovina, but sections along the Drina River remain in dispute",
+    "terrorism": "None/Unknown"
+}

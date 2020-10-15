@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--38a6d2f5-d948-4235-bb91-bb01604448b4",
+    "name": "Credential pharming",
+    "description": "**This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.**\n\nCredential pharming a  form of attack designed to steal users' credential by redirecting users to fraudulent websites. Pharming can be conducted either by changing the hosts file on a victim's computer or by exploitation of a vulnerability in DNS server software. (Citation: DriveByPharming) (Citation: GoogleDrive Phishing)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "external_id": "T1374",
+            "url": "https://attack.mitre.org/techniques/T1374"
+        },
+        {
+            "description": "Ellen Messmer. (2008, January 22). First case of \"drive-by pharming\" identified in the wild. Retrieved March 2, 2017.",
+            "source_name": "DriveByPharming"
+        },
+        {
+            "description": "Nick Johnston. (2014, March 13). Google Docs Users Targeted by Sophisticated Phishing Scam. Retrieved March 29, 2017.",
+            "source_name": "GoogleDrive Phishing"
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "launch"
+        }
+    ]
+}

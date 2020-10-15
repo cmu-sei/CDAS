@@ -1,0 +1,23 @@
+{
+    "id": "attack-pattern--82bbd209-f516-45e0-9542-4ffbbc2a8717",
+    "name": "Discover new exploits and monitor exploit-provider forums",
+    "description": "An exploit takes advantage of a bug or vulnerability in order to cause unintended or unanticipated behavior to occur on computer hardware or software. The adversary may need to discover new exploits when existing exploits are no longer relevant to the environment they are trying to compromise. An adversary may monitor exploit provider forums to understand the state of existing, as well as newly discovered, exploits. (Citation: EquationQA)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1350",
+            "external_id": "T1350"
+        },
+        {
+            "source_name": "EquationQA",
+            "description": "Kaspersky Lab. (2015, February). EQUATION GROUP: QUESTIONS AND ANSWERS. Retrieved March 9, 2017.",
+            "url": "https://www.threatminer.org/_reports/2015/Equation_group_questions_and_answers.pdf"
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "build-capabilities"
+        }
+    ]
+}

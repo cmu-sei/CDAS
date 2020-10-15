@@ -1,0 +1,31 @@
+{
+    "id": "attack-pattern--144e007b-e638-431d-a894-45d90c54ab90",
+    "name": "Modify Cloud Compute Infrastructure",
+    "description": "An adversary may attempt to modify a cloud account's compute service infrastructure to evade defenses. A modification to the compute service infrastructure can include the creation, deletion, or modification of one or more components such as compute instances, virtual machines, and snapshots.\n\nPermissions gained from the modification of infrastructure components may bypass restrictions that prevent access to existing infrastructure. Modifying infrastructure components may also allow an adversary to evade detection and remove evidence of their presence.(Citation: Mandiant M-Trends 2020)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1578",
+            "url": "https://attack.mitre.org/techniques/T1578"
+        },
+        {
+            "source_name": "Mandiant M-Trends 2020",
+            "url": "https://content.fireeye.com/m-trends/rpt-m-trends-2020",
+            "description": "FireEye / Mandiant. (2020, February). M-Trends 2020. Retrieved April 24, 2020."
+        }
+    ],
+    "platforms": [
+        "AWS",
+        "GCP",
+        "Azure"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        }
+    ],
+    "permissions": [
+        "User"
+    ]
+}

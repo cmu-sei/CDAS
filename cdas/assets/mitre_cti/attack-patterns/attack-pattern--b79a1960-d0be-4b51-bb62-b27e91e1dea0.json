@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--b79a1960-d0be-4b51-bb62-b27e91e1dea0",
+    "name": "Conduct social engineering or HUMINT operation",
+    "description": "**This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.**\n\nSocial Engineering is the practice of manipulating people in order to get them to divulge information or take an action. Human Intelligence (HUMINT) is intelligence collected and provided by human sources. (Citation: 17millionScam) (Citation: UbiquityEmailScam)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "external_id": "T1376",
+            "url": "https://attack.mitre.org/techniques/T1376"
+        },
+        {
+            "description": "Chris Johnston. (2015, February 5). Company loses $17m in email scam. Retrieved March 9, 2017.",
+            "source_name": "17millionScam"
+        },
+        {
+            "description": "Robert Hackett. (2015, August 10). Fraudsters duped this company into handing over $40 million. Retrieved March 9, 2017.",
+            "source_name": "UbiquityEmailScam"
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "launch"
+        }
+    ]
+}

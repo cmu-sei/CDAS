@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--73e7d7d5-1782-4cd0-a4d7-00c7ec051c2a",
+    "name": "Identify business relationships",
+    "description": "Business relationship information may be used by an adversary to shape social engineering attempts (exploiting who a target expects to hear from) or to plan for technical actions such as exploiting network trust relationship. (Citation: 11StepsAttackers)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1283",
+            "external_id": "T1283"
+        },
+        {
+            "source_name": "11StepsAttackers",
+            "description": "Thor Olavsrud. (2014, September 2). 11 Steps Attackers Took to Crack Target. Retrieved March 5, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "organizational-information-gathering"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "id": "attack-pattern--cc7b8c4e-9be0-47ca-b0bb-83915ec3ee2f",
+    "name": "Data Encoding",
+    "description": "Adversaries may encode data to make the content of command and control traffic more difficult to detect. Command and control (C2) information can be encoded using a standard data encoding system. Use of data encoding may adhere to existing protocol specifications and includes use of ASCII, Unicode, Base64, MIME, or other binary-to-text and character encoding systems.(Citation: Wikipedia Binary-to-text Encoding) (Citation: Wikipedia Character Encoding) Some data encoding systems may also result in data compression, such as gzip.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1132",
+            "url": "https://attack.mitre.org/techniques/T1132"
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/Binary-to-text_encoding",
+            "description": "Wikipedia. (2016, December 26). Binary-to-text encoding. Retrieved March 1, 2017.",
+            "source_name": "Wikipedia Binary-to-text Encoding"
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/Character_encoding",
+            "description": "Wikipedia. (2017, February 19). Character Encoding. Retrieved March 1, 2017.",
+            "source_name": "Wikipedia Character Encoding"
+        },
+        {
+            "url": "https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf",
+            "description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved April 20, 2016.",
+            "source_name": "University of Birmingham C2"
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "command-and-control"
+        }
+    ],
+    "permissions": [
+        "User"
+    ]
+}

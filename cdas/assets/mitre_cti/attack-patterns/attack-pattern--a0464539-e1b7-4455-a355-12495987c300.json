@@ -1,0 +1,36 @@
+{
+    "id": "attack-pattern--a0464539-e1b7-4455-a355-12495987c300",
+    "name": "Attack PC via USB Connection",
+    "description": "With escalated privileges, an adversary could program the mobile device to impersonate USB devices such as input devices (keyboard and mouse), storage devices, and/or networking devices in order to attack a physically connected PC(Citation: Wang-ExploitingUSB)(Citation: ArsTechnica-PoisonTap) This technique has been demonstrated on Android. We are unaware of any demonstrations on iOS.",
+    "references": [
+        {
+            "source_name": "mitre-mobile-attack",
+            "url": "https://attack.mitre.org/techniques/T1427",
+            "external_id": "T1427"
+        },
+        {
+            "url": "https://pages.nist.gov/mobile-threat-catalogue/physical-threats/PHY-2.html",
+            "source_name": "NIST Mobile Threat Catalogue",
+            "external_id": "PHY-2"
+        },
+        {
+            "source_name": "Wang-ExploitingUSB",
+            "description": "Z. Wang and A. Stavrou. (2010, December 6-10). Exploiting smart-phone USB connectivity for fun and profit. Retrieved December 22, 2016.",
+            "url": "http://dl.acm.org/citation.cfm?id=1920314"
+        },
+        {
+            "source_name": "ArsTechnica-PoisonTap",
+            "description": "Dan Goodin. (2016, November 16). Meet PoisonTap, the $5 tool that ransacks password-protected computers. Retrieved December 22, 2016.",
+            "url": "http://arstechnica.com/security/2016/11/meet-poisontap-the-5-tool-that-ransacks-password-protected-computers/"
+        }
+    ],
+    "platforms": [
+        "Android"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "lateral-movement"
+        }
+    ]
+}

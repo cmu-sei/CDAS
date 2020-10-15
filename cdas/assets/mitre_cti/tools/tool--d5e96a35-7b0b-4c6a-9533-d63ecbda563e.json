@@ -1,0 +1,34 @@
+{
+    "id": "tool--d5e96a35-7b0b-4c6a-9533-d63ecbda563e",
+    "name": "HTRAN",
+    "description": "[HTRAN](https://attack.mitre.org/software/S0040) is a tool that proxies connections through intermediate hops and aids users in disguising their true geographical location. It can be used by adversaries to hide their location when interacting with the victim networks. (Citation: Operation Quantum Entanglement)(Citation: NCSC Joint Report Public Tools)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/software/S0040",
+            "external_id": "S0040"
+        },
+        {
+            "source_name": "HUC Packet Transmit Tool",
+            "description": "(Citation: Operation Quantum Entanglement)"
+        },
+        {
+            "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-quantum-entanglement.pdf",
+            "description": "Haq, T., Moran, N., Vashisht, S., Scott, M. (2014, September). OPERATION QUANTUM ENTANGLEMENT. Retrieved November 4, 2015.",
+            "source_name": "Operation Quantum Entanglement"
+        },
+        {
+            "description": "The Australian Cyber Security Centre (ACSC), the Canadian Centre for Cyber Security (CCCS), the New Zealand National Cyber Security Centre (NZ NCSC), CERT New Zealand, the UK National Cyber Security Centre (UK NCSC) and the US National Cybersecurity and Communications Integration Center (NCCIC). (2018, October 11). Joint report on publicly available hacking tools. Retrieved March 11, 2019.",
+            "url": "https://s3.eu-west-1.amazonaws.com/ncsc-content/files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+            "source_name": "NCSC Joint Report Public Tools"
+        }
+    ],
+    "aliases": [
+        "HTRAN",
+        "HUC Packet Transmit Tool"
+    ],
+    "platforms": [
+        "Linux",
+        "Windows"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "id": "tool--981acc4c-2ede-4b56-be6e-fa1a75f37acf",
+    "name": "Nltest",
+    "description": "[Nltest](https://attack.mitre.org/software/S0359) is a Windows command-line utility used to list domain controllers and enumerate domain trusts.(Citation: Nltest Manual)",
+    "references": [
+        {
+            "external_id": "S0359",
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/software/S0359"
+        },
+        {
+            "source_name": "Nltest Manual",
+            "url": "https://ss64.com/nt/nltest.html",
+            "description": "ss64. (n.d.). NLTEST.exe - Network Location Test. Retrieved February 14, 2019."
+        }
+    ],
+    "aliases": [
+        "Nltest"
+    ],
+    "platforms": [
+        "Windows"
+    ]
+}

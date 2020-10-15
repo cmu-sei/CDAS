@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--54a42187-a20c-4e4e-ba31-8d15c9e1f57f",
+    "name": "SSL certificate acquisition for trust breaking",
+    "description": "Fake certificates can be acquired by legal process or coercion. Or, an adversary can trick a Certificate Authority into issuing a certificate. These fake certificates can be used as a part of Man-in-the-Middle attacks. (Citation: SubvertSSL)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1338",
+            "external_id": "T1338"
+        },
+        {
+            "source_name": "SubvertSSL",
+            "description": "Ryan Singel. (2010, March 24). Law Enforcement Appliance Subverts SSL. Retrieved March 2, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "establish-&-maintain-infrastructure"
+        }
+    ]
+}

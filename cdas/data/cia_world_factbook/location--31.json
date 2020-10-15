@@ -1,0 +1,121 @@
+{
+    "id": "location--31",
+    "name": "Burkina Faso",
+    "background": "Various ethnic groups settled and established kingdoms in the area of today's Burkina Faso from medieval times onward. In the late 19th century, several European states attempted to move into the region, but it was the French who established a protectorate of Upper Volta in 1896. Independent from France in 1960, the country changed its name to Burkina Faso in 1984. Repeated military coups during the 1970s and 1980s were followed by multiparty elections in the early 1990s. Former President Blaise COMPAORE (1987-2014) resigned in late October 2014 following popular protests against his efforts to amend the constitution's two-term presidential limit. An interim administration organized presidential and legislative elections - held in November 2015 - where Roch Marc Christian KABORE was elected president. The country experienced terrorist attacks in its capital in 2016, 2017, and 2018, while additional attacks in the country's northern and eastern regions resulted in more than 1,800 deaths and over 500,000 internally displaced persons in 2019. The Government of Burkina Faso has made numerous arrests of terrorist suspects, augmented the size of its special terrorism detachment Groupement des Forces Anti-Terroristes (GFAT) in the country's north, and joined the newly-created G5 Sahel Joint Force to fight terrorism and criminal trafficking groups with regional neighbors Chad, Mali, Mauritania, and Niger. Burkina Faso's high population growth, recurring drought, pervasive and perennial food insecurity, and limited natural resources result in poor economic prospects for the majority of its citizens.\n        (2019)",
+    "coordinates": "13 00 N, 2 00 W",
+    "region": "Africa",
+    "total_area": "274,200 sq km",
+    "land_area": "273,800 sq km",
+    "water_area": "400 sq km",
+    "land_boundary": "3,611 km",
+    "neighbors": {
+        "Cote d'Ivoire": "545 km",
+        "Ghana": "602 km",
+        "Mali": "1325 km",
+        "Niger": "622 km",
+        "Togo": "131 km"
+    },
+    "climate": "three climate zones including a hot tropical savanna with a short rainy season in the southern half, a tropical hot semi-arid steppe climate typical of the Sahel region in the northern half, and small area of hot desert in the very north of the country bordering the Sahara Desert",
+    "coastline": "0 km",
+    "natural_hazards": [
+        "recurring droughts"
+    ],
+    "terrain": "Mostly flat to dissected, undulating plains; hills in the west and southeast.\u00a0 Occupies an extensive plateau with savanna that is grassy in the north and gradually gives way to sparse forests in the south.\n        (2019)",
+    "population_distribution": "Most of the population is located in the center and south. Nearly one-third of the population lives in cities. The capital and largest city is Ouagadougou (Ouaga), with a population of 1.8 million as shown in this population distribution map\n(2019)",
+    "natural_resources": [
+        "gold",
+        "manganese",
+        "zinc",
+        "limestone",
+        "marble",
+        "phosphates",
+        "pumice",
+        "salt"
+    ],
+    "population": "20,835,401",
+    "nationality": "Burkinabe (singular and plural)",
+    "ethnic_groups": {
+        "Mossi": "52%",
+        "Fulani": "8.4%",
+        "Gurma": "7%",
+        "Bobo": "4.9%",
+        "Gurunsi": "4.6%",
+        "Senufo": "4.5%",
+        "Bissa": "3.7%",
+        "Lobi": "2.4%",
+        "Dagara": "2.4%",
+        "Tuareg/Bella": "1.9%",
+        "Dioula": "0.8%",
+        "unspecified/no answer": "0.3%",
+        "other": "7.2%"
+    },
+    "languages": {
+        "French (official)": "",
+        "ve African languages belonging to Sudanic family spoken by 90% of the": "population"
+    },
+    "religions": {
+        "Muslim": "61.5%",
+        "Roman Catholic": "23.3%",
+        "traditional/animist": "7.8%",
+        "Protestant": "6.5%",
+        "other/no answer": "0.2%",
+        "none": "0.7%"
+    },
+    "government_type": "presidential republic",
+    "national_symbols": "white stallion",
+    "national_colors": [
+        "red",
+        "yellow",
+        "green"
+    ],
+    "gdp": "$12.57 billion",
+    "agriculture": [
+        "cotton",
+        "peanuts",
+        "shea nuts",
+        "sesame",
+        "sorghum",
+        "millet",
+        "corn",
+        "rice",
+        "livestock"
+    ],
+    "industries": [
+        "cotton lint",
+        "beverages",
+        "agricultural processing",
+        "soap",
+        "cigarettes",
+        "textiles",
+        "gold"
+    ],
+    "exports": [
+        "gold",
+        "cotton",
+        "livestock"
+    ],
+    "imports": [
+        "capital goods",
+        "foodstuffs",
+        "petroleum"
+    ],
+    "broadband_subscriptions": "13,818",
+    "internet_users": "3,158,834",
+    "mobile_subscriptions": "19,339,109",
+    "internet_country_code": ".bf",
+    "military_and_security_forces": "Armed Forces of Burkina Faso (FABF): Army of Burkina Faso (L\u2019Armee de Terre, LAT), Air Force of Burkina Faso (Force Aerienne de Burkina Faso, FABF), National Gendarmerie, National Fire Brigade (Brigade Nationale des Sapeurs-Pompiers, BNSP)",
+    "percent_GDP_on_military": "2.4%",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": "Unknown",
+    "waterways": "Unknown",
+    "number_of_airports": "23",
+    "international_disputes": "adding to illicit cross-border activities, Burkina Faso has issues concerning unresolved boundary alignments with its neighbors; demarcation is currently underway with Mali; the dispute with Niger was referred to the ICJ in 2010, and a dispute over several villages with Benin persists; Benin retains a border dispute with Burkina Faso around the town of Koualou",
+    "terrorism": {
+        "Ansarul Islam": "to end government control in parts of the north of the country and enforce sharia in the area of the ancient Fulani Empire of Djeelgodjiarea(s) of operation",
+        "Islamic State of Iraq and ash-sham networks in the Greater Sahara (ISGS)": "replace regional governments with an Islamic statearea(s) of operation",
+        "al-Mulathamun Battalion": "replace several African governments, including Burkina Faso's government, with an Islamic statearea(s) of operation",
+        "al-Qa'ida-affiliated Jama'at Nusrat al-Islam wal-Muslimin (JNIM)": "establish an Islamic state centered in Maliarea(s) of operation"
+    }
+}

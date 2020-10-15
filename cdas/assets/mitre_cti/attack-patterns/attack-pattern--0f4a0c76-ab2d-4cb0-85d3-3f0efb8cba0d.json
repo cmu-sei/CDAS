@@ -1,0 +1,48 @@
+{
+    "id": "attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d",
+    "name": "JavaScript/JScript",
+    "description": "Adversaries may abuse JavaScript and/or JScript for execution. JavaScript (JS) is a platform-agnostic scripting language (compiled just-in-time at runtime) commonly associated with scripts in webpages, though JS can be executed in runtime environments outside the browser.(Citation: NodeJS)\n\nJScript is the Microsoft implementation of the same scripting standard. JScript is interpreted via the Windows Script engine and thus integrated with many components of Windows such as the [Component Object Model](https://attack.mitre.org/techniques/T1559/001) and Internet Explorer HTML Application (HTA) pages.(Citation: JScrip May 2018)(Citation: Microsoft JScript 2007)(Citation: Microsoft Windows Scripts)\n\nAdversaries may abuse JavaScript / JScript to execute various behaviors. Common uses include hosting malicious scripts on websites as part of a [Drive-by Compromise](https://attack.mitre.org/techniques/T1189) or downloading and executing these script files as secondary payloads. Since these payloads are text-based, it is also very common for adversaries to obfuscate their content as part of [Obfuscated Files or Information](https://attack.mitre.org/techniques/T1027).",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1059.007",
+            "url": "https://attack.mitre.org/techniques/T1059/007"
+        },
+        {
+            "source_name": "NodeJS",
+            "url": "https://nodejs.org/",
+            "description": "OpenJS Foundation. (n.d.). Node.js. Retrieved June 23, 2020."
+        },
+        {
+            "source_name": "JScrip May 2018",
+            "url": "https://docs.microsoft.com/windows/win32/com/translating-to-jscript",
+            "description": "Microsoft. (2018, May 31). Translating to JScript. Retrieved June 23, 2020."
+        },
+        {
+            "source_name": "Microsoft JScript 2007",
+            "url": "https://docs.microsoft.com/archive/blogs/gauravseth/the-world-of-jscript-javascript-ecmascript",
+            "description": "Microsoft. (2007, August 15). The World of JScript, JavaScript, ECMAScript \u2026. Retrieved June 23, 2020."
+        },
+        {
+            "source_name": "Microsoft Windows Scripts",
+            "url": "https://docs.microsoft.com/scripting/winscript/windows-script-interfaces",
+            "description": "Microsoft. (2017, January 18). Windows Script Interfaces. Retrieved June 23, 2020."
+        }
+    ],
+    "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "execution"
+        }
+    ],
+    "permissions": [
+        "User",
+        "Administrator",
+        "SYSTEM"
+    ]
+}

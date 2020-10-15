@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--68b45999-bb0c-4829-bbd0-75d6dac57c94",
+    "name": "Obtain templates/branding materials",
+    "description": "Templates and branding materials may be used by an adversary to add authenticity to social engineering message. (Citation: Scasny2015)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1281",
+            "external_id": "T1281"
+        },
+        {
+            "source_name": "Scasny2015",
+            "description": "Gregory Scasny. (2015, September 14). Understanding Open Source Intelligence (OSINT) and its relationship to Identity Theft. Retrieved March 1, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "organizational-information-gathering"
+        }
+    ]
+}

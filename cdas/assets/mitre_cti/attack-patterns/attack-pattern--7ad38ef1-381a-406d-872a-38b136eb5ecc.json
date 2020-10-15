@@ -1,0 +1,29 @@
+{
+    "id": "attack-pattern--7ad38ef1-381a-406d-872a-38b136eb5ecc",
+    "name": "Confluence",
+    "description": "\nAdversaries may leverage Confluence repositories to mine valuable information. Often found in development environments alongside Atlassian JIRA, Confluence is generally used to store development-related documentation, however, in general may contain more diverse categories of useful information, such as:\n\n* Policies, procedures, and standards\n* Physical / logical network diagrams\n* System architecture diagrams\n* Technical system documentation\n* Testing / development credentials\n* Work / project schedules\n* Source code snippets\n* Links to network shares and other internal resources\n",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1213.001",
+            "url": "https://attack.mitre.org/techniques/T1213/001"
+        },
+        {
+            "url": "https://confluence.atlassian.com/confkb/how-to-enable-user-access-logging-182943.html",
+            "description": "Atlassian. (2018, January 9). How to Enable User Access Logging. Retrieved April 4, 2018.",
+            "source_name": "Atlassian Confluence Logging"
+        }
+    ],
+    "platforms": [
+        "SaaS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "collection"
+        }
+    ],
+    "permissions": [
+        "User"
+    ]
+}

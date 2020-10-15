@@ -1,0 +1,123 @@
+{
+    "id": "location--191",
+    "name": "Switzerland",
+    "background": "The Swiss Confederation was founded in 1291 as a defensive alliance among three cantons. In succeeding years, other localities joined the original three. The Swiss Confederation secured its independence from the Holy Roman Empire in 1499. A constitution of 1848, subsequently modified in 1874 to allow voters to introduce referenda on proposed laws, replaced the confederation with a centralized federal government. Switzerland's sovereignty and neutrality have long been honored by the major European powers, and the country was not involved in either of the two world wars. The political and economic integration of Europe over the past half century, as well as Switzerland's role in many UN and international organizations, has strengthened Switzerland's ties with its neighbors. However, the country did not officially become a UN member until 2002. Switzerland remains active in many UN and international organizations but retains a strong commitment to neutrality.",
+    "coordinates": "47 00 N, 8 00 E",
+    "region": "Europe",
+    "total_area": "41,277 sq km",
+    "land_area": "39,997 sq km",
+    "water_area": "1,280 sq km",
+    "land_boundary": "1,770 km",
+    "neighbors": {
+        "France": "525 km",
+        "Italy": "698 km",
+        "Liechtenstein": "41 km",
+        "Germany": "348 km"
+    },
+    "climate": "temperate, but varies with altitude; cold, cloudy, rainy/snowy winters; cool to warm, cloudy, humid summers with occasional showers",
+    "coastline": "0 km",
+    "natural_hazards": [
+        "avalanches, landslides",
+        "flash floods"
+    ],
+    "terrain": "mostly mountains (Alps in south, Jura in northwest) with a central plateau of rolling hills, plains, and large lakes",
+    "population_distribution": "population distribution corresponds to elevation with the northern and western areas far more heavily populated; the higher Alps of the south limit settlement",
+    "natural_resources": [
+        "hydropower potential",
+        "timber",
+        "salt"
+    ],
+    "population": "8,403,994",
+    "nationality": "Swiss (singular and plural)",
+    "ethnic_groups": {
+        "Swiss": "69.5%",
+        "German": "4.2%",
+        "Italian": "3.2%",
+        "Portuguese": "2.6%",
+        "French": "2%",
+        "Kosovo": "1.1%",
+        "other": "17.3%",
+        "unspecified": ".1%"
+    },
+    "languages": {
+        "German (official)": "62.6%",
+        "French (official)": "22.9%",
+        "Italian (official)": "8.2%",
+        "English": "5.4%",
+        "Portuguese": "3.7%",
+        "Albanian": "3.2%",
+        "Serbo-Croatian": "2.5%",
+        "Spanish": "2.4%",
+        "Romansh (official)": "0.5%",
+        "other": "7.7%"
+    },
+    "religions": {
+        "Roman Catholic": "35.9%",
+        "Protestant": "23.8%",
+        "other Christian": "5.9%",
+        "Muslim": "5.4%",
+        "Jewish": "0.3%",
+        "other": "1.4%",
+        "none": "26%",
+        "unspecified": "1.4%"
+    },
+    "government_type": "federal republic (formally a confederation)",
+    "national_symbols": "Swiss cross (white cross on red field, arms equal length)",
+    "national_colors": [
+        "red",
+        "white"
+    ],
+    "gdp": "$679 billion",
+    "agriculture": [
+        "grains",
+        "fruits",
+        "vegetables",
+        "meat",
+        "eggs",
+        "dairy products"
+    ],
+    "industries": [
+        "machinery",
+        "chemicals",
+        "watches",
+        "textiles",
+        "precision instruments",
+        "tourism",
+        "banking",
+        "insurance",
+        "pharmaceuticals"
+    ],
+    "exports": [
+        "machinery",
+        "chemicals",
+        "metals",
+        "watches",
+        "agricultural products"
+    ],
+    "imports": [
+        "machinery",
+        "chemicals",
+        "vehicles",
+        "metals",
+        "agricultural products",
+        "textiles"
+    ],
+    "broadband_subscriptions": "3,957,669",
+    "internet_users": "7,437,820",
+    "mobile_subscriptions": "10,808,148",
+    "internet_country_code": ".ch",
+    "military_and_security_forces": "Swiss Armed Forces: Land Forces, Swiss Air Force (Schweizer Luftwaffe)",
+    "percent_GDP_on_military": "0.7%",
+    "pipelines": [
+        "1,800 km gas",
+        "94 km oil ",
+        "17 km refined products"
+    ],
+    "ports_and_terminals": {
+        "river port(s)": "Basel (Rhine)"
+    },
+    "waterways": "1,292 km",
+    "number_of_airports": "63",
+    "international_disputes": "none",
+    "terrorism": "None/Unknown"
+}

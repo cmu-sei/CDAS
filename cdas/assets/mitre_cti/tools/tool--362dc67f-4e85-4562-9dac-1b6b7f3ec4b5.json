@@ -1,0 +1,23 @@
+{
+    "id": "tool--362dc67f-4e85-4562-9dac-1b6b7f3ec4b5",
+    "name": "ifconfig",
+    "description": "[ifconfig](https://attack.mitre.org/software/S0101) is a Unix-based utility used to gather information about and interact with the TCP/IP settings on a system. (Citation: Wikipedia Ifconfig)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/software/S0101",
+            "external_id": "S0101"
+        },
+        {
+            "source_name": "Wikipedia Ifconfig",
+            "description": "Wikipedia. (2016, January 26). ifconfig. Retrieved April 17, 2016.",
+            "url": "https://en.wikipedia.org/wiki/Ifconfig"
+        }
+    ],
+    "aliases": [
+        "ifconfig"
+    ],
+    "platforms": [
+        "Linux"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--7a265bf0-6acc-4f43-8b22-2e58b443e62e",
+    "name": "Choose pre-compromised mobile app developer account credentials or signing keys",
+    "description": "The adversary can use account credentials or signing keys of an existing mobile app developer to publish malicious updates of existing mobile apps to an application store, or to abuse the developer's identity and reputation to publish new malicious apps.  Many mobile devices are configured to automatically install new versions of already-installed apps. (Citation: Fraudenlent Apps Stolen Dev Credentials)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1391",
+            "external_id": "T1391"
+        },
+        {
+            "source_name": "Fraudenlent Apps Stolen Dev Credentials",
+            "description": "Galen Gruman. (2014, December 5). Keep out hijackers: Secure your app store dev account. Retrieved April 12, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "persona-development"
+        }
+    ]
+}

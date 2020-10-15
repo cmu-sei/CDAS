@@ -1,0 +1,112 @@
+{
+    "id": "location--101",
+    "name": "Jamaica",
+    "background": "The island - discovered by Christopher COLUMBUS in 1494 - was settled by the Spanish early in the 16th century. The native Taino, who had inhabited Jamaica for centuries, were gradually exterminated and replaced by African slaves. England seized the island in 1655 and established a plantation economy based on sugar, cocoa, and coffee. The abolition of slavery in 1834 freed a quarter million slaves, many of whom became small farmers. Jamaica gradually increased its independence from Britain. In 1958 it joined other British Caribbean colonies in forming the Federation of the West Indies. Jamaica withdrew from the Federation in 1961 and gained full independence in 1962. Deteriorating economic conditions during the 1970s led to recurrent violence as rival gangs affiliated with the major political parties evolved into powerful organized crime networks involved in international drug smuggling and money laundering. Violent crime, drug trafficking, and poverty pose significant challenges to the government today. Nonetheless, many rural and resort areas remain relatively safe and contribute substantially to the economy.",
+    "coordinates": "18 15 N, 77 30 W",
+    "region": "Central America and the Caribbean",
+    "total_area": "10,991 sq km",
+    "land_area": "10,831 sq km",
+    "water_area": "160 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "tropical; hot, humid; temperate interior",
+    "coastline": "1,022 km",
+    "natural_hazards": [
+        "hurricanes (especially July to November)"
+    ],
+    "terrain": "mostly mountains, with narrow, discontinuous coastal plain",
+    "population_distribution": "population density is high throughout, but increases in and around Kingston, Montego Bay, and Port Esquivel",
+    "natural_resources": [
+        "bauxite",
+        "alumina",
+        "gypsum",
+        "limestone"
+    ],
+    "population": "2,808,570",
+    "nationality": "Jamaican(s)",
+    "ethnic_groups": {
+        "black": "92.1%",
+        "mixed": "6.1%",
+        "East Indian": "0.8%",
+        "other": "0.4%",
+        "unspecified": "0.7%"
+    },
+    "languages": [
+        "English",
+        "English patois"
+    ],
+    "religions": {
+        "Protestant": "64.8%",
+        "Roman Catholic": "2.2%",
+        "Jehovah's Witness": "1.9%",
+        "Rastafarian": "1.1%",
+        "other": "6.5%",
+        "none": "21.3%",
+        "unspecified": "2.3%"
+    },
+    "government_type": "parliamentary democracy (Parliament) under a constitutional monarchy; a Commonwealth realm",
+    "national_symbols": "green-and-black streamertail (bird), Guaiacum officinale (Guaiacwood)",
+    "national_colors": [
+        "green",
+        "yellow",
+        "black"
+    ],
+    "gdp": "$14.77 billion",
+    "agriculture": [
+        "sugar cane",
+        "bananas",
+        "coffee",
+        "citrus",
+        "yams",
+        "ackees",
+        "vegetables",
+        "poultry",
+        "goats",
+        "milk",
+        "shellfish"
+    ],
+    "industries": [
+        "agriculture",
+        "mining",
+        "manufacture",
+        "construction",
+        "financial and insurance services",
+        "tourism",
+        "telecommunications"
+    ],
+    "exports": [
+        "alumina",
+        "bauxite",
+        "chemicals",
+        "coffee",
+        "mineral fuels",
+        "waste and scrap metals",
+        "sugar",
+        "yams"
+    ],
+    "imports": [
+        "food and other consumer goods",
+        "industrial supplies",
+        "fuel",
+        "parts and accessories of capital goods",
+        "machinery and transport equipment",
+        "construction materials"
+    ],
+    "broadband_subscriptions": "284,756",
+    "internet_users": "1,548,618",
+    "mobile_subscriptions": "2,964,974",
+    "internet_country_code": ".jm",
+    "military_and_security_forces": "Jamaica Defense Force (JDF): Jamaica Regiment (Ground Forces), Maritime-Air-Cyber Command",
+    "percent_GDP_on_military": "1.6%",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Discovery Bay (Port Rhoades), Kingston, Montego Bay, Port Antonio, Port Esquivel, Port Kaiser, Rocky Point",
+        "container port(s) (TEUs)": "Kingston (1,681,706)"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "28",
+    "international_disputes": "none",
+    "terrorism": "None/Unknown"
+}

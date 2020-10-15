@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--acfcbe7a-4dbc-4471-be2b-134faf479e3e",
+    "name": "Receive KITs/KIQs and determine requirements",
+    "description": "Applicable agencies and/or personnel receive intelligence requirements and evaluate them to determine sub-requirements related to topics, questions, or requirements.  For example, an adversary's  nuclear energy requirements may be further divided into nuclear facilities versus nuclear warhead capabilities. (Citation: AnalystsAndPolicymaking)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1239",
+            "external_id": "T1239"
+        },
+        {
+            "source_name": "AnalystsAndPolicymaking",
+            "description": "Jack Davis. (2002, September). Improving CIA Analytic Performance: Analysts and the Policymaking Process. Retrieved March 5, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "priority-definition-direction"
+        }
+    ]
+}

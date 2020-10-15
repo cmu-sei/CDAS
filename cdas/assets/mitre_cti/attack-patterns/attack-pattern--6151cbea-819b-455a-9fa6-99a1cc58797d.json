@@ -1,0 +1,55 @@
+{
+    "id": "attack-pattern--6151cbea-819b-455a-9fa6-99a1cc58797d",
+    "name": "Default Accounts",
+    "description": "Adversaries may obtain and abuse credentials of a default account as a means of gaining Initial Access, Persistence, Privilege Escalation, or Defense Evasion. Default accounts are those that are built-into an OS, such as the Guest or Administrator accounts on Windows systems or default factory/provider set accounts on other types of systems, software, or devices.(Citation: Microsoft Local Accounts Feb 2019)\n\nDefault accounts are not limited to client machines, rather also include accounts that are preset for equipment such as network devices and computer applications whether they are internal, open source, or commercial. Appliances that come preset with a username and password combination pose a serious threat to organizations that do not change it post installation, as they are easy targets for an adversary. Similarly, adversaries may also utilize publicly disclosed or stolen [Private Keys](https://attack.mitre.org/techniques/T1552/004) or credential materials to legitimately connect to remote environments via [Remote Services](https://attack.mitre.org/techniques/T1021).(Citation: Metasploit SSH Module)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1078.001",
+            "url": "https://attack.mitre.org/techniques/T1078/001"
+        },
+        {
+            "source_name": "Microsoft Local Accounts Feb 2019",
+            "url": "https://docs.microsoft.com/en-us/windows/security/identity-protection/access-control/local-accounts",
+            "description": "Microsoft. (2018, December 9). Local Accounts. Retrieved February 11, 2019."
+        },
+        {
+            "source_name": "Metasploit SSH Module",
+            "url": "https://github.com/rapid7/metasploit-framework/tree/master/modules/exploits/linux/ssh",
+            "description": "undefined. (n.d.). Retrieved April 12, 2019."
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "AWS",
+        "GCP",
+        "Azure",
+        "Office 365",
+        "Azure AD",
+        "SaaS"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        },
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "persistence"
+        },
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "privilege-escalation"
+        },
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "initial-access"
+        }
+    ],
+    "permissions": [
+        "Administrator",
+        "User"
+    ]
+}

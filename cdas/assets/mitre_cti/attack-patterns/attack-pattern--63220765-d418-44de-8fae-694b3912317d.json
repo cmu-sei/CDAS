@@ -1,0 +1,40 @@
+{
+    "id": "attack-pattern--63220765-d418-44de-8fae-694b3912317d",
+    "name": "Trap",
+    "description": "Adversaries may establish persistence by executing malicious content triggered by an interrupt signal. The <code>trap</code> command allows programs and shells to specify commands that will be executed upon receiving interrupt signals. A common situation is a script allowing for graceful termination and handling of common keyboard interrupts like <code>ctrl+c</code> and <code>ctrl+d</code>.\n\nAdversaries can use this to register code to be executed when the shell encounters specific interrupts as a persistence mechanism. Trap commands are of the following format <code>trap 'command list' signals</code> where \"command list\" will be executed when \"signals\" are received.(Citation: Trap Manual)(Citation: Cyberciti Trap Statements)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1546.005",
+            "url": "https://attack.mitre.org/techniques/T1546/005"
+        },
+        {
+            "source_name": "Trap Manual",
+            "url": "https://ss64.com/bash/trap.html",
+            "description": "ss64. (n.d.). trap. Retrieved May 21, 2019."
+        },
+        {
+            "source_name": "Cyberciti Trap Statements",
+            "url": "https://bash.cyberciti.biz/guide/Trap_statement",
+            "description": "Cyberciti. (2016, March 29). Trap statement. Retrieved May 21, 2019."
+        }
+    ],
+    "platforms": [
+        "macOS",
+        "Linux"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "privilege-escalation"
+        },
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "persistence"
+        }
+    ],
+    "permissions": [
+        "User",
+        "Administrator"
+    ]
+}

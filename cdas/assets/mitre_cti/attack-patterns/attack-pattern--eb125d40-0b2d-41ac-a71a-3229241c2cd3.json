@@ -1,0 +1,35 @@
+{
+    "id": "attack-pattern--eb125d40-0b2d-41ac-a71a-3229241c2cd3",
+    "name": "Logon Script (Windows)",
+    "description": "Adversaries may use Windows logon scripts automatically executed at logon initialization to establish persistence. Windows allows logon scripts to be run whenever a specific user or group of users log into a system.(Citation: TechNet Logon Scripts) This is done via adding a path to a script to the <code>HKCU\\Environment\\UserInitMprLogonScript</code> Registry key.(Citation: Hexacorn Logon Scripts)\n\nAdversaries may use these scripts to maintain persistence on a single system. Depending on the access configuration of the logon scripts, either local credentials or an administrator account may be necessary. ",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1037.001",
+            "url": "https://attack.mitre.org/techniques/T1037/001"
+        },
+        {
+            "url": "https://technet.microsoft.com/en-us/library/cc758918(v=ws.10).aspx",
+            "description": "Microsoft. (2005, January 21). Creating logon scripts. Retrieved April 27, 2016.",
+            "source_name": "TechNet Logon Scripts"
+        },
+        {
+            "source_name": "Hexacorn Logon Scripts",
+            "url": "http://www.hexacorn.com/blog/2014/11/14/beyond-good-ol-run-key-part-18/",
+            "description": "Hexacorn. (2014, November 14). Beyond good ol\u2019 Run key, Part 18. Retrieved November 15, 2019."
+        }
+    ],
+    "platforms": [
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "persistence"
+        },
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "privilege-escalation"
+        }
+    ]
+}

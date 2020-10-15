@@ -1,0 +1,57 @@
+{
+    "id": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
+    "name": "Scheduled Task",
+    "description": "Adversaries may abuse the Windows Task Scheduler to perform task scheduling for initial or recurring execution of malicious code. There are multiple ways to access the Task Scheduler in Windows. The <code>schtasks</code> can be run directly on the command line, or the Task Scheduler can be opened through the GUI within the Administrator Tools section of the Control Panel. In some cases, adversaries have used a .NET wrapper for the Windows Task Scheduler, and alternatively, adversaries have used the Windows netapi32 library to create a scheduled task.\n\nThe deprecated [at](https://attack.mitre.org/software/S0110) utility could also be abused by adversaries (ex: [At (Windows)](https://attack.mitre.org/techniques/T1053/002)), though <code>at.exe</code> can not access tasks created with <code>schtasks</code> or the Control Panel.\n\nAn adversary may use Windows Task Scheduler to execute programs at system startup or on a scheduled basis for persistence. The Windows Task Scheduler can also be abused to conduct remote Execution as part of Lateral Movement and or to run a process under the context of a specified account (such as SYSTEM).",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1053.005",
+            "url": "https://attack.mitre.org/techniques/T1053/005"
+        },
+        {
+            "url": "https://twitter.com/leoloobeek/status/939248813465853953",
+            "description": "Loobeek, L. (2017, December 8). leoloobeek Status. Retrieved December 12, 2017.",
+            "source_name": "Twitter Leoloobeek Scheduled Task"
+        },
+        {
+            "url": "https://social.technet.microsoft.com/Forums/en-US/e5bca729-52e7-4fcb-ba12-3225c564674c/scheduled-tasks-history-retention-settings?forum=winserver8gen",
+            "description": "Satyajit321. (2015, November 3). Scheduled Tasks History Retention settings. Retrieved December 12, 2017.",
+            "source_name": "TechNet Forum Scheduled Task Operational Setting"
+        },
+        {
+            "url": "https://technet.microsoft.com/library/dd315590.aspx",
+            "description": "Microsoft. (n.d.). General Task Registration. Retrieved December 12, 2017.",
+            "source_name": "TechNet Scheduled Task Events"
+        },
+        {
+            "source_name": "Microsoft Scheduled Task Events Win10",
+            "url": "https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/audit-other-object-access-events",
+            "description": "Microsoft. (2017, May 28). Audit Other Object Access Events. Retrieved June 27, 2019."
+        },
+        {
+            "url": "https://technet.microsoft.com/en-us/sysinternals/bb963902",
+            "description": "Russinovich, M. (2016, January 4). Autoruns for Windows v13.51. Retrieved June 6, 2016.",
+            "source_name": "TechNet Autoruns"
+        }
+    ],
+    "platforms": [
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "execution"
+        },
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "persistence"
+        },
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "privilege-escalation"
+        }
+    ],
+    "permissions": [
+        "Administrator"
+    ]
+}

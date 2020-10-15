@@ -1,0 +1,29 @@
+{
+    "id": "attack-pattern--f6fe9070-7a65-49ea-ae72-76292f42cebe",
+    "name": "Signed Script Proxy Execution",
+    "description": "Adversaries may use scripts signed with trusted certificates to proxy execution of malicious files. Several Microsoft signed scripts that are default on Windows installations can be used to proxy execution of other files. This behavior may be abused by adversaries to execute malicious files that could bypass application control and signature validation on systems.(Citation: GitHub Ultimate AppLocker Bypass List)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1216",
+            "url": "https://attack.mitre.org/techniques/T1216"
+        },
+        {
+            "url": "https://github.com/api0cradle/UltimateAppLockerByPassList",
+            "description": "Moe, O. (2018, March 1). Ultimate AppLocker Bypass List. Retrieved April 10, 2018.",
+            "source_name": "GitHub Ultimate AppLocker Bypass List"
+        }
+    ],
+    "platforms": [
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        }
+    ],
+    "permissions": [
+        "User"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "id": "attack-pattern--7863b7f1-c18a-4aad-a6cf-4aa6d8797531",
+    "name": "Receive operator KITs/KIQs tasking",
+    "description": "Analysts may receive intelligence requirements from leadership and begin research process to satisfy a requirement.  Part of this process may include delineating between needs and wants and thinking through all the possible aspects associating with satisfying a requirement. (Citation: FBIIntelligencePrimer)",
+    "references": [
+        {
+            "source_name": "mitre-pre-attack",
+            "url": "https://attack.mitre.org/techniques/T1235",
+            "external_id": "T1235"
+        },
+        {
+            "source_name": "FBIIntelligencePrimer",
+            "description": "FBI. (n.d.). Intelligence Branch: Intelligence Primer. Retrieved March 2, 2017."
+        }
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-pre-attack",
+            "phase_name": "priority-definition-planning"
+        }
+    ]
+}

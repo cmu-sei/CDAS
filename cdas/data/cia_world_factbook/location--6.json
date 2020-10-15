@@ -1,0 +1,97 @@
+{
+    "id": "location--6",
+    "name": "Anguilla",
+    "background": "Colonized by English settlers from Saint Kitts in 1650, Anguilla was administered by Great Britain until the early 19th century, when the island - against the wishes of the inhabitants - was incorporated into a single British dependency along with Saint Kitts and Nevis. Several attempts at separation failed. In 1971, two years after a revolt, Anguilla was finally allowed to secede; this arrangement was formally recognized in 1980, with Anguilla becoming a separate British dependency. On 7 September 2017, the island suffered extensive damage from Hurricane Irma, particularly to communications and residential and business infrastructure.",
+    "coordinates": "18 15 N, 63 10 W",
+    "region": "Central America and the Caribbean",
+    "total_area": "91 sq km",
+    "land_area": "91 sq km",
+    "water_area": "0 sq km",
+    "land_boundary": "0 km",
+    "neighbors": "Unknown",
+    "climate": "tropical; moderated by northeast trade winds",
+    "coastline": "61 km",
+    "natural_hazards": [
+        "frequent hurricanes and other tropical storms (July to October)"
+    ],
+    "terrain": "flat and low-lying island of coral and limestone",
+    "population_distribution": "most of the population is concentrated in The Valley in the center of the island; settlmement is fairly uniform in the southwest, but rather sparce in the northeast",
+    "natural_resources": [
+        "salt",
+        "fish",
+        "lobster"
+    ],
+    "population": "18,090",
+    "nationality": "Anguillan(s)",
+    "ethnic_groups": {
+        "African/black": "85.3%",
+        "hispanic": "4.9%",
+        "mixed": "3.8%",
+        "white": "3.2%",
+        "East Indian/Indian": "1%",
+        "other": "1.6%",
+        "unspecified": "0.3%"
+    },
+    "languages": [
+        "English (official)"
+    ],
+    "religions": {
+        "Protestant": "73.2%",
+        "Roman Catholic": "6.8%",
+        "Jehovah's Witness": "1.1%",
+        "other Christian": "10.9%",
+        "other": "3.2%",
+        "unspecified": "0.3%",
+        "none": "4.5%"
+    },
+    "government_type": "parliamentary democracy (House of Assembly); self-governing overseas territory of the UK",
+    "national_symbols": "dolphin",
+    "national_colors": [
+        "red",
+        "black",
+        "yellow"
+    ],
+    "gdp": "$0.1754 billion",
+    "agriculture": [
+        "small quantities of tobacco",
+        "vegetables",
+        "cattle raising"
+    ],
+    "industries": [
+        "tourism",
+        "boat building",
+        "offshore financial services"
+    ],
+    "exports": [
+        "lobster",
+        "fish",
+        "livestock",
+        "salt",
+        "concrete blocks",
+        "rum"
+    ],
+    "imports": [
+        "fuels",
+        "foodstuffs",
+        "manufactures",
+        "chemicals",
+        "trucks",
+        "textiles"
+    ],
+    "broadband_subscriptions": "Unknown",
+    "internet_users": "14,211",
+    "mobile_subscriptions": "26,000",
+    "internet_country_code": ".ai",
+    "military_and_security_forces": "Unknown",
+    "percent_GDP_on_military": "Unknown",
+    "pipelines": [
+        "Unknown"
+    ],
+    "ports_and_terminals": {
+        "major seaport(s)": "Blowing Point, Road Bay"
+    },
+    "waterways": "Unknown",
+    "number_of_airports": "1",
+    "international_disputes": "none",
+    "terrorism": "None/Unknown"
+}

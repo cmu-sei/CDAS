@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--5909f20f-3c39-4795-be06-ef1ea40d350b",
+    "name": "Defacement",
+    "description": "Adversaries may modify visual content available internally or externally to an enterprise network. Reasons for [Defacement](https://attack.mitre.org/techniques/T1491) include delivering messaging, intimidation, or claiming (possibly false) credit for an intrusion. Disturbing or offensive images may be used as a part of [Defacement](https://attack.mitre.org/techniques/T1491) in order to cause user discomfort, or to pressure compliance with accompanying messages. \n",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1491",
+            "url": "https://attack.mitre.org/techniques/T1491"
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "AWS",
+        "GCP",
+        "Azure"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "impact"
+        }
+    ]
+}

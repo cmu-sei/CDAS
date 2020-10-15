@@ -1,0 +1,121 @@
+{
+    "id": "location--212",
+    "name": "Uzbekistan",
+    "background": "Uzbekistan is the geographic and population center of Central Asia. The country has a diverse economy and a relatively young population. Russia conquered and united the disparate territories of present-day Uzbekistan in the late 19th century. Stiff resistance to the Red Army after the Bolshevik Revolution was eventually suppressed and a socialist republic established in 1924. During the Soviet era, intensive production of \"white gold\" (cotton) and grain led to the overuse of agrochemicals and the depletion of water supplies, leaving the land degraded and the Aral Sea and certain rivers half-dry. Independent since the dissolution of the USSR in 1991, the country has diversified agricultural production while developing its mineral and petroleum export capacity and increasing its manufacturing base, although cotton remains a major part of its economy. Uzbekistan's first president, Islam KARIMOV, led Uzbekistan for 25 years until his death in September 2016. His successor, former Prime Minister Shavkat MIRZIYOYEV, has improved relations with Uzbekistan's neighbors and introduced wide-ranging economic, judicial, and social reforms.",
+    "coordinates": "41 00 N, 64 00 E",
+    "region": "Asia",
+    "total_area": "447,400 sq km",
+    "land_area": "425,400 sq km",
+    "water_area": "22,000 sq km",
+    "land_boundary": "6,893 km",
+    "neighbors": {
+        "Kazakhstan": "2330 km",
+        "Kyrgyzstan": "1314 km",
+        "Tajikistan": "1312 km",
+        "Turkmenistan": "1793 km"
+    },
+    "climate": "mostly mid-latitude desert, long, hot summers, mild winters; semiarid grassland in east",
+    "coastline": "0 km",
+    "natural_hazards": [
+        "earthquakes",
+        "floods",
+        "landslides or mudslides",
+        "avalanches",
+        "droughts"
+    ],
+    "terrain": "mostly flat-to-rolling sandy desert with dunes; broad, flat intensely irrigated river valleys along course of Amu Darya, Syr Darya (Sirdaryo), and Zarafshon; Fergana Valley in east surrounded by mountainous Tajikistan and Kyrgyzstan; shrinking Aral Sea in west",
+    "population_distribution": "most of the population is concentrated in the fertile Fergana Valley in the easternmost arm of the country; the south has significant clusters of people, while the central and western deserts are sparsely populated",
+    "natural_resources": [
+        "natural gas",
+        "petroleum",
+        "coal",
+        "gold",
+        "uranium",
+        "silver",
+        "copper",
+        "lead and zinc",
+        "tungsten",
+        "molybdenum"
+    ],
+    "population": "30,565,411",
+    "nationality": "Uzbekistani",
+    "ethnic_groups": {
+        "Uzbek": "83.8%",
+        "Tajik": "4.8%",
+        "Kazakh": "2.5%",
+        "Russian": "2.3%",
+        "Karakalpak": "2.2%",
+        "Tatar": "1.5%",
+        "other": "4.4%"
+    },
+    "languages": {
+        "Uzbek (official)": "74.3%",
+        "Russian": "14.2%",
+        "Tajik": "4.4%",
+        "other": "7.1%"
+    },
+    "religions": {
+        "Muslim": "88%",
+        "Eastern Orthodox": "9%",
+        "other": "3%"
+    },
+    "government_type": "presidential republic; highly authoritarian",
+    "national_symbols": "khumo (mythical bird)",
+    "national_colors": [
+        "blue",
+        "white",
+        "red",
+        "green"
+    ],
+    "gdp": "$48.83 billion",
+    "agriculture": [
+        "cotton",
+        "vegetables",
+        "fruits",
+        "grain",
+        "livestock"
+    ],
+    "industries": [
+        "textiles",
+        "food processing",
+        "machine building",
+        "metallurgy",
+        "mining",
+        "hydrocarbon extraction",
+        "chemicals"
+    ],
+    "exports": [
+        "energy products",
+        "cotton",
+        "gold",
+        "mineral fertilizers",
+        "ferrous and nonferrous metals",
+        "textiles",
+        "foodstuffs",
+        "machinery",
+        "automobiles"
+    ],
+    "imports": [
+        "machinery and equipment",
+        "foodstuffs",
+        "chemicals",
+        "ferrous and nonferrous metals"
+    ],
+    "broadband_subscriptions": "4,123,508",
+    "internet_users": "15,705,402",
+    "mobile_subscriptions": "23,226,156",
+    "internet_country_code": ".uz",
+    "military_and_security_forces": "Armed Forces of Uzbekistan: Army, Air and Air Defense Forces; National Guard; Ministry of Internal Affairs: Internal Security Troops",
+    "percent_GDP_on_military": "4%",
+    "pipelines": [
+        "13,700 km gas",
+        "944 km oil"
+    ],
+    "ports_and_terminals": {
+        "river port(s)": "Termiz (Amu Darya)"
+    },
+    "waterways": "1,100 km",
+    "number_of_airports": "53",
+    "international_disputes": "prolonged drought and cotton monoculture in Uzbekistan and Turkmenistan created water-sharing difficulties for Amu Darya river states; field demarcation of the boundaries with Kazakhstan commenced in 2004; border delimitation of 130 km of border with Kyrgyzstan is hampered by serious disputes around enclaves and other areas",
+    "terrorism": "None/Unknown"
+}

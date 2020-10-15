@@ -1,0 +1,38 @@
+{
+    "id": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
+    "name": "Screen Capture",
+    "description": "Adversaries may attempt to take screen captures of the desktop to gather information over the course of an operation. Screen capturing functionality may be included as a feature of a remote access tool used in post-compromise operations. Taking a screenshot is also typically possible through native utilities or API calls, such as <code>CopyFromScreen</code>, <code>xwd</code>, or <code>screencapture</code>.(Citation: CopyFromScreen .NET)(Citation: Antiquated Mac Malware)\n",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1113",
+            "url": "https://attack.mitre.org/techniques/T1113"
+        },
+        {
+            "external_id": "CAPEC-648",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/648.html"
+        },
+        {
+            "source_name": "CopyFromScreen .NET",
+            "url": "https://docs.microsoft.com/en-us/dotnet/api/system.drawing.graphics.copyfromscreen?view=netframework-4.8",
+            "description": "Microsoft. (n.d.). Graphics.CopyFromScreen Method. Retrieved March 24, 2020."
+        },
+        {
+            "url": "https://blog.malwarebytes.com/threat-analysis/2017/01/new-mac-backdoor-using-antiquated-code/",
+            "description": "Thomas Reed. (2017, January 18). New Mac backdoor using antiquated code. Retrieved July 5, 2017.",
+            "source_name": "Antiquated Mac Malware"
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "collection"
+        }
+    ]
+}

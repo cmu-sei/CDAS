@@ -1,0 +1,43 @@
+{
+    "id": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
+    "name": "Masquerading",
+    "description": "Adversaries may attempt to manipulate features of their artifacts to make them appear legitimate or benign to users and/or security tools. Masquerading occurs when the name or location of an object, legitimate or malicious, is manipulated or abused for the sake of evading defenses and observation. This may include manipulating file metadata, tricking users into misidentifying the file type, and giving legitimate task or service names.\n\nRenaming abusable system utilities to evade security monitoring is also a form of [Masquerading](https://attack.mitre.org/techniques/T1036).(Citation: LOLBAS Main Site)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1036",
+            "url": "https://attack.mitre.org/techniques/T1036"
+        },
+        {
+            "external_id": "CAPEC-177",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/177.html"
+        },
+        {
+            "source_name": "LOLBAS Main Site",
+            "url": "https://lolbas-project.github.io/",
+            "description": "LOLBAS. (n.d.). Living Off The Land Binaries and Scripts (and also Libraries). Retrieved February 10, 2020."
+        },
+        {
+            "source_name": "Endgame Masquerade Ball",
+            "description": "Ewing, P. (2016, October 31). How to Hunt: The Masquerade Ball. Retrieved October 31, 2016.",
+            "url": "http://pages.endgame.com/rs/627-YBU-612/images/EndgameJournal_The%20Masquerade%20Ball_Pages_R2.pdf"
+        },
+        {
+            "source_name": "Twitter ItsReallyNick Masquerading Update",
+            "url": "https://twitter.com/ItsReallyNick/status/1055321652777619457",
+            "description": "Carr, N.. (2018, October 25). Nick Carr Status Update Masquerading. Retrieved April 22, 2019."
+        }
+    ],
+    "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        }
+    ]
+}
