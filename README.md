@@ -46,7 +46,6 @@ CDAS installs the following packages and their dependencies upon setup:
 numpy
 reportlab
 drawSVG
-stix2
 ```
 
 You may also want to install ```libcairo2```. Optional, but you will receive errors when running CDAS without it.
@@ -63,7 +62,7 @@ $ pip3 install .
 3. To test that CDAS is installed properly run
 
 ```
-$ python3 -m cdas
+$ python3 -m cdas -c cdas/sample_configs/randomize_all_small_pdf.json
 Output path ..\cdas-output does not exist.
             Create this directory? (y/n)
 $ y
@@ -91,12 +90,31 @@ CDAS should finish with no errors (you will get warnings about libcairo2 if you 
 
 ## Configuration
 
-CDAS is configured via the config.json file in the cdas python module folder. Users can change variables related to geopolitical context generation, asset generation, agent generation, whether to randomize or use real world data, and more. See [Config.md](Config.md) for further instructions.
+CDAS is configured via a required json file. You will find several sample configuration files in the sample_configs folder. Users can change variables related to geopolitical context generation, asset generation, agent generation, whether to randomize or use real world data, and more. See [Config.md](Config.md) for further instructions.
 
-Many of the variables in the configuration file can be changed with command line flags. See the help menu for information on available flags.
+Additionally, there are three available command line flags: the required config-file, and the optional input and output directories. See the help menu for information on available flags.
 
 ```
 $ python3 -m cdas -h
+usage: __main__.py [-h] -c CONFIG_FILE [-i INPUT_DIRECTORY] [-o OUTPUT_DIRECTORY]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -c CONFIG_FILE, --config-file CONFIG_FILE
+                        configuration file (json)
+  -i INPUT_DIRECTORY, --input-directory INPUT_DIRECTORY
+                        directory for specifying custom data
+  -o OUTPUT_DIRECTORY, --output-directory OUTPUT_DIRECTORY
+                        directory for storing results
+```
+
+## Data Customization 
+Most customization for CDAS is handled through the configuration file, which allows for changing variables related to geopolitical context generation, asset generation, agent generation, whether to randomize or use real world data, and more. See [Config.md](Config.md) for further instructions.
+
+However, if you would like to provide your own data as inputs to CDAS, you may do so providing an input folder at the command line. 
+
+```
+$ python3 -m cdas -c config.json -i data_input/
 ```
 
 ## License
@@ -105,4 +123,4 @@ Copyright 2020 Carnegie Mellon University. See the [LICENSE.md](LICENSE.md) file
 
 ## Acknowledgements
 
-* CIA World Factbook (https://www.cia.gov/library/publications/the-world-factbook/)
+* Default country information is pulled from the CIA World Factbook site (https://www.cia.gov/library/publications/the-world-factbook/)

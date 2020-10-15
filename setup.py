@@ -23,20 +23,17 @@ setup(
         'cdas': [
             'data/*',
             'data/cia_world_factbook/*',
+            'data/asns/*'
             'assets/*',
             'assets/html_templates/*'
             'assets/mitre_cti/*',
-            'assets/mitre_cti/attack-pattern/*',
-            'assets/mitre_cti/course-of-action/*',
-            'assets/mitre_cti/identity/*',
-            'assets/mitre_cti/intrusion-set/*',
+            'assets/mitre_cti/attack-patterns/*',
+            'assets/mitre_cti/threat-actors/*',
             'assets/mitre_cti/malware/*',
-            'assets/mitre_cti/marking-definition/*',
-            'assets/mitre_cti/relationship/*',
-            'assets/mitre_cti/tool/*'
+            'assets/mitre_cti/tools/*'
         ]
     },
-    install_requires=["numpy", "reportlab", "drawSVG", "stix2"],
+    install_requires=["numpy", "reportlab", "drawSVG"],
     entry_points={
         "console_scripts": [
             "cdas=cdas.__main__:main",

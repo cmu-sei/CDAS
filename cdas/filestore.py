@@ -25,16 +25,13 @@ Office by Carnegie Mellon University.
 
 This Software includes and/or makes use of the following Third-Party Software
 subject to its own license:
-1. python-stix
-    (https://github.com/STIXProject/python-stix/blob/master/LICENSE.txt)
-    Copyright 2017 Mitre Corporation.
-2. numpy (https://numpy.org/doc/stable/license.html)
+1. numpy (https://numpy.org/doc/stable/license.html)
     Copyright 2005 Numpy Developers.
-3. reportlab (https://bitbucket.org/rptlab/reportlab/src/default/LICENSE.txt)
+2. reportlab (https://bitbucket.org/rptlab/reportlab/src/default/LICENSE.txt)
     Copyright 2000-2018 ReportLab Inc.
-4. drawSvg (https://github.com/cduck/drawSvg/blob/master/LICENSE.txt)
+3. drawSvg (https://github.com/cduck/drawSvg/blob/master/LICENSE.txt)
     Copyright 2017 Casey Duckering.
-5. Cyber Threat Intelligence Repository (Mitre/CTI)
+4. Cyber Threat Intelligence Repository (Mitre/CTI)
     (https://github.com/mitre/cti/blob/master/LICENSE.txt)
     Copyright 2017 Mitre Corporation.
 

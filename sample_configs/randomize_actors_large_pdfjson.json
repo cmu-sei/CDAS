@@ -17,7 +17,7 @@
     "countries": {
         "randomize": false,
         "random_vars": {
-            "num_countries": 5
+            "num_countries": 200
         }
     },
     "defend": {

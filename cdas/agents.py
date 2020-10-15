@@ -23,16 +23,13 @@ Office by Carnegie Mellon University.
 
 This Software includes and/or makes use of the following Third-Party Software
 subject to its own license:
-1. python-stix
-    (https://github.com/STIXProject/python-stix/blob/master/LICENSE.txt)
-    Copyright 2017 Mitre Corporation.
-2. numpy (https://numpy.org/doc/stable/license.html)
+1. numpy (https://numpy.org/doc/stable/license.html)
     Copyright 2005 Numpy Developers.
-3. reportlab (https://bitbucket.org/rptlab/reportlab/src/default/LICENSE.txt)
+2. reportlab (https://bitbucket.org/rptlab/reportlab/src/default/LICENSE.txt)
     Copyright 2000-2018 ReportLab Inc.
-4. drawSvg (https://github.com/cduck/drawSvg/blob/master/LICENSE.txt)
+3. drawSvg (https://github.com/cduck/drawSvg/blob/master/LICENSE.txt)
     Copyright 2017 Casey Duckering.
-5. Cyber Threat Intelligence Repository (Mitre/CTI)
+4. Cyber Threat Intelligence Repository (Mitre/CTI)
     (https://github.com/mitre/cti/blob/master/LICENSE.txt)
     Copyright 2017 Mitre Corporation.
 
@@ -49,8 +46,30 @@ from reportlab.lib.styles import getSampleStyleSheet
 
 
 class ThreatActor():
+    """
+    Advanced Persistent Threat Actor
 
-    def __init__(self, stix=None, actor_name_1=None, actor_name_2=None, countries_fs=None, fs=None, **kwargs):
+    Args:
+        stix (dict): Vocabulary set (seed words) used in creation of random
+            actors. Optional if providing actor attributes via kwargs.
+        actor_name_1 (list): List of words for the first word of the actor's
+            name. Used for creating random actors; optional if providing actor
+            attributes via kwargs.
+        actor_name_2 (list): List of words for the second word of the actor's
+            name. Used for creating random actors; optional if providing actor
+            attributes via kwargs.
+        countries_fs (FileStore object): Where the country data is stored.
+        threat_actor_fs (FileStore object): Where the threat actor data is 
+            stored.
+        **kwargs: Used to instantiate an actor
+    
+    Attributes:
+        id (str, required): unique ID starting with "intrusion-set--"
+        name (str, required): Primary name of the APT
+    """
+
+    def __init__(self, stix=None, actor_name_1=None, actor_name_2=None, 
+            countries_fs=None, threat_actor_fs=None, **kwargs):
 
         if len(kwargs) > 0:
             self.__dict__.update(kwargs)
@@ -58,7 +77,7 @@ class ThreatActor():
             self.id = "intrusion-set--" + str(uuid.uuid4())
 
             # Create the name, but don't reuse names already taken
-            actors = fs.query("SELECT name,aliases,attribution")
+            actors = threat_actor_fs.query("SELECT name,aliases,attribution")
             names_taken = [ta[0] for ta in actors]
             adj = np.random.choice(actor_name_1)
             while adj in [name.split(' ')[0] for name in names_taken]:
@@ -153,18 +172,6 @@ class ThreatActor():
     def save(self, relationships, directory, filetype, tools_fs, malware_fs, events_fs, ttp_fs):
         """Saves the attributes of the Threat Actor to a specified file.
 
-        Parameters
-        ----------
-        actor : stix2 ThreatActor object
-            the threat actor to save
-        directory : str
-            Path to save output
-        filetype : str
-            For output file with country data (json or pdf)
-        fs_gen : FileSystemStore  object
-            Data store with info about threat actor
-        fs_real : FileSystemSource object
-            Data store with reference information about real world data
         """
 
         filename = directory + self.name.replace(' ', '')
