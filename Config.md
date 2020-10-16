@@ -1,100 +1,72 @@
 # CDAS Configuration File
 
-The main configuration file for cdas, ```config.json```, is located in the main folder of the cdas package in your python site packages. You can also specify a different config file at runtime using the -c flag.
+CDAS requires a configuration file at run time, provided by the -c flag on the command line. There are several sample configuration files in the [sample_configs](cdas/sample_configs) folder.
 
 ```
-$ python -m cdas -c my_other_config.json
+$ python -m cdas -c config.json
 ```
 
-The config file controls whether the data used in the simulator is generated randomly or pulled from a file. It specifies which files to use for data sets and randomization seeding, as well as the settings for the simulation itself. 
+The config file controls whether the data used in the simulator is generated randomly or pulled from default data. It specifies which files to use for data sets and randomization seeding, as well as the settings for the simulation itself. 
 
-Many of the variables in the configuration file can be changed with command line flags. See the help menu for information on available flags.
-
-```
-$ python -m cdas -h
-
-usage: __main__.py [-h] [-c CONFIG] [-o OUTPUT] [--output-types OUTPUT_TYPES] [...]
-
-optional arguments:
-  -h, --help            show this help message and exit
-  -c CONFIG, --config CONFIG
-                        configuration file (json)
-  -o OUTPUT, --output OUTPUT
-                        directory for storing results
-    ...
-```
-
-The CDAS configuration file has five sections: Context, Assets, Agents, Simulation, and output variables. 
+The CDAS configuration file has five sections: "agents", "countries", "defend", "simulation", and "output". 
 
 ## Configuration
 
-This document descibes the variables in the configuraiton file. See the [Examples.md](Examples.md) file for examples of various use cases. 
+This document descibes the variables in the configuraiton file.
 
-### Context Configuration
-
-This section defines the configuration for the geopolitical context component of the simulator.
-
-The context section of the configuration file looks like this:
-
-```
-"context": {
-    "countries": {
-        "randomize": true,
-        "random_vars": {
-            "num_countries": 10
-        },
-        "non_random_vars": {
-            "country_data": "cia_world_factbook"
-        }
-    },
-    "data_choices": "data/geopol_data.json"
-},
-```
-
-- countries
-    - randomize - if true, the simulator generates randomized countries and their associated attributes; if false, the simulator imports country data from files provided in the country_data key
-    - random_vars
-        - num_countries - the nuber of countries for which the simulator should create fake data; used if the "randomize" variable is true
-    - non_random_vars
-        - country_data - directory containing json files with country data (one file per country); used if the "randomize" variable is false
-- data_choices - seed file for context randomization. Contains options for items such as colors, animals, agriculture, climate, etc.
-
-### Asset Configuration
-<TODO> Not currently applicable
-
-### Agent Configuration
+### Agents Configuration
 
 This section defines the configuration for "agents" or "operators" in the simulation, including friendly, adversary, and neutral players. 
 
 ```
-"agents": {
-    "randomize_threat_actors": true,
-    "random_variables": {
-        "actor_name_1": "data/personality_traits.txt",
-        "actor_name_2": "data/disney_names.txt",
-        "num_agents": 5
+    "agents": {
+        "randomize_threat_actors": true,
+        "random_variables": {
+            "actor_name_1": "data/personality_traits.txt",
+            "actor_name_2": "data/disney_names.txt",
+            "num_agents": 5
+        },
+        "org_variables": {
+            "orgs_per_country": 1,
+            "org_names": "data/organization_names.txt"
+        }
     },
-    "non_random_vars": {
-        "apt_data": ""
-    },
-    "org_variables": {
-        "orgs_per_country": 1,
-        "org_names": "data/organization_names.txt"
-    }
-},
 ```
 
 - randomize_threat_actors
     - True:  generate fake APT profiles
-    - False: use APT profiles from the data set indicated in the non_random_vars:apt_data variable 
+    - False: use APT profiles from the default data set
 - random_variables (used if the "randomize_threat_actors" variable is true)
     - actor_name_1 - list of word choices for the first word of the APT actor name
     - actor_name_2 - list of word choices for the second word of the APT actor name
     - num_agents - number of fake APT profiles to generate
-- non_random_vars (used if the "randomize_threat_actors" variable is false)
-    - apt_data - path to a STIX formated data store. Leave as "mitre_cti" to use the Mitre CTI data included with the CDAS package
 - org variables
-    - orgs per country - 
+    - orgs_per_country - number of organizations to generate per country
+    - org_names - file from which to pull organization names
+
+### Countries Configuration
+
+This section defines the configuration for the geopolitical context component of the simulator.
+
+The coumtries section of the configuration file looks like this:
+
+```
+    "countries": {
+        "randomize": true,
+        "random_vars": {
+            "num_countries": 200
+        }
+    },
+```
+
+- randomize
+    - True: the simulator generates randomized countries and their associated attributes
+    - False: the simulator imports default country data
+- random_vars
+    - num_countries - the nuber of countries for which the simulator should create fake data; used if the "randomize" variable is true
+
+### Defend Configuration
+<TODO> Not currently applicable
 
 ### Simulation Configuration
 
@@ -119,25 +91,24 @@ This section defines the format, location, and filenames of files generated by C
 
 ```
     "output": {
-        "input_directory": "cdas-input",
+        "input_directory": "",
         "output_directory": "cdas-output",
         "output_type_opts": [
             "json",
             "pdf",
-            "stix",
             "html"
         ],
         "output_types": ["pdf"],
-        "temp_path": "cdas-temp"
+        "temp_directory": "cdas-temp"
     }
 ```
 
-- input_directory - Used to provide custom data to CDAS for non-random data. Folders inside input_directory can be 'countries', 'intrusion-sets', or 'malware'. Can be the empty string (```"input_directory": "",```)
+- input_directory - Used to provide custom data to CDAS for non-random data. Folders inside input_directory can be 'countries', 'threat-actors', 'malware', 'tools', or 'attack-patterns'. This can also included a "relationships.json" file. If there is no input folder, leave as an empty string (```"input_directory": "",```).
 - output_directory - folder to store generated files
 - output_type_opts - options available for the "output_types" variable
 - output_types - one or more of the available "output_type_opts", separated by commas
-    - ex) ```"output_types": ["pdf", "stix"],``` would output both PDF and STIX files
-- temp_path - working files directory. Unlikely that this needs to be changed. This folder is deleted after successful completion of the simulation. CDAS will prompt to overwrite an existing folder with this path. 
+    - ex) ```"output_types": ["pdf", "json"],``` would output both PDF and JSON files
+- temp_directory - working files directory. Unlikely that this needs to be changed. This folder is deleted after successful completion of the simulation. CDAS will prompt to overwrite an existing folder with this path. 
 
 ## License
 

@@ -108,7 +108,7 @@ optional arguments:
 The default intrusion set information for CDAS comes from the [Mitre Cyber Threat Intelligence repository](https://github.com/mitre/cti). The default country information comes from the [CIA World Factbook](https://www.cia.gov/library/publications/the-world-factbook/) site. If you prefer to use only a subset of this data, or to use your own custom data, you may do so by providing an input folder at the command line.
 
 ```
-$ python3 -m cdas -c config.json -i data_for_cdas/
+$ python3 -m cdas -c config.json -i cdas_input/
 ```
 
 The input folder may have any or all of the following:
@@ -122,32 +122,35 @@ The input folder may have any or all of the following:
     * required attributes in a malware file:
         * id - unique ID, same as file name
         * name
-    * see the default [malware](assets/mitre_cti/malware) for examples
+    * see the default [malware](cdas/assets/mitre_cti/malware) for examples
 * "tools" - folder containing files, each with information on an individual tool
     * file name format: "tool--XX...XXX.json"
     * required attributes in a tool file:
         * id - unique ID, same as file name
         * name
-    * see the default [tools](assets/mitre_cti/tools) for examples
+    * see the default [tools](cdas/assets/mitre_cti/tools) for examples
 * "threat-actors" - folder containing files, each with information on an individual threat actor
     * file name format: "intrusion-set--XX...XXX.json"
     * required attributes in a intrusion-set file:
         * id - unique ID, same as file name
         * name
-    * see the default [threat-actors](assets/mitre_cti/threat-actors) for examples
+    * see the default [threat-actors](cdas/assets/mitre_cti/threat-actors) for examples
 * "attack-patterns" - folder containing files, each with information on an individual TTP
     * file name format: "attack-pattern--XX...XXX.json"
     * required attributes in a ttp file:
         * id - unique ID, same as file name
         * name
-    * see the default [attack-patterns](assets/mitre_cti/attack-patterns) for examples
-* "relationships.json" - file containing mapping of source and target IDs, along with relationship type. See the [default relationships.json](assets/mitre_cti/relationships.json) file as an example.
+    * see the default [attack-patterns](cdas/assets/mitre_cti/attack-patterns) for examples
+* "relationships.json" - file containing mapping of source and target IDs, along with relationship type. See the [default relationships.json](cdas/assets/mitre_cti/relationships.json) file as an example.
+
+For example:
+![Input folder example](cdas/assets/input_folder.png)
 
 CDAS will check the input folder first and use the data provided as inputs for those data types (country, threat actor, etc.). For any folders/files not provided in the input folder, CDAS will use either the defaults or create random data (depending on the settings in the configuration file).
 
 Additional customization for CDAS is handled through the configuration file, which allows for changing variables related to geopolitical context generation, agent generation, whether to randomize or use real world data, number of simulation rounds, and more. See [Config.md](Config.md) for further instructions.
 
-To customize the output data beyond the options available in the configuration file, run CDAS with inputs and configuration close to your target, and set the output file type in the configuration file to "json". You can then make changes to the json files provided by CDAS. You can even reuse those customized files as input to subsequent iterations of CDAS. 
+To customize the output data beyond the options available in the configuration file, run CDAS with inputs and configuration close to your target, and set the output file type in the configuration file to "json". You can then make changes to the json files provided in the CDAS output. You can even reuse those customized files as input to subsequent iterations of CDAS. 
 
 ## License
 

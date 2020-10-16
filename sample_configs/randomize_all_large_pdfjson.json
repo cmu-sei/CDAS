@@ -6,9 +6,6 @@
             "actor_name_2": "data/disney_names.txt",
             "num_agents": 25
         },
-        "non_random_vars": {
-            "apt_data": "mitre_cti"
-        },
         "org_variables": {
             "orgs_per_country": 1,
             "org_names": "data/organization_names.txt"
