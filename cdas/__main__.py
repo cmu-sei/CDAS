@@ -134,7 +134,7 @@ def main():
     else:
         ttp_fs = filestore.FileStore(datastore['ttps'], context.Ttp)
 
-
+    print("Loading inputs...")
     # Load or create country data
     if datastore['countries'] != '':
         # Using custom data
@@ -173,7 +173,6 @@ def main():
                 __name__, 'data/cia_world_factbook/'), context.Country)
 
     # Load or create actor data
-    print("Creating threat actors...")
     with open(pkg_resources.resource_filename(
             __name__,
             "assets/stix_vocab.json"), encoding='utf-8') as json_file:
@@ -214,7 +213,6 @@ def main():
                 __name__, 'assets/mitre_cti/threat-actors/'), agents.ThreatActor)
 
     # Create organizations
-    print('Creating organizations...')
     with open(pkg_resources.resource_filename(
             __name__,
             config['agents']['org_variables']['org_names'])) as f:

@@ -62,13 +62,8 @@ $ pip3 install .
 3. To test that CDAS is installed properly run
 
 ```
-$ python3 -m cdas -c cdas/sample_configs/randomize_all_small_pdf.json
-Output path ..\cdas-output does not exist.
-            Create this directory? (y/n)
-$ y
-Creating countries...
-Creating threat actors...
-Creating organizations...
+$ python3 -m cdas -c sample_configs/randomize_all_small_pdf.json
+Loading inputs...
 Running simulation...
         Round 1
         Round 2
@@ -80,7 +75,7 @@ Saving output...
 Done
 ```
 
-CDAS should finish with no errors (you will get warnings about libcairo2 if you did not install that) and the results will be in a folder called cdas-output. Results will include
+CDAS should finish with no errors (you will get warnings about libcairo2 and CairoSVG if you did not install that) and the results will be in a folder called cdas-output. Results will include
 - SVG map of countries
 - A "pdf" folder containing
     - 'actors' folder containing PDF files with threat actor descriptions
@@ -108,14 +103,51 @@ optional arguments:
                         directory for storing results
 ```
 
-## Data Customization 
-Most customization for CDAS is handled through the configuration file, which allows for changing variables related to geopolitical context generation, asset generation, agent generation, whether to randomize or use real world data, and more. See [Config.md](Config.md) for further instructions.
+## Data Customization
 
-However, if you would like to provide your own data as inputs to CDAS, you may do so providing an input folder at the command line. 
+The default intrusion set information for CDAS comes from the [Mitre Cyber Threat Intelligence repository](https://github.com/mitre/cti). The default country information comes from the [CIA World Factbook](https://www.cia.gov/library/publications/the-world-factbook/) site. If you prefer to use only a subset of this data, or to use your own custom data, you may do so by providing an input folder at the command line.
 
 ```
-$ python3 -m cdas -c config.json -i data_input/
+$ python3 -m cdas -c config.json -i data_for_cdas/
 ```
+
+The input folder may have any or all of the following:
+* "countries" - folder containing files, each with information on an individual country
+    * file name format: "location--XX...XXX.json"
+    * required attributes in a location file:
+        * id - unique ID, same as file name
+        * name
+* "malware" - folder containing files, each with information on an individual malware
+    * file name format: "malware--XX...XXX.json"
+    * required attributes in a malware file:
+        * id - unique ID, same as file name
+        * name
+    * see the default [malware](assets/mitre_cti/malware) for examples
+* "tools" - folder containing files, each with information on an individual tool
+    * file name format: "tool--XX...XXX.json"
+    * required attributes in a tool file:
+        * id - unique ID, same as file name
+        * name
+    * see the default [tools](assets/mitre_cti/tools) for examples
+* "threat-actors" - folder containing files, each with information on an individual threat actor
+    * file name format: "intrusion-set--XX...XXX.json"
+    * required attributes in a intrusion-set file:
+        * id - unique ID, same as file name
+        * name
+    * see the default [threat-actors](assets/mitre_cti/threat-actors) for examples
+* "attack-patterns" - folder containing files, each with information on an individual TTP
+    * file name format: "attack-pattern--XX...XXX.json"
+    * required attributes in a ttp file:
+        * id - unique ID, same as file name
+        * name
+    * see the default [attack-patterns](assets/mitre_cti/attack-patterns) for examples
+* "relationships.json" - file containing mapping of source and target IDs, along with relationship type. See the [default relationships.json](assets/mitre_cti/relationships.json) file as an example.
+
+CDAS will check the input folder first and use the data provided as inputs for those data types (country, threat actor, etc.). For any folders/files not provided in the input folder, CDAS will use either the defaults or create random data (depending on the settings in the configuration file).
+
+Additional customization for CDAS is handled through the configuration file, which allows for changing variables related to geopolitical context generation, agent generation, whether to randomize or use real world data, number of simulation rounds, and more. See [Config.md](Config.md) for further instructions.
+
+To customize the output data beyond the options available in the configuration file, run CDAS with inputs and configuration close to your target, and set the output file type in the configuration file to "json". You can then make changes to the json files provided by CDAS. You can even reuse those customized files as input to subsequent iterations of CDAS. 
 
 ## License
 
@@ -124,3 +156,4 @@ Copyright 2020 Carnegie Mellon University. See the [LICENSE.md](LICENSE.md) file
 ## Acknowledgements
 
 * Default country information is pulled from the CIA World Factbook site (https://www.cia.gov/library/publications/the-world-factbook/)
+* Default intrusion set information for CDAS comes from the [Mitre Cyber Threat Intelligence repository](https://github.com/mitre/cti).
