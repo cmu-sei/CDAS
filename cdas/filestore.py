@@ -41,12 +41,32 @@ DM20-0573
 import json
 import os
 import re
-import shutil
 import reportlab.platypus as platy
 from reportlab.lib.styles import getSampleStyleSheet
+import shutil
 from . import context
 
+
 class FileStore():
+    """
+    For saving, loading, and searching files of specific object types.
+
+    Args:
+        path (str): directory path where the files (will) exist
+        data_type (Object name): what type of data (will) exist in
+            the directory
+        write (bool, optional): whether the directory is writable. Defaults to
+            False.
+
+    Attributes:
+        _type (Object): stores data_type arg
+        _write (bool): stores write arg
+        path (str): stores path arg
+
+    Raises:
+        FileNotFoundError: if path does not already exist and _write is set to
+            False
+    """
 
     def __init__(self, path, data_type, write=False):
 
@@ -57,31 +77,49 @@ class FileStore():
             if self._write is False:
                 raise FileNotFoundError(f'{path} is not a directory.')
             os.mkdir(path)
+        # Check if there are already files in the given directory
         if os.path.isdir(path) and write is True and len(os.listdir(path)) > 0:
             q = (f'Overwrite the {self._type} folder {path}? (y/n) ')
             answer = ""
-            while answer not in ['y','n']:
+            while answer not in ['y', 'n']:
                 answer = input(q)
             if answer == 'n':
                 sys.exit()
             else:
                 for filename in os.listdir(path):
-                    file_path = os.path.join(path, filename)
+                    fp = os.path.join(path, filename)
                     try:
-                        if os.path.isfile(file_path) or os.path.islink(file_path):
-                            os.unlink(file_path)
-                        elif os.path.isdir(file_path):
-                            shutil.rmtree(file_path)
+                        if os.path.isfile(fp) or os.path.islink(fp):
+                            os.unlink(fp)
+                        elif os.path.isdir(fp):
+                            shutil.rmtree(fp)
                     except Exception as e:
-                        print(f'Failed to delete {file_path}. {e}')
+                        print(f'Failed to delete {fp}. {e}')
         self.path = path
 
-    def get(self, names):
-        if not isinstance(names, list):
-            names = [names]  # if only one id is given, convert to list
+    def get(self, ids):
+        """
+        Instantiates an object(s) from a .json file(s)
+
+        Args:
+            ids (str or list of strings): list of filenames (with or without
+                .json extension)
+
+        Returns:
+            found_objects (list): list of instances of the requested item
+            OR
+            found_object (instance): instance of the requested item if only
+                one item was requested
+            OR
+            None: if no matching files were found
+        """
+
+        if not isinstance(ids, list):
+            ids = [ids]  # if only one id is given, convert to list
 
         found_objects = []
-        for i in names:
+        # read in each file and instantiate the object from the json
+        for i in ids:
             filename = os.path.join(self.path, i)
             if not filename.endswith('.json'):
                 filename += '.json'
@@ -89,6 +127,7 @@ class FileStore():
                 obj = json.load(j_file)
             j_file.close()
             found_objects.append(self._type(**obj))
+
         if len(found_objects) == 1:
             return found_objects[0]
         elif len(found_objects) == 0:
@@ -97,15 +136,32 @@ class FileStore():
             return found_objects
 
     def list_files(self):
-        
+        """Return all filenames in the FileStore"""
+
         filenames = []
         for f in os.listdir(self.path):
             filenames.append(f)
         return filenames
 
     def output(self, subfolder, obj_to_output, filetype):
+        """
+        Saves objects to files of the given filetype
+
+        Internally, CDAS uses json formatted files, object instances, and
+        dictionaries. This function saves the objects to whatever filetype the
+        user has specified for final output.
+
+        Args:
+            subfolder (str): name of the subfolder within the FileStore, within
+                which to save the output
+            obj_to_output (instance of an object): thing to write to the file
+            filetype (str): one of the available types for file output (pdf,
+                json, html)
+        """
+
         filepath = os.path.join(
-            self.path, subfolder, obj_to_output.name.replace(' ','')+'.'+filetype)
+            self.path, subfolder,
+            obj_to_output.name.replace(' ', '') + '.' + filetype)
         if filetype == 'json':
             with open(filepath, 'w') as outfile:
                 json.dump(obj_to_output._serialize(), outfile, indent=4)
@@ -117,20 +173,26 @@ class FileStore():
         elif filetype == 'pdf':
             ss = getSampleStyleSheet()
             pdf = platy.SimpleDocTemplate(filepath)
-            flowables = []
-            flowables.append(platy.Paragraph(obj_to_output.name, ss['Heading1']))
+            flowables = [platy.Paragraph(obj_to_output.name, ss['Heading1'])]
             for k in vars(obj_to_output):
                 if k == 'id' or k == 'name':
                     continue
-                if type(vars(obj_to_output)[k]) is str or type(vars(obj_to_output)[k]) is int:
-                    p = f"{k.replace('_',' ').title()}: {str(vars(obj_to_output)[k])}"
+                key_name = k.replace('_', ' ').title()
+                if type(vars(obj_to_output)[k]) is str:
+                    p = f"{key_name}: {str(vars(obj_to_output)[k])}"
+                    flowables.append(platy.Paragraph(p, ss['BodyText']))
+                elif type(vars(obj_to_output)[k]) is int:
+                    p = f"{key_name}: {str(vars(obj_to_output)[k])}"
                     flowables.append(platy.Paragraph(p, ss['BodyText']))
                 else:
-                    p = f"{k.replace('_',' ').title()}:"
+                    p = f"{key_name}:"
                     flowables.append(platy.Paragraph(p, ss['BodyText']))
                     bullets = []
                     for v in vars(obj_to_output)[k]:
-                        p = v
+                        if type(v) is dict:
+                            p = str(v)
+                        else:
+                            p = v
                         if type(vars(obj_to_output)[k]) is not list:
                             p += ": "+vars(obj_to_output)[k][v]
                         b = platy.Paragraph(p, ss['Normal'])
@@ -140,6 +202,22 @@ class FileStore():
             pdf.build(flowables)
 
     def query(self, query_string, headers=False):
+        """
+        Search through the FileStore for matching files.
+
+        Basic (i.e. not super-great) search functionality to look through all
+        files in the FileStore for files that match given contraints. Returns
+        the requested attributes of any matching files.
+
+        Args:
+            query_string (str): SQL-like query string of the format
+                "SELECT attr1,attr2,etc WHERE 'attr3=test'"
+            headers (bool, optional): whether include the list of
+                requested attributes. Defaults to False.
+
+        Returns:
+            list of tuples consisting of requested attributes of matching files
+        """
 
         # split the query string into the key components
         if not query_string.upper().startswith("SELECT "):
@@ -154,7 +232,7 @@ class FileStore():
         else:
             get_attrs = query_string[7:].split(',')
             q_where = None
-        
+
         # find all of the attribute names in the WHERE clause
         if q_where:
             clauses = re.split('and | or', q_where)
@@ -182,11 +260,8 @@ class FileStore():
         selected = []
         for f in os.listdir(self.path):
             with open(os.path.join(self.path, f)) as json_file:
-                try:
-                    obj_dict = json.load(json_file)
-                    json_file.close()
-                except:
-                    print(sys.exc_info()[0],f)            
+                obj_dict = json.load(json_file)
+                json_file.close()
 
             # check for filtering criteria
             where_check = q_where
@@ -220,6 +295,20 @@ class FileStore():
             return selected
 
     def save(self, objects, overwrite=False):
+        """
+        Save serialized object instances to the filestore as json files.
+
+        Args:
+            objects (object instance or list of object instances): thing to
+                save as a json file
+            overwrite (bool, optional): Whether to overwrite existing files
+                with the same file name as the current object. Defaults to
+                False.
+
+        Raises:
+            Exception: if the file already exists and the FileStore is not
+                writeable
+        """
 
         if not isinstance(objects, list):
             objects = [objects]

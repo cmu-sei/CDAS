@@ -169,12 +169,8 @@ class ThreatActor():
             serialized[key] = s_value
         return serialized
 
-    def save(self, relationships, directory, filetype, tools_fs, malware_fs, events_fs, ttp_fs):
-        """Saves the attributes of the Threat Actor to a specified file.
-
-        """
-
-        filename = directory + self.name.replace(' ', '')
+    def _save(self, relationships, tools_fs, malware_fs, events_fs, ttp_fs):
+        apt_to_save = self
 
         ttps, tools, malwares = [], [], []
         for r in relationships:
@@ -184,110 +180,23 @@ class ThreatActor():
                 tools.append(r[2])
             elif self.id == r[0] and "malware" in r[2]:
                 malwares.append(r[2])
-        tool_names = []
+        apt_to_save.tools = []
         for t in tools:
-            tool_names.append(tools_fs.query(f"SELECT name WHERE id='{t}'")[0][0])
-        m_s = []
+            apt_to_save.tools.append(tools_fs.query(f"SELECT name WHERE id='{t}'")[0][0])
+        apt_to_save.malware = []
         for m in malwares:
-            m_s.append(malware_fs.query(f"SELECT name WHERE id='{m}'")[0][0])
-
-        if filetype == 'json':
-            with open(filename+".json", 'w') as f:
-                json.dump(self._serialize(), f)
-            f.close()
-        elif filetype == 'pdf':
-            ss = getSampleStyleSheet()
-            pdf = platy.SimpleDocTemplate(filename + ".pdf")
-            flowables = []
-
-            p = (
-                f'{self.name} is a {self.actor_type} group also '
-                f'known as {" or ".join(self.aliases)}. It was first seen in '
-                f'{self.first_seen}, and is attributed to '
-                f'the state of {self.attribution}. Its level of '
-                f'sophistication is {self.sophistication}, and its '
-                f'primary motivation is {self.primary_motivation}, though it '
-                f'is sometimes motivated by '
-                f'{" and ".join(self.secondary_motivations)}.'
-            )
-            flowables.append(platy.Paragraph(self.name, ss['Heading1']))
-            flowables.append(platy.Paragraph(p, ss['BodyText']))
-
-            p = self.name + "'s goals are "
-            flowables.append(platy.Paragraph(p, ss['BodyText']))
-            bullets = []
-            for g in self.goals:
-                p = platy.Paragraph(g, ss['Normal'])
-                bullets.append(platy.ListItem(p, leftIndent=35))
-            flowables.append(platy.ListFlowable(bullets, bulletType='bullet'))
-
-            flowables.append(platy.Paragraph('Tools', ss['Heading2']))
-            p = "This threat actor is known to use the following tools."
-            flowables.append(platy.Paragraph(p, ss['BodyText']))
-
-            bullets = []
-            for tool in sorted(tool_names[:10], key=str.casefold):
-                p = platy.Paragraph(tool, ss['Normal'])
-                bullets.append(platy.ListItem(p, leftIndent=35))
-
-            flowables.append(platy.ListFlowable(bullets, bulletType='bullet'))
-
-            flowables.append(platy.Paragraph('Malware', ss['Heading2']))
-            p = "This threat actor is known to use the following malware."
-            flowables.append(platy.Paragraph(p, ss['BodyText']))
-
-            bullets = []
-            for malware in sorted(m_s[:5], key=str.casefold):
-                p = platy.Paragraph(malware, ss['Normal'])
-                bullets.append(platy.ListItem(p, leftIndent=35))
-            flowables.append(platy.ListFlowable(bullets, bulletType='bullet'))
-
-            flowables.append(
-                platy.Paragraph('Attack Patterns', ss['Heading2']))
-            for t in ttps:
-                ttp = ttp_fs.get(t)
-                p = f"{ttp.name}"
-                flowables.append(platy.Paragraph(p, ss['Italic']))
-                p = []
-                for ref in ttp.references:
-                    if ref['source_name'] == "mitre-attack":
-                        p.append("Mitre Attack: "+ref['external_id'])
-                    elif ref['source_name'] == "capec":
-                        p.append(ref['external_id'])
-                if len(p) > 0:
-                    p = "(" + ", ".join(p) + ")\n"
-                    flowables.append(platy.Paragraph(p, ss['BodyText']))
-                else:
-                    try:
-                        flowables.append(platy.Paragraph(
-                            ttp.description+'\n', ss['BodyText']))
-                    except AttributeError:
-                        pass
-                flowables.append(platy.Paragraph("", ss['Heading2']))
-
-            flowables.append(
-                platy.Paragraph('Related Reporting', ss['Heading2']))
-            p = f"These reported incidents are likely or highly likely to be \
-                attributed to {self.name}, though there may be others:"
-            flowables.append(platy.Paragraph(p, ss['BodyText']))
-            sightings = events_fs.query(f"SELECT first_seen WHERE sighting_of_ref='{self.id}'")
-            r_nums = [s[0] for s in sightings][:15]
-            bullets = []
-            for r in sorted(r_nums):
-                p = platy.Paragraph(
-                    r.replace(' ', '_').replace(':', '')[:15], ss['Normal'])
-                bullets.append(platy.ListItem(p, leftIndent=35))
-            flowables.append(platy.ListFlowable(bullets, bulletType='bullet'))
-
-            pdf.build(flowables)
-        elif filetype == 'html':
-            filename += ".json"
-            f = open(filename, 'w')
-            f.write("var data = " + str(actor_dict))
-            f.close()
-        else:
-            raise NotImplementedError(
-                f"Output file type, {filetype}, not supported")
+            apt_to_save.malware.append(malware_fs.query(f"SELECT name WHERE id='{m}'")[0][0])
+        apt_to_save.ttps = []
+        for t in ttps:
+            t_name, refs = ttp_fs.query(f"SELECT name,references WHERE id='{t}'")[0]
+            for ref in refs:
+                if ref['source_name'] == "mitre-attack":
+                    t_name += " (Mitre Attack: "+ref['external_id']+ ')'
+                elif ref['source_name'] == "capec":
+                    t_name += ' (' + ref['external_id'] + ')'
+            apt_to_save.ttps.append(t_name)
+        
+        return apt_to_save
 
 
 class Organization():

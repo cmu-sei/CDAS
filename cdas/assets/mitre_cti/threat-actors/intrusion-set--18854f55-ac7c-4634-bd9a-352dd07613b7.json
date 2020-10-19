@@ -2,22 +2,6 @@
     "id": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
     "name": "APT41",
     "description": "[APT41](https://attack.mitre.org/groups/G0096) is a group that carries out Chinese state-sponsored espionage activity in addition to financially motivated activity. [APT41](https://attack.mitre.org/groups/G0096) has been active since as early as 2012. The group has been observed targeting healthcare, telecom, technology, and video game industries in 14 countries.(Citation: FireEye APT41 Aug 2019)",
-    "references": [
-        {
-            "url": "https://attack.mitre.org/groups/G0096",
-            "source_name": "mitre-attack",
-            "external_id": "G0096"
-        },
-        {
-            "source_name": "APT41",
-            "description": "(Citation: FireEye APT41 2019)"
-        },
-        {
-            "source_name": "FireEye APT41 Aug 2019",
-            "url": "https://content.fireeye.com/apt-41/rpt-apt41",
-            "description": "Fraser, N., et al. (2019, August 7). Double DragonAPT41, a dual espionage and cyber crime operation APT41. Retrieved September 23, 2019."
-        }
-    ],
     "aliases": [
         "APT41"
     ],

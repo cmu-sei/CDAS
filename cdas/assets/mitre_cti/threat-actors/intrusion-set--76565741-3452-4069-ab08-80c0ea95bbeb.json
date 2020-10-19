@@ -2,27 +2,6 @@
     "id": "intrusion-set--76565741-3452-4069-ab08-80c0ea95bbeb",
     "name": "SilverTerrier",
     "description": "[SilverTerrier](https://attack.mitre.org/groups/G0083) is a Nigerian threat group that has been seen active since 2014. [SilverTerrier](https://attack.mitre.org/groups/G0083) mainly targets organizations in high technology, higher education, and manufacturing.(Citation: Unit42 SilverTerrier 2018)(Citation: Unit42 SilverTerrier 2016)",
-    "references": [
-        {
-            "external_id": "G0083",
-            "source_name": "mitre-attack",
-            "url": "https://attack.mitre.org/groups/G0083"
-        },
-        {
-            "source_name": "SilverTerrier",
-            "description": "(Citation: Unit42 SilverTerrier 2018)(Citation: Unit42 SilverTerrier 2016)"
-        },
-        {
-            "description": "Unit42. (2016). SILVERTERRIER: THE RISE OF NIGERIAN BUSINESS EMAIL COMPROMISE. Retrieved November 13, 2018.",
-            "url": "https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/whitepapers/unit42-silverterrier-rise-of-nigerian-business-email-compromise",
-            "source_name": "Unit42 SilverTerrier 2018"
-        },
-        {
-            "description": "Renals, P., Conant, S. (2016). SILVERTERRIER: The Next Evolution in Nigerian Cybercrime. Retrieved November 13, 2018.",
-            "url": "https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/reports/Unit_42/silverterrier-next-evolution-in-nigerian-cybercrime.pdf",
-            "source_name": "Unit42 SilverTerrier 2016"
-        }
-    ],
     "aliases": [
         "SilverTerrier"
     ],

@@ -2,22 +2,6 @@
     "id": "intrusion-set--59140a2e-d117-4206-9b2c-2a8662bd9d46",
     "name": "Taidoor",
     "description": "[Taidoor](https://attack.mitre.org/groups/G0015) is a threat group that has operated since at least 2009 and has primarily targeted the Taiwanese government. (Citation: TrendMicro Taidoor)",
-    "references": [
-        {
-            "source_name": "mitre-attack",
-            "url": "https://attack.mitre.org/groups/G0015",
-            "external_id": "G0015"
-        },
-        {
-            "source_name": "Taidoor",
-            "description": "(Citation: TrendMicro Taidoor)"
-        },
-        {
-            "source_name": "TrendMicro Taidoor",
-            "description": "Trend Micro. (2012). The Taidoor Campaign. Retrieved November 12, 2014.",
-            "url": "http://www.trendmicro.com/cloud-content/us/pdfs/security-intelligence/white-papers/wp_the_taidoor_campaign.pdf"
-        }
-    ],
     "aliases": [
         "Taidoor"
     ],

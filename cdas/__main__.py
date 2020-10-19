@@ -77,6 +77,7 @@ def main():
         'ttps': ''
         }
 
+    print("Setting up directories...")
     # Set up the Output directory
     if not args.output_directory:
         args.output_directory = config['output']['output_directory']
@@ -134,13 +135,14 @@ def main():
     else:
         ttp_fs = filestore.FileStore(datastore['ttps'], context.Ttp)
 
-    print("Loading inputs...")
     # Load or create country data
     if datastore['countries'] != '':
         # Using custom data
+        print("Loading custom country data...")
         countries_fs = filestore.FileStore(
             datastore['countries'], context.Country)
     elif config['countries']['randomize'] is True:
+        print("Creating fake countries...")
         countries_fs = filestore.FileStore(
             os.path.join(config['output']['temp_directory'],'countries'),
             context.Country, write=True)
@@ -168,6 +170,7 @@ def main():
             countries_fs.save(country, overwrite=True)
     else:
         # Using country data files instead of random generation
+        print("Loading default country data...")
         countries_fs = filestore.FileStore(
             pkg_resources.resource_filename(
                 __name__, 'data/cia_world_factbook/'), context.Country)
@@ -180,10 +183,12 @@ def main():
     json_file.close()
 
     if datastore['threat-actors'] != '':
+        print("Loading custom threat actor data...")
         # Using custom threat actors provided by the user in the input folder
         threat_actor_fs = filestore.FileStore(datastore['threat-actors'],
             agents.ThreatActor)
     elif config['agents']['randomize_threat_actors'] is True:
+        print("Creating fake threat actors...")
         threat_actor_fs = filestore.FileStore(
             os.path.join(config['output']['temp_directory'],'threat-actors'),
             agents.ThreatActor, write=True)
@@ -207,7 +212,7 @@ def main():
             threat_actor_fs.save(actor)
             actors += 1
     else:
-        # no randomization - use default set
+        print("Loading default threat actor data...")
         threat_actor_fs = filestore.FileStore(
             pkg_resources.resource_filename(
                 __name__, 'assets/mitre_cti/threat-actors/'), agents.ThreatActor)
@@ -266,17 +271,20 @@ def main():
         pass
 
     for ot in config['output']['output_types']:
-        print(f'\t{ot}')
+        print(f'    {ot}...')
         path = args.output_directory + "/" + ot
         os.mkdir(path)
         os.mkdir(path + '/countries/')
         os.mkdir(path + '/actors/')
         os.mkdir(path + '/reports/')
         os.mkdir(path + '/organizations/')
+        print(f'\t  Countries...')
         for country in countries_fs.get([i[0] for i in countries_fs.query("SELECT id")]):
             output_dir.output(ot+'/countries', country, ot)
+        print(f'\t  Actors...')
         for apt in actors:
-            apt.save(relationships, path + '/actors/', ot, tools_fs, malware_fs, events_fs, ttp_fs)
+            output_dir.output(ot+'/actors',apt._save(relationships, tools_fs, malware_fs, events_fs, ttp_fs), ot)
+        print(f'\t  Events...')
         for e in events_fs.get([i[0] for i in events_fs.query("SELECT id")]):
             output_dir.output(ot+'/reports', e, ot)
         for org in orgs:

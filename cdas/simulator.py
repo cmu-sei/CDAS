@@ -123,7 +123,7 @@ def simulate(actors, orgs, tools, malwares, events_fs, relationships, start_date
 
         success = np.random.choice([True, False])
         tool = np.random.choice(tools)
-        if (agent.id,'relationship',tool.id) not in relationships:
+        if (agent.id,'uses',tool.id) not in relationships:
             relationships.append((agent.id, 'uses', tool.id))
         indicator_type = np.random.choice(['IPv4 address', 'domain name'])
         used_malware = np.random.choice(['yes', 'no'], p=[.25, .75])
