@@ -78,6 +78,21 @@ class FileStore():
                 raise FileNotFoundError(f'{path} is not a directory.')
             os.mkdir(path)
         # Check if there are already files in the given directory
+        if os.path.isdir(path) and write is False:
+            for f in os.listdir(path):
+                if not f.endswith(self._type._file_specification['ext']):
+                    raise Exception(
+                        f"file {f} in {path} is not allowed for {self._type}."
+                        f" Extension must be ."
+                        f"{self._type._file_specification['ext']}.")
+                if not f.startswith(self._type._file_specification['prefix']):
+                    raise Exception(
+                        f"file {f} in {path} is not allowed for {self._type}."
+                        f" Must start with \""
+                        f"{self._type._file_specification['prefix']}\".")
+                
+        # Check if there are already files in the given directory and if it's 
+        # okay to overwrite them
         if os.path.isdir(path) and write is True and len(os.listdir(path)) > 0:
             q = (f'Overwrite the {self._type} folder {path}? (y/n) ')
             answer = ""

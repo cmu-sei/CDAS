@@ -5,16 +5,24 @@
     "aliases": [
         "APT41"
     ],
-    "sophistication": "",
-    "actor_type": "",
+    "sophistication": "strategic",
+    "actor_type": "nation-state",
     "sectors": [
-        ""
+        "defense",
+        "healthcare",
+        "technology",
+        "telecommunications",
+        "entertainment",
+        "utilities"
     ],
-    "primary_motivation": "",
-    "secondary_motivations": [],
+    "primary_motivation": "ideology",
+    "secondary_motivations": [
+        "financial gain"
+    ],
     "goals": [
-        ""
+        "steal intellectual property",
+        "obtain state secrets"
     ],
-    "attribution": "",
-    "first_seen": ""
+    "attribution": "China",
+    "first_seen": "2012-01-01 00:00:00"
 }

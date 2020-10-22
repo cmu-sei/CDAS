@@ -10,9 +10,14 @@
         "agent", "director", "independent", "infrastructure-architect",
         "infrastructure-operator", "sponsor"
     ],
-    "threat-actor-sophistication":[
-        "minimal", "intermediate", "advanced", "expert", "innovator", "strategic"
-    ],
+    "threat-actor-sophistication":{
+        "minimal": 6,
+        "intermediate": 5,
+        "advanced": 4,
+        "expert": 3,
+        "innovator": 2,
+        "strategic": 1
+    },
     "threat-actor-type": {
         "activist":0.1,
         "crime-syndicate":0.1, 
@@ -37,7 +42,8 @@
         "government (local)", "government (national)",
         "government (public-services)", "government (regional)","healthcare",
         "hospitality-leisure", "infrastructure (dams, nuclear, water)",
-        "insurance", "manufacturing", "mining", "non-profit", "pharmaceuticals", 
+        "insurance", "manufacturing",
+        "media", "mining", "non-profit", "pharmaceuticals", 
         "retail","technology","telecommunications","transportation","utilities"
     ],
     "animals": [

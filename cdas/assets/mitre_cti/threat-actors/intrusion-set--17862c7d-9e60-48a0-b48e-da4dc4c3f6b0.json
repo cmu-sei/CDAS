@@ -10,16 +10,16 @@
         "MONSOON",
         "Operation Hangover"
     ],
-    "sophistication": "",
-    "actor_type": "",
+    "sophistication": "intermediate",
+    "actor_type": "nation-state",
     "sectors": [
-        ""
+        "government (national)"
     ],
-    "primary_motivation": "",
+    "primary_motivation": "ideology",
     "secondary_motivations": [],
     "goals": [
-        ""
+        "obtain state secrets"
     ],
-    "attribution": "",
-    "first_seen": ""
+    "attribution": "India",
+    "first_seen": "2015-12-01 00:00:00"
 }

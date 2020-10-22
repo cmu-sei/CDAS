@@ -68,6 +68,7 @@ class ThreatActor():
         name (str, required): Primary name of the APT
     """
 
+    _file_specification = {"ext":"json","prefix":"intrusion-set--"}
     def __init__(self, stix=None, actor_name_1=None, actor_name_2=None, 
             countries_fs=None, threat_actor_fs=None, **kwargs):
 
@@ -87,7 +88,7 @@ class ThreatActor():
                 noun = np.random.choice(actor_name_2)
             self.name = adj + " " + noun
 
-            self.sophistication = str(np.random.choice(stix['threat-actor-sophistication']))
+            self.sophistication = str(np.random.choice(list(stix['threat-actor-sophistication'].keys())))
             self.actor_type = np.random.choice(
                 list(stix["threat-actor-type"].keys()),
                 p=list(stix["threat-actor-type"].values()))
@@ -170,6 +171,9 @@ class ThreatActor():
         return serialized
 
     def _save(self, relationships, tools_fs, malware_fs, events_fs, ttp_fs):
+
+        # We don't want to output all attributes of self exactly as is, so we
+        # will copy self to another variable, apt_to_save, and manipulate that
         apt_to_save = self
 
         ttps, tools, malwares = [], [], []
@@ -180,13 +184,22 @@ class ThreatActor():
                 tools.append(r[2])
             elif self.id == r[0] and "malware" in r[2]:
                 malwares.append(r[2])
-        apt_to_save.tools = []
+
+        tool_names = []
         for t in tools:
-            apt_to_save.tools.append(tools_fs.query(f"SELECT name WHERE id='{t}'")[0][0])
-        apt_to_save.malware = []
+            tool_names.append(
+                tools_fs.query(f"SELECT name WHERE id='{t}'")[0][0])
+        if len(tool_names) > 0:
+            apt_to_save.tools = tool_names
+
+        malware_names = []
         for m in malwares:
-            apt_to_save.malware.append(malware_fs.query(f"SELECT name WHERE id='{m}'")[0][0])
-        apt_to_save.ttps = []
+            malware_names.append(
+                malware_fs.query(f"SELECT name WHERE id='{m}'")[0][0])
+        if len(tool_names) > 0:
+            apt_to_save.malware = malware_names
+
+        ttp_names = []
         for t in ttps:
             t_name, refs = ttp_fs.query(f"SELECT name,references WHERE id='{t}'")[0]
             for ref in refs:
@@ -194,7 +207,9 @@ class ThreatActor():
                     t_name += " (Mitre Attack: "+ref['external_id']+ ')'
                 elif ref['source_name'] == "capec":
                     t_name += ' (' + ref['external_id'] + ')'
-            apt_to_save.ttps.append(t_name)
+            ttp_names.append(t_name)
+        if len(ttp_names) > 0:
+            apt_to_save.ttps = ttp_names
         
         return apt_to_save
 

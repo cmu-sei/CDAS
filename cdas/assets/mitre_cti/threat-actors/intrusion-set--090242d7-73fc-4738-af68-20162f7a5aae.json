@@ -6,16 +6,21 @@
         "APT17",
         "Deputy Dog"
     ],
-    "sophistication": "",
-    "actor_type": "",
+    "sophistication": "strategic",
+    "actor_type": "nation-state",
     "sectors": [
-        ""
+        "defense",
+        "government (national)",
+        "mining",
+        "technology",
+        "non-profit"
     ],
-    "primary_motivation": "",
+    "primary_motivation": "ideology",
     "secondary_motivations": [],
     "goals": [
-        ""
+        "obtain state secrets",
+        "steal intellectual property"
     ],
-    "attribution": "",
-    "first_seen": ""
+    "attribution": "China",
+    "first_seen": "2012-01-01 00:00:00"
 }

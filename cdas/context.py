@@ -52,6 +52,7 @@ class Country:
 
     __instances = set()
     countryCount = -1  # track the number of countries created starting at 0
+    _file_specification = {"ext":"json","prefix":"location--"}
 
     def __init__(self, choices=None, map_matrix=None, **kwargs):
         """
@@ -867,17 +868,17 @@ def markov_name(nationality=False):
     return word.title()
 
 class Tool():
-
+    _file_specification = {"ext":"json","prefix":"tool--"}
     def __init__(self, **kwargs):
         self.__dict__.update(kwargs)
 
 class Ttp():
-
+    _file_specification = {"ext":"json","prefix":"attack-pattern--"}
     def __init__(self, **kwargs):
         self.__dict__.update(kwargs)
 
 class Malware():
-
+    _file_specification = {"ext":"json","prefix":"malware--"}
     def __init__(self, **kwargs):
         self.__dict__.update(kwargs)
 
