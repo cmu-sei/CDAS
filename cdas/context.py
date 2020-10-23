@@ -47,24 +47,28 @@ import weakref
 
 class Country:
     """
-    Used to represent a country and its attributes.
+    Represents a country and its attributes
+
+    Args:
+        choices (dict, optional) Seed values to use as options for geopolitical
+            context. Required if kwargs is not provided.
+        map_matrix (numpy matrix, optional): Shows the location of the
+            countries on a "map" (matrix) by their IDs. Taken from the Map
+            object. Required if kwargs is not provided.
+        kwargs (dict, optional): Custom attributes and values for the country.
+
+    Attributes:
+        __instances (set): pulled from a class method that returns all current
+            instances of Country.
+        countryCount (int): number of countries created/loaded
+        _file_specification (dict): requirements for a country input file
     """
 
     __instances = set()
     countryCount = -1  # track the number of countries created starting at 0
-    _file_specification = {"ext":"json","prefix":"location--"}
+    _file_specification = {"ext": "json", "prefix": "location--"}
 
     def __init__(self, choices=None, map_matrix=None, **kwargs):
-        """
-        Parameters
-        ----------
-        choices : dict
-            json dict with values to use as options for geopolitical context
-        map_matrix : numpy matrix
-            Taken from the Map object
-        kwargs : dict
-            custom attributes and values for the country
-        """
 
         Country.countryCount += 1
         self.id = Country.countryCount
@@ -261,7 +265,7 @@ class Country:
                 ag_opts.extend(choices['agriculture']["Coast"])
             self.agriculture = list(np.random.choice(
                 list(set(ag_opts)),
-                np.random.randint(2, min(area/area_multiple + 4,len(ag_opts))),
+                np.random.randint(2, min(area/area_multiple+4, len(ag_opts))),
                 False))
             self.industries = list(np.random.choice(
                 choices['eximports'], np.random.randint(3, 12), False))
@@ -530,6 +534,8 @@ class Country:
 
     @classmethod
     def getinstances(cls):
+        """Return all current instances of the Country class"""
+
         dead = set()
         for ref in cls.__instances:
             obj = ref()
@@ -540,12 +546,29 @@ class Country:
         cls.__instances -= dead
 
     def _serialize(self):
+        """
+        Return the Country attributes in a dictionary form with
+        serializable values
+        """
+
         serialized = {}
         for key, value in self.__dict__.items():
             serialized[key] = value
         return serialized
 
     def update(self, id_to_name):
+        """
+        Changes references to other countries' IDs to their names.
+
+        When country information is generated off of the map matrix, the
+        country only has information on other countries' ID numbers, not their
+        names. This function converts those references to names.
+
+        Args:
+            id_to_name (dict): Mapping of all country IDs (keys) to their names
+                (values).
+        """
+
         # Convert the neighbors listed by id# to neighbor country names
         neighbors = {}
         for n in self.neighbors:
@@ -638,26 +661,19 @@ class Country:
 
 class Map:
     """
-    Used to represent a world map.
+    Represents a world map as numpy matrix.
 
-    Attributes
-    ----------
-    map : numpy matrix
-        A representation of the map where each value in the matrix
-        corresponds with a country. Ocean is represented as '-1'.
+    A representation of the map where each value in the matrix corresponds to a
+    country. Ocean is represented as '-1'. For example, a map with three
+    countries (IDs: 0, 1, and 2) might look like:
+    [-1 0 0 -1
+     0  0 1  1
+    -1 -1 2  2]
 
-    Methods
-    -------
-    plot_map(directory, **country_names)
-        Saves the map as a SVG in [directory].
+    Args:
+        num_countries (int): The number of countries to generate for the map.
     """
     def __init__(self, num_countries):
-        """
-        Parameters
-        ----------
-        num_countries : int
-            The number of countries to generate for the random world.
-        """
 
         # start by filling a matrix of "ocean" space
         r_scale = np.ceil(np.sqrt(num_countries * 1.5))
@@ -772,17 +788,16 @@ class Map:
         self.map = map_matrix
 
     def plot_map(self, directory, **country_names):
-        """Converts map matrix to SVG and saves in [directory].
+        """
+        Converts map matrix to SVG and saves in [directory].
 
         Country id numbers in matrix will be replaced with names if
         [country_names] is specified.
 
-        Parameters
-        ----------
-        directory : str
-            Path to save map SVG.
-        country_names : dict, optional
-            Mapping of country IDs (in matrix) to country names
+        Args:
+            directory (str): Path to save map SVG.
+            country_names (dict, optional): Mapping of country IDs (keys) to
+                their names
         """
 
         fill_colors = [
@@ -803,8 +818,8 @@ class Map:
         for country_id in range(0, self.map.max()+1):
             location = np.transpose(np.where(self.map == country_id))
             d.append(draw.Text(
-                country_names["location--"+str(country_id)], 0.3, location[0][1],
-                -1*(location[0][0]+1), fill='white'))
+                country_names["location--"+str(country_id)], 0.3,
+                location[0][1], -1*(location[0][0]+1), fill='white'))
 
         d.setPixelScale(200)  # Set number of pixels per geometry unit
         d.saveSvg(directory+'/map.svg')
@@ -816,11 +831,9 @@ def markov_name(nationality=False):
     Uses a dictionary of probabilities of letter sequences to generate
     random fake place names.
 
-    Parameters
-    ----------
-    nationality : binary, optional
-        Whether to convert generated name to a nationality by changing
-        the ending (default is False)
+    Args:
+        nationality (binary, optional): Whether to convert generated name to a
+        nationality by changing the ending (default is False)
     """
 
     with open(pkg_resources.resource_filename(
@@ -867,27 +880,74 @@ def markov_name(nationality=False):
 
     return word.title()
 
+
 class Tool():
-    _file_specification = {"ext":"json","prefix":"tool--"}
+    """
+    Represents a tool, for example, 'cmd'. (Note that malware is separate)
+
+    Args:
+        kwargs (dict): attributes and their values for the tool
+
+    Attributes:
+        _file_specification (dict): requirements for a tool input file
+    """
+
+    _file_specification = {"ext": "json", "prefix": "tool--"}
+
     def __init__(self, **kwargs):
         self.__dict__.update(kwargs)
+
 
 class Ttp():
-    _file_specification = {"ext":"json","prefix":"attack-pattern--"}
+    """
+    Represents a TTP.
+
+    Args:
+        kwargs (dict): attributes and their values for the TTP
+
+    Attributes:
+        _file_specification (dict): requirements for a TTP input file
+    """
+
+    _file_specification = {"ext": "json", "prefix": "attack-pattern--"}
+
     def __init__(self, **kwargs):
         self.__dict__.update(kwargs)
+
 
 class Malware():
-    _file_specification = {"ext":"json","prefix":"malware--"}
+    """
+    Represents a piece of malware.
+
+    Args:
+        kwargs (dict): attributes and their values for the Malware
+
+    Attributes:
+        _file_specification (dict): requirements for a malware input file
+    """
+
+    _file_specification = {"ext": "json", "prefix": "malware--"}
+
     def __init__(self, **kwargs):
         self.__dict__.update(kwargs)
 
+
 class Event():
+    """
+    Represents a cyber event, such as an attack or defense.
+
+    Args:
+        kwargs (dict): attributes and their values for the Event
+    """
 
     def __init__(self, **kwargs):
         self.__dict__.update(kwargs)
 
     def _serialize(self):
+        """
+        Return the Event attributes in a dictionary form with
+        serializable values
+        """
         serialized = {}
         for key, value in self.__dict__.items():
             serialized[key] = str(value)

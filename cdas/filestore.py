@@ -90,8 +90,8 @@ class FileStore():
                         f"file {f} in {path} is not allowed for {self._type}."
                         f" Must start with \""
                         f"{self._type._file_specification['prefix']}\".")
-                
-        # Check if there are already files in the given directory and if it's 
+
+        # Check if there are already files in the given directory and if it's
         # okay to overwrite them
         if os.path.isdir(path) and write is True and len(os.listdir(path)) > 0:
             q = (f'Overwrite the {self._type} folder {path}? (y/n) ')
