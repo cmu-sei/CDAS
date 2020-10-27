@@ -77,19 +77,35 @@ class FileStore():
             if self._write is False:
                 raise FileNotFoundError(f'{path} is not a directory.')
             os.mkdir(path)
-        # Check if there are already files in the given directory
+        # Check if there are already files in the given directory and test
+        # whether they have the correct format
         if os.path.isdir(path) and write is False:
             for f in os.listdir(path):
                 if not f.endswith(self._type._file_specification['ext']):
                     raise Exception(
-                        f"file {f} in {path} is not allowed for {self._type}."
-                        f" Extension must be ."
+                        f"file {f} in {path} is not allowed for "
+                        f"{self._type.__name__}. Extension must be ."
                         f"{self._type._file_specification['ext']}.")
                 if not f.startswith(self._type._file_specification['prefix']):
                     raise Exception(
-                        f"file {f} in {path} is not allowed for {self._type}."
-                        f" Must start with \""
+                        f"file {f} in {path} is not allowed for "
+                        f"{self._type.__name__}. Must start with \""
                         f"{self._type._file_specification['prefix']}\".")
+                with open(os.path.join(path, f)) as j_file:
+                    obj = json.load(j_file)
+                j_file.close()
+                missing_attrs = [
+                    attr for attr in self._type._file_specification['req_attrs']
+                    if attr not in obj.keys()]
+                if len(missing_attrs) > 0:
+                    raise Exception(
+                        f'{self._type.__name__} {os.path.join(path, f)} is '
+                        f'missing the required attributes: '
+                        f'{", ".join(missing_attrs)}.')
+                if obj['id'] != f[:-5]:
+                    raise Exception(
+                        f'id, "{obj["id"]}", for {self._type.__name__}, {f}, '
+                        f'does not match filename. id should be "{f[:-5]}".')
 
         # Check if there are already files in the given directory and if it's
         # okay to overwrite them
@@ -174,18 +190,24 @@ class FileStore():
                 json, html)
         """
 
-        filepath = os.path.join(
-            self.path, subfolder,
-            obj_to_output.name.replace(' ', '') + '.' + filetype)
         if filetype == 'json':
+            filepath = os.path.join(
+                self.path, subfolder,
+                obj_to_output.id + '.' + filetype)
             with open(filepath, 'w') as outfile:
                 json.dump(obj_to_output._serialize(), outfile, indent=4)
             outfile.close()
         elif filetype == 'html':
+            filepath = os.path.join(
+                self.path, subfolder,
+                obj_to_output.id + '.' + filetype)
             f = open(filepath, 'w')
             f.write("var data = " + obj_to_output._serialize())
             f.close()
         elif filetype == 'pdf':
+            filepath = os.path.join(
+                self.path, subfolder,
+                obj_to_output.name.replace(' ', '') + '.' + filetype)
             ss = getSampleStyleSheet()
             pdf = platy.SimpleDocTemplate(filepath)
             flowables = [platy.Paragraph(obj_to_output.name, ss['Heading1'])]

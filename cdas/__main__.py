@@ -89,7 +89,8 @@ def main():
     # Set up the temp directory
     if config['output']['temp_directory'] == "":
         raise Exception(f'No temporary directory specified')
-    temp_dir = filestore.FileStore(config['output']['temp_directory'],"temp",write=True)
+    temp_dir = filestore.FileStore(
+        config['output']['temp_directory'], "temp", write=True)
 
     # Check the input folder if provided
     if not args.input_directory:
@@ -104,12 +105,15 @@ def main():
             else:
                 datastore[f.lower()] = os.path.join(args.input_directory, f)
         if 'relationships.json' in input_fs:
-            with open(os.path.join(args.input_directory, 'relationships.json')) as json_file:
+            with open(os.path.join(
+                    args.input_directory,
+                    'relationships.json')) as json_file:
                 relationships = json.load(json_file)
             json_file.close()
         else:
             with open(pkg_resources.resource_filename(
-                    __name__, 'assets/mitre_cti/relationships.json')) as json_file:
+                    __name__,
+                    'assets/mitre_cti/relationships.json')) as json_file:
                 relationships = json.load(json_file)
             json_file.close()
     else:
@@ -144,9 +148,9 @@ def main():
     elif config['countries']['randomize'] is True:
         print("Creating fake countries...")
         countries_fs = filestore.FileStore(
-            os.path.join(config['output']['temp_directory'],'countries'),
+            os.path.join(config['output']['temp_directory'], 'countries'),
             context.Country, write=True)
-        
+
         # Load the seed file
         if datastore['geoseed.json'] == '':
             datastore['geoseed.json'] = pkg_resources.resource_filename(
@@ -158,7 +162,7 @@ def main():
         map_matrix = context.Map(
             config['countries']['random_vars']['num_countries'])
 
-        country_names = {}   
+        country_names = {}
         for c in range(0, config['countries']['random_vars']['num_countries']):
             country = context.Country(context_options, map_matrix.map)
             countries_fs.save(country)
@@ -185,29 +189,29 @@ def main():
     if datastore['threat-actors'] != '':
         print("Loading custom threat actor data...")
         # Using custom threat actors provided by the user in the input folder
-        threat_actor_fs = filestore.FileStore(datastore['threat-actors'],
-            agents.ThreatActor)
+        threat_actor_fs = filestore.FileStore(
+            datastore['threat-actors'], agents.ThreatActor)
     elif config['agents']['randomize_threat_actors'] is True:
         print("Creating fake threat actors...")
         threat_actor_fs = filestore.FileStore(
-            os.path.join(config['output']['temp_directory'],'threat-actors'),
+            os.path.join(config['output']['temp_directory'], 'threat-actors'),
             agents.ThreatActor, write=True)
         with open(pkg_resources.resource_filename(
                 __name__,
-                config['agents']['random_variables']['actor_name_1']), 
+                config['agents']['random_variables']['actor_name_1']),
                 encoding='utf-8') as f:
             actor_name_1 = [line.rstrip() for line in f]
         f.close()
         with open(pkg_resources.resource_filename(
                 __name__,
-                config['agents']['random_variables']['actor_name_2']), 
+                config['agents']['random_variables']['actor_name_2']),
                 encoding='utf-8') as f:
             actor_name_2 = [line.rstrip() for line in f]
         f.close()
         actors = 1
         while actors <= config['agents']['random_variables']['num_agents']:
             actor = agents.ThreatActor(
-                stix_vocab, actor_name_1, actor_name_2, countries_fs, 
+                stix_vocab, actor_name_1, actor_name_2, countries_fs,
                 threat_actor_fs)
             threat_actor_fs.save(actor)
             actors += 1
@@ -215,7 +219,8 @@ def main():
         print("Loading default threat actor data...")
         threat_actor_fs = filestore.FileStore(
             pkg_resources.resource_filename(
-                __name__, 'assets/mitre_cti/threat-actors/'), agents.ThreatActor)
+                __name__, 'assets/mitre_cti/threat-actors/'),
+            agents.ThreatActor)
 
     # Create organizations
     with open(pkg_resources.resource_filename(
@@ -224,11 +229,12 @@ def main():
         org_names = f.read().splitlines()  # organization name possibilities
     f.close()
     with open(pkg_resources.resource_filename(
-            __name__, 'assets/NIST_assess.json'), encoding='utf-8') as json_file:
+            __name__, 'assets/NIST_assess.json'),
+            encoding='utf-8') as json_file:
         assessment = json.load(json_file)
     json_file.close()
     organizations_fs = filestore.FileStore(
-            os.path.join(config['output']['temp_directory'],'organizations'),
+            os.path.join(config['output']['temp_directory'], 'organizations'),
             agents.Organization, write=True)
     for c in countries_fs.query("SELECT name"):
         orgs = 0
@@ -240,7 +246,7 @@ def main():
     # Run simulation
     print('Running simulation...')
     events_fs = filestore.FileStore(
-            os.path.join(config['output']['temp_directory'],'events'),
+            os.path.join(config['output']['temp_directory'], 'events'),
             context.Event, write=True)
     start = datetime.strptime(
         config["simulation"]['time_range'][0], '%Y-%m-%d')
@@ -279,11 +285,13 @@ def main():
         os.mkdir(path + '/reports/')
         os.mkdir(path + '/organizations/')
         print(f'\t  Countries...')
-        for country in countries_fs.get([i[0] for i in countries_fs.query("SELECT id")]):
+        for country in countries_fs.get(
+                [i[0] for i in countries_fs.query("SELECT id")]):
             output_dir.output(ot+'/countries', country, ot)
         print(f'\t  Actors...')
         for apt in actors:
-            output_dir.output(ot+'/actors',apt._save(relationships, tools_fs, malware_fs, events_fs, ttp_fs), ot)
+            output_dir.output(ot+'/actors', apt._save(
+                relationships, tools_fs, malware_fs, events_fs, ttp_fs), ot)
         print(f'\t  Events...')
         for e in events_fs.get([i[0] for i in events_fs.query("SELECT id")]):
             output_dir.output(ot+'/reports', e, ot)
@@ -296,12 +304,12 @@ def main():
             html_templates = os.listdir(html_src)
             for f in html_templates:
                 shutil.copy(html_src + '/' + f, path)
-            f = open(path+'/COUNTRY.html','r')
+            f = open(path+'/COUNTRY.html', 'r')
             c_template = f.read()
             f.close()
             for country in countries:
-                f = open(path + '/countries/' + country.name + '.html','w')
-                f.write(c_template.replace('COUNTRY',country.name))
+                f = open(path + '/countries/' + country.name + '.html', 'w')
+                f.write(c_template.replace('COUNTRY', country.name))
                 f.close()
             os.remove(path+'/COUNTRY.html')
 

@@ -10,16 +10,20 @@
         "CVNX",
         "HOGFISH"
     ],
-    "sophistication": "",
-    "actor_type": "",
+    "sophistication": "strategic",
+    "actor_type": "nation-state",
     "sectors": [
-        ""
+        "healthcare",
+        "defense",
+        "aerospace",
+        "government (national)"
     ],
-    "primary_motivation": "",
+    "primary_motivation": "ideology",
     "secondary_motivations": [],
     "goals": [
-        ""
+        "obtain state secrets",
+        "steal intellectual property"
     ],
-    "attribution": "",
-    "first_seen": ""
+    "attribution": "China",
+    "first_seen": "2009-01-01 00:00:00"
 }

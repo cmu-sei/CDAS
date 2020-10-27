@@ -75,11 +75,6 @@
         "attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541"
     ],
     [
-        "intrusion-set--1f21da59-6a13-455b-afd0-d58d0a5a7d27",
-        "uses",
-        "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62"
-    ],
-    [
         "intrusion-set--a653431d-6a5e-4600-8ad3-609b5af57064",
         "uses",
         "attack-pattern--b97f1d35-4249-4486-a6b5-ee60ccf24fab"
@@ -123,11 +118,6 @@
         "malware--fb575479-14ef-41e9-bfab-0b7cf10bec73",
         "uses",
         "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
-    ],
-    [
-        "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
-        "uses",
-        "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2"
     ],
     [
         "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
@@ -193,11 +183,6 @@
         "malware--92b55426-109f-4d93-899f-1833ce91ff90",
         "uses",
         "attack-pattern--bc0f5e80-91c0-4e04-9fbb-e4e332c85dae"
-    ],
-    [
-        "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
-        "uses",
-        "tool--4664b683-f578-434f-919b-1c1aad2a1111"
     ],
     [
         "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
@@ -415,11 +400,6 @@
         "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60"
     ],
     [
-        "intrusion-set--1f21da59-6a13-455b-afd0-d58d0a5a7d27",
-        "uses",
-        "tool--da04ac30-27da-4959-a67d-450ce47d9470"
-    ],
-    [
         "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
         "uses",
         "tool--7fcbc4e8-1989-441f-9ac5-e7b6ff5806f1"
@@ -468,11 +448,6 @@
         "malware--92b55426-109f-4d93-899f-1833ce91ff90",
         "uses",
         "attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41"
-    ],
-    [
-        "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
-        "uses",
-        "tool--7fcbc4e8-1989-441f-9ac5-e7b6ff5806f1"
     ],
     [
         "intrusion-set--38fd6a28-3353-4f2b-bb2b-459fecd5c648",
@@ -570,11 +545,6 @@
         "attack-pattern--e3b6daca-e963-4a69-aee6-ed4fd653ad58"
     ],
     [
-        "intrusion-set--1f21da59-6a13-455b-afd0-d58d0a5a7d27",
-        "uses",
-        "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597"
-    ],
-    [
         "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "uses",
         "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d"
@@ -643,11 +613,6 @@
         "malware--e7a5229f-05eb-440e-b982-9a6d2b2b87c8",
         "uses",
         "attack-pattern--f3c544dc-673c-4ef3-accb-53229f1ae077"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--fb8d023d-45be-47e9-bc51-f56bcae6435b"
     ],
     [
         "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
@@ -840,11 +805,6 @@
         "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--5bfccc3f-2326-4112-86cc-c1ece9d8a2b5"
-    ],
-    [
         "intrusion-set--9e729a7e-0dd6-4097-95bf-db8d64911383",
         "uses",
         "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c"
@@ -978,11 +938,6 @@
         "malware--2eb9b131-d333-4a48-9eb4-d8dec46c19ee",
         "uses",
         "attack-pattern--3fc9b85a-2862-4363-a64d-d692e3ffbee0"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "malware--98e8a977-3416-43aa-87fa-33e287e9c14c"
     ],
     [
         "malware--e9595678-d269-469e-ae6b-75e49259de63",
@@ -1455,11 +1410,6 @@
         "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
     ],
     [
-        "intrusion-set--1f21da59-6a13-455b-afd0-d58d0a5a7d27",
-        "uses",
-        "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736"
-    ],
-    [
         "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
         "uses",
         "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c"
@@ -1583,11 +1533,6 @@
         "attack-pattern--f6dacc85-b37d-458e-b58d-74fc4bbf5755",
         "subtechnique-of",
         "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2"
     ],
     [
         "malware--b6b3dfc7-9a81-43ff-ac04-698bad48973a",
@@ -1920,11 +1865,6 @@
         "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9"
-    ],
-    [
         "malware--54cc1d4f-5c53-4f0e-9ef5-11b4998e82e4",
         "uses",
         "attack-pattern--837f9164-50af-4ac0-8219-379d8a74cefc"
@@ -2070,11 +2010,6 @@
         "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161"
     ],
     [
-        "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
-        "uses",
-        "attack-pattern--3f18edba-28f4-4bb9-82c3-8aa60dcac5f7"
-    ],
-    [
         "attack-pattern--4d2a5b3e-340d-4600-9123-309dd63c9bf8",
         "subtechnique-of",
         "attack-pattern--5b0ad6f8-6a16-4966-a4ef-d09ea6e2a9f5"
@@ -2098,11 +2033,6 @@
         "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e",
         "uses",
         "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
     ],
     [
         "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
@@ -2178,11 +2108,6 @@
         "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "uses",
         "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--840a987a-99bd-4a80-a5c9-0cb2baa6cade"
     ],
     [
         "malware--800bdfba-6d66-480f-9f45-15845c05cb5d",
@@ -3065,11 +2990,6 @@
         "malware--2eb9b131-d333-4a48-9eb4-d8dec46c19ee"
     ],
     [
-        "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-        "uses",
-        "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c"
-    ],
-    [
         "malware--d3afa961-a80c-4043-9509-282cdf69ab21",
         "uses",
         "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32"
@@ -3315,11 +3235,6 @@
         "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9"
-    ],
-    [
         "malware--9ea525fa-b0a9-4dde-84f2-bcea0137b3c1",
         "uses",
         "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0"
@@ -3398,11 +3313,6 @@
         "malware--069af411-9b24-4e85-b26c-623d035bbe84",
         "uses",
         "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e"
-    ],
-    [
-        "intrusion-set--1f21da59-6a13-455b-afd0-d58d0a5a7d27",
-        "uses",
-        "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579"
     ],
     [
         "attack-pattern--c726e0a2-a57a-4b7b-a973-d0f013246617",
@@ -3495,19 +3405,9 @@
         "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055"
-    ],
-    [
         "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "uses",
         "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--f1951e8a-500e-4a26-8803-76d95c4554b4"
     ],
     [
         "intrusion-set--d0b3393b-3bec-4ba3-bda9-199d30db47b6",
@@ -3698,11 +3598,6 @@
         "malware--495b6cdb-7b5a-4fbc-8d33-e7ef68806d08",
         "uses",
         "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
-    ],
-    [
-        "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
-        "uses",
-        "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9"
     ],
     [
         "malware--54895630-efd2-4608-9c24-319de972a9eb",
@@ -3935,19 +3830,9 @@
         "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--7b211ac6-c815-4189-93a9-ab415deca926"
-    ],
-    [
         "malware--86b92f6c-9c05-4c51-b361-4c7bb13e21a1",
         "uses",
         "attack-pattern--58a3e6aa-4453-4cc8-a51f-4befe80b31a8"
-    ],
-    [
-        "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
-        "uses",
-        "malware--039814a0-88de-46c5-a4fb-b293db21880a"
     ],
     [
         "intrusion-set--7ecc3b4f-5cdb-457e-b55a-df376b359446",
@@ -4150,11 +4035,6 @@
         "attack-pattern--cbb66055-0325-4111-aca0-40547b6ad5b0"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90"
-    ],
-    [
         "malware--a4f57468-fbd5-49e4-8476-52088220b92d",
         "uses",
         "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c"
@@ -4228,11 +4108,6 @@
         "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
         "uses",
         "tool--7fcbc4e8-1989-441f-9ac5-e7b6ff5806f1"
-    ],
-    [
-        "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-        "uses",
-        "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579"
     ],
     [
         "intrusion-set--76d59913-1d24-4992-a8ac-05a3eb093f71",
@@ -4550,11 +4425,6 @@
         "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
     ],
     [
-        "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
-        "uses",
-        "malware--e811ff6a-4cef-4856-a6ae-a7daf9ed39ae"
-    ],
-    [
         "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
         "uses",
         "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104"
@@ -4770,11 +4640,6 @@
         "attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541"
     ],
     [
-        "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
-        "uses",
-        "malware--b42378e0-f147-496f-992a-26a49705395b"
-    ],
-    [
         "malware--518bb5f1-91f4-4ff2-b09d-5a94e1ebe95f",
         "uses",
         "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
@@ -4843,11 +4708,6 @@
         "malware--edb24a93-1f7a-4bbf-a738-1397a14662c6",
         "uses",
         "attack-pattern--cbb66055-0325-4111-aca0-40547b6ad5b0"
-    ],
-    [
-        "intrusion-set--1f21da59-6a13-455b-afd0-d58d0a5a7d27",
-        "uses",
-        "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c"
     ],
     [
         "malware--c13d9621-aca7-436b-ab3d-3a95badb3d00",
@@ -5008,11 +4868,6 @@
         "malware--efece7e8-e40b-49c2-9f84-c55c5c93d05c",
         "uses",
         "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0"
-    ],
-    [
-        "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-        "uses",
-        "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db"
     ],
     [
         "malware--8dbadf80-468c-4a62-b817-4e4d8b606887",
@@ -5218,11 +5073,6 @@
         "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "uses",
         "attack-pattern--f7827069-0bf2-4764-af4f-23fae0d181b7"
-    ],
-    [
-        "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
-        "uses",
-        "malware--123bd7b3-675c-4b1a-8482-c55782b20e2b"
     ],
     [
         "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
@@ -5455,11 +5305,6 @@
         "attack-pattern--ec8fc7e2-b356-455c-8db5-2e37be158e7d"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "tool--03342581-f790-4f03-ba41-e82e67392e23"
-    ],
-    [
         "malware--c0c45d38-fe57-4cd4-b2b2-9ecd0ddd4ca9",
         "uses",
         "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32"
@@ -5603,11 +5448,6 @@
         "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
         "uses",
         "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db"
-    ],
-    [
-        "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-        "uses",
-        "attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d"
     ],
     [
         "malware--4b6ec280-7bbb-48ff-ae59-b189520ebe83",
@@ -5995,11 +5835,6 @@
         "attack-pattern--1ecb2399-e8ba-4f6b-8ba7-5c27d49405cf"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--f2857333-11d4-45bf-b064-2c28d8525be5"
-    ],
-    [
         "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
         "uses",
         "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c"
@@ -6098,11 +5933,6 @@
         "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "uses",
         "attack-pattern--b8902400-e6c5-4ba2-95aa-2d35b442b118"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "tool--30489451-5886-4c46-90c9-0dff9adc5252"
     ],
     [
         "malware--2dd34b01-6110-4aac-835d-b5e7b936b0be",
@@ -6340,11 +6170,6 @@
         "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9"
     ],
     [
-        "intrusion-set--1f21da59-6a13-455b-afd0-d58d0a5a7d27",
-        "uses",
-        "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670"
-    ],
-    [
         "malware--536be338-e2ef-4a6b-afb6-8d5568b91eb2",
         "uses",
         "attack-pattern--25659dd6-ea12-45c4-97e6-381e3e4b593e"
@@ -6505,11 +6330,6 @@
         "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4"
-    ],
-    [
         "malware--7343e208-7cab-45f2-a47b-41ba5e2f0fab",
         "uses",
         "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62"
@@ -6533,11 +6353,6 @@
         "malware--bfd2738c-8b43-43c3-bc9f-d523c8e88bf4",
         "uses",
         "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--92a78814-b191-47ca-909c-1ccfe3777414"
     ],
     [
         "malware--cfc75b0d-e579-40ae-ad07-a1ce00d49a6c",
@@ -6578,11 +6393,6 @@
         "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
         "uses",
         "attack-pattern--69b8fd78-40e8-4600-ae4d-662c9d7afdb3"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--b97f1d35-4249-4486-a6b5-ee60ccf24fab"
     ],
     [
         "malware--92b03a94-7147-4952-9d5a-b4d24da7487c",
@@ -6748,11 +6558,6 @@
         "malware--d6b3fcd0-1c86-4350-96f0-965ed02fcc51",
         "uses",
         "attack-pattern--60b508a1-6a5e-46b1-821a-9f7b78752abf"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--7bdca9d5-d500-4d7d-8c52-5fd47baf4c0c"
     ],
     [
         "malware--92ec0cbd-2c30-44a2-b270-73f4ec949841",
@@ -7350,11 +7155,6 @@
         "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--e624264c-033a-424d-9fd7-fc9c3bbdb03e"
-    ],
-    [
         "intrusion-set--7eda3dd8-b09b-4705-8090-c2ad9fb8c14d",
         "uses",
         "attack-pattern--58a3e6aa-4453-4cc8-a51f-4befe80b31a8"
@@ -7675,11 +7475,6 @@
         "attack-pattern--f2877f7f-9a4c-4251-879f-1224e3006bee"
     ],
     [
-        "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
-        "uses",
-        "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18"
-    ],
-    [
         "malware--5a3a31fe-5a8f-48e1-bff0-a753e5b1be70",
         "uses",
         "attack-pattern--47f2d673-ca62-47e9-929b-1b0be9657611"
@@ -7938,11 +7733,6 @@
         "malware--24b4ce59-eaac-4c8b-8634-9b093b7ccd92",
         "uses",
         "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--2c4d4e92-0ccf-4a97-b54c-86d662988a53"
     ],
     [
         "malware--a4f57468-fbd5-49e4-8476-52088220b92d",
@@ -8245,11 +8035,6 @@
         "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161"
     ],
     [
-        "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-        "uses",
-        "attack-pattern--e624264c-033a-424d-9fd7-fc9c3bbdb03e"
-    ],
-    [
         "intrusion-set--7a0d4c09-dfe7-4fa2-965a-1a0e42fedd70",
         "uses",
         "attack-pattern--837f9164-50af-4ac0-8219-379d8a74cefc"
@@ -8398,11 +8183,6 @@
         "malware--d20b397a-ea47-48a9-b503-2e2a3551e11d",
         "uses",
         "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18"
-    ],
-    [
-        "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-        "uses",
-        "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
     ],
     [
         "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
@@ -8923,11 +8703,6 @@
         "malware--f4c80d39-ce10-4f74-9b50-a7e3f5df1f2e",
         "uses",
         "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67"
-    ],
-    [
-        "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
-        "uses",
-        "malware--79499993-a8d6-45eb-b343-bf58dea5bdde"
     ],
     [
         "attack-pattern--0bda01d5-4c1d-4062-8ee2-6872334383c3",
@@ -9535,11 +9310,6 @@
         "attack-pattern--767dbf9e-df3f-45cb-8998-4903ab5f80c0"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--bf90d72c-c00b-45e3-b3aa-68560560d4c5"
-    ],
-    [
         "tool--5fc81b43-62b5-41b1-9113-c79ae5f030c4",
         "uses",
         "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
@@ -9743,11 +9513,6 @@
         "malware--a5528622-3a8a-4633-86ce-8cdaf8423858",
         "uses",
         "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c"
-    ],
-    [
-        "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
-        "uses",
-        "malware--2a6f4c7b-e690-4cc7-ab6b-1f821fb6b80b"
     ],
     [
         "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",
@@ -10015,11 +9780,6 @@
         "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--09b130a2-a77e-4af0-a361-f46f9aad1345"
-    ],
-    [
         "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "uses",
         "malware--73c4711b-407a-449d-b269-e3b1531fe7a9"
@@ -10275,11 +10035,6 @@
         "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161"
     ],
     [
-        "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
-        "uses",
-        "malware--b42378e0-f147-496f-992a-26a49705395b"
-    ],
-    [
         "malware--495b6cdb-7b5a-4fbc-8d33-e7ef68806d08",
         "uses",
         "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62"
@@ -10348,11 +10103,6 @@
         "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e",
         "uses",
         "attack-pattern--910906dd-8c0a-475a-9cc1-5e029e2fad58"
-    ],
-    [
-        "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-        "uses",
-        "attack-pattern--4061e78c-1284-44b4-9116-73e4ac3912f7"
     ],
     [
         "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
@@ -10860,11 +10610,6 @@
         "attack-pattern--1cfcb312-b8d7-47a4-b560-4b16cc677292"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63"
-    ],
-    [
         "malware--d906e6f7-434c-44c0-b51a-ed50af8f7945",
         "uses",
         "attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf"
@@ -10938,11 +10683,6 @@
         "malware--36ede314-7db4-4d09-b53d-81bbfbe5f6f8",
         "uses",
         "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4"
     ],
     [
         "malware--72f54d66-675d-4587-9bd3-4ed09f9522e4",
@@ -11173,11 +10913,6 @@
         "malware--65341f30-bec6-4b1d-8abf-1a5620446c29",
         "uses",
         "attack-pattern--4ab929c6-ee2d-4fb5-aab4-b14be2ed7179"
-    ],
-    [
-        "intrusion-set--1f21da59-6a13-455b-afd0-d58d0a5a7d27",
-        "uses",
-        "malware--b4d80f8b-d2b9-4448-8844-4bef777ed676"
     ],
     [
         "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e",
@@ -11595,11 +11330,6 @@
         "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--b21c3b2d-02e6-45b1-980b-e69051040839"
-    ],
-    [
         "malware--8901ac23-6b50-410c-b0dd-d8174a86f9b3",
         "uses",
         "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896"
@@ -11875,11 +11605,6 @@
         "attack-pattern--799ace7f-e227-4411-baa0-8868704f2a69"
     ],
     [
-        "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-        "uses",
-        "tool--0c8465c0-d0b4-4670-992e-4eee8d7ff952"
-    ],
-    [
         "malware--1492d0f8-7e14-4af3-9239-bc3fe10d3407",
         "uses",
         "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2"
@@ -12055,11 +11780,6 @@
         "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0"
-    ],
-    [
         "intrusion-set--df71bb3b-813c-45eb-a8bc-f2a419837411",
         "uses",
         "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580"
@@ -12128,11 +11848,6 @@
         "intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e",
         "uses",
         "attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41"
-    ],
-    [
-        "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
-        "uses",
-        "attack-pattern--a01bf75f-00b2-4568-a58f-565ff9bf202b"
     ],
     [
         "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",
@@ -12255,11 +11970,6 @@
         "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
     ],
     [
-        "intrusion-set--1f21da59-6a13-455b-afd0-d58d0a5a7d27",
-        "uses",
-        "tool--7cd0bc75-055b-4098-a00e-83dc8beaff14"
-    ],
-    [
         "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
         "uses",
         "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63"
@@ -12268,11 +11978,6 @@
         "malware--8ae43c46-57ef-47d5-a77a-eebb35628db2",
         "uses",
         "attack-pattern--b21c3b2d-02e6-45b1-980b-e69051040839"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d"
     ],
     [
         "malware--536be338-e2ef-4a6b-afb6-8d5568b91eb2",
@@ -12363,11 +12068,6 @@
         "malware--8e101fdd-9f7f-4916-bb04-6bd9e94c129c",
         "uses",
         "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--cbb66055-0325-4111-aca0-40547b6ad5b0"
     ],
     [
         "malware--6b62e336-176f-417b-856a-8552dd8c44e1",
@@ -12675,11 +12375,6 @@
         "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896"
-    ],
-    [
         "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "uses",
         "malware--c13d9621-aca7-436b-ab3d-3a95badb3d00"
@@ -12698,11 +12393,6 @@
         "malware--e6ef745b-077f-42e1-a37d-29eecff9c754",
         "uses",
         "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c"
     ],
     [
         "malware--4ab44516-ad75-4e43-a280-705dc0420e2f",
@@ -12930,19 +12620,9 @@
         "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "tool--aafea02e-ece5-4bb2-91a6-3bf8c7f38a39"
-    ],
-    [
         "malware--5c6ed2dc-37f4-40ea-b2e1-4c76140a388c",
         "uses",
         "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "tool--5a63f900-5e7e-4928-a746-dd4558e1df71"
     ],
     [
         "malware--cb444a16-3ea5-4a91-88c6-f329adcb8af3",
@@ -13450,11 +13130,6 @@
         "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88"
-    ],
-    [
         "malware--9ca488bd-9587-48ef-b923-1743523e63b2",
         "uses",
         "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
@@ -13533,11 +13208,6 @@
         "malware--94379dec-5c87-49db-b36e-66abc0b81344",
         "uses",
         "attack-pattern--a9d4b653-6915-42af-98b2-5758c4ceee56"
-    ],
-    [
-        "intrusion-set--025bdaa9-897d-4bad-afa6-013ba5734653",
-        "uses",
-        "malware--a8d3d497-2da9-4797-8e0b-ed176be08654"
     ],
     [
         "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
@@ -13635,11 +13305,6 @@
         "malware--fece06b7-d4b1-42cf-b81a-5323c917546e"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736"
-    ],
-    [
         "malware--5189f018-fea2-45d7-b0ed-23f9ee0a46f3",
         "uses",
         "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062"
@@ -13735,11 +13400,6 @@
         "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e"
-    ],
-    [
         "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "uses",
         "tool--26c87906-d750-42c5-946c-d4162c73fc7b"
@@ -13823,11 +13483,6 @@
         "malware--5967cc93-57c9-404a-8ffd-097edfa7bdfc",
         "uses",
         "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62"
-    ],
-    [
-        "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
-        "uses",
-        "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
     ],
     [
         "malware--eff1a885-6f90-42a1-901f-eef6e7a1905e",
@@ -13918,11 +13573,6 @@
         "malware--a5528622-3a8a-4633-86ce-8cdaf8423858",
         "uses",
         "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2"
-    ],
-    [
-        "intrusion-set--1f21da59-6a13-455b-afd0-d58d0a5a7d27",
-        "uses",
-        "attack-pattern--806a49c4-970d-43f9-9acc-ac0ee11e6662"
     ],
     [
         "malware--a4f57468-fbd5-49e4-8476-52088220b92d",
@@ -14410,11 +14060,6 @@
         "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5"
     ],
     [
-        "intrusion-set--0ea72cd5-ca30-46ba-bc04-378f701c658f",
-        "uses",
-        "attack-pattern--01327cde-66c4-4123-bf34-5f258d59457b"
-    ],
-    [
         "malware--92b03a94-7147-4952-9d5a-b4d24da7487c",
         "uses",
         "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea"
@@ -14870,11 +14515,6 @@
         "malware--454fe82d-6fd2-4ac6-91ab-28a33fe01369"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0"
-    ],
-    [
         "intrusion-set--7331c66a-5601-4d3f-acf6-ad9e3035eb40",
         "uses",
         "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
@@ -14928,11 +14568,6 @@
         "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
         "uses",
         "malware--1f6e3702-7ca1-4582-b2e7-4591297d05a8"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541"
     ],
     [
         "malware--fb575479-14ef-41e9-bfab-0b7cf10bec73",
@@ -15210,11 +14845,6 @@
         "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6"
-    ],
-    [
         "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
         "uses",
         "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67"
@@ -15365,11 +14995,6 @@
         "attack-pattern--bf90d72c-c00b-45e3-b3aa-68560560d4c5"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62"
-    ],
-    [
         "malware--9b325b06-35a1-457d-be46-a4ecc0b7ff0c",
         "uses",
         "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475"
@@ -15425,11 +15050,6 @@
         "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--53ac20cd-aca3-406e-9aa0-9fc7fdc60a5a"
-    ],
-    [
         "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "uses",
         "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2"
@@ -15453,11 +15073,6 @@
         "malware--9752aef4-a1f3-4328-929f-b64eb0536090",
         "uses",
         "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5"
-    ],
-    [
-        "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
-        "uses",
-        "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63"
     ],
     [
         "intrusion-set--c47f937f-1022-4f42-8525-e7a4779a14cb",
@@ -15955,11 +15570,6 @@
         "malware--bfd2738c-8b43-43c3-bc9f-d523c8e88bf4"
     ],
     [
-        "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-        "uses",
-        "malware--54e8672d-5338-4ad1-954a-a7c986bee530"
-    ],
-    [
         "malware--a4f57468-fbd5-49e4-8476-52088220b92d",
         "uses",
         "attack-pattern--04fd5427-79c7-44ea-ae13-11b24778ff1c"
@@ -16188,11 +15798,6 @@
         "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
         "uses",
         "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--25659dd6-ea12-45c4-97e6-381e3e4b593e"
     ],
     [
         "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
@@ -16470,11 +16075,6 @@
         "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "tool--294e2560-bd48-44b2-9da2-833b5588ad11"
-    ],
-    [
         "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "uses",
         "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279"
@@ -16580,11 +16180,6 @@
         "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736"
     ],
     [
-        "intrusion-set--0ea72cd5-ca30-46ba-bc04-378f701c658f",
-        "uses",
-        "attack-pattern--2db31dcd-54da-405d-acef-b9129b816ed6"
-    ],
-    [
         "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "uses",
         "attack-pattern--bf176076-b789-408e-8cba-7275e81c0ada"
@@ -16618,11 +16213,6 @@
         "malware--0b32ec39-ba61-4864-9ebe-b4b0b73caf9a",
         "uses",
         "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--5d0d3609-d06d-49e1-b9c9-b544e0c618cb"
     ],
     [
         "intrusion-set--5ce5392a-3a6c-4e07-9df3-9b6a9159ac45",
@@ -16885,11 +16475,6 @@
         "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
     ],
     [
-        "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
-        "uses",
-        "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475"
-    ],
-    [
         "intrusion-set--813636db-3939-4a45-bea9-6113e970c029",
         "uses",
         "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db"
@@ -16928,11 +16513,6 @@
         "tool--aafea02e-ece5-4bb2-91a6-3bf8c7f38a39",
         "uses",
         "attack-pattern--c3d4bdd9-2cfe-4a80-9d0c-07a29ecdce8f"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104"
     ],
     [
         "malware--00c3bfcb-99bd-4767-8c03-b08f585f5c8a",
@@ -17500,11 +17080,6 @@
         "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896"
     ],
     [
-        "intrusion-set--1f21da59-6a13-455b-afd0-d58d0a5a7d27",
-        "uses",
-        "attack-pattern--b200542e-e877-4395-875b-cf1a44537ca4"
-    ],
-    [
         "intrusion-set--44102191-3a31-45f8-acbe-34bdb441d5ad",
         "uses",
         "attack-pattern--47f2d673-ca62-47e9-929b-1b0be9657611"
@@ -17638,11 +17213,6 @@
         "malware--552462b9-ae79-49dd-855c-5973014e157f",
         "uses",
         "attack-pattern--f2857333-11d4-45bf-b064-2c28d8525be5"
-    ],
-    [
-        "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
-        "uses",
-        "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63"
     ],
     [
         "attack-pattern--09cd431f-eaf4-4d2a-acaf-2a7acfe7ed58",
@@ -17803,11 +17373,6 @@
         "malware--a2282af0-f9dd-4373-9b92-eaf9e11e0c71",
         "uses",
         "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--b18eae87-b469-4e14-b454-b171b416bc18"
     ],
     [
         "malware--cb741463-f0fe-42e0-8d45-bc7e8335f5ae",
@@ -17998,11 +17563,6 @@
         "malware--bb3c1098-d654-4620-bf40-694386d28921",
         "uses",
         "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4"
-    ],
-    [
-        "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-        "uses",
-        "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81"
     ],
     [
         "malware--06d735e7-1db1-4dbe-ab4b-acbe419f902b",
@@ -18345,11 +17905,6 @@
         "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d"
-    ],
-    [
         "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "uses",
         "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9"
@@ -18518,11 +18073,6 @@
         "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "uses",
         "malware--82cb34ba-02b5-432b-b2d2-07f55cbf674d"
-    ],
-    [
-        "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
-        "uses",
-        "malware--e9e9bfe2-76f4-4870-a2a1-b7af89808613"
     ],
     [
         "malware--495b6cdb-7b5a-4fbc-8d33-e7ef68806d08",
@@ -19155,11 +18705,6 @@
         "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104"
     ],
     [
-        "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
-        "uses",
-        "malware--73a4793a-ce55-4159-b2a6-208ef29b326f"
-    ],
-    [
         "malware--d5268dfb-ae2b-4e0e-ac07-02a460613d8a",
         "uses",
         "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62"
@@ -19435,16 +18980,6 @@
         "attack-pattern--4ab929c6-ee2d-4fb5-aab4-b14be2ed7179"
     ],
     [
-        "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
-        "uses",
-        "malware--c251e4a5-9a2e-4166-8e42-442af75c3b9a"
-    ],
-    [
-        "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
-        "uses",
-        "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7"
-    ],
-    [
         "intrusion-set--9e729a7e-0dd6-4097-95bf-db8d64911383",
         "uses",
         "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
@@ -19578,11 +19113,6 @@
         "malware--66b1dcde-17a0-4c7b-95fa-b08d430c2131",
         "uses",
         "attack-pattern--f24faf46-3b26-4dbb-98f2-63460498e433"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60"
     ],
     [
         "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
@@ -20000,11 +19530,6 @@
         "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597"
-    ],
-    [
         "malware--039814a0-88de-46c5-a4fb-b293db21880a",
         "uses",
         "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d"
@@ -20355,11 +19880,6 @@
         "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "malware--7dbb67c7-270a-40ad-836e-c45f8948aa5a"
-    ],
-    [
         "malware--e9e9bfe2-76f4-4870-a2a1-b7af89808613",
         "uses",
         "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62"
@@ -20413,11 +19933,6 @@
         "malware--ff6840c9-4c87-4d07-bbb6-9f50aa33d498",
         "uses",
         "attack-pattern--9db0cf3a-a3c9-4012-8268-123b9db6fd82"
-    ],
-    [
-        "intrusion-set--1f21da59-6a13-455b-afd0-d58d0a5a7d27",
-        "uses",
-        "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e"
     ],
     [
         "malware--cc5497f7-a9e8-436f-94da-b2b4a9b9ad3c",
@@ -20550,11 +20065,6 @@
         "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--09cd431f-eaf4-4d2a-acaf-2a7acfe7ed58"
-    ],
-    [
         "malware--5189f018-fea2-45d7-b0ed-23f9ee0a46f3",
         "uses",
         "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
@@ -20568,11 +20078,6 @@
         "malware--04227b24-7817-4de1-9050-b7b1b57f5866",
         "uses",
         "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
-    ],
-    [
-        "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
-        "uses",
-        "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062"
     ],
     [
         "malware--37cc7eb6-12e3-467b-82e8-f20f2cc73c69",
@@ -20818,11 +20323,6 @@
         "tool--c8655260-9f4b-44e3-85e1-6538a5f6e4f4",
         "uses",
         "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32"
     ],
     [
         "malware--e7a5229f-05eb-440e-b982-9a6d2b2b87c8",
@@ -21123,11 +20623,6 @@
         "malware--bdb27a1d-1844-42f1-a0c0-826027ae0326",
         "uses",
         "attack-pattern--04fd5427-79c7-44ea-ae13-11b24778ff1c"
-    ],
-    [
-        "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-        "uses",
-        "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7"
     ],
     [
         "malware--c8b6cc43-ce61-42ae-87f3-a5f10526f952",
@@ -21450,11 +20945,6 @@
         "attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d"
-    ],
-    [
         "tool--cb69b20d-56d0-41ab-8440-4a4b251614d4",
         "uses",
         "attack-pattern--7b211ac6-c815-4189-93a9-ab415deca926"
@@ -21625,11 +21115,6 @@
         "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18"
     ],
     [
-        "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-        "uses",
-        "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e"
-    ],
-    [
         "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
         "uses",
         "malware--0e18b800-906c-4e44-a143-b11c72b3448b"
@@ -21728,11 +21213,6 @@
         "malware--44c75271-0e4d-496f-ae0a-a6d883a42a65",
         "uses",
         "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104"
-    ],
-    [
-        "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
-        "uses",
-        "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e"
     ],
     [
         "malware--8901ac23-6b50-410c-b0dd-d8174a86f9b3",
@@ -21928,11 +21408,6 @@
         "malware--dfa03c7d-79ed-4ce2-b9d1-ddc9dbf56ad2",
         "uses",
         "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62"
-    ],
-    [
-        "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
-        "uses",
-        "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
     ],
     [
         "tool--03342581-f790-4f03-ba41-e82e67392e23",
@@ -22148,11 +21623,6 @@
         "malware--12a7450d-b03e-4990-a5b8-b405ab9c803b",
         "uses",
         "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--54b4c251-1f0e-4eba-ba6b-dbc7a6f6f06b"
     ],
     [
         "intrusion-set--38fd6a28-3353-4f2b-bb2b-459fecd5c648",
@@ -22855,11 +22325,6 @@
         "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
     ],
     [
-        "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
-        "uses",
-        "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e"
-    ],
-    [
         "malware--4b6ec280-7bbb-48ff-ae59-b189520ebe83",
         "uses",
         "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18"
@@ -23008,11 +22473,6 @@
         "malware--9dbdadb6-fdbf-490f-a35f-38762d06a0d2",
         "uses",
         "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "malware--9ca488bd-9587-48ef-b923-1743523e63b2"
     ],
     [
         "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
@@ -24060,11 +23520,6 @@
         "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f"
-    ],
-    [
         "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
         "uses",
         "attack-pattern--f7827069-0bf2-4764-af4f-23fae0d181b7"
@@ -24118,11 +23573,6 @@
         "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "uses",
         "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
-    ],
-    [
-        "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
-        "uses",
-        "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6"
     ],
     [
         "malware--ade37ada-14af-4b44-b36c-210eec255d53",
@@ -24258,11 +23708,6 @@
         "intrusion-set--fbd29c89-18ba-4c2d-b792-51c0adee049f",
         "uses",
         "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--e64c62cf-9cd7-4a14-94ec-cdaac43ab44b"
     ],
     [
         "malware--ade37ada-14af-4b44-b36c-210eec255d53",
@@ -24605,11 +24050,6 @@
         "attack-pattern--b77cf5f3-6060-475d-bd60-40ccbf28fdc2"
     ],
     [
-        "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
-        "uses",
-        "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
-    ],
-    [
         "malware--e494ad79-37ee-4cd0-866b-299c521d8b94",
         "uses",
         "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736"
@@ -24623,11 +24063,6 @@
         "malware--8c553311-0baa-4146-997a-f79acef3d831",
         "uses",
         "attack-pattern--f4599aa0-4f85-4a32-80ea-fc39dc965945"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--fdc47f44-dd32-4b99-af5f-209f556f63c2"
     ],
     [
         "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
@@ -25865,11 +25300,6 @@
         "attack-pattern--3b744087-9945-4a6f-91e8-9dbceda417a4"
     ],
     [
-        "intrusion-set--1f21da59-6a13-455b-afd0-d58d0a5a7d27",
-        "uses",
-        "attack-pattern--cbb66055-0325-4111-aca0-40547b6ad5b0"
-    ],
-    [
         "malware--ccd61dfc-b03f-4689-8c18-7c97eab08472",
         "uses",
         "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4"
@@ -25943,11 +25373,6 @@
         "malware--7bec698a-7e20-4fd3-bb6a-12787770fb1a",
         "uses",
         "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161"
-    ],
-    [
-        "intrusion-set--1f21da59-6a13-455b-afd0-d58d0a5a7d27",
-        "uses",
-        "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4"
     ],
     [
         "attack-pattern--b2d03cea-aec1-45ca-9744-9ee583c1e1cc",
@@ -26250,11 +25675,6 @@
         "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4"
     ],
     [
-        "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
-        "uses",
-        "attack-pattern--322bad5a-1c49-4d23-ab79-76d641794afa"
-    ],
-    [
         "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "uses",
         "malware--b865dded-0553-4962-a44b-6fe7863effed"
@@ -26455,11 +25875,6 @@
         "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67"
-    ],
-    [
         "malware--4d56e6e9-1a6d-46e3-896c-dfdf3cc96e62",
         "uses",
         "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0"
@@ -26581,11 +25996,6 @@
     ],
     [
         "malware--dcac85c1-6485-4790-84f6-de5e6f6b91dd",
-        "uses",
-        "attack-pattern--47f2d673-ca62-47e9-929b-1b0be9657611"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
         "uses",
         "attack-pattern--47f2d673-ca62-47e9-929b-1b0be9657611"
     ],
@@ -26905,11 +26315,6 @@
         "tool--cde2d700-9ed1-46cf-9bce-07364fe8b24f"
     ],
     [
-        "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
-        "uses",
-        "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597"
-    ],
-    [
         "malware--e1161124-f22e-487f-9d5f-ed8efc8dcd61",
         "uses",
         "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104"
@@ -26938,11 +26343,6 @@
         "malware--463f68f1-5cde-4dc2-a831-68b73488f8f4",
         "uses",
         "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5"
-    ],
-    [
-        "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-        "uses",
-        "tool--b07c2c47-fefb-4d7c-a69e-6a3296171f54"
     ],
     [
         "malware--3161d76a-e2b2-4b97-9906-24909b735386",
@@ -27108,11 +26508,6 @@
         "malware--1492d0f8-7e14-4af3-9239-bc3fe10d3407",
         "uses",
         "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c"
-    ],
-    [
-        "intrusion-set--1f21da59-6a13-455b-afd0-d58d0a5a7d27",
-        "uses",
-        "malware--d906e6f7-434c-44c0-b51a-ed50af8f7945"
     ],
     [
         "attack-pattern--bc0f5e80-91c0-4e04-9fbb-e4e332c85dae",
@@ -27365,11 +26760,6 @@
         "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c"
     ],
     [
-        "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-        "uses",
-        "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062"
-    ],
-    [
         "malware--c13d9621-aca7-436b-ab3d-3a95badb3d00",
         "uses",
         "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
@@ -27463,11 +26853,6 @@
         "malware--1f6e3702-7ca1-4582-b2e7-4591297d05a8",
         "uses",
         "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5"
     ],
     [
         "malware--a8a778f5-0035-4870-bb25-53dc05029586",
@@ -27723,11 +27108,6 @@
         "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
         "uses",
         "attack-pattern--7b211ac6-c815-4189-93a9-ab415deca926"
-    ],
-    [
-        "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-        "uses",
-        "malware--56f46b17-8cfa-46c0-b501-dd52fef394e2"
     ],
     [
         "malware--0a607c53-df52-45da-a75d-0e53df4dad5f",
@@ -28070,11 +27450,6 @@
         "attack-pattern--04fd5427-79c7-44ea-ae13-11b24778ff1c"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7"
-    ],
-    [
         "malware--211cfe9f-2676-4e1c-a5f5-2c8091da2a68",
         "uses",
         "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104"
@@ -28295,11 +27670,6 @@
         "attack-pattern--edf91964-b26e-4b4a-9600-ccacd7d7df24"
     ],
     [
-        "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-        "uses",
-        "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161"
-    ],
-    [
         "intrusion-set--38863958-a201-4ce1-9dbe-539b0b6804e0",
         "uses",
         "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e"
@@ -28363,11 +27733,6 @@
         "intrusion-set--6fe8a2a1-a1b0-4af8-953d-4babd329f8f8",
         "uses",
         "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--bd5b58a4-a52d-4a29-bc0d-3f1d3968eb6b"
     ],
     [
         "intrusion-set--8f5e8dc7-739d-4f5e-a8a1-a66e004d7063",
@@ -28580,11 +27945,6 @@
         "attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41"
     ],
     [
-        "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-        "uses",
-        "attack-pattern--1644e709-12d2-41e5-a60f-3470991f5011"
-    ],
-    [
         "intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e",
         "uses",
         "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c"
@@ -28658,11 +28018,6 @@
         "tool--cb69b20d-56d0-41ab-8440-4a4b251614d4",
         "uses",
         "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18"
-    ],
-    [
-        "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
-        "uses",
-        "malware--f4d8a2d6-c684-453a-8a14-cf4a94f755c5"
     ],
     [
         "intrusion-set--f9c06633-dcff-48a1-8588-759e7cec5694",
@@ -29035,11 +28390,6 @@
         "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688"
     ],
     [
-        "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
-        "uses",
-        "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62"
-    ],
-    [
         "malware--e6ef745b-077f-42e1-a37d-29eecff9c754",
         "uses",
         "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32"
@@ -29048,11 +28398,6 @@
         "malware--c2417bab-3189-4d4d-9d60-96de2cdaf0ab",
         "uses",
         "attack-pattern--b6075259-dba3-44e9-87c7-e954f37ec0d5"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161"
     ],
     [
         "intrusion-set--b74f909f-8e52-4b69-b770-162bf59a1b4e",
@@ -29345,11 +28690,6 @@
         "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475"
-    ],
-    [
         "malware--da5880b4-f7da-4869-85f2-e0aba84b8565",
         "uses",
         "attack-pattern--dfebc3b7-d19d-450b-81c7-6dafe4184c04"
@@ -29443,11 +28783,6 @@
         "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
         "uses",
         "malware--11194d8b-fdce-45d2-8047-df15bb8f16bd"
-    ],
-    [
-        "intrusion-set--1f21da59-6a13-455b-afd0-d58d0a5a7d27",
-        "uses",
-        "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
     ],
     [
         "malware--8f423bd7-6ca7-4303-9e85-008c7ad5fdaa",
@@ -29663,11 +28998,6 @@
         "malware--754effde-613c-4244-a83e-fb659b2a4d06",
         "uses",
         "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0"
-    ],
-    [
-        "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
-        "uses",
-        "tool--294e2560-bd48-44b2-9da2-833b5588ad11"
     ],
     [
         "malware--63c2a130-8a5b-452f-ad96-07cf0af12ffe",
@@ -30100,11 +29430,6 @@
         "attack-pattern--69b8fd78-40e8-4600-ae4d-662c9d7afdb3"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
-    ],
-    [
         "malware--32066e94-3112-48ca-b9eb-ba2b59d2f023",
         "uses",
         "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279"
@@ -30148,11 +29473,6 @@
         "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
         "subtechnique-of",
         "attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "malware--f25aab1a-0cef-4910-a85d-bb38b32ea41a"
     ],
     [
         "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
@@ -30715,11 +30035,6 @@
         "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
-    ],
-    [
         "malware--32066e94-3112-48ca-b9eb-ba2b59d2f023",
         "uses",
         "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062"
@@ -30838,11 +30153,6 @@
         "malware--454fe82d-6fd2-4ac6-91ab-28a33fe01369",
         "uses",
         "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18"
     ],
     [
         "malware--67e6d66b-1b82-4699-b47a-e2efb6268d14",
@@ -31003,11 +30313,6 @@
         "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
         "uses",
         "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22"
     ],
     [
         "malware--69d6f4a9-fcf0-4f51-bca7-597c51ad0bb8",
@@ -31245,11 +30550,6 @@
         "attack-pattern--53ac20cd-aca3-406e-9aa0-9fc7fdc60a5a"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735"
-    ],
-    [
         "intrusion-set--c5947e1c-1cbc-434c-94b8-27c7e3be0fff",
         "uses",
         "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580"
@@ -31280,11 +30580,6 @@
         "attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41"
     ],
     [
-        "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-        "uses",
-        "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9"
-    ],
-    [
         "malware--d9f7383c-95ec-4080-bbce-121c9384457b",
         "uses",
         "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580"
@@ -31303,11 +30598,6 @@
         "tool--7cd0bc75-055b-4098-a00e-83dc8beaff14",
         "uses",
         "attack-pattern--29be378d-262d-4e99-b00d-852d573628e6"
-    ],
-    [
-        "intrusion-set--1f21da59-6a13-455b-afd0-d58d0a5a7d27",
-        "uses",
-        "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279"
     ],
     [
         "malware--ccd61dfc-b03f-4689-8c18-7c97eab08472",
@@ -31333,11 +30623,6 @@
         "intrusion-set--7ecc3b4f-5cdb-457e-b55a-df376b359446",
         "uses",
         "attack-pattern--25659dd6-ea12-45c4-97e6-381e3e4b593e"
-    ],
-    [
-        "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
-        "uses",
-        "tool--03342581-f790-4f03-ba41-e82e67392e23"
     ],
     [
         "malware--76abb3ef-dafd-4762-97cb-a35379429db4",
@@ -31565,11 +30850,6 @@
         "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c"
     ],
     [
-        "intrusion-set--1f21da59-6a13-455b-afd0-d58d0a5a7d27",
-        "uses",
-        "attack-pattern--4ab929c6-ee2d-4fb5-aab4-b14be2ed7179"
-    ],
-    [
         "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
         "uses",
         "attack-pattern--92a78814-b191-47ca-909c-1ccfe3777414"
@@ -31753,11 +31033,6 @@
         "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "uses",
         "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055"
-    ],
-    [
-        "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
-        "uses",
-        "malware--48523614-309e-43bf-a2b8-705c2b45d7b2"
     ],
     [
         "attack-pattern--8a2f40cf-8325-47f9-96e4-b1ca4c7389bd",
@@ -32425,24 +31700,9 @@
         "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "malware--b00f90b6-c75c-4bfd-b813-ca9e6c9ebf29"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "malware--eac3d77f-2b7b-4599-ba74-948dc16633ad"
-    ],
-    [
         "malware--dfb5fa9b-3051-4b97-8035-08f80aef945b",
         "uses",
         "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--341e222a-a6e3-4f6f-b69c-831d792b1580"
     ],
     [
         "malware--b42378e0-f147-496f-992a-26a49705395b",
@@ -32715,11 +31975,6 @@
         "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384"
     ],
     [
-        "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
-        "uses",
-        "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597"
-    ],
-    [
         "malware--5e814485-012d-423d-b769-026bfed0f451",
         "uses",
         "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d"
@@ -32803,11 +32058,6 @@
         "intrusion-set--7eda3dd8-b09b-4705-8090-c2ad9fb8c14d",
         "uses",
         "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--6495ae23-3ab4-43c5-a94f-5638a2c31fd2"
     ],
     [
         "malware--fc774af4-533b-4724-96d2-ac1026316794",
@@ -33290,11 +32540,6 @@
         "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4"
     ],
     [
-        "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-        "uses",
-        "attack-pattern--359b00ad-9425-420b-bba5-6de8d600cbc0"
-    ],
-    [
         "malware--cb741463-f0fe-42e0-8d45-bc7e8335f5ae",
         "uses",
         "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4"
@@ -33358,11 +32603,6 @@
         "malware--0efefea5-78da-4022-92bc-d726139e8883",
         "uses",
         "attack-pattern--692074ae-bb62-4a5e-a735-02cb6bde458c"
-    ],
-    [
-        "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
-        "uses",
-        "attack-pattern--25659dd6-ea12-45c4-97e6-381e3e4b593e"
     ],
     [
         "malware--432555de-63bf-4f2a-a3fa-f720a4561078",
@@ -33525,11 +32765,6 @@
         "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "malware--f6ae7a52-f3b6-4525-9daf-640c083f006e"
-    ],
-    [
         "intrusion-set--9538b1a4-4120-4e2d-bf59-3b11fcab05a4",
         "uses",
         "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736"
@@ -33608,11 +32843,6 @@
         "intrusion-set--44102191-3a31-45f8-acbe-34bdb441d5ad",
         "uses",
         "attack-pattern--2acf44aa-542f-4366-b4eb-55ef5747759c"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--ec8fc7e2-b356-455c-8db5-2e37be158e7d"
     ],
     [
         "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
@@ -33985,11 +33215,6 @@
         "tool--03342581-f790-4f03-ba41-e82e67392e23"
     ],
     [
-        "intrusion-set--1f21da59-6a13-455b-afd0-d58d0a5a7d27",
-        "uses",
-        "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67"
-    ],
-    [
         "malware--c13d9621-aca7-436b-ab3d-3a95badb3d00",
         "uses",
         "attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082"
@@ -34040,11 +33265,6 @@
         "malware--a5528622-3a8a-4633-86ce-8cdaf8423858"
     ],
     [
-        "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
-        "uses",
-        "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0"
-    ],
-    [
         "tool--5fc81b43-62b5-41b1-9113-c79ae5f030c4",
         "uses",
         "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
@@ -34068,11 +33288,6 @@
         "malware--e7a5229f-05eb-440e-b982-9a6d2b2b87c8",
         "uses",
         "attack-pattern--6faf650d-bf31-4eb4-802d-1000cf38efaf"
-    ],
-    [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a"
     ],
     [
         "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
@@ -34255,11 +33470,6 @@
         "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
     ],
     [
-        "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
-        "uses",
-        "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279"
-    ],
-    [
         "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "uses",
         "tool--4664b683-f578-434f-919b-1c1aad2a1111"
@@ -34278,11 +33488,6 @@
         "malware--c19cfc89-5ac6-4d2d-a236-70d2b32e007c",
         "uses",
         "attack-pattern--4e6620ac-c30c-4f6d-918e-fa20cae7c1ce"
-    ],
-    [
-        "intrusion-set--049cef3b-22d5-4be6-b50c-9839c7a34fdd",
-        "uses",
-        "malware--c19cfc89-5ac6-4d2d-a236-70d2b32e007c"
     ],
     [
         "malware--363bc05d-13cb-4e98-a5b7-e250f2bbdc2b",
@@ -35088,11 +34293,6 @@
         "malware--6a7aaab1-3e0a-48bb-ba66-bbf7665c0a65",
         "uses",
         "attack-pattern--198ce408-1470-45ee-b47f-7056050d4fc2"
-    ],
-    [
-        "intrusion-set--049cef3b-22d5-4be6-b50c-9839c7a34fdd",
-        "uses",
-        "attack-pattern--53263a67-075e-48fa-974b-91c5b5445db7"
     ],
     [
         "malware--33d9d91d-aad9-49d5-a516-220ce101ac8a",
@@ -35938,11 +35138,6 @@
         "malware--c19cfc89-5ac6-4d2d-a236-70d2b32e007c",
         "uses",
         "attack-pattern--e8b4e1ec-8e3b-484c-9038-4459b1ed8060"
-    ],
-    [
-        "intrusion-set--049cef3b-22d5-4be6-b50c-9839c7a34fdd",
-        "uses",
-        "attack-pattern--a93ccb8f-3996-42e2-b7c7-bb599d4e205f"
     ],
     [
         "tool--1622fd3d-fcfc-4d02-ac49-f2d786f79b81",
@@ -36845,11 +36040,6 @@
         "attack-pattern--a757670d-d600-48d9-8ae9-601d42c184a5"
     ],
     [
-        "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-        "uses",
-        "attack-pattern--9755ecdc-deb0-40e6-af49-713cb0f8ed92"
-    ],
-    [
         "attack-pattern--03f4a766-7a21-4b5e-9ccf-e0cf422ab983",
         "related-to",
         "attack-pattern--e5164428-03ca-4336-a9a7-4d9ea1417e59"
@@ -36878,16 +36068,6 @@
         "attack-pattern--286cc500-4291-45c2-99a1-e760db176402",
         "related-to",
         "attack-pattern--795c1a92-3a26-453e-b99a-6a566aa94dc6"
-    ],
-    [
-        "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-        "uses",
-        "attack-pattern--488da8ed-2887-4ef6-a39a-5b69bc6682c6"
-    ],
-    [
-        "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
-        "uses",
-        "attack-pattern--286cc500-4291-45c2-99a1-e760db176402"
     ],
     [
         "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",

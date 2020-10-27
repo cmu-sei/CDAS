@@ -6,8 +6,8 @@
         "Dragonfly",
         "Energetic Bear"
     ],
-    "sophistication": "",
-    "actor_type": "",
+    "sophistication": "strategic",
+    "actor_type": "nation-state",
     "sectors": [
         "energy",
         "manufacturing",
@@ -15,11 +15,13 @@
         "education",
         "construction"
     ],
-    "primary_motivation": "",
+    "primary_motivation": "ideology",
     "secondary_motivations": [],
     "goals": [
-        ""
+        "manipulate other nation's economies",
+        "manipulate geopolitical siutations",
+        "display military prowess"
     ],
     "attribution": "Russia",
-    "first_seen": ""
+    "first_seen": "2011-01-01 00:00:00"
 }

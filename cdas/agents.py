@@ -64,11 +64,16 @@ class ThreatActor():
         **kwargs: Used to instantiate an actor
     
     Attributes:
-        id (str, required): unique ID starting with "intrusion-set--"
-        name (str, required): Primary name of the APT
+        _file_specification (dict): requirements for a threat actor input file
+        id (str): unique ID starting with "intrusion-set--"
+        name (str): Primary name of the APT
     """
 
-    _file_specification = {"ext":"json","prefix":"intrusion-set--"}
+    _file_specification = {
+        "ext": "json",
+        "prefix": "intrusion-set--",
+        "req_attrs": ['id', 'name']}
+
     def __init__(self, stix=None, actor_name_1=None, actor_name_2=None, 
             countries_fs=None, threat_actor_fs=None, **kwargs):
 
@@ -130,37 +135,15 @@ class ThreatActor():
                 np.random.choice(stix['goals'], np.random.randint(2, 4), False))
 
             # Find countries most likely to host threat actors
-            have_actors = [ta[2] for ta in actors]
-            countries = countries_fs.query(
-                "SELECT name,terrorism,international_disputes,percent_GDP_on_military")
-            if self.actor_type == "terrorist":
-                attr_countries = [
-                    country[0] for country in countries
-                    if country[1] is not None and
-                    country[0] not in have_actors]
-            elif self.actor_type == "nation-state":
-                attr_countries = [
-                    (country[0], country[3])
-                    for country in countries
-                    if country[2] is not None and
-                    country[0] not in have_actors]
-                attr_countries.sort(key=lambda x: x[1])
-                attr_countries = [country[0] for country in attr_countries]
-            else:
-                attr_countries = [
-                    country[0] for country in countries
-                    if country[0] not in have_actors]
-            if len(attr_countries) == 0:
-                attr_countries = [
-                    country[0] for country in countries
-                    if country[0] not in have_actors]
-                if len(attr_countries) == 0:
-                    # all of the countries already have at least one actor
-                    attr_countries = [country[0] for country in countries]
+            countries = countries_fs.query("SELECT name")
             # Set attribution
-            self.attribution = attr_countries.pop()
+            self.attribution = np.random.choice([c[0] for c in countries])
 
     def _serialize(self):
+        """
+        Return the Threat Actor attributes in a dictionary format with
+        serializable values
+        """
         serialized = {}
         for key, value in self.__dict__.items():
             if isinstance(value, date):
@@ -171,6 +154,19 @@ class ThreatActor():
         return serialized
 
     def _save(self, relationships, tools_fs, malware_fs, events_fs, ttp_fs):
+        """
+        Fetches information about APT relationships to include in file output
+
+        Args:
+            relationships ([type]): for looking up relationships to APT
+            tools_fs (FileStore): for looking up tool names
+            malware_fs (FileStore): for looking up malware names
+            events_fs (FileStore): for looking up event numbers
+            ttp_fs (FileStore): for looking up TTP descriptions
+
+        Returns:
+            ThreatActor object: with attributes for output
+        """
 
         # We don't want to output all attributes of self exactly as is, so we
         # will copy self to another variable, apt_to_save, and manipulate that

@@ -7,16 +7,19 @@
         "Seedworm",
         "TEMP.Zagros"
     ],
-    "sophistication": "",
-    "actor_type": "",
+    "sophistication": "expert",
+    "actor_type": "nation-state",
     "sectors": [
-        ""
+        "government (national)",
+        "telecommunications",
+        "energy",
+        "technology"
     ],
-    "primary_motivation": "",
+    "primary_motivation": "ideology",
     "secondary_motivations": [],
     "goals": [
-        ""
+        "steal intellectual property"
     ],
-    "attribution": "",
-    "first_seen": ""
+    "attribution": "Iran",
+    "first_seen": "2017-11-01 00:00:00"
 }

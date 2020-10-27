@@ -66,7 +66,10 @@ class Country:
 
     __instances = set()
     countryCount = -1  # track the number of countries created starting at 0
-    _file_specification = {"ext": "json", "prefix": "location--"}
+    _file_specification = {
+        "ext": "json",
+        "prefix": "location--",
+        "req_attrs": ["id", "name"]}
 
     def __init__(self, choices=None, map_matrix=None, **kwargs):
 
@@ -547,7 +550,7 @@ class Country:
 
     def _serialize(self):
         """
-        Return the Country attributes in a dictionary form with
+        Return the Country attributes in a dictionary format with
         serializable values
         """
 
@@ -892,7 +895,10 @@ class Tool():
         _file_specification (dict): requirements for a tool input file
     """
 
-    _file_specification = {"ext": "json", "prefix": "tool--"}
+    _file_specification = {
+        "ext": "json",
+        "prefix": "tool--",
+        "req_attrs": ["id"]}
 
     def __init__(self, **kwargs):
         self.__dict__.update(kwargs)
@@ -909,7 +915,10 @@ class Ttp():
         _file_specification (dict): requirements for a TTP input file
     """
 
-    _file_specification = {"ext": "json", "prefix": "attack-pattern--"}
+    _file_specification = {
+        "ext": "json",
+        "prefix": "attack-pattern--",
+        "req_attrs": ["id"]}
 
     def __init__(self, **kwargs):
         self.__dict__.update(kwargs)
@@ -926,7 +935,10 @@ class Malware():
         _file_specification (dict): requirements for a malware input file
     """
 
-    _file_specification = {"ext": "json", "prefix": "malware--"}
+    _file_specification = {
+        "ext": "json",
+        "prefix": "malware--",
+        "req_attrs": ["id"]}
 
     def __init__(self, **kwargs):
         self.__dict__.update(kwargs)
