@@ -6,16 +6,17 @@
         "FIN6",
         "ITG08"
     ],
-    "sophistication": "",
-    "actor_type": "",
+    "sophistication": "strategic",
+    "actor_type": "crime-syndicate",
     "sectors": [
-        ""
+        "hospitality-leisure",
+        "retail"
     ],
-    "primary_motivation": "",
+    "primary_motivation": "financial gain",
     "secondary_motivations": [],
     "goals": [
-        ""
+        "steal financial information"
     ],
-    "attribution": "",
-    "first_seen": ""
+    "attribution": "Unknown",
+    "first_seen": "2015-04-01 00:00:00"
 }

@@ -179,12 +179,38 @@ def main():
             pkg_resources.resource_filename(
                 __name__, 'data/cia_world_factbook/'), context.Country)
 
+    # Output country data
+    for ot in config['output']['output_types']:
+        path = args.output_directory + "/" + ot
+        os.mkdir(path)
+        os.mkdir(path + '/countries/')
+        for country in countries_fs.get(
+                [i[0] for i in countries_fs.query("SELECT id")]):
+            output_dir.output(ot+'/countries', country, ot)
+        if ot == "html":
+            html_src = pkg_resources.resource_filename(
+                __name__, 'assets/html_templates')
+            html_templates = os.listdir(html_src)
+            for f in html_templates:
+                shutil.copy(html_src + '/' + f, path)
+            f = open(path+'/COUNTRY.html', 'r')
+            c_template = f.read()
+            f.close()
+            for country in countries:
+                f = open(path + '/countries/' + country.name + '.html', 'w')
+                f.write(c_template.replace('COUNTRY', country.name))
+                f.close()
+            os.remove(path+'/COUNTRY.html')
+
     # Load or create actor data
     with open(pkg_resources.resource_filename(
             __name__,
             "assets/stix_vocab.json"), encoding='utf-8') as json_file:
         stix_vocab = json.load(json_file)
     json_file.close()
+    tools = tools_fs.get([name[0] for name in tools_fs.query("SELECT id")])
+    malwares = malware_fs.get([n[0] for n in malware_fs.query("SELECT id")])
+    ttps = ttp_fs.get([name[0] for name in ttp_fs.query("SELECT id")])
 
     if datastore['threat-actors'] != '':
         print("Loading custom threat actor data...")
@@ -214,6 +240,8 @@ def main():
                 stix_vocab, actor_name_1, actor_name_2, countries_fs,
                 threat_actor_fs)
             threat_actor_fs.save(actor)
+            actor.create_fake_history(relationships, tools, malwares, ttps,
+                stix_vocab['threat-actor-sophistication'])
             actors += 1
     else:
         print("Loading default threat actor data...")
@@ -221,6 +249,15 @@ def main():
             pkg_resources.resource_filename(
                 __name__, 'assets/mitre_cti/threat-actors/'),
             agents.ThreatActor)
+
+    # Output threat actor reports
+    actors = threat_actor_fs.get(
+        [name[0] for name in threat_actor_fs.query("SELECT id")])
+    for ot in config['output']['output_types']:
+        os.mkdir(args.output_directory + "/" + ot + '/actors/')
+        for apt in actors:
+            output_dir.output(ot+'/actors', apt._save(
+                relationships, tools_fs, malware_fs, ttp_fs), ot)
 
     # Create organizations
     with open(pkg_resources.resource_filename(
@@ -252,14 +289,8 @@ def main():
         config["simulation"]['time_range'][0], '%Y-%m-%d')
     end = datetime.strptime(config["simulation"]['time_range'][1], '%Y-%m-%d')
     td = end - start
-    actors = threat_actor_fs.get(
-        [name[0] for name in threat_actor_fs.query("SELECT id")])
     orgs = organizations_fs.get(
         [name[0] for name in organizations_fs.query("SELECT id")])
-    tools = tools_fs.get(
-        [name[0] for name in tools_fs.query("SELECT id")])
-    malwares = malware_fs.get(
-        [name[0] for name in malware_fs.query("SELECT id")])
     for r in range(1, int(config["simulation"]['number_of_rounds'])+1):
         print(f'\tRound {r}')
         simulator.simulate(
@@ -279,39 +310,39 @@ def main():
     for ot in config['output']['output_types']:
         print(f'    {ot}...')
         path = args.output_directory + "/" + ot
-        os.mkdir(path)
-        os.mkdir(path + '/countries/')
-        os.mkdir(path + '/actors/')
+        #os.mkdir(path)
+        #os.mkdir(path + '/countries/')
+        #os.mkdir(path + '/actors/')
         os.mkdir(path + '/reports/')
         os.mkdir(path + '/organizations/')
-        print(f'\t  Countries...')
-        for country in countries_fs.get(
-                [i[0] for i in countries_fs.query("SELECT id")]):
-            output_dir.output(ot+'/countries', country, ot)
-        print(f'\t  Actors...')
-        for apt in actors:
-            output_dir.output(ot+'/actors', apt._save(
-                relationships, tools_fs, malware_fs, events_fs, ttp_fs), ot)
+        #print(f'\t  Countries...')
+        #for country in countries_fs.get(
+        #        [i[0] for i in countries_fs.query("SELECT id")]):
+        #    output_dir.output(ot+'/countries', country, ot)
+        #print(f'\t  Actors...')
+        #for apt in actors:
+        #    output_dir.output(ot+'/actors', apt._save(
+        #        relationships, tools_fs, malware_fs, events_fs, ttp_fs), ot)
         print(f'\t  Events...')
         for e in events_fs.get([i[0] for i in events_fs.query("SELECT id")]):
             output_dir.output(ot+'/reports', e, ot)
         for org in orgs:
             agents.save_org(
                 org, path + '/organizations/', ot, assessment)
-        if ot == "html":
-            html_src = pkg_resources.resource_filename(
-                __name__, 'assets/html_templates')
-            html_templates = os.listdir(html_src)
-            for f in html_templates:
-                shutil.copy(html_src + '/' + f, path)
-            f = open(path+'/COUNTRY.html', 'r')
-            c_template = f.read()
-            f.close()
-            for country in countries:
-                f = open(path + '/countries/' + country.name + '.html', 'w')
-                f.write(c_template.replace('COUNTRY', country.name))
-                f.close()
-            os.remove(path+'/COUNTRY.html')
+        #if ot == "html":
+        #    html_src = pkg_resources.resource_filename(
+        #        __name__, 'assets/html_templates')
+        #    html_templates = os.listdir(html_src)
+        #    for f in html_templates:
+        #        shutil.copy(html_src + '/' + f, path)
+        #    f = open(path+'/COUNTRY.html', 'r')
+        #    c_template = f.read()
+        #    f.close()
+        #    for country in countries:
+        #        f = open(path + '/countries/' + country.name + '.html', 'w')
+        #        f.write(c_template.replace('COUNTRY', country.name))
+        #        f.close()
+        #    os.remove(path+'/COUNTRY.html')
 
     shutil.rmtree(config['output']['temp_directory'])
 

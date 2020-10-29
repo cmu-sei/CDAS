@@ -6,16 +6,22 @@
         "Strider",
         "ProjectSauron"
     ],
-    "sophistication": "",
-    "actor_type": "",
+    "sophistication": "advanced",
+    "actor_type": "nation-state",
     "sectors": [
-        ""
+        "defense",
+        "financial-services",
+        "government (national)",
+        "national labs",
+        "telecommunications"
     ],
-    "primary_motivation": "",
+    "primary_motivation": "ideology",
     "secondary_motivations": [],
     "goals": [
-        ""
+        "steal intellectual property",
+        "obtain state secrets",
+        "establish and maintain strategic access"
     ],
-    "attribution": "",
-    "first_seen": ""
+    "attribution": "Unknown",
+    "first_seen": "2011-10-01 00:00:00"
 }

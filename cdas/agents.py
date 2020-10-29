@@ -78,8 +78,10 @@ class ThreatActor():
             countries_fs=None, threat_actor_fs=None, **kwargs):
 
         if len(kwargs) > 0:
+            # We were given the data. Load it.
             self.__dict__.update(kwargs)
         else:
+            # We were not given data. Make it up.
             self.id = "intrusion-set--" + str(uuid.uuid4())
 
             # Create the name, but don't reuse names already taken
@@ -93,7 +95,8 @@ class ThreatActor():
                 noun = np.random.choice(actor_name_2)
             self.name = adj + " " + noun
 
-            self.sophistication = str(np.random.choice(list(stix['threat-actor-sophistication'].keys())))
+            self.sophistication = str(np.random.choice(
+                stix['threat-actor-sophistication']))
             self.actor_type = np.random.choice(
                 list(stix["threat-actor-type"].keys()),
                 p=list(stix["threat-actor-type"].values()))
@@ -118,15 +121,6 @@ class ThreatActor():
                 date.today().replace(year=date.today().year-10).toordinal(),
                 date.today().toordinal()))
 
-            last_seen = date.fromordinal(np.random.randint(
-                date.today().replace(year=date.today().year-1).toordinal(),
-                date.today().toordinal()))
-            while last_seen < self.first_seen:
-                last_seen = date.fromordinal(np.random.randint(
-                    date.today().replace(year=date.today().year-1).toordinal(),
-                    date.today().toordinal()))
-            self.last_seen = last_seen
-
             motivations = list(np.random.choice(
                 stix['attack-motivation'], np.random.randint(2, 4), replace=False))
             self.primary_motivation = str(motivations[0])
@@ -134,10 +128,37 @@ class ThreatActor():
             self.goals = list(
                 np.random.choice(stix['goals'], np.random.randint(2, 4), False))
 
-            # Find countries most likely to host threat actors
             countries = countries_fs.query("SELECT name")
             # Set attribution
             self.attribution = np.random.choice([c[0] for c in countries])
+
+    def create_fake_history(
+            self, relationships, tools, malwares, ttps, sophistication):
+        """Adds tools, malware, and TTPs for this APT to the relationship file.
+
+        Args:
+            relationships (dict): map APT to an object
+            tools (list): all available tools (by id)
+            malwares (list): all available malware (by id)
+            ttps (list): all available TTPs (by id)
+        """
+
+        num_mal = sophistication.index(self.sophistication)
+
+        some_tools = np.random.choice(tools, num_mal+2, False)
+        for tool in some_tools:
+            if (self.id,'uses',tool.id) not in relationships:
+                relationships.append((self.id, 'uses', tool.id))
+
+        some_malwares = np.random.choice(malwares, num_mal, False)
+        for malware in some_malwares:
+            if (self.id, 'uses', malware.id) not in relationships:
+                relationships.append((self.id, 'uses', malware.id))
+
+        some_ttps = np.random.choice(ttps, (num_mal+1)*2, False)
+        for ttp in some_ttps:
+            if (self.id,'uses',ttp.id) not in relationships:
+                relationships.append((self.id, 'uses', ttp.id))
 
     def _serialize(self):
         """
@@ -153,15 +174,14 @@ class ThreatActor():
             serialized[key] = s_value
         return serialized
 
-    def _save(self, relationships, tools_fs, malware_fs, events_fs, ttp_fs):
+    def _save(self, relationships, tools_fs, malware_fs, ttp_fs):
         """
         Fetches information about APT relationships to include in file output
 
         Args:
-            relationships ([type]): for looking up relationships to APT
+            relationships (dict): for looking up relationships to APT
             tools_fs (FileStore): for looking up tool names
             malware_fs (FileStore): for looking up malware names
-            events_fs (FileStore): for looking up event numbers
             ttp_fs (FileStore): for looking up TTP descriptions
 
         Returns:
@@ -199,10 +219,8 @@ class ThreatActor():
         for t in ttps:
             t_name, refs = ttp_fs.query(f"SELECT name,references WHERE id='{t}'")[0]
             for ref in refs:
-                if ref['source_name'] == "mitre-attack":
+                if ref['source_name'].startswith("mitre"):
                     t_name += " (Mitre Attack: "+ref['external_id']+ ')'
-                elif ref['source_name'] == "capec":
-                    t_name += ' (' + ref['external_id'] + ')'
             ttp_names.append(t_name)
         if len(ttp_names) > 0:
             apt_to_save.ttps = ttp_names
@@ -214,7 +232,8 @@ class Organization():
 
     orgCount = -1  # track the number of orgs created starting at 0
     
-    def __init__(self, stix=None, country=None, org_names=None, assessment=None, **kwargs):
+    def __init__(self, stix=None, country=None, org_names=None,
+            assessment=None, **kwargs):
 
         Organization.orgCount += 1
 
