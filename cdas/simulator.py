@@ -79,79 +79,13 @@ def random_indicator(itype):
             f"{itype} is not an available type for random_indicator")
     return indicator
 
+def simulate(actors, defender, tools, malwares, events_fs, relationships):
 
-def simulate(actors, orgs, tools, malwares, events_fs, relationships, start_date, td):
-    """
-    Run one round of attacks and defenses with the given data set.
-
-    Each threat actor in the 'actors' parameter takes an opportunity to choose
-    and attack a target. The actor chooses a tool (and possibly malware) from
-    the specified STIX data sets, and generates a random indicator. The attack
-    is either successful or unsuccessful. 
-
-    Parameters
-    ----------
-    actors : list of ThreatActor objects
-
-    orgs : list of Identity objects
-        STIX formatted Identity set filtered for identity_class=organization
-    tools : list of Tool objects
-        STIX formatted tool set to choose from
-    malwares : list of Malware objects
-        STIX formatted malware set to choose from
-    fs : FileSystemStore
-        Data store to save events
-    start_date : datetime
-        Start date for the events in the current round of the simulation
-    td : time delta
-        Time between each cyber event
-    """
-
-    # Reference to convert the agent's sophistication level to an integer
-    skill_levels = {
-        "minimal": 1,
-        "intermediate": 2,
-        "advanced": 3,
-        "expert": 4,
-        "innovator": 5,
-        "strategic": 6
-    }
+    t = 0  # Set the time step
 
     for agent in actors:
         # Pick a random target  @TODO - make this more logical later
         target = np.random.choice(orgs)
-
-        success = np.random.choice([True, False])
-        tool = np.random.choice(tools)
-        if (agent.id,'uses',tool.id) not in relationships:
-            relationships.append((agent.id, 'uses', tool.id))
-        indicator_type = np.random.choice(['IPv4 address', 'domain name'])
-        used_malware = np.random.choice(['yes', 'no'], p=[.25, .75])
-        if used_malware == 'yes':
-            malware = malwares[np.random.randint(0,len(malwares))]
-            if (agent.id, 'uses', malware.id) not in relationships:
-                relationships.append((agent.id, 'uses', malware.id))
-
-        description = f'On {str(start_date)[:10]}, '
-        if success is True:
-            description += 'an attacker successfully attacked a company named '
-        else:
-            description += 'an attack was attempted against a company named '
-        description += (
-            f'{target.name.upper()} located in the country of '
-            f'{target.headquarters}. The '
-            f'attacker used the tool, {tool.name}, during its attack. ') 
-        if hasattr(agent,'goals'):
-            description += (
-                f'It is believed the goal of the attack was to '
-                f'{np.random.choice(agent.goals)}.')
-        description += (
-            f' One of the indicators discovered was the {indicator_type}, '
-            f'{random_indicator(indicator_type)}.')
-        if used_malware == 'yes':
-            description += (
-                f' The attacker also attempted to use the malware '
-                f'{malware.name}.')
 
         r_num = str(
             start_date).replace('-', '').replace(' ', '_').replace(':', '')
@@ -162,3 +96,6 @@ def simulate(actors, orgs, tools, malwares, events_fs, relationships, start_date
             first_seen=start_date,
             sighting_of_ref=agent.id))
         start_date += timedelta(td)
+
+def attack():
+    pass

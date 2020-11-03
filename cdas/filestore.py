@@ -138,11 +138,6 @@ class FileStore():
 
         Returns:
             found_objects (list): list of instances of the requested item
-            OR
-            found_object (instance): instance of the requested item if only
-                one item was requested
-            OR
-            None: if no matching files were found
         """
 
         if not isinstance(ids, list):
@@ -159,12 +154,7 @@ class FileStore():
             j_file.close()
             found_objects.append(self._type(**obj))
 
-        if len(found_objects) == 1:
-            return found_objects[0]
-        elif len(found_objects) == 0:
-            return None
-        else:
-            return found_objects
+        return found_objects
 
     def list_files(self):
         """Return all filenames in the FileStore"""

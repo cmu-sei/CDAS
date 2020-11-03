@@ -70,6 +70,7 @@ def main():
 
     datastore = {
         'countries': '',
+        'defenders': '',
         'threat-actors': '',
         'malware': '',
         'geoseed.json': '',
@@ -259,45 +260,89 @@ def main():
             output_dir.output(ot+'/actors', apt._save(
                 relationships, tools_fs, malware_fs, ttp_fs), ot)
 
-    # Create organizations
-    with open(pkg_resources.resource_filename(
-            __name__,
-            config['agents']['org_variables']['org_names'])) as f:
-        org_names = f.read().splitlines()  # organization name possibilities
-    f.close()
-    with open(pkg_resources.resource_filename(
-            __name__, 'assets/NIST_assess.json'),
-            encoding='utf-8') as json_file:
-        assessment = json.load(json_file)
-    json_file.close()
-    organizations_fs = filestore.FileStore(
-            os.path.join(config['output']['temp_directory'], 'organizations'),
-            agents.Organization, write=True)
-    for c in countries_fs.query("SELECT name"):
-        orgs = 0
-        while orgs < config['agents']['org_variables']["orgs_per_country"]:
-            org = agents.Organization(stix_vocab, c[0], org_names, assessment)
-            organizations_fs.save(org)
-            orgs += 1
+    # Create or load defending organizations
+    if datastore['defenders'] != '':
+        print("Loading custom defender data...")
+        # Using custom defenders provided by the user in the input folder
+        defender_fs = filestore.FileStore(
+            datastore['defenders'], agents.Defender)
+    else:
+        print("Creating random defending organizations...")
+        defender_fs = filestore.FileStore(
+            os.path.join(config['output']['temp_directory'], 'defenders'),
+            agents.Defender, write=True)
+        with open(pkg_resources.resource_filename(
+                __name__,
+                config['defenders']['org_names'])) as f:
+            org_names = f.read().splitlines()  # defender name possibilities
+        f.close()
+        with open(pkg_resources.resource_filename(
+                __name__, 'assets/NIST_assess.json'),
+                encoding='utf-8') as json_file:
+            assessment = json.load(json_file)
+        json_file.close()
+
+        # Get a list of country names the defenders may be assigned to
+        countries = [c[0] for c in countries_fs.query("SELECT name")]
+        if isinstance(config['defenders']['countries'], list):
+            for c in config['defenders']['countries']:
+                if c not in countries:
+                    raise Exception(
+                        f'Country {c} in config file entry for "defenders":'
+                        f'"countries" is not in the Country file store.')
+            countries = config['defenders']['countries']
+        elif config['defenders']['countries'] == "ANY":
+            pass
+        else:
+            raise Exception(
+                f"Config file entry for 'defenders':'countries': "
+                f"{config['defenders']['countries']} is not an accepted value."
+                f" Options are \"ANY\" or a list of country names.")
+        if config['defenders']['sectors'] == "ANY":
+            sectors = stix_vocab['sectors']
+        elif isinstance(config['defenders']['sectors'], list):
+            sectors = config['defenders']['sectors']
+        else:
+            raise Exception(
+                f'{config["defenders"]["sectors"]} is not a recognized option '
+                f'for "defenders":"sectors" in the config file. Options are '
+                f'"ANY" or a list of sector names.')
+        for c in countries:
+            defs = 0
+            while defs < config['defenders']['number_per_country']:
+                d = agents.Defender(sectors, c, org_names, assessment)
+                defender_fs.save(d)
+                defs += 1
+
+    # Output defender info
+    defenders = defender_fs.get(
+        [name[0] for name in defender_fs.query("SELECT id")])
+    for ot in config['output']['output_types']:
+        os.mkdir(args.output_directory + "/" + ot + '/defenders/')
+        for d in defenders:
+            output_dir.output(ot+'/defenders', d, ot)
+
+    # Create or load networks of defenders
+
+    # Output network information
+    
 
     # Run simulation
     print('Running simulation...')
     events_fs = filestore.FileStore(
-            os.path.join(config['output']['temp_directory'], 'events'),
-            context.Event, write=True)
+        os.path.join(config['output']['temp_directory'], 'events'),
+        context.Event, write=True)
+    # For now, we're assuming all of the attackers decide to attack the one
+    # defender, who is too dumb to make changes the network
+    simulator.simulate(
+        actors, defenders, tools, malwares, events_fs, relationships, start)
+    # We don't know ahead of time how many moves will be made, so go back to 
+    # the events and set to the desired time frame
     start = datetime.strptime(
         config["simulation"]['time_range'][0], '%Y-%m-%d')
     end = datetime.strptime(config["simulation"]['time_range'][1], '%Y-%m-%d')
-    td = end - start
-    orgs = organizations_fs.get(
-        [name[0] for name in organizations_fs.query("SELECT id")])
-    for r in range(1, int(config["simulation"]['number_of_rounds'])+1):
-        print(f'\tRound {r}')
-        simulator.simulate(
-            actors, orgs, tools, malwares, events_fs, relationships, start,
-            td.days/(config["simulation"]['number_of_rounds']*len(actors)))
-        start += timedelta(
-            days=td.days/config["simulation"]['number_of_rounds'])
+    time_increment = (end - start)/num_events
+    print("@TODO: Event date times...")
 
     # Create output files
     print('Saving output...')
@@ -310,39 +355,10 @@ def main():
     for ot in config['output']['output_types']:
         print(f'    {ot}...')
         path = args.output_directory + "/" + ot
-        #os.mkdir(path)
-        #os.mkdir(path + '/countries/')
-        #os.mkdir(path + '/actors/')
         os.mkdir(path + '/reports/')
-        os.mkdir(path + '/organizations/')
-        #print(f'\t  Countries...')
-        #for country in countries_fs.get(
-        #        [i[0] for i in countries_fs.query("SELECT id")]):
-        #    output_dir.output(ot+'/countries', country, ot)
-        #print(f'\t  Actors...')
-        #for apt in actors:
-        #    output_dir.output(ot+'/actors', apt._save(
-        #        relationships, tools_fs, malware_fs, events_fs, ttp_fs), ot)
         print(f'\t  Events...')
         for e in events_fs.get([i[0] for i in events_fs.query("SELECT id")]):
             output_dir.output(ot+'/reports', e, ot)
-        for org in orgs:
-            agents.save_org(
-                org, path + '/organizations/', ot, assessment)
-        #if ot == "html":
-        #    html_src = pkg_resources.resource_filename(
-        #        __name__, 'assets/html_templates')
-        #    html_templates = os.listdir(html_src)
-        #    for f in html_templates:
-        #        shutil.copy(html_src + '/' + f, path)
-        #    f = open(path+'/COUNTRY.html', 'r')
-        #    c_template = f.read()
-        #    f.close()
-        #    for country in countries:
-        #        f = open(path + '/countries/' + country.name + '.html', 'w')
-        #        f.write(c_template.replace('COUNTRY', country.name))
-        #        f.close()
-        #    os.remove(path+'/COUNTRY.html')
 
     shutil.rmtree(config['output']['temp_directory'])
 

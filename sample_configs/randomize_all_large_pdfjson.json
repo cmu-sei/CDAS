@@ -5,10 +5,6 @@
             "actor_name_1": "data/personality_traits.txt",
             "actor_name_2": "data/disney_names.txt",
             "num_agents": 25
-        },
-        "org_variables": {
-            "orgs_per_country": 1,
-            "org_names": "data/organization_names.txt"
         }
     },
     "countries": {
@@ -17,9 +13,12 @@
             "num_countries": 200
         }
     },
-    "defend": {
-        "network_range": ["1.2.3.0/24", "1.2.4.0/24"],
-        "topology": ""
+    "defenders": {
+        "number_per_country": 1,
+        "org_names": "data/organization_names.txt",
+        "sectors": "ANY",
+        "countries": "ANY",
+        "allow_defense": false
     },
     "simulation": {
         "number_of_rounds": 20,

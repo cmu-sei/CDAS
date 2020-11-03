@@ -228,25 +228,40 @@ class ThreatActor():
         return apt_to_save
 
 
-class Organization():
+class Defender():
+    """Describes a defending organization
 
-    orgCount = -1  # track the number of orgs created starting at 0
+    Args:
+        sectors (list): economic sectors to chose from
+        country (str): names of countries to chose from
+        org_names (list): names to chose from
+        assessment (dict): used for vulnerability status 
+        **kwargs: Used to instantiate a Defender from the given values
+
+    Attributes:
+        _file_specification (dict): requirements for a defender input file
+        id (str): unique ID starting with "defender--"
+        name (str): name of the defending organization
+    """
+
+    _file_specification = {
+        "ext": "json",
+        "prefix": "defender--",
+        "req_attrs": ['id', 'name']}
     
-    def __init__(self, stix=None, country=None, org_names=None,
+    def __init__(self, sectors=None, country=None, org_names=None,
             assessment=None, **kwargs):
-
-        Organization.orgCount += 1
 
         if len(kwargs) > 0:
             self.__dict__.update(kwargs)
         else:
-            self.id = 'organization--' + str(Organization.orgCount)
+            self.id = "defender--" + str(uuid.uuid4())
             self.name = np.random.choice(org_names).strip()
             revenue = int(np.random.chisquare(1) * 10000)
             while revenue == 0:
                 revenue = int(np.random.chisquare(1) * 10000)
             self.revenue = "$"+"{:,}".format(revenue)+" million"
-            self.sector = np.random.choice(stix['sectors'])
+            self.sector = np.random.choice(sectors)
             self.background = "TODO"
             self.headquarters = country
             self.number_of_employees = "{:,}".format(np.random.randint(500, 15000))
@@ -268,71 +283,11 @@ class Organization():
             self.vulns = vulns
 
     def _serialize(self):
+        """
+        Return the Defender attributes in a dictionary format with
+        serializable values
+        """
         serialized = {}
         for key, value in self.__dict__.items():
             serialized[key] = value
         return serialized
-
-def save_org(org, directory, filetype, assessment):
-    """
-    Saves information about the organization to a file.
-
-    Paramters
-    ---------
-    org : stix2 Identity object
-        the organization to save
-    directory : str
-        Path to save output
-    filetype : str
-        Type of output file (json or pdf)
-    assessment : dictionary
-        representation of NIST 800-171 assessment table
-    """
-
-    filename = directory + org.name.replace(' ', '')
-
-    if filetype == 'json':
-        with open(filename+".json", 'w') as f:
-            json.dump(org._serialize(), f)
-        f.close()
-    elif filetype == 'pdf':
-        ss = getSampleStyleSheet()
-        pdf = platy.SimpleDocTemplate(filename + ".pdf")
-        flowables = []
-        flowables.append(platy.Paragraph(org.name, ss['Heading1']))
-        p = f'Sector: {org.sector}'
-        flowables.append(platy.Paragraph(p, ss['BodyText']))
-        flowables.append(platy.Paragraph("Background", ss['Heading2']))
-        p = (
-            f'{org.name} is headquartered in the country of {org.headquarters}'
-            f'. It has {org.number_of_employees} employees and an'
-            f' annual revenue of {org.revenue}.'
-        )
-        flowables.append(platy.Paragraph(p, ss['BodyText']))
-        flowables.append(platy.Paragraph("Computer Network", ss['Heading2']))
-        p = f"Network size: {org.network_size} (on a scale of 100)"
-        flowables.append(platy.Paragraph(p, ss['BodyText']))
-        p = "NIST 800-171 Security Evaluation Results"
-        flowables.append(platy.Paragraph(p, ss['Heading2']))
-        p = f"Score: {org.vulnerability_score}/100"
-        flowables.append(platy.Paragraph(p, ss['BodyText']))
-        p = "Vulnerabilities (failed requirements):"
-        flowables.append(platy.Paragraph(p, ss['BodyText']))
-        bullets = []
-        nist_reqs = {}
-        for cat in assessment:
-            for req in assessment[cat]:
-                nist_reqs[req["Requirement"]] = req["Description"]
-        for vuln in org.vulns:
-            p = platy.Paragraph(f'({vuln}) {nist_reqs[vuln]}', ss['Normal'])
-            bullets.append(platy.ListItem(p, leftIndent=35))
-        flowables.append(platy.ListFlowable(bullets, bulletType='bullet'))
-        pdf.build(flowables)
-    elif filetype == 'html':
-        filename += ".json"
-        f = open(filename, 'w')
-        f.write("var data = " + str(org_dict))
-        f.close()
-    else:
-        raise NotImplementedError(
-            f"Output file type, {filetype}, not supported")
