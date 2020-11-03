@@ -119,6 +119,11 @@ The input folder may have any or all of the following:
     * required attributes in a location file:
         * id - unique ID, same as file name
         * name
+* "defenders" - folder containing files, each with information on an individual defending organization
+    * file name format: "defender--XX...XXX.json"
+    * required attributes in a defender file:
+        * id - unique ID, same as file name
+        * name
 * "malware" - folder containing files, each with information on an individual malware
     * file name format: "malware--XX...XXX.json"
     * required attributes in a malware file:

@@ -16,7 +16,7 @@ This document descibes the variables in the configuraiton file.
 
 ### Agents Configuration
 
-This section defines the configuration for "agents" or "operators" in the simulation, including friendly, adversary, and neutral players. 
+This section defines the configuration for "agents" or threat actors in the simulation. 
 
 ```
     "agents": {
@@ -25,10 +25,6 @@ This section defines the configuration for "agents" or "operators" in the simula
             "actor_name_1": "data/personality_traits.txt",
             "actor_name_2": "data/disney_names.txt",
             "num_agents": 5
-        },
-        "org_variables": {
-            "orgs_per_country": 1,
-            "org_names": "data/organization_names.txt"
         }
     },
 ```
@@ -40,9 +36,6 @@ This section defines the configuration for "agents" or "operators" in the simula
     - actor_name_1 - list of word choices for the first word of the APT actor name
     - actor_name_2 - list of word choices for the second word of the APT actor name
     - num_agents - number of fake APT profiles to generate
-- org variables
-    - orgs_per_country - number of organizations to generate per country
-    - org_names - file from which to pull organization names
 
 ### Countries Configuration
 
@@ -66,7 +59,30 @@ The coumtries section of the configuration file looks like this:
     - num_countries - the nuber of countries for which the simulator should create fake data; used if the "randomize" variable is true
 
 ### Defend Configuration
-<TODO> Not currently applicable
+
+This section defines the variables for the random creation of defending organizations. There is not a default (non-random) set of defenders available, though users can provide their own set in the input folder to CDAS.
+
+```
+"defenders": {
+    "number_per_country": 1,
+    "org_names": "data/organization_names.txt",
+    "sectors": "ANY",
+    "countries": "ANY",
+    "allow_defense": false
+},
+```
+
+- number_per_country: number of defending organizations to create per country in the simulation
+- org_names: a file containing a list of potential names for defending organizations
+- sectors: allows for limiting defenders to certain sectors
+    - "ANY" - choose any sector from the default set (provided in [STIX Vocab](cdas/assets/stix_vocab.json))
+    - ["sector1", "sector2", "etc"] - a list of sectors (strings)
+- countries: allows for limiting defenders to certain countries
+    - "ANY" - choose any country from those that have been generated or loaded from the input folder
+    - ["country 1", "country 2", "etc"] - a list of country names (strings)
+- allow_defense:
+    - true: defender makes changes to its network during the simulation
+    - false: defender does make changes to its network during the simulation
 
 ### Simulation Configuration
 
