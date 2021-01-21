@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--abd5bed1-4c12-45de-a623-ab8dc4ff862a",
     "name": "Research relevant vulnerabilities/CVEs",
-    "description": "Common Vulnerability Enumeration (CVE) is a dictionary of publicly known information about security vulnerabilities and exposures. An adversary can use this information to target specific software that may be vulnerable. (Citation: WeaponsVulnerable) (Citation: KasperskyCarbanak)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1291).\n\nCommon Vulnerability Enumeration (CVE) is a dictionary of publicly known information about security vulnerabilities and exposures. An adversary can use this information to target specific software that may be vulnerable. (Citation: WeaponsVulnerable) (Citation: KasperskyCarbanak)",
     "references": [
         {
             "source_name": "mitre-pre-attack",
@@ -14,7 +14,8 @@
         },
         {
             "source_name": "KasperskyCarbanak",
-            "description": "Kaspersky Lab's Global Research & Analysis Team. (2015, February). CARBANAK APT THE GREAT BANK ROBBERY. Retrieved March 27, 2017."
+            "description": "Kaspersky Lab's Global Research & Analysis Team. (2015, February). CARBANAK APT THE GREAT BANK ROBBERY. Retrieved March 27, 2017.",
+            "url": "https://securelist.com/the-great-bank-robbery-the-carbanak-apt/68732/"
         }
     ],
     "kill_chain": [

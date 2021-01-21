@@ -18,14 +18,14 @@ Future versions will include fine-grained ability to control detailed aspects of
 ### ToDo
 - [ ] Output formats: HTML, SQL dump
 - [ ] Country relationship details
-- [ ] Detailed representation of organization networks (asset improvement)
+- [ ] Detailed representation of defender networks (asset improvement)
 - [ ] Visualization of relationships between data points
 - [ ] Improved world map generation
 - [ ] "web feeds" of intelligence/events (ex. news reports, dark web posts, etc.)
 
 ## Components
 
-- Agents: Threat actors, organizations (companies)
+- Agents: Threat actors, defenders (companies)
     - Friendly, enemy, and neutral players in the simulation
 - Assets: Cyber infrastructure
     - Networks, software, hardware, configurations, and vulnerabilities
@@ -46,9 +46,8 @@ CDAS installs the following packages and their dependencies upon setup:
 numpy
 reportlab
 drawSVG
+cyberdem
 ```
-
-You may also want to install ```libcairo2```. Optional, but you will receive errors when running CDAS without it.
 
 ### Installing
 
@@ -62,7 +61,7 @@ $ pip3 install .
 3. To test that CDAS is installed properly run
 
 ```
-$ python3 -m cdas -c sample_configs/randomize_all_small_pdf.json
+$ python3 -m cdas -c sample_configs/randomize_all_small_pdf.json -v
 Setting up directories...
 Creating fake countries...
 Creating fake threat actors...
@@ -77,13 +76,13 @@ Saving output...
 Done
 ```
 
-CDAS should finish with no errors (you will get warnings about libcairo2 and CairoSVG if you did not install that) and the results will be in a folder called cdas-output. Results will include
+CDAS should finish with no errors and the results will be in a folder called cdas-output. Results will include
 - SVG map of countries
 - A "pdf" folder containing
     - 'actors' folder containing PDF files with threat actor descriptions
     - 'countries' folder containing PDF files with country attributes
     - 'reports' folder containing PDF files with event reports
-    - 'organizations' folder containing PDF files with organization descriptions
+    - 'defenders' folder containing PDF files with organization descriptions
 
 ## Configuration
 
@@ -93,7 +92,7 @@ Additionally, there are three available command line flags: the required config-
 
 ```
 $ python3 -m cdas -h
-usage: __main__.py [-h] -c CONFIG_FILE [-i INPUT_DIRECTORY] [-o OUTPUT_DIRECTORY]
+usage: __main__.py [-h] -c CONFIG_FILE [-i INPUT_DIRECTORY] [-o OUTPUT_DIRECTORY] [--verbose]
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -103,6 +102,7 @@ optional arguments:
                         directory for specifying custom data
   -o OUTPUT_DIRECTORY, --output-directory OUTPUT_DIRECTORY
                         directory for storing results
+  --verbose, -v         v for basic status, vv for detailed status
 ```
 
 ## Data Customization

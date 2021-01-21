@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--76551c52-b111-4884-bc47-ff3e728f0156",
+    "name": "Employee Names",
+    "description": "Before compromising a victim, adversaries may gather employee names that can be used during targeting. Employee names be used to derive email addresses as well as to help guide other reconnaissance efforts and/or craft more-believable lures.\n\nAdversaries may easily gather employee names, since they may be readily available and exposed via online or other accessible data sets (ex: [Social Media](https://attack.mitre.org/techniques/T1593/001) or [Search Victim-Owned Websites](https://attack.mitre.org/techniques/T1594)).(Citation: OPM Leak) Gathering this information may reveal opportunities for other forms of reconnaissance (ex: [Search Open Websites/Domains](https://attack.mitre.org/techniques/T1593) or [Phishing for Information](https://attack.mitre.org/techniques/T1598)), establishing operational resources (ex: [Compromise Accounts](https://attack.mitre.org/techniques/T1586)), and/or initial access (ex: [Phishing](https://attack.mitre.org/techniques/T1566) or [Valid Accounts](https://attack.mitre.org/techniques/T1078)).",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1589.003",
+            "url": "https://attack.mitre.org/techniques/T1589/003"
+        },
+        {
+            "source_name": "OPM Leak",
+            "url": "https://www.opm.gov/cybersecurity/cybersecurity-incidents/",
+            "description": "Cybersecurity Resource Center. (n.d.). CYBERSECURITY INCIDENTS. Retrieved October 20, 2020."
+        }
+    ],
+    "platforms": [
+        "PRE"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "reconnaissance"
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--0c592c79-29a7-4a94-81a4-c87eae3aead6",
     "name": "Common, high volume protocols and software",
-    "description": "Certain types of traffic (e.g., Twitter14, HTTP) are more commonly used than others. Utilizing more common protocols and software may make an adversary's traffic more difficult to distinguish from legitimate traffic. (Citation: symantecNITRO)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1321).\n\nCertain types of traffic (e.g., Twitter14, HTTP) are more commonly used than others. Utilizing more common protocols and software may make an adversary's traffic more difficult to distinguish from legitimate traffic. (Citation: symantecNITRO)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

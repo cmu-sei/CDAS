@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--eacadff4-164b-451c-bacc-7b29ebfd0c3f",
     "name": "Create infected removable media",
-    "description": "Use of removable media as part of the Launch phase requires an adversary to determine type, format, and content of the media and associated malware. (Citation: BadUSB)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1355).\n\nUse of removable media as part of the Launch phase requires an adversary to determine type, format, and content of the media and associated malware. (Citation: BadUSB)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

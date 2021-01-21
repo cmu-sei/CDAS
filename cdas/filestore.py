@@ -130,31 +130,27 @@ class FileStore():
 
     def get(self, ids):
         """
-        Instantiates an object(s) from a .json file(s)
+        Instantiates an object from a .json file
 
         Args:
-            ids (str or list of strings): list of filenames (with or without
-                .json extension)
+            ids (str): filename (with or without .json extension)
 
         Returns:
-            found_objects (list): list of instances of the requested item
+            found_object: instance of the requested item
         """
 
-        if not isinstance(ids, list):
-            ids = [ids]  # if only one id is given, convert to list
+        if not isinstance(ids, str):
+            raise Exception(f'ids should be string not {type(ids)}')
 
-        found_objects = []
         # read in each file and instantiate the object from the json
-        for i in ids:
-            filename = os.path.join(self.path, i)
-            if not filename.endswith('.json'):
-                filename += '.json'
-            with open(filename) as j_file:
-                obj = json.load(j_file)
-            j_file.close()
-            found_objects.append(self._type(**obj))
+        filename = os.path.join(self.path, ids)
+        if not filename.endswith('.json'):
+            filename += '.json'
+        with open(filename) as j_file:
+            obj = json.load(j_file)
+        j_file.close()
 
-        return found_objects
+        return self._type(**obj)
 
     def list_files(self):
         """Return all filenames in the FileStore"""

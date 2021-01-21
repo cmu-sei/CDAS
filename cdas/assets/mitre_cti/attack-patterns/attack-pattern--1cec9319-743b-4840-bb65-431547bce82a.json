@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--1cec9319-743b-4840-bb65-431547bce82a",
+    "name": "Digital Certificates",
+    "description": "Before compromising a victim, adversaries may create self-signed SSL/TLS certificates that can be used during targeting. SSL/TLS certificates are designed to instill trust. They include information about the key, information about its owner's identity, and the digital signature of an entity that has verified the certificate's contents are correct. If the signature is valid, and the person examining the certificate trusts the signer, then they know they can use that key to communicate with its owner. In the case of self-signing, digital certificates will lack the element of trust associated with the signature of a third-party certificate authority (CA).\n\nAdversaries may create self-signed SSL/TLS certificates that can be used to further their operations, such as encrypting C2 traffic (ex: [Web Protocols](https://attack.mitre.org/techniques/T1071/001)) or even enabling [Man-in-the-Middle](https://attack.mitre.org/techniques/T1557) if added to the root of trust (i.e. [Install Root Certificate](https://attack.mitre.org/techniques/T1553/004)).",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1587.003",
+            "url": "https://attack.mitre.org/techniques/T1587/003"
+        },
+        {
+            "source_name": "Splunk Kovar Certificates 2017",
+            "url": "https://www.splunk.com/en_us/blog/security/tall-tales-of-hunting-with-tls-ssl-certificates.html",
+            "description": "Kovar, R. (2017, December 11). Tall Tales of Hunting with TLS/SSL Certificates. Retrieved October 16, 2020."
+        }
+    ],
+    "platforms": [
+        "PRE"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "resource-development"
+        }
+    ]
+}

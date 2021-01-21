@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--ef6197fd-a58a-4006-bfd6-1d7765d8409d",
     "name": "Enumerate externally facing software applications technologies, languages, and dependencies",
-    "description": "Software applications will be built using different technologies, languages, and dependencies. This information may reveal vulnerabilities or opportunities to an adversary. (Citation: CommonApplicationAttacks) (Citation: WebApplicationSecurity) (Citation: SANSTop25)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1261).\n\nSoftware applications will be built using different technologies, languages, and dependencies. This information may reveal vulnerabilities or opportunities to an adversary. (Citation: CommonApplicationAttacks) (Citation: WebApplicationSecurity) (Citation: SANSTop25)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

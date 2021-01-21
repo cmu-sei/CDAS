@@ -21,7 +21,8 @@
     ],
     "platforms": [
         "Linux",
-        "Windows"
+        "Windows",
+        "Network"
     ],
     "kill_chain": [
         {

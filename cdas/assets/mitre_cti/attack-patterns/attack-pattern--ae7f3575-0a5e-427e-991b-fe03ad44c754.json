@@ -1,0 +1,34 @@
+{
+    "id": "attack-pattern--ae7f3575-0a5e-427e-991b-fe03ad44c754",
+    "name": "Modify System Image",
+    "description": "Adversaries may make changes to the operating system of embedded network devices to weaken defenses and provide new capabilities for themselves.  On such devices, the operating systems are typically monolithic and most of the device functionality and capabilities are contained within a single file.\n\nTo change the operating system, the adversary typically only needs to affect this one file, replacing or modifying it.  This can either be done live in memory during system runtime for immediate effect, or in storage to implement the change on the next boot of the network device.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1601",
+            "url": "https://attack.mitre.org/techniques/T1601"
+        },
+        {
+            "source_name": "Cisco IOS Software Integrity Assurance - Image File Verification",
+            "url": "https://tools.cisco.com/security/center/resources/integrity_assurance.html#7",
+            "description": "Cisco. (n.d.). Cisco IOS Software Integrity Assurance - Cisco IOS Image File Verification. Retrieved October 19, 2020."
+        },
+        {
+            "source_name": "Cisco IOS Software Integrity Assurance - Run-Time Memory Verification",
+            "url": "https://tools.cisco.com/security/center/resources/integrity_assurance.html#13",
+            "description": "Cisco. (n.d.). Cisco IOS Software Integrity Assurance - Cisco IOS Run-Time Memory Integrity Verification. Retrieved October 19, 2020."
+        }
+    ],
+    "platforms": [
+        "Network"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        }
+    ],
+    "permissions": [
+        "Administrator"
+    ]
+}

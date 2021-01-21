@@ -9,6 +9,11 @@
             "url": "https://attack.mitre.org/techniques/T1558/003"
         },
         {
+            "external_id": "CAPEC-509",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/509.html"
+        },
+        {
             "url": "https://github.com/EmpireProject/Empire/blob/master/data/module_source/credentials/Invoke-Kerberoast.ps1",
             "description": "EmpireProject. (2016, October 31). Invoke-Kerberoast.ps1. Retrieved March 22, 2018.",
             "source_name": "Empire InvokeKerberoast Oct 2016"
@@ -35,7 +40,8 @@
         },
         {
             "description": "Medin, T. (2014, November). Attacking Kerberos - Kicking the Guard Dog of Hades. Retrieved March 22, 2018.",
-            "source_name": "SANS Attacking Kerberos Nov 2014"
+            "source_name": "SANS Attacking Kerberos Nov 2014",
+            "url": "https://redsiege.com/kerberoast-slides"
         },
         {
             "url": "https://www.harmj0y.net/blog/powershell/kerberoasting-without-mimikatz/",

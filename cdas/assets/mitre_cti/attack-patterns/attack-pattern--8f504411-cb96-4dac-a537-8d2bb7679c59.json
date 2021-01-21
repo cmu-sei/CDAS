@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--8f504411-cb96-4dac-a537-8d2bb7679c59",
-    "name": "HISTCONTROL",
-    "description": "Adversaries may configure <code>HISTCONTROL</code> to not log all command history. The <code>HISTCONTROL</code> environment variable keeps track of what should be saved by the <code>history</code> command and eventually into the <code>~/.bash_history</code> file when a user logs out. <code>HISTCONTROL</code> does not exist by default on macOS, but can be set by the user and will be respected.\n\nThis setting can be configured to ignore commands that start with a space by simply setting it to \"ignorespace\". <code>HISTCONTROL</code> can also be set to ignore duplicate commands by setting it to \"ignoredups\". In some Linux systems, this is set by default to \"ignoreboth\" which covers both of the previous examples. This means that \u201c ls\u201d will not be saved, but \u201cls\u201d would be saved by history.\n\n Adversaries can abuse this to operate without leaving traces by simply prepending a space to all of their terminal commands.",
+    "name": "Impair Command History Logging",
+    "description": "Adversaries may impair command history logging to hide commands they run on a compromised system. Various command interpreters keep track of the commands users type in their terminal so that users can retrace what they've done. \n\nOn Linux and macOS, command history is tracked in a file pointed to by the environment variable <code>HISTFILE</code>. When a user logs off a system, this information is flushed to a file in the user's home directory called <code>~/.bash_history</code>. The <code>HISTCONTROL</code> environment variable keeps track of what should be saved by the <code>history</code> command and eventually into the <code>~/.bash_history</code> file when a user logs out. <code>HISTCONTROL</code> does not exist by default on macOS, but can be set by the user and will be respected.\n\nAdversaries may clear the history environment variable (<code>unset HISTFILE</code>) or set the command history size to zero (<code>export HISTFILESIZE=0</code>) to prevent logging of commands. Additionally, <code>HISTCONTROL</code> can be configured to ignore commands that start with a space by simply setting it to \"ignorespace\". <code>HISTCONTROL</code> can also be set to ignore duplicate commands by setting it to \"ignoredups\". In some Linux systems, this is set by default to \"ignoreboth\" which covers both of the previous examples. This means that \u201c ls\u201d will not be saved, but \u201cls\u201d would be saved by history. Adversaries can abuse this to operate without leaving traces by simply prepending a space to all of their terminal commands.\n\nOn Windows systems, the <code>PSReadLine</code> module tracks commands used in all PowerShell sessions and writes them to a file (<code>$env:APPDATA\\Microsoft\\Windows\\PowerShell\\PSReadLine\\ConsoleHost_history.txt</code> by default). Adversaries may change where these logs are saved using <code>Set-PSReadLineOption -HistorySavePath {File Path}</code>. This will cause <code>ConsoleHost_history.txt</code> to stop receiving logs. Additionally, it is possible to turn off logging to this file using the PowerShell command <code>Set-PSReadlineOption -HistorySaveStyle SaveNothing</code>.(Citation: Microsoft PowerShell Command History)(Citation: Sophos PowerShell command audit)(Citation: Sophos PowerShell Command History Forensics)",
     "references": [
         {
             "source_name": "mitre-attack",
@@ -12,11 +12,27 @@
             "external_id": "CAPEC-13",
             "source_name": "capec",
             "url": "https://capec.mitre.org/data/definitions/13.html"
+        },
+        {
+            "source_name": "Microsoft PowerShell Command History",
+            "url": "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_history?view=powershell-7",
+            "description": "Microsoft. (2020, May 13). About History. Retrieved September 4, 2020."
+        },
+        {
+            "source_name": "Sophos PowerShell command audit",
+            "url": "https://community.sophos.com/products/intercept/early-access-program/f/live-discover-response-queries/121529/live-discover---powershell-command-audit",
+            "description": "jak. (2020, June 27). Live Discover - PowerShell command audit. Retrieved August 21, 2020."
+        },
+        {
+            "source_name": "Sophos PowerShell Command History Forensics",
+            "url": "https://community.sophos.com/products/malware/b/blog/posts/powershell-command-history-forensics",
+            "description": "Vikas, S. (2020, August 26). PowerShell Command History Forensics. Retrieved September 4, 2020."
         }
     ],
     "platforms": [
         "Linux",
-        "macOS"
+        "macOS",
+        "Windows"
     ],
     "kill_chain": [
         {

@@ -9,6 +9,11 @@
             "url": "https://attack.mitre.org/techniques/T1550/004"
         },
         {
+            "external_id": "CAPEC-60",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/60.html"
+        },
+        {
             "description": "Rehberger, J. (2018, December). Pivot to the Cloud using Pass the Cookie. Retrieved April 5, 2019.",
             "url": "https://wunderwuzzi23.github.io/blog/passthecookie.html",
             "source_name": "Pass The Cookie"

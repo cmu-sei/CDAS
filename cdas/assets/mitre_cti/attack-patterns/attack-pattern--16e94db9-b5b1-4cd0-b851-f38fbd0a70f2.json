@@ -31,7 +31,11 @@
     ],
     "platforms": [
         "Office 365",
-        "Azure AD"
+        "Azure AD",
+        "GCP",
+        "SaaS",
+        "Azure",
+        "AWS"
     ],
     "kill_chain": [
         {

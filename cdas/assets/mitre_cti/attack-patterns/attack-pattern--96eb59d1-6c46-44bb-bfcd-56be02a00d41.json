@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--96eb59d1-6c46-44bb-bfcd-56be02a00d41",
     "name": "Analyze organizational skillsets and deficiencies",
-    "description": "Understanding organizational skillsets and deficiencies could provide insight in to weakness in defenses, or opportunities for exploitation. (Citation: FakeLinkedIn)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1297).\n\nUnderstanding organizational skillsets and deficiencies could provide insight in to weakness in defenses, or opportunities for exploitation. (Citation: FakeLinkedIn)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

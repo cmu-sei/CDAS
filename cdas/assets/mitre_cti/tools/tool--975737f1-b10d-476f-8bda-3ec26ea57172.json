@@ -1,0 +1,23 @@
+{
+    "id": "tool--975737f1-b10d-476f-8bda-3ec26ea57172",
+    "name": "MCMD",
+    "description": "[MCMD](https://attack.mitre.org/software/S0500) is a remote access tool that provides remote command shell capability used by [Dragonfly 2.0](https://attack.mitre.org/groups/G0074).(Citation: Secureworks MCMD July 2019)",
+    "references": [
+        {
+            "external_id": "S0500",
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/software/S0500"
+        },
+        {
+            "source_name": "Secureworks MCMD July 2019",
+            "url": "https://www.secureworks.com/research/mcmd-malware-analysis",
+            "description": "Secureworks. (2019, July 24). MCMD Malware Analysis. Retrieved August 13, 2020."
+        }
+    ],
+    "aliases": [
+        "MCMD"
+    ],
+    "platforms": [
+        "Windows"
+    ]
+}

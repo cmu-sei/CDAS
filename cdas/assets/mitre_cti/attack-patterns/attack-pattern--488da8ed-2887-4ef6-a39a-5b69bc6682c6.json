@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--488da8ed-2887-4ef6-a39a-5b69bc6682c6",
     "name": "Acquire and/or use 3rd party software services",
-    "description": "A wide variety of 3rd party software services  are available (e.g., [Twitter](https://twitter.com), [Dropbox](https://www.dropbox.com), [GoogleDocs](https://www.google.com/docs/about)). Use of these solutions allow an adversary to stage, launch, and execute an attack from infrastructure that does not physically tie back to them and can be rapidly provisioned, modified, and shut down. (Citation: LOWBALL2015)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1330).\n\nA wide variety of 3rd party software services  are available (e.g., [Twitter](https://twitter.com), [Dropbox](https://www.dropbox.com), [GoogleDocs](https://www.google.com/docs/about)). Use of these solutions allow an adversary to stage, launch, and execute an attack from infrastructure that does not physically tie back to them and can be rapidly provisioned, modified, and shut down. (Citation: LOWBALL2015)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

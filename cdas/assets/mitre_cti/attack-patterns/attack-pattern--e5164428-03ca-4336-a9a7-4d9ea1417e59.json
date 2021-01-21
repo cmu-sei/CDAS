@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--e5164428-03ca-4336-a9a7-4d9ea1417e59",
     "name": "Acquire or compromise 3rd party signing certificates",
-    "description": "Code signing is the process of digitally signing executables or scripts to confirm the software author and guarantee that the code has not been altered or corrupted. Users may trust a signed piece of code more than an unsigned piece of code even if they don't know who issued the certificate or who the author is. (Citation: Adobe Code Signing Cert)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1310).\n\nCode signing is the process of digitally signing executables or scripts to confirm the software author and guarantee that the code has not been altered or corrupted. Users may trust a signed piece of code more than an unsigned piece of code even if they don't know who issued the certificate or who the author is. (Citation: Adobe Code Signing Cert)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

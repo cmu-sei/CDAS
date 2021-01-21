@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--2011ffeb-8003-41ef-b962-9d1cbfa35e6d",
     "name": "Determine physical locations",
-    "description": "Physical locality information may be used by an adversary to shape social engineering attempts (language, culture, events, weather, etc.) or to plan for physical actions such as dumpster diving or attempting to access a facility. (Citation: RSA-APTRecon)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1282).\n\nPhysical locality information may be used by an adversary to shape social engineering attempts (language, culture, events, weather, etc.) or to plan for physical actions such as dumpster diving or attempting to access a facility. (Citation: RSA-APTRecon)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

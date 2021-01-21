@@ -9,6 +9,16 @@
             "url": "https://attack.mitre.org/techniques/T1083"
         },
         {
+            "external_id": "CAPEC-127",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/127.html"
+        },
+        {
+            "external_id": "CAPEC-497",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/497.html"
+        },
+        {
             "url": "http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html",
             "description": "Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.",
             "source_name": "Windows Commands JPCERT"

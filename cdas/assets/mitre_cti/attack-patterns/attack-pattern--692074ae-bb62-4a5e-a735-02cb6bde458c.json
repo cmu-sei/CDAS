@@ -9,6 +9,11 @@
             "url": "https://attack.mitre.org/techniques/T1110/003"
         },
         {
+            "external_id": "CAPEC-565",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/565.html"
+        },
+        {
             "url": "http://www.blackhillsinfosec.com/?p=4645",
             "description": "Thyer, J. (2015, October 30). Password Spraying & Other Fun with RPCCLIENT. Retrieved April 25, 2017.",
             "source_name": "BlackHillsInfosec Password Spraying"

@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--54a42187-a20c-4e4e-ba31-8d15c9e1f57f",
     "name": "SSL certificate acquisition for trust breaking",
-    "description": "Fake certificates can be acquired by legal process or coercion. Or, an adversary can trick a Certificate Authority into issuing a certificate. These fake certificates can be used as a part of Man-in-the-Middle attacks. (Citation: SubvertSSL)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1338).\n\nFake certificates can be acquired by legal process or coercion. Or, an adversary can trick a Certificate Authority into issuing a certificate. These fake certificates can be used as a part of Man-in-the-Middle attacks. (Citation: SubvertSSL)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

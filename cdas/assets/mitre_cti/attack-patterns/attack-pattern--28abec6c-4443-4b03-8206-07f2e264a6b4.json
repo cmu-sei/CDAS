@@ -1,0 +1,58 @@
+{
+    "id": "attack-pattern--28abec6c-4443-4b03-8206-07f2e264a6b4",
+    "name": "TFTP Boot",
+    "description": "Adversaries may abuse netbooting to load an unauthorized network device operating system from a Trivial File Transfer Protocol (TFTP) server. TFTP boot (netbooting) is commonly used by network administrators to load configuration-controlled network device images from a centralized management server. Netbooting is one option in the boot sequence and can be used to centralize, manage, and control device images.\n\nAdversaries may manipulate the configuration on the network device specifying use of a malicious TFTP server, which may be used in conjunction with [Modify System Image](https://attack.mitre.org/techniques/T1601) to load a modified image on device startup or reset. The unauthorized image allows adversaries to modify device configuration, add malicious capabilities to the device, and introduce backdoors to maintain control of the network device while minimizing detection through use of a standard functionality. This technique is similar to [ROMMONkit](https://attack.mitre.org/techniques/T1542/004) and may result in the network device running a modified image. (Citation: Cisco Blog Legacy Device Attacks)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1542.005",
+            "url": "https://attack.mitre.org/techniques/T1542/005"
+        },
+        {
+            "source_name": "Cisco Blog Legacy Device Attacks",
+            "url": "https://community.cisco.com/t5/security-blogs/attackers-continue-to-target-legacy-devices/ba-p/4169954",
+            "description": "Omar Santos. (2020, October 19). Attackers Continue to Target Legacy Devices. Retrieved October 20, 2020."
+        },
+        {
+            "source_name": "Cisco IOS Software Integrity Assurance - Secure Boot",
+            "url": "https://tools.cisco.com/security/center/resources/integrity_assurance.html#35",
+            "description": "Cisco. (n.d.). Cisco IOS Software Integrity Assurance - Secure Boot. Retrieved October 19, 2020."
+        },
+        {
+            "source_name": "Cisco IOS Software Integrity Assurance - Image File Verification",
+            "url": "https://tools.cisco.com/security/center/resources/integrity_assurance.html#7",
+            "description": "Cisco. (n.d.). Cisco IOS Software Integrity Assurance - Cisco IOS Image File Verification. Retrieved October 19, 2020."
+        },
+        {
+            "source_name": "Cisco IOS Software Integrity Assurance - Run-Time Memory Verification",
+            "url": "https://tools.cisco.com/security/center/resources/integrity_assurance.html#13",
+            "description": "Cisco. (n.d.). Cisco IOS Software Integrity Assurance - Cisco IOS Run-Time Memory Integrity Verification. Retrieved October 19, 2020."
+        },
+        {
+            "source_name": "Cisco IOS Software Integrity Assurance - Command History",
+            "url": "https://tools.cisco.com/security/center/resources/integrity_assurance.html#23",
+            "description": "Cisco. (n.d.). Cisco IOS Software Integrity Assurance - Command History. Retrieved October 21, 2020."
+        },
+        {
+            "source_name": "Cisco IOS Software Integrity Assurance - Boot Information",
+            "url": "https://tools.cisco.com/security/center/resources/integrity_assurance.html#26",
+            "description": "Cisco. (n.d.). Cisco IOS Software Integrity Assurance - Boot Information. Retrieved October 21, 2020."
+        }
+    ],
+    "platforms": [
+        "Network"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        },
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "persistence"
+        }
+    ],
+    "permissions": [
+        "Administrator"
+    ]
+}

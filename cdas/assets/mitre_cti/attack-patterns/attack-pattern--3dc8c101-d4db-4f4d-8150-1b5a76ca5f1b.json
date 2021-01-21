@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--3dc8c101-d4db-4f4d-8150-1b5a76ca5f1b",
+    "name": "Email Accounts",
+    "description": "Before compromising a victim, adversaries may compromise email accounts that can be used during targeting. Adversaries can use compromised email accounts to further their operations, such as leveraging them to conduct [Phishing for Information](https://attack.mitre.org/techniques/T1598) or [Phishing](https://attack.mitre.org/techniques/T1566). Utilizing an existing persona with a compromised email account may engender a level of trust in a potential victim if they have a relationship, or knowledge of, the compromised persona. Compromised email accounts can also be used in the acquisition of infrastructure (ex: [Domains](https://attack.mitre.org/techniques/T1583/001)).\n\nA variety of methods exist for compromising email accounts, such as gathering credentials via [Phishing for Information](https://attack.mitre.org/techniques/T1598), purchasing credentials from third-party sites, or by brute forcing credentials (ex: password reuse from breach credential dumps).(Citation: AnonHBGary) Prior to compromising email accounts, adversaries may conduct Reconnaissance to inform decisions about which accounts to compromise to further their operation.\n\nAdversaries can use a compromised email account to hijack existing email threads with targets of interest.",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1586.002",
+            "url": "https://attack.mitre.org/techniques/T1586/002"
+        },
+        {
+            "source_name": "AnonHBGary",
+            "description": "Bright, P. (2011, February 15). Anonymous speaks: the inside story of the HBGary hack. Retrieved March 9, 2017.",
+            "url": "https://arstechnica.com/tech-policy/2011/02/anonymous-speaks-the-inside-story-of-the-hbgary-hack/"
+        }
+    ],
+    "platforms": [
+        "PRE"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "resource-development"
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--6c79d654-6506-4f33-b48f-c80babdcc52d",
     "name": "Dumpster dive",
-    "description": "Dumpster diving is looking through waste for information on technology, people, and/or organizational items of interest. (Citation: FriedDumpsters)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1286).\n\nDumpster diving is looking through waste for information on technology, people, and/or organizational items of interest. (Citation: FriedDumpsters)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

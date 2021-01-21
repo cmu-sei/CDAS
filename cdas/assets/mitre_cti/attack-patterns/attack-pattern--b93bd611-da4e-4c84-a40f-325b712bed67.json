@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--b93bd611-da4e-4c84-a40f-325b712bed67",
     "name": "Task requirements",
-    "description": "Once divided into the most granular parts, analysts work with collection managers to task the collection management system with requirements and sub-requirements. (Citation: Heffter) (Citation: JP2-01)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1240).\n\nOnce divided into the most granular parts, analysts work with collection managers to task the collection management system with requirements and sub-requirements. (Citation: Heffter) (Citation: JP2-01)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--bbe5b322-e2af-4a5e-9625-a4e62bf84ed3",
+    "name": "Social Media",
+    "description": "Before compromising a victim, adversaries may search social media for information about victims that can be used during targeting. Social media sites may contain various information about a victim organization, such as business announcements as well as information about the roles, locations, and interests of staff.\n\nAdversaries may search in different social media sites depending on what information they seek to gather. Threat actors may passively harvest data from these sites, as well as use information gathered to create fake profiles/groups to elicit victim\u2019s into revealing specific information (i.e. [Spearphishing Service](https://attack.mitre.org/techniques/T1598/001)).(Citation: Cyware Social Media) Information from these sources may reveal opportunities for other forms of reconnaissance (ex: [Phishing for Information](https://attack.mitre.org/techniques/T1598) or [Search Open Technical Databases](https://attack.mitre.org/techniques/T1596)), establishing operational resources (ex: [Establish Accounts](https://attack.mitre.org/techniques/T1585) or [Compromise Accounts](https://attack.mitre.org/techniques/T1586)), and/or initial access (ex: [Spearphishing via Service](https://attack.mitre.org/techniques/T1566/003)).",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1593.001",
+            "url": "https://attack.mitre.org/techniques/T1593/001"
+        },
+        {
+            "source_name": "Cyware Social Media",
+            "url": "https://cyware.com/news/how-hackers-exploit-social-media-to-break-into-your-company-88e8da8e",
+            "description": "Cyware Hacker News. (2019, October 2). How Hackers Exploit Social Media To Break Into Your Company. Retrieved October 20, 2020."
+        }
+    ],
+    "platforms": [
+        "PRE"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "reconnaissance"
+        }
+    ]
+}

@@ -9,9 +9,9 @@
             "url": "https://attack.mitre.org/techniques/T1574/009"
         },
         {
-            "external_id": "CAPEC-capec",
+            "external_id": "CAPEC-38",
             "source_name": "capec",
-            "url": "https://capec.mitre.org/data/definitions/capec.html"
+            "url": "https://capec.mitre.org/data/definitions/38.html"
         },
         {
             "source_name": "Microsoft CurrentControlSet Services",

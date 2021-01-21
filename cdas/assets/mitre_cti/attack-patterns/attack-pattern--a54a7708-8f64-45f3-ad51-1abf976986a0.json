@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--a54a7708-8f64-45f3-ad51-1abf976986a0",
     "name": "Mine technical blogs/forums",
-    "description": "Technical blogs and forums provide a way for technical staff to ask for assistance or troubleshoot problems. In doing so they may reveal information such as operating system (OS), network devices, or applications in use. (Citation: FunAndSun2012)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1257).\n\nTechnical blogs and forums provide a way for technical staff to ask for assistance or troubleshoot problems. In doing so they may reveal information such as operating system (OS), network devices, or applications in use. (Citation: FunAndSun2012)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

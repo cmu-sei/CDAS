@@ -9,6 +9,11 @@
             "url": "https://attack.mitre.org/techniques/T1110/004"
         },
         {
+            "external_id": "CAPEC-600",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/600.html"
+        },
+        {
             "source_name": "US-CERT TA18-068A 2018",
             "url": "https://www.us-cert.gov/ncas/alerts/TA18-086A",
             "description": "US-CERT. (2018, March 27). TA18-068A Brute Force Attacks Conducted by Cyber Actors. Retrieved October 2, 2019."

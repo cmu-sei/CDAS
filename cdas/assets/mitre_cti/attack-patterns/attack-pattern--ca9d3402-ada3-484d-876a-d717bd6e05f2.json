@@ -9,6 +9,11 @@
             "url": "https://attack.mitre.org/techniques/T1090/004"
         },
         {
+            "external_id": "CAPEC-481",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/481.html"
+        },
+        {
             "url": "http://www.icir.org/vern/papers/meek-PETS-2015.pdf",
             "description": "David Fifield, Chang Lan, Rod Hynes, Percy Wegmann, and Vern Paxson. (2015). Blocking-resistant communication through domain fronting. Retrieved November 20, 2017.",
             "source_name": "Fifield Blocking Resistent Communication through domain fronting 2015"

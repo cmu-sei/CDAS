@@ -7,6 +7,11 @@
             "source_name": "mitre-attack",
             "external_id": "T1087",
             "url": "https://attack.mitre.org/techniques/T1087"
+        },
+        {
+            "external_id": "CAPEC-575",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/575.html"
         }
     ],
     "platforms": [

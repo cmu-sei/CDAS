@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--7f2d3da6-7e34-44a3-9e7f-905455339726",
     "name": "Conduct active scanning",
-    "description": "Active scanning is the act of sending transmissions to end nodes, and analyzing the responses, in order to identify information about the communications system. (Citation: RSA-APTRecon)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1254).\n\nActive scanning is the act of sending transmissions to end nodes, and analyzing the responses, in order to identify information about the communications system. (Citation: RSA-APTRecon)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

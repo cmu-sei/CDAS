@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--46017368-6e09-412b-a29c-385be201cc03",
     "name": "Obtain domain/IP registration information",
-    "description": "For a computing resource to be accessible to the public, domain names and IP addresses must be registered with an authorized organization. (Citation: Google Domains WHOIS) (Citation: FunAndSun2012) (Citation: Scasny2015)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1251).\n\nFor a computing resource to be accessible to the public, domain names and IP addresses must be registered with an authorized organization. (Citation: Google Domains WHOIS) (Citation: FunAndSun2012) (Citation: Scasny2015)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

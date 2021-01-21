@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--a1e8d61b-22e1-4983-8485-96420152ecd8",
     "name": "Analyze hardware/software security defensive capabilities",
-    "description": "An adversary can probe a victim's network to determine configurations. The configurations may provide opportunities to route traffic through the network in an undetected or less detectable way. (Citation: OSFingerprinting2014)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1294).\n\nAn adversary can probe a victim's network to determine configurations. The configurations may provide opportunities to route traffic through the network in an undetected or less detectable way. (Citation: OSFingerprinting2014)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

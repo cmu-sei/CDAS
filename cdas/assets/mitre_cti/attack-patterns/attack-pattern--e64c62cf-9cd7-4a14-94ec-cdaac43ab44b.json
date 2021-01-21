@@ -9,9 +9,9 @@
             "url": "https://attack.mitre.org/techniques/T1574/002"
         },
         {
-            "external_id": "CAPEC-capec",
+            "external_id": "CAPEC-641",
             "source_name": "capec",
-            "url": "https://capec.mitre.org/data/definitions/capec.html"
+            "url": "https://capec.mitre.org/data/definitions/641.html"
         },
         {
             "source_name": "About Side by Side Assemblies",

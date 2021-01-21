@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--d2c4206a-a431-4494-834d-52944a79e9f4",
     "name": "Distribute malicious software development tools",
-    "description": "An adversary could distribute malicious software development tools (e.g., compiler) that hide malicious behavior in software built using the tools. (Citation: PA XcodeGhost) (Citation: Reflections on Trusting Trust)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1394).\n\nAn adversary could distribute malicious software development tools (e.g., compiler) that hide malicious behavior in software built using the tools. (Citation: PA XcodeGhost) (Citation: Reflections on Trusting Trust)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

@@ -9,6 +9,11 @@
             "url": "https://attack.mitre.org/techniques/T1078/002"
         },
         {
+            "external_id": "CAPEC-560",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/560.html"
+        },
+        {
             "url": "https://technet.microsoft.com/en-us/library/dn535501.aspx",
             "description": "Microsoft. (2016, April 15). Attractive Accounts for Credential Theft. Retrieved June 3, 2016.",
             "source_name": "TechNet Credential Theft"

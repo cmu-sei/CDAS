@@ -1,0 +1,39 @@
+{
+    "id": "attack-pattern--0ad7bc5c-235a-4048-944b-3b286676cb74",
+    "name": "Data from Configuration Repository",
+    "description": "Adversaries may collect data related to managed devices from configuration repositories. Configuration repositories are used by management systems in order to configure, manage, and control data on remote systems. Configuration repositories may also facilitate remote access and administration of devices.\n\nAdversaries may target these repositories in order to collect large quantities of sensitive system administration data. Data from configuration repositories may be exposed by various protocols and software and can store a wide variety of data, much of which may align with adversary Discovery objectives.(Citation: US-CERT-TA18-106A)(Citation: US-CERT TA17-156A SNMP Abuse 2017)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1602",
+            "url": "https://attack.mitre.org/techniques/T1602"
+        },
+        {
+            "source_name": "US-CERT-TA18-106A",
+            "url": "https://www.us-cert.gov/ncas/alerts/TA18-106A",
+            "description": "US-CERT. (2018, April 20). Alert (TA18-106A) Russian State-Sponsored Cyber Actors Targeting Network Infrastructure Devices. Retrieved October 19, 2020."
+        },
+        {
+            "source_name": "US-CERT TA17-156A SNMP Abuse 2017",
+            "url": "https://us-cert.cisa.gov/ncas/alerts/TA17-156A",
+            "description": "US-CERT. (2017, June 5). Reducing the Risk of SNMP Abuse. Retrieved October 19, 2020."
+        },
+        {
+            "source_name": "Cisco Advisory SNMP v3 Authentication Vulnerabilities",
+            "url": "https://tools.cisco.com/security/center/content/CiscoAppliedMitigationBulletin/cisco-amb-20080610-SNMPv3",
+            "description": "Cisco. (2008, June 10). Identifying and Mitigating Exploitation of the SNMP Version 3 Authentication Vulnerabilities. Retrieved October 19, 2020."
+        }
+    ],
+    "platforms": [
+        "Network"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "collection"
+        }
+    ],
+    "permissions": [
+        "Administrator"
+    ]
+}

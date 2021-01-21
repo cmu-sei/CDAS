@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--7a265bf0-6acc-4f43-8b22-2e58b443e62e",
     "name": "Choose pre-compromised mobile app developer account credentials or signing keys",
-    "description": "The adversary can use account credentials or signing keys of an existing mobile app developer to publish malicious updates of existing mobile apps to an application store, or to abuse the developer's identity and reputation to publish new malicious apps.  Many mobile devices are configured to automatically install new versions of already-installed apps. (Citation: Fraudenlent Apps Stolen Dev Credentials)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1391).\n\nThe adversary can use account credentials or signing keys of an existing mobile app developer to publish malicious updates of existing mobile apps to an application store, or to abuse the developer's identity and reputation to publish new malicious apps.  Many mobile devices are configured to automatically install new versions of already-installed apps. (Citation: Fraudenlent Apps Stolen Dev Credentials)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

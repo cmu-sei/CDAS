@@ -27,7 +27,8 @@
     "platforms": [
         "Windows",
         "Linux",
-        "macOS"
+        "macOS",
+        "Network"
     ],
     "kill_chain": [
         {

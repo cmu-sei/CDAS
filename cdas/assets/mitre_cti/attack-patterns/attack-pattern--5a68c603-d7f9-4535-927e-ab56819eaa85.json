@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--5a68c603-d7f9-4535-927e-ab56819eaa85",
     "name": "Compromise 3rd party or closed-source vulnerability/exploit information",
-    "description": "There is usually a delay between when a vulnerability or exploit is discovered and when it is made public. An adversary may target the systems of those known to research vulnerabilities in order to gain that knowledge for use during a different attack. (Citation: TempertonDarkHotel)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1354).\n\nThere is usually a delay between when a vulnerability or exploit is discovered and when it is made public. An adversary may target the systems of those known to research vulnerabilities in order to gain that knowledge for use during a different attack. (Citation: TempertonDarkHotel)",
     "references": [
         {
             "source_name": "mitre-pre-attack",
@@ -10,7 +10,8 @@
         },
         {
             "source_name": "TempertonDarkHotel",
-            "description": "JAMES TEMPERTON. (2015, August 10). Hacking Team zero-day used in new Darkhotel attacks. Retrieved March 9, 2017."
+            "description": "Temperton, J. (2015, August 10). Hacking Team zero-day used in new Darkhotel attacks. Retrieved March 9, 2017.",
+            "url": "https://www.wired.co.uk/article/darkhotel-hacking-team-cyber-espionage"
         }
     ],
     "kill_chain": [

@@ -1,0 +1,34 @@
+{
+    "id": "attack-pattern--1f9012ef-1e10-4e48-915e-e03563435fe8",
+    "name": "Weaken Encryption",
+    "description": "Adversaries may compromise a network device\u2019s encryption capability in order to bypass encryption that would otherwise protect data communications. (Citation: Cisco Synful Knock Evolution)\n\nEncryption can be used to protect transmitted network traffic to maintain its confidentiality (protect against unauthorized disclosure) and integrity (protect against unauthorized changes). Encryption ciphers are used to convert a plaintext message to ciphertext and can be computationally intensive to decipher without the associated decryption key. Typically, longer keys increase the cost of cryptanalysis, or decryption without the key.\n\nAdversaries can compromise and manipulate devices that perform encryption of network traffic. For example, through behaviors such as [Modify System Image](https://attack.mitre.org/techniques/T1601), [Reduce Key Space](https://attack.mitre.org/techniques/T1600/001), and [Disable Crypto Hardware](https://attack.mitre.org/techniques/T1600/002), an adversary can negatively effect and/or eliminate a device\u2019s ability to securely encrypt network traffic. This poses a greater risk of unauthorized disclosure and may help facilitate data manipulation, Credential Access, or Collection efforts. (Citation: Cisco Blog Legacy Device Attacks)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1600",
+            "url": "https://attack.mitre.org/techniques/T1600"
+        },
+        {
+            "source_name": "Cisco Synful Knock Evolution",
+            "url": "https://blogs.cisco.com/security/evolution-of-attacks-on-cisco-ios-devices",
+            "description": "Graham Holmes. (2015, October 8). Evolution of attacks on Cisco IOS devices. Retrieved October 19, 2020."
+        },
+        {
+            "source_name": "Cisco Blog Legacy Device Attacks",
+            "url": "https://community.cisco.com/t5/security-blogs/attackers-continue-to-target-legacy-devices/ba-p/4169954",
+            "description": "Omar Santos. (2020, October 19). Attackers Continue to Target Legacy Devices. Retrieved October 20, 2020."
+        }
+    ],
+    "platforms": [
+        "Network"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        }
+    ],
+    "permissions": [
+        "Administrator"
+    ]
+}

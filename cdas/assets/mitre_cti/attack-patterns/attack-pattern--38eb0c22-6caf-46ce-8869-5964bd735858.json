@@ -9,6 +9,21 @@
             "url": "https://attack.mitre.org/techniques/T1499/002"
         },
         {
+            "external_id": "CAPEC-488",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/488.html"
+        },
+        {
+            "external_id": "CAPEC-489",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/489.html"
+        },
+        {
+            "external_id": "CAPEC-528",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/528.html"
+        },
+        {
             "source_name": "Arbor AnnualDoSreport Jan 2018",
             "url": "https://pages.arbornetworks.com/rs/082-KNA-087/images/13th_Worldwide_Infrastructure_Security_Report.pdf",
             "description": "Philippe Alcoy, Steinthor Bjarnason, Paul Bowen, C.F. Chui, Kirill Kasavchnko, and Gary Sockrider of Netscout Arbor. (2018, January). Insight into the Global Threat Landscape - Netscout Arbor's 13th Annual Worldwide Infrastructure Security Report. Retrieved April 22, 2019."

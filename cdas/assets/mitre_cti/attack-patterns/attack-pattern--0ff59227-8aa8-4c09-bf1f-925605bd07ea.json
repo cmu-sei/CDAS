@@ -1,0 +1,31 @@
+{
+    "id": "attack-pattern--0ff59227-8aa8-4c09-bf1f-925605bd07ea",
+    "name": "DNS",
+    "description": "Before compromising a victim, adversaries may gather information about the victim's DNS that can be used during targeting. DNS information may include a variety of details, including registered name servers as well as records that outline addressing for a target\u2019s subdomains, mail servers, and other hosts.\n\nAdversaries may gather this information in various ways, such as querying or otherwise collecting details via [DNS/Passive DNS](https://attack.mitre.org/techniques/T1596/001). DNS information may also be exposed to adversaries via online or other accessible data sets (ex: [Search Open Technical Databases](https://attack.mitre.org/techniques/T1596)).(Citation: DNS Dumpster)(Citation: Circl Passive DNS) Gathering this information may reveal opportunities for other forms of reconnaissance (ex: [Search Open Technical Databases](https://attack.mitre.org/techniques/T1596), [Search Open Websites/Domains](https://attack.mitre.org/techniques/T1593), or [Active Scanning](https://attack.mitre.org/techniques/T1595)), establishing operational resources (ex: [Acquire Infrastructure](https://attack.mitre.org/techniques/T1583) or [Compromise Infrastructure](https://attack.mitre.org/techniques/T1584)), and/or initial access (ex: [External Remote Services](https://attack.mitre.org/techniques/T1133)).",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1590.002",
+            "url": "https://attack.mitre.org/techniques/T1590/002"
+        },
+        {
+            "source_name": "DNS Dumpster",
+            "url": "https://dnsdumpster.com/",
+            "description": "Hacker Target. (n.d.). DNS Dumpster. Retrieved October 20, 2020."
+        },
+        {
+            "source_name": "Circl Passive DNS",
+            "url": "https://www.circl.lu/services/passive-dns/",
+            "description": "CIRCL Computer Incident Response Center. (n.d.). Passive DNS. Retrieved October 20, 2020."
+        }
+    ],
+    "platforms": [
+        "PRE"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "reconnaissance"
+        }
+    ]
+}

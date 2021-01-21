@@ -9,6 +9,11 @@
             "url": "https://attack.mitre.org/techniques/T1078/001"
         },
         {
+            "external_id": "CAPEC-70",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/70.html"
+        },
+        {
             "source_name": "Microsoft Local Accounts Feb 2019",
             "url": "https://docs.microsoft.com/en-us/windows/security/identity-protection/access-control/local-accounts",
             "description": "Microsoft. (2018, December 9). Local Accounts. Retrieved February 11, 2019."

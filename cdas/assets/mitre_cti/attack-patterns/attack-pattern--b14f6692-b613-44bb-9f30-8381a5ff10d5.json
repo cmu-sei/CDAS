@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--b14f6692-b613-44bb-9f30-8381a5ff10d5",
     "name": "Proxy/protocol relays",
-    "description": "Proxies act as an intermediary for clients seeking resources from other systems. Using a proxy may make it more difficult to track back the origin of a network communication. (Citation: APT1)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1304).\n\nProxies act as an intermediary for clients seeking resources from other systems. Using a proxy may make it more difficult to track back the origin of a network communication. (Citation: APT1)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

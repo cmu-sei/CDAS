@@ -9,9 +9,9 @@
             "url": "https://attack.mitre.org/techniques/T1574/010"
         },
         {
-            "external_id": "CAPEC-CAPEC",
+            "external_id": "CAPEC-17",
             "source_name": "capec",
-            "url": "https://capec.mitre.org/data/definitions/CAPEC.html"
+            "url": "https://capec.mitre.org/data/definitions/17.html"
         }
     ],
     "platforms": [

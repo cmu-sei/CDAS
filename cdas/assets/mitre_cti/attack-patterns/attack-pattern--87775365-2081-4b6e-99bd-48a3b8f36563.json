@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--87775365-2081-4b6e-99bd-48a3b8f36563",
     "name": "Analyze architecture and configuration posture",
-    "description": "An adversary may analyze technical scanning results to identify weaknesses in the configuration or architecture of a victim network. These weaknesses could include  architectural flaws, misconfigurations, or improper security controls. (Citation: FireEyeAPT28)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1288).\n\nAn adversary may analyze technical scanning results to identify weaknesses in the configuration or architecture of a victim network. These weaknesses could include  architectural flaws, misconfigurations, or improper security controls. (Citation: FireEyeAPT28)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

@@ -1,0 +1,31 @@
+{
+    "id": "attack-pattern--67073dde-d720-45ae-83da-b12d5e73ca3b",
+    "name": "Active Scanning",
+    "description": "Before compromising a victim, adversaries may execute active reconnaissance scans to gather information that can be used during targeting. Active scans are those where the adversary probes victim infrastructure via network traffic, as opposed to other forms of reconnaissance that do not involve direct interaction.\n\nAdversaries may perform different forms of active scanning depending on what information they seek to gather. These scans can also be performed in various ways, including using native features of network protocols such as ICMP.(Citation: Botnet Scan)(Citation: OWASP Fingerprinting) Information from these scans may reveal opportunities for other forms of reconnaissance (ex: [Search Open Websites/Domains](https://attack.mitre.org/techniques/T1593) or [Search Open Technical Databases](https://attack.mitre.org/techniques/T1596)), establishing operational resources (ex: [Develop Capabilities](https://attack.mitre.org/techniques/T1587) or [Obtain Capabilities](https://attack.mitre.org/techniques/T1588)), and/or initial access (ex: [External Remote Services](https://attack.mitre.org/techniques/T1133) or [Exploit Public-Facing Application](https://attack.mitre.org/techniques/T1190)).",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1595",
+            "url": "https://attack.mitre.org/techniques/T1595"
+        },
+        {
+            "source_name": "Botnet Scan",
+            "url": "https://www.caida.org/publications/papers/2012/analysis_slash_zero/analysis_slash_zero.pdf",
+            "description": "Dainotti, A. et al. (2012). Analysis of a \u201c/0\u201d Stealth Scan from a Botnet. Retrieved October 20, 2020."
+        },
+        {
+            "source_name": "OWASP Fingerprinting",
+            "url": "https://wiki.owasp.org/index.php/OAT-004_Fingerprinting",
+            "description": "OWASP Wiki. (2018, February 16). OAT-004 Fingerprinting. Retrieved October 20, 2020."
+        }
+    ],
+    "platforms": [
+        "PRE"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "reconnaissance"
+        }
+    ]
+}

@@ -11,8 +11,7 @@
         "infrastructure-operator", "sponsor"
     ],
     "threat-actor-sophistication": [
-        "minimal", "intermediate", "advanced", "expert", "innovator",
-        "strategic"
+        "strategic", "innovator", "expert", "advanced", "intermediate", "minimal" 
     ],
     "threat-actor-type": {
         "activist":0.1,

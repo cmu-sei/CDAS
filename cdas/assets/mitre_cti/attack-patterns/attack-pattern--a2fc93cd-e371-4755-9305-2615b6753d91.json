@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--a2fc93cd-e371-4755-9305-2615b6753d91",
     "name": "Determine external network trust dependencies",
-    "description": "Network trusts enable communications between different networks with specific accesses and permissions. Network trusts could include the implementation of domain trusts or the use of virtual private networks (VPNs). (Citation: CuckoosEgg) (Citation: CuckoosEggWikipedia) (Citation: KGBComputerMe)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1259).\n\nNetwork trusts enable communications between different networks with specific accesses and permissions. Network trusts could include the implementation of domain trusts or the use of virtual private networks (VPNs). (Citation: CuckoosEgg) (Citation: CuckoosEggWikipedia) (Citation: KGBComputerMe)",
     "references": [
         {
             "external_id": "T1259",

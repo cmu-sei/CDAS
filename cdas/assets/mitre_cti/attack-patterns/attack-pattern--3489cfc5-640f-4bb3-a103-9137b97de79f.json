@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",
     "name": "Network Share Discovery",
-    "description": "Adversaries may look for folders and drives shared on remote systems as a means of identifying sources of information to gather as a precursor for Collection and to identify potential systems of interest for Lateral Movement. Networks often contain shared network drives and folders that enable users to access file directories on various systems across a network. \n\nFile sharing over a Windows network occurs over the SMB protocol. (Citation: Wikipedia Shared Resource) (Citation: TechNet Shared Folder) [Net](https://attack.mitre.org/software/S0039) can be used to query a remote system for available shared drives using the <code>net view \\\\remotesystem</code> command. It can also be used to query shared drives on the local system using <code>net share</code>.\n\nCloud virtual networks may contain remote network shares or file storage services accessible to an adversary after they have obtained access to a system. For example, AWS, GCP, and Azure support creation of Network File System (NFS) shares and Server Message Block (SMB) shares that may be mapped on endpoint or cloud-based systems.(Citation: Amazon Creating an NFS File Share)(Citation: Google File servers on Compute Engine)",
+    "description": "Adversaries may look for folders and drives shared on remote systems as a means of identifying sources of information to gather as a precursor for Collection and to identify potential systems of interest for Lateral Movement. Networks often contain shared network drives and folders that enable users to access file directories on various systems across a network. \n\nFile sharing over a Windows network occurs over the SMB protocol. (Citation: Wikipedia Shared Resource) (Citation: TechNet Shared Folder) [Net](https://attack.mitre.org/software/S0039) can be used to query a remote system for available shared drives using the <code>net view \\\\remotesystem</code> command. It can also be used to query shared drives on the local system using <code>net share</code>.",
     "references": [
         {
             "source_name": "mitre-attack",
@@ -22,24 +22,11 @@
             "url": "https://technet.microsoft.com/library/cc770880.aspx",
             "description": "Microsoft. (n.d.). Share a Folder or Drive. Retrieved June 30, 2017.",
             "source_name": "TechNet Shared Folder"
-        },
-        {
-            "source_name": "Amazon Creating an NFS File Share",
-            "url": "https://docs.aws.amazon.com/storagegateway/latest/userguide/CreatingAnNFSFileShare.html",
-            "description": "Amazon. (n.d.). Creating an NFS File Share. Retrieved October 23, 2019."
-        },
-        {
-            "source_name": "Google File servers on Compute Engine",
-            "url": "https://cloud.google.com/solutions/filers-on-compute-engine",
-            "description": "Google Cloud. (2019, October 10). File servers on Compute Engine. Retrieved October 23, 2019."
         }
     ],
     "platforms": [
         "macOS",
         "Windows",
-        "AWS",
-        "GCP",
-        "Azure",
         "Linux"
     ],
     "kill_chain": [

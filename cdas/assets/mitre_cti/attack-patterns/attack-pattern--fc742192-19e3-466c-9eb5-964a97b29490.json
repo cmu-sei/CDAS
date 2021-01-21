@@ -9,9 +9,9 @@
             "url": "https://attack.mitre.org/techniques/T1574/004"
         },
         {
-            "external_id": "CAPEC-CAPEC",
+            "external_id": "CAPEC-471",
             "source_name": "capec",
-            "url": "https://capec.mitre.org/data/definitions/CAPEC.html"
+            "url": "https://capec.mitre.org/data/definitions/471.html"
         },
         {
             "url": "https://www.blackhat.com/docs/us-15/materials/us-15-Wardle-Writing-Bad-A-Malware-For-OS-X.pdf",

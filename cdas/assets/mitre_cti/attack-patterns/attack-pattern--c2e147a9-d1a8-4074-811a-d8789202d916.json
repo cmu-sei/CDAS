@@ -9,6 +9,11 @@
             "url": "https://attack.mitre.org/techniques/T1027/003"
         },
         {
+            "external_id": "CAPEC-636",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/636.html"
+        },
+        {
             "url": "https://en.wikipedia.org/wiki/Duqu",
             "description": "Wikipedia. (2017, December 29). Duqu. Retrieved April 10, 2018.",
             "source_name": "Wikipedia Duqu"

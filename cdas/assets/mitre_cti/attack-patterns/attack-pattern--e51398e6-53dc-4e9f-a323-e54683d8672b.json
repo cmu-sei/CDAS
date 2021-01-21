@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--e51398e6-53dc-4e9f-a323-e54683d8672b",
     "name": "Compromise 3rd party infrastructure to support delivery",
-    "description": "Instead of buying, leasing, or renting infrastructure an adversary may compromise infrastructure and use it for some or all of the attack cycle. (Citation: WateringHole2014) (Citation: FireEye Operation SnowMan)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1334).\n\nInstead of buying, leasing, or renting infrastructure an adversary may compromise infrastructure and use it for some or all of the attack cycle. (Citation: WateringHole2014) (Citation: FireEye Operation SnowMan)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

@@ -9,6 +9,11 @@
             "url": "https://attack.mitre.org/techniques/T1558"
         },
         {
+            "external_id": "CAPEC-652",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/652.html"
+        },
+        {
             "source_name": "ADSecurity Kerberos Ring Decoder",
             "url": "https://adsecurity.org/?p=227",
             "description": "Sean Metcalf. (2014, September 12). Kerberos, Active Directory\u2019s Secret Decoder Ring. Retrieved February 27, 2020."

@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--cc0faf66-4df2-4328-9c9c-b0ca5de915ad",
     "name": "Secure and protect infrastructure",
-    "description": "An adversary may secure and protect their infrastructure just as defenders do. This could include the use of VPNs, security software, logging and monitoring, passwords, or other defensive measures. (Citation: KrebsTerracottaVPN)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1317).\n\nAn adversary may secure and protect their infrastructure just as defenders do. This could include the use of VPNs, security software, logging and monitoring, passwords, or other defensive measures. (Citation: KrebsTerracottaVPN)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

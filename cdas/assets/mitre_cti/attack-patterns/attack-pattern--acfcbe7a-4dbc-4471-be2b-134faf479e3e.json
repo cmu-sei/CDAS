@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--acfcbe7a-4dbc-4471-be2b-134faf479e3e",
     "name": "Receive KITs/KIQs and determine requirements",
-    "description": "Applicable agencies and/or personnel receive intelligence requirements and evaluate them to determine sub-requirements related to topics, questions, or requirements.  For example, an adversary's  nuclear energy requirements may be further divided into nuclear facilities versus nuclear warhead capabilities. (Citation: AnalystsAndPolicymaking)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1239).\n\nApplicable agencies and/or personnel receive intelligence requirements and evaluate them to determine sub-requirements related to topics, questions, or requirements.  For example, an adversary's  nuclear energy requirements may be further divided into nuclear facilities versus nuclear warhead capabilities. (Citation: AnalystsAndPolicymaking)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

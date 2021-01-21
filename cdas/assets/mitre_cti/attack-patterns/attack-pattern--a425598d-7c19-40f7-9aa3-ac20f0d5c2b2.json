@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--a425598d-7c19-40f7-9aa3-ac20f0d5c2b2",
     "name": "Create backup infrastructure",
-    "description": "Backup infrastructure allows an adversary to recover from environmental and system failures. It also facilitates recovery or movement to other infrastructure if the primary infrastructure is discovered or otherwise is no longer viable. (Citation: LUCKYCAT2012)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1339).\n\nBackup infrastructure allows an adversary to recover from environmental and system failures. It also facilitates recovery or movement to other infrastructure if the primary infrastructure is discovered or otherwise is no longer viable. (Citation: LUCKYCAT2012)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

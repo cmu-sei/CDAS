@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--16cdd21f-da65-4e4f-bc04-dd7d198c7b26",
+    "name": "Search Victim-Owned Websites",
+    "description": "Before compromising a victim, adversaries may search websites owned by the victim for information that can be used during targeting. Victim-owned websites may contain a variety of details, including names of departments/divisions, physical locations, and data about key employees such as names, roles, and contact info (ex: [Email Addresses](https://attack.mitre.org/techniques/T1589/002)). These sites may also have details highlighting business operations and relationships.(Citation: Comparitech Leak)\n\nAdversaries may search victim-owned websites to gather actionable information. Information from these sources may reveal opportunities for other forms of reconnaissance (ex: [Phishing for Information](https://attack.mitre.org/techniques/T1598) or [Search Open Technical Databases](https://attack.mitre.org/techniques/T1596)), establishing operational resources (ex: [Establish Accounts](https://attack.mitre.org/techniques/T1585) or [Compromise Accounts](https://attack.mitre.org/techniques/T1586)), and/or initial access (ex: [Trusted Relationship](https://attack.mitre.org/techniques/T1199) or [Phishing](https://attack.mitre.org/techniques/T1566)).",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1594",
+            "url": "https://attack.mitre.org/techniques/T1594"
+        },
+        {
+            "source_name": "Comparitech Leak",
+            "url": "https://www.comparitech.com/blog/vpn-privacy/350-million-customer-records-exposed-online/",
+            "description": "Bischoff, P. (2020, October 15). Broadvoice database of more than 350 million customer records exposed online. Retrieved October 20, 2020."
+        }
+    ],
+    "platforms": [
+        "PRE"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "reconnaissance"
+        }
+    ]
+}

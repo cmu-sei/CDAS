@@ -9,6 +9,16 @@
             "url": "https://attack.mitre.org/techniques/T1498/001"
         },
         {
+            "external_id": "CAPEC-125",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/125.html"
+        },
+        {
+            "external_id": "CAPEC-486",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/486.html"
+        },
+        {
             "source_name": "USNYAG IranianBotnet March 2016",
             "url": "https://www.justice.gov/opa/pr/seven-iranians-working-islamic-revolutionary-guard-corps-affiliated-entities-charged",
             "description": "Preet Bharara, US Attorney. (2016, March 24). Retrieved April 23, 2019."

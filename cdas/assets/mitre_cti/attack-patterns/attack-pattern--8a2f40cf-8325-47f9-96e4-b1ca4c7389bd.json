@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--8a2f40cf-8325-47f9-96e4-b1ca4c7389bd",
-    "name": "Additional Azure Service Principal Credentials",
-    "description": "Adversaries may add adversary-controlled credentials for Azure Service Principals in addition to existing legitimate credentials(Citation: Create Azure Service Principal) to maintain persistent access to victim Azure accounts.(Citation: Blue Cloud of Death)(Citation: Blue Cloud of Death Video) Azure Service Principals support both password and certificate credentials.(Citation: Why AAD Service Principals) With sufficient permissions, there are a variety of ways to add credentials including the Azure Portal, Azure command line interface, and Azure or Az [PowerShell](https://attack.mitre.org/techniques/T1059/001) modules.(Citation: Demystifying Azure AD Service Principals)",
+    "name": "Additional Cloud Credentials",
+    "description": "Adversaries may add adversary-controlled credentials to a cloud account to maintain persistent access to victim accounts and instances within the environment.\n\nAdversaries may add credentials for Azure Service Principals in addition to existing legitimate credentials(Citation: Create Azure Service Principal) to victim Azure accounts.(Citation: Blue Cloud of Death)(Citation: Blue Cloud of Death Video) Azure Service Principals support both password and certificate credentials.(Citation: Why AAD Service Principals) With sufficient permissions, there are a variety of ways to add credentials including the Azure Portal, Azure command line interface, and Azure or Az [PowerShell](https://attack.mitre.org/techniques/T1059/001) modules.(Citation: Demystifying Azure AD Service Principals)\n\nAfter gaining access through [Cloud Accounts](https://attack.mitre.org/techniques/T1078/004), adversaries may generate or import their own SSH keys using either the <code>CreateKeyPair</code> or <code>ImportKeyPair</code> API in AWS or the <code>gcloud compute os-login ssh-keys add</code> command in GCP.(Citation: GCP SSH Key Add) This allows persistent access to instances within the cloud environment without further usage of the compromised cloud accounts.(Citation: Expel IO Evil in AWS)(Citation: Expel Behind the Scenes)",
     "references": [
         {
             "source_name": "mitre-attack",
@@ -32,11 +32,28 @@
             "source_name": "Demystifying Azure AD Service Principals",
             "url": "https://nedinthecloud.com/2019/07/16/demystifying-azure-ad-service-principals/",
             "description": "Bellavance, Ned. (2019, July 16). Demystifying Azure AD Service Principals. Retrieved January 19, 2020."
+        },
+        {
+            "source_name": "GCP SSH Key Add",
+            "url": "https://cloud.google.com/sdk/gcloud/reference/compute/os-login/ssh-keys/add",
+            "description": "Google. (n.d.). gcloud compute os-login ssh-keys add. Retrieved October 1, 2020."
+        },
+        {
+            "source_name": "Expel IO Evil in AWS",
+            "url": "https://expel.io/blog/finding-evil-in-aws/",
+            "description": "A. Randazzo, B. Manahan and S. Lipton. (2020, April 28). Finding Evil in AWS. Retrieved June 25, 2020."
+        },
+        {
+            "source_name": "Expel Behind the Scenes",
+            "url": "https://expel.io/blog/behind-the-scenes-expel-soc-alert-aws/",
+            "description": "S. Lipton, L. Easterly, A. Randazzo and J. Hencinski. (2020, July 28). Behind the scenes in the Expel SOC: Alert-to-fix in AWS. Retrieved October 1, 2020."
         }
     ],
     "platforms": [
         "Azure AD",
-        "Azure"
+        "Azure",
+        "AWS",
+        "GCP"
     ],
     "kill_chain": [
         {
@@ -45,6 +62,7 @@
         }
     ],
     "permissions": [
-        "Administrator"
+        "Administrator",
+        "User"
     ]
 }

@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--31a57c70-6709-4d06-a473-c3df1f74c1d4",
     "name": "Assess security posture of physical locations",
-    "description": "Physical access may be required for certain types of adversarial actions. (Citation: CyberPhysicalAssessment) (Citation: CriticalInfrastructureAssessment)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1302).\n\nPhysical access may be required for certain types of adversarial actions. (Citation: CyberPhysicalAssessment) (Citation: CriticalInfrastructureAssessment)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

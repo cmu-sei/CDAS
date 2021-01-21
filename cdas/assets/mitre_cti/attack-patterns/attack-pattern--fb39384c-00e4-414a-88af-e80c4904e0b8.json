@@ -9,8 +9,9 @@
             "url": "https://attack.mitre.org/techniques/T1385"
         },
         {
-            "description": "PETER BRIGHT. (2011, February 15). Anonymous speaks: the inside story of the HBGary hack. Retrieved March 9, 2017.",
-            "source_name": "AnonHBGary"
+            "source_name": "AnonHBGary",
+            "description": "Bright, P. (2011, February 15). Anonymous speaks: the inside story of the HBGary hack. Retrieved March 9, 2017.",
+            "url": "https://arstechnica.com/tech-policy/2011/02/anonymous-speaks-the-inside-story-of-the-hbgary-hack/"
         },
         {
             "description": "Taylor Armerding. (2012, October 25). Line blurs between insider, outsider attacks. Retrieved March 9, 2017.",

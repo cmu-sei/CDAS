@@ -4,18 +4,24 @@ from setuptools import setup
 HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text(encoding="utf8")
 LICENSE = (HERE / "LICENSE.md").read_text(encoding="utf8")
+DESCRIPTION = ("Cybersecurity Decision Analysis Simulator (CDAS) details "
+    "available on GitHub (https://github.com/cmu-sei/CDAS)")
 
 setup(
     name="cdas",
-    version="0.0.2",
-    description="Cybersecurity Decision Analysis Simulator",
-    long_description=README,
-    long_description_content_type="text/markdown",
+    version="0.0.5",
+    description="Cybersecurity Decision Analysis Simulator (CDAS)",
+    long_description=DESCRIPTION,
+    #long_description_content_type="text/markdown",
+    author="Carnegie Mellon University",
+    url="https://github.com/cmu-sei/CDAS",
     license=LICENSE,
+    platforms=['any'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9"
     ],
     packages=["cdas"],
     include_package_data=True,
@@ -33,7 +39,11 @@ setup(
             'assets/mitre_cti/tools/*'
         ]
     },
-    install_requires=["numpy", "reportlab", "drawSVG"],
+    install_requires=[
+        "numpy",
+        "reportlab",
+        "drawSVG==1.6.0",
+        "cyberdem"],
     entry_points={
         "console_scripts": [
             "cdas=cdas.__main__:main",

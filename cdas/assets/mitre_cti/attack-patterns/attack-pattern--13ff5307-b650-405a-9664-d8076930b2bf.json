@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--13ff5307-b650-405a-9664-d8076930b2bf",
     "name": "Port redirector",
-    "description": "Redirecting a communication request from one address and port number combination to another. May be set up to obfuscate the final location of communications that will occur in later stages of an attack. (Citation: SecureWorks HTRAN Analysis)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1363).\n\nRedirecting a communication request from one address and port number combination to another. May be set up to obfuscate the final location of communications that will occur in later stages of an attack. (Citation: SecureWorks HTRAN Analysis)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--c860af4a-376e-46d7-afbf-262c41012227",
     "name": "Determine operational element",
-    "description": "If going from strategic down to tactical or vice versa, an  adversary would next consider the operational element.  For example, the specific company within an industry or agency within a government. (Citation: CyberAdversaryBehavior) (Citation: JP3-60) (Citation: JP3-12R) (Citation: DoD Cyber 2015)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1242).\n\nIf going from strategic down to tactical or vice versa, an  adversary would next consider the operational element.  For example, the specific company within an industry or agency within a government. (Citation: CyberAdversaryBehavior) (Citation: JP3-60) (Citation: JP3-12R) (Citation: DoD Cyber 2015)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

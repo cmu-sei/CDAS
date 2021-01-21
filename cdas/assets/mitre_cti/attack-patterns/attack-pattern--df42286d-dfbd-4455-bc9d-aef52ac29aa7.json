@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--df42286d-dfbd-4455-bc9d-aef52ac29aa7",
     "name": "Post compromise tool development",
-    "description": "After compromise, an adversary may utilize additional tools to facilitate their end goals. This may include tools to further explore the system, move laterally within a network, exfiltrate data, or destroy data. (Citation: SofacyHits)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1353).\n\nAfter compromise, an adversary may utilize additional tools to facilitate their end goals. This may include tools to further explore the system, move laterally within a network, exfiltrate data, or destroy data. (Citation: SofacyHits)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

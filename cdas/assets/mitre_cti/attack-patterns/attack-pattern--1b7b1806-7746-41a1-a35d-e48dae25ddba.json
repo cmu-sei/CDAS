@@ -9,6 +9,11 @@
             "url": "https://attack.mitre.org/techniques/T1542/003"
         },
         {
+            "external_id": "CAPEC-552",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/552.html"
+        },
+        {
             "source_name": "Mandiant M Trends 2016",
             "url": "https://www.fireeye.com/content/dam/fireeye-www/current-threats/pdfs/rpt-mtrends-2016.pdf",
             "description": "Mandiant. (2016, February 25). Mandiant M-Trends 2016. Retrieved March 5, 2019."

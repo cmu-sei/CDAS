@@ -9,6 +9,11 @@
             "url": "https://attack.mitre.org/techniques/T1498/002"
         },
         {
+            "external_id": "CAPEC-490",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/490.html"
+        },
+        {
             "source_name": "Cloudflare ReflectionDoS May 2017",
             "url": "https://blog.cloudflare.com/reflections-on-reflections/",
             "description": "Marek Majkowsk, Cloudflare. (2017, May 24). Reflections on reflection (attacks). Retrieved April 23, 2019."

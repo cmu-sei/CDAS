@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--54eb2bab-125f-4d1c-b999-0c692860bafe",
     "name": "Dynamic DNS",
-    "description": "Dynamic DNS is a automated method to rapidly update the domain name system mapping of hostnames to IPs. (Citation: FireEyeSupplyChain)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1333).\n\nDynamic DNS is a automated method to rapidly update the domain name system mapping of hostnames to IPs. (Citation: FireEyeSupplyChain)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

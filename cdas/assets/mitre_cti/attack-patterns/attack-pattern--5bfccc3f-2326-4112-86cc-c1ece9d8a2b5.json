@@ -14,6 +14,11 @@
             "url": "https://capec.mitre.org/data/definitions/572.html"
         },
         {
+            "external_id": "CAPEC-655",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/655.html"
+        },
+        {
             "source_name": "ESET OceanLotus",
             "description": "Folt\u00fdn, T. (2018, March 13). OceanLotus ships new backdoor using old tricks. Retrieved May 22, 2018.",
             "url": "https://www.welivesecurity.com/2018/03/13/oceanlotus-ships-new-backdoor/"
@@ -25,7 +30,7 @@
         },
         {
             "source_name": "VirusTotal FAQ",
-            "url": "https://www.virustotal.com/en/faq/ ",
+            "url": "https://www.virustotal.com/en/faq/",
             "description": "VirusTotal. (n.d.). VirusTotal FAQ. Retrieved May 23, 2019."
         }
     ],

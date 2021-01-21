@@ -1,0 +1,31 @@
+{
+    "id": "attack-pattern--f9cc4d06-775f-4ee1-b401-4e2cc0da30ba",
+    "name": "Domains",
+    "description": "Before compromising a victim, adversaries may hijack domains and/or subdomains that can be used during targeting. Domain registration hijacking is the act of changing the registration of a domain name without the permission of the original registrant.(Citation: ICANNDomainNameHijacking) An adversary may gain access to an email account for the person listed as the owner of the domain. The adversary can then claim that they forgot their password in order to make changes to the domain registration. Other possibilities include social engineering a domain registration help desk to gain access to an account or taking advantage of renewal process gaps.\n\nSubdomain hijacking can occur when organizations have DNS entries that point to non-existent or deprovisioned resources. In such cases, an adversary may take control of a subdomain to conduct operations with the benefit of the trust associated with that domain.(Citation: Microsoft Sub Takeover 2020)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1584.001",
+            "url": "https://attack.mitre.org/techniques/T1584/001"
+        },
+        {
+            "source_name": "ICANNDomainNameHijacking",
+            "description": "ICANN Security and Stability Advisory Committee. (2005, July 12). Domain Name Hijacking: Incidents, Threats, Risks and Remediation. Retrieved March 6, 2017.",
+            "url": "https://www.icann.org/groups/ssac/documents/sac-007-en"
+        },
+        {
+            "source_name": "Microsoft Sub Takeover 2020",
+            "url": "https://docs.microsoft.com/en-us/azure/security/fundamentals/subdomain-takeover",
+            "description": "Microsoft. (2020, September 29). Prevent dangling DNS entries and avoid subdomain takeover. Retrieved October 12, 2020."
+        }
+    ],
+    "platforms": [
+        "PRE"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "resource-development"
+        }
+    ]
+}

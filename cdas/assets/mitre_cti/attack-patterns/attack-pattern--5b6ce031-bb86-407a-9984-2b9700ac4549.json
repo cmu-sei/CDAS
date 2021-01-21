@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--5b6ce031-bb86-407a-9984-2b9700ac4549",
     "name": "Identify business relationships",
-    "description": "Business relationship information includes the associates of a target and may be discovered via social media sites such as [LinkedIn](https://www.linkedin.com) or public press releases announcing new partnerships between organizations or people (such as key hire announcements in industry articles).  This information may be used by an adversary to shape social engineering attempts (exploiting who a target expects to hear from) or to plan for technical actions such as exploiting network trust relationship. (Citation: RSA-APTRecon) (Citation: Scasny2015)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1272).\n\nBusiness relationship information includes the associates of a target and may be discovered via social media sites such as [LinkedIn](https://www.linkedin.com) or public press releases announcing new partnerships between organizations or people (such as key hire announcements in industry articles).  This information may be used by an adversary to shape social engineering attempts (exploiting who a target expects to hear from) or to plan for technical actions such as exploiting network trust relationship. (Citation: RSA-APTRecon) (Citation: Scasny2015)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

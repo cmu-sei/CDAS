@@ -1,0 +1,26 @@
+{
+    "id": "attack-pattern--79da0971-3147-4af6-a4f5-e8cd447cd795",
+    "name": "Virtual Private Server",
+    "description": "Before compromising a victim, adversaries may rent Virtual Private Servers (VPSs)\u00a0that can be used during targeting. There exist a variety of cloud service providers that will sell virtual machines/containers as a service. By utilizing a VPS, adversaries can make it difficult to physically tie back operations to them. The use of cloud infrastructure can also make it easier for adversaries to rapidly provision, modify, and shut down their infrastructure.\n\nAcquiring a VPS for use in later stages of the adversary lifecycle, such as Command and Control, can allow adversaries to benefit from the ubiquity and trust associated with higher reputation cloud service providers. Adversaries may also acquire infrastructure from VPS service providers that are known for renting VPSs with minimal registration information, allowing for more anonymous acquisitions of infrastructure.(Citation: TrendmicroHideoutsLease)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1583.003",
+            "url": "https://attack.mitre.org/techniques/T1583/003"
+        },
+        {
+            "source_name": "TrendmicroHideoutsLease",
+            "description": "Max Goncharov. (2015, July 15). Criminal Hideouts for Lease: Bulletproof Hosting Services. Retrieved March 6, 2017.",
+            "url": "https://documents.trendmicro.com/assets/wp/wp-criminal-hideouts-for-lease.pdf"
+        }
+    ],
+    "platforms": [
+        "PRE"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "resource-development"
+        }
+    ]
+}

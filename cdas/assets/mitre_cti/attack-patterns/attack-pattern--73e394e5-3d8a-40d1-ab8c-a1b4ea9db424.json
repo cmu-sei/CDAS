@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--73e394e5-3d8a-40d1-ab8c-a1b4ea9db424",
     "name": "Install and configure hardware, network, and systems",
-    "description": "An adversary needs the necessary skills to set up procured equipment and software to create their desired infrastructure. (Citation: KasperskyRedOctober)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1336).\n\nAn adversary needs the necessary skills to set up procured equipment and software to create their desired infrastructure. (Citation: KasperskyRedOctober)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

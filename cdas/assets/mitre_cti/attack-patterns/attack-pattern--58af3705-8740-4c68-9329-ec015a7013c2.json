@@ -9,9 +9,9 @@
             "url": "https://attack.mitre.org/techniques/T1574/008"
         },
         {
-            "external_id": "CAPEC-CAPEC",
+            "external_id": "CAPEC-159",
             "source_name": "capec",
-            "url": "https://capec.mitre.org/data/definitions/CAPEC.html"
+            "url": "https://capec.mitre.org/data/definitions/159.html"
         },
         {
             "url": "http://msdn.microsoft.com/en-us/library/ms682425",

@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--03da0598-ed46-4a73-bf43-0313b3522400",
     "name": "Submit KITs, KIQs, and intelligence requirements",
-    "description": "Once they have been created, intelligence requirements, Key Intelligence Topics (KITs), and Key Intelligence Questions (KIQs) are submitted into a central management system. (Citation: ICD204) (Citation: KIT-Herring)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1237).\n\nOnce they have been created, intelligence requirements, Key Intelligence Topics (KITs), and Key Intelligence Questions (KIQs) are submitted into a central management system. (Citation: ICD204) (Citation: KIT-Herring)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

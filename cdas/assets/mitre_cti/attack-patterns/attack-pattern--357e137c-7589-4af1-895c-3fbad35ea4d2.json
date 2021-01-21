@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--357e137c-7589-4af1-895c-3fbad35ea4d2",
     "name": "Obfuscate or encrypt code",
-    "description": "Obfuscation is the act of creating code that is more difficult to understand. Encoding transforms the code using a publicly available format. Encryption transforms the code such that it requires a key to reverse the encryption. (Citation: CylanceOpCleaver)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1319).\n\nObfuscation is the act of creating code that is more difficult to understand. Encoding transforms the code using a publicly available format. Encryption transforms the code such that it requires a key to reverse the encryption. (Citation: CylanceOpCleaver)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

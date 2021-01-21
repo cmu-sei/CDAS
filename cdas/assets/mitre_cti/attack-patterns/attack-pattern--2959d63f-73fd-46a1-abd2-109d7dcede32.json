@@ -9,6 +9,21 @@
             "url": "https://attack.mitre.org/techniques/T1543/003"
         },
         {
+            "external_id": "CAPEC-478",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/478.html"
+        },
+        {
+            "external_id": "CAPEC-550",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/550.html"
+        },
+        {
+            "external_id": "CAPEC-551",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/551.html"
+        },
+        {
             "url": "https://technet.microsoft.com/en-us/library/cc772408.aspx",
             "description": "Microsoft. (n.d.). Services. Retrieved June 7, 2016.",
             "source_name": "TechNet Services"

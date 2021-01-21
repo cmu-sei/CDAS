@@ -5,8 +5,13 @@
     "references": [
         {
             "source_name": "mitre-attack",
-            "url": "https://attack.mitre.org/techniques/T1200",
-            "external_id": "T1200"
+            "external_id": "T1200",
+            "url": "https://attack.mitre.org/techniques/T1200"
+        },
+        {
+            "external_id": "CAPEC-440",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/440.html"
         },
         {
             "url": "https://ossmann.blogspot.com/2011/02/throwing-star-lan-tap.html",

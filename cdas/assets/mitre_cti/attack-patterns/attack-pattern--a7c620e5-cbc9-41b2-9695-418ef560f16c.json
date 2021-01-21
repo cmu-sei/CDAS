@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--a7c620e5-cbc9-41b2-9695-418ef560f16c",
     "name": "Conduct passive scanning",
-    "description": "Passive scanning is the act of looking at existing network traffic in order to identify information about the communications system. (Citation: SurveyDetectionStrategies) (Citation: CyberReconPaper)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1253).\n\nPassive scanning is the act of looking at existing network traffic in order to identify information about the communications system. (Citation: SurveyDetectionStrategies) (Citation: CyberReconPaper)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

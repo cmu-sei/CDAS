@@ -9,6 +9,16 @@
             "url": "https://attack.mitre.org/techniques/T1574/006"
         },
         {
+            "external_id": "CAPEC-13",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/13.html"
+        },
+        {
+            "external_id": "CAPEC-640",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/640.html"
+        },
+        {
             "source_name": "Man LD.SO",
             "url": "https://www.man7.org/linux/man-pages/man8/ld.so.8.html",
             "description": "Kerrisk, M. (2020, June 13). Linux Programmer's Manual. Retrieved June 15, 2020."

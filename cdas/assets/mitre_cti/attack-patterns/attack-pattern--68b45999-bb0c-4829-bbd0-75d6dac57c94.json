@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--68b45999-bb0c-4829-bbd0-75d6dac57c94",
     "name": "Obtain templates/branding materials",
-    "description": "Templates and branding materials may be used by an adversary to add authenticity to social engineering message. (Citation: Scasny2015)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1281).\n\nTemplates and branding materials may be used by an adversary to add authenticity to social engineering message. (Citation: Scasny2015)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

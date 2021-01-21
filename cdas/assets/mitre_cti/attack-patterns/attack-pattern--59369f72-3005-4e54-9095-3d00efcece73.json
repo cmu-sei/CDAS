@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--59369f72-3005-4e54-9095-3d00efcece73",
     "name": "Identify supply chains",
-    "description": "Supply chains include the people, processes, and technologies used to move a product or service from a supplier to a consumer. Understanding supply chains may provide an adversary with opportunities to exploit the people, their positions, and relationships, that are part of the supply chain. (Citation: SmithSupplyChain) (Citation: CERT-UKSupplyChain)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1265).\n\nSupply chains include the people, processes, and technologies used to move a product or service from a supplier to a consumer. Understanding supply chains may provide an adversary with opportunities to exploit the people, their positions, and relationships, that are part of the supply chain. (Citation: SmithSupplyChain) (Citation: CERT-UKSupplyChain)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

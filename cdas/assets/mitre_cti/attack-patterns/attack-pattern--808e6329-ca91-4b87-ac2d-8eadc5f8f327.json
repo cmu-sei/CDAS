@@ -1,0 +1,49 @@
+{
+    "id": "attack-pattern--808e6329-ca91-4b87-ac2d-8eadc5f8f327",
+    "name": "Verclsid",
+    "description": "Adversaries may abuse verclsid.exe to proxy execution of malicious code. Verclsid.exe is known as the Extension CLSID Verification Host and is responsible for verifying each shell extension before they are used by Windows Explorer or the Windows Shell.(Citation: WinOSBite verclsid.exe)\n\nAdversaries may abuse verclsid.exe to execute malicious payloads. This may be achieved by running <code>verclsid.exe /S /C {CLSID}</code>, where the file is referenced by a Class ID (CLSID), a unique identification number used to identify COM objects. COM payloads executed by verclsid.exe may be able to perform various malicious actions, such as loading and executing COM scriptlets (SCT) from remote servers (similar to [Regsvr32](https://attack.mitre.org/techniques/T1218/010)). Since it is signed and native on Windows systems, proxying execution via verclsid.exe may bypass application control solutions that do not account for its potential abuse.(Citation: LOLBAS Verclsid)(Citation: Red Canary Verclsid.exe)(Citation: BOHOPS Abusing the COM Registry)(Citation: Nick Tyrer GitHub) ",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1218.012",
+            "url": "https://attack.mitre.org/techniques/T1218/012"
+        },
+        {
+            "source_name": "WinOSBite verclsid.exe",
+            "url": "https://www.winosbite.com/verclsid-exe/\u00a0",
+            "description": "verclsid-exe. (2019, December 17). verclsid.exe File Information - What is it & How to Block\u00a0. Retrieved August 10, 2020."
+        },
+        {
+            "source_name": "LOLBAS Verclsid",
+            "url": "https://lolbas-project.github.io/lolbas/Binaries/Verclsid/",
+            "description": "LOLBAS. (n.d.). Verclsid.exe. Retrieved August 10, 2020."
+        },
+        {
+            "source_name": "Red Canary Verclsid.exe",
+            "url": "https://redcanary.com/blog/verclsid-exe-threat-detection/",
+            "description": "Haag, M., Levan, K. (2017, April 6). Old Phishing Attacks Deploy a New Methodology: Verclsid.exe. Retrieved August 10, 2020."
+        },
+        {
+            "source_name": "BOHOPS Abusing the COM Registry",
+            "url": "https://bohops.com/2018/08/18/abusing-the-com-registry-structure-part-2-loading-techniques-for-evasion-and-persistence/",
+            "description": "BOHOPS. (2018, August 18). Abusing the COM Registry Structure (Part 2): Hijacking & Loading Techniques. Retrieved August 10, 2020."
+        },
+        {
+            "source_name": "Nick Tyrer GitHub",
+            "url": "https://gist.github.com/NickTyrer/0598b60112eaafe6d07789f7964290d5",
+            "description": "Tyrer, N. (n.d.). Instructions. Retrieved August 10, 2020."
+        }
+    ],
+    "platforms": [
+        "Windows"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        }
+    ],
+    "permissions": [
+        "User"
+    ]
+}

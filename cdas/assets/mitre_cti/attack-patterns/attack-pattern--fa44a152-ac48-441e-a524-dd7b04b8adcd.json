@@ -1,0 +1,43 @@
+{
+    "id": "attack-pattern--fa44a152-ac48-441e-a524-dd7b04b8adcd",
+    "name": "Network Device Authentication",
+    "description": "Adversaries may use [Patch System Image](https://attack.mitre.org/techniques/T1601/001) to hard code a password in the operating system, thus bypassing of native authentication mechanisms for local accounts on network devices.\n\n[Modify System Image](https://attack.mitre.org/techniques/T1601) may include implanted code to the operating system for network devices to provide access for adversaries using a specific password.  The modification includes a specific password which is implanted in the operating system image via the patch.  Upon authentication attempts, the inserted code will first check to see if the user input is the password. If so, access is granted. Otherwise, the implanted code will pass the credentials on for verification of potentially valid credentials.(Citation: FireEye - Synful Knock)",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1556.004",
+            "url": "https://attack.mitre.org/techniques/T1556/004"
+        },
+        {
+            "source_name": "FireEye - Synful Knock",
+            "url": "https://www.fireeye.com/blog/threat-research/2015/09/synful_knock_-_acis.html",
+            "description": "Bill Hau, Tony Lee, Josh Homan. (2015, September 15). SYNful Knock - A Cisco router implant - Part I. Retrieved October 19, 2020."
+        },
+        {
+            "source_name": "Cisco IOS Software Integrity Assurance - Image File Verification",
+            "url": "https://tools.cisco.com/security/center/resources/integrity_assurance.html#7",
+            "description": "Cisco. (n.d.). Cisco IOS Software Integrity Assurance - Cisco IOS Image File Verification. Retrieved October 19, 2020."
+        },
+        {
+            "source_name": "Cisco IOS Software Integrity Assurance - Run-Time Memory Verification",
+            "url": "https://tools.cisco.com/security/center/resources/integrity_assurance.html#13",
+            "description": "Cisco. (n.d.). Cisco IOS Software Integrity Assurance - Cisco IOS Run-Time Memory Integrity Verification. Retrieved October 19, 2020."
+        }
+    ],
+    "platforms": [
+        "Network"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "credential-access"
+        },
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        }
+    ],
+    "permissions": [
+        "Administrator"
+    ]
+}

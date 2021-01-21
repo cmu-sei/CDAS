@@ -5,8 +5,13 @@
     "references": [
         {
             "source_name": "mitre-attack",
-            "url": "https://attack.mitre.org/techniques/T1072",
-            "external_id": "T1072"
+            "external_id": "T1072",
+            "url": "https://attack.mitre.org/techniques/T1072"
+        },
+        {
+            "external_id": "CAPEC-187",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/187.html"
         }
     ],
     "platforms": [

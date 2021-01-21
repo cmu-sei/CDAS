@@ -39,14 +39,16 @@ DM20-0573
 import argparse
 from datetime import datetime, timedelta
 import json
+import logging
 import numpy as np
 import os
 import pkg_resources
 import shutil
 import sys
+import cyberdem
+import uuid
 # Import custom modules
 from . import context, agents, simulator, filestore
-
 
 def main():
 
@@ -60,8 +62,16 @@ def main():
     parser.add_argument(
         "-o", "--output-directory",
         help="directory for storing results")
+    parser.add_argument('--verbose', '-v', action='count', default=0,
+        help="v for basic status, vv for detailed status")
 
     args = parser.parse_args()
+    if args.verbose == 1:
+        logging.basicConfig(
+            format='%(message)s', level=logging.INFO)
+    elif args.verbose == 2:
+        logging.basicConfig(
+            format='%(message)s', level=logging.DEBUG)
 
     # Load the configuration file
     with open(args.config_file, 'r') as f:
@@ -73,12 +83,13 @@ def main():
         'defenders': '',
         'threat-actors': '',
         'malware': '',
+        'networks': '',
         'geoseed.json': '',
         'tools': '',
         'ttps': ''
         }
 
-    print("Setting up directories...")
+    logging.info("Setting up directories...")
     # Set up the Output directory
     if not args.output_directory:
         args.output_directory = config['output']['output_directory']
@@ -90,7 +101,7 @@ def main():
     # Set up the temp directory
     if config['output']['temp_directory'] == "":
         raise Exception(f'No temporary directory specified')
-    temp_dir = filestore.FileStore(
+    filestore.FileStore(
         config['output']['temp_directory'], "temp", write=True)
 
     # Check the input folder if provided
@@ -143,11 +154,11 @@ def main():
     # Load or create country data
     if datastore['countries'] != '':
         # Using custom data
-        print("Loading custom country data...")
+        logging.info("Loading custom country data...")
         countries_fs = filestore.FileStore(
             datastore['countries'], context.Country)
     elif config['countries']['randomize'] is True:
-        print("Creating fake countries...")
+        logging.info("Creating fake countries...")
         countries_fs = filestore.FileStore(
             os.path.join(config['output']['temp_directory'], 'countries'),
             context.Country, write=True)
@@ -175,7 +186,7 @@ def main():
             countries_fs.save(country, overwrite=True)
     else:
         # Using country data files instead of random generation
-        print("Loading default country data...")
+        logging.info("Loading default country data...")
         countries_fs = filestore.FileStore(
             pkg_resources.resource_filename(
                 __name__, 'data/cia_world_factbook/'), context.Country)
@@ -185,8 +196,8 @@ def main():
         path = args.output_directory + "/" + ot
         os.mkdir(path)
         os.mkdir(path + '/countries/')
-        for country in countries_fs.get(
-                [i[0] for i in countries_fs.query("SELECT id")]):
+        for i in countries_fs.query("SELECT id"):
+            country = countries_fs.get(i[0])
             output_dir.output(ot+'/countries', country, ot)
         if ot == "html":
             html_src = pkg_resources.resource_filename(
@@ -197,9 +208,10 @@ def main():
             f = open(path+'/COUNTRY.html', 'r')
             c_template = f.read()
             f.close()
+            countries = [c[0] for c in countries_fs.query("SELECT name")]
             for country in countries:
-                f = open(path + '/countries/' + country.name + '.html', 'w')
-                f.write(c_template.replace('COUNTRY', country.name))
+                f = open(path + '/countries/' + country + '.html', 'w')
+                f.write(c_template.replace('COUNTRY', country))
                 f.close()
             os.remove(path+'/COUNTRY.html')
 
@@ -209,17 +221,20 @@ def main():
             "assets/stix_vocab.json"), encoding='utf-8') as json_file:
         stix_vocab = json.load(json_file)
     json_file.close()
-    tools = tools_fs.get([name[0] for name in tools_fs.query("SELECT id")])
-    malwares = malware_fs.get([n[0] for n in malware_fs.query("SELECT id")])
-    ttps = ttp_fs.get([name[0] for name in ttp_fs.query("SELECT id")])
+    names = tools_fs.query("SELECT id")
+    tools = [tools_fs.get(name[0]) for name in names]
+    names = malware_fs.query("SELECT id")
+    malwares = [malware_fs.get(name[0]) for name in names]
+    names = ttp_fs.query("SELECT id")
+    ttps = [ttp_fs.get(name[0]) for name in names]
 
     if datastore['threat-actors'] != '':
-        print("Loading custom threat actor data...")
+        logging.info("Loading custom threat actor data...")
         # Using custom threat actors provided by the user in the input folder
         threat_actor_fs = filestore.FileStore(
             datastore['threat-actors'], agents.ThreatActor)
     elif config['agents']['randomize_threat_actors'] is True:
-        print("Creating fake threat actors...")
+        logging.info("Creating fake threat actors...")
         threat_actor_fs = filestore.FileStore(
             os.path.join(config['output']['temp_directory'], 'threat-actors'),
             agents.ThreatActor, write=True)
@@ -245,15 +260,15 @@ def main():
                 stix_vocab['threat-actor-sophistication'])
             actors += 1
     else:
-        print("Loading default threat actor data...")
+        logging.info("Loading default threat actor data...")
         threat_actor_fs = filestore.FileStore(
             pkg_resources.resource_filename(
                 __name__, 'assets/mitre_cti/threat-actors/'),
             agents.ThreatActor)
 
     # Output threat actor reports
-    actors = threat_actor_fs.get(
-        [name[0] for name in threat_actor_fs.query("SELECT id")])
+    names = threat_actor_fs.query("SELECT id")
+    actors = [threat_actor_fs.get(name[0]) for name in names]
     for ot in config['output']['output_types']:
         os.mkdir(args.output_directory + "/" + ot + '/actors/')
         for apt in actors:
@@ -262,12 +277,12 @@ def main():
 
     # Create or load defending organizations
     if datastore['defenders'] != '':
-        print("Loading custom defender data...")
+        logging.info("Loading custom defender data...")
         # Using custom defenders provided by the user in the input folder
         defender_fs = filestore.FileStore(
             datastore['defenders'], agents.Defender)
     else:
-        print("Creating random defending organizations...")
+        logging.info("Creating random defending organizations...")
         defender_fs = filestore.FileStore(
             os.path.join(config['output']['temp_directory'], 'defenders'),
             agents.Defender, write=True)
@@ -315,37 +330,55 @@ def main():
                 defs += 1
 
     # Output defender info
-    defenders = defender_fs.get(
-        [name[0] for name in defender_fs.query("SELECT id")])
+    names = defender_fs.query("SELECT id")
+    defenders = [defender_fs.get(name[0]) for name in names]
     for ot in config['output']['output_types']:
         os.mkdir(args.output_directory + "/" + ot + '/defenders/')
         for d in defenders:
             output_dir.output(ot+'/defenders', d, ot)
 
     # Create or load networks of defenders
-
-    # Output network information
-    
+    if datastore['networks'] != '':
+        logging.info("Loading custom network data...")
+        # Using custom networks provided by the user in the input folder
+        network_fs = filestore.FileStore(
+            datastore['networks'], 'Networks')
+    else:
+        logging.info("Creating random networks of defenders...")
+        network_fs = filestore.FileStore(
+            os.path.join(config['output']['temp_directory'], 'networks'),
+            'Networks', write=True)
+        for d in defenders:
+            net_name = 'network--'+str(uuid.uuid4())
+            fs = cyberdem.filesystem.FileSystem(os.path.join(
+                config['output']['temp_directory'], 'networks', net_name))
+            context.random_network(fs, 100)
+            relationships.append((d.id, 'owns', net_name))
 
     # Run simulation
-    print('Running simulation...')
+    logging.info('Running simulation...')
     events_fs = filestore.FileStore(
         os.path.join(config['output']['temp_directory'], 'events'),
         context.Event, write=True)
-    # For now, we're assuming all of the attackers decide to attack the one
-    # defender, who is too dumb to make changes the network
     simulator.simulate(
-        actors, defenders, tools, malwares, events_fs, relationships, start)
-    # We don't know ahead of time how many moves will be made, so go back to 
-    # the events and set to the desired time frame
+        actors, defenders, config['defenders']['allow_defense'], events_fs,
+        relationships, stix_vocab['threat-actor-sophistication'])
+    # We don't know ahead of time how many moves will be made, so once the 
+    # simulation is done, go back to the events and set to the correct day/time
+    events = [events_fs.get(i[0]) for i in events_fs.query("SELECT id")]
     start = datetime.strptime(
         config["simulation"]['time_range'][0], '%Y-%m-%d')
     end = datetime.strptime(config["simulation"]['time_range'][1], '%Y-%m-%d')
-    time_increment = (end - start)/num_events
-    print("@TODO: Event date times...")
+    time_increment = (end - start)/len(events)
+    newlist = sorted(events, key=lambda x: x.date)
+    for e in newlist:
+        e.date = start
+        e.name = "Report_" + start.strftime("%Y%m%d_%H%M%S")
+        events_fs.save(e, overwrite=True)
+        start += time_increment
 
     # Create output files
-    print('Saving output...')
+    logging.info('Saving output...')
     # Map
     try:
         map_matrix.plot_map(args.output_directory, **country_names)
@@ -353,16 +386,16 @@ def main():
         pass
 
     for ot in config['output']['output_types']:
-        print(f'    {ot}...')
+        logging.debug(f'    {ot}...')
         path = args.output_directory + "/" + ot
         os.mkdir(path + '/reports/')
-        print(f'\t  Events...')
-        for e in events_fs.get([i[0] for i in events_fs.query("SELECT id")]):
+        logging.debug(f'\t  Events...')
+        for e in [events_fs.get(i[0]) for i in events_fs.query("SELECT id")]:
             output_dir.output(ot+'/reports', e, ot)
 
     shutil.rmtree(config['output']['temp_directory'])
 
-    print('Done')
+    logging.info('Done')
 
 
 if __name__ == "__main__":

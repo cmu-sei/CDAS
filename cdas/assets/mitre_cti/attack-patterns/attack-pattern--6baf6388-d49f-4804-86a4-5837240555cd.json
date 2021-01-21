@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--6baf6388-d49f-4804-86a4-5837240555cd",
     "name": "Determine firmware version",
-    "description": "Firmware is permanent software programmed into the read-only memory of a device. As with other types of software, firmware may be updated over time and have multiple versions. (Citation: Abdelnur Advanced Fingerprinting)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1258).\n\nFirmware is permanent software programmed into the read-only memory of a device. As with other types of software, firmware may be updated over time and have multiple versions. (Citation: Abdelnur Advanced Fingerprinting)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

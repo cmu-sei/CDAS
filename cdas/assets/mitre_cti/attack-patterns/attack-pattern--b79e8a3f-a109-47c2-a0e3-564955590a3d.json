@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--b79e8a3f-a109-47c2-a0e3-564955590a3d",
     "name": "Non-traditional or less attributable payment options",
-    "description": "Using alternative payment options allows an adversary to hide their activities. Options include crypto currencies, barter systems, pre-paid cards or shell accounts. (Citation: Goodin300InBitcoins)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1316).\n\nUsing alternative payment options allows an adversary to hide their activities. Options include crypto currencies, barter systems, pre-paid cards or shell accounts. (Citation: Goodin300InBitcoins)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

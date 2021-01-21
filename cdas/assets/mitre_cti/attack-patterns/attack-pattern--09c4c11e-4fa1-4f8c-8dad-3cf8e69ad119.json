@@ -9,9 +9,14 @@
             "url": "https://attack.mitre.org/techniques/T1110/001"
         },
         {
-            "url": "https://www.cylance.com/content/dam/cylance/pages/operation-cleaver/Cylance_Operation_Cleaver_Report.pdf",
+            "external_id": "CAPEC-49",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/49.html"
+        },
+        {
+            "source_name": "Cylance Cleaver",
             "description": "Cylance. (2014, December). Operation Cleaver. Retrieved September 14, 2017.",
-            "source_name": "Cylance Cleaver"
+            "url": "https://www.cylance.com/content/dam/cylance/pages/operation-cleaver/Cylance_Operation_Cleaver_Report.pdf"
         },
         {
             "source_name": "US-CERT TA18-068A 2018",

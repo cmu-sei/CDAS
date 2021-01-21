@@ -36,6 +36,7 @@ subject to its own license:
 DM20-0573
 '''
 
+import logging
 import json
 import numpy as np
 import uuid
@@ -43,6 +44,7 @@ import string
 from datetime import datetime, timedelta
 import reportlab.platypus as platy
 from reportlab.lib.styles import getSampleStyleSheet
+from cyberdem import filesystem
 from . import context
 
 
@@ -79,23 +81,52 @@ def random_indicator(itype):
             f"{itype} is not an available type for random_indicator")
     return indicator
 
-def simulate(actors, defender, tools, malwares, events_fs, relationships):
+def simulate(actors, defenders, defend, events_fs, relationships, soph_levels):
 
-    t = 0  # Set the time step
+    t = 0  # Set the time
+    some_end_state = 10  # @TODO - make this less arbitrary
 
-    for agent in actors:
-        # Pick a random target  @TODO - make this more logical later
-        target = np.random.choice(orgs)
+    while t < some_end_state:
+        logging.info(f'Round: {t}')
+        for actor in actors:
+            # Decide if the actor can attack during this round. The more
+            # sophisticated the actor, the more often they can attack. For the
+            # purpose of calculations, the strongest actor is level 1, the
+            # levels go up as the actors get weaker.
+            strength = soph_levels.index(actor.sophistication) + 1
+            if t%strength == 0:
+                # Actor picks a target 
+                # @TODO - currently a random target make this more logical later
+                target = np.random.choice(defenders)
+                logging.debug(f'\t{actor.name} attacking {target.name}...')
+                # @TODO - load target's network
+                for r in relationships:
+                    if r[0] == target.id and r[1] == 'owns':
+                        network = r[2]
+                        break
+                event = attack(actor, target, network)
+                event.name = t
+                event.date = t
+                events_fs.save(event)
+        t += 1
 
-        r_num = str(
-            start_date).replace('-', '').replace(' ', '_').replace(':', '')
-        events_fs.save(context.Event(
-            id='event--'+str(uuid.uuid4()),
-            name=f"Report #{r_num[:15]}",
-            description=description,
-            first_seen=start_date,
-            sighting_of_ref=agent.id))
-        start_date += timedelta(td)
+def attack(actor, target, network):
+    # @TODO - add some tools, ttps, malware, etc
+    indicators = [random_indicator(np.random.choice(['IPv4 address','domain name']))]
 
-def attack():
+    # @TODO - this probably shouldn't be random...
+    success = np.random.choice([True, False])
+    
+    description = target.name
+    
+    event = context.Event(
+        id='event--'+str(uuid.uuid4()),
+        description=description,
+        target=target.id,
+        indicators=indicators,
+        attack_successful=success,
+        threat_actor=actor.id)
+    return event
+
+def defend():
     pass

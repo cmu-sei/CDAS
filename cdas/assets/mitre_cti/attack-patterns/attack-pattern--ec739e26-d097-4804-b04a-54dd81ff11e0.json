@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--ec739e26-d097-4804-b04a-54dd81ff11e0",
     "name": "Create strategic plan",
-    "description": "Strategic plans outline the mission, vision, and goals for an adversary at a high level in relation to the key partners, topics, and functions the adversary carries out. (Citation: KPMGChina5Year) (Citation: China5YearPlans) (Citation: ChinaUN)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1231).\n\nStrategic plans outline the mission, vision, and goals for an adversary at a high level in relation to the key partners, topics, and functions the adversary carries out. (Citation: KPMGChina5Year) (Citation: China5YearPlans) (Citation: ChinaUN)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

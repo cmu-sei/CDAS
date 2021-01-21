@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--388f3a5c-2cdd-466c-9159-b507fa429fcd",
     "name": "Hardware or software supply chain implant",
-    "description": "During production and distribution, the placement of software, firmware, or a CPU chip in a computer, handheld, or other electronic device that enables an adversary to gain illegal entrance. (Citation: McDRecall) (Citation: SeagateMaxtor)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1365).\n\nDuring production and distribution, the placement of software, firmware, or a CPU chip in a computer, handheld, or other electronic device that enables an adversary to gain illegal entrance. (Citation: McDRecall) (Citation: SeagateMaxtor)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

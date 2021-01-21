@@ -9,6 +9,11 @@
             "url": "https://attack.mitre.org/techniques/T1110/002"
         },
         {
+            "external_id": "CAPEC-55",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/55.html"
+        },
+        {
             "url": "https://en.wikipedia.org/wiki/Password_cracking",
             "description": "Wikipedia. (n.d.). Password cracking. Retrieved December 23, 2015.",
             "source_name": "Wikipedia Password cracking"

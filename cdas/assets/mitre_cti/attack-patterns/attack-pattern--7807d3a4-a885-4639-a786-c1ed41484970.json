@@ -1,0 +1,21 @@
+{
+    "id": "attack-pattern--7807d3a4-a885-4639-a786-c1ed41484970",
+    "name": "Malware",
+    "description": "Before compromising a victim, adversaries may buy, steal, or download malware that can be used during targeting. Malicious software can include payloads, droppers, post-compromise tools, backdoors, packers, and C2 protocols. Adversaries may acquire malware to support their operations, obtaining a means for maintaining control of remote machines, evading defenses, and executing post-compromise behaviors.\n\nIn addition to downloading free malware from the internet, adversaries may purchase these capabilities from third-party entities. Third-party entities can include technology companies that specialize in malware development, criminal marketplaces (including Malware-as-a-Service, or MaaS), or from individuals. In addition to purchasing malware, adversaries may steal and repurpose malware from third-party entities (including other adversaries).",
+    "references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T1588.001",
+            "url": "https://attack.mitre.org/techniques/T1588/001"
+        }
+    ],
+    "platforms": [
+        "PRE"
+    ],
+    "kill_chain": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "resource-development"
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--51bca707-a806-49bf-91e0-03885b0ac85c",
     "name": "Conduct cost/benefit analysis",
-    "description": "Leadership conducts a cost/benefit analysis that generates a compelling need for information gathering which triggers a Key Intelligence Toptic (KIT) or Key Intelligence Question (KIQ). For example, an adversary compares the cost of cyber intrusions with the expected benefits from increased intelligence collection on cyber adversaries. (Citation: LowenthalCh4) (Citation: KIT-Herring)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1226).\n\nLeadership conducts a cost/benefit analysis that generates a compelling need for information gathering which triggers a Key Intelligence Toptic (KIT) or Key Intelligence Question (KIQ). For example, an adversary compares the cost of cyber intrusions with the expected benefits from increased intelligence collection on cyber adversaries. (Citation: LowenthalCh4) (Citation: KIT-Herring)",
     "references": [
         {
             "external_id": "T1226",

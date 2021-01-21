@@ -9,6 +9,11 @@
             "url": "https://attack.mitre.org/techniques/T1547"
         },
         {
+            "external_id": "CAPEC-564",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/564.html"
+        },
+        {
             "url": "http://msdn.microsoft.com/en-us/library/aa376977",
             "description": "Microsoft. (n.d.). Run and RunOnce Registry Keys. Retrieved November 12, 2014.",
             "source_name": "Microsoft Run Key"

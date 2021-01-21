@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--8b57a8f1-9cbc-4b95-b162-cc2a1add94f2",
     "name": "Test malware to evade detection",
-    "description": "An adversary can run their code on systems with cyber security protections, such as antivirus products, in place to see if their code is detected. They can also test their malware on freely available public services. (Citation: MalwareQAZirtest)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1359).\n\nAn adversary can run their code on systems with cyber security protections, such as antivirus products, in place to see if their code is detected. They can also test their malware on freely available public services. (Citation: MalwareQAZirtest)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

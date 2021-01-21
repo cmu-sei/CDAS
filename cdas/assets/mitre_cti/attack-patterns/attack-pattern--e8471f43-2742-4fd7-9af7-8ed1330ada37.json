@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--e8471f43-2742-4fd7-9af7-8ed1330ada37",
     "name": "Upload, install, and configure software/tools",
-    "description": "An adversary may stage software and tools for use during later stages of an attack. The software and tools may be placed on systems legitimately in use by the adversary or may be placed on previously compromised infrastructure. (Citation: APT1) (Citation: RedOctober)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1362).\n\nAn adversary may stage software and tools for use during later stages of an attack. The software and tools may be placed on systems legitimately in use by the adversary or may be placed on previously compromised infrastructure. (Citation: APT1) (Citation: RedOctober)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

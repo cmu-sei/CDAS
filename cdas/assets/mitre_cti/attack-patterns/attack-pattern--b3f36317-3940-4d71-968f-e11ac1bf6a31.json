@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--b3f36317-3940-4d71-968f-e11ac1bf6a31",
     "name": "Aggregate individual's digital footprint",
-    "description": "In addition to a target's social media presence may exist a larger digital footprint, such as accounts and credentials on e-commerce sites or usernames and logins for email.  An adversary familiar with a target's username can mine to determine the target's larger digital footprint via publicly available sources. (Citation: DigitalFootprint) (Citation: trendmicro-vtech)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1275).\n\nIn addition to a target's social media presence may exist a larger digital footprint, such as accounts and credentials on e-commerce sites or usernames and logins for email.  An adversary familiar with a target's username can mine to determine the target's larger digital footprint via publicly available sources. (Citation: DigitalFootprint) (Citation: trendmicro-vtech)",
     "references": [
         {
             "source_name": "mitre-pre-attack",

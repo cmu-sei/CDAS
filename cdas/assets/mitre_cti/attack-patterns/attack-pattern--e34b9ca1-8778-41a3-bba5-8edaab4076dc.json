@@ -1,7 +1,7 @@
 {
     "id": "attack-pattern--e34b9ca1-8778-41a3-bba5-8edaab4076dc",
     "name": "SSL certificate acquisition for domain",
-    "description": "Certificates are designed to instill trust. They  include information about the key, information about its owner's identity, and the digital signature of an entity that has verified the certificate's contents are correct. If the signature is valid, and the person examining the certificate trusts the signer, then they know they can use that key to communicate with its owner. Acquiring a certificate for a  domain name similar to one that is expected to be trusted may allow an adversary to trick a user in to trusting the domain (e.g., vvachovia instead of [Wachovia](https://www.wellsfargo.com/about/corporate/wachovia) -- homoglyphs). (Citation: SubvertSSL) (Citation: PaypalScam)",
+    "description": "This object is deprecated as its content has been merged into the enterprise domain. Please see the [PRE](http://attack.mitre.org/matrices/enterprise/pre/) matrix for its replacement. The prior content of this page has been preserved [here](https://attack.mitre.org/versions/v7/techniques/T1337).\n\nCertificates are designed to instill trust. They  include information about the key, information about its owner's identity, and the digital signature of an entity that has verified the certificate's contents are correct. If the signature is valid, and the person examining the certificate trusts the signer, then they know they can use that key to communicate with its owner. Acquiring a certificate for a  domain name similar to one that is expected to be trusted may allow an adversary to trick a user in to trusting the domain (e.g., vvachovia instead of [Wachovia](https://www.wellsfargo.com/about/corporate/wachovia) -- homoglyphs). (Citation: SubvertSSL) (Citation: PaypalScam)",
     "references": [
         {
             "source_name": "mitre-pre-attack",
@@ -14,7 +14,8 @@
         },
         {
             "source_name": "PaypalScam",
-            "description": "Bob Sullivan. (2000, July 24). PayPal alert! Beware the 'PaypaI' scam. Retrieved March 2, 2017."
+            "description": "Bob Sullivan. (2000, July 24). PayPal alert! Beware the 'PaypaI' scam. Retrieved March 2, 2017.",
+            "url": "https://www.zdnet.com/article/paypal-alert-beware-the-paypai-scam-5000109103/"
         }
     ],
     "kill_chain": [

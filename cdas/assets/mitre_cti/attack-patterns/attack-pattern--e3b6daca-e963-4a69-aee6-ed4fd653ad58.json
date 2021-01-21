@@ -4,9 +4,14 @@
     "description": "Adversaries may attempt to get a listing of software and software versions that are installed on a system or in a cloud environment. Adversaries may use the information from [Software Discovery](https://attack.mitre.org/techniques/T1518) during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.\n\nAdversaries may attempt to enumerate software for a variety of reasons, such as figuring out what security measures are present or if the compromised system has a version of software that is vulnerable to [Exploitation for Privilege Escalation](https://attack.mitre.org/techniques/T1068).",
     "references": [
         {
-            "external_id": "T1518",
             "source_name": "mitre-attack",
+            "external_id": "T1518",
             "url": "https://attack.mitre.org/techniques/T1518"
+        },
+        {
+            "external_id": "CAPEC-580",
+            "source_name": "capec",
+            "url": "https://capec.mitre.org/data/definitions/580.html"
         }
     ],
     "platforms": [
