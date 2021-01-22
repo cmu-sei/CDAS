@@ -176,6 +176,9 @@ class FileStore():
                 json, html)
         """
 
+        if filetype not in ['json', 'html', 'pdf']:
+            raise ValueError(f'{filetype} is not an accepted filetype.')
+
         if filetype == 'json':
             filepath = os.path.join(
                 self.path, subfolder,
@@ -197,31 +200,34 @@ class FileStore():
             ss = getSampleStyleSheet()
             pdf = platy.SimpleDocTemplate(filepath)
             flowables = [platy.Paragraph(obj_to_output.name, ss['Heading1'])]
-            for k in vars(obj_to_output):
-                if k == 'id' or k == 'name':
-                    continue
-                key_name = k.replace('_', ' ').title()
-                if type(vars(obj_to_output)[k]) is str:
-                    p = f"{key_name}: {str(vars(obj_to_output)[k])}"
-                    flowables.append(platy.Paragraph(p, ss['BodyText']))
-                elif type(vars(obj_to_output)[k]) is int:
-                    p = f"{key_name}: {str(vars(obj_to_output)[k])}"
-                    flowables.append(platy.Paragraph(p, ss['BodyText']))
-                else:
-                    p = f"{key_name}:"
-                    flowables.append(platy.Paragraph(p, ss['BodyText']))
-                    bullets = []
-                    for v in vars(obj_to_output)[k]:
-                        if type(v) is dict:
-                            p = str(v)
-                        else:
-                            p = v
-                        if type(vars(obj_to_output)[k]) is not list:
-                            p += ": "+vars(obj_to_output)[k][v]
-                        b = platy.Paragraph(p, ss['Normal'])
-                        bullets.append(platy.ListItem(b, leftIndent=35))
-                    table = platy.ListFlowable(bullets, bulletType='bullet')
-                    flowables.append(table)
+            for header, details in obj_to_output._pdf_headers.items():
+                flowables.append(platy.Paragraph(header, ss['Heading2']))
+                for detail in details:
+                    try:
+                        d_value = vars(obj_to_output)[detail]
+                    except KeyError:
+                        continue
+                    if len(details[detail]) > 0:
+                        p = details[detail] + ': '
+                    else:
+                        p = ''
+                    if type(d_value) is str or type(d_value) is int:
+                        p += str(d_value)
+                        flowables.append(platy.Paragraph(p, ss['BodyText']))
+                    else:
+                        flowables.append(platy.Paragraph(p, ss['BodyText']))
+                        bullets = []
+                        for v in d_value:
+                            if type(v) is dict:
+                                p = str(v)
+                            else:
+                                p = v
+                            if type(d_value) is not list:
+                                p += ": "+d_value[v]
+                            b = platy.Paragraph(p, ss['Normal'])
+                            bullets.append(platy.ListItem(b, leftIndent=35))
+                        table = platy.ListFlowable(bullets, bulletType='bullet')
+                        flowables.append(table)
             pdf.build(flowables)
 
     def query(self, query_string, headers=False):

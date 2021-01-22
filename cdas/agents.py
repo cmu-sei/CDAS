@@ -73,6 +73,19 @@ class ThreatActor():
         "ext": "json",
         "prefix": "intrusion-set--",
         "req_attrs": ['id', 'name']}
+    _pdf_headers = {
+        'Description': {
+            'sophistication': 'Sophistication', 'actor_type': 'Actor type',
+            'sectors': 'Targeted sectors', 'aliases': 'Aliases',
+            'first_seen': 'First seen',
+            'primary_motivation': 'Primary motivation',
+            'secondary_motivations': 'Secondary motivations',
+            'goals': 'Goals', 'attribution': 'Attributed to the country of'},
+        'Technical Appendix': {
+            'tools': 'This actor has been known to use the following tools',
+            'malware': 'Malware', 'ttps':'TTPs'
+        }
+    }
 
     def __init__(self, stix=None, actor_name_1=None, actor_name_2=None, 
             countries_fs=None, threat_actor_fs=None, **kwargs):
@@ -248,6 +261,16 @@ class Defender():
         "ext": "json",
         "prefix": "defender--",
         "req_attrs": ['id', 'name']}
+    _pdf_headers = {
+        'Company Description': {
+            'background': '', 'revenue': 'Annual revenue', 'sector': 'Sector',
+            'headquarters': 'Headquartered in the country of',
+            'number_of_employees': 'Number of employees'},
+        'Network Description': {'network_size': 'Number of network assets'},
+        'Vulnerability Assessment': {
+            'vulnerability_score': 'Score (out of 100)',
+            'vulns': 'Vulnerabilities found'}
+    }
     
     def __init__(self, sectors=None, country=None, org_names=None,
             assessment=None, **kwargs):
@@ -262,23 +285,23 @@ class Defender():
                 revenue = int(np.random.chisquare(1) * 10000)
             self.revenue = "$"+"{:,}".format(revenue)+" million"
             self.sector = np.random.choice(sectors)
-            self.background = "TODO"
+            self.background = ""
             self.headquarters = country
             self.number_of_employees = "{:,}".format(np.random.randint(500, 15000))
             self.network_size = np.random.randint(1, 100)
 
             score = 0
             vulns = []
-            dist = np.random.beta(2, 2)  # overall scoring distribution
-            while dist == 0:
-                dist = np.random.beta(2, 2)
+            dist = np.random.beta(3, 2)  # overall scoring distribution
+            while dist < 0.2:
+                dist = np.random.beta(3, 2)
             for cat in assessment:
                 for r in assessment[cat]:
                     pf = np.random.choice(a=['Yes', 'No'], p=[dist, 1-dist])
                     if pf == 'Yes':
                         score += r['Value']
                     else:
-                        vulns.append(r['Requirement'])
+                        vulns.append(f"({r['Requirement']}) {r['Description']}")
             self.vulnerability_score = int(score/313 * 100)
             self.vulns = vulns
 

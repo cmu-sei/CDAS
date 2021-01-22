@@ -112,12 +112,15 @@ def simulate(actors, defenders, defend, events_fs, relationships, soph_levels):
 
 def attack(actor, target, network):
     # @TODO - add some tools, ttps, malware, etc
-    indicators = [random_indicator(np.random.choice(['IPv4 address','domain name']))]
+    indicators = [random_indicator(
+        np.random.choice(['IPv4 address','domain name']))]
 
     # @TODO - this probably shouldn't be random...
     success = np.random.choice([True, False])
     
-    description = target.name
+    description = (
+        f"The company {target.name} was attacked by {actor.name}. It is "
+        f"believed that the attack was {'successful' if success else 'unsuccessful'}.")
     
     event = context.Event(
         id='event--'+str(uuid.uuid4()),

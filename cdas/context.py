@@ -72,6 +72,40 @@ class Country:
         "ext": "json",
         "prefix": "location--",
         "req_attrs": ["id", "name"]}
+    _pdf_headers = {
+        'Geography': {
+            'coordinates': 'Coordinates', 'total_area': 'Total area',
+            'land_area': 'Land area', 'water_area': 'Water area',
+            'land_boundary': 'Land boundary', 'neighbors': 'Neighbors',
+            'coastline': 'Coastline', 'climate': 'Climate',
+            'terrain': 'Terrain', 'natural_hazards': 'Natural hazards',
+            'natural_resources': 'Natural resources'},
+        'People and Society': {
+            'population': 'Population', 'nationality': 'Nationality',
+             'agriculture': 'Agriculture',
+            'industries': 'Industries', 'exports': 'Exports',
+            'imports': 'Imports', 'government_type': 'Government type',
+            'national_symbol': 'National symbol',
+            'national_colors': 'National colors',
+            'ethnic_groups': 'Ethnic groups', 'languages': 'Languages',
+            'religions': 'Religions'},
+        'Economy': {
+            'gdp': 'GDP', 'percent_GDP_on_military':'GDP spent on military'},
+        'Communications': {
+            'broadband_subscriptions': 'Broadband subscriptions',
+            'internet_users': 'Internet users',
+            'mobile_subscriptions': 'Mobile subscriptions',
+            'asns': 'ASNs', 'internet_country_code': 'Internet country code'},
+        'Military and Security': {
+            'military_and_security_forces': 'Military and security forces'},
+        'Transportation': {
+            'waterways': 'Waterways', 'pipelines': 'Pipelines',
+            'ports_and_terminals': 'Ports and terminals',
+            'number_of_airports': 'Number of airports'},
+        'Transnational issues': {
+            'international_disputes': 'International disputes',
+            'terrorism': 'Terrorism'}
+    }
 
     def __init__(self, choices=None, map_matrix=None, **kwargs):
 
@@ -524,13 +558,13 @@ class Country:
             self.number_of_airports = "{:,}".format(
                 int(land / (np.random.chisquare(1) * area_multiple)))
 
-            # Create Disputes data
+            # Create Disputes data TODO
             if np.random.choice([True, False]):
-                self.international_disputes = "TODO"
+                self.international_disputes = "International disputes are not yet implemented"
 
-            # Create Terrorism data
+            # Create Terrorism data TODO
             if np.random.choice([True, False]):
-                self.terrorism = "TODO"
+                self.terrorism = "Terrorism details are not yet implemented"
 
             # convert the ID to a string
             self.id = "location--" + str(self.id)
@@ -953,6 +987,12 @@ class Event():
     Args:
         kwargs (dict): attributes and their values for the Event
     """
+
+    _pdf_headers = {
+        ' ': {'description': ''},
+        'Details': {
+            'date': 'Date', 'indicators': 'Indicators'}
+        }
 
     def __init__(self, **kwargs):
         self.__dict__.update(kwargs)
