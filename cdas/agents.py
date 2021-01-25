@@ -181,7 +181,7 @@ class ThreatActor():
         serialized = {}
         for key, value in self.__dict__.items():
             if isinstance(value, date):
-                s_value = str(value)
+                s_value = value.strftime("%d %b %Y")
             else:
                 s_value = value
             serialized[key] = s_value

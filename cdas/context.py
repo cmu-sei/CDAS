@@ -45,6 +45,7 @@ import reportlab.platypus as platy
 from reportlab.lib.styles import getSampleStyleSheet
 from cyberdem import base, structures
 import weakref
+from datetime import datetime
 
 
 class Country:
@@ -1004,7 +1005,14 @@ class Event():
         """
         serialized = {}
         for key, value in self.__dict__.items():
-            serialized[key] = str(value)
+            if isinstance(value, np.bool_):
+                serialized[key] = str(value).lower()
+            elif isinstance(value, int):
+                serialized[key] = str(value)
+            elif isinstance(value, datetime):
+                serialized[key] = value.strftime("%d %b %Y %H:%M")
+            else:
+                serialized[key] = value
         return serialized
 
 

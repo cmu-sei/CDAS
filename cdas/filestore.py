@@ -189,9 +189,9 @@ class FileStore():
         elif filetype == 'html':
             filepath = os.path.join(
                 self.path, subfolder,
-                obj_to_output.id + '.' + filetype)
+                obj_to_output.name + '.json')
             f = open(filepath, 'w')
-            f.write("var data = " + obj_to_output._serialize())
+            f.write("var data = " + str(obj_to_output._serialize()))
             f.close()
         elif filetype == 'pdf':
             filepath = os.path.join(

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Report - REPORT</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../style.css" rel="stylesheet">
+    <script src="REPORT.json" ></script>
+</head>
+
+<body>
+    <nav>
+		<ul>
+		<li style="padding-right:50px"><a href="../index.html" style="padding-left:0px;">CDAS</a></li>
+		<li><a href="../index.html#world-map">WORLD MAP</a></li>
+		<li><a href="../index.html#threat-actors">THREAT ACTORS</a></li>
+		<li><a href="../index.html#companies">COMPANIES</a></li>
+		<li class="active"><a href="../index.html#reports">INCIDENT REPORTS</a></li>
+		</ul>
+	</nav>
+
+	<div id="wrapper">
+        <h1 id="reportName"></h1>
+        <div id="reportData">
+        </div>
+    </div>
+    <script>
+        var headers = {
+            ' ': {'description': ''},
+            'Details': {
+                'date': 'Date', 'indicators': 'Indicators'}
+        }
+        document.getElementById("reportName").innerHTML = data.name;
+        var divContainer = document.getElementById("reportData");
+
+        for (var header of Object.keys(headers)) {
+            var h = document.createElement("h4");
+            entries = headers[header];
+            h.innerHTML = header;
+            divContainer.appendChild(h);
+            for (var key of Object.keys(entries)) {
+                if (Array.isArray(data[key])) {
+                    var k = document.createElement("p");
+                    k.innerHTML = entries[key] + ": ";
+                    divContainer.appendChild(k);
+                    var ul = document.createElement("ul");
+                    divContainer.appendChild(ul);
+                    var i;
+                    for (i = 0; i < data[key].length; i++) {
+                        var li = document.createElement('li');
+                        li.innerHTML = data[key][i];
+                        ul.appendChild(li);
+                    }
+                } else {
+                    var k = document.createElement("p");
+                    if (entries[key].length == 0) {
+                        k.innerHTML = data[key];
+                    } else {
+                        k.innerHTML = entries[key] + ": " + data[key];
+                    }
+                    divContainer.appendChild(k);
+                }
+            }
+        }
+    </script>
+</body>
+</html>

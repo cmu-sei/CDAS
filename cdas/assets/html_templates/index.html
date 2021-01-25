@@ -1,14 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CDAS</title>
+    <!-- Main Style -->
+    <link href="style.css" rel="stylesheet">
 
-<head>
-    <title>CDAS</title>
-</head>
+  </head>
+  <body>
+	<nav>
+		<ul>
+		<li class="active" style="padding-right:50px"><a href="#" style="padding-left:0px;">CDAS</a></li>
+		<li><a href="#world-map">WORLD MAP</a></li>
+		<li><a href="#threat-actors">THREAT ACTORS</a></li>
+		<li><a href="#companies">COMPANIES</a></li>
+		<li><a href="#reports">INCIDENT REPORTS</a></li>
+		</ul>
+	</nav>
 
-<body>
-    <ul>
-        <li><a href="intelRepo.html"></a>IntelRepo</a></li>
-        <li><a href="geoBook.html">GeoBook</a></li>
-        <li><a href="organizations.html">Organizations</a></li>
-    </ul>
-</body>
+	<div id="wrapper">
+	<div id="world-map" class="container">
+		<h3><a href="#world-map">WORLD MAP</a></h3>
+		<ul id="world-map-list"></ul>
+	</div>
+
+	<div id="threat-actors" class="container">
+		<h3><a href="#threat-actors">THREAT ACTORS</a></h3>
+		<ul id="threat-actors-list"></ul>
+	</div>
+
+	<div id="companies" class="container">
+		<h3><a href="#companies">COMPANIES</a></h3>
+		<ul id="companies-list"></ul>
+	</div>
+
+	<div id="reports" class="container">
+		<h3><a href="#reports">INCIDENT REPORTS</a></h3>
+		<ul id="reports-list"></ul>
+	</div>
+	</div>
+    
+  </body>
+</html>

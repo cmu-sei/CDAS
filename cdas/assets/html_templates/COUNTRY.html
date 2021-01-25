@@ -3,20 +3,100 @@
 
 <head>
     <title>Country - COUNTRY</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../style.css" rel="stylesheet">
     <script src="COUNTRY.json" ></script>
 </head>
 
 <body>
-    <h1 id="cName"></h1>
-    <div id="countryData">
+    <nav>
+		<ul>
+		<li style="padding-right:50px"><a href="../index.html" style="padding-left:0px;">CDAS</a></li>
+		<li class="active"><a href="../index.html#world-map">WORLD MAP</a></li>
+		<li><a href="../index.html#threat-actors">THREAT ACTORS</a></li>
+		<li><a href="../index.html#companies">COMPANIES</a></li>
+		<li><a href="../index.html#reports">INCIDENT REPORTS</a></li>
+		</ul>
+	</nav>
+
+	<div id="wrapper">
+        <h1 id="cName"></h1>
+        <div id="countryData">
+        </div>
     </div>
     <script>
+        var headers = {
+            'Geography': {
+                'coordinates': 'Coordinates', 'total_area': 'Total area',
+                'land_area': 'Land area', 'water_area': 'Water area',
+                'land_boundary': 'Land boundary', 'neighbors': 'Neighbors',
+                'coastline': 'Coastline', 'climate': 'Climate',
+                'terrain': 'Terrain', 'natural_hazards': 'Natural hazards',
+                'natural_resources': 'Natural resources'},
+            'People and Society': {
+                'population': 'Population', 'nationality': 'Nationality',
+                'agriculture': 'Agriculture',
+                'industries': 'Industries', 'exports': 'Exports',
+                'imports': 'Imports', 'government_type': 'Government type',
+                'national_symbol': 'National symbol',
+                'national_colors': 'National colors',
+                'ethnic_groups': 'Ethnic groups', 'languages': 'Languages',
+                'religions': 'Religions'},
+            'Economy': {
+                'gdp': 'GDP', 'percent_GDP_on_military':'GDP spent on military'},
+            'Communications': {
+                'broadband_subscriptions': 'Broadband subscriptions',
+                'internet_users': 'Internet users',
+                'mobile_subscriptions': 'Mobile subscriptions',
+                'asns': 'ASNs', 'internet_country_code': 'Internet country code'},
+            'Military and Security': {
+                'military_and_security_forces': 'Military and security forces'},
+            'Transportation': {
+                'waterways': 'Waterways', 'pipelines': 'Pipelines',
+                'ports_and_terminals': 'Ports and terminals',
+                'number_of_airports': 'Number of airports'},
+            'Transnational issues': {
+                'international_disputes': 'International disputes',
+                'terrorism': 'Terrorism'}
+        }
         document.getElementById("cName").innerHTML = data.name;
         var divContainer = document.getElementById("countryData");
-        for (var key of Object.keys(data)) {
-            var p = document.createElement("p");
-            p.innerHTML = key + " " + data[key];
-            divContainer.appendChild(p);
+
+        for (var header of Object.keys(headers)) {
+            var h = document.createElement("h4");
+            entries = headers[header];
+            h.innerHTML = header;
+            divContainer.appendChild(h);
+            for (var key of Object.keys(entries)) {
+                if (typeof data[key] === 'string') {
+                    var k = document.createElement("p");
+                    k.innerHTML = entries[key] + ": " + data[key];
+                    divContainer.appendChild(k);
+                } else {
+                    var k = document.createElement("p");
+                    k.innerHTML = entries[key] + ": ";
+                    divContainer.appendChild(k);
+                    var ul = document.createElement("ul");
+                    divContainer.appendChild(ul);
+                    if (Array.isArray(data[key])) {
+                        var i;
+                        for (i = 0; i < data[key].length; i++) {
+                            var li = document.createElement('li');
+                            li.innerHTML = data[key][i];
+                            ul.appendChild(li);
+                        }
+                    } else {
+                        var entry = data[key];
+                        for (var e of Object.keys(entry)) {
+                            var li = document.createElement('li');
+                            li.innerHTML = e + ': ' + entry[e];
+                            ul.appendChild(li);
+                        }
+                    }
+                }
+            }
         }
     </script>
 </body>

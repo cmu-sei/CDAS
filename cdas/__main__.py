@@ -196,24 +196,32 @@ def main():
         path = args.output_directory + "/" + ot
         os.mkdir(path)
         os.mkdir(path + '/countries/')
-        for i in countries_fs.query("SELECT id"):
-            country = countries_fs.get(i[0])
-            output_dir.output(ot+'/countries', country, ot)
-        if ot == "html":
+        if ot == 'html':
             html_src = pkg_resources.resource_filename(
                 __name__, 'assets/html_templates')
             html_templates = os.listdir(html_src)
             for f in html_templates:
-                shutil.copy(html_src + '/' + f, path)
+                shutil.copy(html_src + '/' + f, path) 
             f = open(path+'/COUNTRY.html', 'r')
             c_template = f.read()
             f.close()
             countries = [c[0] for c in countries_fs.query("SELECT name")]
+            ul_list = '<ul id="world-map-list">'
             for country in countries:
                 f = open(path + '/countries/' + country + '.html', 'w')
                 f.write(c_template.replace('COUNTRY', country))
                 f.close()
+                ul_list += f"<li><a href='countries/{country}.html'>{country}</a></li>"
             os.remove(path+'/COUNTRY.html')
+            f = open(path + '/index.html', 'r')
+            index = f.read()
+            f.close()
+            f = open(path + '/index.html', 'w')
+            f.write(index.replace('<ul id="world-map-list">', ul_list))
+            f.close()
+        for i in countries_fs.query("SELECT id"):
+            country = countries_fs.get(i[0])
+            output_dir.output(ot+'/countries', country, ot)
 
     # Load or create actor data
     with open(pkg_resources.resource_filename(
@@ -274,6 +282,24 @@ def main():
         for apt in actors:
             output_dir.output(ot+'/actors', apt._save(
                 relationships, tools_fs, malware_fs, ttp_fs), ot)
+        if ot == 'html':
+            f = open(path+'/APT.html', 'r')
+            template = f.read()
+            f.close()
+            apts = [c[0] for c in threat_actor_fs.query("SELECT name")]
+            ul_list = '<ul id="threat-actors-list">'
+            for apt in apts:
+                f = open(path + '/actors/' + apt + '.html', 'w')
+                f.write(template.replace('APT', apt))
+                f.close()
+                ul_list += f"<li><a href='actors/{apt}.html'>{apt}</a></li>"
+            os.remove(path+'/APT.html')
+            f = open(path + '/index.html', 'r')
+            index = f.read()
+            f.close()
+            f = open(path + '/index.html', 'w')
+            f.write(index.replace('<ul id="threat-actors-list">', ul_list))
+            f.close()
 
     # Create or load defending organizations
     if datastore['defenders'] != '':
@@ -336,6 +362,24 @@ def main():
         os.mkdir(args.output_directory + "/" + ot + '/defenders/')
         for d in defenders:
             output_dir.output(ot+'/defenders', d, ot)
+        if ot == 'html':
+            f = open(path+'/COMPANY.html', 'r')
+            template = f.read()
+            f.close()
+            ul_list = '<ul id="companies-list">'
+            for d in defenders:
+                f = open(path + '/defenders/' + d.name + '.html', 'w')
+                f.write(template.replace('COMPANY', d.name))
+                f.close()
+                ul_list += f"<li><a href='defenders/{d.name}.html'>{d.name}</a></li>"
+            os.remove(path+'/COMPANY.html')
+            f = open(path + '/index.html', 'r')
+            index = f.read()
+            f.close()
+            f = open(path + '/index.html', 'w')
+            f.write(index.replace('<ul id="companies-list">', ul_list))
+            f.close()
+
 
     # Create or load networks of defenders
     if datastore['networks'] != '':
@@ -390,8 +434,26 @@ def main():
         path = args.output_directory + "/" + ot
         os.mkdir(path + '/reports/')
         logging.debug(f'\t  Events...')
-        for e in [events_fs.get(i[0]) for i in events_fs.query("SELECT id")]:
+        events = [events_fs.get(i[0]) for i in events_fs.query("SELECT id")]
+        for e in events:
             output_dir.output(ot+'/reports', e, ot)
+        if ot == 'html':
+            f = open(path+'/REPORT.html', 'r')
+            template = f.read()
+            f.close()
+            ul_list = '<ul id="reports-list">'
+            for e in events:
+                f = open(path + '/reports/' + e.name + '.html', 'w')
+                f.write(template.replace('REPORT', e.name))
+                f.close()
+                ul_list += f"<li><a href='reports/{e.name}.html'>{e.name}</a></li>"
+            os.remove(path+'/REPORT.html')
+            f = open(path + '/index.html', 'r')
+            index = f.read()
+            f.close()
+            f = open(path + '/index.html', 'w')
+            f.write(index.replace('<ul id="reports-list">', ul_list))
+            f.close()
 
     shutil.rmtree(config['output']['temp_directory'])
 

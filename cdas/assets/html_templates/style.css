@@ -1,0 +1,119 @@
+/*--------------------*/
+/* BASIC TYPOGRAPHY */
+/*--------------------*/
+
+body,
+html {
+	overflow-x:hidden;
+	margin: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+	line-height: 1.5;
+	color: #1c1b1b;
+	padding-bottom: 50px;
+}
+a { 
+	text-decoration: none;
+	color: #2f2f2f;  
+}
+a:hover,
+a:focus {
+	outline: none;
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	margin-top: 0;
+}
+
+
+h1 {
+	font-size: 38px;
+	padding-top: 25px;
+}
+
+h2 {  
+	font-size: 32px; 
+	line-height: 1.13; 
+}
+
+h3 {  
+	font-size: 26px;  
+}
+
+h4 {  
+	font-size: 22px;
+	padding-top: 25px; 
+}
+
+h5 {  
+	font-size: 20px;  
+}
+
+h6 {  
+	font-size: 18px;  
+}
+
+img {
+	border: none;
+	max-width: 100%;
+}
+
+/*--------------------*/
+/* NAVBAR */
+/*--------------------*/
+nav {
+	background-color: #333;
+	position: fixed;
+	width: 100%;
+}
+nav ul {
+	list-style-type: none;
+	margin: auto;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	width: 1000px;
+}
+nav li {
+	float: left;
+	text-decoration: none;
+}
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+  /* Change the link color to #111 (black) on hover */
+nav li a:hover {
+	background-color: #111;
+}
+
+/*--------------------*/
+/* Content WRAPPER */
+/*--------------------*/
+#wrapper {
+	max-width: 1000px;
+	margin:auto;
+	padding-top:50px;
+} 
+
+h3 a {
+	pointer-events: none;
+}
+.container {
+	padding-top:75px;
+}
