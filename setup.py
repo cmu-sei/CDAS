@@ -9,7 +9,7 @@ DESCRIPTION = ("Cybersecurity Decision Analysis Simulator (CDAS) details "
 
 setup(
     name="cdas",
-    version="0.0.5",
+    version="0.0.6",
     description="Cybersecurity Decision Analysis Simulator (CDAS)",
     long_description=DESCRIPTION,
     #long_description_content_type="text/markdown",
