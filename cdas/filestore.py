@@ -38,12 +38,14 @@ subject to its own license:
 DM20-0573
 """
 
+from datetime import datetime
 import json
 import os
 import re
 import reportlab.platypus as platy
 from reportlab.lib.styles import getSampleStyleSheet
 import shutil
+import sys
 from . import context
 
 
@@ -176,7 +178,7 @@ class FileStore():
                 json, html)
         """
 
-        if filetype not in ['json', 'html', 'pdf']:
+        if filetype not in ['json', 'html', 'pdf', 'misp']:
             raise ValueError(f'{filetype} is not an accepted filetype.')
 
         if filetype == 'json':
@@ -214,6 +216,9 @@ class FileStore():
                     if type(d_value) is str or type(d_value) is int:
                         p += str(d_value)
                         flowables.append(platy.Paragraph(p, ss['BodyText']))
+                    elif isinstance(d_value, datetime):
+                        p += datetime.strftime(d_value, "%d %b %Y %H:%M")
+                        flowables.append(platy.Paragraph(p, ss['BodyText']))
                     else:
                         flowables.append(platy.Paragraph(p, ss['BodyText']))
                         bullets = []
@@ -229,6 +234,11 @@ class FileStore():
                         table = platy.ListFlowable(bullets, bulletType='bullet')
                         flowables.append(table)
             pdf.build(flowables)
+        elif filetype == 'misp':
+            pass
+        else:
+            raise ValueError(
+                f'{filetype} is not a valid filetype. Check your config file.')
 
     def query(self, query_string, headers=False):
         """
@@ -353,3 +363,27 @@ class FileStore():
             with open(filepath + '.json', 'w') as outfile:
                 json.dump(serialized, outfile, indent=4)
             outfile.close()
+
+    def save_misp(self, path, filestore):
+        """
+        Save object instances to MISP files by leveraging each object's 
+        mispizer function and dumping to a json file.
+
+        Args:
+            path (string): file to save the MISP output
+            filestore (FileStore object): location of the object instances to
+                save as MISP output
+        """
+
+        items = [filestore.get(i[0]) for i in filestore.query("SELECT id")]
+        mispized = []
+        for item in items:
+            # Get the item in the format needed for MISP
+            mispized.append(item._mispizer())
+        if isinstance(items[0], context.Event):
+            data = {'response': mispized}
+        else:
+            data = mispized
+        with open(path, 'w') as outfile:
+            json.dump(data, outfile, indent=4)
+        outfile.close()

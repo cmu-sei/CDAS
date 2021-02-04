@@ -55,8 +55,7 @@ def random_indicator(itype):
     Parameters
     ----------
     itype : string
-        The type of indicator to be generated. Choose from ['IPv4 address',
-        'domain name']
+        The type of indicator to be generated.
 
     Raises
     -------
@@ -69,10 +68,10 @@ def random_indicator(itype):
         A randomly generated indicator of the specified type
     """
 
-    if itype == 'IPv4 address':
+    if itype == 'ip-src':
         ipv4 = [str(quad) for quad in np.random.randint(0, 255, 4)]
         indicator = ".".join(ipv4)
-    elif itype == 'domain name':
+    elif itype == 'domain':
         generic_tlds = ['.com', '.net', '.org', '.site', '.biz']
         name = np.random.choice(list(string.ascii_letters+string.digits), 10)
         indicator = ''.join(name) + np.random.choice(generic_tlds)
@@ -112,8 +111,8 @@ def simulate(actors, defenders, defend, events_fs, relationships, soph_levels):
 
 def attack(actor, target, network):
     # @TODO - add some tools, ttps, malware, etc
-    indicators = [random_indicator(
-        np.random.choice(['IPv4 address','domain name']))]
+    itype = np.random.choice(['ip-src','domain'])
+    indicators = {itype: random_indicator(itype)}
 
     # @TODO - this probably shouldn't be random...
     success = np.random.choice([True, False])

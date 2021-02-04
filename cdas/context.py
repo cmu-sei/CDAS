@@ -43,6 +43,7 @@ import numpy as np
 import pkg_resources
 import reportlab.platypus as platy
 from reportlab.lib.styles import getSampleStyleSheet
+import uuid
 from cyberdem import base, structures
 import weakref
 from datetime import datetime
@@ -112,6 +113,7 @@ class Country:
 
         Country.countryCount += 1
         self.id = Country.countryCount
+        self.uuid = str(uuid.uuid4())
 
         if len(kwargs) > 0:
             # We're given country attributes from a data set
@@ -134,6 +136,7 @@ class Country:
                 try:
                     lat = str(int(lat)) + " 00 N, "
                 except ValueError:
+                    # Known issue FIXME
                     print(f'lat: {lat}, coords: {coords}, center: {center}')
                     raise ValueError('cannot convert float NaN to integer')
             if lon < 0:
@@ -596,6 +599,80 @@ class Country:
             serialized[key] = value
         return serialized
 
+    def _mispizer(self):
+        """
+        Formats the Country attributes in dictory format for MISP
+        """
+
+        cluster = {"GalaxyCluster": {
+            "uuid": self.uuid,
+            "collection_uuid": "8c25aa7d-6a91-4db0-b530-c9c5f5abbd65",
+            "type": "country",
+            "value": self.name,
+            "tag_name": f"misp-galaxy:country=\"{self.uuid}\"",
+            "description": self.name,
+            "source": "CDAS",
+            "authors": [
+                "CDAS"
+            ],
+            "version": "1",
+            "distribution": "0",
+            "sharing_group_id": None,
+            "default": False,
+            "locked": False,
+            "published": False,
+            "deleted": False,
+            "Galaxy": {
+                "uuid": "8c25aa7d-6a91-4db0-b530-c9c5f5abbd65",
+                "name": "Country",
+                "type": "country",
+                "description":  "Country information provided by CDAS",
+                "version": "1",
+                "icon": "globe",
+                "namespace": "cdas"
+            },
+            "GalaxyClusterRelation": [],
+            "Org": {
+                "name": "CDAS",
+                "description": "Cybersecurity Decision Analysis Simulator",
+                "type": "Simulation generator",
+                "nationality": "Not specified",
+                "uuid": "4b1e8e88-78fb-48bd-8a46-5de63fd16688",
+                "contacts": "",
+                "local": False,
+                "restricted_to_domain": "",
+                "landingpage": None
+                },
+                "Orgc": {
+                    "name": "CDAS",
+                    "description": "Cybersecurity Decision Analysis Simulator",
+                    "type": "Simulation generator",
+                    "nationality": "Not specified",
+                    "uuid": "4b1e8e88-78fb-48bd-8a46-5de63fd16688",
+                    "local": False,
+                    "restricted_to_domain": "",
+                    "landingpage": None
+                },
+            }
+        }
+
+        serialized = []
+        for key, value in self.__dict__.items():
+            if key == 'id':
+                continue
+            element = {"key":key}
+            if isinstance(value, list):
+                element["value"] = ', '.join(value)
+            elif isinstance(value, dict):
+                strings = [f"{v}: {value[v]}" for v in value]
+                element["value"] = ', '.join(strings)
+            else:
+                element["value"] = value
+            serialized.append(element)
+        cluster['GalaxyCluster']['GalaxyElement'] = serialized
+        return cluster
+
+
     def update(self, id_to_name):
         """
         Changes references to other countries' IDs to their names.
@@ -998,6 +1075,23 @@ class Event():
     def __init__(self, **kwargs):
         self.__dict__.update(kwargs)
 
+        if len(kwargs) == 0:
+            # Events are never instantiated with empty kwargs, putting this
+            #   here to get rid of the "no member" errors in the other methods
+            self.date = None
+            self.indicators = []
+            self.description = ""
+            self.id = ""
+            self.target = ""
+            self.threat_actor = ""
+
+        if 'date' in list(self.__dict__.keys()):
+            try:
+                date = datetime.strptime(self.date, "%d %b %Y %H:%M")
+                self.date = date
+            except ValueError:
+                pass
+
     def _serialize(self):
         """
         Return the Event attributes in a dictionary form with
@@ -1014,6 +1108,68 @@ class Event():
             else:
                 serialized[key] = value
         return serialized
+
+    def _mispizer(self):
+        """
+        Formats the Event attributes in dictionary format for MISP
+        """
+
+        event = {"Event":{
+            "date": self.date.strftime("%Y-%m-%d"),
+            "threat_level_id": "4",
+            "uuid": self.id[7:],
+            "info": self.description,
+            "published": False,
+            "attribute_count": str(len(self.indicators)),
+            "analysis": "2",
+            "timestamp": str(int(self.date.timestamp())),
+            "distribution": "0",
+            "Org": {
+                "name": "CDAS",
+                "uuid": "4b1e8e88-78fb-48bd-8a46-5de63fd16688",
+                "local": False
+            },
+            "Orgc": {
+                "name": "CDAS",
+                "uuid": "4b1e8e88-78fb-48bd-8a46-5de63fd16688",
+                "local": False
+            },
+            "Tag": [
+                {
+                    "name": f"misp-galaxy:organization=\"{self.target[10:]}\"",
+                    "colour": "#0088cc",
+                    "exportable": True,
+                    "hide_tag": False,
+                    "numerical_value": None,
+                    "is_galaxy": True,
+                    "is_custom_galaxy": True,
+                    "local": 0
+                },
+                {
+                    "name": f"misp-galaxy:threat-actor=\"{self.threat_actor[15:]}\"",
+                    "colour": "#0088cc", "exportable": True, "hide_tag": False,
+                    "numerical_value": None, "is_galaxy": True,
+                    "is_custom_galaxy": True, "local": 0
+                }
+            ]
+        }}
+        attributes = []
+        for indicator in self.indicators:
+            attribute = {
+                "type": indicator,
+                "category": "Network activity",
+                "to_ids": False,
+                "distribution": "0",
+                "timestamp": str(int(self.date.timestamp())),
+                "deleted": False,
+                "disable_correlation": False,
+                "first_seen": None,
+                "last_seen": None,
+                "value": self.indicators[indicator]
+            }
+            attributes.append(attribute)
+        event["Event"]["Attribute"] = attributes
+        return event
 
 
 def random_network(fs, scale, netblocks=None):

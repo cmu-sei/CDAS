@@ -30,11 +30,7 @@
     "output": {
         "input_directory": "",
         "output_directory": "cdas-output",
-        "output_type_opts": [
-            "json",
-            "pdf",
-            "html"
-        ],
+        "output_type_opts": ["json", "pdf", "html", "misp"],
         "output_types": ["pdf"],
         "temp_directory": "cdas-temp"
     }

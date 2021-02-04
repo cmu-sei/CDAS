@@ -187,6 +187,75 @@ class ThreatActor():
             serialized[key] = s_value
         return serialized
 
+    def _mispizer(self):
+        """
+        Formats the Threat Actor attributes in dictionary format for MISP
+        """
+
+        cluster = {"GalaxyCluster": {
+            "uuid": self.id[15:],
+            "collection_uuid": "86fa35a5-69e3-429e-8325-9a55f6e2f889",
+            "type": "threat-actor",
+            "value": self.name,
+            "tag_name": f"misp-galaxy:threat-actor=\"{self.id[15:]}\"",
+            "description": self.name,
+            "source": "CDAS",
+            "authors": [
+                "CDAS"
+            ],
+            "version": "1",
+            "distribution": "0",
+            "sharing_group_id": None,
+            "default": False,
+            "locked": False,
+            "published": False,
+            "deleted": False,
+            "Galaxy": {
+                "uuid": "86fa35a5-69e3-429e-8325-9a55f6e2f889",
+                "name": "Threat Actor", "type": "threat-actor",
+                "description":  "Threat actor information provided by CDAS",
+                "version": "1", "icon": "user-secret", "namespace": "cdas"
+            },
+            "GalaxyClusterRelation": [],
+            "Org": {
+                "name": "CDAS",
+                "description": "Cybersecurity Decision Analysis Simulator",
+                "type": "Simulation generator",
+                "nationality": "Not specified",
+                "uuid": "4b1e8e88-78fb-48bd-8a46-5de63fd16688",
+                "contacts": "",
+                "local": False,
+                "restricted_to_domain": "",
+                "landingpage": None
+                },
+                "Orgc": {
+                    "name": "CDAS",
+                    "description": "Cybersecurity Decision Analysis Simulator",
+                    "type": "Simulation generator",
+                    "nationality": "Not specified",
+                    "uuid": "4b1e8e88-78fb-48bd-8a46-5de63fd16688",
+                    "local": False,
+                    "restricted_to_domain": "",
+                    "landingpage": None
+                },
+            }
+        }
+
+        serialized = []
+        for key, value in self.__dict__.items():
+            if key == 'id':
+                continue
+            element = {"key":key}
+            if isinstance(value, date):
+                element["value"] = value.strftime("%d %b %Y")
+            elif isinstance(value, list):
+                element["value"] = ", ".join(value)
+            else:
+                element["value"] = value
+            serialized.append(element)
+        cluster['GalaxyCluster']['GalaxyElement'] = serialized
+        return cluster
+
     def _save(self, relationships, tools_fs, malware_fs, ttp_fs):
         """
         Fetches information about APT relationships to include in file output
@@ -314,3 +383,70 @@ class Defender():
         for key, value in self.__dict__.items():
             serialized[key] = value
         return serialized
+
+    def _mispizer(self):
+        """
+        Formats the Defender attributes in dictionary format for MISP
+        """
+
+        cluster = {"GalaxyCluster": {
+            "uuid": self.id[10:],
+            "collection_uuid": "c3609c3a-d0f9-4e7e-9566-3dab932e81bb",
+            "type": "organization",
+            "value": self.name,
+            "tag_name": f"misp-galaxy:organization=\"{self.id[10:]}\"",
+            "description": self.name,
+            "source": "CDAS",
+            "authors": [
+                "CDAS"
+            ],
+            "version": "1",
+            "distribution": "0",
+            "sharing_group_id": None,
+            "default": False,
+            "locked": False,
+            "published": False,
+            "deleted": False,
+            "Galaxy": {
+                "uuid": "c3609c3a-d0f9-4e7e-9566-3dab932e81bb",
+                "name": "Organization", "type": "organization",
+                "description":  "Organization information provided by CDAS",
+                "version": "1", "icon": "building", "namespace": "cdas"
+            },
+            "GalaxyClusterRelation": [],
+            "Org": {
+                "name": "CDAS",
+                "description": "Cybersecurity Decision Analysis Simulator",
+                "type": "Simulation generator",
+                "nationality": "Not specified",
+                "uuid": "4b1e8e88-78fb-48bd-8a46-5de63fd16688",
+                "contacts": "",
+                "local": False,
+                "restricted_to_domain": "",
+                "landingpage": None
+                },
+                "Orgc": {
+                    "name": "CDAS",
+                    "description": "Cybersecurity Decision Analysis Simulator",
+                    "type": "Simulation generator",
+                    "nationality": "Not specified",
+                    "uuid": "4b1e8e88-78fb-48bd-8a46-5de63fd16688",
+                    "local": False,
+                    "restricted_to_domain": "",
+                    "landingpage": None
+                },
+            }
+        }
+
+        serialized = []
+        for key, value in self.__dict__.items():
+            if key == 'id':
+                continue
+            element = {"key":key}
+            if isinstance(value, list):
+                element["value"] = '; '.join(value)
+            else:
+                element["value"] = str(value)
+            serialized.append(element)
+        cluster['GalaxyCluster']['GalaxyElement'] = serialized
+        return cluster

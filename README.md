@@ -1,6 +1,6 @@
 # Cyber Decision Analysis Simulator - CDAS
 
-![CDAS Logo](cdas/assets/CDAS.png)
+![CDAS Logo](cdas/assets/images/CDAS.png)
 
 ## Overview
 
@@ -13,10 +13,9 @@ Future versions will include fine-grained ability to control detailed aspects of
 - [x] Country and geopolitical context generation
 - [x] APT generation
 - [x] Cyber event generation (incidents, attacks, intelligence)
-- [x] Output formats: PDF, JSON, and/or STIX
+- [x] Output formats: PDF, JSON, MISP and/or HTML
 
 ### ToDo
-- [ ] Output formats: HTML, SQL dump
 - [ ] Country relationship details
 - [ ] Detailed representation of defender networks (asset improvement)
 - [ ] Visualization of relationships between data points
@@ -86,7 +85,7 @@ CDAS should finish with no errors and the results will be in a folder called cda
 
 ## Configuration
 
-CDAS is configured via a required json file. You will find several sample configuration files in the sample_configs folder. Users can change variables related to geopolitical context generation, asset generation, agent generation, whether to randomize or use real world data, and more. See [Config.md](Config.md) for further instructions.
+CDAS is configured via a required json file. You will find several sample configuration files in the sample_configs folder. Users can change variables related to geopolitical context generation, asset generation, agent generation, whether to randomize or use real world data, and more. See [UserGuide.md](UserGuide.md) for further instructions.
 
 Additionally, there are three available command line flags: the required config-file, and the optional input and output directories. See the help menu for information on available flags.
 

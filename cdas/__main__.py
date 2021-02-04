@@ -194,17 +194,20 @@ def main():
     # Output country data
     for ot in config['output']['output_types']:
         path = args.output_directory + "/" + ot
-        os.mkdir(path)
-        os.mkdir(path + '/countries/')
+        if ot == "html":
+            templates = pkg_resources.resource_filename(
+                __name__, f'assets/{ot}_templates')
+            shutil.copytree(templates,path)
+        elif ot == "misp":
+            os.mkdir(path)
+        else:
+            os.mkdir(path)
+            os.mkdir(path + '/countries/')
         if ot == 'html':
-            html_src = pkg_resources.resource_filename(
-                __name__, 'assets/html_templates')
-            html_templates = os.listdir(html_src)
-            for f in html_templates:
-                shutil.copy(html_src + '/' + f, path) 
             f = open(path+'/COUNTRY.html', 'r')
             c_template = f.read()
             f.close()
+            os.mkdir(path + '/countries/')
             countries = [c[0] for c in countries_fs.query("SELECT name")]
             ul_list = '<ul id="world-map-list">'
             for country in countries:
@@ -219,9 +222,13 @@ def main():
             f = open(path + '/index.html', 'w')
             f.write(index.replace('<ul id="world-map-list">', ul_list))
             f.close()
-        for i in countries_fs.query("SELECT id"):
-            country = countries_fs.get(i[0])
-            output_dir.output(ot+'/countries', country, ot)
+        if ot == 'misp':
+            output_dir.save_misp(path+'/country-galaxy-cluster.json', countries_fs)
+        else:
+            for i in countries_fs.query("SELECT id"):
+                country = countries_fs.get(i[0])
+                output_dir.output(ot+'/countries', country, ot)
+        
 
     # Load or create actor data
     with open(pkg_resources.resource_filename(
@@ -278,10 +285,14 @@ def main():
     names = threat_actor_fs.query("SELECT id")
     actors = [threat_actor_fs.get(name[0]) for name in names]
     for ot in config['output']['output_types']:
-        os.mkdir(args.output_directory + "/" + ot + '/actors/')
-        for apt in actors:
-            output_dir.output(ot+'/actors', apt._save(
-                relationships, tools_fs, malware_fs, ttp_fs), ot)
+        if ot == 'misp':
+            output_dir.save_misp(
+                path+'/threat-actor-galaxy-cluster.json', threat_actor_fs)
+        else:
+            os.mkdir(args.output_directory + "/" + ot + '/actors/')
+            for apt in actors:
+                output_dir.output(ot+'/actors', apt._save(
+                    relationships, tools_fs, malware_fs, ttp_fs), ot)
         if ot == 'html':
             f = open(path+'/APT.html', 'r')
             template = f.read()
@@ -359,9 +370,13 @@ def main():
     names = defender_fs.query("SELECT id")
     defenders = [defender_fs.get(name[0]) for name in names]
     for ot in config['output']['output_types']:
-        os.mkdir(args.output_directory + "/" + ot + '/defenders/')
-        for d in defenders:
-            output_dir.output(ot+'/defenders', d, ot)
+        if ot == 'misp':
+            output_dir.save_misp(
+                path+'/organization-galaxy-cluster.json', defender_fs)
+        else:
+            os.mkdir(args.output_directory + "/" + ot + '/defenders/')
+            for d in defenders:
+                output_dir.output(ot+'/defenders', d, ot)
         if ot == 'html':
             f = open(path+'/COMPANY.html', 'r')
             template = f.read()
@@ -426,17 +441,22 @@ def main():
     # Map
     try:
         map_matrix.plot_map(args.output_directory, **country_names)
+        if 'html' in config['output']['output_types']:
+            shutil.copy(
+                os.path.join(args.output_directory, 'map.svg'),
+                os.path.join(args.output_directory, 'html/'))
     except NameError:
         pass
 
     for ot in config['output']['output_types']:
-        logging.debug(f'    {ot}...')
         path = args.output_directory + "/" + ot
-        os.mkdir(path + '/reports/')
-        logging.debug(f'\t  Events...')
-        events = [events_fs.get(i[0]) for i in events_fs.query("SELECT id")]
-        for e in events:
-            output_dir.output(ot+'/reports', e, ot)
+        if ot == 'misp':
+            output_dir.save_misp(path+'/events.json', events_fs)
+        else:
+            os.mkdir(path + '/reports/')
+            events = [events_fs.get(i[0]) for i in events_fs.query("SELECT id")]
+            for e in events:
+                output_dir.output(ot+'/reports', e, ot)
         if ot == 'html':
             f = open(path+'/REPORT.html', 'r')
             template = f.read()
