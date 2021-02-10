@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+# Cyber Decision Analysis Simulator - CDAS
 
-You can use the [editor on GitHub](https://github.com/cmu-sei/CDAS/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
+![CDAS Logo](cdas/assets/images/CDAS.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Overview
 
-### Markdown
+This program generates cyber attack scenarios for use in cyber training exercises, red team planning, blue team planning, automated attack execution, and cybersecurity policy analysis. The current version generates documentation for these scenarios in the form of cyber incident reports and supporting contextual information (information on countries and threat actors). Scenarios can be based on real countries and geopolitical context, or have this context generated psuedo-randomly. Scenarios can use real APTs or have them generated pseudo-randomly to match the geopolitical context. Simulated cyber events are then generated based on APT motivation and organization vulnerability.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Future versions will include fine-grained ability to control detailed aspects of the simulation, improved logic for APT and event generation, and a policy analysis capability allowing decision makers to compare risk reduction or outcome improvements across different policy simulations.
 
-```markdown
-Syntax highlighted code block
+## Features
 
-# Header 1
-## Header 2
-### Header 3
+- [x] Country and geopolitical context generation
+- [x] APT generation
+- [x] Cyber event generation (incidents, attacks, intelligence)
+- [x] Output formats: PDF, JSON, MISP and/or HTML
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+## License
 
-**Bold** and _Italic_ and `Code` text
+Copyright 2020 Carnegie Mellon University. See the [LICENSE.md](LICENSE.md) file for details.
 
-[Link](url) and ![Image](src)
-```
+## Acknowledgements
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cmu-sei/CDAS/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+* Default country information is pulled from the CIA World Factbook site (https://www.cia.gov/library/publications/the-world-factbook/)
+* Default intrusion set information for CDAS comes from the [Mitre Cyber Threat Intelligence repository](https://github.com/mitre/cti).
