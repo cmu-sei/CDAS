@@ -113,7 +113,7 @@ def main():
             if f.lower() not in datastore.keys():
                 raise Exception(
                     f'{f} in {args.input_directory} is not allowed as an '
-                    f'input. These are allowed: {datastore.keys()}')
+                    f'input. These are allowed: {", ".join(list(datastore.keys()))}')
             else:
                 datastore[f.lower()] = os.path.join(args.input_directory, f)
         if 'relationships.json' in input_fs:
@@ -289,9 +289,9 @@ def main():
             output_dir.save_misp(
                 path+'/threat-actor-galaxy-cluster.json', threat_actor_fs)
         else:
-            os.mkdir(args.output_directory + "/" + ot + '/actors/')
+            os.mkdir(args.output_directory + "/" + ot + '/threat-actors/')
             for apt in actors:
-                output_dir.output(ot+'/actors', apt._save(
+                output_dir.output(ot+'/threat-actors', apt._save(
                     relationships, tools_fs, malware_fs, ttp_fs), ot)
         if ot == 'html':
             f = open(path+'/APT.html', 'r')
@@ -300,7 +300,7 @@ def main():
             apts = [c[0] for c in threat_actor_fs.query("SELECT name")]
             ul_list = '<ul id="threat-actors-list">'
             for apt in apts:
-                f = open(path + '/actors/' + apt + '.html', 'w')
+                f = open(path + '/threat-actors/' + apt + '.html', 'w')
                 f.write(template.replace('APT', apt))
                 f.close()
                 ul_list += f"<li><a href='actors/{apt}.html'>{apt}</a></li>"
