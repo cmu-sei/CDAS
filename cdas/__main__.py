@@ -349,7 +349,8 @@ def main():
             raise Exception(
                 f"Config file entry for 'defenders':'countries': "
                 f"{config['defenders']['countries']} is not an accepted value."
-                f" Options are \"ANY\" or a list of country names.")
+                f" Options are \"ANY\" or a list of country names, such as [\""
+                f"United States\",\"Andorra\"].")
         if config['defenders']['sectors'] == "ANY":
             sectors = stix_vocab['sectors']
         elif isinstance(config['defenders']['sectors'], list):
