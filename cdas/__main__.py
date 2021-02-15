@@ -233,7 +233,7 @@ def main():
     # Load or create actor data
     with open(pkg_resources.resource_filename(
             __name__,
-            "assets/stix_vocab.json"), encoding='utf-8') as json_file:
+            "assets/vocabulary.json"), encoding='utf-8') as json_file:
         stix_vocab = json.load(json_file)
     json_file.close()
     names = tools_fs.query("SELECT id")
@@ -368,9 +368,11 @@ def main():
                 defs += 1
 
     # Output defender info
+    logging.info('Saving defenders...')
     names = defender_fs.query("SELECT id")
     defenders = [defender_fs.get(name[0]) for name in names]
     for ot in config['output']['output_types']:
+        logging.debug('\t'+ot)
         if ot == 'misp':
             output_dir.save_misp(
                 path+'/organization-galaxy-cluster.json', defender_fs)
@@ -404,7 +406,7 @@ def main():
         network_fs = filestore.FileStore(
             datastore['networks'], 'Networks')
     else:
-        logging.info("Creating random networks of defenders...")
+        logging.info("Creating random networks for defenders...")
         network_fs = filestore.FileStore(
             os.path.join(config['output']['temp_directory'], 'networks'),
             'Networks', write=True)
@@ -438,7 +440,7 @@ def main():
         start += time_increment
 
     # Create output files
-    logging.info('Saving output...')
+    logging.info('Saving simulation output...')
     # Map
     try:
         map_matrix.plot_map(args.output_directory, **country_names)
@@ -450,6 +452,7 @@ def main():
         pass
 
     for ot in config['output']['output_types']:
+        logging.debug('\t'+ot)
         path = args.output_directory + "/" + ot
         if ot == 'misp':
             output_dir.save_misp(path+'/events.json', events_fs)

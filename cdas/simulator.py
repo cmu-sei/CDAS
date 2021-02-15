@@ -92,8 +92,7 @@ def simulate(actors, defenders, defend, events_fs, relationships, soph_levels):
             # sophisticated the actor, the more often they can attack. For the
             # purpose of calculations, the strongest actor is level 1, the
             # levels go up as the actors get weaker.
-            strength = soph_levels.index(actor.sophistication) + 1
-            if t%strength == 0:
+            if t % soph_levels[actor.sophistication] == 0:
                 # Actor picks a target 
                 # @TODO - currently a random target make this more logical later
                 target = np.random.choice(defenders)

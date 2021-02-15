@@ -109,7 +109,7 @@ class ThreatActor():
             self.name = adj + " " + noun
 
             self.sophistication = str(np.random.choice(
-                stix['threat-actor-sophistication']))
+                list(stix['threat-actor-sophistication'])))
             self.actor_type = np.random.choice(
                 list(stix["threat-actor-type"].keys()),
                 p=list(stix["threat-actor-type"].values()))
@@ -121,12 +121,12 @@ class ThreatActor():
             aliases = [f"APT {1000+(len(actors))}"]
             aliases_taken = [ta[1] for ta in actors]
             alias = (
-                f"{np.random.choice(stix['colors'])} "
-                f"{np.random.choice(stix['animals'])}")
+                f"{np.random.choice(stix['alias 1'])} "
+                f"{np.random.choice(stix['alias 2'])}")
             while alias in aliases_taken:
                 alias = (
-                    f'{np.random.choice(stix["colors"])} '
-                    f'{np.random.choice(stix["animals"])}')
+                    f'{np.random.choice(stix["alias 1"])} '
+                    f'{np.random.choice(stix["alias 2"])}')
             aliases.append(alias)
             self.aliases = aliases
 
@@ -156,7 +156,7 @@ class ThreatActor():
             ttps (list): all available TTPs (by id)
         """
 
-        num_mal = sophistication.index(self.sophistication)
+        num_mal = sophistication[self.sophistication] - 1
 
         some_tools = np.random.choice(tools, num_mal+2, False)
         for tool in some_tools:

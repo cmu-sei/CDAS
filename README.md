@@ -4,9 +4,7 @@
 
 ## Overview
 
-This program generates cyber attack scenarios for use in cyber training exercises, red team planning, blue team planning, automated attack execution, and cybersecurity policy analysis. The current version generates documentation for these scenarios in the form of cyber incident reports and supporting contextual information (information on countries and threat actors). Scenarios can be based on real countries and geopolitical context, or have this context generated psuedo-randomly. Scenarios can use real APTs or have them generated pseudo-randomly to match the geopolitical context. Simulated cyber events are then generated based on APT motivation and organization vulnerability.
-
-Future versions will include fine-grained ability to control detailed aspects of the simulation, improved logic for APT and event generation, and a policy analysis capability allowing decision makers to compare risk reduction or outcome improvements across different policy simulations.
+This program generates cyber attack scenarios for use in cyber training exercises, red team planning, blue team planning, automated attack execution, and cybersecurity policy analysis. CDAS generates documentation for these scenarios in the form of cyber incident reports and supporting contextual information (information on countries and threat actors). Scenarios can be based on real countries and geopolitical context, or have this context generated psuedo-randomly. Scenarios can use real APTs or have them generated pseudo-randomly to match the geopolitical context. Simulated cyber events are then generated based on APT motivation and organization vulnerability.
 
 ## Features
 
@@ -35,7 +33,7 @@ Future versions will include fine-grained ability to control detailed aspects of
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine.
+These instructions will get you a copy of the project up and running on your local machine. For detailed instructions on how to configure and use CDAS, see the [User Guide](UserGuide.md).
 
 ### Prerequisites
 
@@ -85,7 +83,7 @@ CDAS should finish with no errors and the results will be in a folder called cda
 
 ## Configuration
 
-CDAS is configured via a required json file. You will find several sample configuration files in the sample_configs folder. Users can change variables related to geopolitical context generation, asset generation, agent generation, whether to randomize or use real world data, and more. See [UserGuide.md](UserGuide.md) for further instructions.
+CDAS is configured via a required json file. You will find several sample configuration files in the [sample_configs](sample_configs) folder. Users can change variables related to geopolitical context generation, asset generation, agent generation, whether to randomize or use real world data, and more. See the [User Guide](UserGuide.md) for further instructions.
 
 Additionally, there are three available command line flags: the required config-file, and the optional input and output directories. See the help menu for information on available flags.
 
@@ -103,60 +101,6 @@ optional arguments:
                         directory for storing results
   --verbose, -v         v for basic status, vv for detailed status
 ```
-
-## Data Customization
-
-The default intrusion set information for CDAS comes from the [Mitre Cyber Threat Intelligence repository](https://github.com/mitre/cti). The default country information comes from the [CIA World Factbook](https://www.cia.gov/library/publications/the-world-factbook/) site. If you prefer to use only a subset of this data, or to use your own custom data, you may do so by providing an input folder at the command line.
-
-```
-$ python3 -m cdas -c config.json -i cdas_input/
-```
-
-The input folder may have any or all of the following:
-* "countries" - folder containing files, each with information on an individual country
-    * file name format: "location--XX...XXX.json"
-    * required attributes in a location file:
-        * id - unique ID, same as file name
-        * name
-* "defenders" - folder containing files, each with information on an individual defending organization
-    * file name format: "defender--XX...XXX.json"
-    * required attributes in a defender file:
-        * id - unique ID, same as file name
-        * name
-* "malware" - folder containing files, each with information on an individual malware
-    * file name format: "malware--XX...XXX.json"
-    * required attributes in a malware file:
-        * id - unique ID, same as file name
-        * name
-    * see the default [malware](cdas/assets/mitre_cti/malware) for examples
-* "tools" - folder containing files, each with information on an individual tool
-    * file name format: "tool--XX...XXX.json"
-    * required attributes in a tool file:
-        * id - unique ID, same as file name
-        * name
-    * see the default [tools](cdas/assets/mitre_cti/tools) for examples
-* "threat-actors" - folder containing files, each with information on an individual threat actor
-    * file name format: "intrusion-set--XX...XXX.json"
-    * required attributes in a intrusion-set file:
-        * id - unique ID, same as file name
-        * name
-    * see the default [threat-actors](cdas/assets/mitre_cti/threat-actors) for examples
-* "attack-patterns" - folder containing files, each with information on an individual TTP
-    * file name format: "attack-pattern--XX...XXX.json"
-    * required attributes in a ttp file:
-        * id - unique ID, same as file name
-        * name
-    * see the default [attack-patterns](cdas/assets/mitre_cti/attack-patterns) for examples
-* "relationships.json" - file containing mapping of source and target IDs, along with relationship type. See the [default relationships.json](cdas/assets/mitre_cti/relationships.json) file as an example.
-
-For example:
-![Input folder example](cdas/assets/input_folder.png)
-
-CDAS will check the input folder first and use the data provided as inputs for those data types (country, threat actor, etc.). For any folders/files not provided in the input folder, CDAS will use either the defaults or create random data (depending on the settings in the configuration file).
-
-Additional customization for CDAS is handled through the configuration file, which allows for changing variables related to geopolitical context generation, agent generation, whether to randomize or use real world data, number of simulation rounds, and more. See [Config.md](Config.md) for further instructions.
-
-To customize the output data beyond the options available in the configuration file, run CDAS with inputs and configuration close to your target, and set the output file type in the configuration file to "json". You can then make changes to the json files provided in the CDAS output. You can even reuse those customized files as input to subsequent iterations of CDAS. 
 
 ## License
 

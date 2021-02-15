@@ -1,25 +1,28 @@
 {
+    "attack-motivation_notes": "source: STIX 2.0; \"accidental\" removed",
     "attack-motivation": [
-        "coercion","dominance","ideology","notoriety","financial gain",
-        "economic gain","revenge","personal gain"
+        "coercion", "dominance", "ideology", "notoriety","organization gain",
+        "personal gain", "personal satisfaction", "revenge", "unpredictable"
     ],
-    "attack-resource-level": [
-        "individual", "club", "contest", "team", "organization", "government"
-    ],
-    "threat-actor-role": [
-        "agent", "director", "independent", "infrastructure-architect",
-        "infrastructure-operator", "sponsor"
-    ],
-    "threat-actor-sophistication": [
-        "strategic", "innovator", "expert", "advanced", "intermediate", "minimal" 
-    ],
+    "threat-actor-sophistication_notes": "source: STIX 2.0",
+    "threat-actor-sophistication": {
+        "strategic":1,
+        "innovator":2,
+        "expert":3,
+        "advanced":4,
+        "intermediate":5,
+        "minimal":6,
+        "none":7
+    },
+    "threat-actor-type_notes": "source: STIX 2.0; individual actor types removed; values are perecentages used for random selection",
     "threat-actor-type": {
         "activist":0.1,
-        "crime-syndicate":0.1, 
+        "crime-syndicate":0.1,
         "nation-state":0.5,
         "spy":0.1,
         "terrorist":0.2
     },
+    "sectors_notes": "source: STIX 2.0",
     "sectors": [
         "agriculture",
         "aerospace",
@@ -32,16 +35,34 @@
         "education",
         "energy",
         "entertainment",
-        "financial-services",
+        "financial services",
         "government (emergency-services)",
-        "government (local)", "government (national)",
-        "government (public-services)", "government (regional)","healthcare",
-        "hospitality-leisure", "infrastructure (dams, nuclear, water)",
-        "insurance", "law enforcement", "manufacturing",
-        "media", "mining", "national labs", "non-profit", "pharmaceuticals",
-        "retail","technology","telecommunications","transportation","utilities"
+        "government (local)",
+        "government (national)",
+        "government (public-services)",
+        "government (regional)",
+        "healthcare",
+        "hospitality-leisure",
+        "infrastructure (dams)",
+        "infrastructure (nuclear)",
+        "infrastructure (water)",
+        "insurance",
+        "manufacturing",
+        "mining",
+        "non-profit",
+        "pharmaceuticals",
+        "retail",
+        "technology",
+        "telecommunications",
+        "transportation",
+        "utilities"
     ],
-    "animals": [
+    "alias 1": [
+        "Amber","Black","Blue","Bronze","Burgundy",
+        "Crimson","Gray","Green","Indigo","Lavender","Magenta","Navy","Purple",
+        "Orange","Red","Teal","Yellow"
+    ],
+    "alias 2": [
         "Aardvark","Albatross","Alligator","Angelfish","Ant","Anteater",
         "Antelope","Armadillo","Baboon","Badger","Barracuda","Bat","Bear",
         "Beaver","Beetle","Bison","Bobcat","Buffalo","Bulldog","Bullfrog",
@@ -60,11 +81,6 @@
         "Raccoon","Rat","Rattlesnake","Rhinoceros","Sheep","Skunk","Sloth",
         "Snail","Snake","Sparrow","Squirrel","Tiger","Tortoise","Toucan",
         "Turkey","Wolf","Yak","Zebra"
-    ],
-    "colors": [
-        "Amber","Black","Blue","Bronze","Burgundy",
-        "Crimson","Gray","Green","Indigo","Lavender","Magenta","Navy","Purple",
-        "Orange","Red","Teal","Yellow"
     ],
     "goals": [
         "steal financial information",

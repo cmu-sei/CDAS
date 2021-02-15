@@ -1,13 +1,92 @@
 # CDAS User Guide
 
-1. [Editing the Configuration File](#Configuration)
+1. [Installation](#Installing-CDAS)
+2. [Running CDAS](#Running-CDAS)
+3. [Editing the Configuration File](#Configuration)
     - [Configuring agents](#Agents-Configuration)
     - [Configuring countries](#Country-Configuration)
     - [Configuring defenders](#Defender-Configuration)
     - [Configuring output](#Output-Configuration)
-2. [Output](#Output)
+4. [Output](#Output)
     - [PDF](#PDF), [HMTL](#HTML), [JSON](#JSON), [MISP](#MISP)
+5. [Customization](#Customization)
+    - [Using the Input Folder](#Using-the-Input-Folder)
+6. [Use Cases](#Use-Cases)
 
+
+## Installing CDAS
+
+These instructions will get you a copy of the project up and running on your local machine.
+
+CDAS installs the following packages and their dependencies upon setup:
+* numpy
+* reportlab
+* drawSVG
+* cyberdem
+
+1. Download CDAS and unzip the download folder
+2. From within the top-level cdas folder (where setup.py is located) run
+
+```
+$ pip3 install .
+```
+
+3. To test that CDAS is installed properly run
+
+```
+$ python3 -m cdas -c sample_configs/randomize_all_small_pdf.json -v
+Setting up directories...
+Creating fake countries...
+Creating fake threat actors...
+Running simulation...
+        Round 1
+        Round 2
+        Round 3
+        Round 4
+        Round 5
+Saving output...
+        pdf
+Done
+```
+
+CDAS should finish with no errors and the results will be in a folder called cdas-output. Results will include
+- SVG map of countries
+- A "pdf" folder containing
+    - 'actors' folder containing PDF files with threat actor descriptions
+    - 'countries' folder containing PDF files with country attributes
+    - 'reports' folder containing PDF files with event reports
+    - 'defenders' folder containing PDF files with organization descriptions
+
+[Back to top](#CDAS-User-Guide)
+## Running CDAS
+
+CDAS requires Python3 to run, and has been tested with versions 3.7-9. Once installed, it can be run as a python module requiring only a configuration file.
+
+```
+$ python3 -m cdas -c sample_configs/randomize_all_small_pdf.json
+```
+The output will be located in the output folder provided in the config file (default configs use "cdas-output").
+
+More **verbose** output can be generated on the command line by including a ```-v``` or ```-vv```. This is particularly helpful if you are running a large simulation and need to monitor the status.
+
+CDAS also has a help message from the command line:
+```
+$ python3 -m cdas -h
+usage: __main__.py [-h] -c CONFIG_FILE [-i INPUT_DIRECTORY] [-o OUTPUT_DIRECTORY] [--verbose]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -c CONFIG_FILE, --config-file CONFIG_FILE
+                        configuration file (json)
+  -i INPUT_DIRECTORY, --input-directory INPUT_DIRECTORY
+                        directory for specifying custom data
+  -o OUTPUT_DIRECTORY, --output-directory OUTPUT_DIRECTORY
+                        directory for storing results
+  --verbose, -v         v for basic status, vv for detailed status
+```
+
+
+[Back to top](#CDAS-User-Guide)
 ## Configuration
 
 CDAS requires a configuration file at run time, provided by the -c flag on the command line. There are several sample configuration files in the [sample_configs](cdas/sample_configs) folder.
@@ -213,7 +292,104 @@ Once your galaxy clusters are loaded you can load the events.
 
 You should now see the CDAS generated events in the Events list in the MISP instance.
 
+[Back to top](#CDAS-User-Guide)
+## Customization
 
+The default intrusion set information for CDAS comes from the [Mitre Cyber Threat Intelligence repository](https://github.com/mitre/cti) and the default country information comes from the [CIA World Factbook](https://www.cia.gov/library/publications/the-world-factbook/) site. If you prefer to use only a subset of this data, or to use your own custom data, you may do so by providing an input folder at the command line.
+
+Additional customization for CDAS is handled through the configuration file, which allows for changing variables related to geopolitical context generation, agent generation, whether to randomize or use real world data, number of simulation rounds, and more. See [Configuration](#Configuration) section for further instructions.
+
+To customize the output data beyond the options available in the configuration file, run CDAS with inputs and configuration close to your target, and set the output file type in the configuration file to "json". You can then make changes to the json files provided in the CDAS output. You can even reuse those customized files as input to subsequent iterations of CDAS. 
+
+### Using the Input Folder
+You can provide customized input files to CDAS by provide an input folder via the command line with the ```-i``` flag. 
+```
+$ python -m cdas -c config.json -i cdas_input/
+```
+CDAS will check the input folder first and use the data provided as inputs for those data types (country, threat actor, etc.). For any folders/files not provided in the input folder, CDAS will use either the defaults or create random data (depending on the settings in the configuration file).
+
+The input folder can have any/all of the following folders:
+
+| Folder name     | File name format              | Default references |
+| -----------     | ----------------              | ------------------ |
+| attack-patterns | attack-pattern--XX...XXX.json | [attack-patterns](cdas/assets/mitre_cti/attack-patterns) |
+| countries       | location--XX...XXX.json       | [countries](cdas/data/cia_world_factbook) |
+| defenders       | defender--XX...XXX.json       | No default |
+| malware         | malware--XX...XXX.json        | [malware](cdas/assets/mitre_cti/malware) |
+| threat-actors   | intrusion-set--XX...XXX.json  | [threat-actors](cdas/assets/mitre_cti/threat-actors) |
+| tools           | tool--XX...XXX.json           | [tools](cdas/assets/mitre_cti/tools) |
+
+You can also provide a "relationships.json" file containing mapping of source and target IDs, along with relationship type. See the [default relationships.json](cdas/assets/mitre_cti/relationships.json) file as an example.
+
+For example:
+![Input folder example](docs/images/input_folder.png)
+
+[Back to top](#CDAS-User-Guide)
+## Use Cases
+
+### Use case 1: Non-attributed real world countries
+
+*My training exercise requires that I have defending organizations in my own (real-world) country and attackers coming from fake, or at least un-attributed, countries. How do I make that happen?*
+
+There are a couple of approaches depending on your needs. The first approach is to generate as many fake countries as you need, than run the simulation again with those countries, plus your own, as input into CDAS. The other approach is to load a copy of the default set of countries (or some sub-set) as input into CDAS, changing the names of the real-world countries before running the simulation.
+
+**Approach One: Generate fake countries and add yours in**
+1. Run CDAS to generate fake countries in json format. Make sure country randomization is set to "true" in your config file, and set the number of fake countries that you need. Also set the output_types to "json".
+```
+    ...
+    "countries": {
+        "randomize": true,
+        "random_vars": {
+            "num_countries": 5
+        }
+    },
+    ...
+    "output": {
+        ...
+        "output_types": ["json"],
+    ...
+```
+2. Copy the country files from your CDAS output folder to a folder for CDAS input (within a folder titled "countries"), then add in a file for your real-world country. You can find the default country files [here](cdas/data/cia_world_factbook).
+3. Change the "countries" attribute in the defender section of the config file to the name of your country.
+```
+    ...
+    "defenders": {
+        ...
+        "countries": ["United States"],
+    ...
+```
+4. Run CDAS, providing the input folder (here, the input folder is called "cdas_input")
+```
+$ python -m cdas -c config.json -i cdas_input/
+```
+
+**Approach Two: Change the names on the real data set**
+1. Get a copy of the real-world country json files. You can find them [here](cdas/data/cia_world_factbook).
+2. Open the files and change the "name" attribute to whatever you want.
+```
+"name": Albania,
+```
+becomes
+```
+"name": Bramo,
+```
+You may wish to change other details while you are editing the files.
+
+3. Load those files, in a folder called "countries", into the folder you will use as input to CDAS.
+4. Change the "countries" attribute in the defender section of the config file to the name of your country.
+```
+    ...
+    "defenders": {
+        ...
+        "countries": ["United States"],
+    ...
+```
+5. Run CDAS, providing the input folder (here, the input folder is called "cdas_input")
+```
+$ python -m cdas -c config.json -i cdas_input/
+```
+
+[Back to top](#CDAS-User-Guide)
 ## License
 
 Copyright 2020 Carnegie Mellon University. See the [LICENSE.md](LICENSE.md) file for details.
