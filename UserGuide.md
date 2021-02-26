@@ -302,6 +302,7 @@ Additional customization for CDAS is handled through the configuration file, whi
 To customize the output data beyond the options available in the configuration file, run CDAS with inputs and configuration close to your target, and set the output file type in the configuration file to "json". You can then make changes to the json files provided in the CDAS output. You can even reuse those customized files as input to subsequent iterations of CDAS. 
 
 ### Using the Input Folder
+
 You can provide customized input files to CDAS by provide an input folder via the command line with the ```-i``` flag. 
 ```
 $ python -m cdas -c config.json -i cdas_input/
@@ -316,7 +317,7 @@ The input folder can have any/all of the following folders:
 | countries       | location--XX...XXX.json       | [countries](cdas/data/cia_world_factbook) |
 | defenders       | defender--XX...XXX.json       | No default |
 | malware         | malware--XX...XXX.json        | [malware](cdas/assets/mitre_cti/malware) |
-| networks        | network--XX...XXXX.json       | No default |
+| networks        | network--XX...XXXX.json or <br>folder named network--XX...XXXX with CyberDEM raw format    | view the [CyberDEM example files](https://github.com/cmu-sei/cyberdem-python/tree/master/examples/test_files) |
 | threat-actors   | intrusion-set--XX...XXX.json  | [threat-actors](cdas/assets/mitre_cti/threat-actors) |
 | tools           | tool--XX...XXX.json           | [tools](cdas/assets/mitre_cti/tools) |
 
