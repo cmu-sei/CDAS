@@ -1170,27 +1170,3 @@ class Event():
             attributes.append(attribute)
         event["Event"]["Attribute"] = attributes
         return event
-
-
-def random_network(fs, scale, netblocks=None):
-    """Generates a random network of nodes and links.
-
-    Uses the cyberdem package to generate nodes, relationships, configurations,
-    and personnnas. Saves to the given directory.
-
-    Args:
-        fs (cyberdem FileSystem): directory for the network components
-        scale (int): number of nodes in the desired network
-        netblocks (list of IP blocks, optional): For nodes that have IP
-        addresses, choose them only from the given list. Defaults to None.
-    """
-
-    for i in range(1,scale+1):
-        fs.save(base.Device(
-            name="Device " + str(i),
-            description="Main access point",
-            role=np.random.choice(
-                ['user', 'administrative', 'service'], p=[.7, .2, .1]),
-            is_virtual=bool(np.random.choice([False, True])),
-            network_interfaces=[["eth0", "10.10.30.40"], ["eth1", "192.168.10.2"]]))
-    # TODO: add links and relationships for networks in Context.py")

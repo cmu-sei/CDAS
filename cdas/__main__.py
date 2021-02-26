@@ -45,7 +45,7 @@ import os
 import pkg_resources
 import shutil
 import sys
-import cyberdem
+from cyberdem import widgets, filesystem
 import uuid
 # Import custom modules
 from . import context, agents, simulator, filestore
@@ -85,6 +85,7 @@ def main():
         'malware': '',
         'networks': '',
         'geoseed.json': '',
+        'relationships.json': '',
         'tools': '',
         'ttps': ''
         }
@@ -228,7 +229,6 @@ def main():
             for i in countries_fs.query("SELECT id"):
                 country = countries_fs.get(i[0])
                 output_dir.output(ot+'/countries', country, ot)
-        
 
     # Load or create actor data
     with open(pkg_resources.resource_filename(
@@ -368,7 +368,7 @@ def main():
                 defs += 1
 
     # Output defender info
-    logging.info('Saving defenders...')
+    logging.info('Saving defenders to output folder...')
     names = defender_fs.query("SELECT id")
     defenders = [defender_fs.get(name[0]) for name in names]
     for ot in config['output']['output_types']:
@@ -400,22 +400,90 @@ def main():
 
 
     # Create or load networks of defenders
+    network_fs = filestore.FileStore(
+        os.path.join(config['output']['temp_directory'], 'networks'),
+        'Networks', write=True)
     if datastore['networks'] != '':
         logging.info("Loading custom network data...")
         # Using custom networks provided by the user in the input folder
-        network_fs = filestore.FileStore(
-            datastore['networks'], 'Networks')
+        network_ids = []
+        for f in os.listdir(datastore['networks']):
+            # for each file (if flat file) or folder (if CyberDEM raw), create
+            # a cyberdem directory and copy the data in as CyberDEM raw format
+            if f.endswith('.json'):
+                netname = f[9:-5]
+            else:
+                netname = f[9:]
+            try:
+                uuid.UUID(netname, version=4)
+            except ValueError:
+                raise ValueError(
+                    f'{f} is not a properly formatted network name. Should be '
+                    f'\'network--[uuidv4 string]\'')
+            network_ids.append('network--'+netname)
+            src = os.path.join(datastore['networks'], f)
+            dst = os.path.join(config['output']['temp_directory'],
+                    'networks', 'network--'+netname)
+            if os.path.isfile(src):
+                fs = filesystem.FileSystem(dst)
+                fs.load_flatfile(src)
+            else:
+                shutil.copytree(src, dst)
+        # Add relationships of networks to defenders
+        logging.info("Applying networks to defenders...")
+        # if defender input was given and the defender to network relationships
+        # were provided in a relationships file 
+        already_assigned = []
+        for d in defenders:
+            rels = [r for r in relationships if d.id in r and any(item in r for item in network_ids)]
+            if len(rels) == 1:
+                already_assigned.append(d.id)
+        # ensure all defenders get a network
+        if len(already_assigned) > 0 and len(already_assigned) < len(defenders):
+            raise IndexError(
+                'Not all defenders have assigned networks in the relationsihp '
+                'file. Assign all defenders to a network in the relationships '
+                'file, or do not assign any relationships between defenders '
+                'and networks (networks will be randomly assigned.')
+        # otherwise, no relationship mapping was provided, randomly and evenly assign networks to defenders
+        if len(already_assigned) == 0:
+            i = 0
+            while i < len(defenders):
+                net_id = i % len(network_ids)
+                relationships.append((defenders[i].id, 'owns', network_ids[net_id]))
+                i += 1
     else:
         logging.info("Creating random networks for defenders...")
-        network_fs = filestore.FileStore(
-            os.path.join(config['output']['temp_directory'], 'networks'),
-            'Networks', write=True)
         for d in defenders:
             net_name = 'network--'+str(uuid.uuid4())
-            fs = cyberdem.filesystem.FileSystem(os.path.join(
+            fs = filesystem.FileSystem(os.path.join(
                 config['output']['temp_directory'], 'networks', net_name))
-            context.random_network(fs, 100)
+            widgets.generate_network(10, 10, fs)
             relationships.append((d.id, 'owns', net_name))
+
+    # Output networks info
+    logging.info('Saving networks to output folder...')
+    for ot in config['output']['output_types']:
+        logging.debug('\t' + ot)
+        dst = os.path.join(args.output_directory, ot, 'networks')
+        if ot == 'misp':
+            logging.info('Note: Networks are not included in MISP output')
+            continue
+        else:
+            os.mkdir(dst)
+        for network in os.listdir(network_fs.path):
+            fs = filesystem.FileSystem(os.path.join(network_fs.path, network))
+            if ot == 'json':
+                fs.save_flatfile(os.path.join(dst, network + '.json'))
+            elif ot == 'html':
+                print('This output format has not yet been implemented for networks')
+            else:
+                print('This output format has not yet been implemented for networks')
+        if ot == 'json':
+            fn = os.path.join(args.output_directory, ot, 'relationships.json')
+            with open(fn, 'w') as fp:
+                json.dump(relationships, fp)
+            fp.close()
 
     # Run simulation
     logging.info('Running simulation...')
@@ -479,7 +547,7 @@ def main():
             f.write(index.replace('<ul id="reports-list">', ul_list))
             f.close()
 
-    shutil.rmtree(config['output']['temp_directory'])
+    # shutil.rmtree(config['output']['temp_directory'])
 
     logging.info('Done')
 

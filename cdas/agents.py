@@ -335,7 +335,6 @@ class Defender():
             'background': '', 'revenue': 'Annual revenue', 'sector': 'Sector',
             'headquarters': 'Headquartered in the country of',
             'number_of_employees': 'Number of employees'},
-        'Network Description': {'network_size': 'Number of network assets'},
         'Vulnerability Assessment': {
             'vulnerability_score': 'Score (out of 100)',
             'vulns': 'Vulnerabilities found'}
@@ -357,7 +356,6 @@ class Defender():
             self.background = ""
             self.headquarters = country
             self.number_of_employees = "{:,}".format(np.random.randint(500, 15000))
-            self.network_size = np.random.randint(1, 100)
 
             score = 0
             vulns = []

@@ -316,6 +316,7 @@ The input folder can have any/all of the following folders:
 | countries       | location--XX...XXX.json       | [countries](cdas/data/cia_world_factbook) |
 | defenders       | defender--XX...XXX.json       | No default |
 | malware         | malware--XX...XXX.json        | [malware](cdas/assets/mitre_cti/malware) |
+| networks        | network--XX...XXXX.json       | No default |
 | threat-actors   | intrusion-set--XX...XXX.json  | [threat-actors](cdas/assets/mitre_cti/threat-actors) |
 | tools           | tool--XX...XXX.json           | [tools](cdas/assets/mitre_cti/tools) |
 
