@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Network - NETWORK</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../style.css" rel="stylesheet">
+    <script src="NETWORK.json" ></script>
+</head>
+
+<body>
+    <nav>
+		<ul>
+		<li style="padding-right:50px"><a href="../index.html" style="padding-left:0px;">CDAS</a></li>
+		<li><a href="../index.html#world-map">WORLD MAP</a></li>
+		<li><a href="../index.html#threat-actors">THREAT ACTORS</a></li>
+		<li class="active"><a href="../index.html#companies">COMPANIES</a></li>
+		<li><a href="../index.html#reports">INCIDENTS</a></li>
+		</ul>
+	</nav>
+
+	<div id="wrapper">
+        <h1 id="companyName"></h1>
+        <div id="companyData">
+        </div>
+    </div>
+    <script>
+        document.getElementById("companyName").innerHTML = summary.name;
+        var divContainer = document.getElementById("companyData");
+        
+        for (var key in summary) {
+            if (key != 'name') {
+                var h = document.createElement("h4");
+                h.innerHTML = key;
+                divContainer.appendChild(h);
+                var ul = document.createElement("ul");
+                divContainer.appendChild(ul);
+                for (var i in summary[key]) {
+                    if (Array.isArray(summary[key][i]) && (summary[key][i].length > 0)) {
+                        var li = document.createElement('li');
+                        li.innerHTML = i + ':';
+                        ul.appendChild(li);
+                        var subul = document.createElement("ul");
+                        ul.appendChild(subul);
+                        for (var j in summary[key][i]) {
+                            var li = document.createElement('li');
+                            li.innerHTML = summary[key][i][j][0] + ': ' + summary[key][i][j][1];
+                            subul.appendChild(li);
+                        }
+                    }
+                    if (!Array.isArray(summary[key][i])) {
+                        var li = document.createElement('li');
+                        li.innerHTML = i + ': ' + summary[key][i];
+                        ul.appendChild(li);
+                    }
+                }
+            }
+        }
+        var h = document.createElement("h4");
+        h.innerHTML = 'Assets';
+        divContainer.appendChild(h);
+
+        for (var header in data) {
+            var h = document.createElement("h5");
+            h.innerHTML = header;
+            divContainer.appendChild(h);
+            var ul = document.createElement("ul");
+            divContainer.appendChild(ul);
+            for (var i in data[header]) {
+                var li = document.createElement("li");
+                li.innerHTML = "ID: " + data[header][i]['id'];
+                ul.appendChild(li);
+                var subul = document.createElement("ul");
+                ul.appendChild(subul);
+                for (var attr in data[header][i]) {
+                    if (attr != 'id') {
+                        var li = document.createElement("li");
+                        li.innerHTML = attr + ': ' + data[header][i][attr];
+                        subul.appendChild(li);
+                    }
+                }
+
+            }
+        }
+    </script>
+</body>
+</html>

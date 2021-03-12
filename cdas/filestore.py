@@ -191,7 +191,7 @@ class FileStore():
         elif filetype == 'html':
             filepath = os.path.join(
                 self.path, subfolder,
-                obj_to_output.name + '.json')
+                obj_to_output.name.replace(' ','') + '.json')
             f = open(filepath, 'w')
             f.write("var data = " + str(obj_to_output._serialize()))
             f.close()
@@ -240,6 +240,65 @@ class FileStore():
             raise ValueError(
                 f'{filetype} is not a valid filetype. Check your config file.')
 
+    def output_network_file(self, subfolder, obj_to_output, filetype):
+        short_name = obj_to_output['name'].replace(' ', '')
+        if filetype == 'html':
+            filepath = os.path.join(self.path, subfolder, short_name + '.json')
+            with open(filepath, 'r') as outfile:
+                data = json.load(outfile)
+            outfile.close()
+            serialized = {}
+            for key, value in data.items():
+                if isinstance(value, list):
+                    serialized[key] = []
+                    for cydem_item in value:
+                        for attr, v in cydem_item.items():
+                            if isinstance(v, bool):
+                                cydem_item[attr] = str(v).lower()
+                        del cydem_item['_type']
+                        serialized[key].append(cydem_item)
+                else:
+                    serialized[key] = value
+            f = open(filepath, 'w')
+            f.write("var data = " + str(serialized))
+            f.write("; var summary = " + str(obj_to_output))
+            f.close()
+            f = open(os.path.join(
+                self.path, filetype, 'NETWORK.html'), 'r')
+            template = f.read()
+            f.close()
+            f = open(os.path.join(
+                self.path, subfolder, short_name + '.html'), 'w')
+            f.write(template.replace('NETWORK', short_name))
+            f.close()
+        elif filetype == 'pdf':
+            filepath = os.path.join(self.path, subfolder, short_name + '.pdf')
+            ss = getSampleStyleSheet()
+            pdf = platy.SimpleDocTemplate(filepath)
+            flowables = [platy.Paragraph(obj_to_output['name'], ss['Heading1'])]
+            for header in obj_to_output:
+                if header == 'name':
+                    continue
+                flowables.append(platy.Paragraph(header, ss['Heading2']))
+                for cydem_obj in obj_to_output[header]:
+                    if isinstance(obj_to_output[header][cydem_obj], int):
+                        p = f'{cydem_obj}: {obj_to_output[header][cydem_obj]}'
+                        flowables.append(platy.Paragraph(p, ss['BodyText']))
+                    else:
+                        if len(obj_to_output[header][cydem_obj]) == 0:
+                            continue
+                        p = f'{cydem_obj}:'
+                        flowables.append(platy.Paragraph(p, ss['BodyText']))
+                        bullets = []
+                        for b in obj_to_output[header][cydem_obj]:
+                            p = platy.Paragraph(f'{b[0]}: {b[1]}', ss['Normal'])
+                            bullets.append(platy.ListItem(p, leftIndent=35))
+                        table = platy.ListFlowable(bullets, bulletType='bullet')
+                        flowables.append(table)
+            pdf.build(flowables)
+        else:
+            raise Exception(f'{filetype} is not an accepted filetype.')
+    
     def query(self, query_string, headers=False):
         """
         Search through the FileStore for matching files.

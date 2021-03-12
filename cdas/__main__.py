@@ -300,10 +300,11 @@ def main():
             apts = [c[0] for c in threat_actor_fs.query("SELECT name")]
             ul_list = '<ul id="threat-actors-list">'
             for apt in apts:
-                f = open(path + '/threat-actors/' + apt + '.html', 'w')
-                f.write(template.replace('APT', apt))
+                short_name = apt.replace(' ','')
+                f = open(path + '/threat-actors/' + short_name + '.html', 'w')
+                f.write(template.replace('APT', short_name))
                 f.close()
-                ul_list += f"<li><a href='actors/{apt}.html'>{apt}</a></li>"
+                ul_list += f"<li><a href='threat-actors/{short_name}.html'>{apt}</a></li>"
             os.remove(path+'/APT.html')
             f = open(path + '/index.html', 'r')
             index = f.read()
@@ -386,10 +387,10 @@ def main():
             f.close()
             ul_list = '<ul id="companies-list">'
             for d in defenders:
-                f = open(path + '/defenders/' + d.name + '.html', 'w')
-                f.write(template.replace('COMPANY', d.name))
+                f = open(path + '/defenders/' + d.name.replace(' ','') + '.html', 'w')
+                f.write(template.replace('COMPANY', d.name.replace(' ','')))
                 f.close()
-                ul_list += f"<li><a href='defenders/{d.name}.html'>{d.name}</a></li>"
+                ul_list += f"<li><a href='defenders/{d.name.replace(' ','')}.html'>{d.name}</a></li>"
             os.remove(path+'/COMPANY.html')
             f = open(path + '/index.html', 'r')
             index = f.read()
@@ -397,7 +398,6 @@ def main():
             f = open(path + '/index.html', 'w')
             f.write(index.replace('<ul id="companies-list">', ul_list))
             f.close()
-
 
     # Create or load networks of defenders
     network_fs = filestore.FileStore(
@@ -473,17 +473,33 @@ def main():
             os.mkdir(dst)
         for network in os.listdir(network_fs.path):
             fs = filesystem.FileSystem(os.path.join(network_fs.path, network))
+            owner_id = [
+                r[0] for r in relationships
+                if r[1] == 'owns' and r[2] == network][0]
+            owner_name = defender_fs.query(f'SELECT name WHERE id="{owner_id}"')
             if ot == 'json':
                 fs.save_flatfile(os.path.join(dst, network + '.json'))
             elif ot == 'html':
-                print('This output format has not yet been implemented for networks')
+                fs.save_flatfile(os.path.join(
+                    dst, owner_name[0][0].replace(' ','') + 'Network.json'))
+                net_sum = widgets.network_summary(fs)
+                net_sum['name'] = owner_name[0][0] + ' Network'
+                output_dir.output_network_file(ot + '/networks', net_sum, ot)
+            elif ot == 'pdf':
+                net_sum = widgets.network_summary(fs)
+                net_sum['name'] = owner_name[0][0] + ' Network'
+                output_dir.output_network_file(ot + '/networks', net_sum, ot)
             else:
-                print('This output format has not yet been implemented for networks')
+                pass
         if ot == 'json':
+            # include the relationships file with json output
             fn = os.path.join(args.output_directory, ot, 'relationships.json')
             with open(fn, 'w') as fp:
                 json.dump(relationships, fp)
             fp.close()
+        if ot == 'html':
+            os.remove(os.path.join(
+                    args.output_directory, ot, 'NETWORK.html'))
 
     # Run simulation
     logging.info('Running simulation...')

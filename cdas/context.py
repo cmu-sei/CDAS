@@ -44,7 +44,7 @@ import pkg_resources
 import reportlab.platypus as platy
 from reportlab.lib.styles import getSampleStyleSheet
 import uuid
-from cyberdem import base, structures
+from cyberdem import base, structures, widgets
 import weakref
 from datetime import datetime
 
