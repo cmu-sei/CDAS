@@ -241,6 +241,20 @@ class FileStore():
                 f'{filetype} is not a valid filetype. Check your config file.')
 
     def output_network_file(self, subfolder, obj_to_output, filetype):
+        """
+        Saves CyberDEM network topologies to files of the given filetype
+
+        Internally, CDAS uses json formatted files, object instances, and
+        dictionaries. This function saves the objects to whatever filetype the
+        user has specified for final output.
+
+        Args:
+            subfolder (str): name of the subfolder within the FileStore, within
+                which to save the output
+            obj_to_output: thing to write to the file
+            filetype (str): one of the available types for file output (pdf,
+                json, html)
+        """
         short_name = obj_to_output['name'].replace(' ', '')
         if filetype == 'html':
             filepath = os.path.join(self.path, subfolder, short_name + '.json')
