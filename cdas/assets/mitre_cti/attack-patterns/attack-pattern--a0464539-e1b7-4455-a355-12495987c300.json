@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--a0464539-e1b7-4455-a355-12495987c300",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Attack PC via USB Connection",
     "description": "With escalated privileges, an adversary could program the mobile device to impersonate USB devices such as input devices (keyboard and mouse), storage devices, and/or networking devices in order to attack a physically connected PC(Citation: Wang-ExploitingUSB)(Citation: ArsTechnica-PoisonTap) This technique has been demonstrated on Android. We are unaware of any demonstrations on iOS.",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "url": "https://attack.mitre.org/techniques/T1427",
@@ -24,13 +25,21 @@
             "url": "http://arstechnica.com/security/2016/11/meet-poisontap-the-5-tool-that-ransacks-password-protected-computers/"
         }
     ],
-    "platforms": [
-        "Android"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "lateral-movement"
         }
-    ]
+    ],
+    "modified": "2019-02-03T14:51:19.932Z",
+    "created": "2017-10-25T14:48:13.625Z",
+    "x_mitre_platforms": [
+        "Android"
+    ],
+    "x_mitre_tactic_type": [
+        "Post-Adversary Device Access"
+    ],
+    "x_mitre_version": "1.1",
+    "x_mitre_old_attack_id": "MOB-T1030"
 }

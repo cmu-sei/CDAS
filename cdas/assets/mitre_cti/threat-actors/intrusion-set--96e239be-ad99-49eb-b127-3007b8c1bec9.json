@@ -1,0 +1,57 @@
+{
+    "type": "intrusion-set",
+    "id": "intrusion-set--96e239be-ad99-49eb-b127-3007b8c1bec9",
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Equation",
+    "description": "[Equation] is a sophisticated threat group that employs multiple remote access tools. The group is known to use zero-day exploits and has developed the capability to overwrite the firmware of hard disk drives. (Citation: Kaspersky Equation QA)",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/groups/G0020",
+            "external_id": "G0020"
+        },
+        {
+            "source_name": "Equation",
+            "description": "(Citation: Kaspersky Equation QA)"
+        },
+        {
+            "source_name": "Kaspersky Equation QA",
+            "description": "Kaspersky Lab's Global Research and Analysis Team. (2015, February). Equation Group: Questions and Answers. Retrieved December 21, 2015.",
+            "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064459/Equation_group_questions_and_answers.pdf"
+        }
+    ],
+    "aliases": [
+        "Equation"
+    ],
+    "modified": "2020-06-29T01:39:22.044Z",
+    "created": "2017-05-31T21:31:54.697Z",
+    "x_mitre_version": "1.2",
+    "attribution": "United States",
+    "sophistication": "strategic",
+    "actor_type": "nation-state",
+    "sectors": [
+        "government (national)",
+        "energy",
+        "defense"
+    ],
+    "target_locations": [
+        "Iran",
+        "Russia",
+        "Pakistan",
+        "Afghanistan",
+        "India",
+        "Syria",
+        "Mali"
+    ],
+    "primary_motivation": [
+        "organizational gain"
+    ],
+    "secondary_motivations": [
+        "dominance"
+    ],
+    "goals": [
+        "obtain state secrets",
+        "establish and maintain strategic access"
+    ],
+    "first_seen": "2001"
+}

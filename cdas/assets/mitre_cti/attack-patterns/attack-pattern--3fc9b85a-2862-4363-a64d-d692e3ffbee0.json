@@ -1,26 +1,40 @@
 {
+    "created": "2020-02-11T18:48:28.456Z",
+    "modified": "2020-03-25T18:40:15.564Z",
+    "kill_chain_phases": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "credential-access"
+        }
+    ],
+    "type": "attack-pattern",
     "id": "attack-pattern--3fc9b85a-2862-4363-a64d-d692e3ffbee0",
-    "name": "Credentials from Password Stores",
     "description": "Adversaries may search for common password storage locations to obtain user credentials. Passwords are stored in several places on a system, depending on the operating system or application holding the credentials. There are also specific applications that store passwords to make it easier for users manage and maintain. Once credentials are obtained, they can be used to perform lateral movement and access restricted information.",
-    "references": [
+    "name": "Credentials from Password Stores",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1555",
             "url": "https://attack.mitre.org/techniques/T1555"
         }
     ],
-    "platforms": [
+    "x_mitre_platforms": [
         "Linux",
         "macOS",
         "Windows"
     ],
-    "kill_chain": [
-        {
-            "kill_chain_name": "mitre-attack",
-            "phase_name": "credential-access"
-        }
-    ],
-    "permissions": [
+    "x_mitre_is_subtechnique": false,
+    "x_mitre_version": "1.0",
+    "x_mitre_detection": "Monitor system calls, file read events, and processes for suspicious activity that could indicate searching for a password  or other activity related to performing keyword searches (e.g. password, pwd, login, store, secure, credentials, etc.) in process memory for credentials. File read events should be monitored surrounding known password storage applications.",
+    "x_mitre_permissions_required": [
         "Administrator"
+    ],
+    "x_mitre_data_sources": [
+        "PowerShell logs",
+        "API monitoring",
+        "File monitoring",
+        "Process monitoring",
+        "System calls"
     ]
 }

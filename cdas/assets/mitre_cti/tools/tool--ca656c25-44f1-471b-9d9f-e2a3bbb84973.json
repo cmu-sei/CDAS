@@ -1,8 +1,5 @@
 {
-    "id": "tool--ca656c25-44f1-471b-9d9f-e2a3bbb84973",
-    "name": "Expand",
-    "description": "[Expand](https://attack.mitre.org/software/S0361) is a Windows utility used to expand one or more compressed CAB files.(Citation: Microsoft Expand Utility) It has been used by [BBSRAT](https://attack.mitre.org/software/S0127) to decompress a CAB file into executable content.(Citation: Palo Alto Networks BBSRAT)",
-    "references": [
+    "external_references": [
         {
             "external_id": "S0361",
             "source_name": "mitre-attack",
@@ -19,10 +16,24 @@
             "source_name": "Palo Alto Networks BBSRAT"
         }
     ],
-    "aliases": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Expand",
+    "description": "[Expand](https://attack.mitre.org/software/S0361) is a Windows utility used to expand one or more compressed CAB files.(Citation: Microsoft Expand Utility) It has been used by [BBSRAT](https://attack.mitre.org/software/S0127) to decompress a CAB file into executable content.(Citation: Palo Alto Networks BBSRAT)",
+    "id": "tool--ca656c25-44f1-471b-9d9f-e2a3bbb84973",
+    "type": "tool",
+    "labels": [
+        "tool"
+    ],
+    "modified": "2020-03-20T18:43:16.989Z",
+    "created": "2019-02-19T19:17:14.971Z",
+    "x_mitre_version": "1.1",
+    "x_mitre_aliases": [
         "Expand"
     ],
-    "platforms": [
+    "x_mitre_platforms": [
         "Windows"
+    ],
+    "x_mitre_contributors": [
+        "Matthew Demaske, Adaptforward"
     ]
 }

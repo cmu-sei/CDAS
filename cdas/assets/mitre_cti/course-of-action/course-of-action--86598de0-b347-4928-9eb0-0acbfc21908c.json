@@ -1,0 +1,17 @@
+{
+    "id": "course-of-action--86598de0-b347-4928-9eb0-0acbfc21908c",
+    "type": "course-of-action",
+    "created": "2019-06-10T20:41:03.271Z",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/mitigations/M1030",
+            "external_id": "M1030"
+        }
+    ],
+    "description": "Architect sections of the network to isolate critical systems, functions, or resources. Use physical and logical segmentation to prevent access to potentially sensitive systems and information. Use a DMZ to contain any internet-facing services that should not be exposed from the internal network. Configure separate virtual private cloud (VPC) instances to isolate critical cloud systems.",
+    "x_mitre_version": "1.1",
+    "modified": "2020-05-14T13:05:39.500Z",
+    "name": "Network Segmentation"
+}

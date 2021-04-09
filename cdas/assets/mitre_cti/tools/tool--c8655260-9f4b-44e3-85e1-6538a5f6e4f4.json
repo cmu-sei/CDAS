@@ -1,8 +1,9 @@
 {
     "id": "tool--c8655260-9f4b-44e3-85e1-6538a5f6e4f4",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Koadic",
     "description": "[Koadic](https://attack.mitre.org/software/S0250) is a Windows post-exploitation framework and penetration testing tool. [Koadic](https://attack.mitre.org/software/S0250) is publicly available on GitHub and the tool is executed via the command-line. [Koadic](https://attack.mitre.org/software/S0250) has several options for staging payloads and creating implants. [Koadic](https://attack.mitre.org/software/S0250) performs most of its operations using Windows Script Host. (Citation: Github Koadic) (Citation: Palo Alto Sofacy 06-2018)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "url": "https://attack.mitre.org/software/S0250",
@@ -23,10 +24,17 @@
             "source_name": "Palo Alto Sofacy 06-2018"
         }
     ],
-    "aliases": [
+    "type": "tool",
+    "labels": [
+        "tool"
+    ],
+    "modified": "2020-03-30T16:55:29.911Z",
+    "created": "2018-10-17T00:14:20.652Z",
+    "x_mitre_platforms": [
+        "Windows"
+    ],
+    "x_mitre_aliases": [
         "Koadic"
     ],
-    "platforms": [
-        "Windows"
-    ]
+    "x_mitre_version": "1.1"
 }

@@ -1,0 +1,18 @@
+{
+    "id": "course-of-action--7b1cf46f-784b-405a-a8dd-4624c19d8321",
+    "created_by_ref": "The MITRE Corporation",
+    "name": "System Partition Integrity",
+    "description": "Ensure that Android devices being used include and enable the Verified Boot capability, which cryptographically ensures the integrity of the system partition.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/mitigations/M1004",
+            "external_id": "M1004"
+        }
+    ],
+    "x_mitre_version": "1.0",
+    "x_mitre_old_attack_id": "MOB-M1004",
+    "type": "course-of-action",
+    "modified": "2018-10-17T00:14:20.652Z",
+    "created": "2017-10-25T14:48:52.270Z"
+}

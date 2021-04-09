@@ -1,8 +1,5 @@
 {
-    "id": "attack-pattern--f870408c-b1cd-49c7-a5c7-0ef0fc496cc6",
-    "name": "Spearphishing Service",
-    "description": "Before compromising a victim, adversaries may send spearphishing messages via third-party services to elicit sensitive information that can be used during targeting. Spearphishing for information is an attempt to trick targets into divulging information, frequently credentials or other actionable information. Spearphishing for information frequently involves social engineering techniques, such as posing as a source with a reason to collect information (ex: [Establish Accounts](https://attack.mitre.org/techniques/T1585) or [Compromise Accounts](https://attack.mitre.org/techniques/T1586)) and/or sending multiple, seemingly urgent messages.\n\nAll forms of spearphishing are electronically delivered social engineering targeted at a specific individual, company, or industry. In this scenario, adversaries send messages through various social media services, personal webmail, and other non-enterprise controlled services.(Citation: ThreatPost Social Media Phishing) These services are more likely to have a less-strict security policy than an enterprise. As with most kinds of spearphishing, the goal is to generate rapport with the target or get the target's interest in some way. Adversaries may create fake social media accounts and message employees for potential job opportunities. Doing so allows a plausible reason for asking about services, policies, and information about their environment. Adversaries may also use information from previous reconnaissance efforts (ex: [Social Media](https://attack.mitre.org/techniques/T1593/001) or [Search Victim-Owned Websites](https://attack.mitre.org/techniques/T1594)) to craft persuasive and believable lures.",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1598.001",
@@ -14,13 +11,26 @@
             "description": "O'Donnell, L. (2020, October 20). Facebook: A Top Launching Pad For Phishing Attacks. Retrieved October 20, 2020."
         }
     ],
-    "platforms": [
-        "PRE"
-    ],
-    "kill_chain": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Spearphishing Service",
+    "description": "Before compromising a victim, adversaries may send spearphishing messages via third-party services to elicit sensitive information that can be used during targeting. Spearphishing for information is an attempt to trick targets into divulging information, frequently credentials or other actionable information. Spearphishing for information frequently involves social engineering techniques, such as posing as a source with a reason to collect information (ex: [Establish Accounts](https://attack.mitre.org/techniques/T1585) or [Compromise Accounts](https://attack.mitre.org/techniques/T1586)) and/or sending multiple, seemingly urgent messages.\n\nAll forms of spearphishing are electronically delivered social engineering targeted at a specific individual, company, or industry. In this scenario, adversaries send messages through various social media services, personal webmail, and other non-enterprise controlled services.(Citation: ThreatPost Social Media Phishing) These services are more likely to have a less-strict security policy than an enterprise. As with most kinds of spearphishing, the goal is to generate rapport with the target or get the target's interest in some way. Adversaries may create fake social media accounts and message employees for potential job opportunities. Doing so allows a plausible reason for asking about services, policies, and information about their environment. Adversaries may also use information from previous reconnaissance efforts (ex: [Social Media](https://attack.mitre.org/techniques/T1593/001) or [Search Victim-Owned Websites](https://attack.mitre.org/techniques/T1594)) to craft persuasive and believable lures.",
+    "id": "attack-pattern--f870408c-b1cd-49c7-a5c7-0ef0fc496cc6",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "reconnaissance"
         }
+    ],
+    "modified": "2020-10-25T19:44:58.093Z",
+    "created": "2020-10-02T17:08:07.742Z",
+    "x_mitre_contributors": [
+        "Robert Simmons, @MalwareUtkonos"
+    ],
+    "x_mitre_detection": "Monitor social media traffic for suspicious activity, including messages requesting information as well as abnormal file or data transfers (especially those involving unknown, or otherwise suspicious accounts).\n\nMuch of this activity may have a very high occurrence and associated false positive rate, as well as potentially taking place outside the visibility of the target organization, making detection difficult for defenders.\n\nDetection efforts may be focused on related stages of the adversary lifecycle, such as during Initial Access.",
+    "x_mitre_version": "1.0",
+    "x_mitre_is_subtechnique": true,
+    "x_mitre_platforms": [
+        "PRE"
     ]
 }

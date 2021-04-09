@@ -1,8 +1,9 @@
 {
     "id": "tool--cf23bf4a-e003-4116-bbae-1ea6c558d565",
+    "created_by_ref": "The MITRE Corporation",
     "name": "FTP",
     "description": "[FTP](https://attack.mitre.org/software/S0095) is a utility commonly available with operating systems to transfer information over the File Transfer Protocol (FTP). Adversaries can use it to transfer other tools onto a system or to exfiltrate data. (Citation: Wikipedia FTP)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "url": "https://attack.mitre.org/software/S0095",
@@ -14,13 +15,20 @@
             "url": "https://en.wikipedia.org/wiki/File_Transfer_Protocol"
         }
     ],
-    "aliases": [
-        "FTP",
-        "ftp.exe"
+    "type": "tool",
+    "labels": [
+        "tool"
     ],
-    "platforms": [
+    "modified": "2020-03-30T16:25:40.125Z",
+    "created": "2017-05-31T21:33:00.565Z",
+    "x_mitre_platforms": [
         "Linux",
         "Windows",
         "macOS"
-    ]
+    ],
+    "x_mitre_aliases": [
+        "FTP",
+        "ftp.exe"
+    ],
+    "x_mitre_version": "1.1"
 }

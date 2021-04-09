@@ -1,7 +1,7 @@
 {
     "attack-motivation_notes": "source: STIX 2.0; \"accidental\" removed",
     "attack-motivation": [
-        "coercion", "dominance", "ideology", "notoriety","organization gain",
+        "coercion", "dominance", "ideology", "notoriety", "organizational gain",
         "personal gain", "personal satisfaction", "revenge", "unpredictable"
     ],
     "threat-actor-sophistication_notes": "source: STIX 2.0",

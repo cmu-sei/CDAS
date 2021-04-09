@@ -1,8 +1,5 @@
 {
-    "id": "attack-pattern--c92e3d68-2349-49e4-a341-7edca2deff96",
-    "name": "MSBuild",
-    "description": "Adversaries may use MSBuild to proxy execution of code through a trusted Windows utility. MSBuild.exe (Microsoft Build Engine) is a software build platform used by Visual Studio. It handles XML formatted project files that define requirements for loading and building various platforms and configurations.(Citation: MSDN MSBuild)\n\nAdversaries can abuse MSBuild to proxy execution of malicious code. The inline task capability of MSBuild that was introduced in .NET version 4 allows for C# code to be inserted into an XML project file.(Citation: MSDN MSBuild) MSBuild will compile and execute the inline task. MSBuild.exe is a signed Microsoft binary, so when it is used this way it can execute arbitrary code and bypass application control defenses that are configured to allow MSBuild.exe execution.(Citation: LOLBAS Msbuild)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1127.001",
@@ -19,13 +16,29 @@
             "description": "LOLBAS. (n.d.). Msbuild.exe. Retrieved July 31, 2019."
         }
     ],
-    "platforms": [
-        "Windows"
-    ],
-    "kill_chain": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "MSBuild",
+    "description": "Adversaries may use MSBuild to proxy execution of code through a trusted Windows utility. MSBuild.exe (Microsoft Build Engine) is a software build platform used by Visual Studio. It handles XML formatted project files that define requirements for loading and building various platforms and configurations.(Citation: MSDN MSBuild)\n\nAdversaries can abuse MSBuild to proxy execution of malicious code. The inline task capability of MSBuild that was introduced in .NET version 4 allows for C# code to be inserted into an XML project file.(Citation: MSDN MSBuild) MSBuild will compile and execute the inline task. MSBuild.exe is a signed Microsoft binary, so when it is used this way it can execute arbitrary code and bypass application control defenses that are configured to allow MSBuild.exe execution.(Citation: LOLBAS Msbuild)",
+    "id": "attack-pattern--c92e3d68-2349-49e4-a341-7edca2deff96",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "phase_name": "defense-evasion",
             "kill_chain_name": "mitre-attack"
         }
+    ],
+    "modified": "2020-06-08T23:29:28.074Z",
+    "created": "2020-03-27T21:50:26.042Z",
+    "x_mitre_version": "1.0",
+    "x_mitre_is_subtechnique": true,
+    "x_mitre_system_requirements": [
+        " .NET Framework version 4 or higher"
+    ],
+    "x_mitre_detection": "Use process monitoring to monitor the execution and arguments of MSBuild.exe. Compare recent invocations of those binaries with prior history of known good arguments and executed binaries to determine anomalous and potentially adversarial activity. Command arguments used before and after invocation of the utilities may also be useful in determining the origin and purpose of the binary being executed.",
+    "x_mitre_data_sources": [
+        "Process monitoring"
+    ],
+    "x_mitre_platforms": [
+        "Windows"
     ]
 }

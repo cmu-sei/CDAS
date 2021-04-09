@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--f58cd69a-e548-478b-9248-8a9af881dc34",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Downgrade to Insecure Protocols",
     "description": "An adversary could cause the mobile device to use less secure protocols, for example by jamming frequencies used by newer protocols such as LTE and only allowing older protocols such as GSM to communicate(Citation: NIST-SP800187). Use of less secure protocols may make communication easier to eavesdrop upon or manipulate.",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "url": "https://attack.mitre.org/techniques/T1466",
@@ -19,14 +20,22 @@
             "url": "http://csrc.nist.gov/publications/drafts/800-187/sp800_187_draft.pdf"
         }
     ],
-    "platforms": [
-        "Android",
-        "iOS"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "network-effects"
         }
-    ]
+    ],
+    "modified": "2019-02-03T15:16:13.386Z",
+    "created": "2017-10-25T14:48:21.667Z",
+    "x_mitre_platforms": [
+        "Android",
+        "iOS"
+    ],
+    "x_mitre_tactic_type": [
+        "Without Adversary Device Access"
+    ],
+    "x_mitre_version": "1.1",
+    "x_mitre_old_attack_id": "MOB-T1069"
 }

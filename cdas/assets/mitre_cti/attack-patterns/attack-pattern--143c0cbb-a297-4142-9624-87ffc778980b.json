@@ -1,8 +1,18 @@
 {
+    "created": "2020-02-20T21:09:55.995Z",
+    "modified": "2020-03-25T22:48:14.605Z",
+    "kill_chain_phases": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "collection"
+        }
+    ],
+    "type": "attack-pattern",
     "id": "attack-pattern--143c0cbb-a297-4142-9624-87ffc778980b",
-    "name": "Archive via Custom Method",
     "description": "An adversary may compress or encrypt data that is collected prior to exfiltration using a custom method. Adversaries may choose to use custom archival methods, such as encryption with XOR or stream ciphers implemented with no external library or utility references. Custom implementations of well-known compression algorithms have also been used.(Citation: ESET Sednit Part 2)",
-    "references": [
+    "name": "Archive via Custom Method",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1560.003",
@@ -14,15 +24,12 @@
             "source_name": "ESET Sednit Part 2"
         }
     ],
-    "platforms": [
+    "x_mitre_platforms": [
         "Linux",
         "macOS",
         "Windows"
     ],
-    "kill_chain": [
-        {
-            "kill_chain_name": "mitre-attack",
-            "phase_name": "collection"
-        }
-    ]
+    "x_mitre_detection": "Custom archival methods can be very difficult to detect, since many of them use standard programming language concepts, such as bitwise operations.",
+    "x_mitre_is_subtechnique": true,
+    "x_mitre_version": "1.0"
 }

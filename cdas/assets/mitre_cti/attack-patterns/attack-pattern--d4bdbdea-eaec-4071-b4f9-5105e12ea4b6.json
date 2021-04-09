@@ -1,8 +1,5 @@
 {
-    "id": "attack-pattern--d4bdbdea-eaec-4071-b4f9-5105e12ea4b6",
-    "name": "Transfer Data to Cloud Account",
-    "description": "Adversaries may exfiltrate data by transferring the data, including backups of cloud environments, to another cloud account they control on the same service to avoid typical file transfers/downloads and network-based exfiltration detection.\n\nA defender who is monitoring for large transfers to outside the cloud environment through normal file transfers or over command and control channels may not be watching for data transfers to another account within the same cloud provider. Such transfers may utilize existing cloud provider APIs and the internal address space of the cloud provider to blend into normal traffic or avoid data transfers over external network interfaces.\n\nIncidents have been observed where adversaries have created backups of cloud instances and transferred them to separate accounts.(Citation: DOJ GRU Indictment Jul 2018) ",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1537",
@@ -14,18 +11,37 @@
             "url": "https://www.justice.gov/file/1080281/download"
         }
     ],
-    "platforms": [
-        "Azure",
-        "AWS",
-        "GCP"
-    ],
-    "kill_chain": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Transfer Data to Cloud Account",
+    "description": "Adversaries may exfiltrate data by transferring the data, including backups of cloud environments, to another cloud account they control on the same service to avoid typical file transfers/downloads and network-based exfiltration detection.\n\nA defender who is monitoring for large transfers to outside the cloud environment through normal file transfers or over command and control channels may not be watching for data transfers to another account within the same cloud provider. Such transfers may utilize existing cloud provider APIs and the internal address space of the cloud provider to blend into normal traffic or avoid data transfers over external network interfaces.\n\nIncidents have been observed where adversaries have created backups of cloud instances and transferred them to separate accounts.(Citation: DOJ GRU Indictment Jul 2018) ",
+    "id": "attack-pattern--d4bdbdea-eaec-4071-b4f9-5105e12ea4b6",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "exfiltration"
         }
     ],
-    "permissions": [
+    "modified": "2020-03-29T23:43:44.256Z",
+    "created": "2019-08-30T13:03:04.038Z",
+    "x_mitre_is_subtechnique": false,
+    "x_mitre_detection": "Monitor account activity for attempts to share data, snapshots, or backups with untrusted or unusual accounts on the same cloud service provider. Monitor for anomalous file transfer activity between accounts and to untrusted VPCs. ",
+    "x_mitre_data_sources": [
+        "Stackdriver logs",
+        "Azure activity logs",
+        "AWS CloudTrail logs"
+    ],
+    "x_mitre_version": "1.0",
+    "x_mitre_permissions_required": [
         "User"
+    ],
+    "x_mitre_network_requirements": true,
+    "x_mitre_contributors": [
+        "Praetorian"
+    ],
+    "x_mitre_platforms": [
+        "Azure",
+        "AWS",
+        "GCP"
     ]
 }

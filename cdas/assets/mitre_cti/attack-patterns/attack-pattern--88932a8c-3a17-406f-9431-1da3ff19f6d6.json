@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--88932a8c-3a17-406f-9431-1da3ff19f6d6",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Modify Cached Executable Code",
     "description": "ART (the Android Runtime) compiles optimized code on the device itself to improve performance. An adversary may be able to use escalated privileges to modify the cached code in order to hide malicious behavior. Since the code is compiled on the device, it may not receive the same level of integrity checks that are provided to code running in the system partition.(Citation: Sabanal-ART)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "url": "https://attack.mitre.org/techniques/T1403",
@@ -14,13 +15,22 @@
             "source_name": "Sabanal-ART"
         }
     ],
-    "platforms": [
-        "Android"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "persistence"
         }
+    ],
+    "modified": "2019-10-09T19:39:32.872Z",
+    "created": "2017-10-25T14:48:29.092Z",
+    "x_mitre_detection": "Modifications to cached executable code can be difficult to detect, and therefore enterprises may be better served focusing on detection at other stages of adversary behavior.",
+    "x_mitre_old_attack_id": "MOB-T1006",
+    "x_mitre_version": "1.1",
+    "x_mitre_tactic_type": [
+        "Post-Adversary Device Access"
+    ],
+    "x_mitre_platforms": [
+        "Android"
     ]
 }

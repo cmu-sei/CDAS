@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--1b51f5bc-b97a-498a-8dbd-bc6b1901bf19",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Process Discovery",
     "description": "On Android versions prior to 5, applications can observe information about other processes that are running through methods in the ActivityManager class. On Android versions prior to 7, applications can obtain this information by executing the <code>ps</code> command, or by examining the <code>/proc</code> directory. Starting in Android version 7, use of the Linux kernel's <code>hidepid</code> feature prevents applications (without escalated privileges) from accessing this information (Citation: Android-SELinuxChanges).",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "url": "https://attack.mitre.org/techniques/T1424",
@@ -14,13 +15,21 @@
             "url": "https://code.google.com/p/android/issues/detail?id=205565"
         }
     ],
-    "platforms": [
+    "x_mitre_platforms": [
         "Android"
     ],
-    "kill_chain": [
+    "x_mitre_tactic_type": [
+        "Post-Adversary Device Access"
+    ],
+    "x_mitre_version": "1.0",
+    "x_mitre_old_attack_id": "MOB-T1027",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "discovery"
         }
-    ]
+    ],
+    "modified": "2018-10-17T00:14:20.652Z",
+    "created": "2017-10-25T14:48:33.926Z"
 }

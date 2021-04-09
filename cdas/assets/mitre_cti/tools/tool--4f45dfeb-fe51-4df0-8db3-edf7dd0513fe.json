@@ -1,8 +1,9 @@
 {
     "id": "tool--4f45dfeb-fe51-4df0-8db3-edf7dd0513fe",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Fgdump",
     "description": "[Fgdump](https://attack.mitre.org/software/S0120) is a Windows password hash dumper. (Citation: Mandiant APT1)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "url": "https://attack.mitre.org/software/S0120",
@@ -14,10 +15,17 @@
             "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
         }
     ],
-    "aliases": [
+    "type": "tool",
+    "labels": [
+        "tool"
+    ],
+    "modified": "2020-03-30T16:40:33.738Z",
+    "created": "2017-05-31T21:33:10.569Z",
+    "x_mitre_platforms": [
+        "Windows"
+    ],
+    "x_mitre_aliases": [
         "Fgdump"
     ],
-    "platforms": [
-        "Windows"
-    ]
+    "x_mitre_version": "1.1"
 }

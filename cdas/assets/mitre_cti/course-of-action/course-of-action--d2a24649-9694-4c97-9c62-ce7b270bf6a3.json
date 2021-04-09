@@ -1,0 +1,17 @@
+{
+    "id": "course-of-action--d2a24649-9694-4c97-9c62-ce7b270bf6a3",
+    "type": "course-of-action",
+    "created": "2019-06-11T17:10:57.070Z",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/mitigations/M1050",
+            "external_id": "M1050"
+        }
+    ],
+    "description": "Use capabilities to detect and block conditions that may lead to or be indicative of a software exploit occurring.",
+    "x_mitre_version": "1.1",
+    "modified": "2020-06-20T20:22:55.938Z",
+    "name": "Exploit Protection"
+}

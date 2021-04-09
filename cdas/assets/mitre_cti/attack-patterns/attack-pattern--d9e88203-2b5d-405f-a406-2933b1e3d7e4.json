@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--d9e88203-2b5d-405f-a406-2933b1e3d7e4",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Data Encrypted for Impact",
     "description": "An adversary may encrypt files stored on the mobile device to prevent the user from accessing them, for example with the intent of only unlocking access to the files after a ransom is paid. Without escalated privileges, the adversary is generally limited to only encrypting files in external/shared storage locations. This technique has been demonstrated on Android. We are unaware of any demonstrated use on iOS.",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "url": "https://attack.mitre.org/techniques/T1471",
@@ -14,13 +15,21 @@
             "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-28.html"
         }
     ],
-    "platforms": [
-        "Android"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "impact"
         }
+    ],
+    "modified": "2019-10-01T13:51:22.001Z",
+    "created": "2017-10-25T14:48:10.285Z",
+    "x_mitre_old_attack_id": "MOB-T1074",
+    "x_mitre_version": "3.0",
+    "x_mitre_tactic_type": [
+        "Post-Adversary Device Access"
+    ],
+    "x_mitre_platforms": [
+        "Android"
     ]
 }

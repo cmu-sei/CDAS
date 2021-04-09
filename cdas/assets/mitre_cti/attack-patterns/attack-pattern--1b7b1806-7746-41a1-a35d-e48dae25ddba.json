@@ -1,8 +1,5 @@
 {
-    "id": "attack-pattern--1b7b1806-7746-41a1-a35d-e48dae25ddba",
-    "name": "Bootkit",
-    "description": "Adversaries may use bootkits to persist on systems. Bootkits reside at a layer below the operating system and may make it difficult to perform full remediation unless an organization suspects one was used and can act accordingly.\n\nA bootkit is a malware variant that modifies the boot sectors of a hard drive, including the Master Boot Record (MBR) and Volume Boot Record (VBR). (Citation: Mandiant M Trends 2016) The MBR is the section of disk that is first loaded after completing hardware initialization by the BIOS. It is the location of the boot loader. An adversary who has raw access to the boot drive may overwrite this area, diverting execution during startup from the normal boot loader to adversary code. (Citation: Lau 2011)\n\nThe MBR passes control of the boot process to the VBR. Similar to the case of MBR, an adversary who has raw access to the boot drive may overwrite the VBR to divert execution during startup to adversary code.",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1542.003",
@@ -24,11 +21,12 @@
             "source_name": "Lau 2011"
         }
     ],
-    "platforms": [
-        "Linux",
-        "Windows"
-    ],
-    "kill_chain": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Bootkit",
+    "description": "Adversaries may use bootkits to persist on systems. Bootkits reside at a layer below the operating system and may make it difficult to perform full remediation unless an organization suspects one was used and can act accordingly.\n\nA bootkit is a malware variant that modifies the boot sectors of a hard drive, including the Master Boot Record (MBR) and Volume Boot Record (VBR). (Citation: Mandiant M Trends 2016) The MBR is the section of disk that is first loaded after completing hardware initialization by the BIOS. It is the location of the boot loader. An adversary who has raw access to the boot drive may overwrite this area, diverting execution during startup from the normal boot loader to adversary code. (Citation: Lau 2011)\n\nThe MBR passes control of the boot process to the VBR. Similar to the case of MBR, an adversary who has raw access to the boot drive may overwrite the VBR to divert execution during startup to adversary code.",
+    "id": "attack-pattern--1b7b1806-7746-41a1-a35d-e48dae25ddba",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "persistence"
@@ -38,8 +36,27 @@
             "phase_name": "defense-evasion"
         }
     ],
-    "permissions": [
+    "modified": "2020-09-17T19:47:14.338Z",
+    "created": "2019-12-19T21:05:38.123Z",
+    "x_mitre_defense_bypassed": [
+        "Host intrusion prevention systems",
+        "Anti-virus",
+        "File monitoring"
+    ],
+    "x_mitre_version": "1.1",
+    "x_mitre_is_subtechnique": true,
+    "x_mitre_permissions_required": [
         "Administrator",
         "SYSTEM"
+    ],
+    "x_mitre_detection": "Perform integrity checking on MBR and VBR. Take snapshots of MBR and VBR and compare against known good samples. Report changes to MBR and VBR as they occur for indicators of suspicious activity and further analysis.",
+    "x_mitre_data_sources": [
+        "VBR",
+        "MBR",
+        "API monitoring"
+    ],
+    "x_mitre_platforms": [
+        "Linux",
+        "Windows"
     ]
 }

@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--79eec66a-9bd0-4a3f-ac82-19159e94bd44",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Access Call Log",
     "description": "On Android, an adversary could call standard operating system APIs from a malicious application to gather call log data, or with escalated privileges could directly access files containing call log data.\n\nOn iOS, applications do not have access to the call log, so privilege escalation would be required in order to access the data.",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "url": "https://attack.mitre.org/techniques/T1433",
@@ -14,14 +15,23 @@
             "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-13.html"
         }
     ],
-    "platforms": [
-        "Android",
-        "iOS"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "collection"
         }
-    ]
+    ],
+    "modified": "2019-09-18T18:17:43.466Z",
+    "created": "2017-10-25T14:48:11.116Z",
+    "x_mitre_old_attack_id": "MOB-T1036",
+    "x_mitre_version": "1.1",
+    "x_mitre_tactic_type": [
+        "Post-Adversary Device Access"
+    ],
+    "x_mitre_platforms": [
+        "Android",
+        "iOS"
+    ],
+    "x_mitre_detection": "On Android 6.0 and up, the user can view which applications have permission to access call log information through the device settings screen, and the user can choose to revoke the permissions."
 }

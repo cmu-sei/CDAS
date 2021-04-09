@@ -1,8 +1,5 @@
 {
-    "id": "attack-pattern--e399430e-30b7-48c5-b70a-f44dc8c175cb",
-    "name": "Clipboard Modification",
-    "description": "Adversaries may abuse clipboard functionality to intercept and replace information in the Android device clipboard.(Citation: ESET Clipboard Modification February 2019)(Citation: Welivesecurity Clipboard Modification February 2019)(Citation: Syracuse Clipboard Modification 2014) Malicious applications may monitor the clipboard activity through the <code>ClipboardManager.OnPrimaryClipChangedListener</code> interface on Android to determine when the clipboard contents have changed.(Citation: Dr.Webb Clipboard Modification origin2 August 2018)(Citation: Dr.Webb Clipboard Modification origin August 2018) Listening to clipboard activity, reading the clipboard contents, and modifying the clipboard contents requires no explicit application permissions and can be performed by applications running in the background, however, this behavior has changed with the release of Android 10.(Citation: Android 10 Privacy Changes)\n\nAdversaries may use [Clipboard Modification](https://attack.mitre.org/techniques/T1510) to replace text prior to being pasted, for example, replacing a copied Bitcoin wallet address with a wallet address that is under adversarial control.\n\n[Clipboard Modification](https://attack.mitre.org/techniques/T1510) had been seen within the Android/Clipper.C trojan. This sample had been detected by ESET in an application distributed through the Google Play Store targeting cryptocurrency wallet numbers.(Citation: ESET Clipboard Modification February 2019)",
-    "references": [
+    "external_references": [
         {
             "url": "https://attack.mitre.org/techniques/T1510",
             "source_name": "mitre-mobile-attack",
@@ -39,13 +36,25 @@
             "source_name": "Android 10 Privacy Changes"
         }
     ],
-    "platforms": [
-        "Android"
-    ],
-    "kill_chain": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Clipboard Modification",
+    "description": "Adversaries may abuse clipboard functionality to intercept and replace information in the Android device clipboard.(Citation: ESET Clipboard Modification February 2019)(Citation: Welivesecurity Clipboard Modification February 2019)(Citation: Syracuse Clipboard Modification 2014) Malicious applications may monitor the clipboard activity through the <code>ClipboardManager.OnPrimaryClipChangedListener</code> interface on Android to determine when the clipboard contents have changed.(Citation: Dr.Webb Clipboard Modification origin2 August 2018)(Citation: Dr.Webb Clipboard Modification origin August 2018) Listening to clipboard activity, reading the clipboard contents, and modifying the clipboard contents requires no explicit application permissions and can be performed by applications running in the background, however, this behavior has changed with the release of Android 10.(Citation: Android 10 Privacy Changes)\n\nAdversaries may use [Clipboard Modification](https://attack.mitre.org/techniques/T1510) to replace text prior to being pasted, for example, replacing a copied Bitcoin wallet address with a wallet address that is under adversarial control.\n\n[Clipboard Modification](https://attack.mitre.org/techniques/T1510) had been seen within the Android/Clipper.C trojan. This sample had been detected by ESET in an application distributed through the Google Play Store targeting cryptocurrency wallet numbers.(Citation: ESET Clipboard Modification February 2019)",
+    "id": "attack-pattern--e399430e-30b7-48c5-b70a-f44dc8c175cb",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "impact"
         }
+    ],
+    "modified": "2019-10-28T18:36:26.261Z",
+    "created": "2019-07-26T14:15:31.451Z",
+    "x_mitre_detection": "Modifying clipboard content can be difficult to detect, and therefore enterprises may be better served focusing on detection at other stages of adversarial behavior.",
+    "x_mitre_version": "1.0",
+    "x_mitre_tactic_type": [
+        "Post-Adversary Device Access"
+    ],
+    "x_mitre_platforms": [
+        "Android"
     ]
 }

@@ -1,8 +1,5 @@
 {
-    "id": "attack-pattern--39dd7871-f59b-495f-a9a5-3cb8cc50c9b2",
-    "name": "Access Notifications",
-    "description": "A malicious application can read notifications sent by the operating system or other applications, which may contain sensitive data such as one-time authentication codes sent over SMS, email, or other mediums. A malicious application can also dismiss notifications to prevent the user from noticing that the notifications arrived and can trigger action buttons contained within notifications.(Citation: ESET 2FA Bypass)",
-    "references": [
+    "external_references": [
         {
             "url": "https://attack.mitre.org/techniques/T1517",
             "source_name": "mitre-mobile-attack",
@@ -14,10 +11,12 @@
             "source_name": "ESET 2FA Bypass"
         }
     ],
-    "platforms": [
-        "Android"
-    ],
-    "kill_chain": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Access Notifications",
+    "description": "A malicious application can read notifications sent by the operating system or other applications, which may contain sensitive data such as one-time authentication codes sent over SMS, email, or other mediums. A malicious application can also dismiss notifications to prevent the user from noticing that the notifications arrived and can trigger action buttons contained within notifications.(Citation: ESET 2FA Bypass)",
+    "id": "attack-pattern--39dd7871-f59b-495f-a9a5-3cb8cc50c9b2",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "collection"
@@ -26,5 +25,19 @@
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "credential-access"
         }
+    ],
+    "modified": "2020-07-09T14:07:02.217Z",
+    "created": "2019-09-15T15:26:08.183Z",
+    "x_mitre_is_subtechnique": false,
+    "x_mitre_contributors": [
+        "Luk\u00e1\u0161 \u0160tefanko, ESET"
+    ],
+    "x_mitre_version": "1.0",
+    "x_mitre_tactic_type": [
+        "Post-Adversary Device Access"
+    ],
+    "x_mitre_detection": "The user can inspect (and modify) the list of applications that have notification access through the device settings (e.g. Apps & notification -> Special app access -> Notification access).",
+    "x_mitre_platforms": [
+        "Android"
     ]
 }

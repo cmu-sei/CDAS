@@ -1,0 +1,17 @@
+{
+    "id": "course-of-action--98aa0d61-fc9d-4b2d-8f18-b25d03549f53",
+    "type": "course-of-action",
+    "created": "2019-06-06T21:16:18.709Z",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
+        {
+            "source_name": "mitre-ics-attack",
+            "url": "https://collaborate.mitre.org/attackics/index.php/Mitigation/M0815",
+            "external_id": "M0815"
+        }
+    ],
+    "description": "Utilize watchdog timers to ensure devices can quickly detect whether a system is operational, unresponsive, or in a good state. System / process restarts should be performed when a timeout condition occurs.",
+    "x_mitre_version": "1.0",
+    "modified": "2020-09-22T16:50:45.681Z",
+    "name": "Watchdog Timers"
+}

@@ -1,8 +1,5 @@
 {
-    "id": "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",
-    "name": "Empire",
-    "description": "[Empire](https://attack.mitre.org/software/S0363) is an open source, cross-platform remote administration and post-exploitation framework that is publicly available on GitHub. While the tool itself is primarily written in Python, the post-exploitation agents are written in pure [PowerShell](https://attack.mitre.org/techniques/T1086) for Windows and Python for Linux/macOS. [Empire](https://attack.mitre.org/software/S0363) was one of five tools singled out by a joint report on public hacking tools being widely used by adversaries.(Citation: NCSC Joint Report Public Tools)(Citation: Github PowerShell Empire)(Citation: GitHub ATTACK Empire)",
-    "references": [
+    "external_references": [
         {
             "url": "https://attack.mitre.org/software/S0363",
             "source_name": "mitre-attack",
@@ -32,12 +29,23 @@
             "source_name": "GitHub ATTACK Empire"
         }
     ],
-    "aliases": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Empire",
+    "description": "[Empire](https://attack.mitre.org/software/S0363) is an open source, cross-platform remote administration and post-exploitation framework that is publicly available on GitHub. While the tool itself is primarily written in Python, the post-exploitation agents are written in pure [PowerShell](https://attack.mitre.org/techniques/T1086) for Windows and Python for Linux/macOS. [Empire](https://attack.mitre.org/software/S0363) was one of five tools singled out by a joint report on public hacking tools being widely used by adversaries.(Citation: NCSC Joint Report Public Tools)(Citation: Github PowerShell Empire)(Citation: GitHub ATTACK Empire)",
+    "id": "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",
+    "type": "tool",
+    "labels": [
+        "tool"
+    ],
+    "modified": "2020-03-30T02:08:26.536Z",
+    "created": "2019-03-11T14:13:40.648Z",
+    "x_mitre_version": "1.1",
+    "x_mitre_aliases": [
         "Empire",
         "EmPyre",
         "PowerShell Empire"
     ],
-    "platforms": [
+    "x_mitre_platforms": [
         "Linux",
         "macOS",
         "Windows"

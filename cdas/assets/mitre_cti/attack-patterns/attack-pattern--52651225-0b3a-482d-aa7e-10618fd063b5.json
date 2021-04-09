@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--52651225-0b3a-482d-aa7e-10618fd063b5",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Exploit SS7 to Track Device Location",
     "description": "An adversary could exploit signaling system vulnerabilities to track the location of mobile devices. (Citation: Engel-SS7) (Citation: Engel-SS7-2008) (Citation: 3GPP-Security) (Citation: Positive-SS7) (Citation: CSRIC5-WG10-FinalReport)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "url": "https://attack.mitre.org/techniques/T1450",
@@ -43,14 +44,23 @@
             "description": "CSRIC-WG1-FinalReport"
         }
     ],
-    "platforms": [
-        "Android",
-        "iOS"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "network-effects"
         }
-    ]
+    ],
+    "modified": "2019-02-03T15:06:10.014Z",
+    "created": "2017-10-25T14:48:09.864Z",
+    "x_mitre_detection": "Network carriers may be able to use firewalls, Intrusion Detection Systems (IDS), or Intrusion Prevention Systems (IPS) to detect and/or block SS7 exploitation.(Citation: CSRIC-WG1-FinalReport) The CSRIC also suggests threat information sharing between telecommunications industry members.",
+    "x_mitre_platforms": [
+        "Android",
+        "iOS"
+    ],
+    "x_mitre_tactic_type": [
+        "Without Adversary Device Access"
+    ],
+    "x_mitre_version": "1.1",
+    "x_mitre_old_attack_id": "MOB-T1053"
 }

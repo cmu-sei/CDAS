@@ -1,0 +1,30 @@
+{
+    "type": "attack-pattern",
+    "name": "Control Device Identification",
+    "description": "Adversaries may perform control device identification to determine the make and model of a target device. Management software and device APIs may be utilized by the adversary to gain this information. By identifying and obtaining device specifics, the adversary may be able to determine device vulnerabilities. This device information can also be used to understand device functionality and inform the decision to target the environment.\n\nData Sources: Network protocol analysis, Packet capture",
+    "kill_chain_phases": [
+        {
+            "kill_chain_name": "mitre-ics-attack",
+            "phase_name": "discovery-ics"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Windows",
+        "Field Controller/RTU/PLC/IED"
+    ],
+    "external_references": [
+        {
+            "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T808",
+            "source_name": "mitre-ics-attack",
+            "external_id": "T0808"
+        }
+    ],
+    "created": "2020-05-21T17:43:26.506Z",
+    "created_by_ref": "The MITRE Corporation",
+    "x_mitre_data_sources": [
+        "Network protocol analysis",
+        "Packet capture"
+    ],
+    "modified": "2020-05-21T17:43:26.506Z",
+    "id": "attack-pattern--abb0a255-eb9c-48d0-8f5c-874bb84c0e45"
+}

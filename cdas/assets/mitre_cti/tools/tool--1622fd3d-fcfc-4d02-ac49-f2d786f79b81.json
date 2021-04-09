@@ -1,8 +1,5 @@
 {
-    "id": "tool--1622fd3d-fcfc-4d02-ac49-f2d786f79b81",
-    "name": "FlexiSpy",
-    "description": "[FlexiSpy](https://attack.mitre.org/software/S0408) is sophisticated surveillanceware for iOS and Android. Publicly-available, comprehensive analysis has only been found for the Android version.(Citation: FortiGuard-FlexiSpy)(Citation: CyberMerchants-FlexiSpy)\n\n[FlexiSpy](https://attack.mitre.org/software/S0408) markets itself as a parental control and employee monitoring application.(Citation: FlexiSpy-Website)",
-    "references": [
+    "external_references": [
         {
             "external_id": "S0408",
             "source_name": "mitre-attack",
@@ -24,10 +21,24 @@
             "description": "FlexiSpy. (n.d.). FlexiSpy. Retrieved September 4, 2019."
         }
     ],
-    "aliases": [
+    "created_by_ref": "The MITRE Corporation",
+    "description": "[FlexiSpy](https://attack.mitre.org/software/S0408) is sophisticated surveillanceware for iOS and Android. Publicly-available, comprehensive analysis has only been found for the Android version.(Citation: FortiGuard-FlexiSpy)(Citation: CyberMerchants-FlexiSpy)\n\n[FlexiSpy](https://attack.mitre.org/software/S0408) markets itself as a parental control and employee monitoring application.(Citation: FlexiSpy-Website)",
+    "name": "FlexiSpy",
+    "id": "tool--1622fd3d-fcfc-4d02-ac49-f2d786f79b81",
+    "type": "tool",
+    "labels": [
+        "tool"
+    ],
+    "modified": "2019-10-14T18:08:28.349Z",
+    "created": "2019-09-04T15:38:56.070Z",
+    "x_mitre_version": "1.0",
+    "x_mitre_aliases": [
         "FlexiSpy"
     ],
-    "platforms": [
+    "x_mitre_platforms": [
         "Android"
+    ],
+    "x_mitre_contributors": [
+        "Emily Ratliff, IBM"
     ]
 }

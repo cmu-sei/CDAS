@@ -1,8 +1,18 @@
 {
+    "created": "2019-08-30T13:01:10.120Z",
+    "modified": "2020-06-23T14:31:41.758Z",
+    "kill_chain_phases": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "discovery"
+        }
+    ],
+    "type": "attack-pattern",
     "id": "attack-pattern--e24fcba8-2557-4442-a139-1ee2f2e784db",
-    "name": "Cloud Service Discovery",
     "description": "An adversary may attempt to enumerate the cloud services running on a system after gaining access. These methods can differ from platform-as-a-service (PaaS), to infrastructure-as-a-service (IaaS), or software-as-a-service (SaaS). Many services exist throughout the various cloud providers and can include Continuous Integration and Continuous Delivery (CI/CD), Lambda Functions, Azure AD, etc. \n\nAdversaries may attempt to discover information about the services enabled throughout the environment. Azure tools and APIs, such as the Azure AD Graph API and Azure Resource Manager API, can enumerate resources and services, including applications, management groups, resources and policy definitions, and their relationships that are accessible by an identity.(Citation: Azure - Resource Manager API)(Citation: Azure AD Graph API)\n\nStormspotter is an open source tool for enumerating and constructing a graph for Azure resources and services, and Pacu is an open source AWS exploitation framework that supports several methods for discovering cloud services.(Citation: Azure - Stormspotter)(Citation: GitHub Pacu)",
-    "references": [
+    "name": "Cloud Service Discovery",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1526",
@@ -29,7 +39,7 @@
             "description": "Rhino Security Labs. (2019, August 22). Pacu. Retrieved October 17, 2019."
         }
     ],
-    "platforms": [
+    "x_mitre_platforms": [
         "AWS",
         "GCP",
         "Azure",
@@ -37,13 +47,19 @@
         "Office 365",
         "SaaS"
     ],
-    "kill_chain": [
-        {
-            "kill_chain_name": "mitre-attack",
-            "phase_name": "discovery"
-        }
+    "x_mitre_contributors": [
+        "Suzy Schapperle - Microsoft Azure Red Team",
+        "Praetorian"
     ],
-    "permissions": [
+    "x_mitre_permissions_required": [
         "User"
-    ]
+    ],
+    "x_mitre_version": "1.1",
+    "x_mitre_data_sources": [
+        "Azure activity logs",
+        "Stackdriver logs",
+        "AWS CloudTrail logs"
+    ],
+    "x_mitre_detection": "Cloud service discovery techniques will likely occur throughout an operation where an adversary is targeting cloud-based systems and services. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities based on the information obtained.\n\nNormal, benign system and network events that look like cloud service discovery may be uncommon, depending on the environment and how they are used. Monitor cloud service usage for anomalous behavior that may indicate adversarial presence within the environment.",
+    "x_mitre_is_subtechnique": false
 }

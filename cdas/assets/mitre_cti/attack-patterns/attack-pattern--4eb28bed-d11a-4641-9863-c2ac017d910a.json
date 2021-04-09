@@ -1,8 +1,5 @@
 {
-    "id": "attack-pattern--4eb28bed-d11a-4641-9863-c2ac017d910a",
-    "name": "Disable Windows Event Logging",
-    "description": "Adversaries may disable Windows event logging to limit data that can be leveraged for detections and audits. Windows event logs record user and system activity such as login attempts, process creation, and much more.(Citation: Windows Log Events) This data is used by security tools and analysts to generate detections.\n\nAdversaries may targeting system-wide logging or just that of a particular application. By disabling Windows event logging, adversaries can operate while leaving less evidence of a compromise behind.",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1562.002",
@@ -14,16 +11,34 @@
             "description": "Franklin Smith. (n.d.). Windows Security Log Events. Retrieved February 21, 2020."
         }
     ],
-    "platforms": [
-        "Windows"
-    ],
-    "kill_chain": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Disable Windows Event Logging",
+    "description": "Adversaries may disable Windows event logging to limit data that can be leveraged for detections and audits. Windows event logs record user and system activity such as login attempts, process creation, and much more.(Citation: Windows Log Events) This data is used by security tools and analysts to generate detections.\n\nAdversaries may targeting system-wide logging or just that of a particular application. By disabling Windows event logging, adversaries can operate while leaving less evidence of a compromise behind.",
+    "id": "attack-pattern--4eb28bed-d11a-4641-9863-c2ac017d910a",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "defense-evasion"
         }
     ],
-    "permissions": [
+    "modified": "2020-03-29T22:02:33.870Z",
+    "created": "2020-02-21T20:46:36.688Z",
+    "x_mitre_version": "1.0",
+    "x_mitre_is_subtechnique": true,
+    "x_mitre_permissions_required": [
         "Administrator"
+    ],
+    "x_mitre_defense_bypassed": [
+        "Log analysis"
+    ],
+    "x_mitre_detection": "Monitor processes and command-line arguments for commands that can be used to disable logging. Lack of event logs may be suspicious.",
+    "x_mitre_data_sources": [
+        "Process monitoring",
+        "Windows event logs",
+        "Process command-line parameters"
+    ],
+    "x_mitre_platforms": [
+        "Windows"
     ]
 }

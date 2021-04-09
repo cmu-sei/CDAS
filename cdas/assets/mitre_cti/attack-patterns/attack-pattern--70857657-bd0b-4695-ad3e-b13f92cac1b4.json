@@ -1,8 +1,5 @@
 {
-    "id": "attack-pattern--70857657-bd0b-4695-ad3e-b13f92cac1b4",
-    "name": "Delete Cloud Instance",
-    "description": "An adversary may delete a cloud instance after they have performed malicious activities in an attempt to evade detection and remove evidence of their presence.  Deleting an instance or virtual machine can remove valuable forensic artifacts and other evidence of suspicious behavior if the instance is not recoverable.\n\nAn adversary may also [Create Cloud Instance](https://attack.mitre.org/techniques/T1578/002) and later terminate the instance after achieving their objectives.(Citation: Mandiant M-Trends 2020)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1578.003",
@@ -29,18 +26,34 @@
             "description": "Google. (n.d.). Audit Logs. Retrieved June 1, 2020."
         }
     ],
-    "platforms": [
-        "AWS",
-        "GCP",
-        "Azure"
-    ],
-    "kill_chain": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Delete Cloud Instance",
+    "description": "An adversary may delete a cloud instance after they have performed malicious activities in an attempt to evade detection and remove evidence of their presence.  Deleting an instance or virtual machine can remove valuable forensic artifacts and other evidence of suspicious behavior if the instance is not recoverable.\n\nAn adversary may also [Create Cloud Instance](https://attack.mitre.org/techniques/T1578/002) and later terminate the instance after achieving their objectives.(Citation: Mandiant M-Trends 2020)",
+    "id": "attack-pattern--70857657-bd0b-4695-ad3e-b13f92cac1b4",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "defense-evasion"
         }
     ],
-    "permissions": [
+    "modified": "2020-09-14T19:55:23.113Z",
+    "created": "2020-06-16T17:23:06.508Z",
+    "x_mitre_detection": "The deletion of a new instance or virtual machine is a common part of operations within many cloud environments. Events should then not be viewed in isolation, but as part of a chain of behavior that could lead to other activities. For example, detecting a sequence of events such as the creation of an instance, mounting of a snapshot to that instance, and deletion of that instance by a new user account may indicate suspicious activity.\n\nIn AWS, CloudTrail logs capture the deletion of an instance in the <code>TerminateInstances</code> event, and in Azure the deletion of a VM may be captured in Azure activity logs.(Citation: AWS CloudTrail Search)(Citation: Azure Activity Logs) Google's Admin Activity audit logs within their Cloud Audit logs can be used to detect the usage of <code>gcloud compute instances delete</code> to delete a VM.(Citation: Cloud Audit Logs)",
+    "x_mitre_data_sources": [
+        "GCP audit logs",
+        "Stackdriver logs",
+        "Azure activity logs",
+        "AWS CloudTrail logs"
+    ],
+    "x_mitre_version": "1.0",
+    "x_mitre_is_subtechnique": true,
+    "x_mitre_permissions_required": [
         "User"
+    ],
+    "x_mitre_platforms": [
+        "AWS",
+        "GCP",
+        "Azure"
     ]
 }

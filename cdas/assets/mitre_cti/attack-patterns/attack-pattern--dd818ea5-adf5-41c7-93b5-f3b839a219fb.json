@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--dd818ea5-adf5-41c7-93b5-f3b839a219fb",
+    "created_by_ref": "The MITRE Corporation",
     "name": "System Network Connections Discovery",
     "description": "On Android, applications can use standard APIs to gather a list of network connections to and from the device. For example, the Network Connections app available in the Google Play Store (Citation: ConnMonitor) advertises this functionality.",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "url": "https://attack.mitre.org/techniques/T1421",
@@ -14,13 +15,21 @@
             "url": "https://play.google.com/store/apps/details?id=com.antispycell.connmonitor&hl=en"
         }
     ],
-    "platforms": [
-        "Android"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "discovery"
         }
-    ]
+    ],
+    "modified": "2019-02-01T19:34:17.460Z",
+    "created": "2017-10-25T14:48:33.574Z",
+    "x_mitre_platforms": [
+        "Android"
+    ],
+    "x_mitre_tactic_type": [
+        "Post-Adversary Device Access"
+    ],
+    "x_mitre_version": "2.0",
+    "x_mitre_old_attack_id": "MOB-T1024"
 }

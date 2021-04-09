@@ -1,8 +1,9 @@
 {
     "id": "tool--c9cd7ec9-40b7-49db-80be-1399eddd9c52",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Cachedump",
     "description": "[Cachedump](https://attack.mitre.org/software/S0119) is a publicly-available tool that program extracts cached password hashes from a system\u2019s registry. (Citation: Mandiant APT1)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "url": "https://attack.mitre.org/software/S0119",
@@ -14,10 +15,17 @@
             "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
         }
     ],
-    "aliases": [
+    "type": "tool",
+    "labels": [
+        "tool"
+    ],
+    "modified": "2020-03-30T15:15:36.756Z",
+    "created": "2017-05-31T21:33:10.197Z",
+    "x_mitre_platforms": [
+        "Windows"
+    ],
+    "x_mitre_aliases": [
         "Cachedump"
     ],
-    "platforms": [
-        "Windows"
-    ]
+    "x_mitre_version": "1.1"
 }

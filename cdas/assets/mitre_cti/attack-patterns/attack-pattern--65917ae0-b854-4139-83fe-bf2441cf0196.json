@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--65917ae0-b854-4139-83fe-bf2441cf0196",
+    "created_by_ref": "The MITRE Corporation",
     "name": "File and Directory Permissions Modification",
     "description": "Adversaries may modify file or directory permissions/attributes to evade access control lists (ACLs) and access protected files.(Citation: Hybrid Analysis Icacls1 June 2018)(Citation: Hybrid Analysis Icacls2 May 2018) File and directory permissions are commonly managed by ACLs configured by the file or directory owner, or users with the appropriate permissions. File and directory ACL implementations vary by platform, but generally explicitly designate which users or groups can perform which actions (read, write, execute, etc.).\n\nModifications may include changing specific access rights, which may require taking ownership of a file or directory and/or elevated permissions depending on the file or directory\u2019s existing permissions. This may enable malicious activity such as modifying, replacing, or deleting specific files or directories. Specific file and directory modifications may be a required step for many techniques, such as establishing Persistence via [Accessibility Features](https://attack.mitre.org/techniques/T1546/008), [Boot or Logon Initialization Scripts](https://attack.mitre.org/techniques/T1037), [.bash_profile and .bashrc](https://attack.mitre.org/techniques/T1546/004), or tainting/hijacking other instrumental binary/configuration files via [Hijack Execution Flow](https://attack.mitre.org/techniques/T1574).",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1222",
@@ -24,21 +25,40 @@
             "source_name": "EventTracker File Permissions Feb 2014"
         }
     ],
-    "platforms": [
-        "Linux",
-        "Windows",
-        "macOS"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "defense-evasion"
         }
     ],
-    "permissions": [
+    "modified": "2020-09-01T20:05:05.562Z",
+    "created": "2018-10-17T00:14:20.652Z",
+    "x_mitre_is_subtechnique": false,
+    "x_mitre_permissions_required": [
         "User",
         "Administrator",
         "SYSTEM",
         "root"
-    ]
+    ],
+    "x_mitre_platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+    ],
+    "x_mitre_detection": "Monitor and investigate attempts to modify ACLs and file/directory ownership. Many of the commands used to modify ACLs and file/directory ownership are built-in system utilities and may generate a high false positive alert rate, so compare against baseline knowledge for how systems are typically used and correlate modification events with other indications of malicious activity where possible.\n\nConsider enabling file/directory permission change auditing on folders containing key binary/configuration files. For example, Windows Security Log events (Event ID 4670) are created when DACLs are modified.(Citation: EventTracker File Permissions Feb 2014)",
+    "x_mitre_defense_bypassed": [
+        "File system access controls"
+    ],
+    "x_mitre_data_sources": [
+        "File monitoring",
+        "Process monitoring",
+        "Process command-line parameters",
+        "Windows event logs"
+    ],
+    "x_mitre_contributors": [
+        "CrowdStrike Falcon OverWatch",
+        "Jan Miller, CrowdStrike"
+    ],
+    "x_mitre_version": "2.1"
 }

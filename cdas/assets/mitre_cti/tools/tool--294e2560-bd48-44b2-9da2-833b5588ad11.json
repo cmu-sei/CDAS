@@ -1,8 +1,9 @@
 {
     "id": "tool--294e2560-bd48-44b2-9da2-833b5588ad11",
+    "created_by_ref": "The MITRE Corporation",
     "name": "ipconfig",
     "description": "[ipconfig](https://attack.mitre.org/software/S0100) is a Windows utility that can be used to find information about a system's TCP/IP, DNS, DHCP, and adapter configuration. (Citation: TechNet Ipconfig)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "url": "https://attack.mitre.org/software/S0100",
@@ -14,11 +15,18 @@
             "url": "https://technet.microsoft.com/en-us/library/bb490921.aspx"
         }
     ],
-    "aliases": [
+    "x_mitre_version": "1.0",
+    "x_mitre_aliases": [
         "ipconfig",
         "ipconfig.exe"
     ],
-    "platforms": [
+    "x_mitre_platforms": [
         "Windows"
-    ]
+    ],
+    "type": "tool",
+    "labels": [
+        "tool"
+    ],
+    "modified": "2018-10-17T00:14:20.652Z",
+    "created": "2017-05-31T21:33:02.863Z"
 }

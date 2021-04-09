@@ -1,0 +1,17 @@
+{
+    "id": "course-of-action--c7257b6e-4159-4771-b1f3-2bb93adaecac",
+    "type": "course-of-action",
+    "created": "2020-09-11T16:32:21.854Z",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
+        {
+            "source_name": "mitre-ics-attack",
+            "url": "https://collaborate.mitre.org/attackics/index.php/Mitigation/M0802",
+            "external_id": "M0802"
+        }
+    ],
+    "description": "When communicating over an untrusted network utilize secure network protocols that both authenticate the message sender and can verify its integrity, either through message authentication codes (MACs) or digital signatures, to prevent the transmission of spoofed network messages or unauthorized connections.",
+    "x_mitre_version": "1.0",
+    "modified": "2020-09-17T13:55:21.233Z",
+    "name": "Communication Authenticity"
+}

@@ -1,8 +1,5 @@
 {
-    "id": "tool--26c87906-d750-42c5-946c-d4162c73fc7b",
-    "name": "Impacket",
-    "description": "[Impacket](https://attack.mitre.org/software/S0357) is an open source collection of modules written in Python for programmatically constructing and manipulating network protocols. [Impacket](https://attack.mitre.org/software/S0357) contains several tools for remote service execution, Kerberos manipulation, Windows credential dumping, packet sniffing, and relay attacks.(Citation: Impacket Tools)",
-    "references": [
+    "external_references": [
         {
             "external_id": "S0357",
             "source_name": "mitre-attack",
@@ -14,10 +11,24 @@
             "description": "SecureAuth. (n.d.).  Retrieved January 15, 2019."
         }
     ],
-    "aliases": [
+    "created_by_ref": "The MITRE Corporation",
+    "description": "[Impacket](https://attack.mitre.org/software/S0357) is an open source collection of modules written in Python for programmatically constructing and manipulating network protocols. [Impacket](https://attack.mitre.org/software/S0357) contains several tools for remote service execution, Kerberos manipulation, Windows credential dumping, packet sniffing, and relay attacks.(Citation: Impacket Tools)",
+    "name": "Impacket",
+    "id": "tool--26c87906-d750-42c5-946c-d4162c73fc7b",
+    "type": "tool",
+    "labels": [
+        "tool"
+    ],
+    "modified": "2020-03-31T22:20:17.889Z",
+    "created": "2019-01-31T01:39:56.283Z",
+    "x_mitre_contributors": [
+        "Jacob Wilkin, Trustwave, SpiderLabs"
+    ],
+    "x_mitre_version": "1.1",
+    "x_mitre_aliases": [
         "Impacket"
     ],
-    "platforms": [
+    "x_mitre_platforms": [
         "Linux",
         "macOS",
         "Windows"

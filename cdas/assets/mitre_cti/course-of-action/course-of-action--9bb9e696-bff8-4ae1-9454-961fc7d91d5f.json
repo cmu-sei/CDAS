@@ -1,0 +1,17 @@
+{
+    "id": "course-of-action--9bb9e696-bff8-4ae1-9454-961fc7d91d5f",
+    "type": "course-of-action",
+    "created": "2019-06-06T21:09:47.115Z",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/mitigations/M1026",
+            "external_id": "M1026"
+        }
+    ],
+    "description": "Manage the creation, modification, use, and permissions associated to privileged accounts, including SYSTEM and root.",
+    "x_mitre_version": "1.1",
+    "modified": "2020-03-31T13:08:36.655Z",
+    "name": "Privileged Account Management"
+}

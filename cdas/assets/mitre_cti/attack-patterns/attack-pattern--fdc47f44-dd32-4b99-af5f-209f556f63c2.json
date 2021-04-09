@@ -1,20 +1,17 @@
 {
-    "id": "attack-pattern--fdc47f44-dd32-4b99-af5f-209f556f63c2",
-    "name": "Local Accounts",
-    "description": "Adversaries may obtain and abuse credentials of a local account as a means of gaining Initial Access, Persistence, Privilege Escalation, or Defense Evasion. Local accounts are those configured by an organization for use by users, remote support, services, or for administration on a single system or service.\n\nLocal Accounts may also be abused to elevate privileges and harvest credentials through [OS Credential Dumping](https://attack.mitre.org/techniques/T1003). Password reuse may allow the abuse of local accounts across a set of machines on a network for the purposes of Privilege Escalation and Lateral Movement. ",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1078.003",
             "url": "https://attack.mitre.org/techniques/T1078/003"
         }
     ],
-    "platforms": [
-        "Linux",
-        "macOS",
-        "Windows"
-    ],
-    "kill_chain": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Local Accounts",
+    "description": "Adversaries may obtain and abuse credentials of a local account as a means of gaining Initial Access, Persistence, Privilege Escalation, or Defense Evasion. Local accounts are those configured by an organization for use by users, remote support, services, or for administration on a single system or service.\n\nLocal Accounts may also be abused to elevate privileges and harvest credentials through [OS Credential Dumping](https://attack.mitre.org/techniques/T1003). Password reuse may allow the abuse of local accounts across a set of machines on a network for the purposes of Privilege Escalation and Lateral Movement. ",
+    "id": "attack-pattern--fdc47f44-dd32-4b99-af5f-209f556f63c2",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "defense-evasion"
@@ -32,8 +29,21 @@
             "phase_name": "initial-access"
         }
     ],
-    "permissions": [
+    "modified": "2020-03-23T21:48:41.083Z",
+    "created": "2020-03-13T20:26:46.695Z",
+    "x_mitre_version": "1.0",
+    "x_mitre_is_subtechnique": true,
+    "x_mitre_permissions_required": [
         "Administrator",
         "User"
+    ],
+    "x_mitre_detection": "Perform regular audits of local system accounts to detect accounts that may have been created by an adversary for persistence. Look for suspicious account behavior, such as accounts logged in at odd times or outside of business hours.",
+    "x_mitre_data_sources": [
+        "Authentication logs"
+    ],
+    "x_mitre_platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
     ]
 }

@@ -1,8 +1,5 @@
 {
-    "id": "attack-pattern--cacc40da-4c9e-462c-80d5-fd70a178b12d",
-    "name": "Disable Cloud Logs",
-    "description": "An adversary may disable cloud logging capabilities and integrations to limit what data is collected on their activities and avoid detection. \n\nCloud environments allow for collection and analysis of audit and application logs that provide insight into what activities a user does within the environment. If an attacker has sufficient permissions, they can disable logging to avoid detection of their activities. For example, in AWS an adversary may disable CloudWatch/CloudTrail integrations prior to conducting further malicious activity.(Citation: Following the CloudTrail: Generating strong AWS security signals with Sumo Logic)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1562.008",
@@ -29,18 +26,40 @@
             "description": "Microsoft. (n.d.). az monitor diagnostic-settings. Retrieved October 16, 2020."
         }
     ],
-    "platforms": [
-        "GCP",
-        "Azure",
-        "AWS"
-    ],
-    "kill_chain": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Disable Cloud Logs",
+    "description": "An adversary may disable cloud logging capabilities and integrations to limit what data is collected on their activities and avoid detection. \n\nCloud environments allow for collection and analysis of audit and application logs that provide insight into what activities a user does within the environment. If an attacker has sufficient permissions, they can disable logging to avoid detection of their activities. For example, in AWS an adversary may disable CloudWatch/CloudTrail integrations prior to conducting further malicious activity.(Citation: Following the CloudTrail: Generating strong AWS security signals with Sumo Logic)",
+    "id": "attack-pattern--cacc40da-4c9e-462c-80d5-fd70a178b12d",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "defense-evasion"
         }
     ],
-    "permissions": [
+    "modified": "2020-10-19T16:31:34.489Z",
+    "created": "2020-10-12T13:52:32.846Z",
+    "x_mitre_version": "1.0",
+    "x_mitre_is_subtechnique": true,
+    "x_mitre_permissions_required": [
         "User"
+    ],
+    "x_mitre_detection": "Monitor logs for API calls to disable logging. In AWS, monitor for: <code>StopLogging</code> and <code>DeleteTrail</code>.(Citation: Stopping CloudTrail from Sending Events to CloudWatch Logs) In GCP, monitor for: <code>google.logging.v2.ConfigServiceV2.UpdateSink</code>.(Citation: Configuring Data Access audit logs)  In Azure, monitor for <code>az monitor diagnostic-settings delete</code>.(Citation: az monitor diagnostic-settings) Additionally, a sudden loss of a log source may indicate that it has been disabled.",
+    "x_mitre_data_sources": [
+        "AWS CloudTrail logs",
+        "Azure activity logs",
+        "GCP audit logs"
+    ],
+    "x_mitre_contributors": [
+        "Ibrahim Ali Khan",
+        "AttackIQ",
+        "Janantha Marasinghe",
+        "Sekhar Sarukkai; Prasad Somasamudram; Syed Ummar Farooqh (McAfee) ",
+        "Matt Snyder, VMware"
+    ],
+    "x_mitre_platforms": [
+        "GCP",
+        "Azure",
+        "AWS"
     ]
 }

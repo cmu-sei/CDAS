@@ -1,8 +1,9 @@
 {
     "id": "tool--38952eac-cb1b-4a71-bad2-ee8223a1c8fe",
+    "created_by_ref": "The MITRE Corporation",
     "name": "dsquery",
     "description": "[dsquery](https://attack.mitre.org/software/S0105) is a command-line utility that can be used to query Active Directory for information from a system within a domain. (Citation: TechNet Dsquery) It is typically installed only on Windows Server versions but can be installed on non-server variants through the Microsoft-provided Remote Server Administration Tools bundle.",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "url": "https://attack.mitre.org/software/S0105",
@@ -14,11 +15,18 @@
             "url": "https://technet.microsoft.com/en-us/library/cc732952.aspx"
         }
     ],
-    "aliases": [
+    "type": "tool",
+    "labels": [
+        "tool"
+    ],
+    "modified": "2020-03-18T20:01:55.739Z",
+    "created": "2017-05-31T21:33:04.937Z",
+    "x_mitre_platforms": [
+        "Windows"
+    ],
+    "x_mitre_aliases": [
         "dsquery",
         "dsquery.exe"
     ],
-    "platforms": [
-        "Windows"
-    ]
+    "x_mitre_version": "1.2"
 }

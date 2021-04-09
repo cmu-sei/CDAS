@@ -1,8 +1,5 @@
 {
-    "id": "attack-pattern--61afc315-860c-4364-825d-0d62b2e91edc",
-    "name": "Time Providers",
-    "description": "Adversaries may abuse time providers to execute DLLs when the system boots. The Windows Time service (W32Time) enables time synchronization across and within domains. (Citation: Microsoft W32Time Feb 2018) W32Time time providers are responsible for retrieving time stamps from hardware/network resources and outputting these values to other network clients. (Citation: Microsoft TimeProvider)\n\nTime providers are implemented as dynamic-link libraries (DLLs) that are registered in the subkeys of  <code>HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Services\\W32Time\\TimeProviders\\</code>. (Citation: Microsoft TimeProvider) The time provider manager, directed by the service control manager, loads and starts time providers listed and enabled under this key at system startup and/or whenever parameters are changed. (Citation: Microsoft TimeProvider)\n\nAdversaries may abuse this architecture to establish persistence, specifically by registering and enabling a malicious DLL as a time provider. Administrator privileges are required for time provider registration, though execution will run in context of the Local Service account. (Citation: Github W32Time Oct 2017)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1547.003",
@@ -34,10 +31,12 @@
             "source_name": "TechNet Autoruns"
         }
     ],
-    "platforms": [
-        "Windows"
-    ],
-    "kill_chain": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Time Providers",
+    "description": "Adversaries may abuse time providers to execute DLLs when the system boots. The Windows Time service (W32Time) enables time synchronization across and within domains. (Citation: Microsoft W32Time Feb 2018) W32Time time providers are responsible for retrieving time stamps from hardware/network resources and outputting these values to other network clients. (Citation: Microsoft TimeProvider)\n\nTime providers are implemented as dynamic-link libraries (DLLs) that are registered in the subkeys of  <code>HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Services\\W32Time\\TimeProviders\\</code>. (Citation: Microsoft TimeProvider) The time provider manager, directed by the service control manager, loads and starts time providers listed and enabled under this key at system startup and/or whenever parameters are changed. (Citation: Microsoft TimeProvider)\n\nAdversaries may abuse this architecture to establish persistence, specifically by registering and enabling a malicious DLL as a time provider. Administrator privileges are required for time provider registration, though execution will run in context of the Local Service account. (Citation: Github W32Time Oct 2017)",
+    "id": "attack-pattern--61afc315-860c-4364-825d-0d62b2e91edc",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "persistence"
@@ -47,8 +46,27 @@
             "phase_name": "privilege-escalation"
         }
     ],
-    "permissions": [
+    "modified": "2020-03-25T15:24:26.476Z",
+    "created": "2020-01-24T15:51:52.317Z",
+    "x_mitre_version": "1.0",
+    "x_mitre_is_subtechnique": true,
+    "x_mitre_permissions_required": [
         "SYSTEM",
         "Administrator"
+    ],
+    "x_mitre_detection": "Baseline values and monitor/analyze activity related to modifying W32Time information in the Registry, including application programming interface (API) calls such as <code>RegCreateKeyEx</code> and <code>RegSetValueEx</code> as well as execution of the W32tm.exe utility. (Citation: Microsoft W32Time May 2017) There is no restriction on the number of custom time providers registrations, though each may require a DLL payload written to disk. (Citation: Github W32Time Oct 2017)\n\nThe Sysinternals Autoruns tool may also be used to analyze auto-starting locations, including DLLs listed as time providers. (Citation: TechNet Autoruns)",
+    "x_mitre_data_sources": [
+        "API monitoring",
+        "Binary file metadata",
+        "DLL monitoring",
+        "File monitoring",
+        "Loaded DLLs",
+        "Process monitoring"
+    ],
+    "x_mitre_contributors": [
+        "Scott Lundgren, @5twenty9, Carbon Black"
+    ],
+    "x_mitre_platforms": [
+        "Windows"
     ]
 }

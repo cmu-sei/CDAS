@@ -1,8 +1,5 @@
 {
-    "id": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
-    "name": "Exfiltration Over C2 Channel",
-    "description": "Adversaries may steal data by exfiltrating it over an existing command and control channel. Stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1041",
@@ -14,15 +11,32 @@
             "source_name": "University of Birmingham C2"
         }
     ],
-    "platforms": [
-        "Linux",
-        "macOS",
-        "Windows"
-    ],
-    "kill_chain": [
+    "description": "Adversaries may steal data by exfiltrating it over an existing command and control channel. Stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
+    "name": "Exfiltration Over C2 Channel",
+    "created_by_ref": "The MITRE Corporation",
+    "id": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "exfiltration"
         }
+    ],
+    "modified": "2020-03-12T15:59:47.470Z",
+    "created": "2017-05-31T21:30:41.804Z",
+    "x_mitre_is_subtechnique": false,
+    "x_mitre_version": "2.0",
+    "x_mitre_data_sources": [
+        "Packet capture",
+        "Process use of network",
+        "Netflow/Enclave netflow",
+        "Process monitoring"
+    ],
+    "x_mitre_detection": "Analyze network data for uncommon data flows (e.g., a client sending significantly more data than it receives from a server). Processes utilizing the network that do not normally have network communication or have never been seen before are suspicious. Analyze packet contents to detect communications that do not follow the expected protocol behavior for the port that is being used. (Citation: University of Birmingham C2)",
+    "x_mitre_network_requirements": true,
+    "x_mitre_platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
     ]
 }

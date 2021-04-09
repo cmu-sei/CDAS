@@ -1,8 +1,9 @@
 {
     "id": "tool--da21929e-40c0-443d-bdf4-6b60d15448b4",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Xbot",
     "description": "[Xbot](https://attack.mitre.org/software/S0298) is an Android malware family that was observed in 2016 primarily targeting Android users in Russia and Australia. (Citation: PaloAlto-Xbot)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "url": "https://attack.mitre.org/software/S0298",
@@ -18,10 +19,18 @@
             "url": "http://researchcenter.paloaltonetworks.com/2016/02/new-android-trojan-xbot-phishes-credit-cards-and-bank-accounts-encrypts-devices-for-ransom/"
         }
     ],
-    "aliases": [
+    "x_mitre_aliases": [
         "Xbot"
     ],
-    "platforms": [
+    "x_mitre_version": "1.1",
+    "x_mitre_old_attack_id": "MOB-S0014",
+    "x_mitre_platforms": [
         "Android"
-    ]
+    ],
+    "type": "tool",
+    "labels": [
+        "tool"
+    ],
+    "modified": "2018-12-11T20:40:31.461Z",
+    "created": "2017-10-25T14:48:48.609Z"
 }

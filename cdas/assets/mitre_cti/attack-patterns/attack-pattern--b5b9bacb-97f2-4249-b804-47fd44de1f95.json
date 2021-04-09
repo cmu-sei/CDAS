@@ -1,0 +1,39 @@
+{
+    "type": "attack-pattern",
+    "name": "Loss of Availability",
+    "description": "Adversaries may attempt to disrupt essential components or systems to prevent owner and operator from delivering products or services. (Citation: Reference - Corero) (Citation: Reference - SANS - 201510) (Citation: Reference - RIoT) \n\nAdversaries may leverage malware to delete or encrypt critical data on HMIs, workstations, or databases.",
+    "kill_chain_phases": [
+        {
+            "kill_chain_name": "mitre-ics-attack",
+            "phase_name": "impact-ics"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Windows"
+    ],
+    "external_references": [
+        {
+            "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T826",
+            "source_name": "mitre-ics-attack",
+            "external_id": "T0826"
+        },
+        {
+            "description": "Corero. (n.d.). Industrial Control System (ICS) Security. Retrieved November 4, 2019.",
+            "source_name": "Reference - Corero",
+            "url": "https://www.corero.com/resources/files/whitepapers/cns%20whitepaper%20ics.pdf"
+        },
+        {
+            "description": "Michael J. Assante and Robert M. Lee. (n.d.). The Industrial Control System Cyber Kill Chain. Retrieved November 4, 2019.",
+            "source_name": "Reference - SANS - 201510",
+            "url": "https://www.sans.org/reading-room/whitepapers/ICS/industrial-control-system-cyber-kill-chain-36297"
+        },
+        {
+            "description": "Tyson Macaulay. (n.d.). RIoT Control: Understanding and Managing Risks and the Internet of Things. Retrieved November 4, 2019.",
+            "source_name": "Reference - RIoT"
+        }
+    ],
+    "created": "2020-05-21T17:43:26.506Z",
+    "created_by_ref": "The MITRE Corporation",
+    "modified": "2020-05-21T17:43:26.506Z",
+    "id": "attack-pattern--b5b9bacb-97f2-4249-b804-47fd44de1f95"
+}

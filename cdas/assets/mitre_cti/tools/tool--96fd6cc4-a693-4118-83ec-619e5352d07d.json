@@ -1,8 +1,9 @@
 {
     "id": "tool--96fd6cc4-a693-4118-83ec-619e5352d07d",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Winexe",
     "description": "[Winexe](https://attack.mitre.org/software/S0191) is a lightweight, open source tool similar to [PsExec](https://attack.mitre.org/software/S0029) designed to allow system administrators to execute commands on remote servers. (Citation: Winexe Github Sept 2013) [Winexe](https://attack.mitre.org/software/S0191) is unique in that it is a GNU/Linux based client. (Citation: \u00dcberwachung APT28 Forfiles June 2015)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "url": "https://attack.mitre.org/software/S0191",
@@ -23,10 +24,17 @@
             "url": "https://netzpolitik.org/2015/digital-attack-on-german-parliament-investigative-report-on-the-hack-of-the-left-party-infrastructure-in-bundestag/"
         }
     ],
-    "aliases": [
+    "x_mitre_version": "1.0",
+    "x_mitre_aliases": [
         "Winexe"
     ],
-    "platforms": [
+    "x_mitre_platforms": [
         "Windows"
-    ]
+    ],
+    "type": "tool",
+    "labels": [
+        "tool"
+    ],
+    "modified": "2018-10-17T00:14:20.652Z",
+    "created": "2018-04-18T17:59:24.739Z"
 }

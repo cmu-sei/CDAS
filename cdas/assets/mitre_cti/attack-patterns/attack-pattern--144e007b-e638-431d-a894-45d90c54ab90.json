@@ -1,8 +1,5 @@
 {
-    "id": "attack-pattern--144e007b-e638-431d-a894-45d90c54ab90",
-    "name": "Modify Cloud Compute Infrastructure",
-    "description": "An adversary may attempt to modify a cloud account's compute service infrastructure to evade defenses. A modification to the compute service infrastructure can include the creation, deletion, or modification of one or more components such as compute instances, virtual machines, and snapshots.\n\nPermissions gained from the modification of infrastructure components may bypass restrictions that prevent access to existing infrastructure. Modifying infrastructure components may also allow an adversary to evade detection and remove evidence of their presence.(Citation: Mandiant M-Trends 2020)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1578",
@@ -14,18 +11,34 @@
             "description": "Mandiant. (2020, February). M-Trends 2020. Retrieved April 24, 2020."
         }
     ],
-    "platforms": [
-        "AWS",
-        "GCP",
-        "Azure"
-    ],
-    "kill_chain": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Modify Cloud Compute Infrastructure",
+    "description": "An adversary may attempt to modify a cloud account's compute service infrastructure to evade defenses. A modification to the compute service infrastructure can include the creation, deletion, or modification of one or more components such as compute instances, virtual machines, and snapshots.\n\nPermissions gained from the modification of infrastructure components may bypass restrictions that prevent access to existing infrastructure. Modifying infrastructure components may also allow an adversary to evade detection and remove evidence of their presence.(Citation: Mandiant M-Trends 2020)",
+    "id": "attack-pattern--144e007b-e638-431d-a894-45d90c54ab90",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "defense-evasion"
         }
     ],
-    "permissions": [
+    "modified": "2020-09-14T19:55:23.798Z",
+    "created": "2019-08-30T18:03:05.864Z",
+    "x_mitre_detection": "Establish centralized logging for the activity of cloud compute infrastructure components. Monitor for suspicious sequences of events, such as the creation of multiple snapshots within a short period of time or the mount of a snapshot to a new instance by a new or unexpected user. To reduce false positives, valid change management procedures could introduce a known identifier that is logged with the change (e.g., tag or header) if supported by the cloud provider, to help distinguish valid, expected actions from malicious ones.",
+    "x_mitre_data_sources": [
+        "Stackdriver logs",
+        "GCP audit logs",
+        "Azure activity logs",
+        "AWS CloudTrail logs"
+    ],
+    "x_mitre_is_subtechnique": false,
+    "x_mitre_version": "1.0",
+    "x_mitre_permissions_required": [
         "User"
+    ],
+    "x_mitre_platforms": [
+        "AWS",
+        "GCP",
+        "Azure"
     ]
 }

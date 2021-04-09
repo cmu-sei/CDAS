@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--99e6295e-741b-4857-b6e5-64989eb039b4",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Location Tracking",
     "description": "An adversary could use a malicious or exploited application to surreptitiously track the device's physical location through use of standard operating system APIs.",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "url": "https://attack.mitre.org/techniques/T1430",
@@ -14,11 +15,8 @@
             "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-24.html"
         }
     ],
-    "platforms": [
-        "Android",
-        "iOS"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "collection"
@@ -27,5 +25,17 @@
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "discovery"
         }
-    ]
+    ],
+    "modified": "2019-10-15T20:01:06.186Z",
+    "created": "2017-10-25T14:48:12.267Z",
+    "x_mitre_old_attack_id": "MOB-T1033",
+    "x_mitre_version": "1.0",
+    "x_mitre_tactic_type": [
+        "Post-Adversary Device Access"
+    ],
+    "x_mitre_platforms": [
+        "Android",
+        "iOS"
+    ],
+    "x_mitre_detection": "On both Android (6.0 and up) and iOS, the user can view which applications have permission to access device location through the device settings screen, and the user can choose to revoke the permissions."
 }

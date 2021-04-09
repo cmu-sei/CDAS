@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Brute Force",
     "description": "Adversaries may use brute force techniques to gain access to accounts when passwords are unknown or when password hashes are obtained. Without knowledge of the password for an account or set of accounts, an adversary may systematically guess the password using a repetitive or iterative mechanism. Brute forcing passwords can take place via interaction with a service that will check the validity of those credentials or offline against previously acquired credential data, such as password hashes.",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1110",
@@ -14,7 +15,16 @@
             "url": "https://capec.mitre.org/data/definitions/49.html"
         }
     ],
-    "platforms": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "credential-access"
+        }
+    ],
+    "modified": "2020-10-21T16:38:27.781Z",
+    "created": "2017-05-31T21:31:22.767Z",
+    "x_mitre_platforms": [
         "Linux",
         "macOS",
         "Windows",
@@ -25,13 +35,17 @@
         "AWS",
         "Azure"
     ],
-    "kill_chain": [
-        {
-            "kill_chain_name": "mitre-attack",
-            "phase_name": "credential-access"
-        }
-    ],
-    "permissions": [
+    "x_mitre_permissions_required": [
         "User"
-    ]
+    ],
+    "x_mitre_detection": "Monitor authentication logs for system and application login failures of [Valid Accounts](https://attack.mitre.org/techniques/T1078). If authentication failures are high, then there may be a brute force attempt to gain access to a system using legitimate credentials. Also monitor for many failed authentication attempts across various accounts that may result from password spraying attempts. It is difficult to detect when hashes are cracked, since this is generally done outside the scope of the target network.",
+    "x_mitre_data_sources": [
+        "Office 365 account logs",
+        "Authentication logs"
+    ],
+    "x_mitre_contributors": [
+        "Ed Williams, Trustwave, SpiderLabs"
+    ],
+    "x_mitre_version": "2.1",
+    "x_mitre_is_subtechnique": false
 }

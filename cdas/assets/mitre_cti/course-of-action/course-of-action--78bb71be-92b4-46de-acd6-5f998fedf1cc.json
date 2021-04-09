@@ -1,0 +1,17 @@
+{
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "M1056",
+            "url": "https://attack.mitre.org/mitigations/M1056"
+        }
+    ],
+    "description": "This category is used for any applicable mitigation activities that apply to techniques occurring before an adversary gains Initial Access, such as Reconnaissance and Resource Development techniques.",
+    "name": "Pre-compromise",
+    "id": "course-of-action--78bb71be-92b4-46de-acd6-5f998fedf1cc",
+    "type": "course-of-action",
+    "modified": "2020-10-20T19:52:32.439Z",
+    "created": "2020-10-19T14:57:58.771Z",
+    "x_mitre_version": "1.0"
+}

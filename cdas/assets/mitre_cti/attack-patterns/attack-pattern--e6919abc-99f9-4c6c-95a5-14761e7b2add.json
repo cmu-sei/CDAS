@@ -1,8 +1,18 @@
 {
+    "created": "2017-05-31T21:31:16.408Z",
+    "modified": "2020-03-20T15:42:48.595Z",
+    "kill_chain_phases": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "command-and-control"
+        }
+    ],
+    "type": "attack-pattern",
     "id": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Ingress Tool Transfer",
     "description": "Adversaries may transfer tools or other files from an external system into a compromised environment. Files may be copied from an external adversary controlled system through the command and control channel to bring tools into the victim network or through alternate protocols with another tool such as FTP. Files can also be copied over on Mac and Linux with native tools like scp, rsync, and sftp.",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1105",
@@ -14,18 +24,24 @@
             "source_name": "University of Birmingham C2"
         }
     ],
-    "platforms": [
+    "x_mitre_is_subtechnique": false,
+    "x_mitre_platforms": [
         "Linux",
         "macOS",
         "Windows"
     ],
-    "kill_chain": [
-        {
-            "kill_chain_name": "mitre-attack",
-            "phase_name": "command-and-control"
-        }
-    ],
-    "permissions": [
+    "x_mitre_permissions_required": [
         "User"
-    ]
+    ],
+    "x_mitre_detection": "Monitor for file creation and files transferred into the network. Unusual processes with external network connections creating files on-system may be suspicious. Use of utilities, such as FTP, that does not normally occur may also be suspicious.\n\nAnalyze network data for uncommon data flows (e.g., a client sending significantly more data than it receives from a server). Processes utilizing the network that do not normally have network communication or have never been seen before are suspicious. Analyze packet contents to detect communications that do not follow the expected protocol behavior for the port that is being used.(Citation: University of Birmingham C2)",
+    "x_mitre_data_sources": [
+        "Process command-line parameters",
+        "File monitoring",
+        "Packet capture",
+        "Process use of network",
+        "Netflow/Enclave netflow",
+        "Network protocol analysis",
+        "Process monitoring"
+    ],
+    "x_mitre_version": "2.0"
 }

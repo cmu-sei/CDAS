@@ -1,0 +1,33 @@
+{
+    "type": "attack-pattern",
+    "name": "Automated Collection",
+    "description": "Adversaries may automate collection of industrial environment information using tools or scripts. This automated collection may leverage native control protocols and tools available in the control systems environment. For example, the OPC protocol may be used to enumerate and gather information. Access to a system or interface with these native protocols may allow collection and enumeration of other attached, communicating servers and devices.\n\nData Sources: File monitoring, Data loss prevention, Process command-line parameters",
+    "kill_chain_phases": [
+        {
+            "kill_chain_name": "mitre-ics-attack",
+            "phase_name": "collection-ics"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Windows",
+        "Field Controller/RTU/PLC/IED",
+        "Safety Instrumented System/Protection Relay",
+        "Control Server"
+    ],
+    "external_references": [
+        {
+            "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T802",
+            "source_name": "mitre-ics-attack",
+            "external_id": "T0802"
+        }
+    ],
+    "created": "2020-05-21T17:43:26.506Z",
+    "created_by_ref": "The MITRE Corporation",
+    "x_mitre_data_sources": [
+        "File monitoring",
+        "Data loss prevention",
+        "Process command-line parameters"
+    ],
+    "modified": "2020-05-21T17:43:26.506Z",
+    "id": "attack-pattern--3de230d4-3e42-4041-b089-17e1128feded"
+}

@@ -1,8 +1,5 @@
 {
-    "id": "attack-pattern--e624264c-033a-424d-9fd7-fc9c3bbdb03e",
-    "name": "Pass the Hash",
-    "description": "Adversaries may \u201cpass the hash\u201d using stolen password hashes to move laterally within an environment, bypassing normal system access controls. Pass the hash (PtH) is a method of authenticating as a user without having access to the user's cleartext password. This method bypasses standard authentication steps that require a cleartext password, moving directly into the portion of the authentication that uses the password hash. In this technique, valid password hashes for the account being used are captured using a Credential Access technique. Captured hashes are used with PtH to authenticate as that user. Once authenticated, PtH may be used to perform actions on local or remote systems.\n\nWindows 7 and higher with KB2871997 require valid domain user credentials or RID 500 administrator hashes.(Citation: NSA Spotting)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1550.002",
@@ -19,10 +16,12 @@
             "url": "https://apps.nsa.gov/iaarchive/library/reports/spotting-the-adversary-with-windows-event-log-monitoring.cfm"
         }
     ],
-    "platforms": [
-        "Windows"
-    ],
-    "kill_chain": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Pass the Hash",
+    "description": "Adversaries may \u201cpass the hash\u201d using stolen password hashes to move laterally within an environment, bypassing normal system access controls. Pass the hash (PtH) is a method of authenticating as a user without having access to the user's cleartext password. This method bypasses standard authentication steps that require a cleartext password, moving directly into the portion of the authentication that uses the password hash. In this technique, valid password hashes for the account being used are captured using a Credential Access technique. Captured hashes are used with PtH to authenticate as that user. Once authenticated, PtH may be used to perform actions on local or remote systems.\n\nWindows 7 and higher with KB2871997 require valid domain user credentials or RID 500 administrator hashes.(Citation: NSA Spotting)",
+    "id": "attack-pattern--e624264c-033a-424d-9fd7-fc9c3bbdb03e",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "defense-evasion"
@@ -31,5 +30,22 @@
             "kill_chain_name": "mitre-attack",
             "phase_name": "lateral-movement"
         }
+    ],
+    "modified": "2020-03-23T16:24:34.766Z",
+    "created": "2020-01-30T16:36:51.184Z",
+    "x_mitre_defense_bypassed": [
+        "System Access Controls"
+    ],
+    "x_mitre_version": "1.0",
+    "x_mitre_is_subtechnique": true,
+    "x_mitre_detection": "Audit all logon and credential use events and review for discrepancies. Unusual remote logins that correlate with other suspicious activity (such as writing and executing binaries) may indicate malicious activity. NTLM LogonType 3 authentications that are not associated to a domain login and are not anonymous logins are suspicious.",
+    "x_mitre_data_sources": [
+        "Authentication logs"
+    ],
+    "x_mitre_contributors": [
+        "Travis Smith, Tripwire"
+    ],
+    "x_mitre_platforms": [
+        "Windows"
     ]
 }

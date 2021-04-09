@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--dfe29258-ce59-421c-9dee-e85cb9fa90cd",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Lockscreen Bypass",
     "description": "An adversary with physical access to a mobile device may seek to bypass the device's lockscreen.\n\n### Biometric Spoofing\nIf biometric authentication is used, an adversary could attempt to spoof a mobile device's biometric authentication mechanism(Citation: SRLabs-Fingerprint)(Citation: SecureIDNews-Spoof)(Citation: TheSun-FaceID).\n\niOS partly mitigates this attack by requiring the device passcode rather than a fingerprint to unlock the device after every device restart and after 48 hours since the device was last unlocked (Citation: Apple-TouchID). Android has similar mitigations.\n\n### Device Unlock Code Guessing or Brute Force\nAn adversary could attempt to brute-force or otherwise guess the lockscreen passcode (typically a PIN or password), including physically observing (\"shoulder surfing\") the device owner's use of the lockscreen passcode. \n\n### Exploit Other Device Lockscreen Vulnerabilities\nTechniques have periodically been demonstrated that exploit vulnerabilities on Android (Citation: Wired-AndroidBypass), iOS (Citation: Kaspersky-iOSBypass), or other mobile devices to bypass the device lockscreen. The vulnerabilities are generally patched by the device/operating system vendor once they become aware of their existence.",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "url": "https://attack.mitre.org/techniques/T1461",
@@ -39,14 +40,22 @@
             "url": "https://threatpost.com/ios-10-passcode-bypass-can-access-photos-contacts/122033/"
         }
     ],
-    "platforms": [
-        "Android",
-        "iOS"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "initial-access"
         }
-    ]
+    ],
+    "modified": "2019-02-03T17:08:07.111Z",
+    "created": "2017-10-25T14:48:24.488Z",
+    "x_mitre_platforms": [
+        "Android",
+        "iOS"
+    ],
+    "x_mitre_tactic_type": [
+        "Post-Adversary Device Access"
+    ],
+    "x_mitre_version": "1.1",
+    "x_mitre_old_attack_id": "MOB-T1064"
 }

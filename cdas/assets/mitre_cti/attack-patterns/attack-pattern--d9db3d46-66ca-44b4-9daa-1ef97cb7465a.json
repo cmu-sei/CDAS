@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--d9db3d46-66ca-44b4-9daa-1ef97cb7465a",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Deliver Malicious App via Authorized App Store",
     "description": "Malicious applications are a common attack vector used by adversaries to gain a presence on mobile devices. Mobile devices often are configured to allow application installation only from an authorized app store (e.g., Google Play Store or Apple App Store). An adversary may seek to place a malicious application in an authorized app store, enabling the application to be installed onto targeted devices.\n\nApp stores typically require developer registration and use vetting techniques to identify malicious applications. Adversaries may use these techniques against app store defenses:\n\n* [Download New Code at Runtime](https://attack.mitre.org/techniques/T1407)\n* [Obfuscated Files or Information](https://attack.mitre.org/techniques/T1406)\n\nAdversaries may also seek to evade vetting by placing code in a malicious application to detect whether it is running in an app analysis environment and, if so, avoid performing malicious actions while under analysis. (Citation: Petsas) (Citation: Oberheide-Bouncer) (Citation: Percoco-Bouncer) (Citation: Wang)\n\nAdversaries may also use fake identities, payment cards, etc., to create developer accounts to publish malicious applications to app stores. (Citation: Oberheide-Bouncer)\n\nAdversaries may also use control of a target's Google account to use the Google Play Store's remote installation capability to install apps onto the Android devices associated with the Google account. (Citation: Oberheide-RemoteInstall) (Citation: Konoth) (Only applications that are available for download through the Google Play Store can be remotely installed using this technique.)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "url": "https://attack.mitre.org/techniques/T1475",
@@ -69,14 +70,23 @@
             "source_name": "Konoth"
         }
     ],
-    "platforms": [
-        "Android",
-        "iOS"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "initial-access"
         }
-    ]
+    ],
+    "modified": "2019-10-14T17:42:49.817Z",
+    "created": "2018-10-17T00:14:20.652Z",
+    "x_mitre_old_attack_id": "MOB-T1078",
+    "x_mitre_version": "1.1",
+    "x_mitre_tactic_type": [
+        "Post-Adversary Device Access"
+    ],
+    "x_mitre_platforms": [
+        "Android",
+        "iOS"
+    ],
+    "x_mitre_detection": "* An EMM/MDM or mobile threat defense solution can identify the presence of unwanted or known insecure or malicious apps on devices.\n* Developers can scan (or have a third party scan on their behalf) the app stores for presence of unauthorized apps that were submitted using the developer's identity."
 }

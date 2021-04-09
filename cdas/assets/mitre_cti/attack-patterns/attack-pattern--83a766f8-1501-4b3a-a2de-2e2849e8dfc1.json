@@ -1,8 +1,5 @@
 {
-    "id": "attack-pattern--83a766f8-1501-4b3a-a2de-2e2849e8dfc1",
-    "name": "DNS Calculation",
-    "description": "Adversaries may perform calculations on addresses returned in DNS results to determine which port and IP address to use for command and control, rather than relying on a predetermined port number or the actual returned IP address. A IP and/or port number calculation can be used to bypass egress filtering on a C2 channel.(Citation: Meyers Numbered Panda)\n\nOne implementation of [DNS Calculation](https://attack.mitre.org/techniques/T1568/003) is to take the first three octets of an IP address in a DNS response and use those values to calculate the port for command and control traffic.(Citation: Meyers Numbered Panda)(Citation: Moran 2014)(Citation: Rapid7G20Espionage)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1568.003",
@@ -24,15 +21,28 @@
             "url": "https://blog.rapid7.com/2013/08/26/upcoming-g20-summit-fuels-espionage-operations/"
         }
     ],
-    "platforms": [
-        "Linux",
-        "macOS",
-        "Windows"
-    ],
-    "kill_chain": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "DNS Calculation",
+    "description": "Adversaries may perform calculations on addresses returned in DNS results to determine which port and IP address to use for command and control, rather than relying on a predetermined port number or the actual returned IP address. A IP and/or port number calculation can be used to bypass egress filtering on a C2 channel.(Citation: Meyers Numbered Panda)\n\nOne implementation of [DNS Calculation](https://attack.mitre.org/techniques/T1568/003) is to take the first three octets of an IP address in a DNS response and use those values to calculate the port for command and control traffic.(Citation: Meyers Numbered Panda)(Citation: Moran 2014)(Citation: Rapid7G20Espionage)",
+    "id": "attack-pattern--83a766f8-1501-4b3a-a2de-2e2849e8dfc1",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "command-and-control"
         }
+    ],
+    "modified": "2020-03-27T20:54:28.287Z",
+    "created": "2020-03-11T14:56:34.154Z",
+    "x_mitre_data_sources": [
+        "DNS records"
+    ],
+    "x_mitre_version": "1.0",
+    "x_mitre_is_subtechnique": true,
+    "x_mitre_detection": "Detection for this technique is difficult because it would require knowledge of the specific implementation of the port calculation algorithm. Detection may be possible by analyzing DNS records if the algorithm is known.",
+    "x_mitre_platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
     ]
 }

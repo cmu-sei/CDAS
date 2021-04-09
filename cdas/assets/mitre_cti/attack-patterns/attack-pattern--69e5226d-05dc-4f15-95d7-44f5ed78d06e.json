@@ -1,8 +1,5 @@
 {
-    "id": "attack-pattern--69e5226d-05dc-4f15-95d7-44f5ed78d06e",
-    "name": "Web Portal Capture",
-    "description": "Adversaries may install code on externally facing portals, such as a VPN login page, to capture and transmit credentials of users who attempt to log into the service. For example, a compromised login page may log provided user credentials before logging the user in to the service.\n\nThis variation on input capture may be conducted post-compromise using legitimate administrative access as a backup measure to maintain network access through [External Remote Services](https://attack.mitre.org/techniques/T1133) and [Valid Accounts](https://attack.mitre.org/techniques/T1078) or as part of the initial compromise by exploitation of the externally facing web service.(Citation: Volexity Virtual Private Keylogging)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1056.003",
@@ -19,12 +16,12 @@
             "source_name": "Volexity Virtual Private Keylogging"
         }
     ],
-    "platforms": [
-        "Linux",
-        "macOS",
-        "Windows"
-    ],
-    "kill_chain": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Web Portal Capture",
+    "description": "Adversaries may install code on externally facing portals, such as a VPN login page, to capture and transmit credentials of users who attempt to log into the service. For example, a compromised login page may log provided user credentials before logging the user in to the service.\n\nThis variation on input capture may be conducted post-compromise using legitimate administrative access as a backup measure to maintain network access through [External Remote Services](https://attack.mitre.org/techniques/T1133) and [Valid Accounts](https://attack.mitre.org/techniques/T1078) or as part of the initial compromise by exploitation of the externally facing web service.(Citation: Volexity Virtual Private Keylogging)",
+    "id": "attack-pattern--69e5226d-05dc-4f15-95d7-44f5ed78d06e",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "collection"
@@ -33,5 +30,21 @@
             "kill_chain_name": "mitre-attack",
             "phase_name": "credential-access"
         }
+    ],
+    "modified": "2020-03-24T21:16:16.580Z",
+    "created": "2020-02-11T18:59:50.058Z",
+    "x_mitre_system_requirements": [
+        "An externally facing login portal is configured."
+    ],
+    "x_mitre_data_sources": [
+        "File monitoring"
+    ],
+    "x_mitre_detection": "File monitoring may be used to detect changes to files in the Web directory for organization login pages that do not match with authorized updates to the Web server's content.",
+    "x_mitre_version": "1.0",
+    "x_mitre_is_subtechnique": true,
+    "x_mitre_platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
     ]
 }

@@ -1,0 +1,17 @@
+{
+    "id": "course-of-action--1dcaeb21-9348-42ea-950a-f842aaf1ae1f",
+    "type": "course-of-action",
+    "created": "2019-06-11T16:30:16.672Z",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/mitigations/M1035",
+            "external_id": "M1035"
+        }
+    ],
+    "description": "Prevent access to file shares, remote access to systems, unnecessary services. Mechanisms to limit access may include use of network concentrators, RDP gateways, etc.",
+    "x_mitre_version": "1.0",
+    "modified": "2020-06-09T20:51:00.027Z",
+    "name": "Limit Access to Resource Over Network"
+}

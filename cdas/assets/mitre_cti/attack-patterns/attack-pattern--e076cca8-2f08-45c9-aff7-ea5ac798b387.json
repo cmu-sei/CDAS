@@ -1,0 +1,36 @@
+{
+    "type": "attack-pattern",
+    "name": "Standard Application Layer Protocol",
+    "description": "Adversaries may establish command and control capabilities over commonly used application layer protocols such as HTTP(S), OPC, RDP, telnet, DNP3, and modbus. These protocols may be used to disguise adversary actions as benign network traffic. Standard protocols may be seen on their associated port or in some cases over a non-standard port.\n\nAdversaries may use these protocols to reach out of the network for command and control, or in some cases to other infected devices within the network.\n\nData Sources: Process use of network, Malware reverse engineering, Process monitoring, Network protocol analysis, Packet capture",
+    "kill_chain_phases": [
+        {
+            "kill_chain_name": "mitre-ics-attack",
+            "phase_name": "command-and-control-ics"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Windows",
+        "Human-Machine Interface",
+        "Control Server",
+        "Data Historian",
+        "Engineering Workstation"
+    ],
+    "external_references": [
+        {
+            "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T869",
+            "source_name": "mitre-ics-attack",
+            "external_id": "T0869"
+        }
+    ],
+    "created": "2020-05-21T17:43:26.506Z",
+    "created_by_ref": "The MITRE Corporation",
+    "x_mitre_data_sources": [
+        "Process use of network",
+        "Malware reverse engineering",
+        "Process monitoring",
+        "Network protocol analysis",
+        "Packet capture"
+    ],
+    "modified": "2020-05-21T17:43:26.506Z",
+    "id": "attack-pattern--e076cca8-2f08-45c9-aff7-ea5ac798b387"
+}

@@ -1,19 +1,17 @@
 {
-    "id": "attack-pattern--2acf44aa-542f-4366-b4eb-55ef5747759c",
-    "name": "Cron",
-    "description": "Adversaries may abuse the <code>cron</code> utility to perform task scheduling for initial or recurring execution of malicious code. The <code>cron</code> utility is a time-based job scheduler for Unix-like operating systems.  The <code> crontab</code> file contains the schedule of cron entries to be run and the specified times for execution. Any <code>crontab</code> files are stored in operating system-specific file paths.\n\nAn adversary may use <code>cron</code> in Linux or Unix environments to execute programs at system startup or on a scheduled basis for persistence. <code>cron</code> can also be abused to conduct remote Execution as part of Lateral Movement and or to run a process under the context of a specified account.",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1053.003",
             "url": "https://attack.mitre.org/techniques/T1053/003"
         }
     ],
-    "platforms": [
-        "Linux",
-        "macOS"
-    ],
-    "kill_chain": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Cron",
+    "description": "Adversaries may abuse the <code>cron</code> utility to perform task scheduling for initial or recurring execution of malicious code. The <code>cron</code> utility is a time-based job scheduler for Unix-like operating systems.  The <code> crontab</code> file contains the schedule of cron entries to be run and the specified times for execution. Any <code>crontab</code> files are stored in operating system-specific file paths.\n\nAn adversary may use <code>cron</code> in Linux or Unix environments to execute programs at system startup or on a scheduled basis for persistence. <code>cron</code> can also be abused to conduct remote Execution as part of Lateral Movement and or to run a process under the context of a specified account.",
+    "id": "attack-pattern--2acf44aa-542f-4366-b4eb-55ef5747759c",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "execution"
@@ -27,7 +25,21 @@
             "phase_name": "privilege-escalation"
         }
     ],
-    "permissions": [
+    "modified": "2020-03-23T23:30:46.546Z",
+    "created": "2019-12-03T14:25:00.538Z",
+    "x_mitre_version": "1.0",
+    "x_mitre_is_subtechnique": true,
+    "x_mitre_remote_support": false,
+    "x_mitre_permissions_required": [
         "User"
+    ],
+    "x_mitre_detection": "Monitor scheduled task creation from common utilities using command-line invocation. Legitimate scheduled tasks may be created during installation of new software or through system administration functions. Look for changes to tasks that do not correlate with known software, patch cycles, etc.  \n\nSuspicious program execution through scheduled tasks may show up as outlier processes that have not been seen before when compared against historical data. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as network connections made for Command and Control, learning details about the environment through Discovery, and Lateral Movement. ",
+    "x_mitre_data_sources": [
+        "Process command-line parameters",
+        "Process monitoring"
+    ],
+    "x_mitre_platforms": [
+        "Linux",
+        "macOS"
     ]
 }

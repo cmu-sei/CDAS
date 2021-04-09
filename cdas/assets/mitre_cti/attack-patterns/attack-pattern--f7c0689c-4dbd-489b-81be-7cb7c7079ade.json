@@ -1,8 +1,5 @@
 {
-    "id": "attack-pattern--f7c0689c-4dbd-489b-81be-7cb7c7079ade",
-    "name": "Junk Data",
-    "description": "Adversaries may add junk data to protocols used for command and control to make detection more difficult. By adding random or meaningless data to the protocols used for command and control, adversaries can prevent trivial methods for decoding, deciphering, or otherwise analyzing the traffic. Examples may include appending/prepending data with junk characters or writing junk characters between significant characters. ",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1001.001",
@@ -14,15 +11,31 @@
             "source_name": "University of Birmingham C2"
         }
     ],
-    "platforms": [
-        "Linux",
-        "macOS",
-        "Windows"
-    ],
-    "kill_chain": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Junk Data",
+    "description": "Adversaries may add junk data to protocols used for command and control to make detection more difficult. By adding random or meaningless data to the protocols used for command and control, adversaries can prevent trivial methods for decoding, deciphering, or otherwise analyzing the traffic. Examples may include appending/prepending data with junk characters or writing junk characters between significant characters. ",
+    "id": "attack-pattern--f7c0689c-4dbd-489b-81be-7cb7c7079ade",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "command-and-control"
         }
+    ],
+    "modified": "2020-03-15T00:30:25.444Z",
+    "created": "2020-03-15T00:30:25.444Z",
+    "x_mitre_version": "1.0",
+    "x_mitre_is_subtechnique": true,
+    "x_mitre_detection": "Analyze network data for uncommon data flows (e.g., a client sending significantly more data than it receives from a server). Processes utilizing the network that do not normally have network communication or have never been seen before are suspicious. Analyze packet contents to detect communications that do not follow the expected protocol behavior for the port that is being used.(Citation: University of Birmingham C2)",
+    "x_mitre_data_sources": [
+        "Packet capture",
+        "Process use of network",
+        "Process monitoring",
+        "Network protocol analysis"
+    ],
+    "x_mitre_platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
     ]
 }

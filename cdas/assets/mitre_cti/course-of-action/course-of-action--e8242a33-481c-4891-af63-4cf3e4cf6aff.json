@@ -1,0 +1,17 @@
+{
+    "id": "course-of-action--e8242a33-481c-4891-af63-4cf3e4cf6aff",
+    "type": "course-of-action",
+    "created": "2019-06-11T17:00:01.740Z",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/mitigations/M1044",
+            "external_id": "M1044"
+        }
+    ],
+    "description": "Prevent abuse of library loading mechanisms in the operating system and software to load untrusted code by configuring appropriate library loading mechanisms and investigating potential vulnerable software.",
+    "x_mitre_version": "1.0",
+    "modified": "2019-06-11T17:00:01.740Z",
+    "name": "Restrict Library Loading"
+}

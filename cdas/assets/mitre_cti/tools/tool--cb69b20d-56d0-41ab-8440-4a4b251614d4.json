@@ -1,8 +1,9 @@
 {
     "id": "tool--cb69b20d-56d0-41ab-8440-4a4b251614d4",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Pupy",
     "description": "[Pupy](https://attack.mitre.org/software/S0192) is an open source, cross-platform (Windows, Linux, OSX, Android) remote administration and post-exploitation tool. (Citation: GitHub Pupy) It is written in Python and can be generated as a payload in several different ways (Windows exe, Python file, PowerShell oneliner/file, Linux elf, APK, Rubber Ducky, etc.). (Citation: GitHub Pupy) [Pupy](https://attack.mitre.org/software/S0192) is publicly available on GitHub. (Citation: GitHub Pupy)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "url": "https://attack.mitre.org/software/S0192",
@@ -14,13 +15,20 @@
             "url": "https://github.com/n1nj4sec/pupy"
         }
     ],
-    "aliases": [
-        "Pupy"
+    "type": "tool",
+    "labels": [
+        "tool"
     ],
-    "platforms": [
+    "modified": "2020-05-13T22:57:00.921Z",
+    "created": "2018-04-18T17:59:24.739Z",
+    "x_mitre_platforms": [
         "Linux",
         "Windows",
         "macOS",
         "Android"
-    ]
+    ],
+    "x_mitre_aliases": [
+        "Pupy"
+    ],
+    "x_mitre_version": "1.2"
 }

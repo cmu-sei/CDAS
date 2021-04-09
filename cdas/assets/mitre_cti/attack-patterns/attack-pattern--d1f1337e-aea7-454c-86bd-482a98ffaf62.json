@@ -1,8 +1,5 @@
 {
-    "id": "attack-pattern--d1f1337e-aea7-454c-86bd-482a98ffaf62",
-    "name": "Input Injection",
-    "description": "A malicious application can inject input to the user interface to mimic user interaction through the abuse of Android's accessibility APIs.\n\n[Input Injection](https://attack.mitre.org/techniques/T1516) can be achieved using any of the following methods:\n\n* Mimicking user clicks on the screen, for example to steal money from a user's PayPal account.(Citation: android-trojan-steals-paypal-2fa)\n* Injecting global actions, such as `GLOBAL_ACTION_BACK` (programatically mimicking a physical back button press), to trigger actions on behalf of the user.(Citation: Talos Gustuff Apr 2019)\n* Inserting input into text fields on behalf of the user. This method is used legitimately to auto-fill text fields by applications such as password managers.(Citation: bitwarden autofill logins)",
-    "references": [
+    "external_references": [
         {
             "url": "https://attack.mitre.org/techniques/T1516",
             "source_name": "mitre-mobile-attack",
@@ -24,10 +21,12 @@
             "source_name": "bitwarden autofill logins"
         }
     ],
-    "platforms": [
-        "Android"
-    ],
-    "kill_chain": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Input Injection",
+    "description": "A malicious application can inject input to the user interface to mimic user interaction through the abuse of Android's accessibility APIs.\n\n[Input Injection](https://attack.mitre.org/techniques/T1516) can be achieved using any of the following methods:\n\n* Mimicking user clicks on the screen, for example to steal money from a user's PayPal account.(Citation: android-trojan-steals-paypal-2fa)\n* Injecting global actions, such as `GLOBAL_ACTION_BACK` (programatically mimicking a physical back button press), to trigger actions on behalf of the user.(Citation: Talos Gustuff Apr 2019)\n* Inserting input into text fields on behalf of the user. This method is used legitimately to auto-fill text fields by applications such as password managers.(Citation: bitwarden autofill logins)",
+    "id": "attack-pattern--d1f1337e-aea7-454c-86bd-482a98ffaf62",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "defense-evasion"
@@ -36,5 +35,19 @@
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "impact"
         }
+    ],
+    "modified": "2020-06-24T15:02:13.323Z",
+    "created": "2019-09-15T15:26:22.356Z",
+    "x_mitre_is_subtechnique": false,
+    "x_mitre_version": "1.1",
+    "x_mitre_tactic_type": [
+        "Post-Adversary Device Access"
+    ],
+    "x_mitre_detection": "Users can view applications that have registered accessibility services in the accessibility menu within the device settings.",
+    "x_mitre_contributors": [
+        "Luk\u00e1\u0161 \u0160tefanko, ESET"
+    ],
+    "x_mitre_platforms": [
+        "Android"
     ]
 }

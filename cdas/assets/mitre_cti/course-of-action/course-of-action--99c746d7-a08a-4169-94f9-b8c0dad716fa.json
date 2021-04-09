@@ -1,0 +1,17 @@
+{
+    "id": "course-of-action--99c746d7-a08a-4169-94f9-b8c0dad716fa",
+    "type": "course-of-action",
+    "created": "2019-06-06T21:16:18.709Z",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
+        {
+            "source_name": "mitre-ics-attack",
+            "url": "https://collaborate.mitre.org/attackics/index.php/Mitigation/M0809",
+            "external_id": "M0809"
+        }
+    ],
+    "description": "Deploy mechanisms to protect the confidentiality of information related to operational processes, facility locations, device configurations, programs, or databases that may have information that can be used to infer organizational trade-secrets, recipes, and other intellectual property (IP). Example mitigations could include restricting read privileges, encrypting data, and obfuscating the information (e.g., facility coverterms, codenames). In many cases this information may be necessary to support critical engineering, maintenance, or operational functions, therefore, it may not be feasible to implement.",
+    "x_mitre_version": "1.0",
+    "modified": "2020-09-22T16:50:45.681Z",
+    "name": "Operational Information Confidentiality"
+}

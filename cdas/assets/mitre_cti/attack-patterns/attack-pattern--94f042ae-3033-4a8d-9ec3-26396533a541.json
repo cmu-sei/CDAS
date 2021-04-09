@@ -1,0 +1,30 @@
+{
+    "type": "attack-pattern",
+    "name": "Detect Program State",
+    "description": "Adversaries may seek to gather information about the current state of a program on a PLC. State information reveals information about the program, including whether it's running, halted, stopped, or has generated an exception. This information may be leveraged as a verification of malicious program execution or to determine if a PLC is ready to download a new program.\n\nData Sources: Network protocol analysis, Packet capture",
+    "kill_chain_phases": [
+        {
+            "kill_chain_name": "mitre-ics-attack",
+            "phase_name": "collection-ics"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Windows",
+        "Field Controller/RTU/PLC/IED"
+    ],
+    "external_references": [
+        {
+            "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T870",
+            "source_name": "mitre-ics-attack",
+            "external_id": "T0870"
+        }
+    ],
+    "created": "2020-05-21T17:43:26.506Z",
+    "created_by_ref": "The MITRE Corporation",
+    "x_mitre_data_sources": [
+        "Network protocol analysis",
+        "Packet capture"
+    ],
+    "modified": "2020-05-21T17:43:26.506Z",
+    "id": "attack-pattern--94f042ae-3033-4a8d-9ec3-26396533a541"
+}

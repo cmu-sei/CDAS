@@ -1,8 +1,18 @@
 {
+    "created": "2019-08-09T16:14:58.254Z",
+    "modified": "2019-09-12T18:33:15.023Z",
+    "kill_chain_phases": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "collection"
+        }
+    ],
+    "type": "attack-pattern",
     "id": "attack-pattern--d8940e76-f9c1-4912-bea6-e21c251370b6",
-    "name": "Capture Camera",
     "description": "Adversaries may utilize the camera to capture information about the user, their surroundings, or other physical identifiers. Adversaries may use the physical camera devices on a mobile device to capture images or video. By default, in Android and iOS, an application must request permission to access a camera device which is granted by the user through a request prompt. In Android, applications must hold the `android.permission.CAMERA` permission to access the camera. In iOS, applications must include the `NSCameraUsageDescription` key in the `Info.plist` file, and must request access to the camera at runtime.",
-    "references": [
+    "name": "Capture Camera",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
         {
             "external_id": "T1512",
             "source_name": "mitre-mobile-attack",
@@ -14,14 +24,13 @@
             "url": "https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-19.html"
         }
     ],
-    "platforms": [
+    "x_mitre_platforms": [
         "Android",
         "iOS"
     ],
-    "kill_chain": [
-        {
-            "kill_chain_name": "mitre-mobile-attack",
-            "phase_name": "collection"
-        }
-    ]
+    "x_mitre_tactic_type": [
+        "Post-Adversary Device Access"
+    ],
+    "x_mitre_version": "1.0",
+    "x_mitre_detection": "On Android and iOS, the user can view which applications have permission to use the camera through the device settings screen, and the user can choose to revoke the permissions."
 }

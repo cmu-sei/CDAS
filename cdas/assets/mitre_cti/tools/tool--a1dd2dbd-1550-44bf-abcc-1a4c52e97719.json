@@ -1,8 +1,9 @@
 {
     "id": "tool--a1dd2dbd-1550-44bf-abcc-1a4c52e97719",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Responder",
     "description": "Responder is an open source tool used for LLMNR, NBT-NS and MDNS poisoning, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2, Extended Security NTLMSSP and Basic HTTP authentication. (Citation: GitHub Responder)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "url": "https://attack.mitre.org/software/S0174",
@@ -14,10 +15,17 @@
             "url": "https://github.com/SpiderLabs/Responder"
         }
     ],
-    "aliases": [
+    "x_mitre_version": "1.0",
+    "x_mitre_aliases": [
         "Responder"
     ],
-    "platforms": [
+    "x_mitre_platforms": [
         "Windows"
-    ]
+    ],
+    "type": "tool",
+    "labels": [
+        "tool"
+    ],
+    "modified": "2018-10-17T00:14:20.652Z",
+    "created": "2018-01-16T16:13:52.465Z"
 }

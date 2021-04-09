@@ -1,8 +1,5 @@
 {
-    "id": "tool--5fc81b43-62b5-41b1-9113-c79ae5f030c4",
-    "name": "CARROTBALL",
-    "description": "[CARROTBALL](https://attack.mitre.org/software/S0465) is an FTP downloader utility that has been in use since at least 2019. [CARROTBALL](https://attack.mitre.org/software/S0465) has been used as a downloader to install [SYSCON](https://attack.mitre.org/software/S0464).(Citation: Unit 42 CARROTBAT January 2020)",
-    "references": [
+    "external_references": [
         {
             "external_id": "S0465",
             "source_name": "mitre-attack",
@@ -14,10 +11,21 @@
             "description": "McCabe, A. (2020, January 23). The Fractured Statue Campaign: U.S. Government Agency Targeted in Spear-Phishing Attacks. Retrieved June 2, 2020."
         }
     ],
-    "aliases": [
+    "created_by_ref": "The MITRE Corporation",
+    "description": "[CARROTBALL](https://attack.mitre.org/software/S0465) is an FTP downloader utility that has been in use since at least 2019. [CARROTBALL](https://attack.mitre.org/software/S0465) has been used as a downloader to install [SYSCON](https://attack.mitre.org/software/S0464).(Citation: Unit 42 CARROTBAT January 2020)",
+    "name": "CARROTBALL",
+    "id": "tool--5fc81b43-62b5-41b1-9113-c79ae5f030c4",
+    "type": "tool",
+    "labels": [
+        "tool"
+    ],
+    "modified": "2020-06-10T14:44:23.055Z",
+    "created": "2020-06-02T19:10:29.513Z",
+    "x_mitre_version": "1.0",
+    "x_mitre_aliases": [
         "CARROTBALL"
     ],
-    "platforms": [
+    "x_mitre_platforms": [
         "Windows"
     ]
 }

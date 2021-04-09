@@ -1,0 +1,18 @@
+{
+    "id": "course-of-action--e944670c-d03a-4e93-a21c-b3d4c53ec4c9",
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Caution with Device Administrator Access",
+    "description": "Warn device users not to accept requests to grant Device Administrator access to applications without good reason.\n\nAdditionally, application vetting should include a check on whether the application requests Device Administrator access. Applications that do request Device Administrator access should be carefully scrutinized and only allowed to be used if a valid reason exists.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/mitigations/M1007",
+            "external_id": "M1007"
+        }
+    ],
+    "x_mitre_version": "1.0",
+    "x_mitre_old_attack_id": "MOB-M1007",
+    "type": "course-of-action",
+    "modified": "2018-10-17T00:14:20.652Z",
+    "created": "2017-10-25T14:48:51.365Z"
+}

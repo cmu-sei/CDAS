@@ -1,8 +1,18 @@
 {
+    "created": "2020-03-11T14:17:21.153Z",
+    "modified": "2020-03-11T14:17:21.153Z",
+    "kill_chain_phases": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "initial-access"
+        }
+    ],
+    "type": "attack-pattern",
     "id": "attack-pattern--bd369cd9-abb8-41ce-b5bb-fff23ee86c00",
-    "name": "Compromise Software Supply Chain",
     "description": "Adversaries may manipulate application software prior to receipt by a final consumer for the purpose of data or system compromise. Supply chain compromise of software can take place in a number of ways, including manipulation of the application source code, manipulation of the update/distribution mechanism for that software, or replacing compiled releases with a modified version.\n\nTargeting may be specific to a desired victim set or may be distributed to a broad set of consumers but only move on to additional tactics on specific victims.(Citation: Avast CCleaner3 2018) (Citation: Command Five SK 2011)  ",
-    "references": [
+    "name": "Compromise Software Supply Chain",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1195.002",
@@ -19,15 +29,16 @@
             "source_name": "Command Five SK 2011"
         }
     ],
-    "platforms": [
+    "x_mitre_platforms": [
         "Linux",
         "macOS",
         "Windows"
     ],
-    "kill_chain": [
-        {
-            "kill_chain_name": "mitre-attack",
-            "phase_name": "initial-access"
-        }
-    ]
+    "x_mitre_data_sources": [
+        "File monitoring",
+        "Web proxy"
+    ],
+    "x_mitre_detection": "Use verification of distributed binaries through hash checking or other integrity checking mechanisms. Scan downloads for malicious signatures and attempt to test software and updates prior to deployment while taking note of potential suspicious activity. ",
+    "x_mitre_is_subtechnique": true,
+    "x_mitre_version": "1.0"
 }

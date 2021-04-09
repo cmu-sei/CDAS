@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--dca670cf-eeec-438f-8185-fd959d9ef211",
-    "name": "Rc.common",
     "description": "Adversaries may use rc.common automatically executed at boot initialization to establish persistence. During the boot process, macOS executes <code>source /etc/rc.common</code>, which is a shell script containing various utility functions. This file also defines routines for processing command-line arguments and for gathering system settings and is thus recommended to include in the start of Startup Item Scripts (Citation: Startup Items). In macOS and OS X, this is now a deprecated mechanism in favor of [Launch Agent](https://attack.mitre.org/techniques/T1543/001) and [Launch Daemon](https://attack.mitre.org/techniques/T1543/004) but is currently still used.\n\nAdversaries can use the rc.common file as a way to hide code for persistence that will execute on each reboot as the root user. (Citation: Methods of Mac Malware Persistence)",
-    "references": [
+    "name": "Rc.common",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1037.004",
@@ -19,10 +20,8 @@
             "source_name": "Methods of Mac Malware Persistence"
         }
     ],
-    "platforms": [
-        "macOS"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "persistence"
@@ -32,7 +31,19 @@
             "phase_name": "privilege-escalation"
         }
     ],
-    "permissions": [
+    "modified": "2020-03-24T23:46:20.433Z",
+    "created": "2020-01-15T16:25:22.260Z",
+    "x_mitre_platforms": [
+        "macOS"
+    ],
+    "x_mitre_data_sources": [
+        "Process monitoring",
+        "File monitoring"
+    ],
+    "x_mitre_detection": "The <code>/etc/rc.common</code> file can be monitored to detect changes from the company policy. Monitor process execution resulting from the rc.common script for unusual or unknown applications or behavior. ",
+    "x_mitre_permissions_required": [
         "root"
-    ]
+    ],
+    "x_mitre_is_subtechnique": true,
+    "x_mitre_version": "1.0"
 }

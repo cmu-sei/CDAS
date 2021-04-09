@@ -1,8 +1,5 @@
 {
-    "id": "attack-pattern--786f488c-cb1f-4602-89c5-86d982ee326b",
-    "name": "Evade Analysis Environment",
-    "description": "Malicious applications may attempt to detect their operating environment prior to fully executing their payloads. These checks are often used to ensure the application is not running within an analysis environment such as a sandbox used for application vetting, security research, or reverse engineering. \nAdversaries may use many different checks such as physical sensors, location, and system properties to fingerprint emulators and sandbox environments.(Citation: Talos Gustuff Apr 2019)(Citation: ThreatFabric Cerberus)(Citation: Xiao-ZergHelper)(Citation: Cyberscoop Evade Analysis January 2019) Adversaries may access `android.os.SystemProperties` via Java reflection to obtain specific system information.(Citation: Github Anti-emulator) Standard values such as phone number, IMEI, IMSI, device IDs, and device drivers may be checked against default signatures of common sandboxes.(Citation: Sophos Anti-emulation)\n",
-    "references": [
+    "external_references": [
         {
             "external_id": "T1523",
             "source_name": "mitre-mobile-attack",
@@ -39,11 +36,12 @@
             "description": "Chen Yu et al. . (2017, April 13). Android malware anti-emulation techniques. Retrieved October 2, 2019."
         }
     ],
-    "platforms": [
-        "Android",
-        "iOS"
-    ],
-    "kill_chain": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Evade Analysis Environment",
+    "description": "Malicious applications may attempt to detect their operating environment prior to fully executing their payloads. These checks are often used to ensure the application is not running within an analysis environment such as a sandbox used for application vetting, security research, or reverse engineering. \nAdversaries may use many different checks such as physical sensors, location, and system properties to fingerprint emulators and sandbox environments.(Citation: Talos Gustuff Apr 2019)(Citation: ThreatFabric Cerberus)(Citation: Xiao-ZergHelper)(Citation: Cyberscoop Evade Analysis January 2019) Adversaries may access `android.os.SystemProperties` via Java reflection to obtain specific system information.(Citation: Github Anti-emulator) Standard values such as phone number, IMEI, IMSI, device IDs, and device drivers may be checked against default signatures of common sandboxes.(Citation: Sophos Anti-emulation)\n",
+    "id": "attack-pattern--786f488c-cb1f-4602-89c5-86d982ee326b",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "defense-evasion"
@@ -52,5 +50,16 @@
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "discovery"
         }
+    ],
+    "modified": "2019-10-11T14:48:50.525Z",
+    "created": "2019-10-02T14:46:43.632Z",
+    "x_mitre_version": "1.0",
+    "x_mitre_tactic_type": [
+        "Post-Adversary Device Access"
+    ],
+    "x_mitre_detection": "Analysis Environment avoidance capabilities can be difficult to detect, and therefore enterprises may be better served focusing on detection at other stages of adversarial behavior.",
+    "x_mitre_platforms": [
+        "Android",
+        "iOS"
     ]
 }

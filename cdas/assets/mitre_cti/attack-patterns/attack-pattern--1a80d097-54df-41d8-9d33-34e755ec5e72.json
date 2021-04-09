@@ -1,8 +1,5 @@
 {
-    "id": "attack-pattern--1a80d097-54df-41d8-9d33-34e755ec5e72",
-    "name": "Securityd Memory",
-    "description": "An adversary may obtain root access (allowing them to read securityd\u2019s memory), then they can scan through memory to find the correct sequence of keys in relatively few tries to decrypt the user\u2019s logon keychain. This provides the adversary with all the plaintext passwords for users, WiFi, mail, browsers, certificates, secure notes, etc.(Citation: OS X Keychain) (Citation: OSX Keydnap malware)\n\nIn OS X prior to El Capitan, users with root access can read plaintext keychain passwords of logged-in users because Apple\u2019s keychain implementation allows these credentials to be cached so that users are not repeatedly prompted for passwords. (Citation: OS X Keychain) (Citation: External to DA, the OS X Way) Apple\u2019s securityd utility takes the user\u2019s logon password, encrypts it with PBKDF2, and stores this master key in memory. Apple also uses a set of keys and algorithms to encrypt the user\u2019s password, but once the master key is found, an attacker need only iterate over the other values to unlock the final password.(Citation: OS X Keychain)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1555.002",
@@ -24,17 +21,30 @@
             "source_name": "External to DA, the OS X Way"
         }
     ],
-    "platforms": [
-        "Linux",
-        "macOS"
-    ],
-    "kill_chain": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Securityd Memory",
+    "description": "An adversary may obtain root access (allowing them to read securityd\u2019s memory), then they can scan through memory to find the correct sequence of keys in relatively few tries to decrypt the user\u2019s logon keychain. This provides the adversary with all the plaintext passwords for users, WiFi, mail, browsers, certificates, secure notes, etc.(Citation: OS X Keychain) (Citation: OSX Keydnap malware)\n\nIn OS X prior to El Capitan, users with root access can read plaintext keychain passwords of logged-in users because Apple\u2019s keychain implementation allows these credentials to be cached so that users are not repeatedly prompted for passwords. (Citation: OS X Keychain) (Citation: External to DA, the OS X Way) Apple\u2019s securityd utility takes the user\u2019s logon password, encrypts it with PBKDF2, and stores this master key in memory. Apple also uses a set of keys and algorithms to encrypt the user\u2019s password, but once the master key is found, an attacker need only iterate over the other values to unlock the final password.(Citation: OS X Keychain)",
+    "id": "attack-pattern--1a80d097-54df-41d8-9d33-34e755ec5e72",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "credential-access"
         }
     ],
-    "permissions": [
+    "modified": "2020-02-17T13:16:53.850Z",
+    "created": "2020-02-12T18:56:31.051Z",
+    "x_mitre_data_sources": [
+        "Process monitoring"
+    ],
+    "x_mitre_permissions_required": [
         "root"
+    ],
+    "x_mitre_detection": "Monitor processes and command-line arguments for activity surrounded users searching for credentials or using automated tools to scan memory for passwords.",
+    "x_mitre_version": "1.0",
+    "x_mitre_is_subtechnique": true,
+    "x_mitre_platforms": [
+        "Linux",
+        "macOS"
     ]
 }

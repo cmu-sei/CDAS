@@ -1,22 +1,31 @@
 {
     "id": "attack-pattern--948a447c-d783-4ba0-8516-a64140fcacd5",
-    "name": "Uncommonly Used Port",
     "description": "Adversaries may use non-standard ports to exfiltrate information.",
-    "references": [
+    "name": "Uncommonly Used Port",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
         {
             "external_id": "T1509",
             "source_name": "mitre-mobile-attack",
             "url": "https://attack.mitre.org/techniques/T1509"
         }
     ],
-    "platforms": [
-        "Android",
-        "iOS"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "command-and-control"
         }
-    ]
+    ],
+    "modified": "2019-09-11T13:27:50.344Z",
+    "created": "2019-08-01T13:44:09.368Z",
+    "x_mitre_detection": "Detection would most likely be at the enterprise level, through packet and/or netflow inspection. Many properly configured firewalls may also naturally block command and control traffic over non-standard ports.",
+    "x_mitre_platforms": [
+        "Android",
+        "iOS"
+    ],
+    "x_mitre_tactic_type": [
+        "Post-Adversary Device Access"
+    ],
+    "x_mitre_version": "1.0"
 }

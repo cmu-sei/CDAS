@@ -1,8 +1,23 @@
 {
-    "id": "attack-pattern--351c0927-2fc1-4a2c-ad84-cbbee7eb8172",
-    "name": "Exploit OS Vulnerability",
-    "description": "A malicious app can exploit unpatched vulnerabilities in the operating system to obtain escalated privileges.",
-    "references": [
+    "created": "2017-10-25T14:48:29.405Z",
+    "modified": "2018-10-17T00:14:20.652Z",
+    "kill_chain_phases": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "privilege-escalation"
+        }
+    ],
+    "type": "attack-pattern",
+    "x_mitre_old_attack_id": "MOB-T1007",
+    "x_mitre_version": "1.0",
+    "x_mitre_tactic_type": [
+        "Post-Adversary Device Access"
+    ],
+    "x_mitre_platforms": [
+        "Android",
+        "iOS"
+    ],
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "url": "https://attack.mitre.org/techniques/T1404",
@@ -14,14 +29,8 @@
             "external_id": "APP-26"
         }
     ],
-    "platforms": [
-        "Android",
-        "iOS"
-    ],
-    "kill_chain": [
-        {
-            "kill_chain_name": "mitre-mobile-attack",
-            "phase_name": "privilege-escalation"
-        }
-    ]
+    "description": "A malicious app can exploit unpatched vulnerabilities in the operating system to obtain escalated privileges.",
+    "name": "Exploit OS Vulnerability",
+    "created_by_ref": "The MITRE Corporation",
+    "id": "attack-pattern--351c0927-2fc1-4a2c-ad84-cbbee7eb8172"
 }

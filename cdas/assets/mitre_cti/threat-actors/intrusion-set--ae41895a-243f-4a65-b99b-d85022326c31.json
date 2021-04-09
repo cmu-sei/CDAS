@@ -1,0 +1,48 @@
+{
+    "type": "intrusion-set",
+    "id": "intrusion-set--ae41895a-243f-4a65-b99b-d85022326c31",
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Dust Storm",
+    "description": "[Dust Storm] is a threat group that has targeted multiple industries in Japan, South Korea, the United States, Europe, and several Southeast Asian countries. (Citation: Cylance Dust Storm)",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/groups/G0031",
+            "external_id": "G0031"
+        },
+        {
+            "source_name": "Dust Storm",
+            "description": "(Citation: Cylance Dust Storm)"
+        },
+        {
+            "url": "https://www.cylance.com/content/dam/cylance/pdfs/reports/Op_Dust_Storm_Report.pdf",
+            "description": "Gross, J. (2016, February 23). Operation Dust Storm. Retrieved September 19, 2017.",
+            "source_name": "Cylance Dust Storm"
+        }
+    ],
+    "aliases": [
+        "Dust Storm"
+    ],
+    "modified": "2019-03-22T20:14:29.575Z",
+    "created": "2017-05-31T21:32:03.306Z",
+    "x_mitre_version": "1.0",
+    "attribution": "China",
+    "sophistication": "intermediate",
+    "actor_type": "nation-state",
+    "sectors": [
+        "energy",
+        "utilities"
+    ],
+    "target_locations": [
+        "Japan",
+        "United States",
+        "South Korea"
+    ],
+    "primary_motivation": [
+        "organizational gain"
+    ],
+    "goals": [
+        "steal intellectual property"
+    ],
+    "first_seen": "2010"
+}

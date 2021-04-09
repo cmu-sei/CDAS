@@ -1,8 +1,18 @@
 {
+    "created": "2019-08-08T18:34:14.178Z",
+    "modified": "2020-06-24T15:03:25.857Z",
+    "kill_chain_phases": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "collection"
+        }
+    ],
+    "type": "attack-pattern",
     "id": "attack-pattern--73c26732-6422-4081-8b63-6d0ae93d449e",
-    "name": "Screen Capture",
     "description": "Adversaries may use screen captures to collect information about applications running in the foreground, capture user data, credentials, or other sensitive information. Applications running in the background can capture screenshots or videos of another application running in the foreground by using the Android `MediaProjectionManager` (generally requires the device user to grant consent).(Citation: Fortinet screencap July 2019)(Citation: Android ScreenCap1 2019) Background applications can also use Android accessibility services to capture screen contents being displayed by a foreground application.(Citation: Lookout-Monokle) An adversary with root access or Android Debug Bridge (adb) access could call the Android `screencap` or `screenrecord` commands.(Citation: Android ScreenCap2 2019)(Citation: Trend Micro ScreenCap July 2015)",
-    "references": [
+    "name": "Screen Capture",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
         {
             "external_id": "T1513",
             "source_name": "mitre-mobile-attack",
@@ -39,13 +49,13 @@
             "description": "Zhang, V. (2015, July 21). Hacking Team RCSAndroid Spying Tool Listens to Calls; Roots Devices to Get In. Retrieved August 8, 2019."
         }
     ],
-    "platforms": [
+    "x_mitre_platforms": [
         "Android"
     ],
-    "kill_chain": [
-        {
-            "kill_chain_name": "mitre-mobile-attack",
-            "phase_name": "collection"
-        }
-    ]
+    "x_mitre_tactic_type": [
+        "Post-Adversary Device Access"
+    ],
+    "x_mitre_version": "1.1",
+    "x_mitre_detection": "The user can view a list of apps with accessibility service privileges in the device settings.",
+    "x_mitre_is_subtechnique": false
 }

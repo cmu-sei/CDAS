@@ -1,8 +1,9 @@
 {
     "id": "tool--c9703cd3-141c-43a0-a926-380082be5d04",
+    "created_by_ref": "The MITRE Corporation",
     "name": "schtasks",
     "description": "[schtasks](https://attack.mitre.org/software/S0111) is used to schedule execution of programs or scripts on a Windows system to run at a specific date and time. (Citation: TechNet Schtasks)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "url": "https://attack.mitre.org/software/S0111",
@@ -14,11 +15,18 @@
             "url": "https://technet.microsoft.com/en-us/library/bb490996.aspx"
         }
     ],
-    "aliases": [
+    "type": "tool",
+    "labels": [
+        "tool"
+    ],
+    "modified": "2020-03-31T12:42:36.620Z",
+    "created": "2017-05-31T21:33:07.218Z",
+    "x_mitre_platforms": [
+        "Windows"
+    ],
+    "x_mitre_aliases": [
         "schtasks",
         "schtasks.exe"
     ],
-    "platforms": [
-        "Windows"
-    ]
+    "x_mitre_version": "1.1"
 }

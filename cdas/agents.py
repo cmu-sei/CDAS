@@ -75,15 +75,20 @@ class ThreatActor():
         "req_attrs": ['id', 'name']}
     _pdf_headers = {
         'Description': {
+            'description': '', 'modified': 'Data last modified',
+            'first-seen': 'First seen',
             'sophistication': 'Sophistication', 'actor_type': 'Actor type',
-            'sectors': 'Targeted sectors', 'aliases': 'Aliases',
-            'first_seen': 'First seen',
+            'aliases': 'Aliases', 'sectors': 'Targeted sectors', 
+            'target_locations': 'Targeted locations',
             'primary_motivation': 'Primary motivation',
             'secondary_motivations': 'Secondary motivations',
             'goals': 'Goals', 'attribution': 'Attributed to the country of'},
         'Technical Appendix': {
             'tools': 'This actor has been known to use the following tools',
             'malware': 'Malware', 'ttps':'TTPs'
+        },
+        'References': {
+            'external_references': ''
         }
     }
 
@@ -299,7 +304,8 @@ class ThreatActor():
 
         ttp_names = []
         for t in ttps:
-            t_name, refs = ttp_fs.query(f"SELECT name,references WHERE id='{t}'")[0]
+            q = f"SELECT name,external_references WHERE id='{t}'"
+            t_name, refs = ttp_fs.query(q)[0]
             for ref in refs:
                 if ref['source_name'].startswith("mitre"):
                     t_name += " (Mitre Attack: "+ref['external_id']+ ')'

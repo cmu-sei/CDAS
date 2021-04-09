@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--c0dfe7b0-b873-4618-9ff8-53e31f70907f",
-    "name": "Startup Items",
     "description": "Adversaries may use startup items automatically executed at boot initialization to establish persistence. Startup items execute during the final phase of the boot process and contain shell scripts or other executable files along with configuration information used by the system to determine the execution order for all startup items. (Citation: Startup Items)\n\nThis is technically a deprecated technology (superseded by [Launch Daemon](https://attack.mitre.org/techniques/T1543/004)), and thus the appropriate folder, <code>/Library/StartupItems</code> isn\u2019t guaranteed to exist on the system by default, but does appear to exist by default on macOS Sierra. A startup item is a directory whose executable and configuration property list (plist), <code>StartupParameters.plist</code>, reside in the top-level directory. \n\nAn adversary can create the appropriate folders/files in the StartupItems directory to register their own persistence mechanism (Citation: Methods of Mac Malware Persistence). Additionally, since StartupItems run during the bootup phase of macOS, they will run as the elevated root user.",
-    "references": [
+    "name": "Startup Items",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1037.005",
@@ -19,10 +20,8 @@
             "source_name": "Methods of Mac Malware Persistence"
         }
     ],
-    "platforms": [
-        "macOS"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "persistence"
@@ -32,7 +31,19 @@
             "phase_name": "privilege-escalation"
         }
     ],
-    "permissions": [
+    "modified": "2020-03-24T23:47:39.124Z",
+    "created": "2020-01-15T18:00:33.603Z",
+    "x_mitre_platforms": [
+        "macOS"
+    ],
+    "x_mitre_data_sources": [
+        "File monitoring",
+        "Process monitoring"
+    ],
+    "x_mitre_detection": "The <code>/Library/StartupItems</code> folder can be monitored for changes. Similarly, the programs that are actually executed from this mechanism should be checked against a whitelist.\n\nMonitor processes that are executed during the bootup process to check for unusual or unknown applications and behavior.",
+    "x_mitre_permissions_required": [
         "Administrator"
-    ]
+    ],
+    "x_mitre_is_subtechnique": true,
+    "x_mitre_version": "1.0"
 }

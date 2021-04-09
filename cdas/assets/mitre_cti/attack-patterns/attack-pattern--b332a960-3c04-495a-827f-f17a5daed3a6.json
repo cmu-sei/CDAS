@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--b332a960-3c04-495a-827f-f17a5daed3a6",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Disguise Root/Jailbreak Indicators",
     "description": "An adversary could use knowledge of the techniques used by security software to evade detection(Citation: Brodie)(Citation: Tan). For example, some mobile security products perform compromised device detection by searching for particular artifacts such as an installed \"su\" binary, but that check could be evaded by naming the binary something else. Similarly, polymorphic code techniques could be used to evade signature-based detection(Citation: Rastogi).",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "url": "https://attack.mitre.org/techniques/T1408",
@@ -29,14 +30,22 @@
             "url": "http://pages.cs.wisc.edu/~vrastogi/static/papers/rcj13b.pdf"
         }
     ],
-    "platforms": [
-        "Android",
-        "iOS"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "defense-evasion"
         }
-    ]
+    ],
+    "modified": "2019-02-03T14:34:59.071Z",
+    "created": "2017-10-25T14:48:14.003Z",
+    "x_mitre_platforms": [
+        "Android",
+        "iOS"
+    ],
+    "x_mitre_tactic_type": [
+        "Post-Adversary Device Access"
+    ],
+    "x_mitre_version": "1.1",
+    "x_mitre_old_attack_id": "MOB-T1011"
 }

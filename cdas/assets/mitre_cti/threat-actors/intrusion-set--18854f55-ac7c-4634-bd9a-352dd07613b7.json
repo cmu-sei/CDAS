@@ -1,10 +1,32 @@
 {
-    "id": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
+        {
+            "url": "https://attack.mitre.org/groups/G0096",
+            "source_name": "mitre-attack",
+            "external_id": "G0096"
+        },
+        {
+            "source_name": "APT41",
+            "description": "(Citation: FireEye APT41 2019)"
+        },
+        {
+            "source_name": "FireEye APT41 Aug 2019",
+            "url": "https://content.fireeye.com/apt-41/rpt-apt41",
+            "description": "Fraser, N., et al. (2019, August 7). Double DragonAPT41, a dual espionage and cyber crime operation APT41. Retrieved September 23, 2019."
+        }
+    ],
     "name": "APT41",
-    "description": "[APT41](https://attack.mitre.org/groups/G0096) is a group that carries out Chinese state-sponsored espionage activity in addition to financially motivated activity. [APT41](https://attack.mitre.org/groups/G0096) has been active since as early as 2012. The group has been observed targeting healthcare, telecom, technology, and video game industries in 14 countries.(Citation: FireEye APT41 Aug 2019)",
+    "description": "[APT41] is a group that carries out Chinese state-sponsored espionage activity in addition to financially motivated activity. [APT41](https://attack.mitre.org/groups/G0096) has been active since as early as 2012. The group has been observed targeting healthcare, telecom, technology, and video game industries in 14 countries.(Citation: FireEye APT41 Aug 2019)",
+    "type": "intrusion-set",
+    "id": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
     "aliases": [
         "APT41"
     ],
+    "modified": "2020-06-24T00:51:25.764Z",
+    "created": "2019-09-23T13:43:36.945Z",
+    "x_mitre_version": "1.1",
+    "attribution": "China",
     "sophistication": "strategic",
     "actor_type": "nation-state",
     "sectors": [
@@ -15,7 +37,26 @@
         "entertainment",
         "utilities"
     ],
-    "primary_motivation": "ideology",
+    "target_locations": [
+        "France",
+        "Hong Kong",
+        "India",
+        "Italy",
+        "Japan",
+        "Burma",
+        "Netherlands",
+        "Singapore",
+        "South Korea",
+        "South Africa",
+        "Switzerland",
+        "Thailand",
+        "Turkey",
+        "United Kingdom",
+        "United States"
+    ],
+    "primary_motivation": [
+        "organizational gain"
+    ],
     "secondary_motivations": [
         "financial gain"
     ],
@@ -23,6 +64,5 @@
         "steal intellectual property",
         "obtain state secrets"
     ],
-    "attribution": "China",
-    "first_seen": "2012-01-01 00:00:00"
+    "first_seen": "2012"
 }

@@ -1,8 +1,5 @@
 {
-    "id": "attack-pattern--6151cbea-819b-455a-9fa6-99a1cc58797d",
-    "name": "Default Accounts",
-    "description": "Adversaries may obtain and abuse credentials of a default account as a means of gaining Initial Access, Persistence, Privilege Escalation, or Defense Evasion. Default accounts are those that are built-into an OS, such as the Guest or Administrator accounts on Windows systems or default factory/provider set accounts on other types of systems, software, or devices.(Citation: Microsoft Local Accounts Feb 2019)\n\nDefault accounts are not limited to client machines, rather also include accounts that are preset for equipment such as network devices and computer applications whether they are internal, open source, or commercial. Appliances that come preset with a username and password combination pose a serious threat to organizations that do not change it post installation, as they are easy targets for an adversary. Similarly, adversaries may also utilize publicly disclosed or stolen [Private Keys](https://attack.mitre.org/techniques/T1552/004) or credential materials to legitimately connect to remote environments via [Remote Services](https://attack.mitre.org/techniques/T1021).(Citation: Metasploit SSH Module)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1078.001",
@@ -24,18 +21,12 @@
             "description": "undefined. (n.d.). Retrieved April 12, 2019."
         }
     ],
-    "platforms": [
-        "Linux",
-        "macOS",
-        "Windows",
-        "AWS",
-        "GCP",
-        "Azure",
-        "Office 365",
-        "Azure AD",
-        "SaaS"
-    ],
-    "kill_chain": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Default Accounts",
+    "description": "Adversaries may obtain and abuse credentials of a default account as a means of gaining Initial Access, Persistence, Privilege Escalation, or Defense Evasion. Default accounts are those that are built-into an OS, such as the Guest or Administrator accounts on Windows systems or default factory/provider set accounts on other types of systems, software, or devices.(Citation: Microsoft Local Accounts Feb 2019)\n\nDefault accounts are not limited to client machines, rather also include accounts that are preset for equipment such as network devices and computer applications whether they are internal, open source, or commercial. Appliances that come preset with a username and password combination pose a serious threat to organizations that do not change it post installation, as they are easy targets for an adversary. Similarly, adversaries may also utilize publicly disclosed or stolen [Private Keys](https://attack.mitre.org/techniques/T1552/004) or credential materials to legitimately connect to remote environments via [Remote Services](https://attack.mitre.org/techniques/T1021).(Citation: Metasploit SSH Module)",
+    "id": "attack-pattern--6151cbea-819b-455a-9fa6-99a1cc58797d",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "defense-evasion"
@@ -53,8 +44,30 @@
             "phase_name": "initial-access"
         }
     ],
-    "permissions": [
+    "modified": "2020-09-16T19:41:43.491Z",
+    "created": "2020-03-13T20:15:31.974Z",
+    "x_mitre_version": "1.1",
+    "x_mitre_is_subtechnique": true,
+    "x_mitre_permissions_required": [
         "Administrator",
         "User"
+    ],
+    "x_mitre_detection": "Monitor whether default accounts have been activated or logged into. These audits should also include checks on any appliances and applications for default credentials or SSH keys, and if any are discovered, they should be updated immediately.",
+    "x_mitre_data_sources": [
+        "AWS CloudTrail logs",
+        "Stackdriver logs",
+        "Authentication logs",
+        "Process monitoring"
+    ],
+    "x_mitre_platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "AWS",
+        "GCP",
+        "Azure",
+        "Office 365",
+        "Azure AD",
+        "SaaS"
     ]
 }

@@ -1,8 +1,9 @@
 {
     "id": "tool--4fa49fc0-9162-4bdb-a37e-7aa3dcb6d38b",
+    "created_by_ref": "The MITRE Corporation",
     "name": "xCmd",
     "description": "[xCmd](https://attack.mitre.org/software/S0123) is an open source tool that is similar to [PsExec](https://attack.mitre.org/software/S0029) and allows the user to execute applications on remote systems. (Citation: xCmd)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "url": "https://attack.mitre.org/software/S0123",
@@ -14,10 +15,17 @@
             "url": "https://ashwinrayaprolu.wordpress.com/2011/04/12/xcmd-an-alternative-to-psexec/"
         }
     ],
-    "aliases": [
+    "x_mitre_version": "1.0",
+    "x_mitre_aliases": [
         "xCmd"
     ],
-    "platforms": [
+    "x_mitre_platforms": [
         "Windows"
-    ]
+    ],
+    "type": "tool",
+    "labels": [
+        "tool"
+    ],
+    "modified": "2018-10-17T00:14:20.652Z",
+    "created": "2017-05-31T21:33:11.941Z"
 }

@@ -1,8 +1,27 @@
 {
-    "id": "attack-pattern--b3c2e5de-0941-4b57-ba61-af029eb5517a",
-    "name": "Alternate Network Mediums",
-    "description": "Adversaries can communicate using cellular networks rather than enterprise Wi-Fi in order to bypass enterprise network monitoring systems. Adversaries may also communicate using other non-Internet Protocol mediums such as SMS, NFC, or Bluetooth to bypass network monitoring systems.",
-    "references": [
+    "created": "2017-10-25T14:48:27.307Z",
+    "modified": "2018-10-17T00:14:20.652Z",
+    "kill_chain_phases": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "command-and-control"
+        },
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "exfiltration"
+        }
+    ],
+    "type": "attack-pattern",
+    "x_mitre_old_attack_id": "MOB-T1041",
+    "x_mitre_version": "1.0",
+    "x_mitre_tactic_type": [
+        "Post-Adversary Device Access"
+    ],
+    "x_mitre_platforms": [
+        "Android",
+        "iOS"
+    ],
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "url": "https://attack.mitre.org/techniques/T1438",
@@ -14,18 +33,8 @@
             "external_id": "APP-30"
         }
     ],
-    "platforms": [
-        "Android",
-        "iOS"
-    ],
-    "kill_chain": [
-        {
-            "kill_chain_name": "mitre-mobile-attack",
-            "phase_name": "command-and-control"
-        },
-        {
-            "kill_chain_name": "mitre-mobile-attack",
-            "phase_name": "exfiltration"
-        }
-    ]
+    "description": "Adversaries can communicate using cellular networks rather than enterprise Wi-Fi in order to bypass enterprise network monitoring systems. Adversaries may also communicate using other non-Internet Protocol mediums such as SMS, NFC, or Bluetooth to bypass network monitoring systems.",
+    "name": "Alternate Network Mediums",
+    "created_by_ref": "The MITRE Corporation",
+    "id": "attack-pattern--b3c2e5de-0941-4b57-ba61-af029eb5517a"
 }

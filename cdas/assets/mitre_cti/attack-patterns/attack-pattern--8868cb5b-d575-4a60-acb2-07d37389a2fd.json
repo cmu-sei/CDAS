@@ -1,8 +1,5 @@
 {
-    "id": "attack-pattern--8868cb5b-d575-4a60-acb2-07d37389a2fd",
-    "name": "Port Knocking",
-    "description": "Adversaries may use port knocking to hide open ports used for persistence or command and control. To enable a port, an adversary sends a series of attempted connections to a predefined sequence of closed ports. After the sequence is completed, opening a port is often accomplished by the host based firewall, but could also be implemented by custom software.\n\nThis technique has been observed to both for the dynamic opening of a listening port as well as the initiating of a connection to a listening server on a different system.\n\nThe observation of the signal packets to trigger the communication can be conducted through different methods. One means, originally implemented by Cd00r (Citation: Hartrell cd00r 2002), is to use the libpcap libraries to sniff for the packets in question. Another method leverages raw sockets, which enables the malware to use ports that are already open for use by other programs.",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1205.001",
@@ -14,13 +11,12 @@
             "source_name": "Hartrell cd00r 2002"
         }
     ],
-    "platforms": [
-        "Linux",
-        "macOS",
-        "Windows",
-        "Network"
-    ],
-    "kill_chain": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Port Knocking",
+    "description": "Adversaries may use port knocking to hide open ports used for persistence or command and control. To enable a port, an adversary sends a series of attempted connections to a predefined sequence of closed ports. After the sequence is completed, opening a port is often accomplished by the host based firewall, but could also be implemented by custom software.\n\nThis technique has been observed to both for the dynamic opening of a listening port as well as the initiating of a connection to a listening server on a different system.\n\nThe observation of the signal packets to trigger the communication can be conducted through different methods. One means, originally implemented by Cd00r (Citation: Hartrell cd00r 2002), is to use the libpcap libraries to sniff for the packets in question. Another method leverages raw sockets, which enables the malware to use ports that are already open for use by other programs.",
+    "id": "attack-pattern--8868cb5b-d575-4a60-acb2-07d37389a2fd",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "defense-evasion"
@@ -34,7 +30,22 @@
             "phase_name": "command-and-control"
         }
     ],
-    "permissions": [
+    "modified": "2020-10-21T01:26:31.804Z",
+    "created": "2020-07-01T18:23:25.002Z",
+    "x_mitre_version": "1.1",
+    "x_mitre_is_subtechnique": true,
+    "x_mitre_permissions_required": [
         "User"
+    ],
+    "x_mitre_detection": "Record network packets sent to and from the system, looking for extraneous packets that do not belong to established flows.",
+    "x_mitre_data_sources": [
+        "Netflow/Enclave netflow",
+        "Packet capture"
+    ],
+    "x_mitre_platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Network"
     ]
 }

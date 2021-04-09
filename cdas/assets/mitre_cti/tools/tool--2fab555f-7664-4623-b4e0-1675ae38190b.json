@@ -1,8 +1,9 @@
 {
     "id": "tool--2fab555f-7664-4623-b4e0-1675ae38190b",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Lslsass",
     "description": "[Lslsass](https://attack.mitre.org/software/S0121) is a publicly-available tool that can dump active logon session password hashes from the lsass process. (Citation: Mandiant APT1)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "url": "https://attack.mitre.org/software/S0121",
@@ -14,10 +15,17 @@
             "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
         }
     ],
-    "aliases": [
+    "type": "tool",
+    "labels": [
+        "tool"
+    ],
+    "modified": "2020-03-30T16:59:48.036Z",
+    "created": "2017-05-31T21:33:10.962Z",
+    "x_mitre_platforms": [
+        "Windows"
+    ],
+    "x_mitre_aliases": [
         "Lslsass"
     ],
-    "platforms": [
-        "Windows"
-    ]
+    "x_mitre_version": "1.1"
 }

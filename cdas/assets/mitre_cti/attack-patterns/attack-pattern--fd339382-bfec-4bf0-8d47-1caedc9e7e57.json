@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--fd339382-bfec-4bf0-8d47-1caedc9e7e57",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Drive-by Compromise",
     "description": "As described by [Drive-by Compromise](https://attack.mitre.org/techniques/T1189), a drive-by compromise is when an adversary gains access to a system through a user visiting a website over the normal course of browsing. With this technique, the user's web browser is targeted for exploitation. For example, a website may contain malicious media content intended to exploit vulnerabilities in media parsers as demonstrated by the Android Stagefright vulnerability  (Citation: Zimperium-Stagefright).\n\n(This technique was formerly known as Malicious Web Content. It has been renamed to better align with ATT&CK for Enterprise.)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "url": "https://attack.mitre.org/techniques/T1456",
@@ -19,14 +20,22 @@
             "url": "https://blog.zimperium.com/experts-found-a-unicorn-in-the-heart-of-android/"
         }
     ],
-    "platforms": [
+    "x_mitre_platforms": [
         "Android",
         "iOS"
     ],
-    "kill_chain": [
+    "x_mitre_tactic_type": [
+        "Post-Adversary Device Access"
+    ],
+    "x_mitre_version": "1.0",
+    "x_mitre_old_attack_id": "MOB-T1059",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "initial-access"
         }
-    ]
+    ],
+    "modified": "2018-10-17T00:14:20.652Z",
+    "created": "2017-10-25T14:48:06.822Z"
 }

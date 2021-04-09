@@ -1,0 +1,18 @@
+{
+    "id": "course-of-action--649f7268-4c12-483b-ac84-4b7bca9fe2ee",
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Enterprise Policy",
+    "description": "An enterprise mobility management (EMM), also known as mobile device management (MDM), system can be used to provision policies to mobile devices to control aspects of their allowed behavior.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/mitigations/M1012",
+            "external_id": "M1012"
+        }
+    ],
+    "type": "course-of-action",
+    "modified": "2020-06-24T15:08:18.395Z",
+    "created": "2017-10-25T14:48:53.318Z",
+    "x_mitre_old_attack_id": "MOB-M1012",
+    "x_mitre_version": "1.0"
+}

@@ -1,8 +1,5 @@
 {
-    "id": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
-    "name": "Mimikatz",
-    "description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "url": "https://attack.mitre.org/software/S0002",
@@ -19,10 +16,24 @@
             "url": "https://adsecurity.org/?page_id=1821"
         }
     ],
-    "aliases": [
+    "description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
+    "name": "Mimikatz",
+    "created_by_ref": "The MITRE Corporation",
+    "id": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
+    "type": "tool",
+    "labels": [
+        "tool"
+    ],
+    "modified": "2020-03-30T17:04:12.674Z",
+    "created": "2017-05-31T21:32:11.544Z",
+    "x_mitre_version": "1.2",
+    "x_mitre_contributors": [
+        "Vincent Le Toux"
+    ],
+    "x_mitre_aliases": [
         "Mimikatz"
     ],
-    "platforms": [
+    "x_mitre_platforms": [
         "Windows"
     ]
 }

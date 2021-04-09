@@ -1,8 +1,5 @@
 {
-    "id": "attack-pattern--43881e51-ac74-445b-b4c6-f9f9e9bf23fe",
-    "name": "Port Monitors",
-    "description": "Adversaries may use port monitors to run an attacker supplied DLL during system boot for persistence or privilege escalation. A port monitor can be set through the <code>AddMonitor</code> API call to set a DLL to be loaded at startup. (Citation: AddMonitor) This DLL can be located in <code>C:\\Windows\\System32</code> and will be loaded by the print spooler service, spoolsv.exe, on boot. The spoolsv.exe process also runs under SYSTEM level permissions. (Citation: Bloxham) Alternatively, an arbitrary DLL can be loaded if permissions allow writing a fully-qualified pathname for that DLL to <code>HKLM\\SYSTEM\\CurrentControlSet\\Control\\Print\\Monitors</code>. \n\nThe Registry key contains entries for the following:\n\n* Local Port\n* Standard TCP/IP Port\n* USB Monitor\n* WSD Port\n\nAdversaries can use this technique to load malicious code at startup that will persist on system reboot and execute as SYSTEM.",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1547.010",
@@ -24,10 +21,12 @@
             "source_name": "TechNet Autoruns"
         }
     ],
-    "platforms": [
-        "Windows"
-    ],
-    "kill_chain": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Port Monitors",
+    "description": "Adversaries may use port monitors to run an attacker supplied DLL during system boot for persistence or privilege escalation. A port monitor can be set through the <code>AddMonitor</code> API call to set a DLL to be loaded at startup. (Citation: AddMonitor) This DLL can be located in <code>C:\\Windows\\System32</code> and will be loaded by the print spooler service, spoolsv.exe, on boot. The spoolsv.exe process also runs under SYSTEM level permissions. (Citation: Bloxham) Alternatively, an arbitrary DLL can be loaded if permissions allow writing a fully-qualified pathname for that DLL to <code>HKLM\\SYSTEM\\CurrentControlSet\\Control\\Print\\Monitors</code>. \n\nThe Registry key contains entries for the following:\n\n* Local Port\n* Standard TCP/IP Port\n* USB Monitor\n* WSD Port\n\nAdversaries can use this technique to load malicious code at startup that will persist on system reboot and execute as SYSTEM.",
+    "id": "attack-pattern--43881e51-ac74-445b-b4c6-f9f9e9bf23fe",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "persistence"
@@ -37,8 +36,30 @@
             "phase_name": "privilege-escalation"
         }
     ],
-    "permissions": [
+    "modified": "2020-01-24T19:46:27.750Z",
+    "created": "2020-01-24T19:46:27.750Z",
+    "x_mitre_version": "1.0",
+    "x_mitre_is_subtechnique": true,
+    "x_mitre_effective_permissions": [
+        "SYSTEM"
+    ],
+    "x_mitre_permissions_required": [
         "SYSTEM",
         "Administrator"
+    ],
+    "x_mitre_detection": "Monitor process API calls to <code>AddMonitor</code>.(Citation: AddMonitor) Monitor DLLs that are loaded by spoolsv.exe for DLLs that are abnormal. New DLLs written to the System32 directory that do not correlate with known good software or patching may be suspicious. \n\nMonitor Registry writes to <code>HKLM\\SYSTEM\\CurrentControlSet\\Control\\Print\\Monitors</code>. Run the Autoruns utility, which checks for this Registry key as a persistence mechanism (Citation: TechNet Autoruns)",
+    "x_mitre_data_sources": [
+        "File monitoring",
+        "API monitoring",
+        "DLL monitoring",
+        "Windows Registry",
+        "Process monitoring"
+    ],
+    "x_mitre_contributors": [
+        "Stefan Kanthak",
+        "Travis Smith, Tripwire"
+    ],
+    "x_mitre_platforms": [
+        "Windows"
     ]
 }

@@ -1,0 +1,17 @@
+{
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "M1055",
+            "url": "https://attack.mitre.org/mitigations/M1055"
+        }
+    ],
+    "name": "Do Not Mitigate",
+    "description": "This category is to associate techniques that mitigation might increase risk of compromise and therefore mitigation is not recommended.",
+    "id": "course-of-action--787fb64d-c87b-4ee5-a341-0ef17ec4c15c",
+    "type": "course-of-action",
+    "modified": "2019-07-23T14:44:24.727Z",
+    "created": "2019-07-19T14:58:42.715Z",
+    "x_mitre_version": "1.0"
+}

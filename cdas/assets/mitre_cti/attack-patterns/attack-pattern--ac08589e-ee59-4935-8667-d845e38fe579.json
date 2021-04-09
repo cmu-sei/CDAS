@@ -1,8 +1,18 @@
 {
+    "created": "2020-02-21T20:32:20.810Z",
+    "modified": "2020-03-29T21:52:43.151Z",
+    "kill_chain_phases": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "defense-evasion"
+        }
+    ],
+    "type": "attack-pattern",
     "id": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579",
-    "name": "Disable or Modify Tools",
     "description": "Adversaries may disable security tools to avoid possible detection of their tools and activities. This can take the form of killing security software or event logging processes, deleting Registry keys so that tools do not start at run time, or other methods to interfere with security tools scanning or reporting information.",
-    "references": [
+    "name": "Disable or Modify Tools",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1562.001",
@@ -14,19 +24,29 @@
             "url": "https://capec.mitre.org/data/definitions/578.html"
         }
     ],
-    "platforms": [
+    "x_mitre_platforms": [
         "Windows",
         "macOS",
         "Linux"
     ],
-    "kill_chain": [
-        {
-            "kill_chain_name": "mitre-attack",
-            "phase_name": "defense-evasion"
-        }
+    "x_mitre_data_sources": [
+        "Process command-line parameters",
+        "Windows Registry",
+        "Services",
+        "File monitoring"
     ],
-    "permissions": [
+    "x_mitre_detection": "Monitor processes and command-line arguments to see if security tools are killed or stop running. Monitor Registry edits for modifications to services and startup programs that correspond to security tools. Lack of log events may be suspicious.",
+    "x_mitre_defense_bypassed": [
+        "Anti-virus",
+        "Log analysis",
+        "Signature-based detection",
+        "Host intrusion prevention systems",
+        "File monitoring"
+    ],
+    "x_mitre_permissions_required": [
         "User",
         "Administrator"
-    ]
+    ],
+    "x_mitre_is_subtechnique": true,
+    "x_mitre_version": "1.0"
 }

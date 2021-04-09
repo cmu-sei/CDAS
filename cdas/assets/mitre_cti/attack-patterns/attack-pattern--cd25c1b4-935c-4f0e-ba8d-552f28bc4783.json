@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--cd25c1b4-935c-4f0e-ba8d-552f28bc4783",
-    "name": "Resource Hijacking",
     "description": "Adversaries may leverage the resources of co-opted systems in order to solve resource intensive problems which may impact system and/or hosted service availability. \n\nOne common purpose for Resource Hijacking is to validate transactions of cryptocurrency networks and earn virtual currency. Adversaries may consume enough system resources to negatively impact and/or cause affected machines to become unresponsive.(Citation: Kaspersky Lazarus Under The Hood Blog 2017) Servers and cloud-based(Citation: CloudSploit - Unused AWS Regions) systems are common targets because of the high potential for available resources, but user endpoint systems may also be compromised and used for Resource Hijacking and cryptocurrency mining.",
-    "references": [
+    "name": "Resource Hijacking",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
         {
             "url": "https://attack.mitre.org/techniques/T1496",
             "source_name": "mitre-attack",
@@ -19,7 +20,17 @@
             "source_name": "CloudSploit - Unused AWS Regions"
         }
     ],
-    "platforms": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "impact"
+        }
+    ],
+    "modified": "2020-07-14T19:29:17.574Z",
+    "created": "2019-04-17T14:50:05.682Z",
+    "x_mitre_is_subtechnique": false,
+    "x_mitre_platforms": [
         "Linux",
         "macOS",
         "Windows",
@@ -27,14 +38,22 @@
         "GCP",
         "Azure"
     ],
-    "kill_chain": [
-        {
-            "kill_chain_name": "mitre-attack",
-            "phase_name": "impact"
-        }
-    ],
-    "permissions": [
+    "x_mitre_permissions_required": [
         "User",
         "Administrator"
-    ]
+    ],
+    "x_mitre_impact_type": [
+        "Availability"
+    ],
+    "x_mitre_version": "1.1",
+    "x_mitre_data_sources": [
+        "Azure activity logs",
+        "Stackdriver logs",
+        "AWS CloudTrail logs",
+        "Process use of network",
+        "Process monitoring",
+        "Network protocol analysis",
+        "Network device logs"
+    ],
+    "x_mitre_detection": "Consider monitoring process resource usage to determine anomalous activity associated with malicious hijacking of computer resources such as CPU, memory, and graphics processing resources. Monitor for suspicious use of network resources associated with cryptocurrency mining software. Monitor for common cryptomining software process names and files on local systems that may indicate compromise and resource usage."
 }

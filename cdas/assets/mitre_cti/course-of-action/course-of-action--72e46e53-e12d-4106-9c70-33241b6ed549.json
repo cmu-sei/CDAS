@@ -1,0 +1,17 @@
+{
+    "id": "course-of-action--72e46e53-e12d-4106-9c70-33241b6ed549",
+    "type": "course-of-action",
+    "created": "2019-06-06T21:16:18.709Z",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
+        {
+            "source_name": "mitre-ics-attack",
+            "url": "https://pedias-s.mitre.org/attackics/index.php/Mitigation/M0813",
+            "external_id": "M0813"
+        }
+    ],
+    "description": "Require the authentication of devices and software processes where appropriate. Devices that connect remotely to other systems should require strong authentication to prevent spoofing of communications. Furthermore, software processes should also require authentication if accessing a local or remote API.",
+    "x_mitre_version": "1.0",
+    "modified": "2020-09-22T16:50:45.681Z",
+    "name": "Software Process and Device Authentication"
+}

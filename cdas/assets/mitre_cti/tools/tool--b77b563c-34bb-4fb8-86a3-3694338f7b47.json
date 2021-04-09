@@ -1,8 +1,9 @@
 {
     "id": "tool--b77b563c-34bb-4fb8-86a3-3694338f7b47",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Ping",
     "description": "[Ping](https://attack.mitre.org/software/S0097) is an operating system utility commonly used to troubleshoot and verify network connections. (Citation: TechNet Ping)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "url": "https://attack.mitre.org/software/S0097",
@@ -14,13 +15,20 @@
             "url": "https://technet.microsoft.com/en-us/library/bb490968.aspx"
         }
     ],
-    "aliases": [
+    "x_mitre_version": "1.0",
+    "x_mitre_aliases": [
         "ping.exe",
         "Ping"
     ],
-    "platforms": [
+    "x_mitre_platforms": [
         "Linux",
         "Windows",
         "macOS"
-    ]
+    ],
+    "type": "tool",
+    "labels": [
+        "tool"
+    ],
+    "modified": "2018-10-17T00:14:20.652Z",
+    "created": "2017-05-31T21:33:01.483Z"
 }

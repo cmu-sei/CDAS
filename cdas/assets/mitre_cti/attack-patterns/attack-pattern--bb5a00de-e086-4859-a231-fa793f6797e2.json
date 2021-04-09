@@ -1,8 +1,5 @@
 {
-    "id": "attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2",
-    "name": "Input Capture",
-    "description": "Adversaries may use methods of capturing user input to obtain credentials or collect information. During normal system usage, users often provide credentials to various different locations, such as login pages/portals or system dialog boxes. Input capture mechanisms may be transparent to the user (e.g. [Credential API Hooking](https://attack.mitre.org/techniques/T1056/004)) or rely on deceiving the user into providing input into what they believe to be a genuine service (e.g. [Web Portal Capture](https://attack.mitre.org/techniques/T1056/003)).",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1056",
@@ -19,13 +16,12 @@
             "source_name": "Adventures of a Keystroke"
         }
     ],
-    "platforms": [
-        "Linux",
-        "macOS",
-        "Windows",
-        "Network"
-    ],
-    "kill_chain": [
+    "description": "Adversaries may use methods of capturing user input to obtain credentials or collect information. During normal system usage, users often provide credentials to various different locations, such as login pages/portals or system dialog boxes. Input capture mechanisms may be transparent to the user (e.g. [Credential API Hooking](https://attack.mitre.org/techniques/T1056/004)) or rely on deceiving the user into providing input into what they believe to be a genuine service (e.g. [Web Portal Capture](https://attack.mitre.org/techniques/T1056/003)).",
+    "name": "Input Capture",
+    "created_by_ref": "The MITRE Corporation",
+    "id": "attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "collection"
@@ -35,10 +31,37 @@
             "phase_name": "credential-access"
         }
     ],
-    "permissions": [
+    "modified": "2020-10-21T01:31:35.760Z",
+    "created": "2017-05-31T21:30:48.323Z",
+    "x_mitre_version": "1.2",
+    "x_mitre_contributors": [
+        "John Lambert, Microsoft Threat Intelligence Center"
+    ],
+    "x_mitre_data_sources": [
+        "Windows Registry",
+        "Windows event logs",
+        "User interface",
+        "Process command-line parameters",
+        "Process monitoring",
+        "PowerShell logs",
+        "Loaded DLLs",
+        "Kernel drivers",
+        "DLL monitoring",
+        "Binary file metadata",
+        "API monitoring"
+    ],
+    "x_mitre_detection": "Detection may vary depending on how input is captured but may include monitoring for certain Windows API calls (e.g. `SetWindowsHook`, `GetKeyState`, and `GetAsyncKeyState`)(Citation: Adventures of a Keystroke), monitoring for malicious instances of [Command and Scripting Interpreter](https://attack.mitre.org/techniques/T1059), and ensuring no unauthorized drivers or kernel modules that could indicate keylogging or API hooking are present.",
+    "x_mitre_permissions_required": [
         "Administrator",
         "SYSTEM",
         "root",
         "User"
-    ]
+    ],
+    "x_mitre_platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Network"
+    ],
+    "x_mitre_is_subtechnique": false
 }

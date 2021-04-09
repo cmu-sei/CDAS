@@ -1,0 +1,35 @@
+{
+    "type": "attack-pattern",
+    "name": "Network Connection Enumeration",
+    "description": "Adversaries may perform network connection enumeration to discover information about device communication patterns. If an adversary can inspect the state of a network connection with tools, such as [https://en.wikipedia.org/wiki/Netstat netstat], in conjunction with <span class=\"smw-format list-format \"><span class=\"smw-row\"><span class=\"smw-field\"><span class=\"smw-value\">System Firmware</span></span></span></span>, then they can determine the role of certain devices on the network  (Citation: EAttack System Network Connections Discovery). The adversary can also use <span class=\"smw-format list-format \"><span class=\"smw-row\"><span class=\"smw-field\"><span class=\"smw-value\">Network Sniffing</span></span></span></span> to watch network traffic for details about the source, destination, protocol, and content.\n\nData Sources: Process monitoring, API monitoring",
+    "kill_chain_phases": [
+        {
+            "kill_chain_name": "mitre-ics-attack",
+            "phase_name": "discovery-ics"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Windows",
+        "Human-Machine Interface"
+    ],
+    "external_references": [
+        {
+            "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T840",
+            "source_name": "mitre-ics-attack",
+            "external_id": "T0840"
+        },
+        {
+            "description": "MITRE. (n.d.). System Network Connections Discovery. Retrieved May 31, 2018.",
+            "source_name": "EAttack System Network Connections Discovery",
+            "url": "https://attack.mitre.org/wiki/Technique/T1049"
+        }
+    ],
+    "created": "2020-05-21T17:43:26.506Z",
+    "created_by_ref": "The MITRE Corporation",
+    "x_mitre_data_sources": [
+        "Process monitoring",
+        "API monitoring"
+    ],
+    "modified": "2020-05-21T17:43:26.506Z",
+    "id": "attack-pattern--ea0c980c-5cf0-43a7-a049-59c4c207566e"
+}

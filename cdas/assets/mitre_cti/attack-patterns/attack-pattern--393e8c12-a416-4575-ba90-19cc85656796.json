@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--393e8c12-a416-4575-ba90-19cc85656796",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Eavesdrop on Insecure Network Communication",
     "description": "If network traffic between the mobile device and remote servers is unencrypted or is encrypted in an insecure manner, then an adversary positioned on the network can eavesdrop on communication.(Citation: mHealth)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "url": "https://attack.mitre.org/techniques/T1439",
@@ -24,14 +25,22 @@
             "url": "https://experts.illinois.edu/en/publications/security-concerns-in-android-mhealth-apps"
         }
     ],
-    "platforms": [
-        "Android",
-        "iOS"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "network-effects"
         }
-    ]
+    ],
+    "modified": "2019-02-03T14:54:29.631Z",
+    "created": "2017-10-25T14:48:26.104Z",
+    "x_mitre_platforms": [
+        "Android",
+        "iOS"
+    ],
+    "x_mitre_tactic_type": [
+        "Without Adversary Device Access"
+    ],
+    "x_mitre_version": "1.1",
+    "x_mitre_old_attack_id": "MOB-T1042"
 }

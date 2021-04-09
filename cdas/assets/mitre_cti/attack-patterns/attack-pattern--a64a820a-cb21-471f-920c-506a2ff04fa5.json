@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--a64a820a-cb21-471f-920c-506a2ff04fa5",
+    "created_by_ref": "The MITRE Corporation",
     "name": "SIM Card Swap",
     "description": "An adversary could convince the mobile network operator (e.g. through social networking, forged identification, or insider attacks performed by trusted employees) to issue a new SIM card and associate it with an existing phone number and account (Citation: NYGov-Simswap) (Citation: Motherboard-Simswap2). The adversary could then obtain SMS messages or hijack phone calls intended for someone else (Citation: Betanews-Simswap). \n\nOne use case is intercepting authentication messages or phone calls to obtain illicit access to online banking or other online accounts, as many online services allow account password resets by sending an authentication code over SMS to a phone number associated with the account (Citation: Guardian-Simswap) (Citation: Motherboard-Simswap1)(Citation: Krebs-SimSwap)(Citation: TechCrunch-SimSwap).",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "url": "https://attack.mitre.org/techniques/T1451",
@@ -49,14 +50,22 @@
             "source_name": "TechCrunch-SimSwap"
         }
     ],
-    "platforms": [
-        "Android",
-        "iOS"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "network-effects"
         }
-    ]
+    ],
+    "modified": "2019-02-03T14:13:24.168Z",
+    "created": "2017-10-25T14:48:20.329Z",
+    "x_mitre_platforms": [
+        "Android",
+        "iOS"
+    ],
+    "x_mitre_tactic_type": [
+        "Without Adversary Device Access"
+    ],
+    "x_mitre_version": "1.1",
+    "x_mitre_old_attack_id": "MOB-T1054"
 }

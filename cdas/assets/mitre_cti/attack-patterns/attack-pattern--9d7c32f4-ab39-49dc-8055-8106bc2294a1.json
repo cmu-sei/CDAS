@@ -1,8 +1,18 @@
 {
-    "id": "attack-pattern--9d7c32f4-ab39-49dc-8055-8106bc2294a1",
-    "name": "Device Lockout",
-    "description": "An adversary may seek to lock the legitimate user out of the device, for example to inhibit user interaction or to obtain a ransom payment.\n\nOn Android versions prior to 7, apps can abuse Device Administrator access to reset the device lock passcode to prevent the user from unlocking the device. After Android 7, only device or profile owners (e.g. MDMs) can reset the device\u2019s passcode.(Citation: Android resetPassword)\n\nOn iOS devices, this technique does not work because mobile device management servers can only remove the screen lock passcode, they cannot set a new passcode. However, on jailbroken devices, malware has been discovered that can lock the user out of the device.(Citation: Xiao-KeyRaider)",
-    "references": [
+    "created": "2017-10-25T14:48:17.886Z",
+    "modified": "2019-10-09T14:39:38.930Z",
+    "kill_chain_phases": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "impact"
+        },
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "defense-evasion"
+        }
+    ],
+    "type": "attack-pattern",
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "url": "https://attack.mitre.org/techniques/T1446",
@@ -24,18 +34,18 @@
             "source_name": "Xiao-KeyRaider"
         }
     ],
-    "platforms": [
+    "description": "An adversary may seek to lock the legitimate user out of the device, for example to inhibit user interaction or to obtain a ransom payment.\n\nOn Android versions prior to 7, apps can abuse Device Administrator access to reset the device lock passcode to prevent the user from unlocking the device. After Android 7, only device or profile owners (e.g. MDMs) can reset the device\u2019s passcode.(Citation: Android resetPassword)\n\nOn iOS devices, this technique does not work because mobile device management servers can only remove the screen lock passcode, they cannot set a new passcode. However, on jailbroken devices, malware has been discovered that can lock the user out of the device.(Citation: Xiao-KeyRaider)",
+    "name": "Device Lockout",
+    "created_by_ref": "The MITRE Corporation",
+    "id": "attack-pattern--9d7c32f4-ab39-49dc-8055-8106bc2294a1",
+    "x_mitre_platforms": [
         "Android",
         "iOS"
     ],
-    "kill_chain": [
-        {
-            "kill_chain_name": "mitre-mobile-attack",
-            "phase_name": "impact"
-        },
-        {
-            "kill_chain_name": "mitre-mobile-attack",
-            "phase_name": "defense-evasion"
-        }
-    ]
+    "x_mitre_tactic_type": [
+        "Post-Adversary Device Access"
+    ],
+    "x_mitre_version": "2.0",
+    "x_mitre_old_attack_id": "MOB-T1049",
+    "x_mitre_detection": "On Android, users can review which applications have device administrator access in the device settings, and revoke permission where appropriate."
 }

@@ -1,8 +1,9 @@
 {
     "id": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
+    "created_by_ref": "The MITRE Corporation",
     "name": "PowerSploit",
     "description": "[PowerSploit](https://attack.mitre.org/software/S0194) is an open source, offensive security framework comprised of [PowerShell](https://attack.mitre.org/techniques/T1086) modules and scripts that perform a wide range of tasks related to penetration testing such as code execution, persistence, bypassing anti-virus, recon, and exfiltration. (Citation: GitHub PowerSploit May 2012) (Citation: PowerShellMagazine PowerSploit July 2014) (Citation: PowerSploit Documentation)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "url": "https://attack.mitre.org/software/S0194",
@@ -24,10 +25,17 @@
             "source_name": "PowerSploit Documentation"
         }
     ],
-    "aliases": [
+    "type": "tool",
+    "labels": [
+        "tool"
+    ],
+    "modified": "2020-03-28T21:37:30.172Z",
+    "created": "2018-04-18T17:59:24.739Z",
+    "x_mitre_platforms": [
+        "Windows"
+    ],
+    "x_mitre_aliases": [
         "PowerSploit"
     ],
-    "platforms": [
-        "Windows"
-    ]
+    "x_mitre_version": "1.2"
 }

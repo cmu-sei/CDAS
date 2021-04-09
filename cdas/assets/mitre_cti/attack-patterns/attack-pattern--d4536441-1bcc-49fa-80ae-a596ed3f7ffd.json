@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--d4536441-1bcc-49fa-80ae-a596ed3f7ffd",
+    "created_by_ref": "The MITRE Corporation",
     "name": "System Network Configuration Discovery",
     "description": "On Android, details of onboard network interfaces are accessible to apps through the `java.net.NetworkInterface` class.(Citation: NetworkInterface) The Android `TelephonyManager` class can be used to gather related information such as the IMSI, IMEI, and phone number.(Citation: TelephonyManager)\n\nOn iOS, gathering network configuration information is not possible without root access.",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "external_id": "T1422",
@@ -19,14 +20,23 @@
             "source_name": "TelephonyManager"
         }
     ],
-    "platforms": [
-        "Android",
-        "iOS"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "discovery"
         }
+    ],
+    "modified": "2020-06-02T14:35:01.479Z",
+    "created": "2017-10-25T14:48:32.740Z",
+    "x_mitre_is_subtechnique": false,
+    "x_mitre_old_attack_id": "MOB-T1025",
+    "x_mitre_version": "2.1",
+    "x_mitre_tactic_type": [
+        "Post-Adversary Device Access"
+    ],
+    "x_mitre_platforms": [
+        "Android",
+        "iOS"
     ]
 }

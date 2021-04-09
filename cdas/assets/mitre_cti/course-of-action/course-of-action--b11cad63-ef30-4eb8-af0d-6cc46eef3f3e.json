@@ -1,0 +1,27 @@
+{
+    "id": "course-of-action--b11cad63-ef30-4eb8-af0d-6cc46eef3f3e",
+    "type": "course-of-action",
+    "created": "2019-06-06T21:16:18.709Z",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
+        {
+            "source_name": "mitre-ics-attack",
+            "url": "https://collaborate.mitre.org/attackics/index.php/Mitigation/M0810",
+            "external_id": "M0810"
+        },
+        {
+            "description": "National Institute of Standards and Technology. (2013, April). Security and Privacy Controls for Federal Information Systems and Organizations. Retrieved September 17, 2020.",
+            "source_name": "NIST Apr 2013",
+            "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf"
+        },
+        {
+            "description": "Defense Advanced Research Projects Agency. (n.d.). Rapid Attack Detection, Isolation and Characterization Systems (RADICS). Retrieved September 17, 2020.",
+            "source_name": "DARPA",
+            "url": "https://www.darpa.mil/program/rapid-attack-detection-isolation-and-characterization-systems"
+        }
+    ],
+    "description": "Provide operators with redundant, out-of-band communication to support monitoring and control of the operational processes, especially when recovering from a network outage. (Citation: NIST Apr 2013)(Citation: DARPA) Out-of-band communication should utilize diverse systems and technologies to minimize common failure modes and vulnerabilities within the communications infrastructure. For example, wireless networks (e.g., 3G, 4G) can be used to provide diverse and redundant delivery of data.",
+    "x_mitre_version": "1.0",
+    "modified": "2020-09-22T16:50:45.681Z",
+    "name": "Out-of-Band Communications Channel"
+}

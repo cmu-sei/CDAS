@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--cc7b8c4e-9be0-47ca-b0bb-83915ec3ee2f",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Data Encoding",
     "description": "Adversaries may encode data to make the content of command and control traffic more difficult to detect. Command and control (C2) information can be encoded using a standard data encoding system. Use of data encoding may adhere to existing protocol specifications and includes use of ASCII, Unicode, Base64, MIME, or other binary-to-text and character encoding systems.(Citation: Wikipedia Binary-to-text Encoding) (Citation: Wikipedia Character Encoding) Some data encoding systems may also result in data compression, such as gzip.",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1132",
@@ -24,18 +25,34 @@
             "source_name": "University of Birmingham C2"
         }
     ],
-    "platforms": [
-        "Linux",
-        "macOS",
-        "Windows"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "command-and-control"
         }
     ],
-    "permissions": [
+    "modified": "2020-03-14T23:39:50.338Z",
+    "created": "2017-05-31T21:31:43.540Z",
+    "x_mitre_is_subtechnique": false,
+    "x_mitre_platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+    ],
+    "x_mitre_permissions_required": [
         "User"
-    ]
+    ],
+    "x_mitre_network_requirements": true,
+    "x_mitre_data_sources": [
+        "Packet capture",
+        "Process use of network",
+        "Process monitoring",
+        "Network protocol analysis"
+    ],
+    "x_mitre_detection": "Analyze network data for uncommon data flows (e.g., a client sending significantly more data than it receives from a server). Processes utilizing the network that do not normally have network communication or have never been seen before are suspicious. Analyze packet contents to detect communications that do not follow the expected protocol behavior for the port that is being used. (Citation: University of Birmingham C2)",
+    "x_mitre_contributors": [
+        "Itzik Kotler, SafeBreach"
+    ],
+    "x_mitre_version": "1.1"
 }

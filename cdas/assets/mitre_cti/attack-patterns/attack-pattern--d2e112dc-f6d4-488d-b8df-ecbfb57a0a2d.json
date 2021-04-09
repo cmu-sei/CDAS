@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--d2e112dc-f6d4-488d-b8df-ecbfb57a0a2d",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Jamming or Denial of Service",
     "description": "An attacker could jam radio signals (e.g. Wi-Fi, cellular, GPS) to prevent the mobile device from communicating. (Citation: NIST-SP800187)(Citation: CNET-Celljammer)(Citation: NYTimes-Celljam)(Citation: Digitaltrends-Celljam)(Citation: Arstechnica-Celljam)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "url": "https://attack.mitre.org/techniques/T1464",
@@ -54,14 +55,22 @@
             "source_name": "Arstechnica-Celljam"
         }
     ],
-    "platforms": [
-        "Android",
-        "iOS"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "network-effects"
         }
-    ]
+    ],
+    "modified": "2019-02-03T14:15:21.946Z",
+    "created": "2017-10-25T14:48:25.740Z",
+    "x_mitre_platforms": [
+        "Android",
+        "iOS"
+    ],
+    "x_mitre_tactic_type": [
+        "Without Adversary Device Access"
+    ],
+    "x_mitre_version": "1.1",
+    "x_mitre_old_attack_id": "MOB-T1067"
 }

@@ -1,0 +1,17 @@
+{
+    "created": "2019-06-11T16:40:14.543Z",
+    "modified": "2019-06-11T16:40:14.543Z",
+    "type": "course-of-action",
+    "id": "course-of-action--609191bf-7d06-40e4-b1f8-9e11eb3ff8a6",
+    "description": "Prevent modification of environment variables by unauthorized users and groups.",
+    "name": "Environment Variable Permissions",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "M1039",
+            "url": "https://attack.mitre.org/mitigations/M1039"
+        }
+    ],
+    "created_by_ref": "The MITRE Corporation",
+    "x_mitre_version": "1.0"
+}

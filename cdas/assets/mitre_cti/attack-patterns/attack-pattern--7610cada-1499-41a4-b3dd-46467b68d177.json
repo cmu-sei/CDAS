@@ -1,8 +1,18 @@
 {
+    "created": "2020-01-28T14:05:17.825Z",
+    "modified": "2020-03-23T18:12:36.696Z",
+    "kill_chain_phases": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "persistence"
+        }
+    ],
+    "type": "attack-pattern",
     "id": "attack-pattern--7610cada-1499-41a4-b3dd-46467b68d177",
-    "name": "Domain Account",
     "description": "Adversaries may create a domain account to maintain access to victim systems. Domain accounts are those managed by Active Directory Domain Services where access and permissions are configured across systems and services that are part of that domain. Domain accounts can cover user, administrator, and service accounts. With a sufficient level of access, the <code>net user /add /domain</code> command can be used to create a domain account.\n\nSuch accounts may be used to establish secondary credentialed access that do not require persistent remote access tools to be deployed on the system.",
-    "references": [
+    "name": "Domain Account",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1136.002",
@@ -14,18 +24,21 @@
             "url": "https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4720"
         }
     ],
-    "platforms": [
+    "x_mitre_platforms": [
         "Windows",
         "macOS",
         "Linux"
     ],
-    "kill_chain": [
-        {
-            "kill_chain_name": "mitre-attack",
-            "phase_name": "persistence"
-        }
+    "x_mitre_data_sources": [
+        "Process monitoring",
+        "Process command-line parameters",
+        "Authentication logs",
+        "Windows event logs"
     ],
-    "permissions": [
+    "x_mitre_detection": "Monitor for processes and command-line parameters associated with domain account creation, such as <code>net user /add /domain</code>. Collect data on account creation within a network. Event ID 4720 is generated when a user account is created on a Windows domain controller. (Citation: Microsoft User Creation Event) Perform regular audits of domain accounts to detect suspicious accounts that may have been created by an adversary.",
+    "x_mitre_permissions_required": [
         "Administrator"
-    ]
+    ],
+    "x_mitre_is_subtechnique": true,
+    "x_mitre_version": "1.0"
 }

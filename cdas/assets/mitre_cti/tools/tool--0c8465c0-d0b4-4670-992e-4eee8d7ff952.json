@@ -1,8 +1,9 @@
 {
     "id": "tool--0c8465c0-d0b4-4670-992e-4eee8d7ff952",
+    "created_by_ref": "The MITRE Corporation",
     "name": "at",
     "description": "[at](https://attack.mitre.org/software/S0110) is used to schedule tasks on a system to run at a specified date or time. (Citation: TechNet At)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "url": "https://attack.mitre.org/software/S0110",
@@ -14,13 +15,20 @@
             "url": "https://technet.microsoft.com/en-us/library/bb490866.aspx"
         }
     ],
-    "aliases": [
-        "at",
-        "at.exe"
+    "type": "tool",
+    "labels": [
+        "tool"
     ],
-    "platforms": [
+    "modified": "2020-03-30T18:34:22.227Z",
+    "created": "2017-05-31T21:33:06.824Z",
+    "x_mitre_platforms": [
         "Linux",
         "Windows",
         "macOS"
-    ]
+    ],
+    "x_mitre_aliases": [
+        "at",
+        "at.exe"
+    ],
+    "x_mitre_version": "1.1"
 }

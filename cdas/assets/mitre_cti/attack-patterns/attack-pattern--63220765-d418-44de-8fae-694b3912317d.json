@@ -1,8 +1,5 @@
 {
-    "id": "attack-pattern--63220765-d418-44de-8fae-694b3912317d",
-    "name": "Trap",
-    "description": "Adversaries may establish persistence by executing malicious content triggered by an interrupt signal. The <code>trap</code> command allows programs and shells to specify commands that will be executed upon receiving interrupt signals. A common situation is a script allowing for graceful termination and handling of common keyboard interrupts like <code>ctrl+c</code> and <code>ctrl+d</code>.\n\nAdversaries can use this to register code to be executed when the shell encounters specific interrupts as a persistence mechanism. Trap commands are of the following format <code>trap 'command list' signals</code> where \"command list\" will be executed when \"signals\" are received.(Citation: Trap Manual)(Citation: Cyberciti Trap Statements)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1546.005",
@@ -19,11 +16,12 @@
             "description": "Cyberciti. (2016, March 29). Trap statement. Retrieved May 21, 2019."
         }
     ],
-    "platforms": [
-        "macOS",
-        "Linux"
-    ],
-    "kill_chain": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Trap",
+    "description": "Adversaries may establish persistence by executing malicious content triggered by an interrupt signal. The <code>trap</code> command allows programs and shells to specify commands that will be executed upon receiving interrupt signals. A common situation is a script allowing for graceful termination and handling of common keyboard interrupts like <code>ctrl+c</code> and <code>ctrl+d</code>.\n\nAdversaries can use this to register code to be executed when the shell encounters specific interrupts as a persistence mechanism. Trap commands are of the following format <code>trap 'command list' signals</code> where \"command list\" will be executed when \"signals\" are received.(Citation: Trap Manual)(Citation: Cyberciti Trap Statements)",
+    "id": "attack-pattern--63220765-d418-44de-8fae-694b3912317d",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "privilege-escalation"
@@ -33,8 +31,22 @@
             "phase_name": "persistence"
         }
     ],
-    "permissions": [
+    "modified": "2020-03-24T16:43:02.273Z",
+    "created": "2020-01-24T14:17:43.906Z",
+    "x_mitre_version": "1.0",
+    "x_mitre_is_subtechnique": true,
+    "x_mitre_permissions_required": [
         "User",
         "Administrator"
+    ],
+    "x_mitre_detection": "Trap commands must be registered for the shell or programs, so they appear in files. Monitoring files for suspicious or overly broad trap commands can narrow down suspicious behavior during an investigation. Monitor for suspicious processes executed through trap interrupts.",
+    "x_mitre_data_sources": [
+        "Process command-line parameters",
+        "Process monitoring",
+        "File monitoring"
+    ],
+    "x_mitre_platforms": [
+        "macOS",
+        "Linux"
     ]
 }

@@ -1,23 +1,39 @@
 {
     "id": "attack-pattern--e6415f09-df0e-48de-9aba-928c902b7549",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Exfiltration Over Physical Medium",
     "description": "Adversaries may attempt to exfiltrate data via a physical medium, such as a removable drive. In certain circumstances, such as an air-gapped network compromise, exfiltration could occur via a physical medium or device introduced by a user. Such media could be an external hard drive, USB drive, cellular phone, MP3 player, or other removable storage and processing device. The physical medium or device could be used as the final exfiltration point or to hop between otherwise disconnected systems.",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "url": "https://attack.mitre.org/techniques/T1052",
             "external_id": "T1052"
         }
     ],
-    "platforms": [
-        "Linux",
-        "macOS",
-        "Windows"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "exfiltration"
         }
-    ]
+    ],
+    "modified": "2020-03-28T00:31:48.713Z",
+    "created": "2017-05-31T21:30:46.461Z",
+    "x_mitre_is_subtechnique": false,
+    "x_mitre_system_requirements": [
+        "Presence of physical medium or device"
+    ],
+    "x_mitre_platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+    ],
+    "x_mitre_network_requirements": false,
+    "x_mitre_detection": "Monitor file access on removable media. Detect processes that execute when removable media are mounted.",
+    "x_mitre_data_sources": [
+        "Process monitoring",
+        "Data loss prevention",
+        "File monitoring"
+    ],
+    "x_mitre_version": "1.1"
 }

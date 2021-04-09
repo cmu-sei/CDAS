@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--451a9977-d255-43c9-b431-66de80130c8c",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Traffic Signaling",
     "description": "Adversaries may use traffic signaling to hide open ports or other malicious functionality used for persistence or command and control. Traffic signaling involves the use of a magic value or sequence that must be sent to a system to trigger a special response, such as opening a closed port or executing a malicious task. This may take the form of sending a series of packets with certain characteristics before a port will be opened that the adversary can use for command and control. Usually this series of packets consists of attempted connections to a predefined sequence of closed ports (i.e. [Port Knocking](https://attack.mitre.org/techniques/T1205/001)), but can involve unusual flags, specific strings, or other unique characteristics. After the sequence is completed, opening a port may be accomplished by the host-based firewall, but could also be implemented by custom software.\n\nAdversaries may also communicate with an already open port, but the service listening on that port will only respond to commands or trigger other malicious functionality if passed the appropriate magic value(s).\n\nThe observation of the signal packets to trigger the communication can be conducted through different methods. One means, originally implemented by Cd00r (Citation: Hartrell cd00r 2002), is to use the libpcap libraries to sniff for the packets in question. Another method leverages raw sockets, which enables the malware to use ports that are already open for use by other programs.\n\nOn network devices, adversaries may use crafted packets to enable [Network Device Authentication](https://attack.mitre.org/techniques/T1556/004) for standard services offered by the device such as telnet.  Such signaling may also be used to open a closed service port such as telnet, or to trigger module modification of malware implants on the device, adding, removing, or changing malicious capabilities.(Citation: Cisco Synful Knock Evolution) (Citation: FireEye - Synful Knock) (Citation: Cisco Blog Legacy Device Attacks)  To enable this traffic signaling on embedded devices, adversaries must first achieve and leverage [Patch System Image](https://attack.mitre.org/techniques/T1601/001) due to the monolithic nature of the architecture.",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1205",
@@ -29,13 +30,8 @@
             "description": "Omar Santos. (2020, October 19). Attackers Continue to Target Legacy Devices. Retrieved October 20, 2020."
         }
     ],
-    "platforms": [
-        "Linux",
-        "macOS",
-        "Windows",
-        "Network"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "defense-evasion"
@@ -49,7 +45,29 @@
             "phase_name": "command-and-control"
         }
     ],
-    "permissions": [
+    "modified": "2020-10-21T15:30:44.964Z",
+    "created": "2018-04-18T17:59:24.739Z",
+    "x_mitre_contributors": [
+        "Josh Day, Gigamon"
+    ],
+    "x_mitre_data_sources": [
+        "Packet capture",
+        "Netflow/Enclave netflow"
+    ],
+    "x_mitre_permissions_required": [
         "User"
-    ]
+    ],
+    "x_mitre_platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Network"
+    ],
+    "x_mitre_network_requirements": true,
+    "x_mitre_detection": "Record network packets sent to and from the system, looking for extraneous packets that do not belong to established flows.",
+    "x_mitre_defense_bypassed": [
+        "Defensive network service scanning"
+    ],
+    "x_mitre_version": "2.1",
+    "x_mitre_is_subtechnique": false
 }

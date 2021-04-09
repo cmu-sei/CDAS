@@ -1,24 +1,37 @@
 {
     "id": "attack-pattern--774a3188-6ba9-4dc4-879d-d54ee48a5ce9",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Automated Exfiltration",
     "description": "Adversaries may exfiltrate data, such as sensitive documents, through the use of automated processing after being gathered during Collection. \n\nWhen automated exfiltration is used, other exfiltration techniques likely apply as well to transfer the information out of the network, such as [Exfiltration Over C2 Channel](https://attack.mitre.org/techniques/T1041) and [Exfiltration Over Alternative Protocol](https://attack.mitre.org/techniques/T1048).",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "url": "https://attack.mitre.org/techniques/T1020",
             "external_id": "T1020"
         }
     ],
-    "platforms": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
+        {
+            "kill_chain_name": "mitre-attack",
+            "phase_name": "exfiltration"
+        }
+    ],
+    "modified": "2020-10-22T02:24:54.881Z",
+    "created": "2017-05-31T21:30:29.458Z",
+    "x_mitre_is_subtechnique": false,
+    "x_mitre_platforms": [
         "Linux",
         "macOS",
         "Windows",
         "Network"
     ],
-    "kill_chain": [
-        {
-            "kill_chain_name": "mitre-attack",
-            "phase_name": "exfiltration"
-        }
-    ]
+    "x_mitre_network_requirements": true,
+    "x_mitre_detection": "Monitor process file access patterns and network behavior. Unrecognized processes or scripts that appear to be traversing file systems and sending network traffic may be suspicious.",
+    "x_mitre_data_sources": [
+        "File monitoring",
+        "Process monitoring",
+        "Process use of network"
+    ],
+    "x_mitre_version": "1.2"
 }

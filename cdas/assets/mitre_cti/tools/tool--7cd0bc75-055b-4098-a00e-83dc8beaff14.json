@@ -1,8 +1,5 @@
 {
-    "id": "tool--7cd0bc75-055b-4098-a00e-83dc8beaff14",
-    "name": "Remcos",
-    "description": "[Remcos](https://attack.mitre.org/software/S0332) is a closed-source tool that is marketed as a remote control and surveillance software by a company called Breaking Security. [Remcos](https://attack.mitre.org/software/S0332) has been observed being used in malware campaigns.(Citation: Riskiq Remcos Jan 2018)(Citation: Talos Remcos Aug 2018)",
-    "references": [
+    "external_references": [
         {
             "external_id": "S0332",
             "source_name": "mitre-attack",
@@ -28,10 +25,21 @@
             "source_name": "Fortinet Remcos Feb 2017"
         }
     ],
-    "aliases": [
+    "created_by_ref": "The MITRE Corporation",
+    "description": "[Remcos](https://attack.mitre.org/software/S0332) is a closed-source tool that is marketed as a remote control and surveillance software by a company called Breaking Security. [Remcos](https://attack.mitre.org/software/S0332) has been observed being used in malware campaigns.(Citation: Riskiq Remcos Jan 2018)(Citation: Talos Remcos Aug 2018)",
+    "name": "Remcos",
+    "id": "tool--7cd0bc75-055b-4098-a00e-83dc8beaff14",
+    "type": "tool",
+    "labels": [
+        "tool"
+    ],
+    "modified": "2020-03-30T18:03:42.421Z",
+    "created": "2019-01-29T18:55:20.245Z",
+    "x_mitre_version": "1.1",
+    "x_mitre_aliases": [
         "Remcos"
     ],
-    "platforms": [
+    "x_mitre_platforms": [
         "Windows"
     ]
 }

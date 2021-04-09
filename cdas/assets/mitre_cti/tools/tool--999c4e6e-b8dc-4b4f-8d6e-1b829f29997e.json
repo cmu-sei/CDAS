@@ -1,8 +1,5 @@
 {
-    "id": "tool--999c4e6e-b8dc-4b4f-8d6e-1b829f29997e",
-    "name": "MailSniper",
-    "description": "MailSniper is a penetration testing tool for searching through email in a Microsoft Exchange environment for specific terms (passwords, insider intel, network architecture information, etc.). It can be used by a non-administrative user to search their own email, or by an Exchange administrator to search the mailboxes of every user in a domain.(Citation: GitHub MailSniper)",
-    "references": [
+    "external_references": [
         {
             "external_id": "S0413",
             "source_name": "mitre-attack",
@@ -14,10 +11,21 @@
             "description": "Bullock, B., . (2018, November 20). MailSniper. Retrieved October 4, 2019."
         }
     ],
-    "aliases": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "MailSniper",
+    "description": "MailSniper is a penetration testing tool for searching through email in a Microsoft Exchange environment for specific terms (passwords, insider intel, network architecture information, etc.). It can be used by a non-administrative user to search their own email, or by an Exchange administrator to search the mailboxes of every user in a domain.(Citation: GitHub MailSniper)",
+    "id": "tool--999c4e6e-b8dc-4b4f-8d6e-1b829f29997e",
+    "type": "tool",
+    "labels": [
+        "tool"
+    ],
+    "modified": "2020-03-30T17:01:41.302Z",
+    "created": "2019-10-05T02:34:01.189Z",
+    "x_mitre_version": "1.1",
+    "x_mitre_aliases": [
         "MailSniper"
     ],
-    "platforms": [
+    "x_mitre_platforms": [
         "Office 365",
         "Windows",
         "Azure AD"

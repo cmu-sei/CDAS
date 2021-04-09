@@ -1,0 +1,17 @@
+{
+    "id": "course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0",
+    "type": "course-of-action",
+    "created": "2019-06-10T20:53:36.319Z",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/mitigations/M1032",
+            "external_id": "M1032"
+        }
+    ],
+    "description": "Use two or more pieces of evidence to authenticate to a system; such as username and password in addition to a token from a physical smart card or token generator.",
+    "x_mitre_version": "1.0",
+    "modified": "2019-06-10T20:53:36.319Z",
+    "name": "Multi-factor Authentication"
+}

@@ -1,0 +1,17 @@
+{
+    "id": "course-of-action--7f153c28-e5f1-4764-88fb-eea1d9b0ad4a",
+    "type": "course-of-action",
+    "created": "2020-09-11T16:32:21.854Z",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
+        {
+            "source_name": "mitre-ics-attack",
+            "url": "https://collaborate.mitre.org/attackics/index.php/Mitigation/M0808",
+            "external_id": "M0808"
+        }
+    ],
+    "description": "Utilize strong cryptographic techniques and protocols to prevent eavesdropping on network communications.",
+    "x_mitre_version": "1.0",
+    "modified": "2020-09-17T13:55:21.233Z",
+    "name": "Encrypt Network Traffic"
+}

@@ -1,8 +1,5 @@
 {
-    "id": "attack-pattern--a009cb25-4801-4116-9105-80a91cf15c1b",
-    "name": "Cloud Account",
-    "description": "Adversaries may create a cloud account to maintain access to victim systems. With a sufficient level of access, such accounts may be used to establish secondary credentialed access that does not require persistent remote access tools to be deployed on the system.(Citation: Microsoft O365 Admin Roles)(Citation: Microsoft Support O365 Add Another Admin, October 2019)(Citation: AWS Create IAM User)(Citation: GCP Create Cloud Identity Users)(Citation: Microsoft Azure AD Users)\n\nAdversaries may create accounts that only have access to specific cloud services, which can reduce the chance of detection.",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1136.003",
@@ -34,20 +31,40 @@
             "description": "Microsoft. (2019, November 11). Add or delete users using Azure Active Directory. Retrieved January 30, 2020."
         }
     ],
-    "platforms": [
-        "AWS",
-        "GCP",
-        "Azure",
-        "Office 365",
-        "Azure AD"
-    ],
-    "kill_chain": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Cloud Account",
+    "description": "Adversaries may create a cloud account to maintain access to victim systems. With a sufficient level of access, such accounts may be used to establish secondary credentialed access that does not require persistent remote access tools to be deployed on the system.(Citation: Microsoft O365 Admin Roles)(Citation: Microsoft Support O365 Add Another Admin, October 2019)(Citation: AWS Create IAM User)(Citation: GCP Create Cloud Identity Users)(Citation: Microsoft Azure AD Users)\n\nAdversaries may create accounts that only have access to specific cloud services, which can reduce the chance of detection.",
+    "id": "attack-pattern--a009cb25-4801-4116-9105-80a91cf15c1b",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "persistence"
         }
     ],
-    "permissions": [
+    "modified": "2020-03-24T12:44:27.995Z",
+    "created": "2020-01-29T17:32:30.711Z",
+    "x_mitre_version": "1.0",
+    "x_mitre_is_subtechnique": true,
+    "x_mitre_permissions_required": [
         "Administrator"
+    ],
+    "x_mitre_detection": "Collect usage logs from cloud user and administrator accounts to identify unusual activity in the creation of new accounts and assignment of roles to those accounts. Monitor for accounts assigned to admin roles that go over a certain threshold of known admins.",
+    "x_mitre_data_sources": [
+        "Office 365 audit logs",
+        "Stackdriver logs",
+        "Azure activity logs",
+        "AWS CloudTrail logs"
+    ],
+    "x_mitre_contributors": [
+        "Praetorian",
+        "Microsoft Threat Intelligence Center (MSTIC)"
+    ],
+    "x_mitre_platforms": [
+        "AWS",
+        "GCP",
+        "Azure",
+        "Office 365",
+        "Azure AD"
     ]
 }

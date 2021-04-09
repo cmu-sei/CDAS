@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--633a100c-b2c9-41bf-9be5-905c1b16c825",
-    "name": "LD_PRELOAD",
     "description": "Adversaries may execute their own malicious payloads by hijacking the dynamic linker used to load libraries. The dynamic linker is used to load shared library dependencies needed by an executing program. The dynamic linker will typically check provided absolute paths and common directories for these dependencies, but can be overridden by shared objects specified by LD_PRELOAD to be loaded before all others.(Citation: Man LD.SO)(Citation: TLDP Shared Libraries)\n\nAdversaries may set LD_PRELOAD to point to malicious libraries that match the name of legitimate libraries which are requested by a victim program, causing the operating system to load the adversary's malicious code upon execution of the victim program. LD_PRELOAD can be set via the environment variable or <code>/etc/ld.so.preload</code> file.(Citation: Man LD.SO)(Citation: TLDP Shared Libraries) Libraries specified by LD_PRELOAD with be loaded and mapped into memory by <code>dlopen()</code> and <code>mmap()</code> respectively.(Citation: Code Injection on Linux and macOS) (Citation: Uninformed Needle) (Citation: Phrack halfdead 1997)\n\nLD_PRELOAD hijacking may grant access to the victim process's memory, system/network resources, and possibly elevated privileges. Execution via LD_PRELOAD hijacking may also evade detection from security products since the execution is masked under a legitimate process.",
-    "references": [
+    "name": "LD_PRELOAD",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1574.006",
@@ -44,10 +45,8 @@
             "source_name": "Phrack halfdead 1997"
         }
     ],
-    "platforms": [
-        "Linux"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "persistence"
@@ -60,5 +59,18 @@
             "kill_chain_name": "mitre-attack",
             "phase_name": "defense-evasion"
         }
-    ]
+    ],
+    "modified": "2020-09-16T16:49:46.904Z",
+    "created": "2020-03-13T20:09:59.569Z",
+    "x_mitre_platforms": [
+        "Linux"
+    ],
+    "x_mitre_data_sources": [
+        "Process monitoring",
+        "File monitoring",
+        "Environment variable"
+    ],
+    "x_mitre_detection": "Monitor for changes to environment variables and files associated with loading shared libraries such as LD_PRELOAD, as well as the commands to implement these changes.\n\nMonitor processes for unusual activity (e.g., a process that does not use the network begins to do so). Track library metadata, such as a hash, and compare libraries that are loaded at process execution time against previous executions to detect differences that do not correlate with patching or updates.",
+    "x_mitre_is_subtechnique": true,
+    "x_mitre_version": "1.1"
 }

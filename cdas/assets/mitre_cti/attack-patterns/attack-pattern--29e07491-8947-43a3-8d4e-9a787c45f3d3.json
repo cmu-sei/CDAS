@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--29e07491-8947-43a3-8d4e-9a787c45f3d3",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Access Sensitive Data in Device Logs",
     "description": "On versions of Android prior to 4.1, an adversary may use a malicious application that holds the READ_LOGS permission to obtain private keys, passwords, other credentials, or other sensitive data stored in the device's system log. On Android 4.1 and later, an adversary would need to attempt to perform an operating system privilege escalation attack to be able to access the log.",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "url": "https://attack.mitre.org/techniques/T1413",
@@ -19,10 +20,16 @@
             "external_id": "APP-13"
         }
     ],
-    "platforms": [
+    "x_mitre_platforms": [
         "Android"
     ],
-    "kill_chain": [
+    "x_mitre_tactic_type": [
+        "Post-Adversary Device Access"
+    ],
+    "x_mitre_version": "1.0",
+    "x_mitre_old_attack_id": "MOB-T1016",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "collection"
@@ -31,5 +38,7 @@
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "credential-access"
         }
-    ]
+    ],
+    "modified": "2018-10-17T00:14:20.652Z",
+    "created": "2017-10-25T14:48:17.176Z"
 }

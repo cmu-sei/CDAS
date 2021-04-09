@@ -1,8 +1,5 @@
 {
-    "id": "tool--da04ac30-27da-4959-a67d-450ce47d9470",
-    "name": "QuasarRAT",
-    "description": "[QuasarRAT](https://attack.mitre.org/software/S0262) is an open-source, remote access tool that is publicly available on GitHub. [QuasarRAT](https://attack.mitre.org/software/S0262) is developed in the C# language. (Citation: GitHub QuasarRAT) (Citation: Volexity Patchwork June 2018)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "url": "https://attack.mitre.org/software/S0262",
@@ -32,11 +29,22 @@
             "url": "https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf"
         }
     ],
-    "aliases": [
+    "description": "[QuasarRAT](https://attack.mitre.org/software/S0262) is an open-source, remote access tool that is publicly available on GitHub. [QuasarRAT](https://attack.mitre.org/software/S0262) is developed in the C# language. (Citation: GitHub QuasarRAT) (Citation: Volexity Patchwork June 2018)",
+    "name": "QuasarRAT",
+    "created_by_ref": "The MITRE Corporation",
+    "id": "tool--da04ac30-27da-4959-a67d-450ce47d9470",
+    "type": "tool",
+    "labels": [
+        "tool"
+    ],
+    "modified": "2020-03-28T21:39:15.210Z",
+    "created": "2018-10-17T00:14:20.652Z",
+    "x_mitre_version": "1.1",
+    "x_mitre_aliases": [
         "QuasarRAT",
         "xRAT"
     ],
-    "platforms": [
+    "x_mitre_platforms": [
         "Windows"
     ]
 }

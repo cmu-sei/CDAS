@@ -1,8 +1,5 @@
 {
-    "id": "attack-pattern--b327a9c0-e709-495c-aa6e-00b042136e2b",
-    "name": "SMS Control",
-    "description": "Adversaries may delete, alter, or send SMS messages without user authorization. This could be used to hide C2 SMS messages, spread malware, or various external effects.\n\nThis can be accomplished by requesting the `RECEIVE_SMS` or `SEND_SMS` permissions depending on what the malware is attempting to do. If the app is set as the default SMS handler on the device, the `SMS_DELIVER` broadcast intent can be registered, which allows the app to write to the SMS content provider. The content provider directly modifies the messaging database on the device, which could allow malicious applications with this ability to insert, modify, or delete arbitrary messages on the device.(Citation: SMS KitKat)(Citation: Android SmsProvider)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "external_id": "T1582",
@@ -29,13 +26,26 @@
             "description": "Google. (n.d.). SmsProvider.java. Retrieved September 11, 2020."
         }
     ],
-    "platforms": [
-        "Android"
-    ],
-    "kill_chain": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "SMS Control",
+    "description": "Adversaries may delete, alter, or send SMS messages without user authorization. This could be used to hide C2 SMS messages, spread malware, or various external effects.\n\nThis can be accomplished by requesting the `RECEIVE_SMS` or `SEND_SMS` permissions depending on what the malware is attempting to do. If the app is set as the default SMS handler on the device, the `SMS_DELIVER` broadcast intent can be registered, which allows the app to write to the SMS content provider. The content provider directly modifies the messaging database on the device, which could allow malicious applications with this ability to insert, modify, or delete arbitrary messages on the device.(Citation: SMS KitKat)(Citation: Android SmsProvider)",
+    "id": "attack-pattern--b327a9c0-e709-495c-aa6e-00b042136e2b",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "impact"
         }
+    ],
+    "modified": "2020-10-22T17:04:15.578Z",
+    "created": "2020-09-11T15:14:33.730Z",
+    "x_mitre_version": "1.0",
+    "x_mitre_is_subtechnique": false,
+    "x_mitre_tactic_type": [
+        "Post-Adversary Device Access"
+    ],
+    "x_mitre_detection": "Users can view the default SMS handler in system settings.",
+    "x_mitre_platforms": [
+        "Android"
     ]
 }

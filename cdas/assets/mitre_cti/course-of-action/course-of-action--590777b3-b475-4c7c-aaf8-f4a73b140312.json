@@ -1,0 +1,17 @@
+{
+    "id": "course-of-action--590777b3-b475-4c7c-aaf8-f4a73b140312",
+    "type": "course-of-action",
+    "created": "2019-06-11T17:01:25.405Z",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/mitigations/M1045",
+            "external_id": "M1045"
+        }
+    ],
+    "description": "Enforce binary and application integrity with digital signature verification to prevent untrusted code from executing.",
+    "x_mitre_version": "1.1",
+    "modified": "2020-05-20T13:12:02.881Z",
+    "name": "Code Signing"
+}

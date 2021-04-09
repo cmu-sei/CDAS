@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--0f20e3cb-245b-4a61-8a91-2d93f7cb0e9b",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Rootkit",
     "description": "Adversaries may use rootkits to hide the presence of programs, files, network connections, services, drivers, and other system components. Rootkits are programs that hide the existence of malware by intercepting/hooking and modifying operating system API calls that supply system information. (Citation: Symantec Windows Rootkits) \n\nRootkits or rootkit enabling functionality may reside at the user or kernel level in the operating system or lower, to include a hypervisor, Master Boot Record, or [System Firmware](https://attack.mitre.org/techniques/T1542/001). (Citation: Wikipedia Rootkit) Rootkits have been seen for Windows, Linux, and Mac OS X systems. (Citation: CrowdStrike Linux Rootkit) (Citation: BlackHat Mac OSX Rootkit)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1014",
@@ -34,20 +35,40 @@
             "source_name": "BlackHat Mac OSX Rootkit"
         }
     ],
-    "platforms": [
-        "Linux",
-        "macOS",
-        "Windows"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "defense-evasion"
         }
     ],
-    "permissions": [
+    "modified": "2020-06-20T22:29:55.496Z",
+    "created": "2017-05-31T21:30:26.496Z",
+    "x_mitre_is_subtechnique": false,
+    "x_mitre_platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+    ],
+    "x_mitre_permissions_required": [
         "Administrator",
         "SYSTEM",
         "root"
-    ]
+    ],
+    "x_mitre_detection": "Some rootkit protections may be built into anti-virus or operating system software. There are dedicated rootkit detection tools that look for specific types of rootkit behavior. Monitor for the existence of unrecognized DLLs, devices, services, and changes to the MBR. (Citation: Wikipedia Rootkit)",
+    "x_mitre_defense_bypassed": [
+        "File monitoring",
+        "Host intrusion prevention systems",
+        "Application control",
+        "Signature-based detection",
+        "System access controls",
+        "Application control by file name or path",
+        "Anti-virus"
+    ],
+    "x_mitre_data_sources": [
+        "BIOS",
+        "MBR",
+        "System calls"
+    ],
+    "x_mitre_version": "1.1"
 }

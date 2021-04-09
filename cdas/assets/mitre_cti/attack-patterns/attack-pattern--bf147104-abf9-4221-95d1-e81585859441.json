@@ -1,8 +1,5 @@
 {
-    "id": "attack-pattern--bf147104-abf9-4221-95d1-e81585859441",
-    "name": "Outlook Home Page",
-    "description": "Adversaries may abuse Microsoft Outlook's Home Page feature to obtain persistence on a compromised system. Outlook Home Page is a legacy feature used to customize the presentation of Outlook folders. This feature allows for an internal or external URL to be loaded and presented whenever a folder is opened. A malicious HTML page can be crafted that will execute code when loaded by Outlook Home Page.(Citation: SensePost Outlook Home Page)\n\nOnce malicious home pages have been added to the user\u2019s mailbox, they will be loaded when Outlook is started. Malicious Home Pages will execute when the right Outlook folder is loaded/reloaded.(Citation: SensePost Outlook Home Page)\n",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1137.004",
@@ -24,18 +21,33 @@
             "description": "SensePost. (2017, September 21). NotRuler - The opposite of Ruler, provides blue teams with the ability to detect Ruler usage against Exchange. Retrieved February 4, 2019."
         }
     ],
-    "platforms": [
-        "Windows",
-        "Office 365"
-    ],
-    "kill_chain": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "Outlook Home Page",
+    "description": "Adversaries may abuse Microsoft Outlook's Home Page feature to obtain persistence on a compromised system. Outlook Home Page is a legacy feature used to customize the presentation of Outlook folders. This feature allows for an internal or external URL to be loaded and presented whenever a folder is opened. A malicious HTML page can be crafted that will execute code when loaded by Outlook Home Page.(Citation: SensePost Outlook Home Page)\n\nOnce malicious home pages have been added to the user\u2019s mailbox, they will be loaded when Outlook is started. Malicious Home Pages will execute when the right Outlook folder is loaded/reloaded.(Citation: SensePost Outlook Home Page)\n",
+    "id": "attack-pattern--bf147104-abf9-4221-95d1-e81585859441",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "persistence"
         }
     ],
-    "permissions": [
+    "modified": "2020-03-26T17:35:51.656Z",
+    "created": "2019-11-07T20:09:56.536Z",
+    "x_mitre_is_subtechnique": true,
+    "x_mitre_version": "1.0",
+    "x_mitre_permissions_required": [
         "Administrator",
         "User"
+    ],
+    "x_mitre_detection": "Microsoft has released a PowerShell script to safely gather mail forwarding rules and custom forms in your mail environment as well as steps to interpret the output.(Citation: Microsoft Detect Outlook Forms) SensePost, whose tool [Ruler](https://attack.mitre.org/software/S0358) can be used to carry out malicious rules, forms, and Home Page attacks, has released a tool to detect Ruler usage.(Citation: SensePost NotRuler)\n\nCollect process execution information including process IDs (PID) and parent process IDs (PPID) and look for abnormal chains of activity resulting from Office processes. Non-standard process execution trees may also indicate suspicious or malicious behavior.",
+    "x_mitre_data_sources": [
+        "Mail server",
+        "Process monitoring",
+        "Process command-line parameters"
+    ],
+    "x_mitre_platforms": [
+        "Windows",
+        "Office 365"
     ]
 }

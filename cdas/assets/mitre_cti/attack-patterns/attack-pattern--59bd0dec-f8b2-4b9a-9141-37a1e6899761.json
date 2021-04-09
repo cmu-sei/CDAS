@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--59bd0dec-f8b2-4b9a-9141-37a1e6899761",
-    "name": "Unused/Unsupported Cloud Regions",
     "description": "Adversaries may create cloud instances in unused geographic service regions in order to evade detection. Access is usually obtained through compromising accounts used to manage cloud infrastructure.\n\nCloud service providers often provide infrastructure throughout the world in order to improve performance, provide redundancy, and allow customers to meet compliance requirements. Oftentimes, a customer will only use a subset of the available regions and may not actively monitor other regions. If an adversary creates resources in an unused region, they may be able to operate undetected.\n\nA variation on this behavior takes advantage of differences in functionality across cloud regions. An adversary could utilize regions which do not support advanced detection services in order to avoid detection of their activity. For example, AWS GuardDuty is not supported in every region.(Citation: AWS Region Service Table)\n\nAn example of adversary use of unused AWS regions is to mine cryptocurrency through [Resource Hijacking](https://attack.mitre.org/techniques/T1496), which can cost organizations substantial amounts of money over time depending on the processing power used.(Citation: CloudSploit - Unused AWS Regions)",
-    "references": [
+    "name": "Unused/Unsupported Cloud Regions",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
         {
             "external_id": "T1535",
             "source_name": "mitre-attack",
@@ -19,18 +20,32 @@
             "description": "CloudSploit. (2019, June 8). The Danger of Unused AWS Regions. Retrieved October 8, 2019."
         }
     ],
-    "platforms": [
-        "AWS",
-        "GCP",
-        "Azure"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "defense-evasion"
         }
     ],
-    "permissions": [
+    "modified": "2020-07-14T19:17:44.563Z",
+    "created": "2019-09-04T14:35:04.617Z",
+    "x_mitre_is_subtechnique": false,
+    "x_mitre_platforms": [
+        "AWS",
+        "GCP",
+        "Azure"
+    ],
+    "x_mitre_contributors": [
+        "Netskope"
+    ],
+    "x_mitre_version": "1.0",
+    "x_mitre_data_sources": [
+        "Stackdriver logs",
+        "Azure activity logs",
+        "AWS CloudTrail logs"
+    ],
+    "x_mitre_permissions_required": [
         "User"
-    ]
+    ],
+    "x_mitre_detection": "Monitor system logs to review activities occurring across all cloud environments and regions. Configure alerting to notify of activity in normally unused regions or if the number of instances active in a region goes above a certain threshold.(Citation: CloudSploit - Unused AWS Regions)"
 }

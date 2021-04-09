@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--8f0e39c6-82c9-41ec-9f93-5696c0f2e274",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Carrier Billing Fraud",
     "description": "A malicious app may trigger fraudulent charges on a victim\u2019s carrier billing statement in several different ways, including SMS toll fraud and SMS shortcodes that make purchases.\n\nPerforming SMS fraud relies heavily upon the fact that, when making SMS purchases, the carriers perform device verification but not user verification. This allows adversaries to make purchases on behalf of the user, with little or no user interaction.(Citation: Google Bread)\n\nMalicious applications may also perform toll billing, which occurs when carriers provide payment endpoints over a web page. The application connects to the web page over cellular data so the carrier can directly verify the number, or the application must retrieve a code sent via SMS and enter it into the web page.(Citation: Google Bread)\n\nOn iOS, apps cannot send SMS messages.\n\nOn Android, apps must hold the `SEND_SMS` permission to send SMS messages. Additionally, Android version 4.2 and above has mitigations against this threat by requiring user consent before allowing SMS messages to be sent to premium numbers (Citation: AndroidSecurity2014).",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "external_id": "T1448",
@@ -19,13 +20,23 @@
             "source_name": "AndroidSecurity2014"
         }
     ],
-    "platforms": [
-        "Android"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "impact"
         }
-    ]
+    ],
+    "modified": "2020-05-04T15:40:20.943Z",
+    "created": "2017-10-25T14:48:09.082Z",
+    "x_mitre_is_subtechnique": false,
+    "x_mitre_old_attack_id": "MOB-T1051",
+    "x_mitre_version": "2.0",
+    "x_mitre_tactic_type": [
+        "Post-Adversary Device Access"
+    ],
+    "x_mitre_platforms": [
+        "Android"
+    ],
+    "x_mitre_detection": "Starting with Android 4.2 the user is prompted and must provide consent before applications can send SMS messages to premium numbers.(Citation: AndroidSecurity2014)\n\nOn Android 6.0 and up, the user can view which applications have permission to send SMS messages through the device settings screen, and the user can choose to revoke the permissions."
 }

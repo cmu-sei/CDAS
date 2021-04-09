@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--667e5707-3843-4da8-bd34-88b922526f0d",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Exploit via Charging Station or PC",
     "description": "If the mobile device is connected (typically via USB) to a charging station or a PC, for example to charge the device's battery, then a compromised or malicious charging station or PC could attempt to exploit the mobile device via the connection(Citation: Krebs-JuiceJacking).\n\nPrevious demonstrations have included:\n\n* Injecting malicious applications into iOS devices(Citation: Lau-Mactans).\n* Exploiting a Nexus 6 or 6P device over USB and gaining the ability to perform actions including intercepting phone calls, intercepting network traffic, and obtaining the device physical location(Citation: IBM-NexusUSB).\n* Exploiting Android devices such as the Google Pixel 2 over USB(Citation: GoogleProjectZero-OATmeal).\n\nProducts from Cellebrite and Grayshift purportedly can use physical access to the data port to unlock the passcode on some iOS devices(Citation: Computerworld-iPhoneCracking).",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "url": "https://attack.mitre.org/techniques/T1458",
@@ -39,14 +40,22 @@
             "url": "https://www.computerworld.com/article/3268729/apple-ios/two-vendors-now-sell-iphone-cracking-technology-and-police-are-buying.html"
         }
     ],
-    "platforms": [
-        "Android",
-        "iOS"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "initial-access"
         }
-    ]
+    ],
+    "modified": "2019-02-03T15:10:41.460Z",
+    "created": "2017-10-25T14:48:23.233Z",
+    "x_mitre_platforms": [
+        "Android",
+        "iOS"
+    ],
+    "x_mitre_tactic_type": [
+        "Post-Adversary Device Access"
+    ],
+    "x_mitre_version": "1.1",
+    "x_mitre_old_attack_id": "MOB-T1061"
 }

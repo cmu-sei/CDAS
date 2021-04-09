@@ -1,0 +1,17 @@
+{
+    "id": "course-of-action--2995bc22-2851-4345-ad19-4e7e295be264",
+    "type": "course-of-action",
+    "created": "2019-06-11T16:28:41.809Z",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/mitigations/M1034",
+            "external_id": "M1034"
+        }
+    ],
+    "description": "Block users or groups from installing or using unapproved hardware on systems, including USB devices.",
+    "x_mitre_version": "1.0",
+    "modified": "2020-06-09T20:48:12.326Z",
+    "name": "Limit Hardware Installation"
+}

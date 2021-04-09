@@ -1,0 +1,34 @@
+{
+    "type": "attack-pattern",
+    "name": "Engineering Workstation Compromise",
+    "description": "Adversaries may compromise and gain control of an engineering workstation as an Initial Access technique into the control system environment. Access to an engineering workstation may occur as a result of remote access or by physical means, such as a person with privileged access or infection by removable media. A dual-homed engineering workstation may allow the adversary access into multiple networks. For example, unsegregated process control, safety system, or information system networks. \n\nAn Engineering Workstation is designed as a reliable computing platform that configures, maintains, and diagnoses control system equipment and applications. Compromise of an engineering workstation may provide access to and control of other control system applications and equipment. \n\nIn the Maroochy attack, the adversary utilized a computer, possibly stolen, with proprietary engineering software to communicate with a wastewater system.\n\nData Sources: File monitoring, API monitoring, Windows event logs\n\nContributors: Joe Slowik - Dragos",
+    "kill_chain_phases": [
+        {
+            "kill_chain_name": "mitre-ics-attack",
+            "phase_name": "initial-access-ics"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Windows",
+        "Engineering Workstation"
+    ],
+    "external_references": [
+        {
+            "url": "https://collaborate.mitre.org/attackics/index.php/Technique/T818",
+            "source_name": "mitre-ics-attack",
+            "external_id": "T0818"
+        }
+    ],
+    "created": "2020-05-21T17:43:26.506Z",
+    "created_by_ref": "The MITRE Corporation",
+    "x_mitre_data_sources": [
+        "File monitoring",
+        "API monitoring",
+        "Windows event logs"
+    ],
+    "x_mitre_contributors": [
+        "Joe Slowik - Dragos"
+    ],
+    "modified": "2020-05-21T17:43:26.506Z",
+    "id": "attack-pattern--d614a9cf-18eb-4800-81e4-ab8ddf0baa73"
+}

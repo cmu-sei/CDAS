@@ -1,0 +1,17 @@
+{
+    "id": "course-of-action--a6a47a06-08fc-4ec4-bdc3-20373375ebb9",
+    "type": "course-of-action",
+    "created": "2019-06-11T17:08:33.055Z",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/mitigations/M1049",
+            "external_id": "M1049"
+        }
+    ],
+    "description": "Use signatures or heuristics to detect malicious software.",
+    "x_mitre_version": "1.1",
+    "modified": "2020-03-31T13:07:15.684Z",
+    "name": "Antivirus/Antimalware"
+}

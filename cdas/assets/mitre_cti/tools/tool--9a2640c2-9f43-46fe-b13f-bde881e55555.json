@@ -1,8 +1,9 @@
 {
     "id": "tool--9a2640c2-9f43-46fe-b13f-bde881e55555",
+    "created_by_ref": "The MITRE Corporation",
     "name": "sqlmap",
     "description": "[sqlmap](https://attack.mitre.org/software/S0225) is an open source penetration testing tool that can be used to automate the process of detecting and exploiting SQL injection flaws. (Citation: sqlmap Introduction)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "url": "https://attack.mitre.org/software/S0225",
@@ -14,12 +15,19 @@
             "url": "http://sqlmap.org/"
         }
     ],
-    "aliases": [
+    "x_mitre_version": "1.0",
+    "x_mitre_aliases": [
         "sqlmap"
     ],
-    "platforms": [
+    "x_mitre_platforms": [
         "Linux",
         "Windows",
         "macOS"
-    ]
+    ],
+    "type": "tool",
+    "labels": [
+        "tool"
+    ],
+    "modified": "2018-10-17T00:14:20.652Z",
+    "created": "2018-04-18T17:59:24.739Z"
 }

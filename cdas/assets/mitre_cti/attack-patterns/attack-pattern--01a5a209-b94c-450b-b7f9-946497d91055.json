@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Windows Management Instrumentation",
     "description": "Adversaries may abuse Windows Management Instrumentation (WMI) to achieve execution. WMI is a Windows administration feature that provides a uniform environment for local and remote access to Windows system components. It relies on the WMI service for local and remote access and the server message block (SMB) (Citation: Wikipedia SMB) and Remote Procedure Call Service (RPCS) (Citation: TechNet RPC) for remote access. RPCS operates over port 135. (Citation: MSDN WMI)\n\nAn adversary can use WMI to interact with local and remote systems and use it as a means to perform many tactic functions, such as gathering information for Discovery and remote Execution of files as part of Lateral Movement. (Citation: FireEye WMI SANS 2015) (Citation: FireEye WMI 2015)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1047",
@@ -34,17 +35,33 @@
             "source_name": "FireEye WMI 2015"
         }
     ],
-    "platforms": [
-        "Windows"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "execution"
         }
     ],
-    "permissions": [
+    "modified": "2020-05-13T22:50:51.258Z",
+    "created": "2017-05-31T21:30:44.329Z",
+    "x_mitre_system_requirements": [
+        "WMI service, winmgmt, running.\nHost/network firewalls allowing SMB and WMI ports from source to destination.\nSMB authentication."
+    ],
+    "x_mitre_platforms": [
+        "Windows"
+    ],
+    "x_mitre_remote_support": true,
+    "x_mitre_permissions_required": [
         "User",
         "Administrator"
-    ]
+    ],
+    "x_mitre_detection": "Monitor network traffic for WMI connections; the use of WMI in environments that do not typically use WMI may be suspect. Perform process monitoring to capture command-line arguments of \"wmic\" and detect commands that are used to perform remote behavior. (Citation: FireEye WMI 2015)",
+    "x_mitre_data_sources": [
+        "Authentication logs",
+        "Netflow/Enclave netflow",
+        "Process monitoring",
+        "Process command-line parameters"
+    ],
+    "x_mitre_version": "1.1",
+    "x_mitre_is_subtechnique": false
 }

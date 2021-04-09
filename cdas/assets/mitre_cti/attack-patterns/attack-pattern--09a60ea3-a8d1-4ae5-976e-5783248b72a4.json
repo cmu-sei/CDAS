@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
-    "name": "Keylogging",
     "description": "Adversaries may log user keystrokes to intercept credentials as the user types them. Keylogging is likely to be used to acquire credentials for new access opportunities when [OS Credential Dumping](https://attack.mitre.org/techniques/T1003) efforts are not effective, and may require an adversary to intercept keystrokes on a system for a substantial period of time before credentials can be successfully captured.\n\nKeylogging is the most prevalent type of input capture, with many different ways of intercepting keystrokes.(Citation: Adventures of a Keystroke) Some methods include:\n\n* Hooking API callbacks used for processing keystrokes. Unlike [Credential API Hooking](https://attack.mitre.org/techniques/T1056/004), this focuses solely on API functions intended for processing keystroke data.\n* Reading raw keystroke data from the hardware buffer.\n* Windows Registry modifications.\n* Custom drivers.\n* [Modify System Image](https://attack.mitre.org/techniques/T1601) may provide adversaries with hooks into the operating system of network devices to read raw keystrokes for login sessions.(Citation: Cisco Blog Legacy Device Attacks) ",
-    "references": [
+    "name": "Keylogging",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1056.001",
@@ -24,13 +25,8 @@
             "description": "Omar Santos. (2020, October 19). Attackers Continue to Target Legacy Devices. Retrieved October 20, 2020."
         }
     ],
-    "platforms": [
-        "Windows",
-        "macOS",
-        "Linux",
-        "Network"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "collection"
@@ -40,10 +36,26 @@
             "phase_name": "credential-access"
         }
     ],
-    "permissions": [
+    "modified": "2020-10-21T01:30:56.227Z",
+    "created": "2020-02-11T18:58:11.791Z",
+    "x_mitre_platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Network"
+    ],
+    "x_mitre_is_subtechnique": true,
+    "x_mitre_version": "1.1",
+    "x_mitre_detection": "Keyloggers may take many forms, possibly involving modification to the Registry and installation of a driver, setting a hook, or polling to intercept keystrokes. Commonly used API calls include `SetWindowsHook`, `GetKeyState`, and `GetAsyncKeyState`.(Citation: Adventures of a Keystroke) Monitor the Registry and file system for such changes, monitor driver installs, and look for common keylogging API calls. API calls alone are not an indicator of keylogging, but may provide behavioral data that is useful when combined with other information such as new files written to disk and unusual processes.",
+    "x_mitre_permissions_required": [
         "Administrator",
         "root",
         "SYSTEM",
         "User"
+    ],
+    "x_mitre_data_sources": [
+        "Windows Registry",
+        "Process monitoring",
+        "API monitoring"
     ]
 }

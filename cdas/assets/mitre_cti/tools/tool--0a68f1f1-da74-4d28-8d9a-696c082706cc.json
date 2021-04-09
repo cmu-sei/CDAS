@@ -1,8 +1,9 @@
 {
     "id": "tool--0a68f1f1-da74-4d28-8d9a-696c082706cc",
+    "created_by_ref": "The MITRE Corporation",
     "name": "certutil",
     "description": "[certutil](https://attack.mitre.org/software/S0160) is a command-line utility that can be used to obtain certificate authority information and configure Certificate Services. (Citation: TechNet Certutil)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "url": "https://attack.mitre.org/software/S0160",
@@ -14,11 +15,18 @@
             "source_name": "TechNet Certutil"
         }
     ],
-    "aliases": [
+    "type": "tool",
+    "labels": [
+        "tool"
+    ],
+    "modified": "2019-07-31T19:57:28.859Z",
+    "created": "2017-12-14T16:46:06.044Z",
+    "x_mitre_platforms": [
+        "Windows"
+    ],
+    "x_mitre_aliases": [
         "certutil",
         "certutil.exe"
     ],
-    "platforms": [
-        "Windows"
-    ]
+    "x_mitre_version": "1.1"
 }

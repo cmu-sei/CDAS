@@ -1,8 +1,5 @@
 {
-    "id": "attack-pattern--6c49d50f-494d-4150-b774-a655022d20a6",
-    "name": "Download New Code at Runtime",
-    "description": "An app could download and execute dynamic code (not included in the original application package) after installation to evade static analysis techniques (and potentially dynamic analysis techniques) used for application vetting or application store review.(Citation: Poeplau-ExecuteThis)\n\nOn Android, dynamic code could include native code, Dalvik code, or JavaScript code that uses the Android WebView's JavascriptInterface capability.(Citation: Bromium-AndroidRCE)\n\nOn iOS, techniques also exist for executing dynamic code downloaded after application installation.(Citation: FireEye-JSPatch)(Citation: Wang)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "url": "https://attack.mitre.org/techniques/T1407",
@@ -34,14 +31,27 @@
             "source_name": "Wang"
         }
     ],
-    "platforms": [
-        "Android",
-        "iOS"
-    ],
-    "kill_chain": [
+    "description": "An app could download and execute dynamic code (not included in the original application package) after installation to evade static analysis techniques (and potentially dynamic analysis techniques) used for application vetting or application store review.(Citation: Poeplau-ExecuteThis)\n\nOn Android, dynamic code could include native code, Dalvik code, or JavaScript code that uses the Android WebView's JavascriptInterface capability.(Citation: Bromium-AndroidRCE)\n\nOn iOS, techniques also exist for executing dynamic code downloaded after application installation.(Citation: FireEye-JSPatch)(Citation: Wang)",
+    "name": "Download New Code at Runtime",
+    "created_by_ref": "The MITRE Corporation",
+    "id": "attack-pattern--6c49d50f-494d-4150-b774-a655022d20a6",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "defense-evasion"
         }
-    ]
+    ],
+    "modified": "2019-10-09T19:40:52.090Z",
+    "created": "2017-10-25T14:48:14.460Z",
+    "x_mitre_detection": "Downloading new code at runtime can be difficult to detect, and therefore enterprises may be better served focusing on detection at other stages of adversary behavior.",
+    "x_mitre_platforms": [
+        "Android",
+        "iOS"
+    ],
+    "x_mitre_tactic_type": [
+        "Post-Adversary Device Access"
+    ],
+    "x_mitre_version": "1.2",
+    "x_mitre_old_attack_id": "MOB-T1010"
 }

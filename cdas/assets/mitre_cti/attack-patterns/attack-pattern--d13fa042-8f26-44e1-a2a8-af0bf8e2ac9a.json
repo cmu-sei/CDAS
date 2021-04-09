@@ -1,8 +1,14 @@
 {
-    "id": "attack-pattern--d13fa042-8f26-44e1-a2a8-af0bf8e2ac9a",
-    "name": "Obfuscated Files or Information",
-    "description": "An app could contain malicious code in obfuscated or encrypted form, then deobfuscate or decrypt the code at runtime to evade many app vetting techniques.(Citation: Rastogi) (Citation: Zhou) (Citation: TrendMicro-Obad) (Citation: Xiao-iOS)",
-    "references": [
+    "created": "2017-10-25T14:48:32.328Z",
+    "modified": "2019-09-23T13:26:01.263Z",
+    "kill_chain_phases": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "defense-evasion"
+        }
+    ],
+    "type": "attack-pattern",
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "url": "https://attack.mitre.org/techniques/T1406",
@@ -34,14 +40,18 @@
             "source_name": "Xiao-iOS"
         }
     ],
-    "platforms": [
+    "description": "An app could contain malicious code in obfuscated or encrypted form, then deobfuscate or decrypt the code at runtime to evade many app vetting techniques.(Citation: Rastogi) (Citation: Zhou) (Citation: TrendMicro-Obad) (Citation: Xiao-iOS)",
+    "name": "Obfuscated Files or Information",
+    "created_by_ref": "The MITRE Corporation",
+    "id": "attack-pattern--d13fa042-8f26-44e1-a2a8-af0bf8e2ac9a",
+    "x_mitre_platforms": [
         "Android",
         "iOS"
     ],
-    "kill_chain": [
-        {
-            "kill_chain_name": "mitre-mobile-attack",
-            "phase_name": "defense-evasion"
-        }
-    ]
+    "x_mitre_tactic_type": [
+        "Post-Adversary Device Access"
+    ],
+    "x_mitre_version": "2.0",
+    "x_mitre_old_attack_id": "MOB-T1009",
+    "x_mitre_detection": "Malicious obfuscation of files or information can be difficult to detect, and therefore enterprises may be better served focusing on detection at other stages of adversary behavior."
 }

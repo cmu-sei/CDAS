@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--58af3705-8740-4c68-9329-ec015a7013c2",
-    "name": "Path Interception by Search Order Hijacking",
     "description": "Adversaries may execute their own malicious payloads by hijacking the search order used to load other programs. Because some programs do not call other programs using the full path, adversaries may place their own file in the directory where the calling program is located, causing the operating system to launch their malicious software at the request of the calling program.\n\nSearch order hijacking occurs when an adversary abuses the order in which Windows searches for programs that are not given a path. Unlike [DLL Search Order Hijacking](https://attack.mitre.org/techniques/T1574/001), the search order differs depending on the method that is used to execute the program. (Citation: Microsoft CreateProcess) (Citation: Windows NT Command Shell) (Citation: Microsoft WinExec) However, it is common for Windows to search in the directory of the initiating program before searching through the Windows system directory. An adversary who finds a program vulnerable to search order hijacking (i.e., a program that does not specify the path to an executable) may take advantage of this vulnerability by creating a program named after the improperly specified program and placing it within the initiating program's directory.\n\nFor example, \"example.exe\" runs \"cmd.exe\" with the command-line argument <code>net user</code>. An adversary may place a program called \"net.exe\" within the same directory as example.exe, \"net.exe\" will be run instead of the Windows system utility net. In addition, if an adversary places a program called \"net.com\" in the same directory as \"net.exe\", then <code>cmd.exe /C net user</code> will execute \"net.com\" instead of \"net.exe\" due to the order of executable extensions defined under PATHEXT. (Citation: Microsoft Environment Property)\n\nSearch order hijacking is also a common practice for hijacking DLL loads and is covered in [DLL Search Order Hijacking](https://attack.mitre.org/techniques/T1574/001).",
-    "references": [
+    "name": "Path Interception by Search Order Hijacking",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1574.008",
@@ -34,10 +35,8 @@
             "description": "Microsoft. (2011, October 24). Environment Property. Retrieved July 27, 2016."
         }
     ],
-    "platforms": [
-        "Windows"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "persistence"
@@ -51,9 +50,29 @@
             "phase_name": "defense-evasion"
         }
     ],
-    "permissions": [
+    "modified": "2020-09-17T19:03:35.217Z",
+    "created": "2020-03-13T17:48:58.999Z",
+    "x_mitre_platforms": [
+        "Windows"
+    ],
+    "x_mitre_contributors": [
+        "Stefan Kanthak"
+    ],
+    "x_mitre_data_sources": [
+        "Process monitoring",
+        "File monitoring"
+    ],
+    "x_mitre_detection": "Monitor file creation for files named after partial directories and in locations that may be searched for common processes through the environment variable, or otherwise should not be user writable. Monitor the executing process for process executable paths that are named for partial directories. Monitor file creation for programs that are named after Windows system programs or programs commonly executed without a path (such as \"findstr,\" \"net,\" and \"python\"). If this activity occurs outside of known administration activity, upgrades, installations, or patches, then it may be suspicious.\n\nData and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as network connections made for Command and Control, learning details about the environment through Discovery, and Lateral Movement.\n",
+    "x_mitre_permissions_required": [
         "Administrator",
         "User",
         "SYSTEM"
-    ]
+    ],
+    "x_mitre_effective_permissions": [
+        "Administrator",
+        "SYSTEM",
+        "User"
+    ],
+    "x_mitre_is_subtechnique": true,
+    "x_mitre_version": "1.0"
 }

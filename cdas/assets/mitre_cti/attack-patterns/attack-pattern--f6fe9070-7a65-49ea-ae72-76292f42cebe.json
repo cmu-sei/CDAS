@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--f6fe9070-7a65-49ea-ae72-76292f42cebe",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Signed Script Proxy Execution",
     "description": "Adversaries may use scripts signed with trusted certificates to proxy execution of malicious files. Several Microsoft signed scripts that are default on Windows installations can be used to proxy execution of other files. This behavior may be abused by adversaries to execute malicious files that could bypass application control and signature validation on systems.(Citation: GitHub Ultimate AppLocker Bypass List)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1216",
@@ -14,16 +15,33 @@
             "source_name": "GitHub Ultimate AppLocker Bypass List"
         }
     ],
-    "platforms": [
-        "Windows"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "defense-evasion"
         }
     ],
-    "permissions": [
+    "modified": "2020-06-20T22:39:47.559Z",
+    "created": "2018-04-18T17:59:24.739Z",
+    "x_mitre_is_subtechnique": false,
+    "x_mitre_platforms": [
+        "Windows"
+    ],
+    "x_mitre_permissions_required": [
         "User"
-    ]
+    ],
+    "x_mitre_detection": "Monitor script processes, such as `cscript`, and command-line parameters for scripts like PubPrn.vbs that may be used to proxy execution of malicious files.",
+    "x_mitre_defense_bypassed": [
+        "Application control",
+        "Digital Certificate Validation"
+    ],
+    "x_mitre_contributors": [
+        "Praetorian"
+    ],
+    "x_mitre_data_sources": [
+        "Process monitoring",
+        "Process command-line parameters"
+    ],
+    "x_mitre_version": "1.1"
 }

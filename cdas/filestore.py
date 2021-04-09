@@ -224,7 +224,7 @@ class FileStore():
                         bullets = []
                         for v in d_value:
                             if type(v) is dict:
-                                p = str(v)
+                                p = '; '.join([v[v_i] for v_i in v])
                             else:
                                 p = v
                             if type(d_value) is not list:

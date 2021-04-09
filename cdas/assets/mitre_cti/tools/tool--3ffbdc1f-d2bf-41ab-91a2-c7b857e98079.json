@@ -1,8 +1,5 @@
 {
-    "id": "tool--3ffbdc1f-d2bf-41ab-91a2-c7b857e98079",
-    "name": "RawDisk",
-    "description": "[RawDisk](https://attack.mitre.org/software/S0364) is a legitimate commercial driver from the EldoS Corporation that is used for interacting with files, disks, and partitions. The driver allows for direct modification of data on a local computer's hard drive. In some cases, the tool can enact these raw disk modifications from user-mode processes, circumventing Windows operating system security features.(Citation: EldoS RawDisk ITpro)(Citation: Novetta Blockbuster Destructive Malware)",
-    "references": [
+    "external_references": [
         {
             "external_id": "S0364",
             "source_name": "mitre-attack",
@@ -19,10 +16,21 @@
             "url": "https://operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Destructive-Malware-Report.pdf"
         }
     ],
-    "aliases": [
+    "created_by_ref": "The MITRE Corporation",
+    "name": "RawDisk",
+    "description": "[RawDisk](https://attack.mitre.org/software/S0364) is a legitimate commercial driver from the EldoS Corporation that is used for interacting with files, disks, and partitions. The driver allows for direct modification of data on a local computer's hard drive. In some cases, the tool can enact these raw disk modifications from user-mode processes, circumventing Windows operating system security features.(Citation: EldoS RawDisk ITpro)(Citation: Novetta Blockbuster Destructive Malware)",
+    "id": "tool--3ffbdc1f-d2bf-41ab-91a2-c7b857e98079",
+    "type": "tool",
+    "labels": [
+        "tool"
+    ],
+    "modified": "2019-04-19T19:04:55.892Z",
+    "created": "2019-03-25T12:30:40.919Z",
+    "x_mitre_version": "1.0",
+    "x_mitre_aliases": [
         "RawDisk"
     ],
-    "platforms": [
+    "x_mitre_platforms": [
         "Windows"
     ]
 }

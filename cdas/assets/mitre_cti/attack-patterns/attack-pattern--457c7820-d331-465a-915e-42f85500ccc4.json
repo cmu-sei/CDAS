@@ -1,25 +1,53 @@
 {
     "id": "attack-pattern--457c7820-d331-465a-915e-42f85500ccc4",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Signed Binary Proxy Execution",
     "description": "Adversaries may bypass process and/or signature-based defenses by proxying execution of malicious content with signed binaries. Binaries signed with trusted digital certificates can execute on Windows systems protected by digital signature validation. Several Microsoft signed binaries that are default on Windows installations can be used to proxy execution of other files.",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "external_id": "T1218",
             "url": "https://attack.mitre.org/techniques/T1218"
         }
     ],
-    "platforms": [
-        "Windows"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-attack",
             "phase_name": "defense-evasion"
         }
     ],
-    "permissions": [
+    "modified": "2020-10-21T18:37:15.275Z",
+    "created": "2018-04-18T17:59:24.739Z",
+    "x_mitre_is_subtechnique": false,
+    "x_mitre_platforms": [
+        "Windows"
+    ],
+    "x_mitre_permissions_required": [
         "User",
         "Administrator"
-    ]
+    ],
+    "x_mitre_detection": "Monitor processes and command-line parameters for signed binaries that may be used to proxy execution of malicious files. Compare recent invocations of signed binaries that may be used to proxy execution with prior history of known good arguments and loaded files to determine anomalous and potentially adversarial activity. Legitimate programs used in suspicious ways, like msiexec.exe downloading an MSI file from the Internet, may be indicative of an intrusion. Correlate activity with other suspicious behavior to reduce false positives that may be due to normal benign use by users and administrators.\n\nMonitor for file activity (creations, downloads, modifications, etc.), especially for file types that are not typical within an environment and may be indicative of adversary activity.",
+    "x_mitre_defense_bypassed": [
+        "Anti-virus",
+        "Application control",
+        "Digital Certificate Validation"
+    ],
+    "x_mitre_contributors": [
+        "Nishan Maharjan, @loki248",
+        "Hans Christoffer Gaardl\u00f8s",
+        "Praetorian"
+    ],
+    "x_mitre_data_sources": [
+        "API monitoring",
+        "File monitoring",
+        "Binary file metadata",
+        "Process use of network",
+        "Windows Registry",
+        "Loaded DLLs",
+        "DLL monitoring",
+        "Process monitoring",
+        "Process command-line parameters"
+    ],
+    "x_mitre_version": "2.1"
 }

@@ -1,8 +1,9 @@
 {
     "id": "tool--d5e96a35-7b0b-4c6a-9533-d63ecbda563e",
+    "created_by_ref": "The MITRE Corporation",
     "name": "HTRAN",
     "description": "[HTRAN](https://attack.mitre.org/software/S0040) is a tool that proxies connections through intermediate hops and aids users in disguising their true geographical location. It can be used by adversaries to hide their location when interacting with the victim networks. (Citation: Operation Quantum Entanglement)(Citation: NCSC Joint Report Public Tools)",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-attack",
             "url": "https://attack.mitre.org/software/S0040",
@@ -23,12 +24,19 @@
             "source_name": "NCSC Joint Report Public Tools"
         }
     ],
-    "aliases": [
+    "type": "tool",
+    "labels": [
+        "tool"
+    ],
+    "modified": "2019-04-24T20:32:54.936Z",
+    "created": "2017-05-31T21:32:32.011Z",
+    "x_mitre_platforms": [
+        "Linux",
+        "Windows"
+    ],
+    "x_mitre_aliases": [
         "HTRAN",
         "HUC Packet Transmit Tool"
     ],
-    "platforms": [
-        "Linux",
-        "Windows"
-    ]
+    "x_mitre_version": "1.1"
 }

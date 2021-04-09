@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--0c71033e-401e-4b97-9309-7a7c95e43a5d",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Obtain Device Cloud Backups",
     "description": "An adversary who is able to obtain unauthorized access to or misuse authorized access to cloud backup services (e.g. Google's Android backup service or Apple's iCloud) could use that access to obtain sensitive data stored in device backups. For example, the Elcomsoft Phone Breaker product advertises the ability to retrieve iOS backup data from Apple's iCloud (Citation: Elcomsoft-EPPB). Elcomsoft also describes (Citation: Elcomsoft-WhatsApp) obtaining WhatsApp communication histories from backups stored in iCloud.",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "url": "https://attack.mitre.org/techniques/T1470",
@@ -29,14 +30,23 @@
             "url": "https://blog.elcomsoft.com/2017/07/extract-and-decrypt-whatsapp-backups-from-icloud/"
         }
     ],
-    "platforms": [
+    "x_mitre_detection": "Google provides the ability for users to view their account activity. Apple iCloud also provides notifications to users of account activity.",
+    "x_mitre_platforms": [
         "Android",
         "iOS"
     ],
-    "kill_chain": [
+    "x_mitre_tactic_type": [
+        "Without Adversary Device Access"
+    ],
+    "x_mitre_version": "1.0",
+    "x_mitre_old_attack_id": "MOB-T1073",
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "remote-service-effects"
         }
-    ]
+    ],
+    "modified": "2018-10-17T00:14:20.652Z",
+    "created": "2017-10-25T14:48:18.237Z"
 }

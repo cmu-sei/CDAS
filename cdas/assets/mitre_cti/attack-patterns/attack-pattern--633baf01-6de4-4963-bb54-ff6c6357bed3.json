@@ -1,8 +1,9 @@
 {
     "id": "attack-pattern--633baf01-6de4-4963-bb54-ff6c6357bed3",
+    "created_by_ref": "The MITRE Corporation",
     "name": "Rogue Wi-Fi Access Points",
     "description": "An adversary could set up unauthorized Wi-Fi access points or compromise existing access points and, if the device connects to them, carry out network-based attacks such as eavesdropping on or modifying network communication(Citation: NIST-SP800153)(Citation: Kaspersky-DarkHotel).",
-    "references": [
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "url": "https://attack.mitre.org/techniques/T1465",
@@ -24,14 +25,22 @@
             "url": "https://blog.kaspersky.com/darkhotel-apt/6613/"
         }
     ],
-    "platforms": [
-        "Android",
-        "iOS"
-    ],
-    "kill_chain": [
+    "type": "attack-pattern",
+    "kill_chain_phases": [
         {
             "kill_chain_name": "mitre-mobile-attack",
             "phase_name": "network-effects"
         }
-    ]
+    ],
+    "modified": "2019-02-03T15:15:18.023Z",
+    "created": "2017-10-25T14:48:21.354Z",
+    "x_mitre_platforms": [
+        "Android",
+        "iOS"
+    ],
+    "x_mitre_tactic_type": [
+        "Without Adversary Device Access"
+    ],
+    "x_mitre_version": "1.1",
+    "x_mitre_old_attack_id": "MOB-T1068"
 }

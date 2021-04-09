@@ -1,8 +1,23 @@
 {
-    "id": "attack-pattern--82f04b1e-5371-4a6f-be06-411f0f43b483",
-    "name": "Abuse Device Administrator Access to Prevent Removal",
-    "description": "A malicious application can request Device Administrator privileges. If the user grants the privileges, the application can take steps to make its removal more difficult.",
-    "references": [
+    "x_mitre_old_attack_id": "MOB-T1004",
+    "x_mitre_version": "1.1",
+    "x_mitre_tactic_type": [
+        "Post-Adversary Device Access"
+    ],
+    "x_mitre_platforms": [
+        "Android"
+    ],
+    "x_mitre_detection": "The device user can view a list of apps with Device Administrator privilege in the device settings.",
+    "created": "2017-10-25T14:48:29.774Z",
+    "modified": "2019-02-03T16:56:41.200Z",
+    "kill_chain_phases": [
+        {
+            "kill_chain_name": "mitre-mobile-attack",
+            "phase_name": "persistence"
+        }
+    ],
+    "type": "attack-pattern",
+    "external_references": [
         {
             "source_name": "mitre-mobile-attack",
             "url": "https://attack.mitre.org/techniques/T1401",
@@ -14,13 +29,8 @@
             "external_id": "APP-22"
         }
     ],
-    "platforms": [
-        "Android"
-    ],
-    "kill_chain": [
-        {
-            "kill_chain_name": "mitre-mobile-attack",
-            "phase_name": "persistence"
-        }
-    ]
+    "description": "A malicious application can request Device Administrator privileges. If the user grants the privileges, the application can take steps to make its removal more difficult.",
+    "name": "Abuse Device Administrator Access to Prevent Removal",
+    "created_by_ref": "The MITRE Corporation",
+    "id": "attack-pattern--82f04b1e-5371-4a6f-be06-411f0f43b483"
 }

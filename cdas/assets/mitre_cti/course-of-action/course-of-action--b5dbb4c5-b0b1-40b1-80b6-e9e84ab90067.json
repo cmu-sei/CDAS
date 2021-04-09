@@ -1,0 +1,17 @@
+{
+    "id": "course-of-action--b5dbb4c5-b0b1-40b1-80b6-e9e84ab90067",
+    "type": "course-of-action",
+    "created": "2019-07-19T14:40:23.529Z",
+    "created_by_ref": "The MITRE Corporation",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/mitigations/M1054",
+            "external_id": "M1054"
+        }
+    ],
+    "description": "Implement configuration changes to software (other than the operating system) to mitigate security risks associated to how the software operates.",
+    "x_mitre_version": "1.1",
+    "modified": "2020-03-31T13:11:09.471Z",
+    "name": "Software Configuration"
+}
