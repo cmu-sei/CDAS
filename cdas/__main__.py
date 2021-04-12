@@ -210,6 +210,7 @@ def main():
             f.close()
             os.mkdir(path + '/countries/')
             countries = [c[0] for c in countries_fs.query("SELECT name")]
+            countries.sort()
             ul_list = '<ul id="world-map-list">'
             for country in countries:
                 f = open(path + '/countries/' + country + '.html', 'w')
@@ -298,6 +299,7 @@ def main():
             template = f.read()
             f.close()
             apts = [c[0] for c in threat_actor_fs.query("SELECT name")]
+            apts.sort()
             ul_list = '<ul id="threat-actors-list">'
             for apt in apts:
                 short_name = apt.replace(' ','')
@@ -372,6 +374,7 @@ def main():
     logging.info('Saving defenders to output folder...')
     names = defender_fs.query("SELECT id")
     defenders = [defender_fs.get(name[0]) for name in names]
+    defenders.sort(key=lambda x: x.name)
     for ot in config['output']['output_types']:
         logging.debug('\t'+ot)
         if ot == 'misp':
@@ -543,6 +546,7 @@ def main():
         else:
             os.mkdir(path + '/reports/')
             events = [events_fs.get(i[0]) for i in events_fs.query("SELECT id")]
+            events.sort(key=lambda x: x.name)
             for e in events:
                 output_dir.output(ot+'/reports', e, ot)
         if ot == 'html':
