@@ -1,5 +1,5 @@
 {
-    "attack-motivation_notes": "source: STIX 2.0; \"accidental\" removed",
+    "attack-motivation_notes": "source: STIX 2.0; \"accidental\" removed from attack-motivation",
     "attack-motivation": [
         "coercion", "dominance", "ideology", "notoriety", "organizational gain",
         "personal gain", "personal satisfaction", "revenge", "unpredictable"
