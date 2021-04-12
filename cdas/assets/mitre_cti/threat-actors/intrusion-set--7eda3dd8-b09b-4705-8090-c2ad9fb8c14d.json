@@ -1,0 +1,66 @@
+{
+    "id": "intrusion-set--7eda3dd8-b09b-4705-8090-c2ad9fb8c14d",
+    "type": "intrusion-set",
+    "description": "[TA505] is a financially motivated threat group that has been active since at least 2014. The group is known for frequently changing malware and driving global trends in criminal malware distribution.(Citation: Proofpoint TA505 Sep 2017)(Citation: Proofpoint TA505 June 2018)(Citation: Proofpoint TA505 Jan 2019)",
+    "name": "TA505",
+    "external_references": [
+        {
+            "external_id": "G0092",
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/groups/G0092"
+        },
+        {
+            "source_name": "Hive0065",
+            "description": "(Citation: IBM TA505 April 2020)"
+        },
+        {
+            "description": "Proofpoint Staff. (2017, September 27). Threat Actor Profile: TA505, From Dridex to GlobeImposter. Retrieved May 28, 2019.",
+            "url": "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta505-dridex-globeimposter",
+            "source_name": "Proofpoint TA505 Sep 2017"
+        },
+        {
+            "description": "Proofpoint Staff. (2018, June 8). TA505 shifts with the times. Retrieved May 28, 2019.",
+            "url": "https://www.proofpoint.com/us/threat-insight/post/ta505-shifts-times",
+            "source_name": "Proofpoint TA505 June 2018"
+        },
+        {
+            "source_name": "Proofpoint TA505 Jan 2019",
+            "url": "https://www.proofpoint.com/us/threat-insight/post/servhelper-and-flawedgrace-new-malware-introduced-ta505",
+            "description": "Schwarz, D. and Proofpoint Staff. (2019, January 9). ServHelper and FlawedGrace - New malware introduced by TA505. Retrieved May 28, 2019."
+        },
+        {
+            "source_name": "IBM TA505 April 2020",
+            "url": "https://securityintelligence.com/posts/ta505-continues-to-infect-networks-with-sdbbot-rat/",
+            "description": "Frydrych, M. (2020, April 14). TA505 Continues to Infect Networks With SDBbot RAT. Retrieved May 29, 2020."
+        }
+    ],
+    "created_by_ref": "The MITRE Corporation",
+    "aliases": [
+        "TA505",
+        "Hive0065"
+    ],
+    "modified": "2020-06-23T20:39:02.606Z",
+    "created": "2019-05-28T15:54:17.213Z",
+    "x_mitre_version": "1.1",
+    "attribution": "Russia",
+    "sophistication": "expert",
+    "actor_type": "crime-syndicate",
+    "sectors": [
+        "education",
+        "financial services",
+        "healthcare",
+        "hospitality-leisure",
+        "retail"
+    ],
+    "target_locations": [
+        "ANY"
+    ],
+    "primary_motivation": [
+        "organizational gain"
+    ],
+    "goals": [
+        "steal financial information",
+        "steal money"
+    ],
+    "first_seen": "2006"
+}
