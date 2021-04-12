@@ -213,10 +213,10 @@ def main():
             countries.sort()
             ul_list = '<ul id="world-map-list">'
             for country in countries:
-                f = open(path + '/countries/' + country + '.html', 'w')
-                f.write(c_template.replace('COUNTRY', country))
+                f = open(path + '/countries/' + country.replace(' ','') + '.html', 'w')
+                f.write(c_template.replace('COUNTRY', country.replace(' ','')))
                 f.close()
-                ul_list += f"<li><a href='countries/{country}.html'>{country}</a></li>"
+                ul_list += f"<li><a href='countries/{country.replace(' ','')}.html'>{country}</a></li>"
             os.remove(path+'/COUNTRY.html')
             f = open(path + '/index.html', 'r')
             index = f.read()
