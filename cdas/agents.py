@@ -113,6 +113,10 @@ class ThreatActor():
                 noun = np.random.choice(actor_name_2)
             self.name = adj + " " + noun
 
+            # Set attribution
+            countries = countries_fs.query("SELECT name")
+            self.attribution = np.random.choice([c[0] for c in countries])
+
             self.sophistication = str(np.random.choice(
                 list(stix['threat-actor-sophistication'])))
             self.actor_type = np.random.choice(
@@ -145,10 +149,6 @@ class ThreatActor():
             self.secondary_motivations = motivations[1:]
             self.goals = list(
                 np.random.choice(stix['goals'], np.random.randint(2, 4), False))
-
-            countries = countries_fs.query("SELECT name")
-            # Set attribution
-            self.attribution = np.random.choice([c[0] for c in countries])
 
     def create_fake_history(
             self, relationships, tools, malwares, ttps, sophistication):
@@ -340,7 +340,8 @@ class Defender():
         'Company Description': {
             'background': '', 'revenue': 'Annual revenue', 'sector': 'Sector',
             'headquarters': 'Headquartered in the country of',
-            'number_of_employees': 'Number of employees'},
+            'num_employees': 'Number of employees',
+            'budget': 'Annual security budget'},
         'Vulnerability Assessment': {
             'vulnerability_score': 'Score (out of 100)',
             'vulns': 'Vulnerabilities found'}
@@ -354,20 +355,48 @@ class Defender():
         else:
             self.id = "defender--" + str(uuid.uuid4())
             self.name = np.random.choice(org_names).strip()
-            revenue = int(np.random.chisquare(1) * 10000)
+            revenue = int(np.random.chisquare(1) * 1000)
             while revenue == 0:
-                revenue = int(np.random.chisquare(1) * 10000)
-            self.revenue = "$"+"{:,}".format(revenue)+" million"
+                revenue = int(np.random.chisquare(1) * 1000)
+            if revenue < 1000:
+                self.revenue = f"${revenue} million"
+            elif revenue >= 1000 and revenue < 10000:
+                rev = str(round(revenue, -2))
+                self.revenue = f"${rev[0]}.{rev[1]} billion"
+            else:
+                rev = str(round(revenue, -2))
+                self.revenue = f"${rev[:2]}.{rev[2]} billion"
             self.sector = np.random.choice(sectors)
             self.background = ""
             self.headquarters = country
-            self.number_of_employees = "{:,}".format(np.random.randint(500, 15000))
+            self.num_employees = "{:,}".format(np.random.randint(500, 15000))
+            it_budget = .05 * revenue  # IT budget is 5% of revenue
+            # security budget is 10-20% of the IT budget
+            security_budget = np.random.uniform(.10,.20) * it_budget * 1000000
+            self.budget = "$" + "{:,}".format(round(security_budget, -3))
 
+            # set the defender's security sophistication
+            if security_budget >= 10000000:
+                self.sophistication = 1  # 'strategic'
+            elif security_budget >= 5000000:
+                self.sophistication = 2  # 'innovator'
+            elif security_budget >= 2000000:
+                self.sophistication = 3  # 'expert'
+            elif security_budget >= 500000:
+                self.sophistication = 4  # 'advanced'
+            elif security_budget >= 100000:
+                self.sophistication = 5  # 'intermediate'
+            elif security_budget >= 50000:
+                self.sophistication = 6  # 'minimal'
+            else:
+                self.sophistication = 7  # 'none'
+
+            # Vulnerability list
             score = 0
             vulns = []
-            dist = np.random.beta(3, 2)  # overall scoring distribution
+            dist = 1 - np.random.beta(self.sophistication, 2)
             while dist < 0.2:
-                dist = np.random.beta(3, 2)
+                dist = 1 - np.random.beta(self.sophistication, 2)
             for cat in assessment:
                 for r in assessment[cat]:
                     pf = np.random.choice(a=['Yes', 'No'], p=[dist, 1-dist])
