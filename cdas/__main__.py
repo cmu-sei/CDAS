@@ -50,6 +50,7 @@ import uuid
 # Import custom modules
 from . import context, agents, simulator, filestore
 
+
 def main():
 
     parser = argparse.ArgumentParser()
@@ -62,7 +63,8 @@ def main():
     parser.add_argument(
         "-o", "--output-directory",
         help="directory for storing results")
-    parser.add_argument('--verbose', '-v', action='count', default=0,
+    parser.add_argument(
+        '--verbose', '-v', action='count', default=0,
         help="v for basic status, vv for detailed status")
 
     args = parser.parse_args()
@@ -114,7 +116,8 @@ def main():
             if f.lower() not in datastore.keys():
                 raise Exception(
                     f'{f} in {args.input_directory} is not allowed as an '
-                    f'input. These are allowed: {", ".join(list(datastore.keys()))}')
+                    f'input. These are allowed: '
+                    f'{", ".join(list(datastore.keys()))}')
             else:
                 datastore[f.lower()] = os.path.join(args.input_directory, f)
         if 'relationships.json' in input_fs:
@@ -198,7 +201,7 @@ def main():
         if ot == "html":
             templates = pkg_resources.resource_filename(
                 __name__, f'assets/{ot}_templates')
-            shutil.copytree(templates,path)
+            shutil.copytree(templates, path)
         elif ot == "misp":
             os.mkdir(path)
         else:
@@ -213,10 +216,14 @@ def main():
             countries.sort()
             ul_list = '<ul id="world-map-list">'
             for country in countries:
-                f = open(path + '/countries/' + country.replace(' ','') + '.html', 'w')
-                f.write(c_template.replace('COUNTRY', country.replace(' ','')))
+                f = open(os.path.join(
+                    path, 'countries', country.replace(' ', '')+'.html'), 'w')
+                f.write(c_template.replace(
+                    'COUNTRY', country.replace(' ', '')))
                 f.close()
-                ul_list += f"<li><a href='countries/{country.replace(' ','')}.html'>{country}</a></li>"
+                ul_list += (
+                    f"<li><a href='countries/{country.replace(' ','')}.html'>"
+                    f"{country}</a></li>")
             os.remove(path+'/COUNTRY.html')
             f = open(path + '/index.html', 'r')
             index = f.read()
@@ -225,7 +232,8 @@ def main():
             f.write(index.replace('<ul id="world-map-list">', ul_list))
             f.close()
         if ot == 'misp':
-            output_dir.save_misp(path+'/country-galaxy-cluster.json', countries_fs)
+            output_dir.save_misp(
+                path+'/country-galaxy-cluster.json', countries_fs)
         else:
             for i in countries_fs.query("SELECT id"):
                 country = countries_fs.get(i[0])
@@ -272,7 +280,8 @@ def main():
                 stix_vocab, actor_name_1, actor_name_2, countries_fs,
                 threat_actor_fs)
             threat_actor_fs.save(actor)
-            actor.create_fake_history(relationships, tools, malwares, ttps,
+            actor.create_fake_history(
+                relationships, tools, malwares, ttps,
                 stix_vocab['threat-actor-sophistication'])
             actors += 1
     else:
@@ -302,11 +311,13 @@ def main():
             apts.sort()
             ul_list = '<ul id="threat-actors-list">'
             for apt in apts:
-                short_name = apt.replace(' ','')
+                short_name = apt.replace(' ', '')
                 f = open(path + '/threat-actors/' + short_name + '.html', 'w')
                 f.write(template.replace('APT', short_name))
                 f.close()
-                ul_list += f"<li><a href='threat-actors/{short_name}.html'>{apt}</a></li>"
+                ul_list += (
+                    f"<li><a href='threat-actors/{short_name}.html'>"
+                    f"{apt}</a></li>")
             os.remove(path+'/APT.html')
             f = open(path + '/index.html', 'r')
             index = f.read()
@@ -390,10 +401,13 @@ def main():
             f.close()
             ul_list = '<ul id="companies-list">'
             for d in defenders:
-                f = open(path + '/defenders/' + d.name.replace(' ','') + '.html', 'w')
-                f.write(template.replace('COMPANY', d.name.replace(' ','')))
+                f = open(os.path.join(
+                    path, 'defenders', d.name.replace(' ', '') + '.html'), 'w')
+                f.write(template.replace('COMPANY', d.name.replace(' ', '')))
                 f.close()
-                ul_list += f"<li><a href='defenders/{d.name.replace(' ','')}.html'>{d.name}</a></li>"
+                ul_list += (
+                    f"<li><a href='defenders/{d.name.replace(' ', '')}.html'>"
+                    f"{d.name}</a></li>")
             os.remove(path+'/COMPANY.html')
             f = open(path + '/index.html', 'r')
             index = f.read()
@@ -425,8 +439,9 @@ def main():
                     f'\'network--[uuidv4 string]\'')
             network_ids.append('network--'+netname)
             src = os.path.join(datastore['networks'], f)
-            dst = os.path.join(config['output']['temp_directory'],
-                    'networks', 'network--'+netname)
+            dst = os.path.join(
+                config['output']['temp_directory'], 'networks',
+                'network--'+netname)
             if os.path.isfile(src):
                 fs = filesystem.FileSystem(dst)
                 fs.load_flatfile(src)
@@ -435,10 +450,12 @@ def main():
         # Add relationships of networks to defenders
         logging.info("Applying networks to defenders...")
         # if defender input was given and the defender to network relationships
-        # were provided in a relationships file 
+        # were provided in a relationships file
         already_assigned = []
         for d in defenders:
-            rels = [r for r in relationships if d.id in r and any(item in r for item in network_ids)]
+            rels = [
+                r for r in relationships
+                if d.id in r and any(item in r for item in network_ids)]
             if len(rels) == 1:
                 already_assigned.append(d.id)
         # ensure all defenders get a network
@@ -448,12 +465,14 @@ def main():
                 'file. Assign all defenders to a network in the relationships '
                 'file, or do not assign any relationships between defenders '
                 'and networks (networks will be randomly assigned.')
-        # otherwise, no relationship mapping was provided, randomly and evenly assign networks to defenders
+        # otherwise, no relationship mapping was provided, randomly and
+        # evenly assign networks to defenders
         if len(already_assigned) == 0:
             i = 0
             while i < len(defenders):
                 net_id = i % len(network_ids)
-                relationships.append((defenders[i].id, 'owns', network_ids[net_id]))
+                relationships.append(
+                    (defenders[i].id, 'owns', network_ids[net_id]))
                 i += 1
     else:
         logging.info("Creating random networks for defenders...")
@@ -484,7 +503,7 @@ def main():
                 fs.save_flatfile(os.path.join(dst, network + '.json'))
             elif ot == 'html':
                 fs.save_flatfile(os.path.join(
-                    dst, owner_name[0][0].replace(' ','') + 'Network.json'))
+                    dst, owner_name[0][0].replace(' ', '') + 'Network.json'))
                 net_sum = widgets.network_summary(fs)
                 net_sum['name'] = owner_name[0][0] + ' Network'
                 output_dir.output_network_file(ot + '/networks', net_sum, ot)
@@ -509,22 +528,14 @@ def main():
     events_fs = filestore.FileStore(
         os.path.join(config['output']['temp_directory'], 'events'),
         context.Event, write=True)
-    simulator.simulate(
-        actors, defenders, config['defenders']['allow_defense'], events_fs,
-        relationships, stix_vocab['threat-actor-sophistication'])
-    # We don't know ahead of time how many moves will be made, so once the 
-    # simulation is done, go back to the events and set to the correct day/time
-    events = [events_fs.get(i[0]) for i in events_fs.query("SELECT id")]
     start = datetime.strptime(
         config["simulation"]['time_range'][0], '%Y-%m-%d')
     end = datetime.strptime(config["simulation"]['time_range'][1], '%Y-%m-%d')
-    time_increment = (end - start)/len(events)
-    newlist = sorted(events, key=lambda x: x.date)
-    for e in newlist:
-        e.date = start
-        e.name = "Report_" + start.strftime("%Y%m%d_%H%M%S")
-        events_fs.save(e, overwrite=True)
-        start += time_increment
+    time_increment = (end - start)/config["simulation"]['rounds']
+    simulator.simulate(
+        actors, defenders, config['defenders']['allow_defense'], events_fs,
+        relationships, stix_vocab['threat-actor-sophistication'], start,
+        time_increment, config["simulation"]['rounds'], config["defenders"]['increment_budget'])
 
     # Create output files
     logging.info('Saving simulation output...')
@@ -545,7 +556,8 @@ def main():
             output_dir.save_misp(path+'/events.json', events_fs)
         else:
             os.mkdir(path + '/reports/')
-            events = [events_fs.get(i[0]) for i in events_fs.query("SELECT id")]
+            events = [
+                events_fs.get(i[0]) for i in events_fs.query("SELECT id")]
             events.sort(key=lambda x: x.name)
             for e in events:
                 output_dir.output(ot+'/reports', e, ot)
@@ -558,7 +570,8 @@ def main():
                 f = open(path + '/reports/' + e.name + '.html', 'w')
                 f.write(template.replace('REPORT', e.name))
                 f.close()
-                ul_list += f"<li><a href='reports/{e.name}.html'>{e.name}</a></li>"
+                ul_list += (
+                    f"<li><a href='reports/{e.name}.html'>{e.name}</a></li>")
             os.remove(path+'/REPORT.html')
             f = open(path + '/index.html', 'r')
             index = f.read()
@@ -567,7 +580,7 @@ def main():
             f.write(index.replace('<ul id="reports-list">', ul_list))
             f.close()
 
-    # shutil.rmtree(config['output']['temp_directory'])
+    shutil.rmtree(config['output']['temp_directory'])
 
     logging.info('Done')
 

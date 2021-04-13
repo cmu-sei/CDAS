@@ -59,10 +59,10 @@ class ThreatActor():
             name. Used for creating random actors; optional if providing actor
             attributes via kwargs.
         countries_fs (FileStore object): Where the country data is stored.
-        threat_actor_fs (FileStore object): Where the threat actor data is 
+        threat_actor_fs (FileStore object): Where the threat actor data is
             stored.
         **kwargs: Used to instantiate an actor
-    
+
     Attributes:
         _file_specification (dict): requirements for a threat actor input file
         id (str): unique ID starting with "intrusion-set--"
@@ -78,21 +78,22 @@ class ThreatActor():
             'description': '', 'modified': 'Data last modified',
             'first-seen': 'First seen',
             'sophistication': 'Sophistication', 'actor_type': 'Actor type',
-            'aliases': 'Aliases', 'sectors': 'Targeted sectors', 
+            'aliases': 'Aliases', 'sectors': 'Targeted sectors',
             'target_locations': 'Targeted locations',
             'primary_motivation': 'Primary motivation',
             'secondary_motivations': 'Secondary motivations',
             'goals': 'Goals', 'attribution': 'Attributed to the country of'},
         'Technical Appendix': {
             'tools': 'This actor has been known to use the following tools',
-            'malware': 'Malware', 'ttps':'TTPs'
+            'malware': 'Malware', 'ttps': 'TTPs'
         },
         'References': {
             'external_references': ''
         }
     }
 
-    def __init__(self, stix=None, actor_name_1=None, actor_name_2=None, 
+    def __init__(
+            self, stix=None, actor_name_1=None, actor_name_2=None,
             countries_fs=None, threat_actor_fs=None, **kwargs):
 
         if len(kwargs) > 0:
@@ -144,11 +145,12 @@ class ThreatActor():
                 date.today().toordinal()))
 
             motivations = list(np.random.choice(
-                stix['attack-motivation'], np.random.randint(2, 4), replace=False))
+                stix['attack-motivation'], np.random.randint(2, 4),
+                replace=False))
             self.primary_motivation = str(motivations[0])
             self.secondary_motivations = motivations[1:]
-            self.goals = list(
-                np.random.choice(stix['goals'], np.random.randint(2, 4), False))
+            self.goals = list(np.random.choice(
+                stix['goals'], np.random.randint(2, 4), False))
 
     def create_fake_history(
             self, relationships, tools, malwares, ttps, sophistication):
@@ -165,7 +167,7 @@ class ThreatActor():
 
         some_tools = np.random.choice(tools, num_mal+2, False)
         for tool in some_tools:
-            if (self.id,'uses',tool.id) not in relationships:
+            if (self.id, 'uses', tool.id) not in relationships:
                 relationships.append((self.id, 'uses', tool.id))
 
         some_malwares = np.random.choice(malwares, num_mal, False)
@@ -175,7 +177,7 @@ class ThreatActor():
 
         some_ttps = np.random.choice(ttps, (num_mal+1)*2, False)
         for ttp in some_ttps:
-            if (self.id,'uses',ttp.id) not in relationships:
+            if (self.id, 'uses', ttp.id) not in relationships:
                 relationships.append((self.id, 'uses', ttp.id))
 
     def _serialize(self):
@@ -233,16 +235,16 @@ class ThreatActor():
                 "restricted_to_domain": "",
                 "landingpage": None
                 },
-                "Orgc": {
-                    "name": "CDAS",
-                    "description": "Cybersecurity Decision Analysis Simulator",
-                    "type": "Simulation generator",
-                    "nationality": "Not specified",
-                    "uuid": "4b1e8e88-78fb-48bd-8a46-5de63fd16688",
-                    "local": False,
-                    "restricted_to_domain": "",
-                    "landingpage": None
-                },
+            "Orgc": {
+                "name": "CDAS",
+                "description": "Cybersecurity Decision Analysis Simulator",
+                "type": "Simulation generator",
+                "nationality": "Not specified",
+                "uuid": "4b1e8e88-78fb-48bd-8a46-5de63fd16688",
+                "local": False,
+                "restricted_to_domain": "",
+                "landingpage": None
+            },
             }
         }
 
@@ -250,7 +252,7 @@ class ThreatActor():
         for key, value in self.__dict__.items():
             if key == 'id':
                 continue
-            element = {"key":key}
+            element = {"key": key}
             if isinstance(value, date):
                 element["value"] = value.strftime("%d %b %Y")
             elif isinstance(value, list):
@@ -308,11 +310,11 @@ class ThreatActor():
             t_name, refs = ttp_fs.query(q)[0]
             for ref in refs:
                 if ref['source_name'].startswith("mitre"):
-                    t_name += " (Mitre Attack: "+ref['external_id']+ ')'
+                    t_name += " (Mitre Attack: "+ref['external_id'] + ')'
             ttp_names.append(t_name)
         if len(ttp_names) > 0:
             apt_to_save.ttps = ttp_names
-        
+
         return apt_to_save
 
 
@@ -323,7 +325,7 @@ class Defender():
         sectors (list): economic sectors to chose from
         country (str): names of countries to chose from
         org_names (list): names to chose from
-        assessment (dict): used for vulnerability status 
+        assessment (dict): used for vulnerability status
         **kwargs: Used to instantiate a Defender from the given values
 
     Attributes:
@@ -346,8 +348,9 @@ class Defender():
             'vulnerability_score': 'Score (out of 100)',
             'vulns': 'Vulnerabilities found'}
     }
-    
-    def __init__(self, sectors=None, country=None, org_names=None,
+
+    def __init__(
+            self, sectors=None, country=None, org_names=None,
             assessment=None, **kwargs):
 
         if len(kwargs) > 0:
@@ -372,7 +375,7 @@ class Defender():
             self.num_employees = "{:,}".format(np.random.randint(500, 15000))
             it_budget = .05 * revenue  # IT budget is 5% of revenue
             # security budget is 10-20% of the IT budget
-            security_budget = np.random.uniform(.10,.20) * it_budget * 1000000
+            security_budget = np.random.uniform(.10, .20) * it_budget * 1000000
             self.budget = "$" + "{:,}".format(round(security_budget, -3))
 
             # set the defender's security sophistication
@@ -403,7 +406,8 @@ class Defender():
                     if pf == 'Yes':
                         score += r['Value']
                     else:
-                        vulns.append(f"({r['Requirement']}) {r['Description']}")
+                        vulns.append(
+                            f"({r['Requirement']}) {r['Description']}")
             self.vulnerability_score = int(score/313 * 100)
             self.vulns = vulns
 
@@ -458,16 +462,16 @@ class Defender():
                 "restricted_to_domain": "",
                 "landingpage": None
                 },
-                "Orgc": {
-                    "name": "CDAS",
-                    "description": "Cybersecurity Decision Analysis Simulator",
-                    "type": "Simulation generator",
-                    "nationality": "Not specified",
-                    "uuid": "4b1e8e88-78fb-48bd-8a46-5de63fd16688",
-                    "local": False,
-                    "restricted_to_domain": "",
-                    "landingpage": None
-                },
+            "Orgc": {
+                "name": "CDAS",
+                "description": "Cybersecurity Decision Analysis Simulator",
+                "type": "Simulation generator",
+                "nationality": "Not specified",
+                "uuid": "4b1e8e88-78fb-48bd-8a46-5de63fd16688",
+                "local": False,
+                "restricted_to_domain": "",
+                "landingpage": None
+            },
             }
         }
 
@@ -475,7 +479,7 @@ class Defender():
         for key, value in self.__dict__.items():
             if key == 'id':
                 continue
-            element = {"key":key}
+            element = {"key": key}
             if isinstance(value, list):
                 element["value"] = '; '.join(value)
             else:
