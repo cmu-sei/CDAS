@@ -21,7 +21,7 @@
         "allow_defense": false
     },
     "simulation": {
-        "rounds": 5,
+        "rounds": 25,
         "time_range": [
             "2019-08-01",
             "2020-08-01"

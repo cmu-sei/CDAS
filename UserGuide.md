@@ -155,7 +155,8 @@ This section defines the variables for the random creation of defending organiza
     "org_names": "data/organization_names.txt",
     "sectors": "ANY",
     "countries": "ANY",
-    "allow_defense": false
+    "allow_defense": false,
+    "increment_budget": 4
 },
 ```
 
@@ -170,6 +171,9 @@ This section defines the variables for the random creation of defending organiza
 - allow_defense:
     - true: defender makes changes to its network during the simulation
     - false: defender does make changes to its network during the simulation
+- increment_budget:
+    - [Integer] the number of times to increment each defender's budget within the simulation time frame. For example, incrementing the budget 4 times over a simulattion time frame of one year would increment each defender's budget every quarter at a rate of 1/4 the annual budget
+
 
 ### Simulation Configuration
 
@@ -177,7 +181,7 @@ This section defines the variables running the simulation and generating events.
 
 ```    
 "simulation": {
-    "number_of_rounds": 5,
+    "rounds": 5,
     "time_range": [
         "2017-08-01",
         "2020-08-01"
@@ -185,7 +189,7 @@ This section defines the variables running the simulation and generating events.
 },
 ```
 
-- number_of_rounds - Number of times to simulate events. Each threat actor has an opportunity for one action per round. For example, if there are 5 threat actors and 10 rounds, there will be a total of 50 "events" ("sightings" in STIX, and "reports" in PDF).
+- rounds - Number of times to simulate events. Each threat actor has an opportunity for one action per round. For example, if there are 5 threat actors and 10 rounds, there will be a total of 50 "events" ("sightings" in STIX, and "reports" in PDF).
 - time_range - time window over which to space cyber events. Format is is list with start then end date in YYYY-MM-DD format. 
 
 ### Output Configuration

@@ -80,21 +80,30 @@ def random_indicator(itype):
             f"{itype} is not an available type for random_indicator")
     return indicator
 
-def simulate(actors, defenders, defend, events_fs, relationships, soph_levels):
 
-    t = 0  # Set the time
-    some_end_state = 10  # @TODO - make this less arbitrary
+def simulate(
+        actors, defenders, defend, events_fs, relationships, soph_levels,
+        start, time_increment, rounds, budget_times):
 
-    while t < some_end_state:
-        logging.info(f'Round: {t}')
+    if defend:
+        for defender in defenders:
+            defender.current_budget = float(
+                defender.budget[1:].replace(',', ''))
+
+    t = 0
+    s_time = start
+    budget_increment = rounds/budget_times
+    update_budget = 1
+    while t < rounds:
+        logging.info(f'Round: {t+1}')
         for actor in actors:
             # Decide if the actor can attack during this round. The more
             # sophisticated the actor, the more often they can attack. For the
             # purpose of calculations, the strongest actor is level 1, the
             # levels go up as the actors get weaker.
             if t % soph_levels[actor.sophistication] == 0:
-                # Actor picks a target 
-                # @TODO - currently a random target make this more logical later
+                # Actor picks a target
+                # @TODO - currently a random target make this more logical
                 target = np.random.choice(defenders)
                 logging.debug(f'\t{actor.name} attacking {target.name}...')
                 # @TODO - load target's network
@@ -103,23 +112,42 @@ def simulate(actors, defenders, defend, events_fs, relationships, soph_levels):
                         network = r[2]
                         break
                 event = attack(actor, target, network)
-                event.name = t
-                event.date = t
+                event.date = s_time
+                event.name = "Report_" + s_time.strftime("%Y%m%d_%H%M%S")
                 events_fs.save(event)
+
+        if defend:
+            # update the defender's budget if the time is right
+            if (t+1) % round(update_budget * budget_increment) == 0:
+                for defender in defenders:
+                    amount = float(defender.budget[1:].replace(',', '')) / \
+                        budget_times
+                    defender.current_budget += amount
+                    logging.debug(
+                        f'\tUpdating {defender.name}\'s budget by {amount} to '
+                        f'{defender.current_budget}')
+                update_budget += 1
+            for defender in defenders:
+                # if the defender can attack during this round
+                if t % defender.sophistication == 0:
+                    print(defender.name)
         t += 1
+        s_time += time_increment
+
 
 def attack(actor, target, network):
     # @TODO - add some tools, ttps, malware, etc
-    itype = np.random.choice(['ip-src','domain'])
+    itype = np.random.choice(['ip-src', 'domain'])
     indicators = {itype: random_indicator(itype)}
 
     # @TODO - this probably shouldn't be random...
     success = np.random.choice([True, False])
-    
+
     description = (
         f"The company {target.name} was attacked by {actor.name}. It is "
-        f"believed that the attack was {'successful' if success else 'unsuccessful'}.")
-    
+        f"believed that the attack was "
+        f"{'successful' if success else 'unsuccessful'}.")
+
     event = context.Event(
         id='event--'+str(uuid.uuid4()),
         description=description,
@@ -128,6 +156,7 @@ def attack(actor, target, network):
         attack_successful=success,
         threat_actor=actor.id)
     return event
+
 
 def defend():
     pass

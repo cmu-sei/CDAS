@@ -18,10 +18,11 @@
         "org_names": "data/organization_names.txt",
         "sectors": "ANY",
         "countries": "ANY",
-        "allow_defense": false
+        "allow_defense": false,
+        "increment_budget": 4
     },
     "simulation": {
-        "rounds": 5,
+        "rounds": 25,
         "time_range": [
             "2019-08-01",
             "2020-08-01"
