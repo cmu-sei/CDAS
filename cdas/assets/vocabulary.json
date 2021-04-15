@@ -1,9 +1,16 @@
 {
     "attack-motivation_notes": "source: STIX 2.0; \"accidental\" removed from attack-motivation",
-    "attack-motivation": [
-        "coercion", "dominance", "ideology", "notoriety", "organizational gain",
-        "personal gain", "personal satisfaction", "revenge", "unpredictable"
-    ],
+    "attack-motivation": {
+        "coercion": "",
+        "dominance": "",
+        "ideology": "AIC",
+        "notoriety": "AIC",
+        "organizational gain": "C",
+        "personal gain": "C",
+        "personal satisfaction": "",
+        "revenge": "IAC",
+        "unpredictable": ""
+    },
     "threat-actor-sophistication_notes": "source: STIX 2.0",
     "threat-actor-sophistication": {
         "strategic":1,
@@ -82,18 +89,18 @@
         "Snail","Snake","Sparrow","Squirrel","Tiger","Tortoise","Toucan",
         "Turkey","Wolf","Yak","Zebra"
     ],
-    "goals": [
-        "steal financial information",
-        "steal money",
-        "steal PII",
-        "steal intellectual property",
-        "embarass ememy states",
-        "obtain state secrets", 
-        "establish and maintain strategic access",
-        "manipulate other nation's economies",
-        "manipulate geopolitical siutations",
-        "display military prowess",
-        "disrupt operations",
-        "coerce victims"
-    ]
+    "goals": {
+        "steal financial information": "CIA",
+        "steal money": "CIA",
+        "steal PII": "CIA",
+        "steal intellectual property": "CIA",
+        "embarass ememy states": "AIC",
+        "obtain state secrets": "CIA",
+        "establish and maintain strategic access": "IAC",
+        "manipulate other nation's economies": "IAC",
+        "manipulate geopolitical siutations": "IAC",
+        "display military prowess": "AIC",
+        "disrupt operations": "AIC",
+        "coerce victims": "ICA"
+    }
 }

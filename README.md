@@ -102,6 +102,12 @@ optional arguments:
   --verbose, -v         v for basic status, vv for detailed status
 ```
 
+## Simulation Details
+
+### Model
+
+- *type* - the player's prioritization of the security triad (Confidentiality, Integrity, Availability). For example, a defender listed as type, "CIA", prioritizes confidentiality the most and availability the least. An attacker listed as, "CIA", prioritizes espionage the highest (breaking confidentiality) and disrpution/denial (breaking availability) the least.
+
 ## License
 
 Copyright 2020 Carnegie Mellon University. See the [LICENSE.md](LICENSE.md) file for details.

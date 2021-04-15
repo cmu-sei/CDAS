@@ -145,12 +145,34 @@ class ThreatActor():
                 date.today().toordinal()))
 
             motivations = list(np.random.choice(
-                stix['attack-motivation'], np.random.randint(2, 4),
-                replace=False))
+                list(stix['attack-motivation'].keys()),
+                np.random.randint(2, 4), replace=False))
             self.primary_motivation = str(motivations[0])
             self.secondary_motivations = motivations[1:]
             self.goals = list(np.random.choice(
-                stix['goals'], np.random.randint(2, 4), False))
+                list(stix['goals'].keys()), np.random.randint(2, 4), False))
+            # player type (prioritization of Confidentiality, Integrity,
+            # Availability)
+            cia = {'C': 0, 'I': 0, 'A': 0}
+            for m in motivations:
+                try:
+                    cia[stix['attack-motivation'][m][0]] += 3
+                except IndexError:
+                    pass
+                try:
+                    cia[stix['attack-motivation'][m][1]] += 2
+                except IndexError:
+                    pass
+                try:
+                    cia[stix['attack-motivation'][m][2]] += 1
+                except IndexError:
+                    pass
+            for g in self.goals:
+                cia[stix['goals'][g][0]] += 3
+                cia[stix['goals'][g][1]] += 2
+                cia[stix['goals'][g][2]] += 1
+            self.priority = ''.join([item[0] for item in sorted(
+                cia.items(), key=lambda i: i[1], reverse=True)])
 
     def create_fake_history(
             self, relationships, tools, malwares, ttps, sophistication):
