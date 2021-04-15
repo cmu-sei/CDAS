@@ -126,7 +126,7 @@ class ThreatActor():
 
             # target sectors
             self.sectors = list(np.random.choice(
-                stix['sectors'], np.random.randint(2, 4), False))
+                list(stix['sectors'].keys()), np.random.randint(2, 4), False))
 
             aliases = [f"APT {1000+(len(actors))}"]
             aliases_taken = [ta[1] for ta in actors]
@@ -341,9 +341,12 @@ class Defender():
     _pdf_headers = {
         'Company Description': {
             'background': '', 'revenue': 'Annual revenue', 'sector': 'Sector',
-            'headquarters': 'Headquartered in the country of',
-            'num_employees': 'Number of employees',
-            'budget': 'Annual security budget'},
+            'headquarters': 'Headquartered in the country of', 'num_employees':
+            'Number of employees'},
+        'Security': {
+            'budget': 'Annual security budget', 'priority':
+            'Security priorities (confidentiality, integrity, availability)'
+        },
         'Vulnerability Assessment': {
             'vulnerability_score': 'Score (out of 100)',
             'vulns': 'Vulnerabilities found'}
@@ -369,7 +372,10 @@ class Defender():
             else:
                 rev = str(round(revenue, -2))
                 self.revenue = f"${rev[:2]}.{rev[2]} billion"
-            self.sector = np.random.choice(sectors)
+            self.sector = np.random.choice(list(sectors.keys()))
+            # player type (prioritization of Confidentiality, Integrity,
+            # Availability)
+            self.priority = sectors[self.sector]
             self.background = ""
             self.headquarters = country
             self.num_employees = "{:,}".format(np.random.randint(500, 15000))
